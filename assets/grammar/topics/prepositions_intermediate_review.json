@@ -1,0 +1,239 @@
+{
+  "id": "prepositions_intermediate_review",
+  "category": "b1_core",
+  "titleEn": "Intermediate Prepositions Review",
+  "titleAr": "مراجعة متوسطة لحروف الجر",
+  "level": "B1",
+  "explanationEn": "This lesson reviews common prepositions for time, place, and movement plus adjective+preposition and verb+preposition patterns. Focus on fixed preposition choices, required helper verbs or continuous forms, and avoiding direct Arabic translations that change English word order or omit function words.",
+  "explanationAr": "تراجع هذه الوحدة استخدامات حروف الجر للزمن والمكان والحركة، وتركيبات الصفة+حرف الجر والفعل+حرف الجر. انتبه: العربية قد تسمح بتغيير الترتيب أو حذف كلمات وظيفية، بينما الإنجليزية غالبًا تتطلب حرف جر محدد أو فعل مساعد أو صيغة مستمرة للحفاظ على المعنى الصحيح، فلا تترجم حرف الجر حرفياً دون فحص السياق.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي مسؤولة عن الجدول اليوم.",
+      "arabicLiteral": "She responsible about schedule today",
+      "englishCorrect": "She is responsible for the schedule today."
+    },
+    {
+      "arabicStructure": "نحن نستمع إلى المعلّم الآن.",
+      "arabicLiteral": "We listen the teacher now",
+      "englishCorrect": "We are listening to the teacher now."
+    },
+    {
+      "arabicStructure": "وصلت متأخرًا إلى المطار بالأمس.",
+      "arabicLiteral": "I arrived late to airport yesterday",
+      "englishCorrect": "I arrived at the airport late yesterday."
+    },
+    {
+      "arabicStructure": "القطة قفزت فوق الجدار.",
+      "arabicLiteral": "Cat jumped over wall",
+      "englishCorrect": "The cat jumped over the wall."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She is responsible about the schedule today.",
+      "correct": "She is responsible for the schedule today.",
+      "explanationEn": "The adjective 'responsible' normally takes 'for' before the duty or thing managed.",
+      "explanationAr": "لا نترجم حرف الجر من العربية مباشرة. الصفة 'responsible' تأخذ غالبًا 'for' قبل الشيء أو المهمة: responsible for the schedule."
+    },
+    {
+      "wrong": "We are listening the teacher now.",
+      "correct": "We are listening to the teacher now.",
+      "explanationEn": "The verb 'listen' needs 'to' before the person or thing receiving attention.",
+      "explanationAr": "في الإنجليزية لا نقول listen + المفعول مباشرة في هذا المعنى. نستخدم 'listen to' قبل الشخص أو الشيء الذي نستمع إليه."
+    },
+    {
+      "wrong": "I in home now.",
+      "correct": "I am at home now.",
+      "explanationEn": "English uses 'am' plus the idiom 'at home' in this context; 'in home' is unidiomatic and therefore incorrect.",
+      "explanationAr": "الترجمة الحرفية 'in home' ناتجة عن اختلاف استخدام حروف الجر بين اللغتين. بالإضافة إلى ذلك يجب وجود الفعل 'am' في هذه الجملة الإنجليزية. الصيغة الصحيحة: 'I am at home now.'"
+    },
+    {
+      "wrong": "He depends of his brother.",
+      "correct": "He depends on his brother.",
+      "explanationEn": "Some verbs require a specific preposition. 'Depend' pairs with 'on' to express reliance; 'of' is not the correct partner here.",
+      "explanationAr": "أفعال كثيرة في الإنجليزية ترافقها أحرف جر محددة مختلفة عن العربية. لا تترجم حرف الجر مباشرة من العربية. فعل 'depend' يتبعه 'on' للتعبير عن الاعتماد: 'depends on his brother'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "prepint_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct time preposition: I will meet you ___ 3 o'clock.",
+      "promptAr": "اختر حرف الجر الزمني الصحيح: سأقابلك ___ الساعة الثالثة.",
+      "explanation": "Use 'at' for exact clock times like 3 o'clock; other prepositions do not fit this exact-time context.",
+      "arabicNote": "مع وقت محدد دقيق مثل ساعة معينة نستخدم 'at'. المتحدثون العرب قد يترجمون حرف الجر حرفياً ويقولون 'in' أو 'on' خطأً. اتذكر: 'at 3 o'clock'.",
+      "weakTag": "prepositions_intermediate_review_time",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "prepint_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows correct movement preposition toward a destination?",
+      "promptAr": "أي جملة تظهر حرف جر الحركة الصحيح نحو وجهة محددة؟",
+      "explanation": "'To' shows movement toward a destination. 'At' or 'in' do not express the same directional motion here.",
+      "arabicNote": "في العربية نستخدم 'إلى' للاتجاه، لكن في الإنجليزية عند الحركة نحو مكان محدد نستخدم 'to'. لا تترجم حرف الجر حرفياً دون اعتبار طبيعة الحركة.",
+      "weakTag": "prepositions_intermediate_review_movement",
+      "options": [
+        "She walked at the school.",
+        "She walked to the school.",
+        "She walked in the school."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "prepint_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: She is responsible ___ the schedule today.",
+      "promptAr": "أكمل الفراغ: هي مسؤولة ___ الجدول اليوم.",
+      "explanation": "Use 'for' after responsible to name the duty or thing managed.",
+      "arabicNote": "لا تقل responsible about عند ذكر المسؤولية. التركيب الطبيعي هو responsible for، لأن الإنجليزية تربط هذه الصفة بحرف الجر for.",
+      "weakTag": "prepositions_intermediate_review_adjective",
+      "options": [
+        "for",
+        "about",
+        "on",
+        "at"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "prepint_q4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct preposition for skill: He's good ___ math.",
+      "promptAr": "اختر حرف الجر المناسب للقدرة: هو جيد ___ الرياضيات.",
+      "explanation": "'Good' takes 'at' when talking about skills or subjects: 'good at math' is the correct collocation.",
+      "arabicNote": "بعض الصفات تأتي مع حرف جر معين في الإنجليزية. 'good at' تركيب ثابت للقدرات والمواد؛ لا تترجم حرف الجر مباشرة من العربية، واحفظ التراكيب.",
+      "weakTag": "prepositions_intermediate_review_adjective_skill",
+      "options": [
+        "at",
+        "in",
+        "with",
+        "on"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "prepint_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about listening now.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول الاستماع الآن.",
+      "explanation": "Use 'listen to' before the person or thing receiving attention.",
+      "arabicNote": "في العربية قد يأتي الفعل مع المفعول مباشرة، لكن الإنجليزية تحتاج 'to' بعد listen: listening to the teacher.",
+      "weakTag": "prepositions_intermediate_review_verb_preposition",
+      "options": [
+        "We are listening to the teacher now.",
+        "We are listening the teacher now.",
+        "We listening to the teacher now.",
+        "We are listen to the teacher now."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We are listening the teacher now."
+    },
+    {
+      "id": "prepint_q6",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: The cat jumped ___ the wall and landed on the grass.",
+      "promptAr": "أكمل الفراغ: القطة قفزت ___ الحائط وهبطت على العشب.",
+      "explanation": "'Jump over' means to go above and across something without entering it; other prepositions change the motion.",
+      "arabicNote": "الفرق بين 'over' و'into' مهم للحركة: 'over' تعني القفز فوق الشيء دون الدخول، بينما 'into' تعني الدخول داخل شيء. انتبه لمعنى الحركة عند اختيار حرف الجر.",
+      "weakTag": "prepositions_intermediate_review_movement_over",
+      "options": [
+        "over",
+        "into",
+        "through",
+        "at"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "prepint_q7",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses the correct verb + preposition to show reliance?",
+      "promptAr": "أي جملة تستخدم الفعل مع حرف الجر الصحيح للتعبير عن الاعتماد؟",
+      "explanation": "'Depend' requires 'on' to show reliance. Using 'of' or no preposition is incorrect in this context.",
+      "arabicNote": "فعل واحد في العربية قد يقابله حرف جر مختلف في الإنجليزية. تعلّم حرف الجر المصاحب للفعل بدلاً من الترجمة الحرفية: 'depend on someone'.",
+      "weakTag": "prepositions_intermediate_review_verb_collocation",
+      "options": [
+        "She depends of him.",
+        "She depends on him.",
+        "She depends him."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "prepint_q8",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence about routine.",
+      "promptAr": "رتّب الكلمات لتكوين جملة طبيعية عن الروتين.",
+      "explanation": "English usually uses Subject + Verb + Place + Time. Order the words to follow that pattern.",
+      "arabicNote": "في العربية يمكن تغيير ترتيب الكلمات أكثر، لكن في الإنجليزية نضع الفاعل ثم الفعل ثم المكان ثم الزمن. اتّبع هذا الترتيب للحصول على جملة صحيحة وطبيعية.",
+      "weakTag": "prepositions_intermediate_review_word_order",
+      "words": [
+        "every",
+        "day",
+        "I",
+        "go",
+        "to",
+        "school"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "prepint_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the incorrect 'home' sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة غير الصحيحة الخاصة بـ 'home'.",
+      "explanation": "'At home' is the idiomatic expression. 'In home' is not natural English and should be avoided.",
+      "arabicNote": "الترجمة الحرفية من 'في البيت' تؤدي أحيانًا إلى 'in home'. في الإنجليزية نستخدم 'at home' عادةً، ولا تنسَ وضع فعل الكينونة 'am/is/are' إذا لزم.",
+      "weakTag": "prepositions_intermediate_review_fixed_phrases",
+      "options": [
+        "I am at home now.",
+        "I in home now.",
+        "Am at home now.",
+        "I am home in now."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I in home now."
+    },
+    {
+      "id": "prepint_q10",
+      "type": "meaning_match",
+      "prompt": "Match each English preposition phrase to its Arabic meaning.",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي المناسب.",
+      "explanation": "Each phrase uses a specific preposition for time or direction; match the English phrase to its Arabic meaning.",
+      "arabicNote": "تعلم أي حرف جر يعبر عن زمن أو اتجاه. لا تترجم حرف الجر دون فحص معنى الزمن أو الحركة لأن العربية قد تغطي أكثر من خيار إنجليزي.",
+      "weakTag": "prepositions_intermediate_review_meaning",
+      "pairs": [
+        {
+          "left": "at 3 o'clock",
+          "right": "عند الساعة الثالثة"
+        },
+        {
+          "left": "on Monday",
+          "right": "في يوم الاثنين"
+        },
+        {
+          "left": "in July",
+          "right": "في شهر يوليو"
+        },
+        {
+          "left": "to the store",
+          "right": "إلى المتجر"
+        }
+      ]
+    }
+  ]
+}

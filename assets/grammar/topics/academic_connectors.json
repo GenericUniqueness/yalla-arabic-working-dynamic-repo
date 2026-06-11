@@ -1,0 +1,237 @@
+{
+  "id": "academic_connectors",
+  "category": "b2_expansion",
+  "titleEn": "Academic Connectors",
+  "titleAr": "روابط أكاديمية",
+  "level": "B2",
+  "explanationEn": "This unit teaches academic connectors: moreover, nevertheless, consequently, and whereas. Practice choosing the connector that matches addition, contrast, or result. Learn punctuation: when joining two independent clauses use a semicolon before and a comma after moreover, nevertheless, and consequently. Alternatively, end the first clause and start the connector as a new sentence. Use a comma with whereas inside a sentence.",
+  "explanationAr": "يغطي هذا الدرس روابط أكاديمية مثل moreover وnevertheless وconsequently وwhereas لبيان الإضافة أو التعارض أو النتيجة. نركز على اختيار الرابط المنطقي الصحيح وعلى الترقيم: فاصلة منقوطة قبل الرابط وفاصلة بعده أو البدء بجملة جديدة ثم الرابط. تنبيه للمخاطبين بالعربية: لا تحذف الضمائر أو تغير ترتيب الجمل كما في العربية لأن ذلك يغير صحة الجملة في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "علاوة على ذلك، الدراسة أظهرت نتائج قوية.",
+      "arabicLiteral": "In addition to that, the study showed strong results.",
+      "englishCorrect": "Moreover, the study showed strong results."
+    },
+    {
+      "arabicStructure": "مع ذلك، فشل في الامتحان.",
+      "arabicLiteral": "With that, he failed the exam.",
+      "englishCorrect": "Nevertheless, he failed the exam."
+    },
+    {
+      "arabicStructure": "كانت باردة، لذلك بقينا بالداخل.",
+      "arabicLiteral": "It was cold, so we stayed inside.",
+      "englishCorrect": "It was cold; therefore, we stayed inside."
+    },
+    {
+      "arabicStructure": "هو يحب الرياضيات، هي تحب الأدب.",
+      "arabicLiteral": "He likes maths; she likes literature.",
+      "englishCorrect": "He likes maths, whereas she prefers literature."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Although was late we finished.",
+      "correct": "Although it was late, we finished.",
+      "explanationEn": "Missing subject 'it' and comma after the subordinate clause make the sentence ungrammatical.",
+      "explanationAr": "حذف الفاعل 'it' وعدم وضع الفاصلة بعد الجملة الفرعية يجعل الجملة خاطئة. المتحدثون بالعربية قد يسقطون الضمير أو يغيرون الترتيب، بينما الإنجليزية تتطلب الفاعل والترقيم."
+    },
+    {
+      "wrong": "It was cold therefore stayed inside.",
+      "correct": "It was cold; therefore, we stayed inside.",
+      "explanationEn": "The sentence lacks the subject 'we' and the required punctuation around 'therefore'.",
+      "explanationAr": "الجملة تفتقد الفاعل 'we' وترقيم الربط المناسب حول 'therefore'. الإنجليزية تطلب فاعلاً واضحاً وترتيب ترقيم محدد لروابط النتيجة."
+    },
+    {
+      "wrong": "We studied hard whereas got a low grade.",
+      "correct": "We studied hard; nevertheless, we got a low grade.",
+      "explanationEn": "The second clause needs its subject and a contrast connector with correct punctuation.",
+      "explanationAr": "الجزء الثاني يفتقد الفاعل ويحتاج رابط تعارض مع ترقيم مناسب. استخدام 'whereas' هنا غير كافٍ بدون الفاعل والفقرة الصحيحة."
+    },
+    {
+      "wrong": "He passed the test moreover unhappy.",
+      "correct": "He passed the test; nevertheless, he was unhappy.",
+      "explanationEn": "Missing verb in the second clause and the wrong connector for contrast make this sentence incorrect.",
+      "explanationAr": "الجزء الثاني يفتقد الفعل، كما أن 'moreover' تُستخدم للإضافة ليست للتعارض. المتحدثون بالعربية قد يربطون الجمل بشكل مباشر دون إضافة فعل أو ربط مناسب."
+    }
+  ],
+  "questions": [
+    {
+      "id": "acad_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the connector that correctly adds information: Ali studies every evening; ___, he reads supplementary articles after class.",
+      "promptAr": "اختر الرابط الذي يضيف معلومات مناسبة.",
+      "explanation": "Moreover adds an extra, related point and uses semicolon + comma when joining clauses.",
+      "arabicNote": "نحتاج رابطًا يضيف نقطة جديدة مرتبطة بالأولى. عند ربط جملتين مستقلتين نستخدم '; moreover,' أو نبدأ جملة جديدة بـ 'Moreover,'. تجنب روابط التعارض أو النتيجة هنا.",
+      "weakTag": "academic_connectors_meaning",
+      "options": [
+        "although",
+        "moreover",
+        "whereas",
+        "despite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "acad_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is grammatically correct and correctly punctuated?",
+      "promptAr": "أي جملة صحيحة نحويًا ومُنقَّطة بشكل سليم؟",
+      "explanation": "Although needs a full clause and the verb tense must match the context: Although it was late, we finished.",
+      "arabicNote": "في الإنجليزية نضع الفاعل داخل الجملة الفرعية 'Although it was late,' ثم فاصلة قبل الجملة الأساسية. المتحدثون العرب قد يسقطون الفاعل أو الفاصلة؛ هذا يغير صحة الجملة.",
+      "weakTag": "academic_connectors_form",
+      "options": [
+        "Although was late, we finished.",
+        "Although it was late, we finish.",
+        "Although it was late, we finished."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "acad_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete the sentence to show contrast in one line: Ali prefers quantitative research methods ___ Sara prefers qualitative methods.",
+      "promptAr": "أكمل الفراغ لإظهار تعارض بين تفضيلين في نفس الجملة.",
+      "explanation": "Although needs a full clause: Although it was late, we finished.",
+      "arabicNote": "نحتاج رابطًا داخل الجملة لربط تفضيلين متعاكسين دون إضافة نقطتين. استخدم 'whereas' لأنها تربط جملة بجملة متقابلة داخل نفس العبارة وتختلف عن 'nevertheless' التي تحتاج جملة منفصلة.",
+      "weakTag": "academic_connectors_word_order",
+      "options": [
+        "moreover",
+        "Although it late, we finished.",
+        "whereas",
+        "nevertheless"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "acad_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "Add the missing subject 'we' and use '; therefore,' to show a clear result.",
+      "arabicNote": "الجملة الأصلية تفتقد الفاعل والترقيم اللازم قبل 'therefore'. الصيغة الصحيحة تضيف 'we' وتستخدم '; therefore,' لعرض علاقة السبب والنتيجة بوضوح نحوي.",
+      "weakTag": "academic_connectors_form",
+      "options": [
+        "It was cold; therefore, we stayed inside.",
+        "It was cold; therefore stayed inside.",
+        "It was cold therefore stayed."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "It was cold therefore stayed inside."
+    },
+    {
+      "id": "acad_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form the sentence: Although it was late, we finished.",
+      "promptAr": "رتِّب الكلمات لتكوين الجملة الصحيحة: Although it was late, we finished.",
+      "explanation": "Begin with the subordinate clause, add a comma, then write the main clause.",
+      "arabicNote": "الترتيب مهم: الجملة الفرعية أولًا ثم الفاصلة ثم الجملة الأساسية. المتحدثون العرب قد يغيّرون الترتيب أو يسقطون الضمير، وهذا يُفقد صحة الجملة الإنجليزية.",
+      "weakTag": "academic_connectors_word_order",
+      "words": [
+        "we",
+        "Although",
+        "finished.",
+        "late,",
+        "it",
+        "was"
+      ],
+      "correctOrder": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "acad_q6",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning.",
+      "promptAr": "وصل كل رابط بمعناه العربي.",
+      "explanation": "Identify each connector's logical role (addition, contrast, result, comparison) before using it.",
+      "arabicNote": "فهم وظيفة الرابط (إضافة، تعارض، نتيجة، مقارنة) يمنع النقل الحرفي من العربية. احفظ المعنى العملي لكل كلمة لتحدد استخدامها الصحيح في سياق أكاديمي.",
+      "weakTag": "academic_connectors_meaning",
+      "pairs": [
+        {
+          "left": "moreover",
+          "right": "علاوة على ذلك"
+        },
+        {
+          "left": "nevertheless",
+          "right": "مع ذلك / رغم ذلك"
+        },
+        {
+          "left": "consequently",
+          "right": "وبالتالي / نتيجة لذلك"
+        },
+        {
+          "left": "whereas",
+          "right": "بينما / في حين أن"
+        }
+      ]
+    },
+    {
+      "id": "acad_q7",
+      "type": "multiple_choice",
+      "prompt": "Select the connector that signals an unexpected contrast: She passed all her courses; ___, she felt unhappy about her performance.",
+      "promptAr": "اختر الرابط الذي يدل على تعارض غير متوقع.",
+      "explanation": "Nevertheless signals a surprising contrast and uses semicolon + comma when linking clauses.",
+      "arabicNote": "نريد رابطًا يدل على تعارض مفاجئ بين النجاح والشعور. عند ربط جملتين مستقلتين نكتب '; nevertheless,'. يمكنك أيضًا كتابة جملة جديدة 'Nevertheless, she...'.",
+      "weakTag": "academic_connectors_meaning",
+      "options": [
+        "moreover",
+        "nevertheless",
+        "consequently",
+        "therefore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "acad_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses moreover with punctuation?",
+      "promptAr": "أي جملة تستخدم moreover بشكل صحيح مع الترقيم؟",
+      "explanation": "Use a semicolon before moreover and a comma after when linking two clauses.",
+      "arabicNote": "عند ربط جملتين بمزيد من المعلومات نستخدم '; moreover,' أو ننهي الجملة الأولى ونبدأ بـ 'Moreover,'. المتحدثون العرب قد يخطئون بالترقيم أو بحذف الفاعل في الجملة الثانية.",
+      "weakTag": "academic_connectors_form",
+      "options": [
+        "The paper is long moreover interesting.",
+        "The paper is long; moreover, it is very interesting.",
+        "The paper is long moreover, it is interesting."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "acad_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete the sentence to show direct consequence: He missed the lecture; ___, he did not understand the assignment.",
+      "promptAr": "أكمل الفراغ بخيار يدل على نتيجة مباشرة وواضحة.",
+      "explanation": "Consequently indicates a direct consequence and uses semicolon + comma in this structure.",
+      "arabicNote": "الجملة تطلب رابط نتيجة مباشر يدل أن عدم الحضور أدى لعدم الفهم. نستخدم '; consequently,' لربط السبب بالنتيجة بوضوح نحوي، أو نبدأ جملة جديدة 'Consequently,'.",
+      "weakTag": "academic_connectors_meaning",
+      "options": [
+        "moreover",
+        "consequently",
+        "whereas",
+        "nevertheless"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "acad_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this wrong sentence that lacks proper subject and connector punctuation.",
+      "promptAr": "اختر التصحيح الأفضل لهذه الجملة الخاطئة التي تفتقد الفاعل والترقيم المناسب.",
+      "explanation": "Add the subject and use '; nevertheless,' to show the unexpected result with correct punctuation.",
+      "arabicNote": "الجملة الأصلية تفتقد الفاعل والترقيم قبل رابط التعارض. الحل الصحيح يضيف الفاعل ويستخدم '; nevertheless,' أو يبدأ جملة جديدة 'Nevertheless, ...' لإظهار النتيجة المفاجئة بدقة نحوية.",
+      "weakTag": "academic_connectors_arabic_transfer",
+      "options": [
+        "We studied hard; nevertheless, we got a low grade.",
+        "We studied hard whereas we got low grade.",
+        "We studied hard, whereas got a low grade."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We studied hard whereas got a low grade."
+    }
+  ]
+}

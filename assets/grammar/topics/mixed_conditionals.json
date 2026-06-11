@@ -1,0 +1,247 @@
+{
+  "id": "mixed_conditionals",
+  "category": "b2_expansion",
+  "titleEn": "Mixed Conditionals",
+  "titleAr": "الجمل الشرطية المختلطة",
+  "level": "B2",
+  "explanationEn": "Mixed conditionals connect an unreal past condition with a present result, or an unreal present condition with a past result. Use past perfect (had + past participle) in the if-clause for past unreal conditions. Use would + base for present results and would have + past participle for past results.",
+  "explanationAr": "الجمل الشرطية المختلطة تربط بين شرط ماضٍ غير حقيقي ونتيجة حالية، أو شرط حاضر غير حقيقي ونتيجة ماضية. في الإنجليزية نستخدم had + التصريف الثالث في جملة if للشرط الماضي، ثم نستخدم would للنتيجة الحاضرة أو would have للنتيجة الماضية. هذا يختلف عن العربية لأن العربية غالبًا لا تستعمل أدوات مساعدة مثل had وwould بنفس الشكل، ويجب الانتباه إلى ترتيب الكلمات والأدوات لتجنب الترجمة الحرفية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لو درست الطب من قبل، لكنت طبيبًا الآن.",
+      "arabicLiteral": "If I studied medicine before, I am a doctor now.",
+      "englishCorrect": "If I had studied medicine before, I would be a doctor now."
+    },
+    {
+      "arabicStructure": "لو كنت أطول الآن لكنت وصلت إلى الرف أمس.",
+      "arabicLiteral": "If I am taller now I would reach the shelf yesterday.",
+      "englishCorrect": "If I were taller now, I would have reached the top shelf yesterday."
+    },
+    {
+      "arabicStructure": "لو وفرنا مالًا السنة الماضية، لكنا نسافر الآن.",
+      "arabicLiteral": "If we saved money last year, we are traveling now.",
+      "englishCorrect": "If we had saved money last year, we would be traveling now."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I studied harder at college, I have a better job now.",
+      "correct": "If I had studied harder at college, I would have a better job now.",
+      "explanationEn": "Learners use simple past in the if-clause and present have for the result. Use past perfect then would for the present result.",
+      "explanationAr": "يستخدم بعض المتعلّمين الماضي البسيط في if ثم فعل حاضر للنتيجة. لبناء شرط ماضٍ غير حقيقي نحتاج had + التصريف الثالث في if ثم would للنتيجة الحاضرة."
+    },
+    {
+      "wrong": "If she were taller now, she would join the team last year.",
+      "correct": "If she were taller now, she would have joined the team last year.",
+      "explanationEn": "A present unreal condition with a past consequence needs would have + past participle, not would + base.",
+      "explanationAr": "الشرط الحاضر الخيالي الذي يفسّر نتيجة في الماضي يحتاج would have + التصريف الثالث للنتيجة الماضية، وليس would مع فعل بسيط."
+    },
+    {
+      "wrong": "If he had practiced, he will be happier now.",
+      "correct": "If he had practiced, he would be happier now.",
+      "explanationEn": "Will is wrong after a past-unreal if-clause; use would for the present hypothetical result.",
+      "explanationAr": "يضع بعض المتعلمين will بعد شرط ماضٍ. بعد had + التصريف الثالث نستخدم would للنتيجة الحاضرة الافتراضية، لأن المعنى خيالي وليس توقعًا."
+    },
+    {
+      "wrong": "If I had went to the course, I would have a different job now.",
+      "correct": "If I had gone to the course, I would have a different job now.",
+      "explanationEn": "After had we must use the past participle. 'Went' is simple past; use 'gone' after had.",
+      "explanationAr": "بعد had يجب استخدام التصريف الثالث للفعل. خطأ شائع هو استخدام went بدل gone بعد had، وهذا يغير صحة البنية النحوية لجملة الشرط المختلط."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mixe_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly links an unreal past condition to a present result?",
+      "promptAr": "اختر الجملة الصحيحة التي تربط شرطًا ماضيًا غير حقيقي بنتيجة في الحاضر.",
+      "explanation": "Use had + past participle in the if-clause and would + base or would + noun for present results.",
+      "arabicNote": "استخدم had + التصريف الثالث في جملة if ثم would للنتيجة الحاضرة. المتحدثون العرب قد يترجمون حرفيًا ويضعون will بعد if الماضي؛ هذا خاطئ هنا.",
+      "weakTag": "mixed_conditionals_form",
+      "options": [
+        "If I had studied harder at university, I would have a better job now.",
+        "If I studied harder at university, I would have had a better job now.",
+        "If I had studied harder at university, I will have a better job now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence for: past regret that affects how prepared you are now.",
+      "promptAr": "اختر الجملة الصحيحة لموقف ندم على الماضي يؤثر على مدى استعدادك الآن.",
+      "explanation": "Use past perfect in the if-clause and would to show the present result now.",
+      "arabicNote": "الموقف يعبر عن ندم على حدث ماضٍ ونتيجته الآن. استخدم had + التصريف الثالث في if ثم would للنتيجة الحاضرة، لأن العربية قد لا تميز هذه الأدوات.",
+      "weakTag": "mixed_conditionals_meaning",
+      "options": [
+        "If I had had more time yesterday, I would be more prepared now.",
+        "If I have more time yesterday, I would be more prepared now.",
+        "If I had had more time yesterday, I will be more prepared now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "If she had finished the course last year, she ___ a better job now.",
+      "promptAr": "لو أنها أنهت الدورة السنة الماضية، لكانت ___ وظيفة أفضل الآن. اختر الشكل الصحيح.",
+      "explanation": "Use 'would have' before a noun phrase to show a present result: she would have a better job now.",
+      "arabicNote": "بعد had finished نستخدم would لنتيجة الحاضر. هنا نحتاج would have قبل الاسم 'a better job'، وليس will have أو would had.",
+      "weakTag": "mixed_conditionals_word_order",
+      "options": [
+        "would have",
+        "will have",
+        "would had",
+        "would having"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: He failed the test last year and regrets it now.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: رسب في الامتحان السنة الماضية ويندم الآن.",
+      "explanation": "Use had + past participle in the if-clause and would for the present regret.",
+      "arabicNote": "المعنى يربط فعلًا ماضياً بنتيجة حالية. الصيغة الصحيحة: had + التصريف الثالث في if ثم would للنتيجة الآن؛ المتحدثون العرب قد يترجمون مباشرة بالماضي البسيط.",
+      "weakTag": "mixed_conditionals_arabic_transfer",
+      "options": [
+        "If he had studied harder last year, he would be happier now.",
+        "If he had studied harder last year, he will be happier now.",
+        "If he studies harder last year, he would be happier now."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He would be happier now if he studied harder last year."
+    },
+    {
+      "id": "mixe_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a mixed conditional about school and life now.",
+      "promptAr": "رتّب الكلمات لتكوين جملة شرطية مختلطة عن الدراسة وحياتك الآن.",
+      "explanation": "Use past perfect in the if-clause, then would + base for the present result now.",
+      "arabicNote": "رتّب: if + had + التصريف الثالث ثم would للنتيجة الحاضرة. في العربية ترتيب الكلمات قد يختلف، فانتبه لموضع had والفعل.",
+      "weakTag": "mixed_conditionals_word_order",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "studied",
+        "harder",
+        "in",
+        "school,",
+        "my",
+        "life",
+        "would",
+        "be",
+        "different",
+        "now."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "mixe_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English mixed conditional sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية شرطية مختلطة بمعناها العربي.",
+      "explanation": "Decide whether the past condition affects the present or the present condition explains a past result.",
+      "arabicNote": "التطابق يوضّح الفرق بين شرط ماضٍ له نتيجة حالية وشرط حالي خيالي يفسّر نتيجة ماضية. راجع had وwould/would have لتحديد المعنى.",
+      "weakTag": "mixed_conditionals_meaning",
+      "pairs": [
+        {
+          "left": "If I had studied medicine, I would be a doctor now.",
+          "right": "لو أنني درست الطب من قبل، لكنت طبيبًا الآن."
+        },
+        {
+          "left": "If she were taller now, she would have reached the top shelf yesterday.",
+          "right": "لو كانت أطول الآن، لكانت قد وصلت إلى الرف الأعلى أمس."
+        },
+        {
+          "left": "If they had saved money last year, they would be traveling now.",
+          "right": "لو وفّروا مالًا السنة الماضية، لكانوا يسافرون الآن."
+        },
+        {
+          "left": "If I were more careful now, I would not have lost my keys last week.",
+          "right": "لو كنت أكثر حذرًا الآن، لما فقدت مفاتيحي الأسبوع الماضي."
+        }
+      ]
+    },
+    {
+      "id": "mixe_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence: present imaginary condition with a past consequence.",
+      "promptAr": "اختر الجملة الصحيحة: شرط حاضر متخيَّل له نتيجة في الماضي.",
+      "explanation": "Use present unreal (were) plus would have + past participle for the past consequence.",
+      "arabicNote": "الشرط في الحاضر غير حقيقي والنتيجة حدثت في الماضي، لذلك نستخدم were ثم would have + التصريف الثالث. تجنّب will أو present simple هنا.",
+      "weakTag": "mixed_conditionals_form",
+      "options": [
+        "If I were fluent now, I would have accepted the teaching job last month.",
+        "If I were fluent now, I would accept the teaching job last month.",
+        "If I am fluent now, I would have accepted the teaching job last month.",
+        "If I were fluent now, I will have accepted the teaching job last month."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses: he regrets a past action because his situation is different now?",
+      "promptAr": "أي جملة تعبّر عن ندمه على فعل في الماضي لأن وضعيته الآن مختلفة؟",
+      "explanation": "Past perfect in the if-clause gives a present unreal result with would + verb.",
+      "arabicNote": "الجملة تعبر عن نتيجة حالية لشرط ماضٍ غير حقيقي؛ استخدم had + التصريف ثم would للنتيجة الحاضرة الآن. انتبه إلى الفروق مع العربية.",
+      "weakTag": "mixed_conditionals_arabic_transfer",
+      "options": [
+        "If he had saved money then, he would be traveling now.",
+        "If he saved money then, he would have been traveling now.",
+        "If he had saved money then, he will be traveling now.",
+        "If he had saved money then, he would traveled now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "If you ___ taller now, you would have reached the top shelf yesterday.",
+      "promptAr": "لو كنت أطول الآن، لكان قد وصلت إلى الرف الأعلى أمس. اكمل الفراغ بالشكل الصحيح.",
+      "explanation": "Present unreal condition uses 'were'; a past consequence uses would have + past participle.",
+      "arabicNote": "الشرط يعبر عن حالة حالية غير حقيقية. في الإنجليزية نستخدم were في if ثم would have + التصريف الثالث للنتيجة الماضية.",
+      "weakTag": "mixed_conditionals_form",
+      "options": [
+        "were",
+        "had been",
+        "were being",
+        "are"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mixe_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: She missed a job opportunity last year because she doesn't speak French now.",
+      "promptAr": "اختر أفضل تصحيح. السياق: فاتتها فرصة عمل السنة الماضية لأنها الآن لا تتقن الفرنسية.",
+      "explanation": "Present unreal condition plus would have expresses a past consequence affected by a current state.",
+      "arabicNote": "السياق يربط حالة حالية خيالية بنتيجة ماضية. استخدم صيغة حال خيالية في if ثم would have + التصريف الثالث للنتيجة الماضية؛ انتبه للفرق مع تركيب العربية.",
+      "weakTag": "mixed_conditionals_arabic_transfer",
+      "options": [
+        "If she spoke French now, she would have gotten the job last year.",
+        "If she didn't speak French now, she would miss the job last year.",
+        "If she spoke French now, she would miss the job last year.",
+        "If she had spoken French now, she would have gotten the job last year."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If she doesn't speak French now, she would have missed the job last year."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "indirect_questions",
+  "category": "b1_core",
+  "titleEn": "Indirect Questions",
+  "titleAr": "الأسئلة غير المباشرة",
+  "level": "B1",
+  "explanationEn": "After reporting phrases like \"Can you tell me\" or \"Do you know,\" use statement word order in the reported clause: subject before verb. Do not copy direct question auxiliary order (e.g., does/will before the subject). This lesson uses school, home, work and travel examples and Arabic-transfer traps.",
+  "explanationAr": "بعد عبارات التقرير مثل «Can you tell me» أو «Do you know» نستخدم في الجزء المنقول ترتيبًا خبريًا: الفاعل قبل الفعل. يميل متحدثو العربية لنسخ ترتيب السؤال المباشر أو لإضافة أفعال مساعدة أو 'to' بعد المودال. يركّز هذا الدرس على أمثلة في المدرسة، البيت، العمل والسفر ويشرح خطأ النقل من العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هل يمكنك أن تخبرني أين المحطة؟",
+      "arabicLiteral": "Can you tell me where is the station?",
+      "englishCorrect": "Can you tell me where the station is?"
+    },
+    {
+      "arabicStructure": "هل تعرف متى يبدأ الدرس؟",
+      "arabicLiteral": "Do you know when does the lesson start?",
+      "englishCorrect": "Do you know when the lesson starts?"
+    },
+    {
+      "arabicStructure": "هل يمكنك أن تخبرني إن كان عليّ أن أحضر الكتاب؟",
+      "arabicLiteral": "Can you tell me if I should to bring my book?",
+      "englishCorrect": "Can you tell me if I should bring my book?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Can you tell me where is the station?",
+      "correct": "Can you tell me where the station is?",
+      "explanationEn": "Learners keep direct question order inside the reported clause instead of subject + verb.",
+      "explanationAr": "يقوم المتعلمون بنقل ترتيب السؤال المباشر ('where is...') حرفيًا. في الجملة المنقولة نستخدم ترتيبًا خبريًا: الفاعل ثم الفعل."
+    },
+    {
+      "wrong": "Do you know what time does the class start?",
+      "correct": "Do you know what time the class starts?",
+      "explanationEn": "Do not add 'does' inside the reported clause; use the subject with the base or inflected verb.",
+      "explanationAr": "بعد 'Do you know' لا نضع 'does' داخل الجزء المنقول. نستخدم الفاعل ثم الفعل: 'the class starts'."
+    },
+    {
+      "wrong": "Can you tell me if I should to bring my book?",
+      "correct": "Can you tell me if I should bring my book?",
+      "explanationEn": "After modals like should, do not add 'to' before the verb; use the base verb directly.",
+      "explanationAr": "يميل بعض المتحدثين العرب إلى ترجمة 'أن' إلى 'to' بعد should. في الإنجليزية نستخدم المصدر بدون 'to' بعد should."
+    },
+    {
+      "wrong": "Do you know where hotel is the?",
+      "correct": "Do you know where the hotel is?",
+      "explanationEn": "Incorrect word order and article placement make the clause ungrammatical; use subject then verb.",
+      "explanationAr": "الترتيب الخاطئ وهنا وضع 'the' في المكان الخطأ يجعل الجملة غير مفهومة. نضع الفاعل 'the hotel' ثم الفعل 'is'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "indi_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is the correct indirect question after 'Can you tell me' about a bus schedule?",
+      "promptAr": "اختر السؤال غير المباشر الصحيح بعد «Can you tell me» عن مواعيد الحافلة.",
+      "explanation": "Use statement order inside the reported clause: subject before verb.",
+      "arabicNote": "بعد 'Can you tell me' نضع ترتيبًا خبريًا داخل الجزء المنقوَل: الفاعل قبل الفعل. لا تضع does أو will قبل الفاعل داخل الجملة المنقولة.",
+      "weakTag": "indirect_questions_word_order",
+      "options": [
+        "Can you tell me what time the bus leaves?",
+        "Can you tell me what time does the bus leave?",
+        "Can you tell me what time will the bus leave?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly asks about a class time after 'Do you know'?",
+      "promptAr": "أي جملة صحيحة للسؤال عن وقت الفصل بعد «Do you know»؟",
+      "explanation": "The reported clause must have subject + verb, not an auxiliary before the subject.",
+      "arabicNote": "في السؤال المنقول نستخدم ترتيبًا خبريًا: الفاعل ثم الفعل. لا نضع 'does' داخل الجزء المنقول لأن ذلك يحوّلها إلى تركيب سؤال مباشر خاطئ.",
+      "weakTag": "indirect_questions_form",
+      "options": [
+        "Do you know when the class starts?",
+        "Do you know when does the class start?",
+        "Do you know when will the class start?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Can you tell me ___?",
+      "promptAr": "أكمل الجملة غير المباشرة: Can you tell me ___؟",
+      "explanation": "Pick the clause that uses subject + verb inside the reported clause.",
+      "arabicNote": "الجملة المنقولة عن المكان تحتاج ترتيبًا خبريًا: الفاعل ثم الفعل. خطأ شائع نقل ترتيب السؤال المباشر 'where does she live'.",
+      "weakTag": "indirect_questions_arabic_transfer",
+      "options": [
+        "where she lives",
+        "where does she live",
+        "where is she living"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: You call the school office to ask about the start time.",
+      "promptAr": "اختر التصحيح الأفضل. سياق: تتصل بمكتب المدرسة للسؤال عن وقت بدء الدوام.",
+      "explanation": "Remove the auxiliary; use subject + verb inside the reported clause.",
+      "arabicNote": "في الجزء المنقول عن وقت البدء نستخدم ترتيبًا خبريًا: 'when the school starts'. لا نضيف 'does' لأن ذلك خطأ نقل من السؤال المباشر.",
+      "weakTag": "indirect_questions_fix_word_order",
+      "options": [
+        "Can you tell me when the school starts?",
+        "Can you tell me when does the school start?",
+        "Can you tell me when the school start?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Can you tell me when does the school start?"
+    },
+    {
+      "id": "indi_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a polite indirect question about a meeting time.",
+      "promptAr": "رتّب الكلمات لتكوين سؤال غير مباشر مهذب عن وقت الاجتماع.",
+      "explanation": "Start with the reporting phrase, then use statement order in the reported clause.",
+      "arabicNote": "ضع 'Can you tell me' أولًا ثم جملة التقرير بترتيب خبري: الفاعل ثم الفعل. لا تضع does داخل الجزء المنقول.",
+      "weakTag": "indi_sentence_order",
+      "words": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "what",
+        "time",
+        "the",
+        "meeting",
+        "starts"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "indi_q6",
+      "type": "meaning_match",
+      "prompt": "Match the English indirect clauses to their Arabic meanings.",
+      "promptAr": "وصل العبارات الإنجليزية غير المباشرة بمعانيها العربية.",
+      "explanation": "Indirect clauses report questions using statement word order and sometimes if/whether for yes/no.",
+      "arabicNote": "الجمل المنقولة هنا تستخدم ترتيبًا خبريًا داخل الجزء المنقول. لاحظ كيف نستخدم if أو whether مع أسئلة نعم/لا بدلاً من وضع الفعل قبل الفاعل.",
+      "weakTag": "indirect_questions_meaning",
+      "pairs": [
+        {
+          "left": "where the hotel is",
+          "right": "أين الفندق"
+        },
+        {
+          "left": "what time the bus arrives",
+          "right": "متى تصل الحافلة"
+        },
+        {
+          "left": "if he is coming",
+          "right": "هل سيأتي"
+        }
+      ]
+    },
+    {
+      "id": "indi_q7",
+      "type": "multiple_choice",
+      "prompt": "Which is the correct indirect question after 'Do you know' about when someone cooks dinner?",
+      "promptAr": "أي جملة غير مباشرة صحيحة بعد «Do you know» للسؤال عن متى تطبخ العشاء؟",
+      "explanation": "Keep subject then verb in the reported clause: 'when she cooks dinner'.",
+      "arabicNote": "لا نضع does داخل الجزء المنقول. نستخدم ترتيبًا خبريًا: 'when she cooks dinner'. هذا يتجنّب خطأ النقل من السؤال المباشر.",
+      "weakTag": "indirect_questions_food_context",
+      "options": [
+        "Do you know when she cooks dinner?",
+        "Do you know when does she cook dinner?",
+        "Do you know when will she cook dinner?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly reports a yes/no question after 'Can you tell me' about attendance?",
+      "promptAr": "أي جملة تبلغ سؤال نعم/لا بشكل صحيح بعد «Can you tell me» عن حضور أحدهم؟",
+      "explanation": "Use if/whether and statement word order in the reported clause.",
+      "arabicNote": "لسؤال نعم/لا نستخدم if أو whether ثم ترتيبًا خبريًا: الفاعل ثم الفعل. لا نضع الفعل قبل الفاعل داخل الجزء المنقول.",
+      "weakTag": "indirect_questions_yes_no",
+      "options": [
+        "Can you tell me if Omar is coming?",
+        "Can you tell me is Omar coming?",
+        "Can you tell me if is Omar coming?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Do you know ___ for the exam next week?",
+      "promptAr": "أكمل السؤال غير المباشر عن موعد الامتحان الأسبوع المقبل.",
+      "explanation": "Choose the clause with subject + verb, not an auxiliary before the subject.",
+      "arabicNote": "في السؤال المنقول عن الوقت نستخدم ترتيبًا خبريًا: 'what time the exam starts'. لا تضع does داخل الجزء المنقول.",
+      "weakTag": "indi_exam_context",
+      "options": [
+        "what time the exam starts",
+        "what time does the exam start",
+        "what time the exam start"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "indi_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: You search at home for your book and ask a family member.",
+      "promptAr": "اختر التصحيح الأفضل. سياق: تبحث في المنزل عن كتابك وتطلب من أحد أفراد العائلة المساعدة.",
+      "explanation": "Use statement order: subject then verb, inside the reported clause after 'Do you know'.",
+      "arabicNote": "في السؤال المنقول عن مكان الكتاب نستخدم ترتيبًا خبريًا: 'where my book is'. لا تنقل ترتيب السؤال المباشر 'where is my book'.",
+      "weakTag": "indirect_questions_fix_order2",
+      "options": [
+        "Do you know where my book is?",
+        "Do you know where is my book?",
+        "Do you know where my book?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Do you know where is my book?"
+    }
+  ]
+}

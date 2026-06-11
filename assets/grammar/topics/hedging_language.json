@@ -1,0 +1,239 @@
+{
+  "id": "hedging_language",
+  "category": "b2_expansion",
+  "titleEn": "Hedging Language",
+  "titleAr": "لغة التحفظ والتخفيف",
+  "level": "B2",
+  "explanationEn": "Hedging language makes claims cautious or less certain. Use forms like seems to, tends to, may, might, and is likely to when you want possibility or a careful generalisation. Practice these in everyday contexts (school, work, home, travel) and avoid changing the main verb after modals or dropping required helper words.",
+  "explanationAr": "لغة التحفظ مفيدة عند التعبير عن احتمال أو تعميم بحذر. في الإنجليزية نستخدم may، might، seems to، tends to، is likely to مع تركيب فعل صحيح بعدها. المتحدثون العرب قد يترجمون حرفيًّا بترتيب أو أفعال مختلفة، أو ينسون المساعد 'to' أو يضيفون صيغًا خاطئة بعد modal. يجب الانتباه لكيفية ربط الفعل بالمودال أو بـ 'seems to'.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يبدو أنه متعب",
+      "arabicLiteral": "seems he tired",
+      "englishCorrect": "He seems to be tired."
+    },
+    {
+      "arabicStructure": "قد يذهب إلى المدرسة",
+      "arabicLiteral": "may he go to school",
+      "englishCorrect": "He may go to school."
+    },
+    {
+      "arabicStructure": "يميل أن يصل متأخراً",
+      "arabicLiteral": "tends he to arrive late",
+      "englishCorrect": "He tends to arrive late."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He may goes to school tomorrow.",
+      "correct": "He may go to school tomorrow.",
+      "explanationEn": "Do not add -s after modal verbs; use the base verb after may/might.",
+      "explanationAr": "لا نضيف s للفعل بعد المودال. بعد may أو might نستخدم الشكل الأساسي للفعل بدون إضافات."
+    },
+    {
+      "wrong": "She seems that she is tired after class.",
+      "correct": "She seems to be tired after class.",
+      "explanationEn": "Use 'seems to' + base or 'be' form, not 'seems that' when following with adjective.",
+      "explanationAr": "بعد seems نستخدم 'to' + فعل مناسب. قول 'seems that' هنا لا يعطي نفس التركيب الصحيح للملاحظة."
+    },
+    {
+      "wrong": "My parents tends to drink tea after dinner.",
+      "correct": "My parents tend to drink tea after dinner.",
+      "explanationEn": "Make the verb agree with the subject; 'parents' is plural so use 'tend'.",
+      "explanationAr": "الموضوع جمع هنا (parents)، لذلك نستخدم الفعل بصيغة الجمع دون -s. الخطأ ناتج عن نقل ترتيب أو شكل من العربية."
+    },
+    {
+      "wrong": "He likely announces changes next week.",
+      "correct": "He is likely to announce changes next week.",
+      "explanationEn": "Use 'is likely to' + base verb to express probability; 'likely' alone needs a supporting form.",
+      "explanationAr": "للتعبير عن الاحتمال نستخدم 'is likely to' ثم الفعل الأساسي. وضع 'likely' بمفرده بدون مساعدة يجعل الجملة غير صحيحة بالإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "hedg_q1",
+      "type": "multiple_choice",
+      "prompt": "Context: We do not know the head teacher's decision; this is possibility, not certainty. Which sentence correctly shows possibility about tomorrow?",
+      "promptAr": "السياق: لا نعرف قرار مدير المدرسة؛ هذا احتمال وليس يقينًا. أي جملة تعبّر عن احتمال غدًا؟",
+      "explanation": "May + base verb shows possibility without certainty.",
+      "arabicNote": "استخدم may للتعبير عن احتمال. المتحدثون العرب قد يترجمون مباشرةً بترتيب مختلف أو يضيفون شكل الفعل الخاطئ بعد المودال.",
+      "weakTag": "hedging_language_modal_may",
+      "options": [
+        "She may announce a change tomorrow.",
+        "She will announce a change tomorrow.",
+        "She announces a change tomorrow.",
+        "She seems announce a change tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hedg_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses 'tends to' for a cautious general statement about study habits?",
+      "promptAr": "أي جملة تستخدم 'tends to' بشكل صحيح لتعميم حذر عن عادات الدراسة؟",
+      "explanation": "'Tends to' + base verb makes a cautious generalisation about habit.",
+      "arabicNote": "التصريف 'tends to' يتطلب s للفاعل المفرد. المتحدثون العرب قد ينسون إضافة s أو يترجمون حرفيًا ترتيب الجملة.",
+      "weakTag": "hedging_language_tends_to",
+      "options": [
+        "My brother tend to study late most nights.",
+        "My brother tends to study late most nights.",
+        "My brother studies late most nights."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "hedg_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: Early reports suggest many exams, but not yet confirmed. Choose the correct form: \"The new course ___ to have many exams.\"",
+      "promptAr": "السياق: تقارير أولية تشير لامتحانات كثيرة، لكن لم تتأكد بعد. اختر الصيغة الصحيحة: «The new course ___ to have many exams.»",
+      "explanation": "'Seems to have' is the correct hedging structure with third-person singular.",
+      "arabicNote": "نقول 'seems to have' لأن الفاعل مفرد. تجنب نقل ترتيب عربي أو حذف to بعد seems.",
+      "weakTag": "hedg_seems_to",
+      "options": [
+        "seems to have",
+        "seems have",
+        "seem to have",
+        "is seeming to have"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hedg_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the mistake.",
+      "promptAr": "اختر التصحيح الأفضل للخطأ.",
+      "explanation": "After may use the base verb 'go', not 'goes' or added particles.",
+      "arabicNote": "الخطأ شائع بين متحدثي العربية: إضافة s بعد المودال. بعد may نستخدم الفعل بالشكل الأساسي بدون إضافات.",
+      "weakTag": "hedging_language_modal_verb_error",
+      "options": [
+        "She may go home early because she is tired.",
+        "She might goes home early because she is tired.",
+        "She may going home early because she is tired.",
+        "She may to go home early because she is tired."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She may goes home early because she is tired."
+    },
+    {
+      "id": "hedg_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a hedged observation about today.",
+      "promptAr": "رتّب الكلمات لتكوين ملاحظة تحفظية عن اليوم.",
+      "explanation": "Correct order: \"Ali seems to have missed the bus this morning.\" Use seems to have + past participle for a cautious conclusion about the past.",
+      "arabicNote": "الترتيب الإنجليزي يطلب 'seems to have + التصريف الثالث' لإظهار احتمال في الماضي. الحذر: لا تترجم حرفياً من العربية.",
+      "weakTag": "hedg_sentence_order_seems",
+      "words": [
+        "Ali",
+        "seems",
+        "to",
+        "have",
+        "missed",
+        "the",
+        "bus",
+        "this",
+        "morning."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "hedg_q6",
+      "type": "meaning_match",
+      "prompt": "Match each hedging phrase to the best Arabic meaning (possibility or cautious expression).",
+      "promptAr": "وصل كل عبارة تحفظية بالمعنى العربي الأنسب (احتمال أو تعبير حذر).",
+      "explanation": "Each phrase shows a different level of caution or habit.",
+      "arabicNote": "كل عبارة تعبر عن درجة مختلفة من الاحتمال أو العادة. انتبه لأن الترجمة العربية قد تستخدم أفعال أو أحرف بديلة، لكن التركيب الإنجليزي يحتاج مساعدة أو ترتيب محدد.",
+      "weakTag": "hedging_language_meaning_match",
+      "pairs": [
+        {
+          "left": "may",
+          "right": "قد (احتمال)"
+        },
+        {
+          "left": "might",
+          "right": "ربما (احتمال ضعيف)"
+        },
+        {
+          "left": "seems to",
+          "right": "يبدو أنه"
+        },
+        {
+          "left": "tends to",
+          "right": "يميل إلى / عادةً"
+        }
+      ]
+    },
+    {
+      "id": "hedg_q7",
+      "type": "multiple_choice",
+      "prompt": "Context: At work, we are reporting probability, not certainty. Choose the correct hedged statement about next week.",
+      "promptAr": "السياق: في العمل نبلغ عن احتمال وليس يقينًا. اختر العبارة التحفظية الصحيحة عن الأسبوع القادم.",
+      "explanation": "'is likely to' + base verb expresses probability correctly.",
+      "arabicNote": "للتعبير عن احتمال نستخدم 'is likely to' ثم الفعل الأساسي. لا تضع likely بدون فعل مساعد أو تغيّر ترتيب الفعل.",
+      "weakTag": "hedg_is_likely_to",
+      "options": [
+        "He is likely to announce changes next week.",
+        "He likely announces changes next week.",
+        "He likely to announce changes next week."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hedg_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Context: This is a possible result of leaving late. Which sentence expresses a possible outcome?",
+      "promptAr": "السياق: هذا نتيجة محتملة للمغادرة متأخراً. أي جملة تعبّر عن نتيجة ممكنة؟",
+      "explanation": "Might shows a possible result; not certain like 'will'.",
+      "arabicNote": "استخدم might للتعبير عن احتمال وقوع حدث نتيجة شرط. المتحدثون بالعربية قد يستخدمون زمنًا أو ترتيبًا غير مناسب بدل المودال.",
+      "weakTag": "hedg_might_possibility",
+      "options": [
+        "He might miss the bus if he leaves late.",
+        "He misses the bus if he leaves late.",
+        "He will miss the bus if he leaves late."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hedg_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: In family habits, this is a general tendency. Complete: \"My parents ___ to prefer tea after dinner, but sometimes they drink coffee.\"",
+      "promptAr": "السياق: عن عادات الأسرة وتعميم حذر. أكمل: «My parents ___ to prefer tea after dinner, but sometimes they drink coffee.»",
+      "explanation": "'Tend to' after a plural subject shows a regular tendency cautiously.",
+      "arabicNote": "يجب استخدام 'tend to' مع فاعل جمع. خطأ شائع: إضافة s او حذف to بسبب الترجمة من العربية.",
+      "weakTag": "hedging_language_tend_to",
+      "options": [
+        "tend to",
+        "tends to",
+        "tending to",
+        "tend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hedg_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about a cautious observation.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة عن ملاحظة تحفظية.",
+      "explanation": "'Seem' needs 'to' + base or 'to be' before adjectives.",
+      "arabicNote": "التراكيب الصحيحة في الإنجليزية تتطلب 'seems to be' قبل الصفة. تجنب الترجمة الحرفية من العربية التي تضع 'that' أو تغير ترتيب الكلمات.",
+      "weakTag": "hedg_fix_seems_to",
+      "options": [
+        "He seems to be tired after studying.",
+        "He seems being tired after studying.",
+        "He seems tired that after studying.",
+        "He seems to tired after studying."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He seems that he is tired after studying."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "reduced_relative_clauses",
+  "category": "b2_expansion",
+  "titleEn": "Reduced Relative Clauses",
+  "titleAr": "اختصار جمل الوصل",
+  "level": "B2",
+  "explanationEn": "Learn when to reduce relative clauses by using present (-ing) or past participles when the meaning is clear. Use -ing for active actions (the man living here) and past participles for passive ideas (the cake baked yesterday). Pay attention to commas and helper verbs: non-defining clauses keep who/which and commas.",
+  "explanationAr": "نتعلم هنا اختصار جمل الوصل باستخدام صيغة -ing للفعل أو التصريف الثالث عندما يظل المعنى واضحًا. هذا يختلف عن العربية لأن ترتيب الكلمات، أدوات الربط، والأفعال المساعدة أحيانًا ضرورية في الإنجليزية؛ لذلك انتبه لأدوات التعريف، والأفعال المساعدة، وعلامات الترقيم التي تغيّر المعنى.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الرجل الذي يعيش هنا",
+      "arabicLiteral": "the man who lives here",
+      "englishCorrect": "The man living here"
+    },
+    {
+      "arabicStructure": "الكتاب، الذي اشتريته أمس،",
+      "arabicLiteral": "the book, which I bought yesterday,",
+      "englishCorrect": "The book, which I bought yesterday, is helpful."
+    },
+    {
+      "arabicStructure": "الطلاب الذين يحضرون الدورة",
+      "arabicLiteral": "the students who are attending the course",
+      "englishCorrect": "The students attending the course"
+    },
+    {
+      "arabicStructure": "الطبق الذي خبزته أمي",
+      "arabicLiteral": "the cake which was baked by my mother",
+      "englishCorrect": "The cake baked by my mother"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The man living here is teacher.",
+      "correct": "The man living here is a teacher.",
+      "explanationEn": "Missing the article 'a' after a singular count noun. Arabic often omits articles where English requires them.",
+      "explanationAr": "حذف أداة النكرة 'a' خطأ في الإنجليزية. في العربية قد لا نستخدم أداة هنا، لكن الإنجليزية تحتاجها مع اسم مفرد معدود."
+    },
+    {
+      "wrong": "The cake which baked by my mother was tasty.",
+      "correct": "The cake baked by my mother was tasty.",
+      "explanationEn": "The auxiliary 'was' is needed for a full passive relative clause. Without it the clause is ungrammatical.",
+      "explanationAr": "الصيغة الكاملة الصحيحة: «The cake which was baked by my mother…». المثال الخاطئ حذف 'was' ولذلك هو غير صحيح نحويًا."
+    },
+    {
+      "wrong": "Living in Cairo the man is my uncle.",
+      "correct": "The man living in Cairo is my uncle.",
+      "explanationEn": "Wrong word order. In English the reduced -ing clause follows the noun it modifies.",
+      "explanationAr": "تغيير ترتيب العبارة يجعل الجملة غير طبيعية. في الإنجليزية تأتي عبارة -ing بعد الاسم الذي توصفه، بينما العربية أكثر مرونة في الموضع."
+    },
+    {
+      "wrong": "The book bought it yesterday is helpful.",
+      "correct": "The book bought yesterday is helpful.",
+      "explanationEn": "An unnecessary comma breaks the defining clause. Commas change clause type and meaning.",
+      "explanationAr": "لا نضيف ضمير مفعول به بعد reduced relative clause عندما يكون الاسم نفسه هو المقصود.",
+      "explanation": "Do not add an object pronoun after a reduced relative clause when the noun already fills that role."
+    }
+  ],
+  "questions": [
+    {
+      "id": "rrc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct reduced form of: 'The man who lives here is a teacher.'",
+      "promptAr": "اختر الشكل المختصر الصحيح لـ: «الرجل الذي يعيش هنا مُعلّم».",
+      "explanation": "Use the present participle after the noun: 'living' replaces 'who lives here'.",
+      "arabicNote": "في الإنجليزية نضع عبارة -ing بعد الاسم لاختصار جملة الوصل. انتبه لأداة النكرة و/أو المشكلات النحوية التي قد لا تظهر في العربية.",
+      "weakTag": "reduced_relative_clauses_form",
+      "options": [
+        "The man living here is a teacher.",
+        "The man who living here is a teacher.",
+        "Living here the man are a teacher."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rrc_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "The book ___ is helpful.",
+      "promptAr": "أكمل لتكوين عبارة مختصرة: «الكتاب ___ مفيد».",
+      "explanation": "Use the past participle after the noun to reduce a passive relative clause.",
+      "arabicNote": "إذا كانت جملة الوصل مبنية للمجهول نستخدم التصريف الثالث بعد الاسم لاختصارها. العربية قد تضع الوصف قبل الاسم؛ انتبه للترتيب.",
+      "weakTag": "rrc_participle_passive",
+      "options": [
+        "bought yesterday",
+        "which yesterday bought",
+        "buyed yesterday"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rrc_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows the correct reduced clause?",
+      "promptAr": "أي جملة تحتوي اختصار جملة وصل صحيح؟",
+      "explanation": "Place the -ing phrase after the noun and always keep subject-verb agreement.",
+      "arabicNote": "العبارة المنقوصة بصيغة -ing تأتي بعد الاسم دائمًا. انتبه لاتفاق الفعل لأن ترتيب العربية أحيانًا يختلف.",
+      "weakTag": "reduced_relative_clauses_word_order",
+      "options": [
+        "The students attending the course speak English.",
+        "Attending the course students speaks English.",
+        "The students attending the course speaks English."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rrc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "Use the past participle 'baked' after the noun to show passive reduction.",
+      "arabicNote": "في حالة المبني للمجهول نستخدم التصريف الثالث بعد الاسم. ينتج هذا الخطأ من حذف \"was\" أو من استخدام فعل غير مصروف، فراجع تركيب الجملة.",
+      "weakTag": "rrc_participle_passive",
+      "options": [
+        "The cake baked by my mother was tasty.",
+        "The cake which bake by my mother was tasty.",
+        "Baked by my mother the cake tasty was."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The cake which baked by my mother was tasty."
+    },
+    {
+      "id": "rrc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة مختصرة.",
+      "explanation": "The past participle phrase comes after the noun: 'The book bought yesterday is useful.'",
+      "arabicNote": "ضع عبارة التصريف الثالث بعد الاسم في ترتيب الكلمة الإنجليزي. الترتيب يختلف عن العربية لذلك راجع الموقع الدقيق للعبارة.",
+      "weakTag": "reduced_relative_clauses_word_order",
+      "words": [
+        "is",
+        "The",
+        "book",
+        "bought",
+        "yesterday",
+        "useful."
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "rrc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "Each reduced clause gives the same meaning as the full relative clause in Arabic.",
+      "arabicNote": "طابق المعنى بدلًا من الترجمة الحرفية. العربية قد تعيد ترتيب الكلمات، لكن الاختصار الإنجليزي يحافظ على نفس المعنى.",
+      "weakTag": "reduced_relative_clauses_meaning",
+      "pairs": [
+        {
+          "left": "The man living next door is a teacher.",
+          "right": "الرجل الذي يعيش بجوارنا هو معلم."
+        },
+        {
+          "left": "The letters stamped this morning were mailed.",
+          "right": "الرسائل التي وُضِعَ عليها طابع هذا الصباح أُرسلت."
+        },
+        {
+          "left": "The students attending the course left early.",
+          "right": "الطلاب الذين يحضرون الدورة غادروا مبكرًا."
+        }
+      ]
+    },
+    {
+      "id": "rrc_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct reduction: 'The man who is carrying a bag left.'",
+      "promptAr": "اختر الاختصار الصحيح لـ: «الرجل الذي يحمل حقيبة غادر».",
+      "explanation": "Reduce 'who is carrying' to 'carrying' and place it after the noun.",
+      "arabicNote": "نختصر who + is إلى -ing بعد الاسم. لا تغيّر ترتيب الكلمات كما تفعل العربية في بعض التركيبات.",
+      "weakTag": "rrc_participle_present",
+      "options": [
+        "The man carrying a bag left.",
+        "The man who carrying a bag left.",
+        "The man carrying a bag lefted."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rrc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The report ___ will help the teacher.",
+      "promptAr": "أكمل لتكوين عبارة مختصرة: «التقرير ___ سيساعد المعلم».",
+      "explanation": "Use past participle 'written' after the noun for a passive reduced clause.",
+      "arabicNote": "لوصف تقرير كُتِب سابقًا نستخدم 'written' بعد الاسم. العربية قد تسبق الوصف لكن الإنجليزية تضعه بعد الاسم.",
+      "weakTag": "rrc_participle_passive",
+      "options": [
+        "written yesterday",
+        "which yesterday written",
+        "write yesterday"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rrc_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "Fix 'who owning' to 'who own' or correct agreement for -ing after the noun.",
+      "arabicNote": "الخطأ 'who owning' غير صحيح. صححه بكتابة 'who own' أو ضع -ing بعد الاسم مع اتفاق الفعل الصحيح.",
+      "weakTag": "rrc_participle_present",
+      "options": [
+        "People who own cars drive fast.",
+        "People owning cars drives fast.",
+        "Owning cars people drives fast."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "People who owning cars drive fast."
+    },
+    {
+      "id": "rrc_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct here? Note: non-defining clauses with commas cannot be reduced.",
+      "promptAr": "أي جملة صحيحة هنا؟ ملاحظة: جمل الوصل الوصفية المحاطة بفواصل لا تُختصر.",
+      "explanation": "Non-defining relative clauses keep who/which and commas in English; do not reduce them.",
+      "arabicNote": "الجمل الوصفية المحاطة بفواصل تبقى كاملة في الإنجليزية. في العربية قد تُفهم بدون فواصل، لكن هنا الفواصل والضمائر مهمة.",
+      "weakTag": "reduced_relative_clauses_non_defining",
+      "options": [
+        "My sister, who lives in Cairo, visits us every year.",
+        "My sister who living in Cairo visits us every year.",
+        "My sister living in Cairo, visits us every year."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

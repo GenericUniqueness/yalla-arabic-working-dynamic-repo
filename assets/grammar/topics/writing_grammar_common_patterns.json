@@ -1,0 +1,246 @@
+{
+  "id": "writing_grammar_common_patterns",
+  "category": "b1_core",
+  "titleEn": "Writing Grammar Patterns",
+  "titleAr": "أنماط قواعد الكتابة",
+  "level": "B1",
+  "explanationEn": "Practice writing clear short sentences for messages: use common connectors, correct punctuation (commas, semicolons, periods), and complete clauses with required helper words. Focus on avoiding Arabic-style word order and dropped auxiliaries so English sentences are complete and easy to read.",
+  "explanationAr": "هذا الدرس يركّز على كتابة جمل قصيرة وواضحة للرسائل اليومية. سنتدرّب على أدوات الربط الشائعة، علامات الترقيم الصحيحة (الفاصلة، الفاصلة المنقوطة، النقطة)، وتركيب الجملة الكامل مع الأفعال المساعدة الضرورية. المتحدثون بالعربية قد يترجمون الترتيب حرفيًا أو يحذفون عوامل مساعدة، بينما الإنجليزية تحتاج ترتيبًا وترقيمًا واضحين لتفادي الجمل الناقصة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "رغم أنه كان متأخراً، أنهينا.",
+      "arabicLiteral": "Although it was late, we finished.",
+      "englishCorrect": "Although it was late, we finished."
+    },
+    {
+      "arabicStructure": "كان الجو بارداً لذلك بقينا داخل المنزل.",
+      "arabicLiteral": "It was cold therefore we stayed inside.",
+      "englishCorrect": "It was cold; therefore, we stayed inside."
+    },
+    {
+      "arabicStructure": "أخي كتاب قرأ.",
+      "arabicLiteral": "My brother book read.",
+      "englishCorrect": "My brother read the book."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Although it was late but we finished.",
+      "correct": "Although it was late, we finished.",
+      "explanationEn": "In formal writing, do not combine 'although' and 'but' for the same contrast.",
+      "explanationAr": "في الكتابة الرسمية لا نجمع although وbut للتضاد نفسه. نستخدم although ثم فاصلة قبل الجملة الأساسية."
+    },
+    {
+      "wrong": "It was cold therefore stayed inside.",
+      "correct": "It was cold; therefore, we stayed inside.",
+      "explanationEn": "Formal result linking needs a full second clause and correct punctuation around therefore.",
+      "explanationAr": "الربط الرسمي بكلمة therefore يحتاج جملة ثانية كاملة وترقيمًا صحيحًا: فاصلة منقوطة قبلها وفاصلة بعدها."
+    },
+    {
+      "wrong": "My sister homework finished.",
+      "correct": "My sister finished her homework.",
+      "explanationEn": "This copies Arabic noun order. English needs subject + verb + object (or object pronoun) in most written clauses.",
+      "explanationAr": "تمت ترجمة ترتيب الأسماء من العربية حرفيًا. في الإنجليزية الكتابية يأتي الفعل بعد الفاعل ثم يأتي المفعول أو ضمير الملكية بعد الفعل."
+    },
+    {
+      "wrong": "She going to school now.",
+      "correct": "She is going to school now.",
+      "explanationEn": "The present continuous requires the auxiliary 'is' with she. Without it the clause is incomplete and ungrammatical.",
+      "explanationAr": "صيغة المستمر تتطلّب فعلًا مساعدًا صريحًا مثل is مع she. حذف الفعل المساعد يجعل العبارة غير مكتملة وغير صحيحة في الإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "wgcp_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the connector that expresses contrast: ____ it was late, we finished the homework.",
+      "promptAr": "اختر أداة الربط التي تعبّر عن التباين (تضاد): ____ كان الوقت متأخراً، أنهينا الواجب.",
+      "explanation": "Although expresses contrast and begins a subordinate clause that needs a following comma.",
+      "arabicNote": "استخدم Although عندما تريد إظهار تضاد بين الجزئين، ثم ضع فاصلة قبل الجملة الأساسية. المتحدثون بالعربية قد يختارون كلمات تعبر عن السبب بدل التضاد أو ينسون الفاصلة، وهذا يغيّر البنية.",
+      "weakTag": "writing_grammar_common_patterns_connectors",
+      "options": [
+        "Although",
+        "Because",
+        "In order to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wgcp_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "In formal writing, which sentence correctly joins two independent clauses with 'therefore'?",
+      "promptAr": "في الكتابة الرسمية، أي جملة تربط جملتين مستقلتين بكلمة therefore بشكل صحيح؟",
+      "explanation": "Use a semicolon before 'therefore' and a comma after it when joining independent clauses.",
+      "arabicNote": "في الكتابة الرسمية لربط جملتين مستقلتين باستخدام therefore نضع فاصلة منقوطة قبلها وفاصلة بعدها. في العربية قد لا يظهر هذا الترميز بنفس الصرامة، فانتبه للترقيم.",
+      "weakTag": "writing_grammar_common_patterns_punctuation",
+      "options": [
+        "It was cold; therefore, we stayed inside.",
+        "It was cold therefore stayed inside.",
+        "Because it was cold; therefore, we stayed inside."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wgcp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ going to school now.",
+      "promptAr": "اختر الفعل المساعد الصحيح لإكمال زمن المستمر: She ___ going to school now.",
+      "explanation": "Present continuous needs 'is' with she; omitting it makes the clause incomplete.",
+      "arabicNote": "في زمن المستمر يجب استخدام فعل مساعد واضح مع الضمير she. المتحدثون بالعربية قد يسقطون الفعل المساعد لأن تركيب الأزمنة يختلف، لكن الإنجليزية تتطلب is هنا.",
+      "weakTag": "writing_grammar_common_patterns_helper_verbs",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wgcp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the fragment so the sentence has a clear subject and object.",
+      "promptAr": "اختر التصحيح الأفضل للمقطع ليكون جملة كاملة بفاعل ومفعول واضحين.",
+      "explanation": "Add a subject and object in correct word order to make a complete clause.",
+      "arabicNote": "في الإنجليزية الخبرية يجب وجود فاعل واضح وفعل ومفعول أو ضمير مفعولي. المتكلم العربي قد يترجم ترتيبًا يؤدي إلى جملة مقتطعة أو ناقصة، فصحّح الترتيب.",
+      "weakTag": "writing_grammar_common_patterns_complete_clause",
+      "options": [
+        "We finished the project.",
+        "Finished the project.",
+        "Are finished the project."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Finished the project."
+    },
+    {
+      "id": "wgcp_q5",
+      "type": "sentence_order",
+      "prompt": "Put tokens in correct order. Punctuation is separate. Make: Although it was late, we finished.",
+      "promptAr": "رتّب الرموز لتكوين الجملة الصحيحة: Although it was late, we finished. ملاحظة: علامات الترقيم منفصلة.",
+      "explanation": "Subordinate clause first, then comma token, then main clause tokens in normal order.",
+      "arabicNote": "رتّب أداة الربط ثم العبارة الفرعية ثم الفاصلة ثم الجملة الأساسية. العربية تسمح بمرونة أكبر، لكن الإنجليزية تتطلب هذا الترتيب والقراءة الواضحة.",
+      "weakTag": "writing_grammar_common_patterns_word_order",
+      "words": [
+        "Although",
+        "it",
+        "was",
+        "late",
+        ",",
+        "we",
+        "finished",
+        "."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "wgcp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning.",
+      "promptAr": "صل كل أداة ربط بمعناها العربي الصحيح.",
+      "explanation": "Connectors show relation: contrast, result, or contrast; punctuation and clause order depend on the connector.",
+      "arabicNote": "تعرف على معنى كل رابط لأن اختياره يغيّر ترتيب الجمل والترقيم. المتحدثون بالعربية يخلطون أحيانًا بين روابط السبب والنتيجة أو التضاد، فاتقن المعنى أولًا.",
+      "weakTag": "writing_grammar_common_patterns_meaning",
+      "pairs": [
+        {
+          "left": "Although",
+          "right": "على الرغم من أن"
+        },
+        {
+          "left": "Therefore",
+          "right": "لذلك"
+        },
+        {
+          "left": "However",
+          "right": "مع ذلك"
+        }
+      ]
+    },
+    {
+      "id": "wgcp_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence shows correct punctuation in formal writing when starting a new sentence with 'Therefore'?",
+      "promptAr": "في الكتابة الرسمية، أي جملة تضع الترقيم الصحيح عند بدء جملة جديدة بكلمة Therefore؟",
+      "explanation": "'Therefore' at the start of a sentence needs a comma right after it in formal writing.",
+      "arabicNote": "عند بدء جملة بكلمة Therefore في الكتابة الرسمية نضع فاصلة بعدها. المتحدثون بالعربية قد يكتبونها بدون فاصلة لأن الربط يختلف، لكن الإنجليزية الرسمية تتطلب الفاصلة.",
+      "weakTag": "writing_grammar_common_patterns_sentence_start",
+      "options": [
+        "Therefore, we stayed inside.",
+        "Therefore we stay inside.",
+        "Therefore; stayed inside."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wgcp_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "She wanted to come; ___, she was busy this evening.",
+      "promptAr": "اختَر الكلمة المناسبة بعد الفاصلة المنقوطة لإظهار التضاد في هذا السياق: She wanted to come; ___, she was busy this evening.",
+      "explanation": "'however' is correct after a semicolon and needs a comma after it for contrast.",
+      "arabicNote": "بعد فاصلة منقوطة نستخدم رابطًا مثل however ثم فاصلة. الجملة في سياق this evening فتظهر تضادًا زمنيًا، لذا اختر however مع الفاصلة.",
+      "weakTag": "writing_grammar_common_patterns_connectors_punctuation",
+      "options": [
+        "however",
+        "because",
+        "so"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wgcp_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Fix the direct Arabic word order so the English sentence is correct for last night.",
+      "promptAr": "صحّح ترتيب الكلمات المستورد من العربية ليكون إنجليزيًا صحيحًا مع ذكر 'last night'.",
+      "explanation": "Put the verb after the subject and the object after the verb for past time context.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية هو الفاعل ثم الفعل ثم المفعول. عند ذكر إطار زمني مثل last night حافظ على هذا الترتيب لأن العربية قد تسمح بمرونة أدت للخطأ.",
+      "weakTag": "writing_grammar_common_patterns_arabic_transfer",
+      "options": [
+        "My brother read the book last night.",
+        "My brother the book read last night.",
+        "Read my brother book last night."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "My brother book read last night."
+    },
+    {
+      "id": "wgcp_q10",
+      "type": "sentence_order",
+      "prompt": "Arrange the tokens to form a result sentence. Punctuation tokens are separate. Make: It was cold; therefore, we stayed inside.",
+      "promptAr": "رتّب الرموز لتكوين جملة تُظهر نتيجة. علامات الترقيم مفصولة. الهدف: It was cold; therefore, we stayed inside.",
+      "explanation": "Order: cause clause, semicolon token, therefore, comma token, then main clause tokens.",
+      "arabicNote": "رتّب السبب ثم ضع الفاصلة المنقوطة كرمز مستقل ثم therefore ثم الفاصلة ثم الجملة الأساسية. هذا الترتيب والترقيم مهمان لكتابة نتيجة واضحة باللغة الإنجليزية.",
+      "weakTag": "writing_grammar_common_patterns_sentence_order",
+      "words": [
+        "It",
+        "was",
+        "cold",
+        ";",
+        "therefore",
+        ",",
+        "we",
+        "stayed",
+        "inside",
+        "."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

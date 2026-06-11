@@ -1,0 +1,231 @@
+{
+  "id": "may_might",
+  "category": "b1_core",
+  "titleEn": "May and Might",
+  "titleAr": "استخدام may و might",
+  "level": "B1",
+  "explanationEn": "May and might are modal verbs used with the base form of a verb to show possibility. Do not add 'to' or change the verb form after may/might. Use may/might + base verb to talk about uncertain events now or in the near future in everyday contexts like school, work, or home.",
+  "explanationAr": "نستخدم may و might مع الفعل في صورته الأساسية للتعبير عن الاحتمال. خلاف العربية، لا نضيف 'أن' أو 'to' ولا نغيّر نهاية الفعل بعد may/might. يتسبب النقل الحرفي من العربية في إدخال أدوات أو تغيير ترتيب الكلمات، لذا نركز على: may/might + الفعل الأساسي في أمثلة يومية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "قد يَأتي غدًا",
+      "arabicLiteral": "may comes tomorrow",
+      "englishCorrect": "He may come tomorrow."
+    },
+    {
+      "arabicStructure": "من الممكن أن يكون في البيت الآن",
+      "arabicLiteral": "is possible that he at home now",
+      "englishCorrect": "He might be at home now."
+    },
+    {
+      "arabicStructure": "قد لا ينتهون من الدرس اليوم",
+      "arabicLiteral": "may not finish the lesson today",
+      "englishCorrect": "They may not finish the lesson today."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She may to arrive late this afternoon.",
+      "correct": "She may arrive late this afternoon.",
+      "explanationEn": "Do not put 'to' after may; use the base verb directly after the modal.",
+      "explanationAr": "لا نضع 'to' بعد may. الترجمة الحرفية من العربية قد تدفعك لإضافة أداة غير صحيحة."
+    },
+    {
+      "wrong": "They might arrived at eight tonight.",
+      "correct": "They might arrive at eight tonight.",
+      "explanationEn": "After might use the base verb 'arrive', not the past form 'arrived'.",
+      "explanationAr": "بعد might نستخدم الفعل في صورته الأساسية. تحول الفعل إلى الماضي خطأ شائع بسبب اختلاف صيغ الأفعال في العربية."
+    },
+    {
+      "wrong": "At home may be my parents this evening.",
+      "correct": "My parents may be at home this evening.",
+      "explanationEn": "English needs normal word order: subject before modal phrase to keep meaning clear.",
+      "explanationAr": "الترتيب مهم؛ العربية تسمح بمرونة أكبر أما الإنجليزية فتفرض وضع الفاعل قبل may/might للحفاظ على المعنى."
+    },
+    {
+      "wrong": "The soup may to cold after two hours.",
+      "correct": "The soup may be cold after two hours.",
+      "explanationEn": "Do not insert 'to'; use 'may be' with the base verb 'be' for possible results.",
+      "explanationAr": "لا تضف 'to' بعد may. عند التعبير عن نتيجة محتملة نستخدم may be مع الفعل الأساسي 'be'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "maym_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form for possibility about tonight: She ___ to the study group tonight.",
+      "promptAr": "اختر الصيغة الصحيحة للتعبير عن احتمال الانضمام لمجموعة الدراسة الليلة.",
+      "explanation": "Use a modal plus the base verb: 'may go' shows possibility for tonight.",
+      "arabicNote": "للمتحدث العربي: بعد may نضع الفعل في صورته الأساسية بدون 'to' أو تغيير النهاية، لأن العربية تستخدم أدوات تختلف عن الإنجليزية.",
+      "weakTag": "may_might_form",
+      "options": [
+        "may go",
+        "may going",
+        "to may go",
+        "might goes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "maym_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows possibility about tomorrow morning?",
+      "promptAr": "أي جملة تعبّر صحيحًا عن احتمال صباح الغد؟ اختر الجملة الخبرية الصحيحة.",
+      "explanation": "Put subject + modal + base verb to make a statement of possibility.",
+      "arabicNote": "اختر جملة خبرية (ليس سؤالًا). لا تضف 'to' أو تغير شكل الفعل بعد might. الترتيب يجب أن يكون الفاعل ثم might ثم الفعل.",
+      "weakTag": "may_might_word_order",
+      "options": [
+        "She might to come tomorrow morning.",
+        "She might comes tomorrow morning.",
+        "She might come tomorrow morning."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "maym_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "At work today the manager is late; he ___ be stuck in traffic right now.",
+      "promptAr": "في العمل اليوم المدير متأخر؛ قد يكون عالقًا في الزحام الآن. اختر الصيغة الصحيحة.",
+      "explanation": "Use may + base verb 'be' to show a present possibility about the manager.",
+      "arabicNote": "خاطرة متكررة لدى المتعلمين: إضافة 'to' أو تغيير شكل الفعل بعد may. هنا الصيغة الصحيحة هي may be للتعبير عن احتمال الحادثة الآن.",
+      "weakTag": "may_might_form",
+      "options": [
+        "may be",
+        "may to be",
+        "may being",
+        "might to be"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "maym_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for possibility this afternoon.",
+      "promptAr": "اختر التصحيح الأفضل للتعبير عن احتمال بعد الظهر اليوم.",
+      "explanation": "After may use the base verb 'arrive', not the past 'arrived'.",
+      "arabicNote": "خطأ شائع: تحويل الفعل إلى الماضي بعد may بسبب الترجمة من العربية. التصحيح يضع الفعل في صورته الأساسية بعد may.",
+      "weakTag": "may_might_arabic_transfer",
+      "options": [
+        "She may arrive late this afternoon.",
+        "She may arriving late this afternoon.",
+        "She might arrived late this afternoon."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She may arrived late this afternoon."
+    },
+    {
+      "id": "maym_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to show possibility this evening.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تعبّر عن احتمال مساء اليوم.",
+      "explanation": "Correct English order: subject + modal + base verb + place + time.",
+      "arabicNote": "في العربية ترتيب الكلمات أكثر مرونة، أما في الإنجليزية فنضع الفاعل ثم may/might ثم الفعل ثم المكان والزمان. رتب الكلمات لتصبح جملة خبرية صحيحة.",
+      "weakTag": "may_might_word_order",
+      "words": [
+        "They",
+        "may",
+        "be",
+        "at",
+        "home",
+        "this",
+        "evening"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "maym_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning (possibility contexts).",
+      "promptAr": "وصل كل جملة إنجليزية بترجمتها العربية المناسبة في سياق التعبير عن الاحتمال.",
+      "explanation": "Match sentences that show possibility with correct Arabic translations.",
+      "arabicNote": "لاحظ كيف تعبّر may/might عن الاحتمال في الإنجليزية مقابل تعابير مختلفة في العربية. صِل الجمل بمعانيها المقابلة.",
+      "weakTag": "may_might_meaning",
+      "pairs": [
+        {
+          "left": "She may come tomorrow.",
+          "right": "ربما تأتي غدًا."
+        },
+        {
+          "left": "He might be home now.",
+          "right": "من الممكن أن يكون في البيت الآن."
+        },
+        {
+          "left": "They may not finish class today.",
+          "right": "قد لا ينتهون من الدرس اليوم."
+        }
+      ]
+    },
+    {
+      "id": "maym_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct negative form for possibility today: She ___ join the meeting today.",
+      "promptAr": "اختر الصيغة السلبية الصحيحة للتعبير عن احتمال اليوم: هل ستنضم إلى الاجتماع؟",
+      "explanation": "Place 'not' directly after the modal: use 'may not' to show possible non‑attendance.",
+      "arabicNote": "خطأ شائع: محاولة وضع النفي قبل الفعل أو إضافة أدوات غير صحيحة. ضع not مباشرة بعد may أو might للتعبير عن احتمال النفي.",
+      "weakTag": "may_might_form",
+      "options": [
+        "may not",
+        "may to not",
+        "does not may",
+        "not may"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "maym_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows possibility about the soup now?",
+      "promptAr": "أي جملة تعبّر صحيحًا عن احتمال حالة الحساء الآن؟",
+      "explanation": "Use might + base verb 'be' to express a present possibility about the soup.",
+      "arabicNote": "قد يحذف متعلمو العربية الفعل 'be' أو يضيفون 'to'. الصيغة الصحيحة هنا هي might be مع الفعل الأساسي بدون إضافات.",
+      "weakTag": "may_might_word_order",
+      "options": [
+        "It might cold now.",
+        "It might be cold now.",
+        "It might to be cold now."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "maym_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "The train ___ arrive at 6:30 tomorrow, but the schedule may change.",
+      "promptAr": "من الممكن أن يصل القطار الساعة 6:30 غدًا لكن الجدول قد يتغير. اختر الصيغة الصحيحة.",
+      "explanation": "Use may + base verb 'arrive' to express a future possibility about the train.",
+      "arabicNote": "لا تضع s أو 'to' بعد arrive في هذا السياق. ضع may قبل الفعل في صورته الأساسية للتعبير عن احتمال الوصول.",
+      "weakTag": "may_might_form",
+      "options": [
+        "may arrive",
+        "may arriving",
+        "arrive may",
+        "might arrives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "maym_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Correct the sentence about possibility this evening.",
+      "promptAr": "صحح الجملة لتعبّر عن احتمال هذا المساء بشكل خبرى واضح.",
+      "explanation": "Put subject first, then may + base verb, then place and time for a clear possibility sentence.",
+      "arabicNote": "في العربية نستخدم ترتيبًا مرنًا، لكن في الإنجليزية نضع الفاعل قبل may/might ثم الفعل ثم المكان والزمان. صحّح الترتيب دون تغيير المعنى.",
+      "weakTag": "may_might_word_order",
+      "options": [
+        "My parents may be at home this evening.",
+        "My parents may being at home this evening.",
+        "My parents at home may be this evening.",
+        "At home my parents may be this evening."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "At home may be my parents this evening."
+    }
+  ]
+}

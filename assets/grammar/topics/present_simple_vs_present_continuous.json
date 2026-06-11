@@ -1,0 +1,222 @@
+{
+  "id": "present_simple_vs_present_continuous",
+  "category": "basics",
+  "titleEn": "Present Simple vs Present Continuous",
+  "titleAr": "المضارع البسيط مقابل المضارع المستمر",
+  "level": "A2",
+  "explanationEn": "Use the present simple for routines, like 'I eat breakfast every day.' Use the present continuous for actions happening now, like 'I am eating breakfast now.' Arabic speakers may confuse these tenses because Arabic expresses aspects differently.",
+  "explanationAr": "في العربية، يمكن التعبير عن الزمن بطريقة مختلفة، مما يجعل المتعلمين يستخدمون زمنًا واحدًا في الإنجليزية لكل من الروتين والأفعال الحالية. في الإنجليزية، نستخدم المضارع البسيط للروتين، مثل 'أنا أتناول الإفطار كل يوم.'، والمضارع المستمر للأفعال الجارية، مثل 'أنا أتناول الإفطار الآن.'",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هو يدرس الآن",
+      "arabicLiteral": "He studies now",
+      "englishCorrect": "He is studying now."
+    },
+    {
+      "arabicStructure": "هي تعمل كل يوم",
+      "arabicLiteral": "She works every day",
+      "englishCorrect": "She works every day."
+    },
+    {
+      "arabicStructure": "أنا أكتب الآن",
+      "arabicLiteral": "I write now",
+      "englishCorrect": "I am writing now."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He study every day.",
+      "correct": "He studies every day.",
+      "explanationEn": "Add -s for he in present simple.",
+      "explanationAr": "في المضارع البسيط، نضيف -s مع 'هو'."
+    },
+    {
+      "wrong": "I am eat lunch.",
+      "correct": "I am eating lunch.",
+      "explanationEn": "Use the -ing form for present continuous.",
+      "explanationAr": "في المضارع المستمر، نستخدم الشكل -ing للفعل."
+    },
+    {
+      "wrong": "She is plays piano.",
+      "correct": "She plays piano.",
+      "explanationEn": "Use present simple for routines without 'is'.",
+      "explanationAr": "نستخدم المضارع البسيط للروتين بدون 'is'."
+    },
+    {
+      "wrong": "They are go to school.",
+      "correct": "They go to school.",
+      "explanationEn": "Use present simple for routines without 'are'.",
+      "explanationAr": "نستخدم المضارع البسيط للروتين بدون 'are'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psvpc_q1",
+      "type": "multiple_choice",
+      "prompt": "I ___ to the gym every day.",
+      "promptAr": "أنا ___ إلى النادي كل يوم.",
+      "explanation": "Use present simple for routines.",
+      "arabicNote": "نستخدم المضارع البسيط للروتين.",
+      "weakTag": "present_simple_vs_present_continuous_routine",
+      "options": [
+        "go",
+        "am going",
+        "going",
+        "gone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psvpc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Right now, which sentence is correct?",
+      "promptAr": "الآن، أي جملة صحيحة؟",
+      "explanation": "Use present continuous for an action happening now.",
+      "arabicNote": "مع now نستخدم المضارع المستمر للفعل الذي يحدث الآن.",
+      "weakTag": "present_simple_vs_present_continuous_correct_sentence",
+      "options": [
+        "She is reading a book now.",
+        "She reads a book now.",
+        "She read a book now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psvpc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ to the park now.",
+      "promptAr": "هم ___ إلى الحديقة الآن.",
+      "explanation": "Use present continuous for actions happening now.",
+      "arabicNote": "نستخدم المضارع المستمر للأفعال الجارية.",
+      "weakTag": "present_simple_vs_present_continuous_now_action",
+      "options": [
+        "go",
+        "are going",
+        "going"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psvpc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Add -s for he in present simple.",
+      "arabicNote": "نضيف -s مع 'هو' في المضارع البسيط.",
+      "weakTag": "present_simple_vs_present_continuous_fix_mistake",
+      "options": [
+        "He plays soccer every Saturday.",
+        "He is playing soccer every Saturday.",
+        "He played soccer every Saturday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He play soccer every Saturday."
+    },
+    {
+      "id": "psvpc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'She is cooking dinner.'",
+      "arabicNote": "الجملة الصحيحة هي 'هي تطبخ العشاء.'",
+      "weakTag": "present_simple_vs_present_continuous_sentence_order",
+      "words": [
+        "is",
+        "She",
+        "cooking",
+        "dinner."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "psvpc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "These sentences show the difference between present simple and present continuous.",
+      "arabicNote": "هذه الجمل تظهر الفرق بين المضارع البسيط والمضارع المستمر.",
+      "weakTag": "present_simple_vs_present_continuous_meaning_match",
+      "pairs": [
+        {
+          "left": "I am studying.",
+          "right": "أنا أدرس."
+        },
+        {
+          "left": "He plays football.",
+          "right": "هو يلعب كرة القدم."
+        },
+        {
+          "left": "They are watching TV.",
+          "right": "هم يشاهدون التلفاز."
+        }
+      ]
+    },
+    {
+      "id": "psvpc_q7",
+      "type": "multiple_choice",
+      "prompt": "She ___ to music every day.",
+      "promptAr": "هي ___ إلى الموسيقى كل يوم.",
+      "explanation": "Use present simple for routines.",
+      "arabicNote": "نستخدم المضارع البسيط للروتين.",
+      "weakTag": "present_simple_vs_present_continuous_routine",
+      "options": [
+        "listens",
+        "is listening",
+        "listen",
+        "listened"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psvpc_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Look outside now. Which sentence is correct?",
+      "promptAr": "انظر إلى الخارج الآن. أي جملة صحيحة؟",
+      "explanation": "Use present continuous for an action happening now.",
+      "arabicNote": "مع now نستخدم المضارع المستمر للفعل الذي يحدث الآن.",
+      "weakTag": "present_simple_vs_present_continuous_correct_sentence",
+      "options": [
+        "They are playing outside now.",
+        "They play outside now.",
+        "They played outside now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psvpc_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ my homework now.",
+      "promptAr": "أنا ___ واجبي الآن.",
+      "explanation": "Use present continuous for actions happening now.",
+      "arabicNote": "نستخدم المضارع المستمر للأفعال الجارية.",
+      "weakTag": "present_simple_vs_present_continuous_now_action",
+      "options": [
+        "do",
+        "am doing",
+        "doing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psvpc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use the -ing form for present continuous.",
+      "arabicNote": "في المضارع المستمر، نستخدم الشكل -ing للفعل.",
+      "weakTag": "present_simple_vs_present_continuous_fix_mistake",
+      "options": [
+        "She reads a book.",
+        "She is reading a book.",
+        "She read a book."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "She is read a book."
+    }
+  ]
+}

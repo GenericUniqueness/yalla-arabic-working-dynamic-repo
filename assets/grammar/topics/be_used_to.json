@@ -1,0 +1,238 @@
+{
+  "id": "be_used_to",
+  "category": "b1_core",
+  "titleEn": "Be Used To",
+  "titleAr": "استخدام be used to",
+  "level": "B1",
+  "explanationEn": "Use 'be used to' + noun or verb-ing to say someone is accustomed to something now. The structure requires a form of be (am/is/are/was) + used to + noun or gerund. Do not confuse this with 'used to' which indicates past habits. Context of current experience makes the difference.",
+  "explanationAr": "نستخدم 'be used to' مع اسم أو فعل+ing للتعبير عن التعود الحالي على شيء أو حالة. التكوين يتطلب فعل be (am/is/are/was) متبوعًا بـ used to ثم اسم أو فعل بصيغة -ing. يخطئ متعلمو العربية أحيانًا لأن العربية تسمح ببناء جملة بدون فعل مساعد واضح أو بترتيبات مختلفة للكلمات، لذلك انتبه لوضع be واختيار gerund أو اسم بدلاً من المصدر.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا متعود على الأكل مبكراً.",
+      "arabicLiteral": "I accustomed on eating early.",
+      "englishCorrect": "I am used to eating early."
+    },
+    {
+      "arabicStructure": "هي تعودت على الدراسة لساعات طويلة.",
+      "arabicLiteral": "She got used to study for long hours.",
+      "englishCorrect": "She is used to studying for long hours."
+    },
+    {
+      "arabicStructure": "نحن تعودنا على صوت المرور.",
+      "arabicLiteral": "We became used to noise of traffic.",
+      "englishCorrect": "We are used to the traffic noise."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I used to eating breakfast early now.",
+      "correct": "I am used to eating breakfast early now.",
+      "explanationEn": "Learners sometimes drop the auxiliary be and write 'used to' before a gerund, but that is ungrammatical for present accustomedness.",
+      "explanationAr": "يميل طلاب العربية لحذف فعل be فيقولون 'used to' قبل فعل+ing. هنا نريد التعود الحالي لذلك نستخدم 'am used to' وليس 'used to'."
+    },
+    {
+      "wrong": "She used to work nights now.",
+      "correct": "She is used to working nights now.",
+      "explanationEn": "'Used to' alone signals a past habit. For current accustomedness we need 'is used to' + gerund.",
+      "explanationAr": "عبارة 'used to' بدون be تشير إلى عادة ماضية. عند الحديث عن التعود الحالي نقول 'is used to' مع الفعل+ing."
+    },
+    {
+      "wrong": "They are used to arrive early.",
+      "correct": "They are used to arriving early.",
+      "explanationEn": "After 'be used to' we must use a noun or gerund. The infinitive 'to arrive' is incorrect here.",
+      "explanationAr": "بعد 'be used to' يأتي اسم أو فعل+ing. استخدام المصدر 'to arrive' هنا خطأ نحوي، لذلك نستخدم 'arriving'."
+    },
+    {
+      "wrong": "He is used to the cold weather yesterday.",
+      "correct": "He was used to the cold weather yesterday.",
+      "explanationEn": "Match the form of be to the time: use was/were when the context is in the past, not is/are.",
+      "explanationAr": "عند الإشارة إلى زمنٍ ماضٍ نغير be إلى was أو were. الجمع بين 'is' وكلمة زمن ماضي مثل 'yesterday' يجعل الجملة خاطئة نحوياً."
+    }
+  ],
+  "questions": [
+    {
+      "id": "beus_q1",
+      "type": "multiple_choice",
+      "prompt": "After two years in London, Maria ___ noisy buses and crowds, so the noise no longer bothers her.",
+      "promptAr": "بعد عامين في لندن، ماريا ___ الحافلات المزعجة والزحام، لذلك لم يعد الضجيج يزعجها.",
+      "explanation": "Use 'is used to' + noun to clearly show current accustomedness after living in a place.",
+      "arabicNote": "نستخدم 'is used to' لأن المقصود التعود الحالي بعد تجربة. لا تخلط مع 'used to' التي تعني عادة ماضية.",
+      "weakTag": "be_used_to_form",
+      "options": [
+        "is used to",
+        "used to",
+        "is using to",
+        "to be used to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "beus_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "After starting early classes last month, which sentence correctly says he became accustomed?",
+      "promptAr": "بعد أن بدأ الحصص المبكرة الشهر الماضي، أي جملة تقول بشكل صحيح أنه تعود؟",
+      "explanation": "Use 'is used to' + gerund for current accustomedness; infinitive is wrong here.",
+      "arabicNote": "الجملة الصحيحة: 'He is used to waking up early' لأننا نتكلم عن التعود الآن ونحتاج فعل+ing بعد 'used to'.",
+      "weakTag": "be_used_to_meaning",
+      "options": [
+        "He used to wake up early.",
+        "He is used to waking up early.",
+        "He is used to wake up early."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "beus_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ spicy food since I grew up in India, so I can eat it easily now.",
+      "promptAr": "أنا ___ الطعام الحار لأنني نشأت في الهند، لذلك أستطيع أكله بسهولة الآن.",
+      "explanation": "'Be used to' needs be + gerund to show current habit or tolerance.",
+      "arabicNote": "نقول 'am used to eating' لأننا نعبر عن التعود الحاضر. الصياغات الأخرى إما تغير المعنى أو خاطئة نحوياً.",
+      "weakTag": "be_used_to_gerund",
+      "options": [
+        "am used to eating",
+        "used to eat",
+        "am used to eat",
+        "use to eating"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "beus_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. She started night shifts last month and now stays awake at night, so the sentence about her habit is wrong.",
+      "promptAr": "اختر التصحيح الأفضل. بدأت الشفتات الليلية الشهر الماضي وتبقى مستيقظة ليلًا الآن، إذًا الجملة عن عادتِها خاطئة.",
+      "explanation": "Add 'is' and gerund for current accustomedness; other options change meaning or remain ungrammatical.",
+      "arabicNote": "التصحيح يحتاج 'is used to working' لأن المقصود التعود الحالي. 'used to work' تعني عادة ماضية ولا تناسب سياق الآن.",
+      "weakTag": "be_used_to_common_errors",
+      "options": [
+        "She is used to working late every night.",
+        "She used to work late every night.",
+        "She used to be working late every night."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She used to working late every night."
+    },
+    {
+      "id": "beus_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a sentence meaning 'I am accustomed to eating breakfast early every day.'",
+      "promptAr": "رتّب الكلمات لتكوين جملة تعني 'أنا متعود على تناول الفطور مبكراً كل يوم.'",
+      "explanation": "Order: subject + be + used to + gerund + object/time phrase.",
+      "arabicNote": "ترتيب الكلمات يوضح أن في الإنجليزية نضع الفاعل ثم فعل be قبل 'used to' ثم الفعل+ing، وهذه نقطة يخطئ فيها كثيرون من متحدثي العربية.",
+      "weakTag": "be_used_to_sentence_order",
+      "words": [
+        "to",
+        "eating",
+        "am",
+        "used",
+        "I",
+        "breakfast",
+        "early",
+        "every",
+        "day"
+      ],
+      "correctOrder": [
+        4,
+        2,
+        3,
+        0,
+        1,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "beus_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with the correct Arabic meaning (be used to = accustomed to).",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي الصحيح (be used to = متعوّد على).",
+      "explanation": "Match present or past 'be' with the Arabic meaning of being accustomed.",
+      "arabicNote": "احذر: ترجمة 'used to' بدون be تعني عادة سابقة، بينما 'be used to' تعني التعود. راعِ زمن فعل be عند المطابقة.",
+      "weakTag": "beus_meaning_match",
+      "pairs": [
+        {
+          "left": "She is used to the cold weather.",
+          "right": "هي متعوّدة على الطقس البارد."
+        },
+        {
+          "left": "We are used to studying late for exams.",
+          "right": "نحن متعوّدون على الدراسة متأخرًا للامتحانات."
+        },
+        {
+          "left": "He was used to noisy streets when he lived in Cairo.",
+          "right": "كان متعوّدًا على الشوارع الصاخبة عندما عاش في القاهرة."
+        },
+        {
+          "left": "I am used to the new schedule after one month.",
+          "right": "أنا متعوّد على الجدول الجديد بعد شهر."
+        }
+      ]
+    },
+    {
+      "id": "beus_q7",
+      "type": "multiple_choice",
+      "prompt": "After two years in the city, they ___ small apartments and noisy neighbors without complaint.",
+      "promptAr": "بعد سنتين في المدينة، هم ___ الشقق الصغيرة والجيران المزعجين دون تذمر.",
+      "explanation": "'Are used to' + gerund shows they are currently accustomed after experience.",
+      "arabicNote": "نستخدم 'are used to living in' لأن المطلوب التعبير عن التعود الحالي بعد تجربتهم. خيارات أخرى إما ماضية أو غير صحيحة نحوياً.",
+      "weakTag": "be_used_to_noun_gerund",
+      "options": [
+        "are used to living in",
+        "used to live in",
+        "are used to live in",
+        "used to living in"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "beus_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "After months of study in the quiet library, I finally ___ the silence and can concentrate.",
+      "promptAr": "بعد أشهر من الدراسة في المكتبة الهادئة، أصبحت أخيرًا ___ الصمت وأستطيع التركيز.",
+      "explanation": "Use 'am used to the' + noun for being accustomed to a place or thing.",
+      "arabicNote": "نقول 'am used to the silence' لأننا نشير إلى التعود الحالي على الصمت كمكان أو حالة. الصيغ الأخرى تغير المعنى أو تكون خاطئة نحوياً.",
+      "weakTag": "be_used_to_noun",
+      "options": [
+        "am used to the",
+        "used to the",
+        "am used to be the",
+        "use to the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "beus_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "After living with his nephews for months, which sentence correctly says he is now accustomed?",
+      "promptAr": "بعد العيش مع أبناء أخيه لعدة أشهر، أي جملة تقول بشكل صحيح أنه تعوّد الآن؟",
+      "explanation": "After 'be used to' use a noun or gerund: 'children making' is correct.",
+      "arabicNote": "المناسب 'He is used to children making noise' لأننا نحتاج فعل+ing بعد 'used to'. الخيارات الأخرى إما نحوياً خاطئة أو تعطي معنى مختلفاً.",
+      "weakTag": "beus_word_order",
+      "options": [
+        "He is used to children make noise.",
+        "He is used to children making noise.",
+        "He used to children making noise."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "beus_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. I eat dinner early now; correct the sentence which tries to say this is my current habit.",
+      "promptAr": "اختر التصحيح الأفضل. أتناول العشاء مبكرًا الآن؛ صحح الجملة التي تحاول قول إن هذه عادتي الحالية.",
+      "explanation": "Use 'be used to' + gerund. The infinitive or past-habit 'used to' is wrong here.",
+      "arabicNote": "التصحيح الصحيح 'I'm used to eating dinner early' لأننا نعبر عن التعود الحالي. 'used to eat' تعني عادة ماضية وليست مناسبة هنا.",
+      "weakTag": "be_used_to_gerund_correction",
+      "options": [
+        "I'm used to eating dinner early.",
+        "I used to eat dinner early.",
+        "I'm used to to eat dinner early."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I'm used to eat dinner early."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "emphasis_structures",
+  "category": "b2_expansion",
+  "titleEn": "Emphasis Structures",
+  "titleAr": "تراكيب التوكيد",
+  "level": "B2",
+  "explanationEn": "This topic teaches how to use cleft sentences and What-clauses to focus information. Learn patterns like 'It was ... that ...' and 'What ... is ...' in school, work, home, and travel contexts. Practice correct word order and required function words Arabic speakers often omit.",
+  "explanationAr": "تعلّم هذه الوحدة تراكيب التوكيد في الإنجليزية مثل ‘‘It was ... that ...’’ و‘‘What ... is ...’’. في العربية التراكيب أكثر مرونة لكن الإنجليزية تتطلب كلمات وظيفية وترتيبًا ثابتًا. سنستخدم أمثلة من المدرسة والعمل والمنزل لتفادي نقل الترتيب العربي وحذف كلمات مثل it أو is.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هو الذي اتصل بالأستاذ.",
+      "arabicLiteral": "He who called the teacher.",
+      "englishCorrect": "It was he who called the teacher."
+    },
+    {
+      "arabicStructure": "ما يهم هو الأمانة.",
+      "arabicLiteral": "What matters is honesty.",
+      "englishCorrect": "What matters is honesty."
+    },
+    {
+      "arabicStructure": "التي زارتنا كانت أختي.",
+      "arabicLiteral": "Who visited us was my sister.",
+      "englishCorrect": "It was my sister who visited us."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Who called was Ahmed yesterday.",
+      "correct": "It was Ahmed who called yesterday.",
+      "explanationEn": "Arabic-like word order drops the cleft 'It was' and sounds incorrect in English emphasis.",
+      "explanationAr": "نقل ترتيب عربي حرفي حذف تركيب cleft. في الإنجليزية نبدأ بالتوكيد بـ 'It was' ثم العنصر المؤكد ثم 'who/that'."
+    },
+    {
+      "wrong": "What is important honesty at school.",
+      "correct": "What is important is honesty at school.",
+      "explanationEn": "The linking verb 'is' between the clauses is missing; English requires it to connect the emphasised idea.",
+      "explanationAr": "حذف فعل الربط 'is' بين جزئي What-clause والمقصود. العربية قد توصل بدون فعل مماثل، لكن الإنجليزية تفرضه هنا."
+    },
+    {
+      "wrong": "It was my teacher who arrived yesterday the conference.",
+      "correct": "It was my teacher who arrived at the conference yesterday.",
+      "explanationEn": "Wrong word order of time/place breaks emphasis; place prepositional phrase in correct slot after the verb phrase.",
+      "explanationAr": "ترتيب ظرف المكان أو الزمن داخل cleft قد يغيّر التركيز. ضع المكان/الزمن بعد الجزء الذي يليه للحفاظ على التوكيد."
+    },
+    {
+      "wrong": "It was book that I read yesterday.",
+      "correct": "It was the book that I read yesterday.",
+      "explanationEn": "Missing definite article 'the' when referring to a specific book; Arabic often omits articles, causing this error.",
+      "explanationAr": "حذف أداة التعريف 'the' شائع عند الترجمة من العربية. إذا كنت تشير إلى كتاب محدد، الإنجليزية تحتاج 'the' للحفاظ على المعنى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "emph_q1",
+      "type": "multiple_choice",
+      "prompt": "Yesterday at school, which sentence correctly emphasises who brought the exam papers?",
+      "promptAr": "بالأمس في المدرسة، أي جملة تؤكد من جلب أوراق الامتحان بشكل صحيح؟",
+      "explanation": "Use 'It was' + person + 'who/that' and place the time after the clause.",
+      "arabicNote": "في الإنجليزية للتوكيد نستخدم تركيب cleft: 'It was ... who/that ...'. ضع ظرف الزمن بعد الجزء المؤكد. احذر من الترتيب العربي المرن الذي يحذف it أو يغير مكان الظرف.",
+      "weakTag": "emphasis_structures_form",
+      "options": [
+        "It was Ahmed who brought the exam papers yesterday.",
+        "Ahmed who brought the exam papers yesterday.",
+        "Who brought the exam papers yesterday Ahmed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "emph_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly emphasises the object in a work context?",
+      "promptAr": "أي جملة تؤكد المفعول بها بشكل صحيح في سياق العمل؟",
+      "explanation": "Use 'It was ... that ...' to emphasise an object and keep clause order normal.",
+      "arabicNote": "لتوكيد المفعول نستخدم 'It was ... that ...' ثم نحافظ على ترتيب المفعول والفعل. المتحدثون بالعربية قد يبدّلون الترتيب أو يحذفون it فتصبح الجملة خاطئة.",
+      "weakTag": "emphasis_structures_word_order",
+      "options": [
+        "It was the report that the manager read last night.",
+        "The report the manager read last night.",
+        "Was the report that the manager read last night."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "emph_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the correct words: ___ my sister ___ baked the cake for the party.",
+      "promptAr": "اختر الكلمات الصحيحة: ___ أختي ___ خبزت الكعكة للحفلة.",
+      "explanation": "Use 'It was' before the person and 'who' after to form the cleft emphasising the doer.",
+      "arabicNote": "التركيب الصحيح لتوكيد الفاعل هو 'It was ... who ...'. المتحدثون بالعربية قد يحذفون it أو يغيّرون الترتيب، فانتبه لوضع who بعد العنصر المؤكد.",
+      "weakTag": "emphasis_structures_form",
+      "options": [
+        "It was / who",
+        "What is / that",
+        "It is / which",
+        "Who was / that"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "emph_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence given the emphasis context.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة في سياق التوكيد.",
+      "explanation": "Begin with 'It was', then the emphasised noun, then 'who/that' and the rest of the clause.",
+      "arabicNote": "الخطأ هنا ناتج عن حذف it وخلط ترتيب الجملة. في الإنجليزية ابدأ بـ 'It was' ثم العنصر المؤكد ثم 'who/that'. هذا يحفظ التوكيد والترتيب الصحيح.",
+      "weakTag": "emph_arabic_transfer",
+      "options": [
+        "It was my brother who fixed the computer yesterday.",
+        "My brother fixed the computer yesterday who.",
+        "Who my brother fixed the computer yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Was my brother who fixed the computer yesterday."
+    },
+    {
+      "id": "emph_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a sentence that emphasises the reason for travel.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تؤكد سبب السفر.",
+      "explanation": "Correct order: \"What is important is to study abroad.\" Use a what-cleft to focus attention on the important idea.",
+      "arabicNote": "في العربية نُعبر عن السبب بطرق مرنة. في إنجليزيّة What-cleft تحتاج إلى 'What is ... is ...' مع وضع المصطلح 'to' قبل الفعل. احرص على وجود 'is' المزدوجة للحفاظ على التوكيد.",
+      "weakTag": "emphasis_structures_word_order",
+      "words": [
+        "What",
+        "is",
+        "important",
+        "is",
+        "to",
+        "study",
+        "abroad."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "emph_q6",
+      "type": "meaning_match",
+      "prompt": "Match each emphatic sentence to its Arabic meaning.",
+      "promptAr": "اوصل كل جملة مؤكدة بمعناها العربي.",
+      "explanation": "Match the English cleft or What-clause with the Arabic meaning and notice the focused element.",
+      "arabicNote": "صل الجمل الإنجليزية بمعانيها العربية. لاحظ أي جزء يتعرض للتوكيد في الإنجليزية وكيف تختلف العربية في ترتيب الكلمات للتعبير عن نفس التركيز.",
+      "weakTag": "emphasis_structures_meaning",
+      "pairs": [
+        {
+          "left": "It was my teacher who helped me study last week.",
+          "right": "المعلّم هو الذي ساعدني في المذاكرة الأسبوع الماضي."
+        },
+        {
+          "left": "What I need now is a short break.",
+          "right": "ما أحتاجه الآن هو استراحة قصيرة."
+        },
+        {
+          "left": "It was the red bag that I bought at the airport.",
+          "right": "الحقيبة الحمراء هي التي اشتريتها في المطار."
+        }
+      ]
+    },
+    {
+      "id": "emph_q7",
+      "type": "multiple_choice",
+      "prompt": "In a family context: you want to stress that your mother cooked dinner last night. Which sentence gives correct emphasis?",
+      "promptAr": "في سياق عائلي: تريد التأكيد أن أمك طهت العشاء الليلة الماضية. أي جملة تعطي التوكيد الصحيح؟",
+      "explanation": "Use 'It was ... who ...' to emphasise the agent; put the time after the clause.",
+      "arabicNote": "في العربية ترتيب الجملة قد يكون مرنًا. في الإنجليزية لتوكيد الفاعل استعمل 'It was ... who ...' وضع ظرف الزمن بعد الجزء المؤكد للحفاظ على التركيز.",
+      "weakTag": "emphasis_structures_form",
+      "options": [
+        "It was my mother who cooked dinner last night.",
+        "My mother cooked dinner last night who.",
+        "Who cooked dinner last night my mother.",
+        "It mother who cooked dinner last night."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "emph_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete for emphasis in a study context: ___ matters this week ___ the final exam.",
+      "promptAr": "أكمل للتوكيد في سياق الدراسة: ___ هو ما يهم هذا الأسبوع ___ الامتحان النهائي.",
+      "explanation": "'What matters this week is the final exam.' needs 'What' then 'is' to link the clause to the emphasised idea.",
+      "arabicNote": "تركيب 'What ... is ...' يؤكد فكرة كاملة. احتفظ بـ 'What' في البداية و' is ' لربط الجملة بالشيء المؤكد. في نصوص طويلة ضع فاصلة قبل 'is' إذا لزم لتوضيح الفصل.",
+      "weakTag": "emphasis_structures_meaning",
+      "options": [
+        "What / is",
+        "That / is",
+        "It / that",
+        "Who / is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "emph_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: at home you want to emphasise the guest who visited yesterday.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: في المنزل تريد التأكيد على الضيف الذي زارنا أمس.",
+      "explanation": "Form the past cleft: 'It was [person] who [verb] yesterday' to keep emphasis and correct order.",
+      "arabicNote": "الخطأ يحدث عندما تُترجم حرفيًّا من العربية وتُسقط 'it'. في cleft الماضي نحتاج: 'It was ... who ...' ثم ظرف الزمن بعد الجملة للحفاظ على التوكيد.",
+      "weakTag": "emphasis_structures_arabic_transfer",
+      "options": [
+        "It was my uncle who visited us yesterday.",
+        "My uncle visited us yesterday who.",
+        "Who my uncle visited us yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "It my uncle who visited us yesterday."
+    },
+    {
+      "id": "emph_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly emphasises the reason for travel in a travel context?",
+      "promptAr": "أي جملة تؤكد سبب السفر بشكل صحيح في سياق السفر؟",
+      "explanation": "Use 'What I wanted to see was new cities.' Keep 'to see' inside the clause before 'was'.",
+      "arabicNote": "الترتيب مهم: ضع 'to see' داخل جملة What-clause قبل 'was'. المتحدثون بالعربية قد يحذفون 'to' أو يغيّرون الموضع فيغيرون المعنى أو التوكيد.",
+      "weakTag": "emphasis_structures_word_order",
+      "options": [
+        "What I wanted was see new cities.",
+        "What I wanted to see was new cities.",
+        "I wanted what was to see new cities."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

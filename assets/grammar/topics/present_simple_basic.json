@@ -1,0 +1,169 @@
+{
+  "id": "present_simple_basic",
+  "category": "basics",
+  "titleEn": "Present Simple Basics",
+  "titleAr": "أساسيات المضارع البسيط",
+  "level": "A1-A2",
+  "explanationEn": "Use the present simple for habits, routines, and facts. With he, she, and it, add -s or -es to the verb in positive sentences. Use do or does for negatives and questions.",
+  "explanationAr": "نستخدم المضارع البسيط للعادات والروتين والحقائق. مع he و she و it نضيف غالبًا s أو es للفعل في الجملة المثبتة. وفي النفي والسؤال نستخدم do أو does.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي تعمل كل يوم",
+      "arabicLiteral": "She work every day",
+      "englishCorrect": "She works every day"
+    },
+    {
+      "arabicStructure": "أنا أدرس الإنجليزية",
+      "arabicLiteral": "I study English",
+      "englishCorrect": "I study English"
+    },
+    {
+      "arabicStructure": "هو لا يشرب قهوة",
+      "arabicLiteral": "He not drink coffee",
+      "englishCorrect": "He does not drink coffee"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She work every day.",
+      "correct": "She works every day.",
+      "explanationEn": "Add -s to the verb with she in a positive present simple sentence.",
+      "explanationAr": "مع she في الجملة المثبتة نضيف s للفعل."
+    },
+    {
+      "wrong": "He don't study English.",
+      "correct": "He does not study English.",
+      "explanationEn": "Use does not with he, she, or it.",
+      "explanationAr": "مع he أو she أو it نستخدم does not في النفي."
+    },
+    {
+      "wrong": "Does she works?",
+      "correct": "Does she work?",
+      "explanationEn": "After does, use the base verb without -s.",
+      "explanationAr": "بعد does نستخدم الفعل الأساسي بدون s."
+    },
+    {
+      "wrong": "They studies English.",
+      "correct": "They study English.",
+      "explanationEn": "Do not add -s with they.",
+      "explanationAr": "مع they لا نضيف s للفعل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ps_q1",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ to school every day.",
+      "promptAr": "اختر الفعل الصحيح مع she.",
+      "options": ["goes", "go", "going", "goed"],
+      "correctIndex": 0,
+      "explanation": "With she, use goes in a positive present simple sentence.",
+      "arabicNote": "مع she نضيف es إلى go: goes.",
+      "weakTag": "present_simple_third_s"
+    },
+    {
+      "id": "ps_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ tea in the morning.",
+      "promptAr": "اختر الفعل الصحيح مع I.",
+      "options": ["drink", "drinks", "drinking", "does"],
+      "correctIndex": 0,
+      "explanation": "Use the base verb drink with I.",
+      "arabicNote": "مع I لا نضيف s للفعل في المضارع البسيط.",
+      "weakTag": "present_simple_base_verb"
+    },
+    {
+      "id": "ps_q3",
+      "type": "multiple_choice",
+      "prompt": "Which verb completes the sentence: He ___ at home.",
+      "promptAr": "أي فعل يكمل الجملة؟",
+      "options": ["works", "work", "working", "do"],
+      "correctIndex": 0,
+      "explanation": "With he, add -s to the verb in a positive present simple sentence.",
+      "arabicNote": "He works تعني هو يعمل.",
+      "weakTag": "present_simple_third_s"
+    },
+    {
+      "id": "ps_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "options": ["She works every day.", "She work every day.", "She working every day."],
+      "correctIndex": 0,
+      "explanation": "She works is the correct present simple form.",
+      "arabicNote": "مع she نستخدم works وليس work في الجملة المثبتة.",
+      "weakTag": "present_simple_third_s"
+    },
+    {
+      "id": "ps_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "She work every day.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["She works every day.", "She working every day.", "She does works every day."],
+      "correctIndex": 0,
+      "explanation": "Add -s to work after she.",
+      "arabicNote": "هذا من أكثر الأخطاء شيوعًا عند متعلمي الإنجليزية.",
+      "weakTag": "present_simple_third_s"
+    },
+    {
+      "id": "ps_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "He don't drink coffee.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["He does not drink coffee.", "He do not drink coffee.", "He does not drinks coffee."],
+      "correctIndex": 0,
+      "explanation": "Use does not with he, then use the base verb drink.",
+      "arabicNote": "بعد does not لا نضيف s للفعل.",
+      "weakTag": "present_simple_negative"
+    },
+    {
+      "id": "ps_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ English after class.",
+      "promptAr": "اختر الفعل الصحيح مع they.",
+      "options": ["study", "studies", "studying", "does"],
+      "correctIndex": 0,
+      "explanation": "Use the base verb study with they.",
+      "arabicNote": "مع they لا نستخدم studies.",
+      "weakTag": "present_simple_base_verb"
+    },
+    {
+      "id": "ps_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which question is correct?",
+      "promptAr": "أي سؤال صحيح؟",
+      "options": ["Does he study English?", "Do he study English?", "Does he studies English?"],
+      "correctIndex": 0,
+      "explanation": "Use does with he in questions, and keep the main verb as study.",
+      "arabicNote": "في السؤال: Does + he + الفعل الأساسي.",
+      "weakTag": "present_simple_question"
+    },
+    {
+      "id": "ps_q9",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["every", "reads", "She", "day."],
+      "correctOrder": [2, 1, 0, 3],
+      "explanation": "The correct sentence is She reads every day.",
+      "arabicNote": "نبدأ بالفاعل She ثم الفعل reads.",
+      "weakTag": "present_simple_word_order"
+    },
+    {
+      "id": "ps_q10",
+      "type": "meaning_match",
+      "prompt": "Match each phrase to its Arabic meaning.",
+      "promptAr": "صل كل عبارة بمعناها.",
+      "pairs": [
+        { "left": "she works", "right": "هي تعمل" },
+        { "left": "he does not drink", "right": "هو لا يشرب" },
+        { "left": "they study", "right": "هم يدرسون" }
+      ],
+      "explanation": "These phrases show the main present simple patterns: third-person -s, does not, and base verb with they.",
+      "arabicNote": "لاحظ الفرق بين works مع she و study مع they.",
+      "weakTag": "present_simple_meaning"
+    }
+  ]
+}

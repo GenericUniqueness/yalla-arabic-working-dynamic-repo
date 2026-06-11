@@ -1,0 +1,238 @@
+{
+  "id": "first_conditional",
+  "category": "b1_core",
+  "titleEn": "First Conditional",
+  "titleAr": "الشرط الأول",
+  "level": "B1",
+  "explanationEn": "Use the first conditional for real future possibilities: if + present simple in the condition, then will + base verb in the result. Often add a time word to show a personal future. Example: It will rain tonight.",
+  "explanationAr": "الشرط الأول يعبر عن احتمال حقيقي في المستقبل: if + المضارع البسيط في جملة الشرط ثم will + الفعل في النتيجة. المتحدثون العرب قد ينسخون ترتيبًا عربيًا أو يحذفون أدوات المساعدة، أو يضعون will داخل if، فجعل الأفعال والأدوات صحيحة بالترتيب مهم لتجنب هذا الطرح.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "إذا أمطرت الليلة، سأبقى في البيت.",
+      "arabicLiteral": "If rains tonight, I stay at home.",
+      "englishCorrect": "If it rains tonight, I will stay inside."
+    },
+    {
+      "arabicStructure": "إذا أنهيت عملي مبكرًا، سأتصل بك غدًا.",
+      "arabicLiteral": "If I finish my work early, I will call you tomorrow.",
+      "englishCorrect": "If I finish my work early, I will call you tomorrow."
+    },
+    {
+      "arabicStructure": "إذا كان لدي وقت الأسبوع القادم، سأساعدك في المشروع.",
+      "arabicLiteral": "If I have time next week, I help you with the project.",
+      "englishCorrect": "If I have time next week, I will help you with the project."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If he will call, I will answer tonight.",
+      "correct": "If he calls, I will answer tonight.",
+      "explanationEn": "Do not use will in the if-clause; use present simple in the condition and will for the result tonight.",
+      "explanationAr": "الخطأ وضع will داخل جملة if. بعد if نستخدم المضارع البسيط (calls) ثم نستخدم will في النتيجة الليلة. هذا يحدث لأن العربية لا تستخدم نفس أدوات المساعدة في نفس الموضع."
+    },
+    {
+      "wrong": "If I will have time tomorrow, I go to the market.",
+      "correct": "If I have time tomorrow, I will go to the market.",
+      "explanationEn": "The condition needs present simple and the result must use will + base verb for a personal future tomorrow.",
+      "explanationAr": "الخطأ وضع will في جملة الشرط ثم غياب will في النتيجة. مع كلمة زمن مثل «غدًا» نستخدم المضارع بعد if ثم will + الفعل في النتيجة."
+    },
+    {
+      "wrong": "If the bus arrives on time, we get to work tomorrow.",
+      "correct": "If the bus arrives on time, we will get to work tomorrow.",
+      "explanationEn": "The condition can mention the bus time, and the future result needs will + base verb: will get.",
+      "explanationAr": "الخطأ ليس في مكان كلمة tomorrow بل في غياب will في النتيجة. يمكن قول: If the bus arrives on time, we will get to work tomorrow."
+    },
+    {
+      "wrong": "If it rains tonight, we staying inside.",
+      "correct": "If it rains tonight, we will stay inside.",
+      "explanationEn": "The result must be will + base verb; a bare -ing without an auxiliary is ungrammatical for this future result.",
+      "explanationAr": "أحيانًا تُحذف أدوات المساعدة وتُستخدم صيغة -ing بسبب الترجمة الحرفية. النتيجة المستقبلية الصحيحة تحتاج will + الفعل للحفاظ على بنية الشرط الأولى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "first_q1",
+      "type": "multiple_choice",
+      "prompt": "If it rains tonight, ____.",
+      "promptAr": "اختر نهاية الجملة الصحيحة لتعبر عن نتيجة محتملة الليلة.",
+      "explanation": "Use present after if and will + verb for the result that happens tonight.",
+      "arabicNote": "بعد if نضع المضارع في جملة الشرط. وجود كلمة زمنية مثل «الليلة» يبيّن أن النتيجة مستقبلية شخصية، لذلك نستخدم will في النتيجة. تجنّب حذف will أو استخدام الماضي.",
+      "weakTag": "first_conditional_form",
+      "options": [
+        "we will stay inside.",
+        "we stays inside.",
+        "we stayed inside.",
+        "we will staying inside."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows a real future possibility?",
+      "promptAr": "أي جملة تصف احتمالًا حقيقيًا في المستقبل بشكل صحيح؟",
+      "explanation": "Choose the sentence with present after if and will in the result.",
+      "arabicNote": "الجملة الصحيحة تستخدم المضارع بعد if ثم will في النتيجة. المتحدثون بالعربية قد يضعون will داخل if أو يغيرون ترتيب الكلمات. انتبه للتركيب الصحيح.",
+      "weakTag": "first_conditional_word_order",
+      "options": [
+        "If she studies tonight, she will pass tomorrow.",
+        "If she study tonight, she will pass tomorrow.",
+        "If she would study tonight, she will pass tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "If we ____ early tomorrow, we will catch the first bus.",
+      "promptAr": "اختر شكل الفعل الصحيح بعد if لتعبر عن احتمال غدًا.",
+      "explanation": "Use the present simple form after if for a future possibility tomorrow.",
+      "arabicNote": "يميل المتعلمون إلى وضع will داخل if أو استخدام الماضي. هنا نحتاج المضارع 'leave' بعد if ثم will في النتيجة لأن 'غدًا' يحدد زمنًا مستقبليًا شخصيًا.",
+      "weakTag": "first_conditional_fill_present",
+      "options": [
+        "leave",
+        "will leave",
+        "left",
+        "leaved"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول الرد الليلة.",
+      "explanation": "Remove will from the if-clause; use present simple 'calls' for the condition.",
+      "arabicNote": "في جملة if نستخدم المضارع البسيط. خطأ شائع أن يضع المتحدثون العرب will داخل if. استبدل 'will call' بـ 'calls' في الشرط مع الحفاظ على will في النتيجة الليلة.",
+      "weakTag": "first_conditional_fix_will",
+      "options": [
+        "If he calls, I will answer tonight.",
+        "If he call, I will answer tonight.",
+        "If he will be call, I will answer tonight."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If he will call, I will answer tonight."
+    },
+    {
+      "id": "first_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a first conditional sentence about the bus. Use 'tomorrow' inside the if-clause.",
+      "promptAr": "رتّب الكلمات لتكوين جملة شرط أول صحيحة عن الباص. ضع كلمة «غدًا» داخل جملة الشرط.",
+      "explanation": "Order the words to make: If the bus arrives on time tomorrow, we will catch it.",
+      "arabicNote": "في هذا التمرين ضع «غدًا» داخل جملة الشرط بعد 'time'. الهدف توضيح أن كلمة الزمن تنتمي إلى الشرط وأن النتيجة تحتاج will + الفعل.",
+      "weakTag": "first_conditional_order",
+      "words": [
+        "If",
+        "the",
+        "bus",
+        "arrives",
+        "on",
+        "time",
+        "tomorrow",
+        "we",
+        "will",
+        "catch",
+        "it"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "first_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "وَصِل كل جملة إنجليزية بمعناها العربي المناسب.",
+      "explanation": "If + present shows the condition; will + verb shows the likely future result.",
+      "arabicNote": "وصل الجمل لتتأكد أن if + المضارع يعطي الشرط وأن النتيجة تُبنى بـ will + الفعل. تجنّب الترجمة الحرفية التي تضع will داخل if لأنها تغيّر البنية والمعنى.",
+      "weakTag": "first_conditional_meaning",
+      "pairs": [
+        {
+          "left": "If I finish my work early, I will call you tomorrow.",
+          "right": "إذا أنهيت عملي مبكرًا، سأتصل بك غدًا."
+        },
+        {
+          "left": "If it rains tonight, we will stay inside.",
+          "right": "إذا أمطرت الليلة، سنبقى داخل المنزل."
+        },
+        {
+          "left": "If I have time next week, I will help you with the project.",
+          "right": "إذا كان لدي وقت الأسبوع القادم، سأساعدك في المشروع."
+        }
+      ]
+    },
+    {
+      "id": "first_q7",
+      "type": "multiple_choice",
+      "prompt": "If you study tonight, ____ the test tomorrow.",
+      "promptAr": "أكمل الجملة بشأن نتيجة محتملة للامتحان غدًا.",
+      "explanation": "Use will + base verb as the result after if + present for a likely future.",
+      "arabicNote": "في العربية قد تُذكر النتيجة بدون will، لكن مع ذكر زمن شخصي مثل «غدًا» نستخدم will + الفعل في النتيجة لتوضيح نتيجة متوقعة عن الاختبار.",
+      "weakTag": "first_conditional_will_result",
+      "options": [
+        "you will pass",
+        "you passed",
+        "you will passed",
+        "you passing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is a correct first conditional about help tomorrow?",
+      "promptAr": "أي جملة صحيحة كشرط أول عن المساعدة غدًا؟",
+      "explanation": "Select the sentence with present after if and will for the future result.",
+      "arabicNote": "شائع أن يخطئ المتعلمون في اتفاق الفاعل أو وضع will داخل if. الجواب الصحيح يحتوي 'is free' بعد if ثم 'will help' في النتيجة لأن الحديث عن مساعدة شخصية غدًا.",
+      "weakTag": "first_conditional_subject_verb",
+      "options": [
+        "If my brother is free tomorrow, he will help me.",
+        "If my brother are free tomorrow, he will help me.",
+        "If my brother will be free tomorrow, he helps me."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "If I ____ enough money next week, I will buy a new phone.",
+      "promptAr": "اختر شكل الفعل الصحيح بعد if للتعبير عن احتمال شراء الأسبوع القادم.",
+      "explanation": "Use present simple 'have' after if for a planned future possibility next week.",
+      "arabicNote": "في العربية قد تُستخدم تراكيب مختلفة للتعبير عن الامتلاك المستقبلي. بالإنجليزية نضع المضارع 'have' بعد if ثم will في النتيجة لأن 'الأسبوع القادم' يحدد زمنًا مستقبليًا شخصيًا.",
+      "weakTag": "first_conditional_present_choice",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "am having"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "first_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Find the best correction for the wrong sentence about tomorrow's match.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول المباراة غدًا.",
+      "explanation": "Use present simple in the if-clause and will + base verb in the result.",
+      "arabicNote": "الغد يجعل الشرط مستقبليًا، لكن بعد if نستخدم المضارع البسيط: study. لا نستخدم studied ولا studies مع الجمع they.",
+      "weakTag": "first_conditional_fix_tense",
+      "options": [
+        "If they study hard, they will win the match tomorrow.",
+        "If they will study hard, they will win the match tomorrow.",
+        "If they studies hard, they will win the match tomorrow."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If they studied hard, they will win the match tomorrow."
+    }
+  ]
+}

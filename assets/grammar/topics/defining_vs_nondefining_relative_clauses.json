@@ -1,0 +1,231 @@
+{
+  "id": "defining_vs_nondefining_relative_clauses",
+  "category": "b2_expansion",
+  "titleEn": "Defining vs Non-defining Relative Clauses",
+  "titleAr": "جمل الوصل المحددة وغير المحددة",
+  "level": "B2",
+  "explanationEn": "Defining clauses identify which person or thing we mean; non-defining clauses add extra information about a known person or thing. Non-defining clauses are set off with commas and usually use who/which/whose. Choosing commas and the correct relative pronoun changes the sentence meaning.",
+  "explanationAr": "تُميِّز جمل الوصل المحددة الشخص أو الشيء المراد بدون فواصل، بينما تضيف الجمل غير المحددة معلومات إضافية وتُحاط بفواصل. المتحدثون العرب قد يترجمون مباشرة من العربية بدون فواصل أو أدوات ربط واضحة، فتتغير دلالة الجملة في الإنجليزية. انتبه لاختلاف ترتيب الفواصل وكلمات الوصل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الرجل الذي يعيش هنا معلم.",
+      "arabicLiteral": "الرجل الذي يعيش هنا معلم",
+      "englishCorrect": "The man who lives here is a teacher."
+    },
+    {
+      "arabicStructure": "الكتاب، الذي اشتريته أمس، مفيد.",
+      "arabicLiteral": "الكتاب، الذي اشتريته أمس، مفيد",
+      "englishCorrect": "The book, which I bought yesterday, is helpful."
+    },
+    {
+      "arabicStructure": "الطلاب الذين أنهوا الاختبار غادروا.",
+      "arabicLiteral": "الطلاب الذين أنهوا الاختبار غادروا",
+      "englishCorrect": "The students who finished early went home."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The man which lives here is a teacher.",
+      "correct": "The man who lives here is a teacher.",
+      "explanationEn": "Use who for people. Using which for a person is incorrect in standard English.",
+      "explanationAr": "مع الأشخاص نستخدم who وليس which. خطأ شائع أن ينسخ المتعلمون which من الترجمة الحرفية من العربية."
+    },
+    {
+      "wrong": "My uncle which is a carpenter visited us.",
+      "correct": "My uncle, who is a carpenter, visited us.",
+      "explanationEn": "Commas show the clause is extra information about a known person; no commas change the meaning.",
+      "explanationAr": "نستخدم who مع الشخص، ونضع فواصل عندما تكون جملة الوصل معلومة إضافية.",
+      "explanation": "Use who for a person, and use commas when the relative clause adds extra information."
+    },
+    {
+      "wrong": "The book, who I bought yesterday, is helpful.",
+      "correct": "The book, which I bought yesterday, is helpful.",
+      "explanationEn": "Using commas plus which shows the book is already known and the clause is extra information.",
+      "explanationAr": "نستخدم which مع الشيء في جملة وصل غير محددة.",
+      "explanation": "Use which for a thing in a non-defining relative clause."
+    },
+    {
+      "wrong": "Who lives here the man is a teacher.",
+      "correct": "The man who lives here is a teacher.",
+      "explanationEn": "Copying Arabic word order makes the sentence ungrammatical in English.",
+      "explanationAr": "نقل ترتيب الكلمات العربي يؤدي إلى جملة غير صحيحة في الإنجليزية. يجب أن يأتي الفاعل ثم جملة الوصل الصحيحة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "dnrc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence that adds extra, non-essential information about one sister (use commas).",
+      "promptAr": "اختر الجملة التي تضيف معلومات إضافية غير ضرورية عن الأخت (استخدم الفواصل).",
+      "explanation": "Use who for people. Whose shows possession, so it cannot replace who in this sentence.",
+      "arabicNote": "المعلومة الغير ضرورية تحاط بفواصل ونستخدم who مع الأشخاص. المتحدثون العرب قد يحذفون الفواصل فتصبح الجملة تعريفية ومختلفة الدلالة.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_meaning",
+      "options": [
+        "My sister, which works at the school, is visiting.",
+        "My sister, who works at the school, is visiting.",
+        "My sister, whose works at the school, is visiting."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dnrc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence gives extra information about the book you already mentioned?",
+      "promptAr": "أي جملة تضيف معلومات إضافية عن الكتاب الذي ذكرته سابقًا؟",
+      "explanation": "Use which for a thing in a non-defining clause: The book, which I bought yesterday, is helpful.",
+      "arabicNote": "الفواصل مع which تشير إلى أن المعلومة إضافية عن كتاب معروف. المتحدثون العرب يميلون لإسقاط الفواصل فتحصل تغييرات في المعنى.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_form",
+      "options": [
+        "The book, who I bought yesterday, is helpful.",
+        "The book, which I bought yesterday, is helpful.",
+        "The book that I bought yesterday is helpful."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dnrc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "The students ___ finished early went home.",
+      "promptAr": "اكمل الفراغ بما يناسب لتكون الجملة عن الطلاب المحددين الذين غادروا مبكرًا.",
+      "explanation": "Choose who for people. The verb after it must agree with the plural noun here: The students who finished early went home.",
+      "arabicNote": "بدون فواصل هذه جملة محددة تعرّف الطلاب الذين غادروا مبكرًا. لا تنقل ترتيب العربية بدون who أو تحطيم بنية الوصل.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_word_order",
+      "options": [
+        "who",
+        "who are",
+        "which",
+        "whose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dnrc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for extra information about a teacher.",
+      "promptAr": "اختر التصحيح الأفضل لإضافة معلومات إضافية غير ضرورية عن المعلم.",
+      "explanation": "Use who for a person in a non-defining relative clause.",
+      "arabicNote": "هذه معلومات إضافية عن المعلم فتُحاط بالفواصل ونستخدم who مع الأشخاص. الترجمة الحرفية قد تجلب which أو حذف الفواصل.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_form",
+      "options": [
+        "The teacher, which is from Egypt, lives near us.",
+        "The teacher, who is from Egypt, lives near us.",
+        "The teacher that is from Egypt lives near us."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "The teacher which is from Egypt lives near us."
+    },
+    {
+      "id": "dnrc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a non-defining sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة وصل غير محددة (المعلومة الإضافية بين فواصل).",
+      "explanation": "Non-defining clause comes between commas after the noun it describes.",
+      "arabicNote": "ضع جملة الوصل بين الفواصل بعد الاسم. في العربية قد لا تظهر وظيفة الفواصل بنفس الوضوح لذلك انتبه لترتيب الكلمات والفواصل.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_word_order",
+      "words": [
+        "The",
+        "book,",
+        "which",
+        "I",
+        "lost,",
+        "was",
+        "useful."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "dnrc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to the Arabic meaning (note meaning change).",
+      "promptAr": "وصل كل جملة إنجليزية بترجمتها العربية المناسبة (لاحظ تغيير المعنى بسبب الفواصل).",
+      "explanation": "Commas show extra information about a known person; no commas show which person you mean.",
+      "arabicNote": "الفواصل تُغيّر الدلالة: بدون فواصل نحدّد مجموعة؛ مع الفواصل نضيف معلومات عن شخص معروف مسبقًا. هذا يختلف عن بعض تراكيب العربية المرنة.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_meaning",
+      "pairs": [
+        {
+          "left": "My brother who lives in Cairo is a doctor.",
+          "right": "أخي الذي يعيش في القاهرة هو طبيب (أتحدث عن أخٍ من مجموعة)."
+        },
+        {
+          "left": "My only brother, who lives in Cairo, is a doctor.",
+          "right": "أخي الوحيد، الذي يعيش في القاهرة، هو طبيب (أضيف معلومة عن شخص معروف)."
+        },
+        {
+          "left": "The guests who arrived late missed the meeting.",
+          "right": "الضيوف الذين وصلوا متأخرين فوّتوا الاجتماع (تحديد مجموعة معينة من الضيوف)."
+        }
+      ]
+    },
+    {
+      "id": "dnrc_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence that clearly gives extra information about the bag (non-essential).",
+      "promptAr": "اختر الجملة التي تضيف معلومات إضافية غير ضرورية عن الحقيبة.",
+      "explanation": "Use which for a thing in a non-defining clause: I returned the bag, which I found on the bus, to the owner.",
+      "arabicNote": "الفواصل مع which تشير إلى أن الجملة بين الفواصل معلومات إضافية. في العربية قد لا تحتاج الفواصل لذلك انتبه لوجودها في الإنجليزية.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_form",
+      "options": [
+        "I returned the bag that I found on the bus.",
+        "I returned the bag, who I found on the bus, to the owner.",
+        "I returned the bag, which I found on the bus, to the owner.",
+        "I returned the bag, that I found on the bus, to the owner."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "dnrc_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence says that every colleague works at the office (the speaker describes all colleagues)?",
+      "promptAr": "أي جملة تقول إن جميع الزملاء يعملون في المكتب (المتحدث يصف الجميع)؟",
+      "explanation": "Use who for people, and use commas when the clause adds extra information about the whole known group.",
+      "arabicNote": "الفواصل هنا تُظهر وصفًا عامًا لجميع الزملاء. المتحدثون العرب قد يكتبون بدون فواصل فتتغير الدلالة إلى مجموعة معينة.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_meaning",
+      "options": [
+        "My colleagues, which work at the office, are friendly.",
+        "My colleagues, who work at the office, are friendly.",
+        "My colleagues that work at the office are friendly."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dnrc_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Tom, ___ car is red, arrived early.",
+      "promptAr": "اكمل الفراغ بكلمة الوصل الصحيحة لبيان الملكية في جملة غير محددة.",
+      "explanation": "Use whose for possession in a non-defining clause with commas.",
+      "arabicNote": "للتعبير عن الملكية في جمل غير محددة نستخدم whose مع الفواصل. لا تترجم حرفياً من العربية بدون whose.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_form",
+      "options": [
+        "whose",
+        "who",
+        "that",
+        "which"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dnrc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a non-defining clause about an aunt.",
+      "promptAr": "اختر التصحيح الأفضل لجملة وصل غير محددة عن العمة.",
+      "explanation": "Use who for a person in a non-defining relative clause: My aunt, who lives in Jeddah, told me the news.",
+      "arabicNote": "في الجملة غير المحددة نستخدم who مع الفواصل. المتعلمون العرب قد يستخدمون that أو يحذفون الفواصل فيتغير المقصود.",
+      "weakTag": "defining_vs_nondefining_relative_clauses_form",
+      "options": [
+        "My aunt that lives in Jeddah told me the news.",
+        "My aunt, who lives in Jeddah, told me the news.",
+        "My aunt, which lives in Jeddah, told me the news."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "My aunt, that lives in Jeddah, told me the news."
+    }
+  ]
+}

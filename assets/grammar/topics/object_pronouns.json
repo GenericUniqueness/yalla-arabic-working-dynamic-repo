@@ -1,0 +1,226 @@
+{
+  "id": "object_pronouns",
+  "category": "basics",
+  "titleEn": "Object Pronouns",
+  "titleAr": "ضمائر المفعول به",
+  "level": "A1",
+  "explanationEn": "Object pronouns are used after verbs and prepositions. They include me, you, him, her, it, us, and them. In English, we do not use subject pronouns like I or he after verbs. This is different from Arabic, where object pronouns can be attached to verbs.",
+  "explanationAr": "تستخدم ضمائر المفعول به بعد الأفعال وحروف الجر مثل me وyou وhim وher وit وus وthem. في الإنجليزية، لا نستخدم ضمائر الفاعل مثل I أو he بعد الأفعال، وهذا يختلف عن العربية حيث يمكن أن تُلحق الضمائر بالأفعال.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أرى علي.",
+      "arabicLiteral": "I see Ali.",
+      "englishCorrect": "I see him."
+    },
+    {
+      "arabicStructure": "مونا مع سارة.",
+      "arabicLiteral": "Mona is with Sara.",
+      "englishCorrect": "Mona is with her."
+    },
+    {
+      "arabicStructure": "الكتب هنا.",
+      "arabicLiteral": "The books are here.",
+      "englishCorrect": "I need them."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I see he.",
+      "correct": "I see him.",
+      "explanationEn": "Using 'he' instead of 'him' is a common mistake because Arabic often attaches pronouns to verbs.",
+      "explanationAr": "استخدام 'he' بدلاً من 'him' خطأ شائع لأن العربية تلحق الضمائر بالأفعال."
+    },
+    {
+      "wrong": "Give to her.",
+      "correct": "Give it to her.",
+      "explanationEn": "Missing the object 'it' before 'to her' is a mistake since English needs a clear object.",
+      "explanationAr": "عدم وجود الكائن 'it' قبل 'to her' خطأ لأن الإنجليزية تحتاج إلى كائن واضح."
+    },
+    {
+      "wrong": "I want she.",
+      "correct": "I want her.",
+      "explanationEn": "Using 'she' instead of 'her' is incorrect because 'her' is the object pronoun.",
+      "explanationAr": "استخدام 'she' بدلاً من 'her' غير صحيح لأن 'her' هو ضمير المفعول به."
+    },
+    {
+      "wrong": "They are with I.",
+      "correct": "They are with me.",
+      "explanationEn": "Using 'I' instead of 'me' is incorrect after the preposition 'with'.",
+      "explanationAr": "استخدام 'I' بدلاً من 'me' غير صحيح بعد حرف الجر 'with'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "op_q1",
+      "type": "multiple_choice",
+      "prompt": "I see Ali. I see ___.",
+      "promptAr": "أرى علي. أرى ___.",
+      "explanation": "Use 'him' after the verb 'see'.",
+      "arabicNote": "نستخدم 'him' بعد الفعل 'see'.",
+      "weakTag": "object_pronouns_pronoun_usage",
+      "options": [
+        "him",
+        "he",
+        "his"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "op_q2",
+      "type": "multiple_choice",
+      "prompt": "Mona is with Sara. Mona is with ___.",
+      "promptAr": "مونا مع سارة. مونا مع ___.",
+      "explanation": "Use 'her' after the preposition 'with'.",
+      "arabicNote": "نستخدم 'her' بعد حرف الجر 'with'.",
+      "weakTag": "object_pronouns_pronoun_usage",
+      "options": [
+        "her",
+        "she",
+        "hers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "op_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "The books are here. I need ___.",
+      "promptAr": "الكتب هنا. أحتاج ___.",
+      "explanation": "Use 'them' for plural objects.",
+      "arabicNote": "نستخدم 'them' للأشياء الجمع.",
+      "weakTag": "object_pronouns_pronoun_usage",
+      "options": [
+        "them",
+        "they",
+        "it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "op_q4",
+      "type": "fill_blank_with_options",
+      "prompt": "I want to see Ali and Sara. I want to see ___.",
+      "promptAr": "أريد رؤية علي وسارة. أريد رؤية ___.",
+      "explanation": "Use 'them' for multiple people.",
+      "arabicNote": "نستخدم 'them' لشخصين أو أكثر.",
+      "weakTag": "object_pronouns_pronoun_usage",
+      "options": [
+        "them",
+        "they",
+        "us"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "op_q5",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'I see him.' is correct because 'him' is the object pronoun.",
+      "arabicNote": "'I see him.' صحيحة لأن 'him' هو ضمير المفعول به.",
+      "weakTag": "object_pronouns_correct_sentence",
+      "options": [
+        "I see he.",
+        "I see him.",
+        "I see they."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "op_q6",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'Give it to her.' is correct because it includes the object.",
+      "arabicNote": "'Give it to her.' صحيحة لأنها تتضمن الكائن.",
+      "weakTag": "object_pronouns_correct_sentence",
+      "options": [
+        "Give to her.",
+        "Give it to her.",
+        "Give her."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "op_q7",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order: 'give', 'to', 'me', 'the book'.",
+      "promptAr": "رتب الكلمات لتكوين جملة صحيحة: 'أعطِ'، 'الكتاب'، 'إليّ'.",
+      "explanation": "The correct sentence is 'Give the book to me.'",
+      "arabicNote": "الجملة الصحيحة هي 'Give the book to me.'.",
+      "weakTag": "object_pronouns_sentence_order",
+      "words": [
+        "Give",
+        "the",
+        "book",
+        "to",
+        "me."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "op_q8",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'I want her.' is correct because 'her' is the object pronoun.",
+      "arabicNote": "'I want her.' صحيحة لأن 'her' هو ضمير المفعول به.",
+      "weakTag": "object_pronouns_fix_mistake",
+      "options": [
+        "I want her.",
+        "I want she.",
+        "I want they."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I want she."
+    },
+    {
+      "id": "op_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'They are with me.' is correct because 'me' is the object pronoun.",
+      "arabicNote": "'They are with me.' صحيحة لأن 'me' هو ضمير المفعول به.",
+      "weakTag": "object_pronouns_fix_mistake",
+      "options": [
+        "They are with me.",
+        "They are with I.",
+        "They with I."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They are with I."
+    },
+    {
+      "id": "op_q10",
+      "type": "meaning_match",
+      "prompt": "Match each object phrase to its Arabic meaning.",
+      "promptAr": "صل كل عبارة بمعناها العربي.",
+      "explanation": "Object pronouns are used after verbs and prepositions, as in 'to me' and 'to him'.",
+      "arabicNote": "هذه العبارات توضح ضمائر المفعول بعد حرف جر، حتى لا نخلط بين me و I.",
+      "weakTag": "object_pronouns_meaning",
+      "pairs": [
+        {
+          "left": "to me",
+          "right": "لي / إليّ"
+        },
+        {
+          "left": "to him",
+          "right": "له / إليه"
+        },
+        {
+          "left": "to her",
+          "right": "لها / إليها"
+        },
+        {
+          "left": "to them",
+          "right": "لهم / إليهم"
+        }
+      ]
+    }
+  ]
+}

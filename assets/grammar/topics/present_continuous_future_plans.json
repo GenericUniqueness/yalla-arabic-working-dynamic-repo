@@ -1,0 +1,224 @@
+{
+  "id": "present_continuous_future_plans",
+  "category": "a2_core",
+  "titleEn": "Present Continuous for Future Plans",
+  "titleAr": "المضارع المستمر للخطط المستقبلية",
+  "level": "A2",
+  "explanationEn": "Use the present continuous (am/is/are + verb-ing) to talk about arranged future plans with a clear future time expression. Include a time word like tomorrow, next week, or on Friday. This form shows a fixed arrangement already decided or scheduled.",
+  "explanationAr": "نستخدم المضارع المستمر (am/is/are + الفعل بصيغة -ing) للتحدث عن خطط مستقبلية مرتبة مع كلمة زمنية واضحة مثل غدًا أو الأسبوع المقبل أو يوم الجمعة. في العربية قد نحذف أداة المساعدة أو نعبّر بطرق زمنية مختلفة، لكن في الإنجليزية يجب وجود am/is/are و‑ing لتوضيح أن الخطة مقررة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أقابل سارة غدًا.",
+      "arabicLiteral": "I meet Sara tomorrow.",
+      "englishCorrect": "I am meeting Sara tomorrow."
+    },
+    {
+      "arabicStructure": "نحن نزور عمي يوم الجمعة.",
+      "arabicLiteral": "We visit my uncle on Friday.",
+      "englishCorrect": "We are visiting my uncle on Friday."
+    },
+    {
+      "arabicStructure": "هو يذهب إلى السوق غدًا.",
+      "arabicLiteral": "He goes to the market tomorrow.",
+      "englishCorrect": "He is going to the market tomorrow."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I meeting my friend tomorrow.",
+      "correct": "I am meeting my friend tomorrow.",
+      "explanationEn": "Learners often omit the auxiliary verb. English requires am/is/are before the -ing form for present continuous plans.",
+      "explanationAr": "يميل المتعلمون إلى حذف الفعل المساعد. الإنجليزية تتطلب am/is/are قبل شكل -ing في المضارع المستمر للتعبير عن خطة."
+    },
+    {
+      "wrong": "We are visit my uncle on Friday.",
+      "correct": "We are visiting my uncle on Friday.",
+      "explanationEn": "After am/is/are the main verb must be in -ing form. 'visit' must change to 'visiting'.",
+      "explanationAr": "بعد am/is/are يجب أن يكون الفعل بصيغة -ing. يجب تحويل 'visit' إلى 'visiting'."
+    },
+    {
+      "wrong": "She is go to the market tomorrow.",
+      "correct": "She is going to the market tomorrow.",
+      "explanationEn": "The base verb 'go' is wrong after 'is'. Use the -ing form 'going' in present continuous planned actions.",
+      "explanationAr": "الفعل الأساسي 'go' غير صحيح بعد 'is'. استخدم صيغة -ing 'going' في المضارع المستمر للخطط."
+    },
+    {
+      "wrong": "They play soccer next week.",
+      "correct": "They are playing soccer next week.",
+      "explanationEn": "Using the simple present here copies Arabic style but misses the continuous structure. Use are + -ing to show a planned activity with a future time word.",
+      "explanationAr": "استخدام المضارع البسيط هنا قد يكون ترجمة حرفية من العربية لكنه يفشل في إظهار البنية المستمرة. استخدم are + -ing لإظهار نشاط مخطط مرتبط بظرف زمني مستقبلي."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pcfp_q1",
+      "type": "multiple_choice",
+      "prompt": "What is the correct form? I ___ my homework tonight.",
+      "promptAr": "ما هو الشكل الصحيح؟ أنا ___ واجبي الليلة.",
+      "explanation": "Use 'am' with 'I' and the -ing form of the verb to make present continuous for a planned action tonight.",
+      "arabicNote": "نستخدم 'am' مع 'I' ثم نضيف الفعل بصيغة -ing عند الحديث عن خطة لليلة.",
+      "weakTag": "pcfp_present_continuous_form",
+      "options": [
+        "am doing",
+        "is doing",
+        "are doing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a planned trip tomorrow?",
+      "promptAr": "أي جملة صحيحة لرحلة مخطط لها غدًا؟",
+      "explanation": "The correct sentence uses 'am going' with 'I' and includes the future time 'tomorrow' to show the arrangement.",
+      "arabicNote": "الجملة الصحيحة تستخدم 'am going' مع 'I' وتحتوي على 'tomorrow' لتوضيح الخطة.",
+      "weakTag": "pcfp_choose_correct_sentence_form",
+      "options": [
+        "I am going to the store tomorrow.",
+        "I going to the store tomorrow.",
+        "I am go to the store tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ a party next week.",
+      "promptAr": "هم ___ حفلة الأسبوع المقبل.",
+      "explanation": "With 'they' use 'are' plus the -ing form to show a planned party next week.",
+      "arabicNote": "مع 'they' نستخدم 'are' ثم الفعل بصيغة -ing عند الحديث عن خطة الأسبوع المقبل.",
+      "weakTag": "pcfp_fill_blank_with_options_form",
+      "options": [
+        "are having",
+        "is having",
+        "am having"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use 'is' with 'he' and the -ing form to make a planned action for tomorrow correct.",
+      "arabicNote": "نستخدم 'is' مع 'he' ثم الفعل بصيغة -ing لتصحيح الجملة عن نشاط مخطط غدًا.",
+      "weakTag": "pcfp_fix_the_mistake_auxiliary",
+      "options": [
+        "He is playing tennis tomorrow.",
+        "He are play tennis tomorrow.",
+        "He playing tennis tomorrow."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He are playing tennis tomorrow."
+    },
+    {
+      "id": "pcfp_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a planned sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة خطة صحيحة.",
+      "explanation": "The subject comes first, then the correct auxiliary and the -ing verb, followed by object and the time word at the end.",
+      "arabicNote": "في الإنجليزية يأتي الفاعل أولاً ثم الفعل المساعد ثم الفعل بصيغة -ing ثم المفعول وزمن الحدث في النهاية.",
+      "weakTag": "pcfp_sentence_order_word_order",
+      "words": [
+        "tomorrow",
+        "am",
+        "I",
+        "meeting",
+        "my",
+        "friend"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        0
+      ]
+    },
+    {
+      "id": "pcfp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. Each English sentence shows a planned future with a time word.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي. كل جملة تظهر خطة مستقبلية مع ظرف زماني.",
+      "explanation": "These sentences use am/is/are + -ing plus a future time word to show planned actions.",
+      "arabicNote": "تظهر هذه الجمل am/is/are + -ing مع ظرف زمني مستقبلي لإظهار نشاط مخطط.",
+      "weakTag": "pcfp_meaning_match_time_expression",
+      "pairs": [
+        {
+          "left": "I am studying tonight.",
+          "right": "أنا أدرس الليلة."
+        },
+        {
+          "left": "We are traveling next month.",
+          "right": "نحن نسافر الشهر القادم."
+        },
+        {
+          "left": "She is cooking on Sunday.",
+          "right": "هي تطبخ يوم الأحد."
+        }
+      ]
+    },
+    {
+      "id": "pcfp_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly shows a plan for tomorrow?",
+      "promptAr": "أي جملة تُظهر خطة لغدًا بشكل صحيح؟",
+      "explanation": "Choose the option with the correct auxiliary for 'they' and a future time word to show a planned activity.",
+      "arabicNote": "اختر الخيار الذي يحتوي على الفعل المساعد الصحيح مع 'they' وكلمة زمنية مستقبلية لتوضيح الخطة.",
+      "weakTag": "pcfp_multiple_choice_time",
+      "options": [
+        "They are going to the cinema tomorrow.",
+        "They going to the cinema tomorrow.",
+        "They is going to the cinema tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a park visit next week?",
+      "promptAr": "أي جملة صحيحة لزيارة الحديقة الأسبوع المقبل؟",
+      "explanation": "The correct sentence uses 'am' with 'I' and the -ing verb plus 'next week' to mark the planned visit.",
+      "arabicNote": "الجملة الصحيحة تستخدم 'am' مع 'I' والفعل بصيغة -ing مع 'next week' لتحديد الخطة.",
+      "weakTag": "pcfp_choose_correct_sentence_time",
+      "options": [
+        "I am going to the park next week.",
+        "I going to the park next week.",
+        "I am go to the park next week."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ a meeting tomorrow.",
+      "promptAr": "هي ___ اجتماع غدًا.",
+      "explanation": "Use 'is' with 'she' and the -ing verb to make the present continuous for a scheduled meeting tomorrow.",
+      "arabicNote": "نستخدم 'is' مع 'she' والفعل بصيغة -ing للجملة عن اجتماع مخطط غدًا.",
+      "weakTag": "pcfp_fill_blank_with_options_auxiliary",
+      "options": [
+        "is having",
+        "are having",
+        "am having"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pcfp_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use 'are' with 'we' and the -ing form to show a planned event. Fix the wrong auxiliary in the sentence.",
+      "arabicNote": "نستخدم 'are' مع 'we' والفعل بصيغة -ing لإظهار حدث مخطط. صحِّح الفعل المساعد الخاطئ.",
+      "weakTag": "pcfp_fix_the_mistake_we",
+      "options": [
+        "We are going to the party.",
+        "We going to the party.",
+        "We is go to the party."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We is going to the party."
+    }
+  ]
+}

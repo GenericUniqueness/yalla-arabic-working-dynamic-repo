@@ -1,0 +1,224 @@
+{
+  "id": "avoiding_ambiguity_complex_sentences",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Avoiding Ambiguity in Complex Sentences",
+  "titleAr": "تجنب الغموض في الجمل المعقدة",
+  "level": "C1",
+  "explanationEn": "Place modifiers, clauses, pronouns, and connectors next to the words they refer to so a sentence has only one clear meaning. English often requires explicit connectors, repeated nouns, or punctuation where Arabic relies on context. Use precision in work, study, and family examples.",
+  "explanationAr": "في العربية يعتمد المتكلمون كثيرًا على السياق والترتيب المرن لربط الأفكار. في الإنجليزية المتقدمة يجب وضع الواصفات، الجمل التابعة، الضمائر، والروابط بجانب العنصر الذي تشير إليه واستخدام الفواصل أو تكرار الأسماء عند اللزوم. هذا يمنع الغموض في جمل العمل أو الدراسة أو العائلة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أعطيت الكتاب للرجل الذي كان يرتدي سترة زرقاء.",
+      "arabicLiteral": "I gave the book to the man who was wearing a blue jacket.",
+      "englishCorrect": "I gave the book to the man who was wearing a blue jacket. (restrictive: the blue-jacketed man is the one who got the book)"
+    },
+    {
+      "arabicStructure": "أعطيت الكتاب للرجل، الذي كان يرتدي سترة زرقاء.",
+      "arabicLiteral": "I gave the book to the man, who was wearing a blue jacket.",
+      "englishCorrect": "I gave the book to the man, who was wearing a blue jacket. (non-restrictive: extra info about the man)"
+    },
+    {
+      "arabicStructure": "بعد التحدث إلى عمر وسامي قرر المدير تغيير الخطة.",
+      "arabicLiteral": "After talking to Omar and Sami, the manager decided to change the plan.",
+      "englishCorrect": "After talking to Omar and Sami, the manager decided to change the plan. (repeat the subject to avoid pronoun ambiguity)"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Walking home, the storm soaked the students.",
+      "correct": "While the students were walking home, the storm soaked them.",
+      "explanationEn": "Attach the walking phrase to the people who did the walking, not to the storm.",
+      "explanationAr": "الواصفة 'Walking home' يجب أن ترتبط بالأشخاص الذين ساروا. في العربية نسمح بترتيب مرن أحيانًا، لكن في الإنجليزية يجب وضع الواصفة بجانب الفاعل الصحيح لتوضيح المعنى."
+    },
+    {
+      "wrong": "The technician fixed it after checking the printer and the scanner.",
+      "correct": "After checking the printer and the scanner, the technician fixed the printer.",
+      "explanationEn": "Name the exact device so 'it' cannot refer to two machines.",
+      "explanationAr": "استخدام 'it' هنا غامض لأن هناك جهازين. في العربية قد يُعتمد على السياق، بينما الإنجليزية المتقدمة تطلب تسمية العنصر المحدد لتجنب الإبهام."
+    },
+    {
+      "wrong": "I replied to the email from the student who missed the deadline.",
+      "correct": "I replied to the email, which was from the student who missed the deadline.",
+      "explanationEn": "Use commas and 'which' for extra information; no comma makes the clause defining instead.",
+      "explanationAr": "الفارق هنا بين جملة تحديدية (بدون فاصلة) ووصف إضافي (بفواصل). الجملة بدون فاصلة تعني أن البريد كان واحدًا من عدة بريدات ويحدده الطالب؛ بوجود الفواصل تصبح العبارة معلومات إضافية عن البريد."
+    },
+    {
+      "wrong": "After talking to Omar and Sami, he decided to change the plan.",
+      "correct": "After talking to Omar and Sami, the manager decided to change the plan.",
+      "explanationEn": "Repeat the subject when a pronoun could refer to more than one person.",
+      "explanationAr": "ضمير 'he' هنا قد يعود لأي شخص تمت الإشارة إليه. في العربية نعتمد على السياق أحيانًا، لكن في الإنجليزية المتقدمة من الأفضل تكرار اسم الفاعل لتفادي الالتباس."
+    }
+  ],
+  "questions": [
+    {
+      "id": "aac_q1",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the dangling modifier.",
+      "promptAr": "اختر التصحيح الأفضل للواصفة المفتوحة (dangling modifier).",
+      "explanation": "Place the modifier next to the people who walked to show who was walking.",
+      "arabicNote": "ضع العبارة الوصفية بجانب الفاعل الصحيح. المتحدثون بالعربية قد يتركون الواصفات بعيدة، لكن الإنجليزية تحتاج الربط المباشر بين الواصفة والفاعل لتفادي الغموض.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_form",
+      "options": [
+        "While the students were walking home, the storm soaked them.",
+        "Walking home, the students soaked the storm.",
+        "The storm walked home and soaked the students."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Walking home, the storm soaked the students."
+    },
+    {
+      "id": "aac_q2",
+      "type": "multiple_choice",
+      "prompt": "Which sentence makes the pronoun 'it' unambiguous after checking two devices?",
+      "promptAr": "أي جملة توضح مرجع الضمير 'it' بعد فحص جهازين؟",
+      "explanation": "Name the specific device instead of using 'it' when more than one is possible.",
+      "arabicNote": "عند وجود جهازين، استخدم اسم الجهاز لتحديد المقصود. في العربية قد نفهم من السياق، لكن الإنجليزية تتطلب مزيدًا من التحديد.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_precision",
+      "options": [
+        "The technician fixed the printer.",
+        "The technician fixed it after checking both devices.",
+        "The technician checked the printer and then left."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aac_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "We postponed the meeting ___ the CEO failed to arrive on time.",
+      "promptAr": "أجلنا الاجتماع ___ فشل المدير التنفيذي في الحضور في الموعد.",
+      "explanation": "'because' expresses the reason clearly; other words change the logical link.",
+      "arabicNote": "اختر رابطًا يوضح السبب. في العربية غالبًا يكفي تسلسل الأحداث، أما الإنجليزية فتحتاج رابط سبب واضح مثل 'because' لشرح سبب التأجيل.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_connectors",
+      "options": [
+        "because",
+        "after",
+        "despite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aac_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses non-restrictive punctuation to add information about the email's sender?",
+      "promptAr": "أي جملة تستخدم فاصلتين لإضافة معلومات وصفية عن مرسل البريد الإلكتروني؟",
+      "explanation": "Non-restrictive commas show extra information about the email's sender.",
+      "arabicNote": "وجود فاصلتين يعني أن العبارة وصفية وليست تحديدية. متحدثو العربية قد يترجمون بدون فواصل، لكن الإنجليزية تغيّر المعنى باستخدام الفواصل.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_meaning",
+      "options": [
+        "I replied to the student's email that missed the deadline.",
+        "I replied to the email, which was from the student who missed the deadline.",
+        "I replied to the email from the deadline, which the student missed."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aac_q5",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي الصحيح.",
+      "explanation": "Choose the Arabic meaning that matches the exact English punctuation and clause type.",
+      "arabicNote": "انظر للفواصل والواصفات والتراكيب. في الإنجليزية الفواصل والروابط تغيّر المعنى بدقة أكثر مما نفعل عادةً في العربية.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_register",
+      "pairs": [
+        {
+          "left": "She handed the book to the man wearing a blue jacket.",
+          "right": "أعطت الكتاب للرجل الذي كان يرتدي سترة زرقاء (الرجل صاحب السترة هو المقصود تحديدًا)."
+        },
+        {
+          "left": "She handed the book to the man, who was wearing a blue jacket.",
+          "right": "أعطت الكتاب لرجل، وكان يرتدي سترة زرقاء (معلومة إضافية عن الرجل، ليس لتحديده)."
+        },
+        {
+          "left": "After talking to Omar and Sami, the manager changed the plan.",
+          "right": "بعد التحدث إلى عمر وسامي، قرر المدير تغيير الخطة (المدير هو الفاعل، ليس عمر أو سامي)."
+        }
+      ]
+    },
+    {
+      "id": "aac_q6",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one clear meaning.",
+      "promptAr": "رتّب الكلمات لتكوين جملة إنجليزية ذات معنى واحد وواضح.",
+      "explanation": "Place 'Only' immediately before the noun it restricts; time adverb goes last.",
+      "arabicNote": "ضع 'Only' قبل العنصر الذي تقيّده. في العربية قد يوضع التقييد في مكان مختلف، لكن الإنجليزية تتطلب وضعه قرب الكلمة المحددة.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_modifier_placement",
+      "words": [
+        "report",
+        "Only",
+        "wrote",
+        "Ahmed",
+        "yesterday",
+        "the"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        2,
+        5,
+        0,
+        4
+      ]
+    },
+    {
+      "id": "aac_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "She is the only student ___ passed every exam.",
+      "promptAr": "هي الطالبة الوحيدة ___ نجحت في كل الامتحانات.",
+      "explanation": "'who' is correct for a defining relative clause modifying a person here.",
+      "arabicNote": "مع الأشخاص في جملة تحديدية نستخدم 'who'. المتحدثون بالعربية قد يترجمون حرفيًا، لكن الإنجليزية تحتاج 'who' في هذه الحالة لتفادي الغموض.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_form",
+      "options": [
+        "who",
+        "which",
+        "whom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aac_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence clearly says the committee recommended the policy, not the candidate?",
+      "promptAr": "أي جملة توضح أن اللجنة هي التي أوصت بالسياسة، وليس المرشح؟",
+      "explanation": "Sentence A puts the recommendation on the committee; commas would change who is credited.",
+      "arabicNote": "ضع انتباهك للفاعل. ترتيب الكلمات وفواصل الجمل يحدد من قام بالفعل. في العربية قد نفهم من الترتيب، لكن الإنجليزية تتطلب تعبيرًا صريحًا.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_meaning",
+      "options": [
+        "The committee recommended the policy; the candidate addressed the meeting.",
+        "The candidate, who recommended the policy, addressed the meeting.",
+        "The candidate recommended the policy addressed the meeting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aac_q9",
+      "type": "multiple_choice",
+      "prompt": "He continued working ___ he felt unwell.",
+      "promptAr": "استمر في العمل ___ أنه شعر بتوعك.",
+      "explanation": "'Although' signals contrast; other connectors change the cause or result relationship.",
+      "arabicNote": "اختر رابطًا واضحًا يدل على التضاد. في العربية قد نربط عبر ترتيب الجملة، بينما الإنجليزية تستخدم رابطًا صريحًا مثل 'although' لتجنب الغموض.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_connectors",
+      "options": [
+        "although",
+        "because",
+        "so"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aac_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction to remove the ambiguous pronoun.",
+      "promptAr": "اختر التصحيح الذي يزيل ضميرًا غامضًا ويُوضّح من اتخذ القرار.",
+      "explanation": "Repeat the subject (the manager) when 'he' could refer to several people.",
+      "arabicNote": "عندما يوجد عدة أشخاص، لا تعتمد على الضمير فقط. في العربية يمكن الاستدلال من السياق، أما الإنجليزية فتفضل تكرار الاسم لتوضيح الفاعل.",
+      "weakTag": "avoiding_ambiguity_complex_sentences_arabic_transfer",
+      "options": [
+        "After talking to Omar and Sami, the manager decided to change the plan.",
+        "After talking to Omar and Sami, they decided to change the plan.",
+        "After talking to Omar and Sami, he and they changed the plan."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "After talking to Omar and Sami, he decided to change the plan."
+    }
+  ]
+}

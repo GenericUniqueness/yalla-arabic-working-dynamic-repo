@@ -1,0 +1,245 @@
+{
+  "id": "modal_perfects",
+  "category": "b2_expansion",
+  "titleEn": "Modal Perfects",
+  "titleAr": "الأفعال الناقصة مع perfect",
+  "level": "B2",
+  "explanationEn": "Modal perfects use must/might/could/should have + past participle to talk about deductions, past possibilities, or regrets about past actions. Use must have for strong deduction, might/could have for possible past events, and should have for regret or advice about a past action. Note the difference from present advice forms like 'You should drink water.' or 'He should not be late.' which use should + base verb.",
+  "explanationAr": "في الإنجليزية نستخدم must/might/could/should + have + التصريف الثالث للفعل للتكهن أو الاحتمال أو الندم على حدث في الماضي. العربية قد تعبر عن هذه المعاني بعبارات أو أزمنة مختلفة، لذلك يجب الانتباه إلى وجود 'have' والتصريف الثالث في الإنجليزية بينما العربية لا تحتاج تلك المساعدة اللفظية بنفس الشكل. قارن ذلك بجمل النصيحة الحاضرة مثل \"You should drink water.\" أو \"He should not be late.\" حيث نستخدم should + الفعل الأساسي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لا بد أنه غادر.",
+      "arabicLiteral": "It must that he left.",
+      "englishCorrect": "He must have left."
+    },
+    {
+      "arabicStructure": "ربما أنه أخذ الطريق الخطأ.",
+      "arabicLiteral": "Perhaps he took the wrong road.",
+      "englishCorrect": "He might have taken the wrong road."
+    },
+    {
+      "arabicStructure": "كان ينبغي أن يأتي مبكراً (ندم على الماضي).",
+      "arabicLiteral": "It was necessary he come early.",
+      "englishCorrect": "He should have come early."
+    },
+    {
+      "arabicStructure": "كان بإمكانها القدوم لكن لم تفعل (فرصة ضائعة).",
+      "arabicLiteral": "She could have come but did not.",
+      "englishCorrect": "She could have come, but she didn't."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She should went to the doctor yesterday.",
+      "correct": "She should have gone to the doctor yesterday.",
+      "explanationEn": "Learners often put a simple past after should instead of should + have + past participle.",
+      "explanationAr": "يميل المتعلمون إلى وضع الماضي البسيط بعد should كما في العربية. الصحيح في الإنجليزية هو should + have + التصريف الثالث."
+    },
+    {
+      "wrong": "They must left early; the lights are off.",
+      "correct": "They must have left early; the lights are off.",
+      "explanationEn": "Missing 'have' makes the sentence ungrammatical for a past deduction.",
+      "explanationAr": "حذف 'have' يجعل الجملة خاطئة لأن الاستنتاج عن الماضي يحتاج must + have + التصريف الثالث."
+    },
+    {
+      "wrong": "He could of finished the work last night.",
+      "correct": "He could have finished the work last night.",
+      "explanationEn": "Writing 'of' instead of 'have' is a common spelling/speaking error; use 'could have'.",
+      "explanationAr": "الخطأ الشائع هو كتابة أو سماع 'of' بدلاً من 'have'. الصيغة الصحيحة هي could + have + التصريف الثالث."
+    },
+    {
+      "wrong": "I might have went to the meeting, but I was late.",
+      "correct": "I might have gone to the meeting, but I was late.",
+      "explanationEn": "After have we must use the past participle 'gone', not the simple past 'went'.",
+      "explanationAr": "بعد have يجب استخدام التصريف الثالث 'gone' وليس 'went'. هذا خطأ شائع عند الترجمة الحرفية من العربية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "moda_q1",
+      "type": "multiple_choice",
+      "prompt": "Context: You saw his empty car space, his packed bag, and his switched-off phone. For a strong deduction about the past, choose the best sentence.",
+      "promptAr": "السياق: وجدت مكان سيارته فارغًا، حقيبته مرتبة، وهاتفه مغلق. اختر الجملة المناسبة لاستنتاج قوي عن الماضي.",
+      "explanation": "Must have shows a strong, certain deduction about what happened in the past.",
+      "arabicNote": "في العربية قد تقول 'لا بد أنه خرج' بدون كلمة مساعدة. في الإنجليزية نحتاج must + have + التصريف الثالث لإظهار الاستنتاج القوي.",
+      "weakTag": "modal_perfects_deduction",
+      "options": [
+        "He must have left early.",
+        "He might have left early.",
+        "He should have left early.",
+        "He could have left early."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Context: You missed the bus and arrived late. Choose the sentence that expresses regret/advice about a past action.",
+      "promptAr": "السياق: فاتتك الحافلة ووصلت متأخرًا. اختر الجملة التي تعبّر عن الندم أو النصيحة عن فعل في الماضي.",
+      "explanation": "Should have shows regret or advice about a past choice you made.",
+      "arabicNote": "في العربية نقول 'كان يجب أن أغادر مبكراً'. في الإنجليزية نستخدم should + have + التصريف الثالث للتعبير عن الندم أو النصيحة الماضية.",
+      "weakTag": "modal_perfects_meaning",
+      "options": [
+        "I should have left earlier.",
+        "I must have left earlier.",
+        "I could have left earlier."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: She wasn't at the meeting. You think it's possible she ___ the wrong exit. Choose the best possibility sentence.",
+      "promptAr": "السياق: لم تحضر الاجتماع. تعتقد أنه من الممكن أنها ___ المخرج الخاطئ. اختر الجملة المناسبة لاحتمال في الماضي.",
+      "explanation": "Might have expresses an uncertain possibility about a past event you can't confirm.",
+      "arabicNote": "اختيار might have مناسب عندما تكون غير متأكد. تجنب حذف have أو استخدام التصريف الخاطئ مثل 'took' بعد have.",
+      "weakTag": "modal_perfects_possibility",
+      "options": [
+        "She might have taken the wrong exit.",
+        "She must have taken the wrong exit.",
+        "She should have taken the wrong exit.",
+        "She could have took the wrong exit."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: They left the office early yesterday because of an emergency.",
+      "promptAr": "السياق: غادروا المكتب مبكرًا البارحة بسبب حالة طارئة. اختر التصحيح الأفضل.",
+      "explanation": "Use should + have + past participle for past advice or regret.",
+      "arabicNote": "الخطأ شائع: استخدام went بعد should. الصحيح هو should + have + gone. العربية قد لا تظهر 'have'، فانتبه لذلك.",
+      "weakTag": "modal_perfects_form",
+      "options": [
+        "They should have gone home earlier yesterday.",
+        "They should have going home earlier yesterday.",
+        "They should went have home earlier yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They should went home earlier yesterday."
+    },
+    {
+      "id": "moda_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a past deduction sentence about forgetting keys this morning.",
+      "promptAr": "رتّب الكلمات لتكوين جملة استنتاجية عن نسيان المفاتيح هذا الصباح.",
+      "explanation": "Correct order: We must have forgotten the keys at home this morning.",
+      "arabicNote": "الترتيب مهم: الفاعل ثم modal ثم have ثم التصريف الثالث. بالعربية قد لا تحتاج كلمة 'have' بنفس الشكل، فاحذر النقل الحرفي.",
+      "weakTag": "modal_perfects_word_order",
+      "words": [
+        "the",
+        "have",
+        "must",
+        "keys",
+        "forgotten",
+        "We",
+        "at",
+        "home",
+        "this",
+        "morning"
+      ],
+      "correctOrder": [
+        5,
+        2,
+        1,
+        4,
+        0,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "moda_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence with its Arabic meaning.",
+      "promptAr": "صل كل جملة بمعناها العربي.",
+      "explanation": "Each modal perfect carries a different past meaning: deduction, possibility, regret, or past ability.",
+      "arabicNote": "مقارنة المعاني تساعد في تمييز must/might/should/could بعد have. لاحظ كيف تختلف التعابير عن العربية أحيانًا.",
+      "weakTag": "modal_perfects_meaning_match",
+      "pairs": [
+        {
+          "left": "He must have missed the train.",
+          "right": "لا بد أنه فاته القطار (استنتاج قوي)."
+        },
+        {
+          "left": "She might have forgotten the meeting.",
+          "right": "ربما نسيت الاجتماع (احتمال غير مؤكد)."
+        },
+        {
+          "left": "You should have told me about the change.",
+          "right": "كان يجب أن تخبرني عن التغيير (ندم/نصيحة عن الماضي)."
+        },
+        {
+          "left": "They could have finished the work sooner.",
+          "right": "كان بإمكانهم إنهاء العمل أبكر (احتمال أو قدرة ماضية)."
+        }
+      ]
+    },
+    {
+      "id": "moda_q7",
+      "type": "multiple_choice",
+      "prompt": "Context: At the party the dessert was ruined and she felt bad. Express regret about her past action (she did not check the oven).",
+      "promptAr": "السياق: في الحفلة تلف الحلوى وشعرت بالسوء. عبّر عن الندم على فعل سابق (لم تراجع الفرن).",
+      "explanation": "Should have + past participle expresses regret about a past action you ought to have done.",
+      "arabicNote": "في العربية نقول 'كان يجب أن تفحص الفرن'. الترجمة الحرفية قد تحذف 'have' في الإنجليزية، لكن هنا نحتاجها.",
+      "weakTag": "modal_perfects_regret",
+      "options": [
+        "She should have checked the oven.",
+        "She must have checked the oven.",
+        "She could have checking the oven.",
+        "She should checked the oven."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Context: You find papers on the floor and the window open after last night's storm. Choose the grammatically correct past deduction sentence.",
+      "promptAr": "السياق: وجدت أوراقًا على الأرض والنافذة مفتوحة بعد عاصفة البارحة. اختر الجملة الصحيحة نحويًا لاستنتاج عن الماضي.",
+      "explanation": "Use must + have + past participle (blown) for a correct past deduction.",
+      "arabicNote": "الاختيارات الخاطئة إما تحذف have أو تستخدم الفعل الخاطئ. هذا خطأ شائع عند الناطقين بالعربية.",
+      "weakTag": "modal_perfects_form_error",
+      "options": [
+        "The wind must have blown the papers off the table.",
+        "The wind must blown the papers off the table.",
+        "The wind must have blow the papers off the table."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: You had the choice to attend a lecture yesterday but stayed home. Complete the sentence: I ___ to the lecture yesterday.",
+      "promptAr": "السياق: كان بإمكانك حضور محاضرة البارحة لكن بقيت في المنزل. أكمل الجملة: I ___ to the lecture yesterday.",
+      "explanation": "Could have + past participle expresses a past possibility or missed opportunity.",
+      "arabicNote": "الخطأ الشائع 'could of' أو استخدام 'went' بعد have. في الإنجليزية الصحيحة نستخدم could + have + التصريف الثالث.",
+      "weakTag": "moda_past_possibility",
+      "options": [
+        "could have gone to the lecture yesterday.",
+        "could of gone to the lecture yesterday.",
+        "could have went to the lecture yesterday.",
+        "must have gone to the lecture yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "moda_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: You call a friend and they are not at home now; you guess they left already.",
+      "promptAr": "السياق: اتصلت بصديق وليس في البيت الآن؛ تتوقع أنه غادر بالفعل. اختر أفضل تصحيح.",
+      "explanation": "Correct form: may/might + have + past participle for a past possibility.",
+      "arabicNote": "الخطأ هنا إضافة 'to' أو حذف 'have'. الإنجليزية تتطلب may/might + have + التصريف الثالث، على خلاف العربية.",
+      "weakTag": "modal_perfects_common_error",
+      "options": [
+        "She may have gone already.",
+        "She may gone have already.",
+        "She might has gone already."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She may have to gone already."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "prepositions_place_expanded",
+  "category": "a2_core",
+  "titleEn": "Place Prepositions Expanded",
+  "titleAr": "حروف الجر المكانية الموسعة",
+  "level": "A2",
+  "explanationEn": "This topic practises common place prepositions: next to, between, behind, in front of, opposite, and near. Focus on the small function words and fixed collocations: for example, 'next to' needs 'to', and 'in front of' requires all three words. Avoid literal Arabic-to-English translation and missing helpers.",
+  "explanationAr": "يقدّم هذا الدرس تدريبًا عمليًا على حروف الجر المكانية الشائعة: next to و between و behind و in front of و opposite و near. نركّز على كلمات الربط الصغيرة والتراكيب الثابتة لأن المتحدثين العرب قد يترجمون حرف الجر حرفيًا أو يحذفون الأدوات اللازمة. نشرح كيف يؤثر ترتيب الكلمات والأدوات على صحة الجملة الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "القط خلف الأريكة.",
+      "arabicLiteral": "The cat behind the sofa",
+      "englishCorrect": "The cat is behind the sofa."
+    },
+    {
+      "arabicStructure": "البنك بجانب المكتبة.",
+      "arabicLiteral": "The bank next the library",
+      "englishCorrect": "The bank is next to the library."
+    },
+    {
+      "arabicStructure": "المقهى مقابل المدرسة.",
+      "arabicLiteral": "The café opposite the school",
+      "englishCorrect": "The café is opposite the school."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The bank is next the library.",
+      "correct": "The bank is next to the library.",
+      "explanationEn": "'Next' must be followed by 'to' to show adjacency. 'Next the library' is incomplete.",
+      "explanationAr": "بعد 'next' نضيف 'to' لإظهار التجاور. 'Next the library' غير مكتملة."
+    },
+    {
+      "wrong": "The school is in front the park.",
+      "correct": "The school is in front of the park.",
+      "explanationEn": "'In front of' requires all three words. Omitting 'of' leaves the phrase incomplete.",
+      "explanationAr": "التعبير 'in front of' يحتاج الكلمات الثلاث. حذف 'of' يجعل العبارة ناقصة."
+    },
+    {
+      "wrong": "The bank is next the coffee shop.",
+      "correct": "The bank is next to the coffee shop.",
+      "explanationEn": "After 'next' you normally need 'to' when showing adjacency. Omitting 'to' changes the phrase into an incomplete fragment and is not standard English for location.",
+      "explanationAr": "بعد 'next' عادةً نضيف 'to' لإظهار التقارب. حذف 'to' يجعل العبارة غير مكتملة وغير صحيحة لوصف الموقع في الإنجليزية."
+    },
+    {
+      "wrong": "He sits near of the teacher.",
+      "correct": "He sits near the teacher.",
+      "explanationEn": "Some learners add an extra 'of' because Arabic uses similar constructs. In English 'near' takes a noun directly; adding 'of' is ungrammatical in this spatial context.",
+      "explanationAr": "يقوم بعض المتعلمين بإضافة 'of' بسبب الترجمة الحرفية من العربية. في الإنجليزية نقول 'near' مباشرة مع الاسم، وإضافة 'of' هنا خطأ نحوي."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ppe_q1",
+      "type": "multiple_choice",
+      "prompt": "The café is _____ the bank and the library; the bank is on one side of the café and the library is on the other.",
+      "promptAr": "اختر حرف الجر الصحيح الذي يدل على أن المقهى يقع في المنتصف بين المبنيين: البنك على جانب والمكتبة على الجانب الآخر.",
+      "explanation": "Use 'between' when a single place lies in the middle of two named places. The extra clause makes the bank on one side and the library on the other, so only 'between' shows the middle position. Other prepositions would place the café beside or behind one of the places and change the meaning.",
+      "arabicNote": "كلمة between تُستخدم عندما يكون شيء ما في الوسط بين مكانين مذكورين. تجنّب الترجمة الحرفية من العربية التي قد تتجاهل ترتيب الكلمات أو اختيار حرف الجر المناسب.",
+      "weakTag": "prepositions_place_expanded_between",
+      "options": [
+        "between",
+        "behind",
+        "next to",
+        "in front of"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppe_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "The kitten hid _____ the sofa when the visitors arrived.",
+      "promptAr": "اختر حرف الجر الذي يدل على أن القط اختبأ في الجهة الخلفية من الأريكة.",
+      "explanation": "Choose 'behind' because it shows the kitten is at the back side of the sofa and likely out of sight. 'Behind' signals a position at the rear of an object. The other choices place the kitten beside, between two objects, or in front, which do not match the idea of hiding at the back.",
+      "arabicNote": "خلف = 'behind' وتدل على وجود شيء في الجهة الخلفية لشيء آخر. انتبه لأن المتحدثين العرب قد يخلطون بين 'behind' و 'next to' عند الترجمة الحرفية.",
+      "weakTag": "prepositions_place_expanded_behind",
+      "options": [
+        "behind",
+        "next to",
+        "between",
+        "in front of"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppe_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct and complete?",
+      "promptAr": "أي جملة صحيحة ومكتملة من حيث تركيب الفاعل والفعل وحرف الجر؟",
+      "explanation": "The full preposition 'in front of' requires all three words to show that something is located before another object. Also a complete sentence needs a subject and a verb. The correct option has the right preposition and full subject-verb order, so it is the only grammatical choice.",
+      "arabicNote": "التركيب الصحيح هنا هو 'in front of' ويجب عدم حذف أي كلمة منه. كما يجب أن تحتوي الجملة على فاعل وفعل. هذا يعالج خطأ شائع عند الترجمة الحرفية من العربية.",
+      "weakTag": "ppe_in_front_of_word_order",
+      "options": [
+        "The car is in front the house.",
+        "The car is in front of the house.",
+        "The car in front of the house."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppe_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: She is at the bus stop now and waiting.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: هي الآن عند موقف الحافلة وتنتظر الوصول.",
+      "explanation": "The sentence needs the auxiliary verb 'is' before the -ing form and the preposition 'for' to show what is being waited for. The complete and natural sentence is 'She is waiting for the bus.' The other options either miss the auxiliary or use the wrong verb form and so are ungrammatical.",
+      "arabicNote": "في العربية قد يُحذف فعل المساعدة أو يختلف تركيب الفعل. في الإنجليزية نستخدم 'is' مع -ing و'for' بعد waiting لتوضيح الشيء الذي ينتظره الشخص.",
+      "weakTag": "ppe_waiting_for_auxiliary",
+      "options": [
+        "She is waiting for the bus.",
+        "She waiting the bus.",
+        "She is wait the bus."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She waiting the bus."
+    },
+    {
+      "id": "ppe_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة إنجليزية طبيعية توضح مكان مبنى بالنسبة لآخر.",
+      "explanation": "The natural word order is Subject + Verb + prepositional phrase. 'The bakery is next to the school' places the subject first, then the verb, then 'next to' with its object. Note that 'next' must be followed by 'to'.",
+      "arabicNote": "رتّب الجملة بالفاعل ثم الفعل ثم عبارة الموقع. لاحظ أن 'next' يجب أن يتبعه 'to'. المتحدثون العرب قد يضعون ترتيبًا عربياً يؤدي إلى فقدان 'to'.",
+      "weakTag": "prepositions_place_expanded_word_order",
+      "words": [
+        "is",
+        "The",
+        "next",
+        "to",
+        "bakery",
+        "the",
+        "school"
+      ],
+      "correctOrder": [
+        1,
+        4,
+        0,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ppe_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English preposition to its Arabic meaning.",
+      "promptAr": "صل كل حرف جر إنجليزي بمعناه العربي المناسب دون تكرار المعاني.",
+      "explanation": "Knowing the common Arabic equivalents helps avoid literal translations that produce wrong prepositions in English. Memorise the typical pairings but remember that English still needs the correct word order and sometimes extra words like 'of' or 'to' are not used.",
+      "arabicNote": "احفظ معاني حروف الجر الشائعة بالعربية لتقليل الأخطاء في الاختيار، لكن لا تترجم حرفيًا دون مراعاة الترتيب والكلمات المضافة اللازمة في الإنجليزية.",
+      "weakTag": "prepositions_place_expanded_meaning",
+      "pairs": [
+        {
+          "left": "behind",
+          "right": "خلف"
+        },
+        {
+          "left": "between",
+          "right": "بين"
+        },
+        {
+          "left": "next to",
+          "right": "بجانب"
+        },
+        {
+          "left": "opposite",
+          "right": "مقابل"
+        }
+      ]
+    },
+    {
+      "id": "ppe_q7",
+      "type": "multiple_choice",
+      "prompt": "My office is a short walk _____ my home; I walk from my home to the office every morning.",
+      "promptAr": "اختر حرف الجر المناسب: العبارة 'a short walk _____ my home' تعبر عن المسافة بدءًا من البيت.",
+      "explanation": "The collocation 'a short walk from' is the natural English pattern to show distance measured from a place. The added clause clarifies the home is the starting point of the walk, so only 'from' fits here. Other prepositions change the relation or do not match the collocation.",
+      "arabicNote": "التعبير الشائع هو 'a short walk from' للدلالة على المسافة بدءًا من مكان معين. المتحدثون العرب قد يستخدمون ترجمة حرفية أو 'near' لكن هنا 'from' هو المناسب.",
+      "weakTag": "ppe_a_short_walk_from",
+      "options": [
+        "from",
+        "near",
+        "between",
+        "behind"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppe_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The small park is _____ the school and the supermarket; the school is on one side of the park and the supermarket is on the opposite side.",
+      "promptAr": "اختر حرف الجر الذي يوضح أن الحديقة تقع في المنتصف بين مبنيين مذكورين: المدرسة على جانب والسوبرماركت على الجانب الآخر.",
+      "explanation": "When a place lies in the middle of two named locations, use 'between'. The added clause states each place is on a different side of the park, so 'between' is uniquely correct. Other prepositions would place the park beside or facing one of the places and do not match the context.",
+      "arabicNote": "استخدم between عندما يكون شيء في المنتصف بين مكانين مذكورين. الجملة الإضافية توضح أن كل مبنى على جانب مختلف من الحديقة، لذا between هو الخيار الوحيد الصحيح.",
+      "weakTag": "ppe_between_location",
+      "options": [
+        "between",
+        "next to",
+        "opposite",
+        "behind"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppe_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses 'opposite' correctly?",
+      "promptAr": "أي جملة تستخدم 'opposite' بشكل صحيح لوصف موقع مقابل مباشرة أمام مكان آخر؟",
+      "explanation": "Use 'opposite' with a verb and a proper noun phrase to show one place faces another across a street. The correct sentence includes the verb 'is' and the definite article with 'supermarket'. The other options omit required words and are ungrammatical.",
+      "arabicNote": "في الإنجليزية عادةً نستخدم 'opposite' مع فعل يربط بين المكانين. لا تحذف الفعل أو تحذف أداة التعريف لأن ذلك يغيّر العلاقة المكانية أو يجعل الجملة غير صحيحة.",
+      "weakTag": "ppe_opposite_usage",
+      "options": [
+        "The post office is opposite the supermarket.",
+        "The post office opposite the supermarket.",
+        "The post office is opposite supermarket."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppe_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: a student sits in class close to the teacher.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: طالب يجلس في الصف على مسافة قريبة من المعلم.",
+      "explanation": "English uses 'near' directly with a noun to show closeness: 'He sits near the teacher.' Adding 'of' after 'near' is a literal translation error and ungrammatical. The corrected sentence keeps the same meaning but fixes the extra preposition.",
+      "arabicNote": "قد يضيف المتعلمون 'of' نتيجة الترجمة الحرفية من العربية. في الإنجليزية نقول 'near the teacher' مباشرة دون 'of' لتحديد القرب.",
+      "weakTag": "ppe_near_of_mistake",
+      "options": [
+        "He sits near the teacher.",
+        "He sits next to of the teacher.",
+        "He sits near of the teacher."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He sits near of the teacher."
+    }
+  ]
+}

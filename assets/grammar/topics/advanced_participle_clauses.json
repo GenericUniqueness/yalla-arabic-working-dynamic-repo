@@ -1,0 +1,233 @@
+{
+  "id": "advanced_participle_clauses",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Participle Clauses",
+  "titleAr": "عبارات اسم الفاعل والمفعول المتقدمة",
+  "level": "C1",
+  "explanationEn": "Use present (-ing), past (past participle), and perfect participle clauses to show time, reason, cause, or result. Put the participle clause next to the correct actor and include a clear time cue so modifiers do not dangle or create ambiguity.",
+  "explanationAr": "تعلّم هذه الوحدة كيفية استخدام عبارات الـ -ing وصيغ المفعول والمركّب having + الماضي لبيان الترتيب والسبب والنتيجة بدقة. بخلاف العربية التي تسمح بمرونة في الإحالة والترتيب، تتطلّب الإنجليزية موضعاً واضحاً للعبارة وذكر فاعل أو مرجع زمني واضح لتجنّب التعليقات المعلقة والإبهام.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنهيت التحضير قبل المحاضرة.",
+      "arabicLiteral": "I finished preparing before the lecture.",
+      "englishCorrect": "Having prepared before the lecture, I answered the questions confidently."
+    },
+    {
+      "arabicStructure": "تلقى الطلاب النتائج وراجعوا إجاباتهم.",
+      "arabicLiteral": "Students received the results and revised answers.",
+      "englishCorrect": "Having received the results yesterday, the students revised their answers."
+    },
+    {
+      "arabicStructure": "الوثائق التي سُلِّمت أمس على مكتبه.",
+      "arabicLiteral": "The documents submitted yesterday are on his desk.",
+      "englishCorrect": "The documents, submitted yesterday, are on his desk."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Having finished the homework, the teacher praised the student last night.",
+      "correct": "Having finished the homework last night, the student received praise from the teacher.",
+      "explanationEn": "A perfect participle must refer to the person who completed the action; otherwise it dangles and attaches to the wrong noun.",
+      "explanationAr": "العبارة having هنا ألصقت الفعل بالمعلم بدلاً من الطالب. في الإنجليزية يجب أن تشير عبارة having بوضوح إلى الفاعل الصحيح لتجنّب اللبس."
+    },
+    {
+      "wrong": "Confused by the new schedule yesterday, the manager postponed the meeting.",
+      "correct": "Because the staff were confused by the new schedule yesterday, the manager postponed the meeting.",
+      "explanationEn": "The participle clause made the manager seem confused. Rephrase or name the real actor to avoid misattachment.",
+      "explanationAr": "التركيب الخاطئ يجعل المدير هو المتحير. في العربية قد تُفهم الجملة رغم ذلك، لكن الإنجليزية تحتاج توضيح الوكيل أو إعادة بناء الجملة."
+    },
+    {
+      "wrong": "Preparing for the exam, the results surprised Ahmed this morning.",
+      "correct": "Preparing for the exam this morning, Ahmed was surprised by his results afterwards.",
+      "explanationEn": "Attach the present participle to the person doing the action so the modifier does not modify the wrong noun.",
+      "explanationAr": "العبارة المصاحبة يجب أن تُرفَق بالشخص الذي قام بالفعل. تجنّب وضع العبارة بعيدًا عن الفاعل لأن ذلك يسبب إبهامًا في الإحالة."
+    },
+    {
+      "wrong": "Having submitted the report yesterday, the copies were signed by Samir.",
+      "correct": "Having submitted the report yesterday, Samir signed the copies.",
+      "explanationEn": "If the perfect participle does not name the actor, it may wrongly attach to an inanimate noun like 'copies'.",
+      "explanationAr": "خطأ الإحالة يجعل 'النسخ' هي التي قدمت التقرير. ضع الفاعل الصحيح بعد عبارة having أو أعد ترتيب الجملة لتوضيح المعنى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "apc_q1",
+      "type": "multiple_choice",
+      "prompt": "Context: Sami had finished preparing before the seminar at 09:00. Which sentence correctly shows his earlier preparation?",
+      "promptAr": "السياق: أنهى سامي تحضيره قبل المحاضرة الساعة 09:00. أي جملة تُظهر تحضيره السابق بدقّة؟",
+      "explanation": "Use 'Having prepared' to show preparation finished before the seminar started.",
+      "arabicNote": "نستخدم having + الماضي لإظهار أن التحضير انتهى قبل المحاضرة؛ هذا يمنع التباس الفاعل والوقت لدى المتحدثين بالعربية. ضع عبارة having بجانب الفاعل الصحيح.",
+      "weakTag": "advanced_participle_clauses_perfect_sequence",
+      "options": [
+        "Preparing for the seminar at 09:00, Sami answered questions confidently.",
+        "Having prepared for the seminar at 09:00, Sami answered questions confidently.",
+        "Having been preparing for the seminar at 09:00, Sami answered questions confidently.",
+        "Prepared by the seminar at 09:00, Sami answered questions confidently."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "By 17:00 the team had received the feedback. Choose the clause that shows the feedback arrived first: ___",
+      "promptAr": "بحلول الساعة 17:00 تلقّى الفريق الملاحظات. اختر العبارة التي تُظهر أن الملاحظات وصلت أولًا: ___",
+      "explanation": "Select 'Having received' to show the reception happened before the team revised the plan.",
+      "arabicNote": "في العربية قد يكفي ذكر الترتيب بمجرّد الربط، لكن الإنجليزية تتطلب having + الماضي لتوضيح أن الاستلام حصل قبل المراجعة وتحدد الفاعل بوضوح.",
+      "weakTag": "apc_perfect_for_sequence",
+      "options": [
+        "Receiving the feedback at 17:00, the team revised the plan.",
+        "Having received the feedback at 17:00, the team revised the plan.",
+        "Received the feedback at 17:00, the team revised the plan."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence without a dangling modifier about last evening's passport application.",
+      "promptAr": "اختر الجملة الخالية من عبارة ملتبسة عن طلب جواز السفر ليلة البارحة.",
+      "explanation": "Place the participle clause next to the person who completed the application to avoid dangling modifiers.",
+      "arabicNote": "فخ شائع: في العربية قد تُترك الإحالة مرنة، لكن الإنجليزية تتطلب وضع عبارة having مباشرة بجانب الفاعل الصحيح لتجنّب الإبهام.",
+      "weakTag": "advanced_participle_clauses_dangling",
+      "options": [
+        "Having finished her passport application last evening, the embassy returned the documents to her.",
+        "Having finished her passport application last evening, she collected the documents from the embassy.",
+        "Finished the passport application last evening, the documents were collected by her."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning. Each sentence includes a participle clause with time information.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي. كل جملة تحتوي على عبارة اسم الفاعل/المفعول مع تحديد زمن.",
+      "explanation": "Match by who performs the action and the time word in each participle clause.",
+      "arabicNote": "اقرأ إشارة الزمن والفاعل في كل جملة؛ هذا يساعد على توصيل العبارة المرفقة بالفاعل الصحيح بدلاً من الاعتماد على الترتيب العربي المرن.",
+      "weakTag": "apc_meaning_match_time_reference",
+      "pairs": [
+        {
+          "left": "Having studied all night, Ahmed passed the exam this morning.",
+          "right": "بعد أن ذاكَر أحمد طوال الليل، نجح في الامتحان هذا الصباح."
+        },
+        {
+          "left": "Confused by the new schedule yesterday, the staff asked for clarification.",
+          "right": "مربكون من الجدول الجديد أمس، طلب الموظفون توضيحًا."
+        },
+        {
+          "left": "Commuting this morning, Lina answered urgent emails on the train.",
+          "right": "بينما كانت في التنقل هذا الصباح، أجابت لينا عن رسائل عاجلة في القطار."
+        }
+      ]
+    },
+    {
+      "id": "apc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in order to express that he completed the report before leaving this afternoon.",
+      "promptAr": "رتّب الكلمات لتوضّح أنه أكمل التقرير قبل المغادرة هذا العصر.",
+      "explanation": "Place the perfect participle clause first to show the report was finished before he left.",
+      "arabicNote": "ضع عبارة having + الماضي أولًا لتوضح أن إتمام التقرير سبق مغادرته هذا العصر؛ هذا يمنع التداخل الذي يحدث عادة عند الترجمة الحرفية من العربية.",
+      "weakTag": "apc_sentence_order_perfect",
+      "words": [
+        "the",
+        "report",
+        "this",
+        "afternoon,",
+        "he",
+        "left.",
+        "Having",
+        "finished"
+      ],
+      "correctOrder": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "apc_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: The manager reviewed the budget before approving changes yesterday.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: راجع المدير الميزانية قبل الموافقة على التغييرات أمس.",
+      "explanation": "Make the participle clause refer to the manager who reviewed; this prevents a dangling modifier.",
+      "arabicNote": "خطأ شائع: ربط عبارة having بالمفعول بدل الفاعل. في الإنجليزية ضع العبارة لتشير إلى الفاعل الحقيقي (المدير) لتكون الإحالة واضحة.",
+      "weakTag": "advanced_participle_clauses_dangling_fix",
+      "options": [
+        "Having reviewed the budget yesterday, the manager approved the changes.",
+        "Reviewed the budget yesterday, the changes were approved by the manager.",
+        "The changes having reviewed the budget yesterday were approved by the manager.",
+        "Having been reviewed the budget yesterday, the changes were approved by the manager."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Having reviewed the budget yesterday, the changes were approved by the manager."
+    },
+    {
+      "id": "apc_q7",
+      "type": "multiple_choice",
+      "prompt": "Context: Jamal replied to emails while he was on the train this morning. Which sentence correctly shows simultaneous action?",
+      "promptAr": "السياق: ردّ جمال على الرسائل أثناء وجوده في القطار هذا الصباح. أي جملة تُظهر فعلاً متزامناً بشكل صحيح؟",
+      "explanation": "Use the present participle 'Commuting' to indicate both actions happened at the same time this morning.",
+      "arabicNote": "استخدم صيغة -ing لتبيّن تزامن فعلين؛ لا تستخدم having لأن having تعني أن التنقل انتهى قبل الرد، وهذا لا يتطابق مع السياق.",
+      "weakTag": "apc_present_simultaneous",
+      "options": [
+        "Commuting on the train this morning, Jamal had replied to his emails.",
+        "Commuting on the train this morning, Jamal replied to his emails.",
+        "Having commuted on the train this morning, Jamal replied to his emails.",
+        "Committed on the train this morning, Jamal replied to his emails."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The files are on Sara's desk. Choose the clause that correctly shows they were handed in yesterday: ___",
+      "promptAr": "الملفات على مكتب سارة. اختر العبارة التي تُظهر أنها سُلِّمت أمس بشكل صحيح: ___",
+      "explanation": "Use the past participle 'submitted yesterday' to indicate a passive action completed yesterday.",
+      "arabicNote": "في العربية قد تُقال الجملة بشكل مقتضب، لكن الإنجليزية تفضّل استخدام الصيغة المبنية للمجهول (submitted) لتبيان الفعل الذي وقع بالأمس دون إحداث إبهام في الإحالة.",
+      "weakTag": "apc_past_participle_passive",
+      "options": [
+        "submitting yesterday, the files are on Sara's desk.",
+        "submitted yesterday, the files are on Sara's desk.",
+        "having submitted yesterday, the files are on Sara's desk.",
+        "having been submitting yesterday, the files are on Sara's desk."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the most precise formal sentence. Context: By noon she had already completed the survey before the meeting.",
+      "promptAr": "اختر الجملة الأكثر دقّة ورسمية. السياق: بحلول الظهر كانت قد أكملت الاستبيان قبل الاجتماع.",
+      "explanation": "Having completed clearly shows the survey was finished before the meeting in formal style.",
+      "arabicNote": "العبارة having + الماضي توفّر أسلوبًا رسميًا وواضحًا يبيّن أن إكمال الاستبيان سبق الاجتماع؛ تجنّب ترتيبًا يترك إشارة الفاعل أو الزمن غير واضحة كما يحدث أحيانًا في العربية.",
+      "weakTag": "advanced_participle_clauses_register",
+      "options": [
+        "Completed the survey by noon, she attended the meeting.",
+        "Having completed the survey by noon, she attended the meeting.",
+        "Having been completing the survey by noon, she attended the meeting."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "apc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: After the workshop yesterday, the students understood the new process.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: بعد الورشة أمس فهم الطلاب العملية الجديدة.",
+      "explanation": "Use a full subject after the opening phrase so the instructor, not the process, is the actor.",
+      "arabicNote": "خطأ شائع: وضع الفعل الماضي بدون having يجعل الإحالة غير واضحة. استخدم having + الماضي لتؤكد أن الشرح وقع قبل التهنئة كما نريد هنا وتبيّن الفاعل بوضوح.",
+      "weakTag": "apc_dangling_and_sequence",
+      "options": [
+        "After the instructor explained the new process yesterday, the students understood it.",
+        "Having explained the new process yesterday, the instructor checked that the students understood it.",
+        "Explained by the new process yesterday, the instructor congratulated the students for understanding.",
+        "The new process having explained yesterday, the students understood it."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "Explained the new process yesterday, the instructor congratulated the students for understanding."
+    }
+  ]
+}

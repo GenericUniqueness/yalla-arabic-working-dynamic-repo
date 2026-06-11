@@ -1,0 +1,220 @@
+{
+  "id": "there_is_there_are",
+  "category": "basics",
+  "titleEn": "There Is and There Are",
+  "titleAr": "استخدام there is و there are",
+  "level": "A1",
+  "explanationEn": "Use 'there is' for one thing and 'there are' for more than one thing. For example, 'There is a book' (one) and 'There are books' (more than one). Arabic often uses 'يوجد' without 'there', which can lead to mistakes.",
+  "explanationAr": "في اللغة الإنجليزية نستخدم 'there is' لشيء واحد و'there are' لأكثر من شيء. على سبيل المثال، 'There is a book' تعني 'يوجد كتاب' و'There are books' تعني 'يوجد كتب'. في العربية، نستخدم 'يوجد' بدون 'there'، مما قد يؤدي إلى أخطاء.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يوجد كتاب",
+      "arabicLiteral": "There is a book",
+      "englishCorrect": "There is a book"
+    },
+    {
+      "arabicStructure": "يوجد كتب",
+      "arabicLiteral": "There are books",
+      "englishCorrect": "There are books"
+    },
+    {
+      "arabicStructure": "يوجد طاولة",
+      "arabicLiteral": "There is a table",
+      "englishCorrect": "There is a table"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "There is books.",
+      "correct": "There are books.",
+      "explanationEn": "Use 'are' for more than one thing.",
+      "explanationAr": "نستخدم 'are' مع أكثر من شيء، مثل 'كتب'."
+    },
+    {
+      "wrong": "There are a cat.",
+      "correct": "There is a cat.",
+      "explanationEn": "Use 'is' for one thing.",
+      "explanationAr": "نستخدم 'is' مع شيء واحد، مثل 'قطة'."
+    },
+    {
+      "wrong": "There is two cars.",
+      "correct": "There are two cars.",
+      "explanationEn": "Use 'are' with numbers greater than one.",
+      "explanationAr": "نستخدم 'are' مع الأعداد أكثر من واحد."
+    },
+    {
+      "wrong": "There is many people.",
+      "correct": "There are many people.",
+      "explanationEn": "Use 'are' with 'many'.",
+      "explanationAr": "نستخدم 'are' مع 'many'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tia_q1",
+      "type": "multiple_choice",
+      "prompt": "___ a dog in the park.",
+      "promptAr": "اختر الجملة الصحيحة.",
+      "explanation": "'There is' is used for one thing.",
+      "arabicNote": "نستخدم 'there is' لشيء واحد.",
+      "weakTag": "there_is_there_are_1",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tia_q2",
+      "type": "multiple_choice",
+      "prompt": "___ three apples on the table.",
+      "promptAr": "اختر الجملة الصحيحة.",
+      "explanation": "'There are' is used for more than one thing.",
+      "arabicNote": "نستخدم 'there are' لأكثر من شيء.",
+      "weakTag": "there_is_there_are_2",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tia_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'There are two dogs' is correct for more than one.",
+      "arabicNote": "نستخدم 'are' مع أكثر من واحد.",
+      "weakTag": "there_is_there_are_3",
+      "options": [
+        "There is two dogs.",
+        "There are two dogs.",
+        "There is a dogs."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tia_q4",
+      "type": "fill_blank_with_options",
+      "prompt": "___ a book on the table.",
+      "promptAr": "اختر الكلمة المناسبة.",
+      "explanation": "'There is' is used for one book.",
+      "arabicNote": "نستخدم 'there is' لكتاب واحد.",
+      "weakTag": "there_is_there_are_4",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tia_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'There are many cars' is correct for plural.",
+      "arabicNote": "نستخدم 'are' مع 'many'.",
+      "weakTag": "there_is_there_are_5",
+      "options": [
+        "There is many cars.",
+        "There are many cars.",
+        "There am many cars."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "There is many cars."
+    },
+    {
+      "id": "tia_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "These sentences show how to use 'there is' and 'there are'.",
+      "arabicNote": "هذه الجمل توضح كيفية استخدام 'there is' و'there are'.",
+      "weakTag": "there_is_there_are_6",
+      "pairs": [
+        {
+          "left": "There is a chair.",
+          "right": "يوجد كرسي."
+        },
+        {
+          "left": "There are two tables.",
+          "right": "يوجد طاولتان."
+        },
+        {
+          "left": "There is a cat.",
+          "right": "يوجد قطة."
+        }
+      ]
+    },
+    {
+      "id": "tia_q7",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'There are two cats.'",
+      "arabicNote": "الجملة الصحيحة هي 'There are two cats.'",
+      "weakTag": "there_is_there_are_7",
+      "words": [
+        "are",
+        "There",
+        "two",
+        "cats."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "tia_q8",
+      "type": "multiple_choice",
+      "prompt": "___ a teacher in the classroom.",
+      "promptAr": "اختر الجملة الصحيحة.",
+      "explanation": "'There is' is used for one teacher.",
+      "arabicNote": "نستخدم 'there is' لشيء واحد.",
+      "weakTag": "there_is_there_are_8",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tia_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "___ many students in the school.",
+      "promptAr": "اختر الكلمة المناسبة.",
+      "explanation": "'There are' is used for many students.",
+      "arabicNote": "نستخدم 'there are' مع الطلاب الكثر.",
+      "weakTag": "there_is_there_are_9",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tia_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'There is a dog' is correct for one dog.",
+      "arabicNote": "نستخدم 'is' مع شيء واحد مثل 'كلب'.",
+      "weakTag": "there_is_there_are_10",
+      "options": [
+        "There is a dog.",
+        "There are dogs.",
+        "There is dogs."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "There are a dog."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "for_since",
+  "category": "b1_core",
+  "titleEn": "For and Since",
+  "titleAr": "استخدام for و since",
+  "level": "B1",
+  "explanationEn": "Use for to talk about a duration (how long) and since to name a starting point (when it began). These prepositions are usually used with perfect forms to show actions or states that continue to now or have present results. Example: I have finished my homework. She has never visited London.",
+  "explanationAr": "في الإنجليزية نستخدم for للدلالة على المدة (كم من الوقت) وsince للدلالة على نقطة البداية (متى بدأت). غالبًا تُستخدم مع الأزمنة التامة لإظهار حالة مستمرة أو نتيجة الآن. هذا مختلف عن العربية حيث قد تُترجم الأدوات حرفيًا أو تُحذف المساعدات، فاحذر من نقل ترتيب الكلمات أو حذف have.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أعيش هنا منذ ثلاث سنوات.",
+      "arabicLiteral": "I live here since three years.",
+      "englishCorrect": "I have lived here for three years."
+    },
+    {
+      "arabicStructure": "أعرفه من أيام المدرسة.",
+      "arabicLiteral": "I know him from (since) the school days.",
+      "englishCorrect": "I have known him since school."
+    },
+    {
+      "arabicStructure": "عملت في الشركة منذ 2018.",
+      "arabicLiteral": "I worked at the company since 2018.",
+      "englishCorrect": "I have worked at the company since 2018."
+    },
+    {
+      "arabicStructure": "هي لم تزر لندن أبداً.",
+      "arabicLiteral": "She never visited London.",
+      "englishCorrect": "She has never visited London."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I live here since 2015.",
+      "correct": "I have lived here since 2015.",
+      "explanationEn": "Arabic speakers often use the simple present with منذ. English needs present perfect with since for continuing situations.",
+      "explanationAr": "يميل متحدثو العربية إلى استخدام المضارع البسيط مع 'منذ'. في الإنجليزية عند الحديث عن حالة بدأت في الماضي وما تزال مستمرة نستخدم زمن التام (have + past participle) مع 'since'."
+    },
+    {
+      "wrong": "She worked here for two years and still works.",
+      "correct": "She has worked here for two years and still works here.",
+      "explanationEn": "Simple past suggests a finished period. Use present perfect with for when the action continues to now.",
+      "explanationAr": "الماضي البسيط يوحي بأن الفعل انتهى. إذا كانت الحالة مستمرة حتى الآن نستخدم زمن التام مع 'for' للدلالة على المدة المستمرة."
+    },
+    {
+      "wrong": "I have known him for 2010.",
+      "correct": "I have known him since 2010.",
+      "explanationEn": "A specific year is a start point, so use since. For is for durations, not single years as start points.",
+      "explanationAr": "السنة تُظهر نقطة بداية محددة، لذلك نستخدم 'since' في الإنجليزية. 'for' مخصصة للمدة، لذا اختيار 'for' مع سنة هو خطأ شائع عند الترجمة الحرفية."
+    },
+    {
+      "wrong": "She has never visited London for two years.",
+      "correct": "She has not visited London for two years.",
+      "explanationEn": "'Never' changes the meaning. To say 'not during the last two years' use has not with for.",
+      "explanationAr": "كلمة 'never' تعني أبداً في أي وقت. للتعبير عن عدم حدوث شيء خلال مدة معينة نقول 'has not ... for ...'. الانتباه لاستخدام 'not' بدل 'never' في هذا السياق."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fors_q1",
+      "type": "multiple_choice",
+      "prompt": "He has worked at the company ___ 2018 and he still works there.",
+      "promptAr": "اختر الكلمة الصحيحة للدلالة على نقطة البداية الواضحة.",
+      "explanation": "Use since with a specific start year when the action continues now.",
+      "arabicNote": "مع سنة أو نقطة بداية محددة نستخدم since مع زمن التام لأن الفعل مستمر حتى الآن. لا تترجم حرفيًا من العربية واحذر حذف have.",
+      "weakTag": "for_since_meaning",
+      "options": [
+        "for",
+        "since",
+        "ago",
+        "in"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fors_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes an action that started earlier and continues now?",
+      "promptAr": "أي جملة تصف حدثًا بدأ في الماضي وما زال مستمرًا الآن؟",
+      "explanation": "For + duration with present perfect shows an action continuing until now.",
+      "arabicNote": "الجملة الصحيحة تستخدم 'for' للدلالة على المدة مع زمن التام لأن السكن لا يزال مستمرًا. تجنب ترجمة 'منذ' حرفيًا دون تغيير الزمن.",
+      "weakTag": "for_since_form",
+      "options": [
+        "She has lived here since three years.",
+        "She has lived here for three years.",
+        "She lived here for three years."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fors_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I have known Sam ___ we were children and I still know him.",
+      "promptAr": "أكمل الفراغ بالكلمة الصحيحة التي تدل على نقطة البداية.",
+      "explanation": "Since + a point like 'we were children' marks when the relationship began.",
+      "arabicNote": "نستخدم since لنقطة بداية محددة مثل 'منذ كنا أطفالاً'. المتحدثون العرب قد يترجمون حرفيًا فتختار كلمة خطأ أو تحذف المساعد.",
+      "weakTag": "for_since_word_order",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "ago"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fors_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence that is still true now.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي لا تزال صحيحة حتى الآن.",
+      "explanation": "Use present perfect with since for continuing situations true now.",
+      "arabicNote": "الخطأ شائع لأن العربية لا تحتاج مساعدًا. في الإنجليزية نستخدم have + past participle مع since للإشارة إلى استمرار الحالة حتى الآن.",
+      "weakTag": "for_since_form_fix",
+      "options": [
+        "I have lived here since 2015.",
+        "I lived here since 2015.",
+        "I am living here since 2015."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I live here since 2015."
+    },
+    {
+      "id": "fors_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a correct continuing sentence about time.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تصف حالة مستمرة بالمدة.",
+      "explanation": "Order: subject, auxiliary, past participle, place, for + duration.",
+      "arabicNote": "رتّب الفاعل ثم المساعد ثم التصريف ثم المكان ثم for والمدة. هذا الترتيب مختلف عن بعض تراكيب العربية فاحذر النقل الحرفي.",
+      "weakTag": "for_since_sentence_order",
+      "words": [
+        "for",
+        "years.",
+        "He",
+        "London",
+        "has",
+        "ten",
+        "lived",
+        "in"
+      ],
+      "correctOrder": [
+        2,
+        4,
+        6,
+        7,
+        3,
+        0,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "fors_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase with its Arabic meaning (duration or start point).",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي (مدة أم نقطة بداية).",
+      "explanation": "For = duration; Since = start point. Match examples accordingly.",
+      "arabicNote": "فهم الفرق بين 'لمدة' و'منذ' ضروري لتجنب الترجمة الحرفية من العربية. اربط الأمثلة بنوعها (مدة أو نقطة بداية).",
+      "weakTag": "for_since_meaning_match",
+      "pairs": [
+        {
+          "left": "for three years",
+          "right": "لمدة ثلاث سنوات"
+        },
+        {
+          "left": "since 2018",
+          "right": "منذ عام 2018"
+        },
+        {
+          "left": "for two hours",
+          "right": "لمدة ساعتين"
+        },
+        {
+          "left": "since last Monday",
+          "right": "منذ يوم الإثنين الماضي"
+        }
+      ]
+    },
+    {
+      "id": "fors_q7",
+      "type": "multiple_choice",
+      "prompt": "I have been tired ___ last night and I am still tired now.",
+      "promptAr": "اختر الكلمة الصحيحة للتعبير عن نقطة البداية المحددة.",
+      "explanation": "Since with a specific start time shows the condition continues to now.",
+      "arabicNote": "مع نقطة بداية محددة مثل 'الليلة الماضية' نستخدم since مع زمن التام المستمر. لا تترجم مباشرة من ترتيب العربية دون المساعد.",
+      "weakTag": "for_since_point",
+      "options": [
+        "for",
+        "since",
+        "during"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fors_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows an action that started two months ago and continues now?",
+      "promptAr": "أي جملة تبين حدثًا بدأ قبل شهرين وما زال مستمراً الآن؟",
+      "explanation": "Present perfect with for shows a continuing state; simple past shows a finished action.",
+      "arabicNote": "الخيار الصحيح يستخدم زمن التام مع for للدلالة على مدة مستمرة. الخيار الثاني يوحي بالانتهاء، والثالث تركيب غير صحيح، فاحذر النقل الحرفي من العربية.",
+      "weakTag": "for_since_continuous",
+      "options": [
+        "She has worked here for two months.",
+        "She worked here for two months.",
+        "She has been worked here for two months."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fors_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "My brother has studied medicine ___ five years and he is still studying.",
+      "promptAr": "أكمل الفراغ بكلمة تدل على المدة المناسبة.",
+      "explanation": "For is used with a duration like 'five years' for continuing actions.",
+      "arabicNote": "استخدم for مع مدة واضحة. قد يخلط المتحدثون العرب بين since وfor عند ترجمة 'منذ' حرفيًا، فكّر بالمدة أو بنقطة البداية.",
+      "weakTag": "for_since_duration",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "ago"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fors_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence about not visiting during a two-year period.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تصف عدم الزيارة خلال مدّة عامين.",
+      "explanation": "To say 'not during the last two years' use has not with for, not never with for.",
+      "arabicNote": "الخطأ شائع لأن 'never' تُغير المعنى. للتعبير عن عدم حدوث الزيارة خلال مدة معينة نستخدم 'has not' مع 'for'. احذر الترجمة الحرفية.",
+      "weakTag": "for_since_fix_not_never",
+      "options": [
+        "She has not visited London for two years.",
+        "She has never visited London since two years.",
+        "She hasn't visited London since two years."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She has never visited London for two years."
+    }
+  ]
+}

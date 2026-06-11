@@ -1,0 +1,227 @@
+{
+  "id": "already_yet_just",
+  "category": "b1_core",
+  "titleEn": "Already, Yet, and Just",
+  "titleAr": "already و yet و just",
+  "level": "B1",
+  "explanationEn": "Use already, yet, and just with the present perfect to show completed actions that are relevant now. Already and just usually appear between have/has and the past participle. Yet is normally placed at the end of negatives and questions to ask about completion up to now.",
+  "explanationAr": "نستخدم already و yet و just مع زمن present perfect للإشارة إلى أفعال مكتملة ولها أثر أو صلة بالحاضر. عادةً يوضع already أو just بين have/has والتصريف الثالث، بينما يوضع yet غالبًا في نهاية النفي والأسئلة. المتكلمون العرب قد يحذفون have أو يغيرون ترتيب الظرف، فانتبه للترتيب ووظيفته باللغة الإنجليزية القياسية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أنهيت واجبي.",
+      "arabicLiteral": "literal gloss: I finished my homework",
+      "englishCorrect": "I have finished my homework."
+    },
+    {
+      "arabicStructure": "هل انتهيت بعد؟",
+      "arabicLiteral": "literal gloss: Did you finish yet?",
+      "englishCorrect": "Have you finished yet?"
+    },
+    {
+      "arabicStructure": "وصلت لتوي.",
+      "arabicLiteral": "literal gloss: arrived just (word order different)",
+      "englishCorrect": "She has just arrived."
+    },
+    {
+      "arabicStructure": "لم تزر لندن أبداً.",
+      "arabicLiteral": "literal gloss: She never visited London",
+      "englishCorrect": "She has never visited London."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I finished my homework already.",
+      "correct": "I have already finished my homework.",
+      "explanationEn": "This sentence uses past simple and a final already; in standard written English, present perfect is used to show the result now. Note: the wrong form appears frequently in spoken informal varieties and is common in speech, but it is not the target standard/written form taught here.",
+      "explanationAr": "الجملة الخاطئة تستخدم الماضي البسيط مع already في نهايتها. في الإنجليزية القياسية المكتوبة نستخدم present perfect لنبين أن النتيجة مهمة الآن. ملاحظة: هذه الصيغة شائعة في الكلام غير الرسمي (محكية) لكنها ليست الشكل القياسي المستهدف هنا."
+    },
+    {
+      "wrong": "Did you finish your homework yet?",
+      "correct": "Have you finished your homework yet?",
+      "explanationEn": "Using did makes the question past simple and not clearly about completion up to now. Many speakers use 'did...yet' in informal speech, but for standard present relevance we teach have + past participle with yet at the end.",
+      "explanationAr": "استخدام did يجعل السؤال في الماضي البسيط وليس عن الحالة حتى الآن. كثيرون يستخدمون 'did...yet' في الكلام غير الرسمي، لكن للمعنى القياسي عن الإكمال حتى الآن نستخدم have + التصريف الثالث ثم yet في النهاية."
+    },
+    {
+      "wrong": "She never visited London.",
+      "correct": "She has never visited London.",
+      "explanationEn": "Leaving out has changes the tense to simple past and removes the meaning of life experience up to now. To express that she has not had the experience at any time in her life until today, use has + never + past participle.",
+      "explanationAr": "حذف has يجعل الجملة في الماضي البسيط ويفقد معنى الخبرة الحياتية حتى الحاضر. عندما نريد أن نعبر عن عدم حصول تجربةٍ ما حتى اليوم نستخدم has مع never ثم التصريف الثالث للفعل في الإنجليزية القياسية."
+    },
+    {
+      "wrong": "I just have arrived home.",
+      "correct": "I have just arrived home.",
+      "explanationEn": "The adverb order is incorrect here. In present perfect, just normally comes between have/has and the past participle. Placing just before have is ungrammatical in standard English.",
+      "explanationAr": "ترتيب الظرف غير صحيح؛ في present perfect يأتي just عادةً بين have/has والتصريف الثالث. وضع just قبل have يعد ترتيبًا غير سليماً في الإنجليزية القياسية، ويختلف عن ترتيب الكلام العربي."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ayj_q1",
+      "type": "multiple_choice",
+      "prompt": "You tell your manager the report is finished and the result matters now. Which sentence is correct in standard English?",
+      "promptAr": "تخبر المدير أن التقرير انتهى الآن والنتيجة مهمة. أي جملة صحيحة بالإنجليزية القياسية؟",
+      "explanation": "Use has + past participle; place already after the auxiliary for present relevance.",
+      "arabicNote": "ضع already بعد have/has لإظهار أن النتيجة مهمة الآن. المتكلمون العرب قد يحذفون الفعل المساعد أو يغيرون الترتيب؛ في الإنجليزية القياسية لا تحذف have.",
+      "weakTag": "already_yet_just_word_order",
+      "options": [
+        "He has already finished the report.",
+        "He has already finish the report.",
+        "He have already finished the report."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which question correctly asks whether homework is finished now in standard English?",
+      "promptAr": "أي سؤال يسأل بشكل صحيح إن كان الواجب قد انتهى الآن؟",
+      "explanation": "Form a question with have + past participle and put yet at the end for completion up to now.",
+      "arabicNote": "في سؤال عن الحالة حتى الآن نستخدم have + التصريف الثالث، ونضع yet في النهاية. تجنب استخدام did لأنه يحول المعنى إلى ماضٍ وليس إلى الحالة الحالية.",
+      "weakTag": "already_yet_just_arabic_transfer",
+      "options": [
+        "Have you finished your homework yet?",
+        "Did you finished your homework yet?",
+        "You have finished your homework yet?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She hasn't called ___ in standard English. (I still expect the call now.)",
+      "promptAr": "هي لم تتصل ___ بالإنجليزية القياسية. (أنت لا تزال تنتظر المكالمة الآن.)",
+      "explanation": "Use yet at the end of negatives when you expect the action to happen by now.",
+      "arabicNote": "في الجمل المنفية التي تتوقع حدوث الفعل حتى الآن نضع yet في النهاية. المتكلمون العرب قد يترجمون حرفيًا ويضعون الظرف في مكان آخر أو يحذفون have.",
+      "weakTag": "already_yet_just_meaning",
+      "options": [
+        "yet",
+        "soon",
+        "always"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. You tell your teacher the exam is done and the result matters now (standard English).",
+      "promptAr": "اختر التصحيح الأفضل. تخبر المعلم أن الامتحان انتهى والنتيجة مهمة الآن (بالإنجليزية القياسية).",
+      "explanation": "Add have and place already after it to show present relevance using present perfect.",
+      "arabicNote": "أضِف have وضع already بعده لإظهار الصلة بالحاضر. في العربية قد نقول الماضي فقط، لكن الإنجليزية القياسية تتطلب have هنا.",
+      "weakTag": "already_yet_just_form",
+      "options": [
+        "I have already finished my exam.",
+        "I finished have my exam.",
+        "I have finish my exam."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I finished my exam already."
+    },
+    {
+      "id": "ayj_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to say you arrived a moment ago (standard English).",
+      "promptAr": "رتّب الكلمات لتقول أنك وصلت منذ لحظة (بالإنجليزية القياسية).",
+      "explanation": "Order words to form: I have just arrived home, placing just after have.",
+      "arabicNote": "ضع just بعد have ثم التصريف الثالث. في العربية نقول 'وصلت لتوي' لكن في الإنجليزية لا نحذف have ونغير ترتيب الظرف.",
+      "weakTag": "already_yet_just_word_order",
+      "words": [
+        "just",
+        "home",
+        "have",
+        "I",
+        "arrived"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "ayj_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning (all are present perfect examples).",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي (جميعها أمثلة على present perfect).",
+      "explanation": "Each sentence shows completion relevant now with proper adverb placement in present perfect.",
+      "arabicNote": "كل جملة تظهر حدثًا مكتملًا وله أثر الآن. لاحظ أن الإنجليزية تحتاج have/has ولا يمكن حذفها كما قد يحدث في العربية.",
+      "weakTag": "already_yet_just_meaning",
+      "pairs": [
+        {
+          "left": "I have already eaten.",
+          "right": "لقد أكلت بالفعل."
+        },
+        {
+          "left": "Have you finished yet?",
+          "right": "هل أنهيت ذلك حتى الآن؟"
+        },
+        {
+          "left": "She has just left.",
+          "right": "لقد غادرت للتو."
+        }
+      ]
+    },
+    {
+      "id": "ayj_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the best sentence to say you cleaned the kitchen a short time ago in standard English.",
+      "promptAr": "اختر أفضل جملة لتقول أنك نظفت المطبخ منذ وقت قصير (بالإنجليزية القياسية).",
+      "explanation": "Put just between have and the past participle to show a recent action.",
+      "arabicNote": "ضع just بين have/has والتصريف الثالث للدلالة على فعل تم قبل لحظات. تأكد من وجود have لأن العربية قد تحذفها.",
+      "weakTag": "already_yet_just_form",
+      "options": [
+        "I have just cleaned the kitchen.",
+        "I have just clean the kitchen.",
+        "I have cleaned just kitchen."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says the meeting is not finished now (standard English)?",
+      "promptAr": "أي جملة تقول بشكل صحيح إن الاجتماع لم ينتهِ الآن؟",
+      "explanation": "Use haven't + past participle and put yet at the end for negatives about now.",
+      "arabicNote": "في النفي نستخدم have/has + التصريف الثالث ونضع yet في النهاية للتعبير أن الشيء لم يحدث حتى الآن. تجنّب تحويل الزمن إلى الماضي البسيط.",
+      "weakTag": "already_yet_just_arabic_transfer",
+      "options": [
+        "They haven't finished the meeting yet.",
+        "They haven't finish the meeting yet.",
+        "They didn't finished the meeting yet."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "By now they have ___ finished lunch and are ready to leave (standard English).",
+      "promptAr": "حتى الآن هم ___ أنهوا الغداء وهم جاهزون للمغادرة (بالإنجليزية القياسية).",
+      "explanation": "Use already in positive present perfect to show completion by now.",
+      "arabicNote": "في الجمل المثبتة التي تشير إلى الانتهاء حتى الآن نستخدم already بين have/has والتصريف الثالث. ليس yet هنا لأنه يُستخدم في النفي والأسئلة.",
+      "weakTag": "ayj_already_usage",
+      "options": [
+        "already",
+        "yet",
+        "soon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ayj_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. You describe her life experience up to today in standard English.",
+      "promptAr": "اختر التصحيح الأفضل. تصف خبرتها الحياتية حتى اليوم (بالإنجليزية القياسية).",
+      "explanation": "Use has + never + past participle to express no experience up to now in standard English.",
+      "arabicNote": "للتعبير عن عدم وجود تجربة حتى اليوم نستخدم has/have مع never ثم التصريف الثالث. تجنب حذف has لأن ذلك يحول الزمن لماضٍ بسيط ويغير المعنى.",
+      "weakTag": "already_yet_just_arabic_transfer",
+      "options": [
+        "She has never visited London.",
+        "She never visited has London.",
+        "She didn't never visit London."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She never visited London."
+    }
+  ]
+}

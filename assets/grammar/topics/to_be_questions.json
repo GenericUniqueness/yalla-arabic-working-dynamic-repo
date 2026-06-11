@@ -1,0 +1,218 @@
+{
+  "id": "to_be_questions",
+  "category": "basics",
+  "titleEn": "Be Questions",
+  "titleAr": "أسئلة فعل be",
+  "level": "A1",
+  "explanationEn": "To ask a yes/no question with the verb be, move am / is / are before the subject. For example: 'She is happy.' → 'Is she happy?' Use am with I, is with he/she/it, and are with you/we/they. Arabic speakers often keep the verb after the subject (like a statement), so check word order when you make be questions.",
+  "explanationAr": "لطرح سؤال نعم/لا باستخدام فعل be نضع am أو is أو are قبل الفاعل. مثلاً: 'She is happy.' تصبح 'Is she happy?' في العربية يمكن أن يبقى الفعل بعد الفاعل أو يستخدم السؤال بحركة الصوت أو أداة مثل 'هل'، لكن في الإنجليزية يجب نقل am/is/are قبل الفاعل. انتبه أيضاً لاختيارات المقال (a) مع المهن المفردة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنت سعيد؟",
+      "arabicLiteral": "You happy?",
+      "englishCorrect": "Are you happy?"
+    },
+    {
+      "arabicStructure": "هو معلم؟",
+      "arabicLiteral": "He teacher?",
+      "englishCorrect": "Is he a teacher?"
+    },
+    {
+      "arabicStructure": "هم هنا؟",
+      "arabicLiteral": "They here?",
+      "englishCorrect": "Are they here?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You are happy?",
+      "correct": "Are you happy?",
+      "explanationEn": "Learners may leave the verb after the subject (like a statement) and only change intonation. In English, move the correct form of be before the subject to make a question.",
+      "explanationAr": "يميل المتعلمون إلى إبقاء الفعل بعد الفاعل كما في الجملة الخبرية واستخدام نبرة السؤال فقط. في الإنجليزية يجب نقل am/is/are قبل الفاعل لتكوين سؤال."
+    },
+    {
+      "wrong": "Is he teacher?",
+      "correct": "Is he a teacher?",
+      "explanationEn": "This misses the indefinite article 'a' before a singular job noun. Arabic does not use an indefinite article, so learners often omit it in English.",
+      "explanationAr": "حذف المقال 'a' أمام اسم مهنة مفرد. العربية لا تحتوي على أداة نكرة مثل 'a'، لذلك قد ينسى المتعلم إضافتها في الإنجليزية."
+    },
+    {
+      "wrong": "They is students?",
+      "correct": "Are they students?",
+      "explanationEn": "This uses wrong verb form 'is' with 'they' and keeps subject before verb. Use 'are' for plural subjects and place it before the subject in questions.",
+      "explanationAr": "استخدام is مع they وخطأ في ترتيب الكلمات. يجب استخدام are مع الفاعل الجمع ونقل الفعل قبل الفاعل في السؤال."
+    },
+    {
+      "wrong": "I am your friend?",
+      "correct": "Am I your friend?",
+      "explanationEn": "With 'I' the question form requires 'am' before the subject. Arabic word order can stay like a statement, so learners may forget to invert 'am' and 'I'.",
+      "explanationAr": "مع 'I' يجب أن يأتي am قبل الفاعل في السؤال. قد يبقى ترتيب الكلمات كما في الجملة الخبرية بالعربية، لذلك ينسى المتعلم عكس am و I."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tbq_q1",
+      "type": "multiple_choice",
+      "prompt": "___ you a student?",
+      "promptAr": "اختر الفعل الصحيح.",
+      "explanation": "Use 'are' with 'you' when asking a be question: 'Are you a student?'.",
+      "arabicNote": "نستخدم 'are' مع 'you' في أسئلة be.",
+      "weakTag": "to_be_questions_multiple_choice",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tbq_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "In a be question the verb 'is' comes before the subject: 'Is she a doctor?'.",
+      "arabicNote": "في السؤال نضع 'is' قبل 'she'.",
+      "weakTag": "to_be_questions_choose_correct_sentence",
+      "options": [
+        "Is she a doctor?",
+        "She is a doctor?",
+        "Are she a doctor?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbq_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ they happy?",
+      "promptAr": "اختر الفعل الصحيح.",
+      "explanation": "'Are' is for plural subjects like 'they': 'Are they happy?'.",
+      "arabicNote": "نستخدم 'are' مع الفاعل الجمع 'they'.",
+      "weakTag": "to_be_questions_fill_blank",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tbq_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'He is happy.' is the best correction because 'he' takes 'is'. 'Is he happy?' changes the sentence into a question.",
+      "arabicNote": "نستخدم 'is' مع 'he' في الجملة المثبتة. الخيار 'Is he happy?' سؤال وليس تصحيحاً للجملة نفسها.",
+      "weakTag": "to_be_questions_fix_mistake",
+      "options": [
+        "He is happy.",
+        "He are happy.",
+        "Is he happy?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He are happy."
+    },
+    {
+      "id": "tbq_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"Are they students?\".",
+      "arabicNote": "الترتيب الصحيح في السؤال هو وضع الفعل قبل الفاعل: 'Are they students?'.",
+      "weakTag": "to_be_questions_sentence_order",
+      "words": [
+        "Are",
+        "they",
+        "students?"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "tbq_q6",
+      "type": "meaning_match",
+      "prompt": "Match each question to its Arabic meaning.",
+      "promptAr": "صل كل سؤال بمعناه العربي.",
+      "explanation": "These short questions use be + subject to ask about state or location.",
+      "arabicNote": "هذه أسئلة قصيرة تستخدم be ثم الفاعل للسؤال عن حالة أو مكان.",
+      "weakTag": "to_be_questions_meaning_match",
+      "pairs": [
+        {
+          "left": "Are you happy?",
+          "right": "هل أنت سعيد؟"
+        },
+        {
+          "left": "Is he your brother?",
+          "right": "هل هو أخوك؟"
+        },
+        {
+          "left": "Are they at school?",
+          "right": "هل هم في المدرسة؟"
+        }
+      ]
+    },
+    {
+      "id": "tbq_q7",
+      "type": "multiple_choice",
+      "prompt": "___ she at home?",
+      "promptAr": "اختر الفعل الصحيح.",
+      "explanation": "'Is' is used with singular third-person subjects like 'she': 'Is she at home?'.",
+      "arabicNote": "نستخدم 'is' مع الفاعل المفرد 'she'.",
+      "weakTag": "to_be_questions_multiple_choice",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbq_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "___ I your friend?",
+      "promptAr": "اختر الفعل الصحيح.",
+      "explanation": "'Am' is used with 'I' and goes before the subject in questions: 'Am I your friend?'.",
+      "arabicNote": "نستخدم 'am' مع 'I' وننقله قبل الفاعل في السؤال.",
+      "weakTag": "tbq_fill_am_i",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tbq_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Place 'are' before 'they' to form the question: 'Are they friends?'.",
+      "arabicNote": "ضع 'are' قبل 'they' لتكوين السؤال.",
+      "weakTag": "tbq_choose_are_they",
+      "options": [
+        "Are they friends?",
+        "They are friends?",
+        "Is they friends?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbq_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'Are they happy?' uses 'are' with the plural subject 'they' and places the verb before the subject in the question.",
+      "arabicNote": "نستخدم 'are' مع 'they' وننقله قبل الفاعل لتكوين السؤال.",
+      "weakTag": "tbq_fix_plural_are",
+      "options": [
+        "Are they happy?",
+        "They is happy.",
+        "They are happy?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Is they happy?"
+    }
+  ]
+}

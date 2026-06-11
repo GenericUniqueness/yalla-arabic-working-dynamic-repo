@@ -1,0 +1,234 @@
+{
+  "id": "cohesion_reference",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Cohesion and Reference",
+  "titleAr": "الترابط والإحالة",
+  "level": "C1",
+  "explanationEn": "This topic teaches how to make cross-sentence references clear using pronouns, demonstratives (this/that/these), such, former/latter, or repeating nouns. You will learn to avoid ambiguous antecedents that Arabic sometimes leaves implicit, and to choose the form that keeps meaning precise and appropriate in formal written or spoken English.",
+  "explanationAr": "في هذا الدرس نتعلم كيف نجعل الإحالات بين الجمل واضحة باستخدام الضمائر وthis/that/these وsuch وformer/latter أو بتكرار الاسم. المتحدثون بالعربية قد يعتمدون على السياق والترتيب المرن؛ لكن في الإنجليزية المتقدمة يجب تحديد المرجع صراحة، ومراعاة ترتيب الكلمات وعلامات الترقيم لتجنّب الغموض والأسلوب غير الرسمي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبت اللجنة إلى قرار، وكانت مفاجئة.",
+      "arabicLiteral": "Went the committee to a decision; and was surprising.",
+      "englishCorrect": "The committee made a decision, and that decision surprised everyone."
+    },
+    {
+      "arabicStructure": "عرض الطالبان مشروعين. الأول عن الميزانية والثاني عن التسويق.",
+      "arabicLiteral": "Presented the two students two projects. The first about budget and the second about marketing.",
+      "englishCorrect": "Two students presented projects. The former focused on budgets; the latter was about marketing."
+    },
+    {
+      "arabicStructure": "كتبت التقرير وأرسلته للمدير الذي قبل.",
+      "arabicLiteral": "I wrote the report and sent it to the director who approved.",
+      "englishCorrect": "I sent the report to the director, who approved it."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The study and the appendix were published last month; it found several errors.",
+      "correct": "The study and the appendix were published last month; the study found several errors.",
+      "explanationEn": "Using 'it' is ambiguous because two items were mentioned. Repeat the noun to show which item contained the errors.",
+      "explanationAr": "الضمير 'it' يصبح غامضاً عندما نذكر عنصرين. في العربية قد يقبل السياق الضمني، لكن هنا نكرر الاسم ('the study') لتوضيح المقصود والحفاظ على الدقة."
+    },
+    {
+      "wrong": "I emailed the dean and the students. They replied quickly.",
+      "correct": "I emailed the dean and the students. The students replied quickly.",
+      "explanationEn": "The pronoun 'They' could refer to the dean or the students. Repeating 'the students' removes ambiguity and keeps meaning.",
+      "explanationAr": "الضمير 'they' قد يعود إلى العميد أو الطلاب. العربية تسمح بالمرونة هذه أحيانًا، لكن الإنجليزية الرسمية تطلب تكرار الاسم لتوضيح المقصود."
+    },
+    {
+      "wrong": "Ahmed finished his report and sent it to the director, which approved it.",
+      "correct": "Ahmed finished his report and sent it to the director, who approved it.",
+      "explanationEn": "'Which' cannot refer to a person. Use 'who' for people to keep the reference and grammar correct without changing meaning.",
+      "explanationAr": "خطأ شائع عند الترجمة الحرفية من العربية: 'which' لا تشير إلى شخص. في الإنجليزية نستخدم 'who' للأشخاص للحفاظ على النحو ودقة الإحالة."
+    },
+    {
+      "wrong": "The guidelines were confusing; this required a full review.",
+      "correct": "The guidelines were confusing; this fact required a full review.",
+      "explanationEn": "'This' alone is vague. Naming the referent ('this fact') makes the reference precise while preserving the original point.",
+      "explanationAr": "في العربية قد يفهم المستمع ما يُشار إليه ضمنياً، لكن في الإنجليزية الرسمية يجب توضيح المرجع بكلمة ('fact') لتجنب الغموض والحفاظ على الدقة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cref_q1",
+      "type": "multiple_choice",
+      "prompt": "The committee, acting as a single body, approved the budget. ___ decision surprised everyone.",
+      "promptAr": "وافقت اللجنة ككيان واحد على الميزانية. أي كلمة تكمل الجملة بشكل دقيق ورسمي؟",
+      "explanation": "Use 'its' for a committee acting as one unit; 'their' suggests plural. Follow the 'acting as a single body' cue.",
+      "arabicNote": "في الإنجليزية الرسمية، عندما تتصرف 'اللجنة' كوحدة واحدة نستخدم 'its' لتجنّب الغموض. لاحظ أن بعض الاستخدامات البريطانية تقبل 'their'؛ لكن هذا الدرس يتبع الأسلوب الرسمي الموحد.",
+      "weakTag": "cohesion_reference_precision",
+      "options": [
+        "Their",
+        "Its",
+        "They",
+        "He"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cref_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "These are the summaries; take ___ to the meeting.",
+      "promptAr": "هذه ملخّصات؛ اختر التعبير الصحيح لأخذها إلى الاجتماع.",
+      "explanation": "Use 'these' for plural items close to the speaker; it matches 'summaries' and proximity.",
+      "arabicNote": "تتحكم مفاهيم القرب والعدد في اختيار this/that/these/those. هنا لدينا ملخصات قريبة وبجمع، لذا 'these' دقيقة وواضحة.",
+      "weakTag": "cohesion_reference_form",
+      "options": [
+        "this",
+        "these",
+        "that",
+        "those"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cref_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses a clear reference and avoids ambiguity?",
+      "promptAr": "أي جملة تحتوي على إحالة واضحة وتتجنّب الغموض؟",
+      "explanation": "Repeating 'the students' removes ambiguity because 'they' could refer to the dean or the students.",
+      "arabicNote": "الضمير 'they' هنا قد يعود إلى العميد أو الطلاب. إعادة الاسم توضح أن الطلاب هم من أجابوا وتمنع اللبس.",
+      "weakTag": "cohesion_reference_arabic_transfer",
+      "options": [
+        "I emailed the dean and the students. They answered quickly.",
+        "I emailed the dean and the students. The students answered quickly.",
+        "I emailed the dean and the students. He answered quickly."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cref_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English referent with its Arabic meaning.",
+      "promptAr": "صل كل كلمة إحالية بالمعنى العربي الصحيح.",
+      "explanation": "These words point back to earlier items; match each to the precise Arabic meaning.",
+      "arabicNote": "تعرّف former/latter وsuch وthis لأنها تُستخدم لتحديد إحالة دقيقة بين جملتين وتمنع الالتباس الناتج عن ترتيبٍ عربي مرن.",
+      "weakTag": "cohesion_reference_meaning",
+      "pairs": [
+        {
+          "left": "former",
+          "right": "الأول / السابق"
+        },
+        {
+          "left": "latter",
+          "right": "الآخِر / الأخير"
+        },
+        {
+          "left": "such",
+          "right": "من هذا النوع / مثل هذا"
+        },
+        {
+          "left": "this",
+          "right": "هذا (لشيء قريب أو مذكّر)"
+        }
+      ]
+    },
+    {
+      "id": "cref_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a clear, formal sentence that repeats the noun for precision.",
+      "promptAr": "رتّب الكلمات لتكوين جملة رسمية توضح الإحالة بتكرار الاسم.",
+      "explanation": "Name the former department-head role to avoid ambiguity about which person resigned.",
+      "arabicNote": "استخدام former مع اسم الوظيفة أو تكرار الاسم يزيل الغموض، وهو مهم خاصة في سياقات رسمية حيث قد يكون هناك عدة مرشحين.",
+      "weakTag": "cref_sentence_order",
+      "words": [
+        "head",
+        "of",
+        "the",
+        "department",
+        "resigned.",
+        "The",
+        "former"
+      ],
+      "correctOrder": [
+        5,
+        6,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cref_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the unclear or ungrammatical reference.",
+      "promptAr": "اختر التصحيح الأفضل للإحالة غير الواضحة أو الخطأ النحوي.",
+      "explanation": "Use 'who' for a person; 'which' is for things and is incorrect here.",
+      "arabicNote": "المتحدثون بالعربية قد يترجمون حرفياً فيستخدمون 'which' بعد 'director'. في الإنجليزية نستخدم 'who' للشخص للحفاظ على الدقة النحوية والمرجعية.",
+      "weakTag": "cohesion_reference_form",
+      "options": [
+        "Ahmed finished his report and sent it to the director, who approved it.",
+        "Ahmed finished his report and sent it to the director; it approved it.",
+        "Ahmed finished his report and sent it to the director, that approved it."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Ahmed finished his report and sent it to the director, which approved it."
+    },
+    {
+      "id": "cref_q7",
+      "type": "multiple_choice",
+      "prompt": "Mona and Salma presented their projects. The former focused on budgets, but ___ was about outreach.",
+      "promptAr": "قدمت منى وسلّمى مشروعاتهما. أي عبارة تُكمِل الجملة بشكل دقيق؟",
+      "explanation": "Use 'the latter' to refer precisely to the second-mentioned item in formal writing.",
+      "arabicNote": "former = الأول، latter = الثاني. هنا نحتاج كلمة تشير إلى المشروع الثاني بدقة لذلك نستخدم 'the latter' بدلاً من ضمير قد يربك القارئ.",
+      "weakTag": "cohesion_reference_register",
+      "options": [
+        "the latter",
+        "the former",
+        "she",
+        "they"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cref_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "It was ___ a serious error that we had to redo the analysis.",
+      "promptAr": "كان خطأً جسيماً لدرجة أننا اضطررنا لإعادة التحليل. اختر الكلمة الصحيحة لملء الفراغ.",
+      "explanation": "Use 'such' before 'a' plus noun to mean 'of that kind' and to introduce a result clause.",
+      "arabicNote": "الفرق بين so و such يربك المتعلمين: 'such a' تستخدم قبل اسم مفرد ('a serious error') لتوضيح النتيجة الرسمية، بينما 'very/extremely' لا تتوافق مع 'a' بهذه البنية.",
+      "weakTag": "cohesion_reference_precision",
+      "options": [
+        "very",
+        "such",
+        "too",
+        "extremely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cref_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence avoids an ambiguous pronoun reference by repeating the noun and is most formal and precise?",
+      "promptAr": "أي جملة تتجنّب ضميراً إشارياً غامضاً عبر إعادة الاسم وتُعدُّ الأكثر رسمية ودقّة؟",
+      "explanation": "Repeating 'the revision' removes ambiguity and reads as formal, precise writing.",
+      "arabicNote": "إعادة الاسم ('the revision') تزيل غموض الضمير. العربية قد تسمح بالضمير الضمني، لكن الإنجليزية الرسمية تتطلب وصفاً واضحاً لتفادي الالتباس.",
+      "weakTag": "cohesion_reference_register",
+      "options": [
+        "We revised the policy and it caused confusion among staff.",
+        "We revised the policy; the revision caused confusion among staff.",
+        "We revised the policy and this caused confusion among staff."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cref_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction to make the reference precise and formal WITHOUT using a plural pronoun.",
+      "promptAr": "اختر التصحيح الذي يجعل الإحالة دقيقة ورسمية دون استخدام ضمير جمع (they).",
+      "explanation": "'This fact' names the referent clearly; the task forbids using plural pronouns for this correction.",
+      "arabicNote": "المشكلة أن 'this' وحدها قد تكون غامضة. نريد تصحيحاً رسمياً يحدّد المرجع بدون ضمير جمع. إضافة اسم ('fact') تجعل الإحالة دقيقة وواضحة.",
+      "weakTag": "cref_fix_mistake",
+      "options": [
+        "The guidelines were confusing; this fact required a full review.",
+        "The guidelines were confusing; this required a full review.",
+        "The guidelines were confusing; required a full review."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The guidelines were confusing; this required a full review."
+    }
+  ]
+}

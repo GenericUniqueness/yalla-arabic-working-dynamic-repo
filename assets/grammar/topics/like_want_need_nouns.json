@@ -1,0 +1,226 @@
+{
+  "id": "like_want_need_nouns",
+  "category": "a2_core",
+  "titleEn": "Like, Want, Need + Nouns",
+  "titleAr": "like و want و need مع الأسماء",
+  "level": "A2",
+  "explanationEn": "Use like, want, and need directly before a noun or noun phrase. Do not add 'to' or change these verbs to -ing when you mean a simple preference, desire, or necessity for a thing. Include articles (a, an, the) when required. This keeps English word order clear and natural.",
+  "explanationAr": "في الإنجليزية نضع like و want و need مباشرة قبل الاسم أو عبارة الاسم. لا نضيف «to» ولا نستخدم صيغة -ing عند التعبير عن رغبة أو حاجة لشيء. يميل المتحدثون العرب إلى نقل ترتيب عربي أو إضافة كلمات وظيفية غير ضرورية، فانتبه لترتيب الكلمات والأدوات.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أريد كتاب جديد",
+      "arabicLiteral": "I want book new",
+      "englishCorrect": "I want a new book."
+    },
+    {
+      "arabicStructure": "هو يحتاج ماء",
+      "arabicLiteral": "He needs water",
+      "englishCorrect": "He needs water."
+    },
+    {
+      "arabicStructure": "أنا أحب القهوة",
+      "arabicLiteral": "I like coffee",
+      "englishCorrect": "I like coffee."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want to new book.",
+      "correct": "I want a new book.",
+      "explanationEn": "Learners sometimes insert 'to' or forget the article because Arabic structure differs. In English, want should come before the noun and include the correct article when speaking about a single item.",
+      "explanationAr": "يدخل بعض المتعلمين 'to' نتيجة النقل الحرفي من العربية أو ينسون أداة النكرة. بالإنجليزية نضع want قبل الاسم ونستخدم 'a' عند الحديث عن شيء واحد."
+    },
+    {
+      "wrong": "She need rest.",
+      "correct": "She needs rest.",
+      "explanationEn": "A common error is missing the third-person -s. The verb must agree with the subject, and still appears before the noun: needs + noun. Keep the correct verb form for he/she.",
+      "explanationAr": "خطأ شائع هو إغفال إضافة -s مع she. الفعل يجب أن يتطابق مع الفاعل ويأتي قبل الاسم: needs + الاسم. تأكد من صيغة الفعل مع he/she."
+    },
+    {
+      "wrong": "I like to tea.",
+      "correct": "I like tea.",
+      "explanationEn": "Adding 'to' before a noun is wrong here. When expressing a general preference, like goes directly before the noun (like + noun), not like + to + noun.",
+      "explanationAr": "إضافة 'to' أمام الاسم هنا خطأ. عند التعبير عن الإعجاب العام نضع like مباشرة قبل الاسم، وليس like + to + الاسم. هذا اختلاف مهم عن تركيب عربي محتمل."
+    },
+    {
+      "wrong": "Need help.",
+      "correct": "I need help.",
+      "explanationEn": "Omitting the subject copies Arabic verb-first order. English normally requires an explicit subject before need in a full sentence, so include the subject to keep correct English word order.",
+      "explanationAr": "حذف الفاعل يعكس ترتيب عربي حيث يُبدأ بالفعل. في الإنجليزية نحتاج عادة فاعلًا واضحًا قبل need لتكوين جملة صحيحة، مثل I need help."
+    }
+  ],
+  "questions": [
+    {
+      "id": "lwnn_q1",
+      "type": "multiple_choice",
+      "prompt": "Every day at lunch, I ___ pizza.",
+      "promptAr": "في الغداء يوميًا، أي تركيب صحيح باللغة الإنجليزية؟",
+      "explanation": "When you describe a regular desire at meals use want directly before the noun. Do not add 'to' or use the -ing form here. 'Want pizza' is the natural short habit form. Subject-verb agreement must also be correct, so 'wants pizza' would be wrong with I.",
+      "arabicNote": "في هذا المثال نعبّر عن عادة يومية. نضع want قبل الاسم دون 'to' أو -ing. المتحدثون العرب قد يترجمون حرفيًا فيضيفون 'to' أو يحوّلوا الفعل إلى -ing. لاحظ أن 'wants' لا يناسب الفاعل I.",
+      "weakTag": "like_want_need_nouns_form",
+      "options": [
+        "want pizza",
+        "want to pizza",
+        "wanting pizza",
+        "wants pizza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "lwnn_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a team who needs one coffee each?",
+      "promptAr": "أي جملة صحيحة لفريق يحتاج قهوة لكل فرد؟",
+      "explanation": "For plural subject 'they' use the base verb form and place want before the noun. Do not add 'to' before a noun, and do not add -s for they. 'They want coffee.' follows correct subject-verb agreement and word order.",
+      "arabicNote": "مع الفاعل الجمع they نستخدم الفعل بدون -s ونضعه قبل الاسم. كثير من المتعلمين العرب يضيفون 'to' أو يخطئون في اتفاق الفعل. هنا الجملة تتكلم عن حاجة بسيطة لذا ونضع want + noun.",
+      "weakTag": "like_want_need_nouns_word_order",
+      "options": [
+        "They wants coffee.",
+        "They want coffee.",
+        "They want to coffee."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "lwnn_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "For school tomorrow, I ___ a new bag.",
+      "promptAr": "للمدرسة غدًا، أي إكمال صحيح؟",
+      "explanation": "When you mean you require one bag, use need directly before the noun phrase and include the article 'a'. 'Need new bag' misses the article, 'need to a' uses wrong order, and 'needs' is wrong with I. The correct form is 'I need a new bag.'",
+      "arabicNote": "عند الحديث عن حاجة لشيء واحد نستخدم need قبل عبارة الاسم ونضيف 'a'. المتكلمون العرب قد ينسون أدوات النكرة أو يضعون 'to' زائدة. تأكد من ترتيب الكلمات: الفاعل ثم الفعل ثم عبارة الاسم.",
+      "weakTag": "like_want_need_nouns_form",
+      "options": [
+        "need a new bag",
+        "need new bag",
+        "need to a new bag",
+        "needs a new bag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "lwnn_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence about a book at the store.",
+      "promptAr": "اختر التصحيح الأفضل للجملة عن كتاب في المتجر.",
+      "explanation": "The error shows a literal transfer from Arabic or a missing article: 'to' is extra and 'a' is missing. The corrected sentence removes the unnecessary 'to' and adds the article so want directly precedes the noun phrase: 'I want a new book.'",
+      "arabicNote": "الجملة الخاطئة ناتجة عن نقل ترتيب عربي أو إضافة كلمات زائدة. بالإنجليزية نضع want قبل عبارة الاسم ونضيف 'a' لكتاب واحد. التصحيح يزيل 'to' ويضع 'a' مما يحافظ على نفس المعنى بطريقة صحيحة.",
+      "weakTag": "like_want_need_nouns_arabic_transfer",
+      "options": [
+        "I want a new book.",
+        "I want new book.",
+        "I to want a new book."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I want to new book."
+    },
+    {
+      "id": "lwnn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one correct sentence about needing a bag.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة عن الحاجة إلى حقيبة.",
+      "explanation": "English basic order is subject + verb + noun phrase. For this idea place I (subject) before need (verb), then the noun phrase: 'I need a new bag'. This keeps need directly before the noun phrase as required.",
+      "arabicNote": "في العربية قد ترى ترتيبًا مختلفًا أو حذف أدوات. هنا نوضّح أن الفاعل يأتي قبل الفعل ثم عبارة الاسم. لا تضف 'to' أو تحوّل need إلى -ing؛ ضع need قبل عبارة الاسم كما في المثال.",
+      "weakTag": "lwnn_word_order",
+      "words": [
+        "a",
+        "need",
+        "I",
+        "new",
+        "bag"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "lwnn_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "All English sentences place like, want, or need directly before the noun. In Arabic the structure or extra words (like إلى with need) may differ, so match the full meaning rather than word-by-word. Notice English keeps the verb next to the noun phrase.",
+      "arabicNote": "الترجمة تظهر أن like/want/need تسبق الاسم في الإنجليزية بينما العربية قد تضيف كلمات رابطية أو تغير الترتيب. احفظ المعنى الكملي وليس الترجمة الحرفية، وركّز على وضع الفعل قبل عبارة الاسم.",
+      "weakTag": "like_want_need_nouns_meaning",
+      "pairs": [
+        {
+          "left": "I like coffee.",
+          "right": "أنا أحب القهوة."
+        },
+        {
+          "left": "We want dinner.",
+          "right": "نحن نريد العشاء."
+        },
+        {
+          "left": "She needs rest.",
+          "right": "هي تحتاج إلى راحة."
+        }
+      ]
+    },
+    {
+      "id": "lwnn_q7",
+      "type": "multiple_choice",
+      "prompt": "At home my son ___ toys after school.",
+      "promptAr": "في البيت، ابني يحتاج الألعاب بعد المدرسة. اختر الصحيح باللغة الإنجليزية.",
+      "explanation": "For third-person singular subject 'my son' use needs + noun. Place needs directly before the noun toys. Do not add 'to' before a noun, and do not leave the verb in base form or gerund when the simple present + noun is required.",
+      "arabicNote": "مع he/she نضيف -s للفعل ونضعه قبل الاسم. المتعلمون العرب قد ينسون -s أو يضيفون 'to' بسبب البناء العربي. هنا الصيغة الصحيحة: 'my son needs toys'.",
+      "weakTag": "like_want_need_nouns_form",
+      "options": [
+        "needs toys",
+        "need toys",
+        "needs to toys",
+        "needing toys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "lwnn_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses want for travel documents?",
+      "promptAr": "أي جملة تستخدم want بشكل صحيح عندما نتكلم عن وثائق السفر؟",
+      "explanation": "When requesting objects like passports, use want directly before the noun. The plural subject they takes the base verb form want. Adding 'to' before a noun is ungrammatical, and 'wants' is wrong with they.",
+      "arabicNote": "ضع want قبل الاسم عند طلب أشياء. غالبًا يضيف المتعلمون العرب 'to' أو يخطئون في اتفاق الفعل. هنا الجملة عن وثائق جمع لذا نستخدم 'They want passports.'",
+      "weakTag": "lwnn_word_order",
+      "options": [
+        "They want passports.",
+        "They want to passports.",
+        "They wants passports."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "lwnn_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "After the exam, students ___ sleep and food.",
+      "promptAr": "بعد الامتحان، الطلاب يحتاجون إلى نوم وطعام. اختر الصحيح بالإنجليزية.",
+      "explanation": "For plural subject students use need + noun phrase. Place need directly before the nouns without adding 'to' or changing need into a gerund. 'Needs' is wrong for students and other options change the structure incorrectly.",
+      "arabicNote": "مع الفاعل الجمع students نستخدم need بدون -s. في العربية قد نستخدم تراكيب مختلفة مثل 'يحتاجون إلى' مما يدفع البعض لإضافة 'to' بالإنجليزية بالخطأ. هنا نمثل الحاجة ببساطة: need + noun phrase.",
+      "weakTag": "like_want_need_nouns_arabic_transfer",
+      "options": [
+        "need sleep and food",
+        "needs sleep and food",
+        "need to sleep and food",
+        "need sleeping and food"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "lwnn_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a sentence about food preferences.",
+      "promptAr": "اختر التصحيح الأفضل لجملة عن تفضيل الطعام.",
+      "explanation": "The wrong sentence has two errors: missing third-person -s and an extra 'to' before the noun. The correct sentence uses likes (he + -s) and places the verb directly before the noun: 'He likes pasta.' This keeps the same meaning with correct English structure.",
+      "arabicNote": "الجملة الخاطئة تعكس نقلًا حرفيًا من العربية بإضافة 'to' وحذف -s. في الإنجليزية نضيف -s مع he ونضع like مباشرة قبل الاسم. التصحيح يحافظ على المعنى ويصحح الترتيب والصيغة.",
+      "weakTag": "lwnn_form",
+      "options": [
+        "He likes pasta.",
+        "He like pasta.",
+        "He likes to pasta."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He like to pasta."
+    }
+  ]
+}

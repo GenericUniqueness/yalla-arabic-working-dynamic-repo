@@ -1,0 +1,227 @@
+{
+  "id": "should_shouldnt",
+  "category": "a2_core",
+  "titleEn": "Should and Shouldn’t",
+  "titleAr": "استخدام should و shouldn’t",
+  "level": "A2",
+  "explanationEn": "Use should or should not plus the base verb to give advice, suggestions, or mild obligation. Structure: subject + should + base verb. For negative advice use should not (or shouldn't) + base verb. Do not add 'to' or change the verb after should.",
+  "explanationAr": "نستخدم should أو should not قبل الفعل الأساسي لإعطاء نصيحة أو اقتراح أو التزام بسيط. الترتيب الإنجليزي ثابت: الفاعل + should + الفعل بدون 'to'. المتحدثون العرب يميلون للنقل الحرفي من العربية، فيضيفون 'to' أو يغيرون ترتيب الكلمات. احرص على وضع should بعد الفاعل وعدم إضافة 'to' أو حذف الفعل المساعد مثل be عند الحاجة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يجب أن تشرب الماء.",
+      "arabicLiteral": "Must that you drink water",
+      "englishCorrect": "You should drink water."
+    },
+    {
+      "arabicStructure": "يجب ألا يتأخر.",
+      "arabicLiteral": "Must not he be late",
+      "englishCorrect": "He should not be late."
+    },
+    {
+      "arabicStructure": "هل يجب أن أذهب؟",
+      "arabicLiteral": "Does must that I go?",
+      "englishCorrect": "Should I go?"
+    },
+    {
+      "arabicStructure": "يجب أن تدرس.",
+      "arabicLiteral": "Must that you study",
+      "englishCorrect": "You should study."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You should to drink water.",
+      "correct": "You should drink water.",
+      "explanationEn": "Learners often add 'to' after should because Arabic uses 'أن' before verbs. English uses the base verb immediately after should.",
+      "explanationAr": "يميل المتعلمون لإضافة 'to' بعد should بسبب وجود 'أن' في العربية. في الإنجليزية نستخدم الفعل الأساسي مباشرة بعد should."
+    },
+    {
+      "wrong": "He should late.",
+      "correct": "He should be late.",
+      "explanationEn": "When describing a state use the verb be after should: should be late. Missing the helper 'be' makes the sentence ungrammatical while keeping the intended advice.",
+      "explanationAr": "عند وصف حالة يجب وضع 'be' بعد should: should be late. حذف 'be' يجعل الجملة غير صحيحة رغم أن المعنى المراد نفسه."
+    },
+    {
+      "wrong": "Should I to go now?",
+      "correct": "Should I go now?",
+      "explanationEn": "In questions with should, use should + subject + base verb. Do not insert 'to' after should in questions.",
+      "explanationAr": "في الأسئلة مع should نستخدم should + الفاعل + الفعل الأساسي. لا تضف 'to' بعد should في السؤال."
+    },
+    {
+      "wrong": "Study you should.",
+      "correct": "You should study.",
+      "explanationEn": "This copies Arabic word order. English needs subject before should: subject + should + base verb. Reordering fixes the grammar without changing meaning.",
+      "explanationAr": "هذه جملة بترتيب أقرب للعربية. الإنجليزية تحتاج الفاعل قبل should: الفاعل + should + الفعل الأساسي. تغيير الترتيب يصحح القاعدة دون تغيير المعنى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "shou_q1",
+      "type": "multiple_choice",
+      "prompt": "Advice: You ___ eat vegetables for better health.",
+      "promptAr": "نصيحة: اختر الكلمة الصحيحة لإكمال الجملة حول صحة أفضل.",
+      "explanation": "General advice uses should followed by the base verb: should + eat. Do not add 'to' or change the verb form after should.",
+      "arabicNote": "للنصيحة العامة نستخدم should ثم الفعل بدون 'to'. المتحدثون العرب قد يضيفون 'to' بطريق الخطأ. ضع should بعد الفاعل.",
+      "weakTag": "should_shouldnt_form",
+      "options": [
+        "should",
+        "to",
+        "eats"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Advice: Which sentence correctly gives advice about study?",
+      "promptAr": "نصيحة: أي جملة تستخدم should بشكل صحيح عن الدراسة؟",
+      "explanation": "Correct advice uses subject + should + base verb: 'You should study.' Other options copy incorrect word order or add 'to' after should.",
+      "arabicNote": "الترتيب في الإنجليزية هو الفاعل ثم should ثم الفعل. تجنب النقل الحرفي من العربية الذي يغير الترتيب أو يضيف 'to'.",
+      "weakTag": "should_shouldnt_meaning",
+      "options": [
+        "You should study.",
+        "You to should study.",
+        "Should study you."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Advice (meeting today): He ___ not be late for the meeting today.",
+      "promptAr": "نصيحة (الاجتماع اليوم): اكمل الفراغ للجملة بعدم التأخر عن الاجتماع اليوم.",
+      "explanation": "Negative advice uses should not + base verb. Here the base verb is 'be' for a state: should not be late.",
+      "arabicNote": "استخدم should not + الفعل الأساسي عند النصح بالنفي. في هذه الحالة نحتاج be بعد should لأننا نصف حالة (التأخر).",
+      "weakTag": "should_shouldnt_word_order",
+      "options": [
+        "should",
+        "to",
+        "is",
+        "was"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Advice: Choose the best correction for this sentence about going home now.",
+      "promptAr": "نصيحة: اختر التصحيح الأفضل للجملة المتعلقة بالعودة إلى المنزل الآن.",
+      "explanation": "Remove the extra 'to' and use the base verb after should. Correct structure: subject + should + base verb.",
+      "arabicNote": "احذف 'to' بعد should واستخدم الفعل الأساسي. المتحدثون العرب قد يضيفون 'to' بسبب ترجمة 'أن' من العربية.",
+      "weakTag": "shou_fix_the_mistake",
+      "options": [
+        "You should go home.",
+        "You should going home.",
+        "You to should go home."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You should to go home."
+    },
+    {
+      "id": "shou_q5",
+      "type": "sentence_order",
+      "prompt": "Advice: Put the words in the correct order to advise someone to study more.",
+      "promptAr": "نصيحة: رتب الكلمات لتكوين نصيحة صحيحة تطلب من شخص أن يدرس أكثر.",
+      "explanation": "Modal verbs follow the subject in English: subject + should + base verb. Place 'you' first, then 'should', then 'study'.",
+      "arabicNote": "في العربية قد يتغير الترتيب. في الإنجليزية يجب وضع الفاعل قبل should ثم الفعل الأساسي.",
+      "weakTag": "should_shouldnt_word_order",
+      "words": [
+        "should",
+        "You",
+        "study",
+        "more"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "shou_q6",
+      "type": "meaning_match",
+      "prompt": "Advice: Match each sentence to its Arabic meaning.",
+      "promptAr": "نصيحة: وصل كل جملة بمعناها العربي الصحيح.",
+      "explanation": "Each English sentence uses should to give advice or ask about advice. Match them to the correct Arabic meanings, noting the fixed English order.",
+      "arabicNote": "كل جملة تستخدم should للنصيحة أو للسؤال عن نصيحة. لاحظ أن should يأتي بعد الفاعل في الإنجليزية ولا نضيف 'to'.",
+      "weakTag": "should_shouldnt_meaning_match",
+      "pairs": [
+        {
+          "left": "You should drink water.",
+          "right": "يجب أن تشرب الماء."
+        },
+        {
+          "left": "He should not be late.",
+          "right": "يجب ألا يتأخر."
+        },
+        {
+          "left": "Should I go?",
+          "right": "هل ينبغي أن أذهب؟"
+        }
+      ]
+    },
+    {
+      "id": "shou_q7",
+      "type": "multiple_choice",
+      "prompt": "Advice: What should you do if you are tired this evening?",
+      "promptAr": "نصيحة: ماذا يجب أن تفعل إذا كنت متعبًا هذا المساء؟",
+      "explanation": "Advice about rest uses should + base verb. The correct form is 'You should sleep.' Do not add 'to' or change the verb form.",
+      "arabicNote": "النصيحة الصحيحة هي should + الفعل الأساسي. المتكلمون العرب قد يضيفون 'to' أو يغيرون شكل الفعل بعد should.",
+      "weakTag": "should_shouldnt_advice",
+      "options": [
+        "You should sleep.",
+        "You should to sleep.",
+        "You should sleeping."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Advice: Which sentence correctly tells someone not to worry?",
+      "promptAr": "نصيحة: أي جملة تقول لشخص ألا يقلق بطريقة صحيحة؟",
+      "explanation": "Negative advice uses should not + base verb: 'You should not worry.' Other options add 'to' or use wrong word order.",
+      "arabicNote": "استخدم should not ثم الفعل الأساسي للنصيحة السلبية. الترتيب مهم لأن العربية تسمح بصيغ مختلفة.",
+      "weakTag": "should_shouldnt_structure",
+      "options": [
+        "You should not to worry.",
+        "You should not worry.",
+        "You not should worry."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "shou_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Advice (storm): They ___ not play outside because of the storm.",
+      "promptAr": "نصيحة (عاصفة): اكمل الفراغ للجملة التي تمنع اللعب في الخارج بسبب العاصفة.",
+      "explanation": "Give negative advice about an activity: should not + base verb. Use should, not added words or incorrect verb forms.",
+      "arabicNote": "استخدم should not لنصيحة تتعلق بنشاط. المتحدثون العرب قد يخلطون الأفعال المساعدة أو يضيفون 'to' عند الترجمة الحرفية.",
+      "weakTag": "should_shouldnt_negative",
+      "options": [
+        "should",
+        "to",
+        "are",
+        "musted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Advice: Choose the best correction for this sentence about study effort.",
+      "promptAr": "نصيحة: اختر التصحيح الأفضل للجملة المتعلقة بمجهود الدراسة.",
+      "explanation": "Remove the extra 'to' and keep the base verb after should. Correct advice uses subject + should + base verb.",
+      "arabicNote": "احذف 'to' بعد should واستخدم الفعل الأساسي. هذا خطأ شائع نتيجة الترجمة الحرفية من العربية.",
+      "weakTag": "shou_fix_the_mistake_2",
+      "options": [
+        "You should study harder.",
+        "You should studying harder.",
+        "You to should study harder."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You should to study harder."
+    }
+  ]
+}

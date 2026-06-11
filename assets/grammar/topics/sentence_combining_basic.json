@@ -1,0 +1,238 @@
+{
+  "id": "sentence_combining_basic",
+  "category": "b1_core",
+  "titleEn": "Basic Sentence Combining",
+  "titleAr": "دمج الجمل الأساسي",
+  "level": "B1",
+  "explanationEn": "This topic teaches how to join short clauses using relative clauses, conjunctions, and connectors. Practice making one clear sentence instead of fragments, comma splices, or repeated pronouns. Focus on correct relative words (who/which/whose/that), conjunction choice (because/so/although/but), and fixed English word order.",
+  "explanationAr": "يعلّم هذا الموضوع كيفية ربط الجمل القصيرة بجمل موصولة وأدوات ربط لتجنّب الجمل المبتورة أو الأخطاء الناتجة عن الترجمة الحرفية من العربية. في العربية ترتيب الجمل والضمائر أكثر مرونة، بينما الإنجليزية تحتاج أدوات وصل واضحة وترتيب كلمات ثابتًا لكي تكون الجملة صحيحة ومفهومة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الرجل الذي يعيش هنا هو معلم.",
+      "arabicLiteral": "The man who lives here is teacher.",
+      "englishCorrect": "The man who lives here is a teacher."
+    },
+    {
+      "arabicStructure": "الكتاب الذي اشتريته بالأمس مفيد.",
+      "arabicLiteral": "The book which I bought yesterday useful.",
+      "englishCorrect": "The book which I bought yesterday is helpful."
+    },
+    {
+      "arabicStructure": "ذهبت إلى المتجر واشتريت خبزًا.",
+      "arabicLiteral": "I went to the shop and bought bread.",
+      "englishCorrect": "I went to the shop and bought bread."
+    },
+    {
+      "arabicStructure": "كانت السماء صافية، لذلك خرجنا.",
+      "arabicLiteral": "The sky was clear, so we went out.",
+      "englishCorrect": "The sky was clear, so we went out."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The man lives here is a teacher.",
+      "correct": "The man who lives here is a teacher.",
+      "explanationEn": "Leaving out the relative pronoun creates an unconnected clause. English needs 'who' to link the description to the noun.",
+      "explanationAr": "حذف أداة الوصل يجعل الجملة سلسلة غير صحيحة نحويًا. الإنجليزية تحتاج 'who' لربط الوصف بالاسم، بينما العربية قد تربط بدون أداة وصل واضحة."
+    },
+    {
+      "wrong": "She studied hard, she passed the exam.",
+      "correct": "She studied hard, so she passed the exam.",
+      "explanationEn": "Two independent clauses with just a comma make a comma splice. Add a connector like 'so' to show result.",
+      "explanationAr": "ربط جملتين مستقلتين بفاصلة فقط ينتج 'comma splice'. في الإنجليزية نحتاج أداة توضح العلاقة، هنا 'so' تبين النتيجة."
+    },
+    {
+      "wrong": "My sister who lives in Cairo teacher.",
+      "correct": "My sister who lives in Cairo is a teacher.",
+      "explanationEn": "Missing the verb 'is' and the article breaks English clause structure. Include both to complete the sentence.",
+      "explanationAr": "حذف فعل الربط 'is' أو أداة النكرة 'a' يجعل الجملة غير مكتملة. الإنجليزية تتطلب وجود الفعل والمقالة لإكمال الجملة."
+    },
+    {
+      "wrong": "The car I bought it is red.",
+      "correct": "The car I bought is red.",
+      "explanationEn": "Adding the extra pronoun 'it' repeats the object and is ungrammatical after a relative clause in English.",
+      "explanationAr": "إضافة ضمير تكراري مثل 'it' بعد جملة موصولة ناتج عن النقل من العربية. في الإنجليزية لا نضع الضمير هذا مع جملة موصولة لأنه يكرر المفعول."
+    }
+  ],
+  "questions": [
+    {
+      "id": "scb_q1",
+      "type": "multiple_choice",
+      "prompt": "Combine into one sentence without changing meaning: I know a woman. She teaches my class.",
+      "promptAr": "ادمج الجملتين إلى جملة واحدة بنفس المعنى.",
+      "explanation": "Use 'who' for a person and keep verb agreement: subject + verb -s stays after the relative clause.",
+      "arabicNote": "اختر 'who' لوصف شخص. المتحدثون العرب قد يترجمون مباشرة ويخطئون في إضافة أو حذف أدوات الوصل أو في اتفاق الفعل مع الفاعل بعد جملة الوصل.",
+      "weakTag": "sentence_combining_basic_form",
+      "options": [
+        "I know a woman who teaches my class.",
+        "I know a woman who teach my class.",
+        "I know woman who teaches my class.",
+        "I know a woman whose teaches my class."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "scb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly and clearly joins these ideas: I was tired. I finished my homework.",
+      "promptAr": "أي جملة تربط الفكرتين بطريقة صحيحة وواضحة؟",
+      "explanation": "Choose a connector that shows contrast and keep both clauses complete with subject and verb.",
+      "arabicNote": "في العربية قد تُربط الجمل بدون حرف عطف واضح. الإنجليزية تحتاج 'but' أو 'so' لتوضيح العلاقة. هنا المعنى: رغم التعب، أكملت الواجب.",
+      "weakTag": "sentence_combining_basic_word_order",
+      "options": [
+        "I was tired I finished my homework.",
+        "Because I was tired, finished my homework.",
+        "I was tired, but I finished my homework."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "scb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Fill the blank: The student ___ studies in my class speaks Arabic.",
+      "promptAr": "اكمل الفراغ: التلميذ ___ يدرس في صفي يتكلم العربية.",
+      "explanation": "Use 'who' to introduce a relative clause describing a person; other forms are ungrammatical here.",
+      "arabicNote": "ضع أداة الوصل المناسبة لوصف شخص. المتحدثون العرب قد يخلطون بين who وwhom وwhich أو يستخدمون صيغة ملكية هنا بشكل غير صحيح.",
+      "weakTag": "sentence_combining_basic_form",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "scb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التالية.",
+      "explanation": "Add the relative 'who' to join the clauses and make a proper relative clause describing the man.",
+      "arabicNote": "الخطأ شائع عند حذف أداة الوصل نتيجة الترجمة الحرفية من العربية. الإنجليزية تحتاج 'who' لربط وصف الشخص بالاسم بدلاً من ترك سلسلة كلمات غير صحيحة.",
+      "weakTag": "sentence_combining_basic_form",
+      "options": [
+        "The man who lives here is a teacher.",
+        "The man which lives here is a teacher.",
+        "The man lives here, is a teacher."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The man lives here is a teacher."
+    },
+    {
+      "id": "scb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the right order to make one correct combined sentence; keep the relative clause directly after the noun.",
+      "promptAr": "رتّب الكلمات لتكوين جملة مُدمجة صحيحة وواضحة؛ ضع جملة الوصل مباشرة بعد الاسم.",
+      "explanation": "Place the relative clause after the noun and keep subject before verb for a clear combined sentence.",
+      "arabicNote": "في العربية قد يأتي الوصف في مواضع مختلفة. في الإنجليزية ضع جملة الوصل مباشرة بعد الاسم لتجنب التباس المعنى وللحفاظ على ترتيب الفاعل والفعل.",
+      "weakTag": "sentence_combining_basic_word_order",
+      "words": [
+        "I",
+        "met",
+        "a",
+        "friend",
+        "who",
+        "works",
+        "at",
+        "the",
+        "school"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "scb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بترجمتها العربية الصحيحة.",
+      "explanation": "These examples show relative clauses and conjunctions used to join ideas into one clear sentence.",
+      "arabicNote": "وصل الجمل الإنجليزية بالترجمة العربية التي توضح علاقة الوصف أو السبب والنتيجة. انتبه أن الترجمة الحرفية قد تخفي حاجة الإنجليزية لأداة وصل وترتيب كلمات ثابت.",
+      "weakTag": "sentence_combining_basic_meaning",
+      "pairs": [
+        {
+          "left": "The man who lives here is a teacher.",
+          "right": "الرجل الذي يعيش هنا هو معلم."
+        },
+        {
+          "left": "The book which I bought yesterday is helpful.",
+          "right": "الكتاب الذي اشتريته بالأمس مفيد."
+        },
+        {
+          "left": "I went to the shop and bought bread.",
+          "right": "ذهبت إلى المتجر واشتريت خبزًا."
+        }
+      ]
+    },
+    {
+      "id": "scb_q7",
+      "type": "multiple_choice",
+      "prompt": "Combine into one sentence: I met a woman. Her car was red.",
+      "promptAr": "ادمج الجملتين لتصبحا جملة واحدة صحيحة عن علاقة الملكية.",
+      "explanation": "Use 'whose' to show possession and place it before the noun referring to the owned item.",
+      "arabicNote": "في العربية قد نستخدم تركيبًا مختلفًا لبيان الملكية. الإنجليزية تستخدم 'whose' لربط الشخص بممتلكاته بدلاً من تركيب ضمائر مكررة.",
+      "weakTag": "sentence_combining_basic_form",
+      "options": [
+        "I met a woman whose car was red.",
+        "I met a woman who her car was red.",
+        "I met a woman that car was red."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "scb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is a complete, correct combination of these ideas? She missed the bus. She was late.",
+      "promptAr": "أي جملة تُكوّن تركيبًا كاملاً وصحيحًا من الفكرتين المعطيتين؟",
+      "explanation": "Include both clauses and keep the subject in the reason clause after 'because' for a full sentence.",
+      "arabicNote": "في العربية قد يحذف الفاعل بعد الربط. الإنجليزية تتطلب وجود الفاعل والفعل بعد كلمات السبب مثل 'because' ليكون المعنى واضحًا ومكتملًا.",
+      "weakTag": "sentence_combining_basic_meaning",
+      "options": [
+        "Because she was late.",
+        "She missed the bus because she was late.",
+        "She missed the bus, because was late."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "scb_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence with an extra pronoun.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تحتوي ضميرًا زائدًا بسبب تأثير العربية.",
+      "explanation": "Remove the repeated pronoun after the relative clause; English does not use a resumptive pronoun here.",
+      "arabicNote": "المتحدثون العرب قد يضعون ضميرًا تكراريًا بعد جملة موصولة كما في العربية. الإنجليزية تمنع هذا التكرار؛ لذلك نحذف الضمير الإضافي بعد جملة الوصل.",
+      "weakTag": "sentence_combining_basic_arabic_transfer",
+      "options": [
+        "The car I bought is red.",
+        "The car which I bought it is red.",
+        "The car I bought it, is red."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The car I bought it is red."
+    },
+    {
+      "id": "scb_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "Fill the blank: The phone ___ was on the table belongs to Ahmed.",
+      "promptAr": "اكمل الفراغ: الهاتف ___ كان على الطاولة ملك لأحمد.",
+      "explanation": "Use 'which' for things to introduce the relative clause; other pronouns here are incorrect for objects.",
+      "arabicNote": "اختر أداة الوصل المناسبة للأشياء. المتحدثون العرب قد يخلطون بين who وwhich أو يستخدمون 'that' بصيغة غير واضحة. هنا 'which' توضح أنها جملة وصلة عن شيء.",
+      "weakTag": "sentence_combining_basic_form",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

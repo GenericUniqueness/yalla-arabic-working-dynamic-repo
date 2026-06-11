@@ -1,0 +1,229 @@
+{
+  "id": "demonstratives_this_that_these_those",
+  "category": "basics",
+  "titleEn": "This, That, These, Those",
+  "titleAr": "أسماء الإشارة this و that و these و those",
+  "level": "A1",
+  "explanationEn": "Use 'this' and 'that' for one item, and 'these' and 'those' for multiple items. 'This' is for things near you, while 'that' is for things farther away. Arabic demonstratives change based on proximity and number, but English has a clear singular/plural distinction.",
+  "explanationAr": "استخدم 'this' و 'that' لشيء واحد، و 'these' و 'those' لأكثر من شيء. 'This' للأشياء القريبة، بينما 'that' للأشياء البعيدة. في العربية، أسماء الإشارة تتغير حسب القرب والعدد، لكن في الإنجليزية هناك تمييز واضح بين المفرد والجمع.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هذا كتاب",
+      "arabicLiteral": "this book",
+      "englishCorrect": "This is a book."
+    },
+    {
+      "arabicStructure": "تلك سيارة",
+      "arabicLiteral": "that car",
+      "englishCorrect": "That is a car."
+    },
+    {
+      "arabicStructure": "هؤلاء طلاب",
+      "arabicLiteral": "these students",
+      "englishCorrect": "These are students."
+    },
+    {
+      "arabicStructure": "أولئك معلمون",
+      "arabicLiteral": "those teachers",
+      "englishCorrect": "Those are teachers."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "This are my friends.",
+      "correct": "These are my friends.",
+      "explanationEn": "Use 'these' for plural nouns.",
+      "explanationAr": "نستخدم 'these' مع الأسماء الجمع، لكن هنا استخدم 'this' بالخطأ."
+    },
+    {
+      "wrong": "That are my book.",
+      "correct": "That is my book.",
+      "explanationEn": "Use 'that' with singular nouns.",
+      "explanationAr": "يجب استخدام 'is' مع 'that' لأن الكتاب واحد."
+    },
+    {
+      "wrong": "These is my pen.",
+      "correct": "This is my pen.",
+      "explanationEn": "Use 'this' for singular items.",
+      "explanationAr": "هنا يجب استخدام 'this' لأن القلم واحد."
+    },
+    {
+      "wrong": "Those is my family.",
+      "correct": "Those are my family.",
+      "explanationEn": "Use 'are' with plural nouns.",
+      "explanationAr": "يجب استخدام 'are' مع 'those' لأن العائلة تتكون من عدة أفراد."
+    }
+  ],
+  "questions": [
+    {
+      "id": "dem_q1",
+      "type": "multiple_choice",
+      "prompt": "___ is my book.",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'this' for one item that is near.",
+      "arabicNote": "نستخدم 'this' لشيء واحد قريب.",
+      "weakTag": "demonstratives_this_that_these_those_choice",
+      "options": [
+        "This",
+        "Those",
+        "These"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dem_q2",
+      "type": "multiple_choice",
+      "prompt": "___ are my friends.",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'these' for multiple items that are near.",
+      "arabicNote": "نستخدم 'these' لأكثر من شيء قريب.",
+      "weakTag": "demonstratives_this_that_these_those_choice",
+      "options": [
+        "This",
+        "That",
+        "These"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "dem_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'That is my car.' is correct for one item.",
+      "arabicNote": "الجملة الصحيحة هي 'That is my car.' لأننا نتحدث عن شيء واحد.",
+      "weakTag": "demonstratives_this_that_these_those_choose",
+      "options": [
+        "This are my car.",
+        "That is my car.",
+        "These is my car."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dem_q4",
+      "type": "fill_blank_with_options",
+      "prompt": "___ are my teachers.",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'those' for multiple items that are far.",
+      "arabicNote": "نستخدم 'those' لأكثر من شيء بعيد.",
+      "weakTag": "demonstratives_this_that_these_those_fill",
+      "options": [
+        "This",
+        "Those",
+        "That"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dem_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "'This is my book.' is correct for one item.",
+      "arabicNote": "الجملة الصحيحة هي 'This is my book.' لأننا نتحدث عن شيء واحد.",
+      "weakTag": "demonstratives_this_that_these_those_fix",
+      "options": [
+        "This is my book.",
+        "Those is my book.",
+        "That are my book."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "These is my book."
+    },
+    {
+      "id": "dem_q6",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'This is my pen.'",
+      "arabicNote": "الجملة الصحيحة هي 'This is my pen.' نبدأ بالفاعل ثم الفعل.",
+      "weakTag": "demonstratives_this_that_these_those_order",
+      "words": [
+        "is",
+        "This",
+        "my",
+        "pen."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dem_q7",
+      "type": "meaning_match",
+      "prompt": "Match each demonstrative to its Arabic meaning.",
+      "promptAr": "صل كل اسم إشارة بمعناه العربي.",
+      "explanation": "Arabic uses different demonstrative forms for gender and for people vs things.",
+      "arabicNote": "أسماء الإشارة في العربية تتغير حسب التذكير والتأنيث، وأحياناً حسب الأشخاص أو الأشياء.",
+      "weakTag": "demonstratives_this_that_these_those_meaning",
+      "pairs": [
+        {
+          "left": "this",
+          "right": "هذا / هذه"
+        },
+        {
+          "left": "that",
+          "right": "ذلك / تلك"
+        },
+        {
+          "left": "these",
+          "right": "هذه / هؤلاء"
+        },
+        {
+          "left": "those",
+          "right": "تلك / أولئك"
+        }
+      ]
+    },
+    {
+      "id": "dem_q8",
+      "type": "multiple_choice",
+      "prompt": "___ is my sister.",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'this' for one person that is near.",
+      "arabicNote": "نستخدم 'this' لشخص واحد قريب.",
+      "weakTag": "demonstratives_this_that_these_those_choice",
+      "options": [
+        "This",
+        "Those",
+        "These"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dem_q9",
+      "type": "multiple_choice",
+      "prompt": "___ are my shoes.",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'these' for multiple items that are near.",
+      "arabicNote": "نستخدم 'these' لأكثر من شيء قريب.",
+      "weakTag": "demonstratives_this_that_these_those_choice",
+      "options": [
+        "That",
+        "These",
+        "This"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dem_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use 'those' for plural people or things far away. 'Those are my friends.' is the correct fix.",
+      "arabicNote": "نستخدم 'those' مع الجمع للإشارة إلى أشخاص أو أشياء بعيدين.",
+      "weakTag": "demonstratives_this_that_these_those_fix",
+      "options": [
+        "Those are my friends.",
+        "That is my friend.",
+        "These is my friends."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "That are my friends."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "verb_patterns_common",
+  "category": "b1_core",
+  "titleEn": "Common Verb Patterns",
+  "titleAr": "أنماط الأفعال الشائعة",
+  "level": "B1",
+  "explanationEn": "This topic teaches four high-frequency verb patterns: decide + to, hope + to, avoid + -ing, and finish + -ing. You will see form, meaning, and common Arabic-speaker errors. Practice sentences give clear time or result context so only one pattern is correct.",
+  "explanationAr": "نركّز هنا على أنماط أفعال متكررة: decide + to، hope + to، avoid + -ing، finish + -ing. نشرح الشكل والمعنى ونقطة خطأ متكررة لدى المتكلمين العرب: الحذف أو الإضافة الخاطئة لكلمة الربط to أو استخدام المصدر بدلاً من -ing. الأمثلة تحتوي على زمن أو سياق واضح يبيّن أي تركيب صحيح.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "قررت السفر أمس",
+      "arabicLiteral": "I decided travel yesterday",
+      "englishCorrect": "I decided to travel yesterday."
+    },
+    {
+      "arabicStructure": "أمل الوصول يوم الاثنين",
+      "arabicLiteral": "I hope arrive Monday",
+      "englishCorrect": "I hope to arrive on Monday."
+    },
+    {
+      "arabicStructure": "تجنب الإجابة",
+      "arabicLiteral": "She avoided answer",
+      "englishCorrect": "She avoided answering."
+    },
+    {
+      "arabicStructure": "أنهيت القراءة الليلة الماضية",
+      "arabicLiteral": "I finished the reading last night",
+      "englishCorrect": "I finished reading the book last night."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I decided go to university last year.",
+      "correct": "I decided to go to university last year.",
+      "explanationEn": "After decide we must use to + base verb in English to link the decision to the action.",
+      "explanationAr": "بعد decide في الإنجليزية نستخدم to + المصدر لربط القرار بالفعل. المتحدثون العرب قد يترجمون حرفيًّا فيحذفون to، فيصبح البناء خاطئًا."
+    },
+    {
+      "wrong": "She avoided to speak with her teacher yesterday.",
+      "correct": "She avoided speaking with her teacher yesterday.",
+      "explanationEn": "Avoid must be followed by a gerund (-ing) in English; not by to + verb.",
+      "explanationAr": "بعد avoid يجب أن يأتي الفعل بصيغة -ing في الإنجليزية. الترجمة الحرفية من العربية قد تضع to، وهذا غير صحيح لغويًا."
+    },
+    {
+      "wrong": "We hope arrive early tomorrow.",
+      "correct": "We hope to arrive early tomorrow.",
+      "explanationEn": "Hope when expressing a future wish requires to + base verb to connect the wish to the action.",
+      "explanationAr": "عند التعبير عن أمل مستقبلي، hope تتطلب to + المصدر في الإنجليزية. في العربية قد تُحذف أداة الربط، فتصبح الجملة خاطئة بالإنجليزية."
+    },
+    {
+      "wrong": "He finished to read the report last night.",
+      "correct": "He finished reading the report last night.",
+      "explanationEn": "Finish is followed by a gerund (-ing) in English to show a completed activity.",
+      "explanationAr": "finish يتبعها فعل بصيغة -ing في الإنجليزية للدلالة على اكتمال الفعل. المتكلم العربي قد يستخدم to نتيجة للترجمة الحرفية، وهذا خطأ."
+    }
+  ],
+  "questions": [
+    {
+      "id": "vpc_q1",
+      "type": "multiple_choice",
+      "prompt": "After a long thought, I ___ to study abroad last year.",
+      "promptAr": "اختر الشكل الصحيح للفعل بعد عبارة 'After a long thought' في سياق ماضٍ.",
+      "explanation": "Use decided in a past decision; it combines with 'to study' so the sentence reads 'decided to study' to show choice.",
+      "arabicNote": "في الإنجليزية بعد decided نضع to + المصدر. المتكلمون العرب قد يحذفون to بسبب اختلاف البناء العربي، لكن هنا decided يسبق to ويُظهر القرار الماضي.",
+      "weakTag": "verb_patterns_common_decide_to",
+      "options": [
+        "decide",
+        "decided",
+        "decided to",
+        "decided that"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses avoid in the past?",
+      "promptAr": "أي جملة تستخدم avoid في الماضي بطريقة صحيحة وتتحدث عن حدث مكتمل؟",
+      "explanation": "Avoid must be followed by a gerund (-ing) after a past time reference; 'avoided talking' is correct here.",
+      "arabicNote": "بعد avoid في الإنجليزية نستخدم الفعل بصيغة -ing حتى في الجملة الماضية. قد يترجم المتكلم العربي حرفيًّا فيضع to، لكن هذا غير صحيح بالإنجليزية.",
+      "weakTag": "verb_patterns_common_avoid_ing",
+      "options": [
+        "She avoided to talk to him at the party last night.",
+        "She avoided talking to him at the party last night.",
+        "She avoids to talk to him at the party last night."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Now they ___ to finish the project next week.",
+      "promptAr": "استخدم الشكل المناسب من hope في الوقت الحاضر عندما تتكلّم عن نية مستقبلية.",
+      "explanation": "We use hope + to + verb for present wishes about the future; with plural subject use the base form 'hope'.",
+      "arabicNote": "hope عند الحديث عن رغبة مستقبلية تتبعها to + المصدر. مع they نضع hope وليس hopes أو الفعل في صيغة -ing بدون داعٍ.",
+      "weakTag": "verb_patterns_common_hope_to",
+      "options": [
+        "hope",
+        "hopes",
+        "hoping",
+        "hoped"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تتحدث عن فعل انتهى الليلة الماضية.",
+      "explanation": "Finish requires a gerund (-ing); use 'finished reading' to show the action was completed last night.",
+      "arabicNote": "finish يتبعها فعل بصيغة -ing في الإنجليزية للدلالة على اكتمال الفعل. المتحدثون العرب قد يضعون to نتيجة الترجمة الحرفية، وهذا خطأ شائع.",
+      "weakTag": "vpc_finish_ing",
+      "options": [
+        "He finished reading the book last night.",
+        "He finished reads the book last night.",
+        "He finished to reading the book last night."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He finished to read the book last night."
+    },
+    {
+      "id": "vpc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one sentence about a past decision.",
+      "promptAr": "رتّب الكلمات لتكوين جملة كاملة وصحيحة عن قرار اتُّخذ في الماضي.",
+      "explanation": "Put subject first, then decided, then to + verb, and the time expression last to show the past decision.",
+      "arabicNote": "في الإنجليزية الترتيب ثابت: الفاعل ثم الفعل الماضي decided ثم to + المصـدر وبعدها ظروف الزمان. المتحدثون العرب قد يغيّرون الترتيب فكذلك يجب الانتباه.",
+      "weakTag": "verb_patterns_common_sentence_order",
+      "words": [
+        "I",
+        "decided",
+        "to",
+        "study",
+        "at",
+        "university",
+        "last",
+        "year"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "vpc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بترجمتها العربية المناسبة لتبيان أنماط الأفعال.",
+      "explanation": "Match patterns: decide/hope take to + verb; avoid/finish take -ing forms with the correct meanings.",
+      "arabicNote": "هذه الأمثلة توضح أن decide و hope يتبعهما to + الفعل، بينما avoid و finish يطلبان شكل -ing. لاحظ الفرق عن التركيبات العربية الاسمية.",
+      "weakTag": "verb_patterns_common_meaning",
+      "pairs": [
+        {
+          "left": "I decided to move to Cairo.",
+          "right": "قررت الانتقال إلى القاهرة."
+        },
+        {
+          "left": "She avoided answering his question.",
+          "right": "تجنَّبت الإجابة على سؤاله."
+        },
+        {
+          "left": "We hope to arrive by Monday.",
+          "right": "نأمل أن نصل بحلول يوم الاثنين."
+        },
+        {
+          "left": "They finished cleaning the kitchen last night.",
+          "right": "أنهوا تنظيف المطبخ الليلة الماضية."
+        }
+      ]
+    },
+    {
+      "id": "vpc_q7",
+      "type": "multiple_choice",
+      "prompt": "After dinner she enjoys ___ TV for an hour.",
+      "promptAr": "اختر الشكل الصحيح بعد enjoys في جملة عن عادة بعد العشاء.",
+      "explanation": "Enjoy is followed by a gerund (-ing) to express a habitual activity, so 'enjoys watching' is correct.",
+      "arabicNote": "بعد enjoy في الإنجليزية نستخدم الفعل بصيغة -ing للتعبير عن نشاط معتاد. المتكلم العربي قد يترجم اسم الفعل حرفيًا، فاحذر.",
+      "weakTag": "verb_patterns_common_enjoy_ing",
+      "options": [
+        "watch",
+        "watching",
+        "to watch",
+        "watched"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpc_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses a future wish?",
+      "promptAr": "أي جملة تعبّر عن رغبة مستقبلية بشكل سليم نحو فعل مستقبل؟",
+      "explanation": "Hope + to + base verb expresses a future wish; 'hope to see' is the correct infinitive structure here.",
+      "arabicNote": "عند الحديث عن رغبة مستقبلية، hope تحتاج إلى to + المصدر في الإنجليزية. لا تترجم حرفيًّا بدون to كما في بعض التركيبات العربية.",
+      "weakTag": "vpc_hope_to",
+      "options": [
+        "I hope see you soon.",
+        "I hope to see you soon.",
+        "I hope seeing you soon."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpc_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "They decided ___ cancel the trip because of heavy rain.",
+      "promptAr": "أكمل decided بالكلمة المناسبة في سياق قرار محدد بشأن الرحلة.",
+      "explanation": "Decide takes to + base verb to express a specific decision, so 'decided to cancel' completes the meaning.",
+      "arabicNote": "بعد decide في الإنجليزية نستخدم to + المصدر عند الحديث عن قرار محدد. المتكلم العربي قد يستبدلها بشكل آخر، لكن هنا to هو الصحيح.",
+      "weakTag": "verb_patterns_common_decide",
+      "options": [
+        "to",
+        "canceling",
+        "that",
+        "cancel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: She does not go out at night because she works early the next morning.",
+      "promptAr": "اختر التصحيح الأفضل: هي لا تخرج ليلًا لأنها تعمل مبكرًا صباح اليوم التالي.",
+      "explanation": "Avoid must be followed by a gerund; 'avoids going out' correctly shows the action she avoids doing at night.",
+      "arabicNote": "بعد avoid في الإنجليزية يجب أن يأتي الفعل بصيغة -ing. المتكلمون العرب قد يضعون to بسبب الاختلاف التركيبي، لكن هنا 'avoids going' هو الصحيح.",
+      "weakTag": "vpc_avoid_fix",
+      "options": [
+        "She avoids going out at night because she works early the next morning.",
+        "She avoids that she goes out at night because she works early the next morning.",
+        "She avoid to go out at night because she works early the next morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She avoids to go out at night because she works early the next morning."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "possessive_adjectives",
+  "category": "basics",
+  "titleEn": "Possessive Adjectives",
+  "titleAr": "صفات الملكية",
+  "level": "A1",
+  "explanationEn": "Possessive adjectives show ownership. Use 'my', 'your', 'his', 'her', 'its', 'our', and 'their' before nouns. Arabic often attaches possession directly to the noun, so remember to use these adjectives in English.",
+  "explanationAr": "صفات الملكية تُظهر الملكية. نستخدم 'my' و 'your' و 'his' و 'her' و 'its' و 'our' و 'their' قبل الأسماء. في العربية، نربط الملكية مباشرة بالاسم، لذا تذكر استخدام هذه الصفات في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هذا كتابي",
+      "arabicLiteral": "This my book",
+      "englishCorrect": "This is my book."
+    },
+    {
+      "arabicStructure": "هذا بيتهم",
+      "arabicLiteral": "This their house",
+      "englishCorrect": "This is their house."
+    },
+    {
+      "arabicStructure": "هذه حقيبتها",
+      "arabicLiteral": "This her bag",
+      "englishCorrect": "This is her bag."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "This is book.",
+      "correct": "This is my book.",
+      "explanationEn": "Missing possessive adjective before the noun.",
+      "explanationAr": "الخطأ هنا هو عدم وجود صفة ملكية قبل الاسم."
+    },
+    {
+      "wrong": "They house is big.",
+      "correct": "Their house is big.",
+      "explanationEn": "Using 'they' instead of 'their'.",
+      "explanationAr": "استخدام 'they' بدلاً من 'their' هو خطأ شائع."
+    },
+    {
+      "wrong": "She bag is red.",
+      "correct": "Her bag is red.",
+      "explanationEn": "Missing possessive adjective before the noun.",
+      "explanationAr": "الخطأ هو عدم وجود صفة ملكية قبل الاسم."
+    },
+    {
+      "wrong": "We teacher is kind.",
+      "correct": "Our teacher is kind.",
+      "explanationEn": "Using 'we' instead of 'our'.",
+      "explanationAr": "استخدام 'we' بدلاً من 'our' هو خطأ شائع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pa_q1",
+      "type": "multiple_choice",
+      "prompt": "This is ___ book.",
+      "promptAr": "اختر صفة الملكية المناسبة: هذا كتابي.",
+      "explanation": "Use 'my' to show ownership of the book.",
+      "arabicNote": "نستخدم 'my' لإظهار الملكية.",
+      "weakTag": "possessive_adjectives_multiple_choice",
+      "options": [
+        "my",
+        "I",
+        "his"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The correct sentence uses 'my' before the noun.",
+      "arabicNote": "الجملة الصحيحة تستخدم 'my' قبل الاسم.",
+      "weakTag": "possessive_adjectives_choose_correct_sentence",
+      "options": [
+        "This is my car.",
+        "This my car is.",
+        "My car is this."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Sara has a bag. ___ bag is red.",
+      "promptAr": "سارة لديها حقيبة. ___ حقيبتها حمراء.",
+      "explanation": "Use 'her' to show ownership of the bag.",
+      "arabicNote": "نستخدم 'her' لإظهار الملكية.",
+      "weakTag": "possessive_adjectives_fill_blank",
+      "options": [
+        "Her",
+        "Their",
+        "My"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Use 'their' to correctly show ownership.",
+      "arabicNote": "استخدم 'their' لإظهار الملكية بشكل صحيح.",
+      "weakTag": "possessive_adjectives_fix_mistake",
+      "options": [
+        "Their house is big.",
+        "They are house big.",
+        "Their is house big."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They house is big."
+    },
+    {
+      "id": "pa_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct order is 'This is my book.'",
+      "arabicNote": "الترتيب الصحيح هو 'This is my book.'",
+      "weakTag": "possessive_adjectives_sentence_order",
+      "words": [
+        "is",
+        "This",
+        "my",
+        "book."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "pa_q6",
+      "type": "meaning_match",
+      "prompt": "Match each possessive adjective to its Arabic meaning.",
+      "promptAr": "صل كل صفة ملكية بمعناها العربي.",
+      "explanation": "These are basic possessive adjectives used before nouns.",
+      "arabicNote": "احفظ معنى الصفات الملكية قبل التدريب على الجمل.",
+      "weakTag": "possessive_adjectives_meaning_match",
+      "pairs": [
+        {
+          "left": "my",
+          "right": "كتابي"
+        },
+        {
+          "left": "your",
+          "right": "كتابك"
+        },
+        {
+          "left": "his",
+          "right": "كتابه"
+        }
+      ]
+    },
+    {
+      "id": "pa_q7",
+      "type": "multiple_choice",
+      "prompt": "This is ___ car.",
+      "promptAr": "اختر صفة الملكية المناسبة: هذه سيارتنا.",
+      "explanation": "Use 'our' to show ownership of the car.",
+      "arabicNote": "نستخدم 'our' لإظهار الملكية.",
+      "weakTag": "possessive_adjectives_multiple_choice",
+      "options": [
+        "our",
+        "we",
+        "his"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The correct sentence uses 'her' before the noun.",
+      "arabicNote": "الجملة الصحيحة تستخدم 'her' قبل الاسم.",
+      "weakTag": "possessive_adjectives_choose_correct_sentence",
+      "options": [
+        "Her brother is tall.",
+        "She brother is tall.",
+        "Her is brother tall."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Ali has a dog. ___ dog is friendly.",
+      "promptAr": "علي لديه كلب. ___ كلبه لطيف.",
+      "explanation": "Use 'his' to show ownership of the dog.",
+      "arabicNote": "نستخدم 'his' لإظهار الملكية.",
+      "weakTag": "possessive_adjectives_fill_blank",
+      "options": [
+        "His",
+        "Her",
+        "Our"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pa_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Use 'her' to correctly show ownership.",
+      "arabicNote": "استخدم 'her' لإظهار الملكية بشكل صحيح.",
+      "weakTag": "possessive_adjectives_fix_mistake",
+      "options": [
+        "Her bag is red.",
+        "She is bag red.",
+        "Her is bag red."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She bag is red."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "present_perfect_continuous",
+  "category": "b2_expansion",
+  "titleEn": "Present Perfect Continuous",
+  "titleAr": "المضارع التام المستمر",
+  "level": "B2",
+  "explanationEn": "Use have/has been + verb-ing to describe actions or states that began in the past and continue now or were happening until now. Time expressions like for, since, all morning, and lately often appear. This form emphasizes duration or ongoing activity connected to the present moment.",
+  "explanationAr": "نستخدم التركيب have/has been + الفعل -ing لوصف فعل أو حالة بدأت في الماضي وما زالت مستمرة الآن أو استمرت حتى الآن. في العربية قد نعبر عن الاستمرار بالمضارع بدون فعل مساعد، لذلك يجب الانتباه إلى وجود auxiliaries (have/has been) وترتيب الكلمات في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أدرس منذ الصباح",
+      "arabicLiteral": "I study since the morning",
+      "englishCorrect": "I have been studying since the morning."
+    },
+    {
+      "arabicStructure": "هي تعمل منذ ساعتين",
+      "arabicLiteral": "She works since two hours",
+      "englishCorrect": "She has been working for two hours."
+    },
+    {
+      "arabicStructure": "هم يلعبون طوال الأسبوع",
+      "arabicLiteral": "They play all week",
+      "englishCorrect": "They have been playing all week."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am studying since morning.",
+      "correct": "I have been studying since morning.",
+      "explanationEn": "Present continuous with 'since' is wrong; need perfect auxiliary for continued action.",
+      "explanationAr": "خطأ: استخدام 'am' مع 'since' غير صحيح هنا. الإنجليزية تطلب have/has been لإظهار استمرار الفعل منذ نقطة ماضية."
+    },
+    {
+      "wrong": "She studied for two hours now.",
+      "correct": "She has been studying for two hours now.",
+      "explanationEn": "Past simple with 'now' conflicts; use present perfect continuous to show ongoing duration.",
+      "explanationAr": "خطأ في الزمن: الجمع بين past simple و 'now' غير مناسب. للتعبير عن مدة مستمرة حتى الآن نستخدم have been + -ing."
+    },
+    {
+      "wrong": "They have been study English all week.",
+      "correct": "They have been studying English all week.",
+      "explanationEn": "After 'been' we must use the -ing form, not the base verb.",
+      "explanationAr": "الخطأ هنا في شكل الفعل بعد 'been'. لا نستعمل الفعل الأساسي، بل يجب أن يكون بلاحقة -ing."
+    },
+    {
+      "wrong": "He is living here since January.",
+      "correct": "He has been living here since January.",
+      "explanationEn": "Present continuous with 'since' is ungrammatical for an action starting earlier and continuing now.",
+      "explanationAr": "لا نستخدم 'is' مع 'since' للأحداث التي بدأت في الماضي وتستمر. يجب استخدام have/has been لإظهار الاستمرار منذ نقطة ماضية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ppc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the best sentence for an action that started two hours ago and continues now (study).",
+      "promptAr": "اختر الجملة الأفضل لحدث بدأ قبل ساعتين وما زال مستمراً الآن (دراسة).",
+      "explanation": "Have been + -ing shows duration continuing to the present.",
+      "arabicNote": "نستخدم have/has been + الفعل -ing للدلالة على مدة استمرار الفعل حتى الآن. المتحدثون العرب قد يترجمون مباشرة بالمضارع أو الماضي بدون have/has، فتكون الجملة خاطئة.",
+      "weakTag": "present_perfect_continuous_form",
+      "options": [
+        "I studied for two hours.",
+        "I have been studying for two hours.",
+        "I study for two hours.",
+        "I am studying since two hours."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows she started working this morning and is still working now?",
+      "promptAr": "أي جملة توضح أنها بدأت العمل هذا الصباح وما زالت تعمل الآن؟",
+      "explanation": "Has been working shows continuous action from morning until now.",
+      "arabicNote": "الجملة الصحيحة تحتاج has been + -ing لأن الحدث بدأ هذا الصباح وما زال مستمراً. تجنب استخدام صيغة الماضي أو present continuous بدون have.",
+      "weakTag": "present_perfect_continuous_meaning",
+      "options": [
+        "She worked since this morning.",
+        "She has been working since this morning.",
+        "She was working since this morning."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: They ___ (practice) the song all afternoon and they are tired now.",
+      "promptAr": "أكمل الجملة: هم ___ الأغنية طوال فترة بعد الظهر والآن هم متعبون.",
+      "explanation": "Use have been + -ing to show activity continued all afternoon up to now.",
+      "arabicNote": "نختار 'have been practicing' لأن الجملة تشير إلى استمرار الفعل طوال فترة بعد الظهر حتى الآن. لا تستعمل الماضي البسيط أو شكل غير مستمر هنا.",
+      "weakTag": "ppc_word_order",
+      "options": [
+        "practiced",
+        "are practicing",
+        "have been practicing",
+        "had practiced"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ppc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "Use have been + -ing with 'since' for continued actions.",
+      "arabicNote": "مع 'since' يجب استخدام have/has been + -ing لإظهار استمرار الحدث منذ نقطة ماضية. خطأ شائع أن يترجم المتعلمون حرفياً ويضعوا am أو present simple.",
+      "weakTag": "ppc_arabic_transfer",
+      "options": [
+        "I have been cleaning the house since early morning.",
+        "I am cleaning the house since early morning.",
+        "I cleaned the house since early morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I am cleaning the house since early morning."
+    },
+    {
+      "id": "ppc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to show an action continuing all afternoon.",
+      "promptAr": "رتّب الكلمات لتكوين جملة توضح استمرار فعل طوال فترة بعد الظهر.",
+      "explanation": "Correct order: Subject + has + been + verb-ing + object + duration.",
+      "arabicNote": "في الإنجليزية الترتيب ثابت: الفاعل ثم have/has then been ثم الفعل -ing ثم المفعول ثم عبارة المدة. لا ترتب كما في العربية دون auxiliaries.",
+      "weakTag": "ppc_word_order",
+      "words": [
+        "been",
+        "the",
+        "has",
+        "piano",
+        "She",
+        "practicing",
+        "all",
+        "afternoon."
+      ],
+      "correctOrder": [
+        4,
+        2,
+        0,
+        5,
+        1,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "ppc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. Each shows an ongoing action connected to now.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي. كل جملة تظهر فعلًا مستمراً مرتبطًا بالحاضر.",
+      "explanation": "Each sentence uses have/has been + -ing to show an action continuing to now.",
+      "arabicNote": "كل جملة توضح استمرار الحدث حتى الآن باستخدام have/has been + التصريف المستمر. المتعلمون العرب قد يترجمون بدون auxiliaries، فانتبه.",
+      "weakTag": "present_perfect_continuous_meaning",
+      "pairs": [
+        {
+          "left": "He has been fixing the car since noon.",
+          "right": "هو يصلح السيارة منذ الظهيرة."
+        },
+        {
+          "left": "We have been waiting for the bus for twenty minutes.",
+          "right": "نحن ننتظر الحافلة منذ عشرين دقيقة."
+        },
+        {
+          "left": "She has been studying for the exam all week.",
+          "right": "هي تدرس للامتحان طوال الأسبوع."
+        }
+      ]
+    },
+    {
+      "id": "ppc_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly describes someone who started feeling tired two hours ago and still feels tired now?",
+      "promptAr": "أي جملة تصف شخصًا بدأ يشعر بالتعب قبل ساعتين وما زال يشعر به الآن؟",
+      "explanation": "Has been feeling expresses a continuing state from two hours ago.",
+      "arabicNote": "للحالات المستمرة نستخدم have/has been + -ing. لا تترجم مباشرة باستخدام past simple أو present continuous دون have/has.",
+      "weakTag": "ppc_form",
+      "options": [
+        "He felt tired for two hours.",
+        "He has been feeling tired for two hours.",
+        "He is feeling tired for two hours."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: Maria ___ (learn) Spanish since January and she still studies today.",
+      "promptAr": "أكمل: ماريا ___ الإسبانية منذ يناير وما زالت تدرس اليوم.",
+      "explanation": "Has been learning shows an ongoing process from January until now.",
+      "arabicNote": "اختر 'has been learning' لأن الفعل بدأ في يناير وما زال مستمراً اليوم. المتحدثون العرب قد ينسون have/has أو يستخدمون past simple خطأ.",
+      "weakTag": "ppc_arabic_transfer",
+      "options": [
+        "learned",
+        "has been learning",
+        "was learning",
+        "is learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppc_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this wrong sentence about being at home since morning.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة عن التواجد في البيت منذ الصباح.",
+      "explanation": "Use have been + -ing (or have been here) with 'since' for continuous presence.",
+      "arabicNote": "مع 'since' والوجود المستمر نستخدم have/has been أو have been here. المتكلمون العرب قد يكتبون am أو past simple فتكون الجملة غير صحيحة بالإنجليزية.",
+      "weakTag": "ppc_form",
+      "options": [
+        "I have been here since 8 a.m.",
+        "I am here since 8 a.m.",
+        "I was here since 8 a.m."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I am here since 8 a.m."
+    },
+    {
+      "id": "ppc_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says he started learning guitar last month and still practices now?",
+      "promptAr": "أي جملة تقول بشكل صحيح أنه بدأ تعلم الغيتار الشهر الماضي وما زال يتدرّب الآن؟",
+      "explanation": "Has been learning expresses activity that began in the past and continues now.",
+      "arabicNote": "نختار has been learning لأن الحدث بدأ في الماضي (الشهر الماضي) وما زال مستمراً الآن. لا تستخدم past simple أو past continuous هنا.",
+      "weakTag": "ppc_meaning",
+      "options": [
+        "He learned guitar last month.",
+        "He has been learning guitar since last month.",
+        "He was learning guitar since last month."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "present_simple_questions",
+  "category": "basics",
+  "titleEn": "Present Simple Questions",
+  "titleAr": "أسئلة المضارع البسيط",
+  "level": "A1-A2",
+  "explanationEn": "In English, we use 'do' or 'does' before the subject and the base verb to form questions. This is different from Arabic, where questions can be formed by changing tone or keeping the statement order. For example, 'Do you like pizza?' is how we ask in English.",
+  "explanationAr": "في الإنجليزية، نستخدم 'do' أو 'does' قبل الفاعل والفعل الأساسي لتكوين الأسئلة. هذا مختلف عن العربية، حيث يمكن تكوين الأسئلة بتغيير النغمة أو الحفاظ على ترتيب الجملة. على سبيل المثال، 'Do you like pizza?' هي الطريقة التي نسأل بها باللغة الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنت تحب البيتزا؟",
+      "arabicLiteral": "You like pizza?",
+      "englishCorrect": "Do you like pizza?"
+    },
+    {
+      "arabicStructure": "هو يعمل هنا؟",
+      "arabicLiteral": "He works here?",
+      "englishCorrect": "Does he work here?"
+    },
+    {
+      "arabicStructure": "هم يدرسون؟",
+      "arabicLiteral": "They study?",
+      "englishCorrect": "Do they study?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You like pizza?",
+      "correct": "Do you like pizza?",
+      "explanationEn": "In English, we need 'do' for questions.",
+      "explanationAr": "في الإنجليزية، نحتاج إلى 'do' للأسئلة."
+    },
+    {
+      "wrong": "He work here?",
+      "correct": "Does he work here?",
+      "explanationEn": "Use 'does' with he in questions.",
+      "explanationAr": "نستخدم 'does' مع he في الأسئلة."
+    },
+    {
+      "wrong": "Do he play football?",
+      "correct": "Does he play football?",
+      "explanationEn": "'Does' is needed for he.",
+      "explanationAr": "'Does' ضروري مع he."
+    },
+    {
+      "wrong": "They does study?",
+      "correct": "Do they study?",
+      "explanationEn": "'Do' is used with they, not 'does'.",
+      "explanationAr": "نستخدم 'do' مع they، وليس 'does'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psq_q1",
+      "type": "multiple_choice",
+      "prompt": "___ you like coffee?",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'do' for you in questions.",
+      "arabicNote": "نستخدم 'do' مع you في الأسئلة.",
+      "weakTag": "present_simple_questions_multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psq_q2",
+      "type": "multiple_choice",
+      "prompt": "___ she play tennis?",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'does' for she in questions.",
+      "arabicNote": "نستخدم 'does' مع she في الأسئلة.",
+      "weakTag": "present_simple_questions_multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psq_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ they go to school?",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'do' with they.",
+      "arabicNote": "نستخدم 'do' مع they.",
+      "weakTag": "present_simple_questions_fill_blank",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psq_q4",
+      "type": "fill_blank_with_options",
+      "prompt": "___ he eat breakfast?",
+      "promptAr": "اختر الكلمة الصحيحة.",
+      "explanation": "Use 'does' with he.",
+      "arabicNote": "نستخدم 'does' مع he.",
+      "weakTag": "present_simple_questions_fill_blank",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psq_q5",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use 'does' for she in questions.",
+      "arabicNote": "نستخدم 'does' مع she في الأسئلة.",
+      "weakTag": "present_simple_questions_choose_correct_sentence",
+      "options": [
+        "Do she like apples?",
+        "Does she like apples?",
+        "She does like apples?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psq_q6",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use 'do' with they.",
+      "arabicNote": "نستخدم 'do' مع they.",
+      "weakTag": "present_simple_questions_choose_correct_sentence",
+      "options": [
+        "Do they plays soccer?",
+        "Does they play soccer?",
+        "Do they play soccer?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "psq_q7",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'Play' is the base form after 'does'.",
+      "arabicNote": "نستخدم الفعل الأساسي بعد 'does'.",
+      "weakTag": "present_simple_questions_fix_the_mistake",
+      "options": [
+        "Does he play football?",
+        "Do he play football?",
+        "He does play football?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Does he plays football?"
+    },
+    {
+      "id": "psq_q8",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct order is 'Do you like pizza?'.",
+      "arabicNote": "الترتيب الصحيح هو 'Do you like pizza?'.",
+      "weakTag": "present_simple_questions_sentence_order",
+      "words": [
+        "you",
+        "like",
+        "Do",
+        "pizza?"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "psq_q9",
+      "type": "meaning_match",
+      "prompt": "Match each question to its Arabic meaning.",
+      "promptAr": "صل كل سؤال بمعناه العربي.",
+      "explanation": "These are basic questions in English.",
+      "arabicNote": "هذه أسئلة أساسية باللغة الإنجليزية.",
+      "weakTag": "present_simple_questions_meaning_match",
+      "pairs": [
+        {
+          "left": "Do you speak English?",
+          "right": "هل تتحدث الإنجليزية؟"
+        },
+        {
+          "left": "Does he work here?",
+          "right": "هل يعمل هنا؟"
+        },
+        {
+          "left": "Do they like music?",
+          "right": "هل يحبون الموسيقى؟"
+        }
+      ]
+    },
+    {
+      "id": "psq_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'Does' is needed for he.",
+      "arabicNote": "نستخدم 'does' مع he.",
+      "weakTag": "present_simple_questions_fix_the_mistake",
+      "options": [
+        "Does he like ice cream?",
+        "Do he likes ice cream?",
+        "He do like ice cream?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Do he like ice cream?"
+    }
+  ]
+}

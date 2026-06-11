@@ -1,0 +1,222 @@
+{
+  "id": "prepositions_time_expanded",
+  "category": "a2_core",
+  "titleEn": "Time Prepositions: In, On, At",
+  "titleAr": "حروف الجر الزمنية in و on و at",
+  "level": "A2",
+  "explanationEn": "This topic teaches when to use in, on, and at for time. Use in for months and parts of the day (in July, in the morning); on for days and dates (on Monday, on May 5); and at for clock times and fixed points (at 9:00, at noon). Practice with everyday examples to avoid literal Arabic transfers.",
+  "explanationAr": "تعلّم متى نستخدم in و on و at مع الزمن. في الإنجليزية نستخدم in مع الشهور والأجزاء من اليوم، on مع أيام الأسبوع والتواريخ المحددة، و at مع أوقات الساعة والنقاط الزمنية الثابتة. انتبه: العربية قد تجمع معانٍ مختلفة في حرف جر واحد، فيؤدي ذلك إلى ترجمة حرفية خاطئة وحروف جر غير مناسبة في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "المدرسة تبدأ في يوليو.",
+      "arabicLiteral": "School starts in July",
+      "englishCorrect": "School starts in July."
+    },
+    {
+      "arabicStructure": "الاجتماع يوم الاثنين.",
+      "arabicLiteral": "The meeting on Monday.",
+      "englishCorrect": "The meeting is on Monday."
+    },
+    {
+      "arabicStructure": "الحصة تبدأ الساعة التاسعة.",
+      "arabicLiteral": "Class starts at nine.",
+      "englishCorrect": "Class starts at 9 o'clock."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I will call you on the morning.",
+      "correct": "I will call you in the morning.",
+      "explanationEn": "Parts of the day (morning, afternoon, evening) use 'in the', not 'on the'.",
+      "explanationAr": "أجزاء اليوم تأخذ 'in the': in the morning. لا نستخدم 'on the morning'."
+    },
+    {
+      "wrong": "I will meet you on the evening.",
+      "correct": "I will meet you in the evening.",
+      "explanationEn": "'In the evening' is the correct form. Parts of the day always use 'in the'.",
+      "explanationAr": "'in the evening' هو الشكل الصحيح. أجزاء اليوم دائماً تستخدم 'in the'."
+    },
+    {
+      "wrong": "I will meet you on 7 o'clock.",
+      "correct": "I will meet you at 7 o'clock.",
+      "explanationEn": "Exact clock times require at in English. Using on is for days and dates, not specific times. The corrected sentence keeps the same meeting time but uses the correct preposition.",
+      "explanationAr": "أوقات الساعة في الإنجليزية تأخذ at. قد يختار المتحدث العربي on أو in بسبب اختلافات حروف الجر، لكن نستخدم at مع وقت محدد مثل 7 o'clock."
+    },
+    {
+      "wrong": "School starts at March.",
+      "correct": "School starts in March.",
+      "explanationEn": "Months are longer time periods and take in. Using at makes the sentence ungrammatical because at marks points in time. Changing at to in preserves the meaning but fixes the preposition.",
+      "explanationAr": "الشهور تُعامل كفترات زمنية فتأخذ in بالإنجليزية. الترجمة الحرفية من العربية قد تؤدي إلى اختيار at الخاطئ، وبالتالي نبدّله بـ in للحفاظ على المعنى الصحيح."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pte_q1",
+      "type": "multiple_choice",
+      "prompt": "We start school ___ July.",
+      "promptAr": "اختر حرف الجر الصحيح قبل اسم الشهر.",
+      "explanation": "Use in with months because months are larger time periods. We say 'in July' for events that happen during that month. 'On July' only works when a specific date follows (on July 5), and 'at July' is not used for months.",
+      "arabicNote": "في العربية قد تقول 'في يوليو' بنفس الشكل، لكن انتبه: بالإنجليزية الشهور تحتاج in، بينما on لتواريخ محددة و at لأوقات الساعة.",
+      "weakTag": "prepositions_time_expanded_form",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pte_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "My birthday is ___ May 5.",
+      "promptAr": "اختر حرف الجر الصحيح قبل تاريخ محدد (يوم وشهر).",
+      "explanation": "Specific dates and days use on: 'on May 5' or 'on Monday'. Saying 'in May' only gives the month, not the exact day, and 'at May 5' is not grammatical. Use on to show a particular calendar date.",
+      "arabicNote": "التواريخ المحددة تأخذ on بالإنجليزية. في العربية قد لا نفرق بين 'في' و'في يوم' بنفس الصرامة، فاحرص على استخدام on مع تاريخ محدد.",
+      "weakTag": "prepositions_time_expanded_meaning",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pte_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a weekly meeting?",
+      "promptAr": "أي جملة صحيحة للتعبير عن لقاء يحدث أسبوعياً؟",
+      "explanation": "Days of the week use on: 'on Monday'. 'At Monday' and 'in Monday' are ungrammatical in this context. Use on to mark a calendar day for a regular meeting or appointment.",
+      "arabicNote": "في العربية قد نستخدم حرف جر واحد قبل اليوم دون تفريق. بالإنجليزية نستخدم on مع أيام الأسبوع، لذلك قل 'on Monday' للجملة الصحيحة.",
+      "weakTag": "prepositions_time_expanded_word_order",
+      "options": [
+        "We meet at Monday.",
+        "We meet on Monday.",
+        "We meet in Monday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pte_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة غير الصحيحة التالية.",
+      "explanation": "Parts of the day (morning, afternoon, evening) usually use in with 'the'. Say 'in the morning' to mean during that part of the day. 'At the morning' and 'on the morning' are not correct for this meaning.",
+      "arabicNote": "أجزاء اليوم في الإنجليزية عادة تأخذ in مع 'the'. في العربية نستخدم صيغاً مثل 'صباحاً' بدون حرف جر، مما يسبب أخطاء عند الترجمة الحرفية.",
+      "weakTag": "prepositions_time_expanded_form",
+      "options": [
+        "I will see you in the morning.",
+        "I will see you on the morning.",
+        "I will see you at the morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I will see you at morning."
+    },
+    {
+      "id": "pte_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence.",
+      "promptAr": "رتب الكلمات لتكوين جملة زمنية صحيحة وواضحة.",
+      "explanation": "The normal English order for a short sentence is subject + verb + time phrase. For an exact clock time use at before the time. Keep the time phrase after the verb for a natural order.",
+      "arabicNote": "الترتيب الإنجليزي عادة: الفاعل ثم الفعل ثم الظرف الزمني. في العربية يمكن تغيير الترتيب أكثر، لكن هنا يجب وضع 'I study at 7 o'clock.' للحفاظ على البنية الصحيحة.",
+      "weakTag": "prepositions_time_expanded_word_order",
+      "words": [
+        "I",
+        "study",
+        "at",
+        "7",
+        "o'clock"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pte_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English time expression to its Arabic meaning.",
+      "promptAr": "صل كل عبارة زمنية باللغة الإنجليزية بمعناها العربي المناسب.",
+      "explanation": "Match in with months or parts of the day, on with days and dates, and at with exact clock times or fixed points. Recognizing typical pairings helps avoid literal translation errors from Arabic.",
+      "arabicNote": "صِل بين حرف الجر والاستخدام: in مع الشهور أو أجزاء اليوم، on مع الأيام والتواريخ، و at مع أوقات الساعة. هذا يمنع أخطاء الترجمة الحرفية من العربية.",
+      "weakTag": "prepositions_time_expanded_meaning",
+      "pairs": [
+        {
+          "left": "in July",
+          "right": "في شهر يوليو"
+        },
+        {
+          "left": "on Monday",
+          "right": "يوم الإثنين"
+        },
+        {
+          "left": "at 9:00",
+          "right": "عند الساعة 9"
+        }
+      ]
+    },
+    {
+      "id": "pte_q7",
+      "type": "multiple_choice",
+      "prompt": "We have class ___ the afternoon.",
+      "promptAr": "اختر حرف الجر الصحيح قبل 'the afternoon'.",
+      "explanation": "Parts of the day are time ranges and usually use in: 'in the afternoon' or 'in the evening'. Saying 'at the afternoon' or 'on the afternoon' is ungrammatical for a general time period of the day.",
+      "arabicNote": "أجزاء اليوم تعامل كفترات زمنية فتأخذ in بالإنجليزية. في العربية قد لا نذكر حرف الجر، لذا تأكد من استخدام in مع 'the afternoon'.",
+      "weakTag": "prepositions_time_expanded_form",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pte_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The train leaves ___ 6:30.",
+      "promptAr": "اختر حرف الجر الصحيح قبل وقت الساعة المحدد.",
+      "explanation": "Exact clock times use at: 'at 6:30' or 'at noon'. Use on for days and dates, and in for months or parts of the day. For a specific departure time choose at.",
+      "arabicNote": "الساعة المحددة تأخذ at بالإنجليزية. في العربية نذكر الوقت بدون حرف جر غالباً، فتأكد من إضافة at عند الترجمة إلى الإنجليزية.",
+      "weakTag": "prepositions_time_expanded_meaning",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "pte_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly mentions a birth month?",
+      "promptAr": "أي جملة صحيحة عند الحديث عن شهر الميلاد؟",
+      "explanation": "Months are periods of time and take in: 'born in June'. 'On June' requires a specific date (on June 5) and 'at June' is ungrammatical. Use in to state the birth month clearly.",
+      "arabicNote": "الشهور في الإنجليزية تستعمل in. المتحدثون العرب قد يترجمون حرف الجر حرفياً دون الانتباه للفروق، لذا استخدم in مع اسم الشهر.",
+      "weakTag": "prepositions_time_expanded_form",
+      "options": [
+        "She was born on June.",
+        "She was born in June.",
+        "She was born at June."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pte_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the schedule sentence.",
+      "promptAr": "اختر التصحيح الأفضل لجملة جدول زمني تحتوي على يوم وتاريخ.",
+      "explanation": "When you give a day plus a date use on: 'on Monday the 3rd' or 'on Tuesday the 10th'. Using in or at with a day and date is ungrammatical. The correction keeps the same schedule meaning but fixes the preposition.",
+      "arabicNote": "عند ذكر يوم محدد مع تاريخ نستخدم on: 'on Monday the 3rd'. الترجمة الحرفية من العربية قد تضع حرف جر خاطئ، فغيّر إلى on للحفاظ على المعنى الصحيح.",
+      "weakTag": "prepositions_time_expanded_arabic_transfer",
+      "options": [
+        "School starts on Monday the 3rd.",
+        "School starts in Monday 3rd.",
+        "School starts at Monday 3rd."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "School starts in Monday 3rd."
+    }
+  ]
+}

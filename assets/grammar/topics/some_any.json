@@ -1,0 +1,234 @@
+{
+  "id": "some_any",
+  "category": "a2_core",
+  "titleEn": "Some and Any",
+  "titleAr": "استخدام some و any",
+  "level": "A2",
+  "explanationEn": "Use some for polite offers and requests and in affirmative sentences when you offer or give something. Use any in negative sentences and in neutral questions about availability or quantity. At A2, learners should prefer some for offers/requests and any for negatives and general availability questions.",
+  "explanationAr": "في الإنجليزية نستخدم some في العروض والطلبات الإيجابية، ونستخدم any في الجمل المنفية وفي الأسئلة العامة عن وجود شيء أو كميته. كثير من متحدثي العربية يترجمون حرفيًا أو ينسون أدوات وظيفية وذلك يغيّر ترتيب الكلمات والمعنى؛ انتبه لاختلاف اختيار الأداة بين العربية والإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هل عندك خبز؟",
+      "arabicLiteral": "Do you have bread?",
+      "englishCorrect": "Do you have any bread?"
+    },
+    {
+      "arabicStructure": "هل تريد بعض الشاي؟",
+      "arabicLiteral": "Do you want some tea?",
+      "englishCorrect": "Would you like some tea?"
+    },
+    {
+      "arabicStructure": "لا يوجد تفاح.",
+      "arabicLiteral": "There are no apples.",
+      "englishCorrect": "There aren't any apples."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I don't have some books at school.",
+      "correct": "I don't have any books at school.",
+      "explanationEn": "In a negative sentence about possession, English requires any to show zero quantity. 'some' after negation is incorrect and sounds like a translation error.",
+      "explanationAr": "في الجملة المنفية التي تتكلم عن الملكية نستخدم any لبيان العدم. وضع some بعد النفي ناتج عن ترجمة حرفية من العربية ويُعد خطأ."
+    },
+    {
+      "wrong": "Do you have some sugar in the kitchen?",
+      "correct": "Do you have any sugar in the kitchen?",
+      "explanationEn": "When asking neutrally about availability, use any. Using some here can sound like an offer rather than a neutral question.",
+      "explanationAr": "في السؤال المحايد عن وجود شيء نستخدم any. قول some يجعل السؤال أقرب إلى عرض أو طلب، وهو فرق مهم بين العربية والإنجليزية."
+    },
+    {
+      "wrong": "He asked any students to help in the project.",
+      "correct": "He asked some students to help in the project.",
+      "explanationEn": "In a positive statement referring to an unspecified group, use some. Any is wrong here because the sentence is affirmative, not negative or a general question.",
+      "explanationAr": "في الجملة المثبتة التي تشير إلى مجموعة غير محددة نستخدم some. الخطأ شائع عند نقل تركيب عربي مباشر إلى الإنجليزية."
+    },
+    {
+      "wrong": "Please give me any water from the bottle.",
+      "correct": "Please give me some water from the bottle.",
+      "explanationEn": "For polite requests or offers, English uses some. Any in a request sounds unnatural or incorrect for a polite ask.",
+      "explanationAr": "في الطلب المهذب نستخدم some. قد يترجم المتعلم كلمة 'أي' حرفيًا فيظهر خطأ لأن وظيفة الأداتين مختلفة بين اللغتين."
+    }
+  ],
+  "questions": [
+    {
+      "id": "some_q1",
+      "type": "multiple_choice",
+      "prompt": "You offer a guest a drink. Which word completes this polite offer: 'Would you like ___ tea?'",
+      "promptAr": "أنت تعرض مشروبًا على ضيف. أي كلمة تكمل العرض: \"Would you like ___ tea?\"",
+      "explanation": "Use 'some' in polite offers or requests. 'Would you like some tea?' is a natural offer. 'Any' is for negatives or neutral availability questions, not for this polite offer context.",
+      "arabicNote": "في العروض المهذبة نستخدم some. المتحدثون العرب قد يترجمون حرفيًا ويضعون any، لكن هنا some هو التعبير الطبيعي.",
+      "weakTag": "some_any_meaning",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "some_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "I don't have ___ pens in my bag.",
+      "promptAr": "ليس لدي ___ أقلام في حقيبتي.",
+      "explanation": "In negative sentences use 'any' with plural countable nouns. 'I don't have any pens' shows there are zero pens in the bag.",
+      "arabicNote": "في النفي نستخدم any وليس some. المتحدث العربي قد يترجم كلمة 'بعض' حرفيًا، لكن هنا التعبير الصحيح any.",
+      "weakTag": "some_any_form",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "some_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is a polite offer of cookies to a classmate?",
+      "promptAr": "أي جملة تعتبر عرضًا مهذبًا لبسكويت لزميل؟",
+      "explanation": "'Would you like some cookies?' is a polite offer. 'Do you have any cookies?' asks about possession, and the third option is not a polite offer.",
+      "arabicNote": "العرض المهذب في الإنجليزية عادةً يستخدم some. لا تخلط بين سؤال عن الملكية وعرض أو طلب.",
+      "weakTag": "some_any_word_order",
+      "options": [
+        "Would you like some cookies?",
+        "Do you have any cookies?",
+        "You like some cookies?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "some_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "A negative sentence needs 'any' to show zero quantity. 'I don't have some apples.' is wrong because negation requires any with plural nouns in English.",
+      "arabicNote": "الخطأ ينشأ من ترجمة حرفية: في العربية قد تُستخدم 'بعض' هنا، لكن في الإنجليزية عند النفي نضع any.",
+      "weakTag": "some_any_arabic_transfer",
+      "options": [
+        "I don't have any apples.",
+        "I don't have no apples.",
+        "I don't have a apples."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I don't have some apples."
+    },
+    {
+      "id": "some_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to ask about chairs in the classroom.",
+      "promptAr": "رتّب الكلمات لتكوين سؤال عن الكراسي في الفصل.",
+      "explanation": "The correct question is 'Are there any chairs in the classroom?' English uses 'Are there' for existential questions and 'any' for availability questions.",
+      "arabicNote": "في العربية قد لا نحتاج كلمة 'there' أو نغيّر الترتيب. في الإنجليزية التركيب ثابت: Are + there + any + noun + in + the + place.",
+      "weakTag": "some_any_word_order",
+      "words": [
+        "chairs",
+        "Are",
+        "classroom?",
+        "there",
+        "any",
+        "in",
+        "the"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        4,
+        0,
+        5,
+        6,
+        2
+      ]
+    },
+    {
+      "id": "some_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to its Arabic meaning. Focus on how 'some' and 'any' change the meaning.",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي. ركّز على كيفية اختلاف معنى some و any.",
+      "explanation": "These pairs show typical uses: some for offers/requests and affirmative unspecified groups, any for negatives or availability questions.",
+      "arabicNote": "العبارات توضّح أن some لعرض أو طلب مهذب أو لجملة مثبتة غير محددة، و any للأسئلة عن الوجود أو في النفي.",
+      "weakTag": "some_any_meaning",
+      "pairs": [
+        {
+          "left": "some water (request)",
+          "right": "قليل من الماء (طلب مهذب)"
+        },
+        {
+          "left": "any sugar? (question about availability)",
+          "right": "هل يوجد سكر؟ (سؤال عن وجود)"
+        },
+        {
+          "left": "some students (affirmative)",
+          "right": "بعض الطلاب (جملة مثبتة)"
+        },
+        {
+          "left": "any books (negative context)",
+          "right": "أي كتب (في سياق نفي أو سؤال عن وجود)"
+        }
+      ]
+    },
+    {
+      "id": "some_q7",
+      "type": "multiple_choice",
+      "prompt": "She didn't buy ___ books yesterday.",
+      "promptAr": "هي لم تشترِ ___ كتبًا أمس.",
+      "explanation": "In past negative sentences use 'any' to show none were bought. 'She didn't buy any books yesterday' correctly communicates zero quantity.",
+      "arabicNote": "في الماضي المنفي نستخدم any. تجنّب وضع some بعد not/n't لأن ذلك يخلق خطأ وظيفي.",
+      "weakTag": "some_any_form",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "some_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Can I have ___ water, please?",
+      "promptAr": "هل يمكنني الحصول على ___ ماء، من فضلك؟",
+      "explanation": "For polite requests we use 'some'. 'Can I have some water, please?' sounds natural and polite when asking for a drink.",
+      "arabicNote": "في الطلبات المهذبة نستخدم some أو تعابير مثل 'قليل من الماء'. لا تترجم 'any' حرفيًا هنا.",
+      "weakTag": "some_any_meaning",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "some_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which question correctly asks about the availability of pens on the desk?",
+      "promptAr": "أي سؤال يسأل بشكل صحيح عن وجود أقلام على المكتب؟",
+      "explanation": "'Are there any pens on the desk?' is the correct neutral question about availability. Use any in such neutral or negative contexts.",
+      "arabicNote": "للسؤال عن وجود شيء نستخدم any. قول some هنا يجعل السؤال يشبه عرضًا أو غير محايد.",
+      "weakTag": "some_any_arabic_transfer",
+      "options": [
+        "Are there any pens on the desk?",
+        "Are there some pens on the desk?",
+        "There are some pens on the desk?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "some_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل لهذه الجملة الخاطئة.",
+      "explanation": "In affirmative offers or statements use 'some'. 'I offered any help to my neighbor.' is incorrect for a positive, specific offer; the correct form is 'I offered some help to my neighbor.'",
+      "arabicNote": "العرض الإيجابي يتطلب some. المتعلم العربي قد يترجم 'أي' حرفيًا فيُدخل any أو أشكالًا أخرى خاطئة؛ انتبه لصيغة العرض الإيجابية.",
+      "weakTag": "some_any_form",
+      "options": [
+        "I offered some help to my neighbor.",
+        "I offered any helps to my neighbor.",
+        "I offered some helped to my neighbor."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I offered any help to my neighbor."
+    }
+  ]
+}

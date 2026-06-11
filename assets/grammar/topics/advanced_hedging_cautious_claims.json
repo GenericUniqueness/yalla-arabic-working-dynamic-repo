@@ -1,0 +1,232 @@
+{
+  "id": "advanced_hedging_cautious_claims",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Hedging for Cautious Claims",
+  "titleAr": "التحفظ في الادعاءات المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic teaches how to make precise, non-absolute claims using hedging language: seems to, appears to, may suggest, tends to, and is likely to. You will learn when each form is most appropriate and how small grammar changes change certainty and register in school and work contexts.",
+  "explanationAr": "يتعلم الطالب هنا كيفية التعبير بتحفّظ في الادعاءات باستخدام عبارات مثل seems to و appears to و may suggest و tends to و is likely to. سنقارن الأخطاء الشائعة الناتجة عن النقل الحرفي من العربية، مثل حذف أدوات الربط أو ترتيب الكلمات غير الواضح، ونوضح متى يحتاج الإنجليزي إلى وصلات وتعبيرات أدق من الأسلوب العربي العام.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "النتائج تشير إلى تحسّن",
+      "arabicLiteral": "The results indicate improvement",
+      "englishCorrect": "The results appear to suggest an improvement."
+    },
+    {
+      "arabicStructure": "على الأرجح سيصل القطار متأخراً",
+      "arabicLiteral": "Probably the train will arrive late",
+      "englishCorrect": "The train is likely to arrive late."
+    },
+    {
+      "arabicStructure": "هو يميل إلى التأخر دوماً",
+      "arabicLiteral": "He tends to be late always",
+      "englishCorrect": "He tends to arrive late."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Results suggests improvement in class.",
+      "correct": "The results seem to suggest an improvement in class.",
+      "explanationEn": "Fix subject–verb agreement and add hedging to avoid a definite claim.",
+      "explanationAr": "خطأ شائع: توافق الفاعل والفعل مفقود، والعبارة قاطعة. بالإنجليزية نستخدم 'the results seem to suggest' للحدّ من الحسم."
+    },
+    {
+      "wrong": "She likely to miss the meeting tomorrow.",
+      "correct": "She is likely to miss the meeting tomorrow.",
+      "explanationEn": "Add the auxiliary 'is' with 'likely to' for correct structure and appropriate caution.",
+      "explanationAr": "في الترجمة من العربية يُحذف أحيانًا الفعل المساعد. يجب إضافة 'is' مع 'likely to' لتكوين جملة صحيحة ومحافظة على التحفّظ."
+    },
+    {
+      "wrong": "Survey show students understand.",
+      "correct": "The survey appears to show that students understand.",
+      "explanationEn": "Add 'appears to' for caution and correct the verb for subject agreement.",
+      "explanationAr": "نقل حرفي من العربية قد يحذف 'the' أو يحوّل الفعل بدون توافق. نحتاج 'appears to' وأشكال فعل متوافقة لنعبر بتحفّظ."
+    },
+    {
+      "wrong": "He tends answering quickly in seminars.",
+      "correct": "He tends to answer quickly in seminars.",
+      "explanationEn": "Use the pattern 'tend to + verb' (infinitive), not the gerund after 'tends'.",
+      "explanationAr": "تركيب 'tends to' يحتاج مصدرًا بعد 'to'. المتحدثون العرب قد يترجمون حرفيًا ويضعون فعلًا متبوعًا بـ-ing، لكن الصحيح هو 'tends to answer'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ahcc_q1",
+      "type": "multiple_choice",
+      "prompt": "A teacher reports early classroom data and wants a cautious sentence. Choose the best phrasing.",
+      "promptAr": "المعلّم يقدم بيانات مبدئية ويريد صياغة متحفّظة. اختر العبارة الأفضل.",
+      "explanation": "Use 'seems to show' to report tentative data without claiming certainty.",
+      "arabicNote": "في العربية قد تُترجم النتائج كحكم نهائي. بالإنجليزية نستخدم 'seems to' لإظهار الشك والتحفّظ وعدم إصدار حكم قاطع.",
+      "weakTag": "advanced_hedging_cautious_claims_form",
+      "options": [
+        "The homework seems to show that most students understand the idea.",
+        "The homework shows that most students understand the idea.",
+        "Most students understand the idea from the homework.",
+        "The homework proves that students understand the idea."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ahcc_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "The manager said the new schedule ___ cause problems, so she used cautious language.",
+      "promptAr": "قالت المديرة إن الجدول الجديد ___ قد يسبب مشاكل، فاختارت لغة متحفظة.",
+      "explanation": "'Is likely to' gives a measured probability without asserting certainty.",
+      "arabicNote": "في العربية يمكن التعبير عن الاحتمال بدون فعل مساعد واضح. في الإنجليزية نستخدم 'is likely to' لتحديد احتمالية مع تركيب نحوي سليم.",
+      "weakTag": "ahcc_probability_is_likely",
+      "options": [
+        "will",
+        "is likely to",
+        "does",
+        "must"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ahcc_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence best expresses a cautious academic tone about survey results?",
+      "promptAr": "أي جملة تعبّر عن نبرة أكاديمية متحفِّظة حول نتائج الاستبيان؟",
+      "explanation": "'Appears to indicate' reports findings tentatively and suits academic caution.",
+      "arabicNote": "الفرق مهم: العربية قد تقول 'تشير النتائج' بشكل مباشر. في الإنجليزية الأكاديمية نضيف 'appears to' لتقليل الحسم والاعتراف بإمكانية الخطأ.",
+      "weakTag": "advanced_hedging_cautious_claims_register",
+      "options": [
+        "Survey indicate higher interest among students.",
+        "The survey appears to indicate higher interest among students.",
+        "Survey indicates higher interest among students."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ahcc_q4",
+      "type": "meaning_match",
+      "prompt": "Match each hedging phrase to its Arabic meaning.",
+      "promptAr": "وصل كل عبارة تحفظيّة بمعناها العربي.",
+      "explanation": "Each phrase changes how certain a statement sounds.",
+      "arabicNote": "هذه العبارات تقلّل الحسم. متحدثو العربية قد يترجمون مباشرة، لكن الإنجليزية تتطلب تركيبًا دقيقًا لتوضيح درجة الاحتمال.",
+      "weakTag": "advanced_hedging_cautious_claims_meaning",
+      "pairs": [
+        {
+          "left": "seems to",
+          "right": "يبدو أن"
+        },
+        {
+          "left": "may suggest",
+          "right": "قد يشير إلى"
+        },
+        {
+          "left": "tends to",
+          "right": "يميل إلى"
+        },
+        {
+          "left": "is likely to",
+          "right": "من المرجّح أن"
+        }
+      ]
+    },
+    {
+      "id": "ahcc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a cautious report sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تقريرية متحفّظة.",
+      "explanation": "Order: The homework appears to show improvement.",
+      "arabicNote": "ضع الفاعل أولًا ثم العبارة التحفظية 'appears to' قبل الفعل الأساسي. بالعربية الترتيب مرن أكثر، لكن هنا التتابع مهم للوضوح.",
+      "weakTag": "ahcc_word_order_precision",
+      "words": [
+        "appears",
+        "to",
+        "show",
+        "The",
+        "homework",
+        "improvement."
+      ],
+      "correctOrder": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "ahcc_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this sentence about test results.",
+      "promptAr": "اختر التصحيح الأفضل لهذه الجملة حول نتائج الاختبار.",
+      "explanation": "Fix agreement and add hedging: 'results seem to suggest' is cautious and grammatical.",
+      "arabicNote": "الخطأ شائع بسبب عدم توافق الفاعل والفعل أو حذف أسلوب التحفّظ. هنا نحتاج 'results' مع 'seem' ثم 'to suggest' للتعبير عن عدم تأكيد مع تركيب صحيح.",
+      "weakTag": "advanced_hedging_cautious_claims_fix",
+      "options": [
+        "The results seem to suggest an improvement on the test.",
+        "The result suggestng improvement on the test.",
+        "The results was suggested an improvement on the test."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The results suggests an improvement on the test."
+    },
+    {
+      "id": "ahcc_q7",
+      "type": "multiple_choice",
+      "prompt": "For about a 60% probability, which phrase is most natural and appropriately cautious?",
+      "promptAr": "للاحتمال حوالي ٦٠٪، أي عبارة أكثر طبيعية ومتحفِّظة؟",
+      "explanation": "'Is likely to' communicates a strong but not full probability—appropriate for ~60%.",
+      "arabicNote": "عند تقدير احتمال متوسط-قوي، لا نستخدم لغة قاطعة. 'is likely to' مناسب للتعبير عن احتمال قوي لكنه غير مؤكد.",
+      "weakTag": "ahcc_probability_choice",
+      "options": [
+        "is certain to",
+        "is likely to",
+        "must",
+        "will definitely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ahcc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "In our class, students who study together ___ ask more questions during lessons.",
+      "promptAr": "في صفنا، الطلاب الذين يدرسون معًا ___ يسألون أسئلة أكثر أثناء الدروس.",
+      "explanation": "'Tend to' matches plural general subjects and shows a habitual tendency.",
+      "arabicNote": "الترجمة العربية قد تذكر العادة بدون أداة. في الإنجليزية نستخدم 'tend to' مع جمع للحديث عن ميل أو عادة عامة بشكل نحوي صحيح.",
+      "weakTag": "ahcc_tends_to_usage",
+      "options": [
+        "tend to",
+        "is tending to",
+        "tends to",
+        "are tend to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ahcc_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence places the hedge correctly so the meaning is not ambiguous?",
+      "promptAr": "أي جملة تضع التعبير التحفّظي في المكان الصحيح دون غموض؟",
+      "explanation": "Place 'seems to' before the verb phrase for clear meaning and correct word order.",
+      "arabicNote": "في العربية ترتيب الكلمات مرن. بالإنجليزية ضع 'seems to' قبل الفعل الأساسي لتجنب غموض المرجع أو الظرف.",
+      "weakTag": "advanced_hedging_cautious_claims_arabic_transfer",
+      "options": [
+        "I told the parent that the student seems arriving always late.",
+        "I told the parent that the student always seems to arrive late.",
+        "I told the parent that the student seems arrive always late."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ahcc_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "Based on first interviews, the coordinator said the pattern ___ suggest a scheduling problem.",
+      "promptAr": "بناءً على المقابلات الأولى، قال المنسق إن النمط ___ قد يشير إلى مشكلة في الجدولة.",
+      "explanation": "'May suggest' expresses tentative possibility without claiming proof.",
+      "arabicNote": "قد يُترجم الموقف بالعربية بصيغة حاسمة. 'may suggest' تُظهر احتمالًا ضعيفًا مناسبًا للملاحظات الأولى دون ادعاء إثبات.",
+      "weakTag": "ahcc_may_suggest",
+      "options": [
+        "may",
+        "shows",
+        "is showing",
+        "does"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

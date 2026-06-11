@@ -1,0 +1,228 @@
+{
+  "id": "advanced_noun_clauses",
+  "category": "b2_expansion",
+  "titleEn": "Advanced Noun Clauses",
+  "titleAr": "الجمل الاسمية التابعة المتقدمة",
+  "level": "B2",
+  "explanationEn": "This topic teaches using noun clauses after reporting verbs (said, told, asked), stance verbs (think, believe, wonder), and question words. Focus on correct word order inside the clause: subject + verb (not question order), and include necessary function words (that, whether, if). Practice uses everyday contexts like school, work, home, family, and travel.",
+  "explanationAr": "يوضح هذا الدرس طريقة استخدام الجمل الاسمية التابعة بعد أفعال النقل (said, told, asked) وبعد أفعال الرأي والموقف (think, believe, wonder) وبعد كلمات السؤال. في الإنجليزية يجب ترتيب الفاعل قبل الفعل داخل التابع واستخدام كلمات وظيفية مثل that وwhether. على المتحدثين بالعربية الانتباه لأن العربية أكثر مرونة في ترتيب الجملة، لذا قد يُنقل ترتيب عربي حرفيًا فينتج خطأ. سنستخدم أمثلة يومية من المدرسة والعمل والمنزل لتوضيح الفروق.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "قال أنها مريضة",
+      "arabicLiteral": "said that she sick",
+      "englishCorrect": "He said that she was sick."
+    },
+    {
+      "arabicStructure": "سأل: هل ستأتي؟",
+      "arabicLiteral": "asked: will she come?",
+      "englishCorrect": "He asked whether she would come."
+    },
+    {
+      "arabicStructure": "أعتقد يدرس كل يوم",
+      "arabicLiteral": "I think he studies every day",
+      "englishCorrect": "I think that he studies every day."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She asked where is the meeting tomorrow.",
+      "correct": "She asked where the meeting is tomorrow.",
+      "explanationEn": "Question words in noun clauses need statement word order: subject before verb.",
+      "explanationAr": "داخل التوابع بعد كلمات السؤال نضع ترتيب الجملة الخبرية (الفاعل قبل الفعل). نقل ترتيب السؤال من العربية يؤدي للخطأ."
+    },
+    {
+      "wrong": "I believe that does he finish the work on time.",
+      "correct": "I believe that he finishes the work on time.",
+      "explanationEn": "Clauses after stance verbs use normal statement order, not auxiliary inversion.",
+      "explanationAr": "بعد أفعال الرأي نستخدم ترتيب الخبر داخل التابع. لا نعيد ترتيب الجملة على شكل سؤال كما في العربية."
+    },
+    {
+      "wrong": "The teacher reported that broke his car down yesterday.",
+      "correct": "The teacher reported that his car broke down yesterday.",
+      "explanationEn": "English requires possessor before noun and statement order inside clauses.",
+      "explanationAr": "الإنجليزية تضع المضاف إليه قبل الاسم داخل التابع. نقل الترتيب العربي يغيّر صحة الجملة."
+    },
+    {
+      "wrong": "I wonder whether should I pack snacks for the trip.",
+      "correct": "I wonder whether I should pack snacks for the trip.",
+      "explanationEn": "Use subject + modal inside noun clauses with whether, not modal before subject.",
+      "explanationAr": "في التابعة بعد whether نضع الفاعل قبل الفعل المساعد. ترتيب السؤال العربي هنا غير صحيح داخل التابع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "anc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct report of this question: The student asked, \"When does the bus leave?\" (school context).",
+      "promptAr": "اختر الصيغة الصحيحة عند الإبلاغ: الطالب سأل «متى تغادر الحافلة؟» (سياق المدرسة).",
+      "explanation": "After ask, report the question with a noun clause using statement word order: subject before verb.",
+      "arabicNote": "بعد فعل ask نبلغ السؤال بجملة تابعة بصيغة الخبر: نكتب الفاعل قبل الفعل داخل التابع. احذر من نقل ترتيب السؤال العربي حرفياً لأنه يؤدي إلى خطأ.",
+      "weakTag": "advanced_noun_clauses_word_order",
+      "options": [
+        "The student asked when does the bus leave.",
+        "The student asked when the bus leaves.",
+        "The student asked the bus leaves when."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "anc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a noun clause after 'believe' about study habits?",
+      "promptAr": "أي جملة تستخدم جملة تابعة صحيحة بعد believe بخصوص عادات الدراسة؟",
+      "explanation": "Use 'that' plus normal subject-verb order inside the clause; do not invert or change form.",
+      "arabicNote": "بعد فعل رأي مثل believe نستخدم that ثم ترتيب الفاعل قبل الفعل داخل التابع. الترجمة المباشرة قد تضع الفعل قبل الفاعل، فاحذر هذا الخطأ الشائع بين المتحدثين بالعربية.",
+      "weakTag": "advanced_noun_clauses_form",
+      "options": [
+        "I believe that studies she every night.",
+        "I believe that she studies every night.",
+        "I believe that she every night study."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "anc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "My mother reported ___ her brother was late for work yesterday. (family/work context)",
+      "promptAr": "أبلغت والدتي ___ أن أخاها تأخر عن العمل أمس. (سياق العائلة/العمل)",
+      "explanation": "Use 'that' then statement word order: subject then verb. Do not invert the clause like a question.",
+      "arabicNote": "استخدم that ثم رتب الفاعل قبل الفعل داخل الجملة التابعة. في العربية قد يأتي الفعل قبل الفاعل أو بأسلوب سؤال، فتجنّب نقل ذلك حرفياً هنا.",
+      "weakTag": "advanced_noun_clauses_form",
+      "options": [
+        "that her brother was late for work yesterday",
+        "that was her brother late for work yesterday",
+        "that did her brother be late for work yesterday"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "anc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use statement order inside noun clauses: 'the meeting is', not 'is the meeting'.",
+      "arabicNote": "لا نستخدم ترتيب السؤال داخل التابع. ضع الفاعل قبل الفعل: 'the meeting is' بدلاً من 'is the meeting'. هذا يختلف عن مرونة ترتيب الجملة في العربية.",
+      "weakTag": "advanced_noun_clauses_arabic_transfer",
+      "options": [
+        "They asked where the meeting is tomorrow.",
+        "They asked is the meeting where tomorrow.",
+        "They asked whether the meeting will tomorrow be where."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They asked where is the meeting tomorrow."
+    },
+    {
+      "id": "anc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a reported sentence about arrival.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تقريرية عن الوصول.",
+      "explanation": "Reported speech uses: subject + reporting verb + that + clause with subject then verb phrase.",
+      "arabicNote": "الترتيب الإنجليزي الثابت: الفاعل ثم فعل النقل ثم that ثم فاعل التابع ثم الفعل. العربية قد تسمح بتغييرات أكثر، لكن الإنجليزية صارمة هنا.",
+      "weakTag": "advanced_noun_clauses_word_order",
+      "words": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "she",
+        "would",
+        "be",
+        "late"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "anc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English noun-clause sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة تابعة إنجليزية بمعناها العربي.",
+      "explanation": "Match full noun clauses to their Arabic meanings and note the clause word order.",
+      "arabicNote": "وصل الجمل لتلاحظ كيف تُترجم التوابع. لاحظ ترتيب الفاعل والفعل داخل التابع في الإنجليزية مقابل العربية لتجنب النقل الحرفي الخاطئ.",
+      "weakTag": "advanced_noun_clauses_meaning",
+      "pairs": [
+        {
+          "left": "I wonder where my keys are.",
+          "right": "أتساءل أين مفاتيحي."
+        },
+        {
+          "left": "She said that the exam starts at nine.",
+          "right": "قالت أن الامتحان يبدأ عند التاسعة."
+        },
+        {
+          "left": "They believe that he studies every night.",
+          "right": "يعتقدون أنه يدرس كل ليلة."
+        }
+      ]
+    },
+    {
+      "id": "anc_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence about travel plans using 'think'. (travel context)",
+      "promptAr": "اختر الجملة الصحيحة عن خطط السفر باستخدام think. (سياق السفر)",
+      "explanation": "After think, use that then clause with subject before the modal: 'John will', not 'will John'.",
+      "arabicNote": "بعد think ضع that ثم رتب الفاعل قبل فعل المساعد داخل التابع. لا تُبدّل ترتيب السؤال العربي لأن ذلك يغير تركيب العبارة ويجعلها خاطئة.",
+      "weakTag": "advanced_noun_clauses_word_order",
+      "options": [
+        "I think that will John leave tomorrow.",
+        "I think that John will leave tomorrow.",
+        "I think will John leave tomorrow."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "anc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I wonder ___ I left my lunch on the kitchen table. (home/study context)",
+      "promptAr": "أتساءل ___ تركت غدائي على طاولة المطبخ. (سياق المنزل/الدراسة)",
+      "explanation": "Use the question word with statement order inside the clause: 'where I left my lunch', not 'where is my lunch'.",
+      "arabicNote": "في التابعة بعد wonder نستخدم where ثم ترتيب الفاعل والفعل داخل التابع: 'where I left' بدلاً من ترتيب السؤال. هذا يمنع نقل ترتيب السؤال العربي داخل التابع.",
+      "weakTag": "advanced_noun_clauses_form",
+      "options": [
+        "where",
+        "where is",
+        "is where"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "anc_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly reports a family question about dinner?",
+      "promptAr": "أي جملة تُبلغ سؤالاً عائلياً عن العشاء بشكل صحيح؟",
+      "explanation": "Report questions with noun clauses using subject before auxiliary: 'what we will eat', not question inversion.",
+      "arabicNote": "عند إبلاغ سؤال داخل تابع نضع الفاعل قبل الفعل المساعد داخل التابع. لا تحافظ على ترتيب السؤال العربي كما هو، لأن ذلك يؤدي لخطأ نحوي.",
+      "weakTag": "advanced_noun_clauses_word_order",
+      "options": [
+        "Mom asked what will we eat for dinner.",
+        "Mom asked what we will eat for dinner.",
+        "Mom asked will we eat what for dinner."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "anc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Inside the noun clause use subject + verb: 'Ahmed likes', not inversion 'does Ahmed like'.",
+      "arabicNote": "في التوابع بعد believe ضع الفاعل قبل الفعل: 'Ahmed likes' بدل ترتيب السؤال 'does Ahmed like'. تجنب الترجمة الحرفية من العربية.",
+      "weakTag": "advanced_noun_clauses_arabic_transfer",
+      "options": [
+        "She believes that Ahmed likes coffee.",
+        "She believes does Ahmed like coffee.",
+        "She believes that does Ahmed like coffee."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She believes that does Ahmed like coffee."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "verb_preposition_patterns",
+  "category": "a2_core",
+  "titleEn": "Verb + Preposition Patterns",
+  "titleAr": "الفعل مع حرف الجر",
+  "level": "A2",
+  "explanationEn": "This topic teaches common verbs that require specific prepositions (for example: listen to, wait for, look at, talk to/about). Learners practice choosing the correct preposition, order of words, and correcting errors that come from translating directly from Arabic. Focus is everyday contexts: school, work, travel, and routines.",
+  "explanationAr": "هذا الموضوع يعلّم الأزواج الشائعة فعل+حرف جر مثل listen to و wait for و look at و talk to/about. نركّز على أخطاء الناطقين بالعربية الناتجة عن الترجمة الحرفية وحذف كلمات وظيفية. أمثلة عملية من المدرسة والعمل والسفر والحياة اليومية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا مهتم بالإنجليزية.",
+      "arabicLiteral": "I interested in English",
+      "englishCorrect": "I am interested in English."
+    },
+    {
+      "arabicStructure": "هي تنتظر الحافلة.",
+      "arabicLiteral": "She waits the bus",
+      "englishCorrect": "She is waiting for the bus."
+    },
+    {
+      "arabicStructure": "أستمع للراديو.",
+      "arabicLiteral": "I listen the radio",
+      "englishCorrect": "I listen to the radio."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I interested in English.",
+      "correct": "I am interested in English.",
+      "explanationEn": "Arabic often omits a form of 'to be' in simple descriptions. In English, we need the helper verb 'am' with 'interested' to make a correct adjectival sentence.",
+      "explanationAr": "في العربية قد نحذف فعل الكينونة في جمل الوصف. بالإنجليزية نحتاج 'am' مع 'interested' لتكوين جملة صحيحة وصفية، مثل: I am interested in English."
+    },
+    {
+      "wrong": "She waiting the bus.",
+      "correct": "She is waiting for the bus.",
+      "explanationEn": "This shows two errors common in Arabic transfer: missing the auxiliary 'is' and using the wrong preposition. English uses 'waiting for' to show waiting with an object.",
+      "explanationAr": "هذا مثال على نقل التركيب العربي مباشرة: حذف الفعل المساعد 'is' واختيار حرف جر غير صحيح. في الإنجليزية نقول 'waiting for the bus' لنفس المعنى."
+    },
+    {
+      "wrong": "He listen the radio every morning.",
+      "correct": "He listens to the radio every morning.",
+      "explanationEn": "Learners sometimes drop 'to' after 'listen' and forget the -s for third person. The pattern is 'listen to something' and subject-verb agreement still applies.",
+      "explanationAr": "يميل المتحدثون العرب إلى حذف 'to' بعد 'listen' واختيار صيغ فعل خاطئة مع he/she. التركيب الصحيح: he listens to the radio، مع -s للمفرد الغائِب."
+    },
+    {
+      "wrong": "She apologized about her mistake to the teacher.",
+      "correct": "She apologized to the teacher for her mistake.",
+      "explanationEn": "Some Arabic learners translate 'عن' or 'بخصوص' directly as 'about', but with 'apologize' we need 'apologize to (person) for (reason)'. Word order and prepositions both matter.",
+      "explanationAr": "بعض المتعلمين يترجمون 'عن' مباشرة إلى 'about' هنا، لكن 'apologize' يحتاج ترتيبًا محددًا: 'apologize to (الشخص) for (السبب)'. ترتيب الكلام وحروف الجر مهمان."
+    }
+  ],
+  "questions": [
+    {
+      "id": "vpp_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct preposition: She listens ___ the radio every morning.",
+      "promptAr": "اختر حرف الجر الصحيح.",
+      "explanation": "The verb 'listen' needs the preposition 'to' when you hear something: 'listen to the radio'. This is a fixed verb + preposition pattern. In this routine example, only 'to' makes a natural English sentence.",
+      "arabicNote": "الفعل listen يتطلب 'to' قبل الشيء الذي نستمع إليه: listen to the radio. الناطقون بالعربية قد يحذفون 'to' لأن الترجمة الحرفية من العربية لا تظهر هذا الفاصل الوظيفي، لذلك احفظ 'listen to'.",
+      "weakTag": "verb_preposition_patterns_form",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "on"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpp_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "They are waiting ___ the bus at the station now.",
+      "promptAr": "املأ الفراغ بحرف الجر الصحيح.",
+      "explanation": "We use 'wait for' when a person waits in order to get something or someone: 'wait for the bus'. Other prepositions like 'at' can describe location but do not show the action of waiting for the bus itself.",
+      "arabicNote": "نقول 'wait for' لنوضح أننا ننتظر شيئًا أو شخصًا: wait for the bus. قد يقول المتعلمون 'wait at the bus' بشكل خاطئ لأن 'at' يحدد المكان، لكن الفعل مع المفعول يحتاج 'for'.",
+      "weakTag": "vpp_wait_for",
+      "options": [
+        "for",
+        "at",
+        "to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpp_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct about looking at a picture?",
+      "promptAr": "أي جملة صحيحة عند الحديث عن النظر إلى صورة؟",
+      "explanation": "'Look at' is the correct verb + preposition for directing your eyes toward something. 'Look the picture' misses the preposition, and 'look for' means to search, which changes the meaning.",
+      "arabicNote": "نستخدم 'look at' عندما ننظر إلى شيء محدد: look at the picture. خطأ شائع هو حذف حرف الجر أو استخدام 'look for' والذي يعني البحث وليس المشاهدة. تجنّب الترجمة الحرفية من العربية.",
+      "weakTag": "verb_preposition_patterns_meaning",
+      "options": [
+        "Look the picture carefully.",
+        "Look at the picture carefully.",
+        "Look for the picture carefully."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "The correct pattern is 'listen to someone'. The wrong sentence is missing 'to'. Option 1 adds 'to' and keeps the same meaning. Option 2 changes meaning; option 3 still misses 'to' and uses wrong form.",
+      "arabicNote": "الخطأ هنا حذف 'to' بعد listen. القاعدة: listen to someone. قد يترجم المتعلمون مباشرة من العربية فيحذفون الكلمات الوظيفية؛ لذلك نحتاج إلى حفظ التركيب الكامل 'listen to'.",
+      "weakTag": "vpp_listen_to",
+      "options": [
+        "She listened to the teacher in class yesterday.",
+        "She listened for the teacher in class yesterday.",
+        "She was listening the teacher in class yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She listened the teacher in class yesterday."
+    },
+    {
+      "id": "vpp_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence. Context: She is at the bus stop now.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة. السياق: هي الآن عند محطة الحافلات.",
+      "explanation": "Correct English word order is Subject + auxiliary + main verb + preposition phrase: 'She is waiting for the bus.' Arabic word order or omission of auxiliary verbs sometimes causes mistakes, so practice ordering.",
+      "arabicNote": "الترتيب الصحيح بالإنجليزية: الفاعل ثم الفعل المساعد ثم فعل الجملة ثم حرف الجر والمفعول: She is waiting for the bus. في العربية قد نستخدم تركيبًا مختلفًا أو نحذف أفعال مساعدة، فانتبه للترتيب.",
+      "weakTag": "verb_preposition_patterns_word_order",
+      "words": [
+        "waiting",
+        "She",
+        "for",
+        "the",
+        "bus",
+        "is"
+      ],
+      "correctOrder": [
+        1,
+        5,
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "vpp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each verb + preposition to its Arabic meaning.",
+      "promptAr": "صل كل فعل+حرف جر بمعناه العربي.",
+      "explanation": "These pairs are fixed patterns where the verb requires a specific preposition. Memorize the correct small phrase (verb + preposition) because translating each word separately from Arabic often produces wrong preposition choices.",
+      "arabicNote": "هذه تركيبات ثابتة: الفعل مع حرف الجر لا يُترجم كلمة بكلمة من العربية دون خطأ. حفظ العبارة كاملة يساعدك على تجنّب خطأ اختيار حرف جر خاطئ نتيجة النقل الحرفي.",
+      "weakTag": "vpp_meaning_match",
+      "pairs": [
+        {
+          "left": "listen to",
+          "right": "يستمع إلى"
+        },
+        {
+          "left": "wait for",
+          "right": "ينتظر"
+        },
+        {
+          "left": "look at",
+          "right": "ينظر إلى"
+        },
+        {
+          "left": "talk to",
+          "right": "يتحدث إلى"
+        }
+      ]
+    },
+    {
+      "id": "vpp_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct preposition: You often depend ___ your brother for help with homework.",
+      "promptAr": "اختر حرف الجر الصحيح.",
+      "explanation": "The verb 'depend' uses 'on' to show reliance: 'depend on someone'. Saying 'depend for' or 'depend of' is not natural in this context. The sentence shows a clear relationship of relying on another person.",
+      "arabicNote": "الفعل depend يتطلب 'on' عندما نعتمد على شخص: depend on someone. متحدثو العربية قد يترجمون مباشرة ويستخدمون حرف جر آخر غير مناسب، لذلك احفظ 'depend on'.",
+      "weakTag": "vpp_depend_on",
+      "options": [
+        "on",
+        "of",
+        "with",
+        "for"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpp_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I need to apologize ___ my mistake to my manager today.",
+      "promptAr": "اختر حرف الجر الصحيح لملء الفراغ.",
+      "explanation": "When you say sorry for a reason, the pattern is 'apologize for something'. You may also 'apologize to' a person. Here the object 'my mistake' requires 'for' to show the reason for the apology.",
+      "arabicNote": "نقول 'apologize for (السبب)' و 'apologize to (الشخص)'. في هذه الجملة نعتذر بسبب الخطأ، لذلك نستخدم 'for'. تجنّب الترجمة الحرفية التي تخلط بين 'to' و 'for'.",
+      "weakTag": "verb_preposition_patterns_form",
+      "options": [
+        "for",
+        "to",
+        "with",
+        "about"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vpp_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct when a student describes what the teacher said about history?",
+      "promptAr": "أي جملة صحيحة عندما يصف الطالب ما قاله المعلم عن التاريخ؟",
+      "explanation": "'Talk about' is used when discussing a topic. 'Talk to' is used when speaking to a person and changes the meaning. Context (discussing history) requires 'about' to be correct and natural.",
+      "arabicNote": "نستخدم 'talk about' عند التحدث عن موضوع: talk about history. الخطأ الشائع هو ترجمة حرفية تُستخدم 'to' بدل 'about'، مما يغيّر المعنى إلى التحدث مع شخصٍ وليس عن موضوعٍ ما.",
+      "weakTag": "vpp_talk_about",
+      "options": [
+        "She talked to history in class.",
+        "She talked about history in class.",
+        "She talked for history in class."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "vpp_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below. Context: she already said sorry yesterday.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة. السياق: هي اعتذرت بالفعل أمس.",
+      "explanation": "The correct pattern is 'apologize to (person) for (reason)'. The wrong sentence used 'about' for the reason; that is not the fixed pattern here. Option 1 fixes both preposition positions and keeps the same meaning.",
+      "arabicNote": "الترتيب الصحيح: apologize to (الشخص) for (السبب). الخطأ الناتج من الترجمة الحرفية قد يضع 'about' بدل 'for' أو يغيّر ترتيب المكونات. الإصلاح يعيد المعنى المطلوب دون تغيير.",
+      "weakTag": "vpp_apologize_for",
+      "options": [
+        "She apologized to the teacher for her mistake yesterday.",
+        "She apologized the teacher for her mistake yesterday.",
+        "She apologized for the teacher about her mistake yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She apologized about her mistake to the teacher yesterday."
+    }
+  ]
+}

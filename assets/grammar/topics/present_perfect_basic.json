@@ -1,0 +1,226 @@
+{
+  "id": "present_perfect_basic",
+  "category": "b1_core",
+  "titleEn": "Present Perfect Basics",
+  "titleAr": "أساسيات المضارع التام",
+  "level": "B1",
+  "explanationEn": "Use have/has + past participle to talk about experiences or results connected to now. This tense links past actions to present results, unfinished time periods, or life experience. We teach standard British/academic usage where present perfect is preferred for recent results and experience; informal American speech sometimes uses simple past.",
+  "explanationAr": "نعلّم هنا استخدام have/has + التصريف الثالث للنتائج والخبرات المرتبطة بالحاضر. هذه الوحدة تتبع الاستخدام المعياري (الإنجليزي الأكاديمي/البريطاني) حيث يُفضّل المضارع التام للنتائج الحديثة والخبرات؛ في العامية الأمريكية أحياناً يُستخدم الماضي البسيط، لكن هدفنا هنا هو المضارع التام وتجنّب حذف المساعد أو استخدام تصريف خاطئ.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنهيت واجبي.",
+      "arabicLiteral": "I finished my homework",
+      "englishCorrect": "I have finished my homework."
+    },
+    {
+      "arabicStructure": "هي لم تزُر لندن أبدًا.",
+      "arabicLiteral": "She never visited London",
+      "englishCorrect": "She has never visited London."
+    },
+    {
+      "arabicStructure": "نحن نعيش هنا منذ 2015.",
+      "arabicLiteral": "We live here since 2015",
+      "englishCorrect": "We have lived here since 2015."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have finish my homework.",
+      "correct": "I have finished my homework.",
+      "explanationEn": "Wrong past participle form — use finished as the third form after have.",
+      "explanationAr": "خطأ في شكل التصريف الثالث. بعد have نحتاج التصريف الثالث 'finished'، لذلك 'have finish' غير صحيح."
+    },
+    {
+      "wrong": "She have never visited London.",
+      "correct": "She has never visited London.",
+      "explanationEn": "Wrong auxiliary agreement: use has with she, not have.",
+      "explanationAr": "مشكلة اتفاق الفاعل والمساعد. مع she نستخدم has وليس have. هذا خطأ شائع عند نقْل التركيبات من العربية حرفياً."
+    },
+    {
+      "wrong": "He seen that film already.",
+      "correct": "He has seen that film already.",
+      "explanationEn": "Missing auxiliary 'has' makes the sentence ungrammatical; we need have/has + past participle.",
+      "explanationAr": "حذف المساعد يجعل الجملة غير صحيحة. الإنجليزية تحتاج have/has قبل التصريف الثالث لربط الفعل بالحاضر."
+    },
+    {
+      "wrong": "We live here since 2015.",
+      "correct": "We have lived here since 2015.",
+      "explanationEn": "Using present simple with since is incorrect for a continuing past-to-now state in standard usage.",
+      "explanationAr": "استخدام المضارع البسيط مع \"since\" يغيِّر المعنى. للتعبير عن استمرار من الماضي وحتى الآن نستخدم have + التصريف الثالث."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ppb_q1",
+      "type": "multiple_choice",
+      "prompt": "This evening I can't go out until I _____ my homework (the result must be true now).",
+      "promptAr": "هذا المساء لا أستطيع الخروج حتى _____ واجبي (النتيجة يجب أن تكون صحيحة الآن).",
+      "explanation": "Have + past participle shows result now; present perfect links finishing to current situation.",
+      "arabicNote": "استخدم have + التصريف الثالث لأن النتيجة الآن مهمة. الخطأ الشائع هو ترك التصريف الثالث أو استخدام صيغة غير متطابقة مع الفاعل، وهذا يغير زمن الجملة.",
+      "weakTag": "present_perfect_basic_form",
+      "options": [
+        "have finished",
+        "have finish",
+        "has finished",
+        "had finished"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "A friend asks about her life experience so far this year: which sentence correctly answers about London visits?",
+      "promptAr": "سألوا عن خبرتها في السفر حتى الآن هذا العام: أي جملة تردّ بشكل صحيح عن زيارات لندن؟",
+      "explanation": "Present perfect shows life experience up to now. Use has + past participle for she.",
+      "arabicNote": "للسؤال عن تجربة حياة حتى الآن نستخدم المضارع التام. بعض المتعلمين يخطئون في المساعد أو ترتيب الكلمات، فتظهر أخطاء مثل 'She have...' أو ترتيب عربي غير صحيح.",
+      "weakTag": "present_perfect_basic_meaning",
+      "options": [
+        "She has never visited London.",
+        "She have never visited London.",
+        "Never she visited London."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I _____ all my exams so far this year (the period 'this year' is not finished).",
+      "promptAr": "حتى الآن هذا العام أنا _____ كل امتحاناتي (الفترة 'this year' لم تنتهِ).",
+      "explanation": "Use present perfect for achievements inside an unfinished period like 'this year'.",
+      "arabicNote": "الفترة الزمنية غير مكتملة، لذا نحتاج have + التصريف الثالث. أخطاء شائعة: استخدام صيغة خاطئة للتصريف الثالث أو مساعد غير متوافق مع الفاعل.",
+      "weakTag": "ppb_time_markers",
+      "options": [
+        "have passed",
+        "have pass",
+        "has pass",
+        "pass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this sentence about a recent result.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية عن نتيجة حدثت مؤخراً.",
+      "explanation": "Already + present relevance needs has + past participle to show current result.",
+      "arabicNote": "كلمة already تدل على نتيجة مرتبطة بالحاضر. خطأ شائع هو استخدام الماضي البسيط أو حذف المساعد. هنا نحتاج has + seen لربط الحدث بالحاضر.",
+      "weakTag": "present_perfect_basic_arabic_transfer",
+      "options": [
+        "He has seen that film already.",
+        "He have seen that film already.",
+        "He sees that film already."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He saw that film already."
+    },
+    {
+      "id": "ppb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order: I have finished my homework (result now).",
+      "promptAr": "رتّب الكلمات لتكون: لقد أنهيت واجبي الآن (نتيجة مرتبطة بالحاضر).",
+      "explanation": "Subject + have/has + past participle + object is the correct English order.",
+      "arabicNote": "في الإنجليزية نضع الفاعل ثم have/has ثم التصريف الثالث ثم المفعول. خطأ شائع عند المتحدثين بالعربية هو نقل ترتيب الجملة حرفياً.",
+      "weakTag": "ppb_word_order",
+      "words": [
+        "homework",
+        "I",
+        "have",
+        "finished",
+        "my"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "ppb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning (present perfect = experience/result connected to now).",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي (المضارع التام = خبرة أو نتيجة مرتبطة بالحاضر).",
+      "explanation": "Choose pairs where the English sentence expresses a result, experience, or action continuing to now.",
+      "arabicNote": "الصلات تظهر أن المضارع التام يربط الماضي بالحاضر. راجع المساعد والتصريف الثالث لتجنّب الأخطاء عند التحويل من العربية.",
+      "weakTag": "present_perfect_basic_meaning",
+      "pairs": [
+        {
+          "left": "I have finished my homework.",
+          "right": "لقد أنهيت واجبي الآن."
+        },
+        {
+          "left": "She has never visited London.",
+          "right": "هي لم تزُر لندن أبداً حتى الآن."
+        },
+        {
+          "left": "We have lived here since 2015.",
+          "right": "نحن نعيش هنا منذ 2015."
+        }
+      ]
+    },
+    {
+      "id": "ppb_q7",
+      "type": "multiple_choice",
+      "prompt": "They _____ in this city since 2010 (continuing from 2010 to now).",
+      "promptAr": "هم يعيشون في هذه المدينة منذ 2010 (منذ 2010 وحتى الآن).",
+      "explanation": "Use have + past participle with since + start date to show continuation to now.",
+      "arabicNote": "مع since ونقطة بداية نستخدم المضارع التام للدلالة على الاستمرار حتى الآن. تجنّب الماضي البسيط أو أشكال زمنية أخرى هنا.",
+      "weakTag": "ppb_time_markers",
+      "options": [
+        "have lived",
+        "lived",
+        "has lived",
+        "had lived"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppb_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "She is back in town. So far she _____ to France three times (she returned each time).",
+      "promptAr": "هي عادت إلى المدينة. حتى الآن هي _____ إلى فرنسا ثلاث مرات (وعادت في كل مرة).",
+      "explanation": "Has been is used for completed visits up to now; other forms here are ungrammatical or wrong participles.",
+      "arabicNote": "لأنها عادت الآن ونريد زيارات مكتملة، نستخدم has been. أخطاء شائعة: استخدام تصريف خاطئ أو حذف المساعد أو تركيب غير صحيح.",
+      "weakTag": "ppb_experience",
+      "options": [
+        "has been",
+        "has went",
+        "have go",
+        "is been"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppb_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a life experience sentence up to now (before today).",
+      "promptAr": "اختر التصحيح الأفضل لجملة عن خبرة حياتية حتى الآن (قبل اليوم).",
+      "explanation": "Use have + past participle for experiences up to now; past perfect or habitual present are wrong here.",
+      "arabicNote": "التعبير عن خبرة الحياة حتى الآن يتطلب المضارع التام. إن استخدام had أو الفعل البسيط دون have يجعل الزمن غير مناسب للسياق.",
+      "weakTag": "present_perfect_basic_form",
+      "options": [
+        "I have never eaten sushi.",
+        "I had never eaten sushi.",
+        "I never eat sushi."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I never ate sushi."
+    },
+    {
+      "id": "ppb_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct reply about a recent repair with current effect: 'Did you repair the door?' — (reply states present result).",
+      "promptAr": "اختر الرد الصحيح عن إصلاح حديث له تأثير حالي: 'هل أصلحت الباب؟' — (الرد يتحدث عن الحالة الحالية).",
+      "explanation": "Present perfect shows recent action with a current result; choose the option that links the past action to now.",
+      "arabicNote": "عند السؤال عن نتيجة حالية بعد عمل تم مؤخراً نستخدم have + التصريف الثالث لإظهار أن النتيجة تؤثر الآن. تجنّب الزمن المستقبلي أو أخطاء زمنية أخرى.",
+      "weakTag": "ppb_result",
+      "options": [
+        "I have repaired it; you can open it now.",
+        "I repaired it tomorrow.",
+        "I will repair it now."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

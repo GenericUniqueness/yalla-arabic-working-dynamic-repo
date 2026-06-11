@@ -1,0 +1,234 @@
+{
+  "id": "past_perfect",
+  "category": "b2_expansion",
+  "titleEn": "Past Perfect",
+  "titleAr": "الماضي التام",
+  "level": "B2",
+  "explanationEn": "Use had + past participle to show that one past action happened before another past action. Typical signals include time clauses with by the time, before, and adverbs like already. Do not confuse past perfect with present perfect (I have finished my homework; She has never visited London).",
+  "explanationAr": "نستخدم had + التصريف الثالث لتوضيح أن حدثًا وقع قبل حدث ماضٍ آخر. في الإنجليزية يجب وجود المساعد had وترتيب كلمات محدد، بينما قد تعبّر العربية عن الترتيب بدون مساعد. انتبه لخطأ حذف had أو استخدام has/ have بدل had لأن ذلك يغيّر زمن الفعل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي وصلت قبل أن أعود.",
+      "arabicLiteral": "She arrived before I returned.",
+      "englishCorrect": "She had arrived before I returned."
+    },
+    {
+      "arabicStructure": "انتهيت من الواجب قبل العشاء.",
+      "arabicLiteral": "I finished the homework before dinner.",
+      "englishCorrect": "I had finished my homework before dinner."
+    },
+    {
+      "arabicStructure": "عندما عاد، كان القطار قد غادر.",
+      "arabicLiteral": "When he returned, the train had left.",
+      "englishCorrect": "By the time he returned, the train had left."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "By the time the teacher arrived, I finished my homework.",
+      "correct": "By the time the teacher arrived, I had finished my homework.",
+      "explanationEn": "Learners drop had and use simple past; had + past participle marks the earlier completed action.",
+      "explanationAr": "الخطأ حذف 'had' واستخدام الماضي البسيط. في الإنجليزية نستخدم had + التصريف الثالث لتحديد أن الإنهاء كان قبل وصول المعلم."
+    },
+    {
+      "wrong": "When Omar came back, I didn't eat yet.",
+      "correct": "When Omar came back, I had not eaten yet.",
+      "explanationEn": "Use had not + past participle for an earlier negative action before another past event.",
+      "explanationAr": "المتحدثون العرب قد يترجمون النفي مباشرة بالماضي. الصحيح هنا had not + التصريف الثالث لتوضيح أن الأكل لم يحدث قبل عودته."
+    },
+    {
+      "wrong": "By the time I checked, he had went home.",
+      "correct": "By the time I checked, he had gone home.",
+      "explanationEn": "After had the verb must be the past participle (gone), not the simple past (went).",
+      "explanationAr": "الخطأ شائع بوضع 'went' بعد had. بعد had نضع التصريف الثالث مثل 'gone' وليس الماضي البسيط."
+    },
+    {
+      "wrong": "By the time we arrived, the train already left.",
+      "correct": "By the time we arrived, the train had already left.",
+      "explanationEn": "Add had to show the train's leaving happened before our arrival; simple past loses that order.",
+      "explanationAr": "في العربية قد نذكر التسلسل دون مساعد. في الإنجليزية نحتاج had لتبيان أن المغادرة حصلت قبل الوصول."
+    }
+  ],
+  "questions": [
+    {
+      "id": "past3_q1",
+      "type": "multiple_choice",
+      "prompt": "By the time Anna arrived at the party, we ___ dinner.",
+      "promptAr": "عند وصول آنا للحفلة، ماذا حدث بالنسبة للعشاء؟ اختر الإجابة الصحيحة.",
+      "explanation": "Had finished uses had + past participle to show completion before Anna arrived.",
+      "arabicNote": "نستخدم had + التصريف الثالث لأن إنهاء العشاء حصل قبل وصول آنا. المتحدثون العرب قد يحذفون had أو يضعون have/has، فاحذر ذلك هنا.",
+      "weakTag": "past_perfect_form",
+      "options": [
+        "had finished",
+        "have finished",
+        "had finish",
+        "has finished"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "By the time the meeting began, Ali ___ the report to his boss.",
+      "promptAr": "قبل بدء الاجتماع، ماذا كان قد فعل علي بالنسبة للتقرير؟ اختر الإجابة الصحيحة.",
+      "explanation": "Use had sent to show the sending was completed before the meeting began.",
+      "arabicNote": "نستخدم had + التصريف الثالث لأن إرسال التقرير اكتمل قبل بداية الاجتماع. احذر استخدام has/have أو حذف had لأن ذلك يغيّر الترتيب الزمني.",
+      "weakTag": "past_perfect_word_order",
+      "options": [
+        "had sent",
+        "sent",
+        "has sent",
+        "had sended"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows one past action happened before another?",
+      "promptAr": "أي جملة توضح فعلًا حدث قبل فعلٍ ماضٍ آخر؟ اختر الجملة الصحيحة.",
+      "explanation": "Had gone uses had + past participle to show his leaving happened before my arrival.",
+      "arabicNote": "الجملة الصحيحة تستخدم had + gone لتوضيح أن رحيله كان قبل وصولي. انتبه أن استخدام has أو حذف had يغيّر زمن الحدث.",
+      "weakTag": "past_perfect_meaning",
+      "options": [
+        "By the time I arrived, he had gone home.",
+        "By the time I arrived, he had go home.",
+        "By the time I arrived, he has gone home."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر أفضل تصحيح للجملة التالية.",
+      "explanation": "Use had + past participle: had already left shows leaving completed before Sara's arrival.",
+      "arabicNote": "الصحيح هو 'had already left' لأن المغادرة كانت قبل وصول سارة. تجنّب استخدام present perfect أو حذف had مع عبارات زمنية ماضية مثل 'By the time'.",
+      "weakTag": "past_perfect_form",
+      "options": [
+        "By the time Sara arrived, I had already left work.",
+        "By the time Sara arrived, I have already left work.",
+        "By the time Sara arrived, I had already leave work."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "By the time Sara arrived, I already left work."
+    },
+    {
+      "id": "past3_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one clear past sequence.",
+      "promptAr": "رتب الكلمات لتكوين جملة تبيّن حدثًا سابقًا بالنسبة لحدث ماضٍ آخر.",
+      "explanation": "Time phrase, later action, then had + past participle for the earlier action.",
+      "arabicNote": "رتّب العبارة الزمنية أولاً ثم حدث الوصول ثم had + التصريف الثالث للفعل السابق. المتحدثون العرب قد يضعون الفعل أولًا فتنسى had؛ لا تفعل ذلك.",
+      "weakTag": "past_perfect_word_order",
+      "words": [
+        "Sam",
+        "had",
+        "By",
+        "time",
+        "I",
+        "arrived",
+        "the",
+        "eaten",
+        "lunch"
+      ],
+      "correctOrder": [
+        2,
+        6,
+        3,
+        0,
+        5,
+        4,
+        1,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "past3_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning (past action before another).",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي (حدث سابق بالنسبة لحدث ماضٍ آخر).",
+      "explanation": "Match sentences where had + past participle shows an earlier past action before another past event.",
+      "arabicNote": "في كل زوج، had + التصريف الثالث يبيّن أن الحدث وقع قبل حدث ماضٍ آخر. في العربية قد لا يظهر هذا المساعد، فاحذر حذف had عند الترتيب الزمني.",
+      "weakTag": "past_perfect_meaning",
+      "pairs": [
+        {
+          "left": "I had finished my homework before dinner.",
+          "right": "كنت قد أنهيت واجبي قبل العشاء."
+        },
+        {
+          "left": "They had left the house by the time I woke up.",
+          "right": "كانوا قد غادروا البيت قبل أن أستيقظ."
+        },
+        {
+          "left": "She had never seen the city before the trip.",
+          "right": "لم تكن قد رأت المدينة قبل الرحلة."
+        }
+      ]
+    },
+    {
+      "id": "past3_q7",
+      "type": "multiple_choice",
+      "prompt": "Before he called, Maria ___ never ___ to New York.",
+      "promptAr": "قبل اتصاله، ماذا كان وضع ماريا تجاه نيويورك؟ اختر الإجابة الصحيحة.",
+      "explanation": "Had never been indicates she had no experience of New York before his call.",
+      "arabicNote": "نستخدم had never been لأن التجربة لم تحدث قبل المكالمة. لا تترجم مباشرة ب has/ have عندما الإشارة زمنية للماضِ موجودة.",
+      "weakTag": "past_perfect_meaning",
+      "options": [
+        "had never been",
+        "has never been",
+        "never was",
+        "had never went"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence showing one past event before another (sound check).",
+      "promptAr": "اختر الجملة الصحيحة التي توضح حدثًا سابقًا بالنسبة لحدث ماضٍ آخر (فحص الصوت).",
+      "explanation": "Had finished shows the sound check was completed before the show started.",
+      "arabicNote": "الصحيح 'had finished' لأن فحص الصوت اكتمل قبل بدء العرض. استخدام has أو حذف had مع عبارة 'Before the show started' يغيّر المعنى.",
+      "weakTag": "past_perfect_form",
+      "options": [
+        "Before the show started, the band had finished the sound check.",
+        "Before the show started, the band has finished the sound check.",
+        "Before the show started, the band had finish the sound check."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "By the time the exam started, several students ___ the classroom.",
+      "promptAr": "عند بدء الامتحان، ماذا فعل بعض الطلاب بالنسبة للفصل؟ اختر الإجابة الصحيحة.",
+      "explanation": "Had left uses had + past participle to show the leaving happened before the exam began.",
+      "arabicNote": "نستخدم had لأن مغادرة الطلاب حصلت قبل بدء الامتحان. لا تستبدل had ب have أو تضع تصريفًا خاطئًا بعد had.",
+      "weakTag": "past_perfect_form",
+      "options": [
+        "had left",
+        "have left",
+        "had lefted",
+        "had leave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past3_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر أفضل تصحيح للجملة الخاطئة التالية.",
+      "explanation": "Had taken uses had + past participle to show he took the keys before I found them.",
+      "arabicNote": "الخطأ في التصريف بعد had. بعد had نضع التصريف الثالث ('taken') لتوضيح أن أحمد أخذ المفاتيح قبل أن أجدها، لا تضع 'took' بعد had.",
+      "weakTag": "past_perfect_form",
+      "options": [
+        "By the time I found the keys, Ahmed had taken them.",
+        "By the time I found the keys, Ahmed has taken them.",
+        "By the time I found the keys, Ahmed had took them."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "By the time I found the keys, Ahmed had took them."
+    }
+  ]
+}

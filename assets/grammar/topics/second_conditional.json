@@ -1,0 +1,233 @@
+{
+  "id": "second_conditional",
+  "category": "b1_core",
+  "titleEn": "Second Conditional",
+  "titleAr": "الشرط الثاني",
+  "level": "B1",
+  "explanationEn": "Use if + past simple and would + base verb to talk about unreal or unlikely present or future situations. It shows imagined results, polite advice, or wishes that are not true now. Keep the if-clause in past simple and the main clause with would.",
+  "explanationAr": "الشرط الثاني يستخدم if + الماضي البسيط و would + الفعل الأساسي للتعبير عن حالات غير حقيقية أو احتمالات غير مرجحة الآن أو في المستقبل. انتبه: العربية تَصِف الأزمنة بطريقة مختلفة وغالبًا بدون أدوات مثل would، لذلك لا تترجم تراكيب الأزمنة حرفيًّا ويجب احترام ترتيب الكلمات والأدوات المساعدة في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لو عندي وقت، أدرس أكثر.",
+      "arabicLiteral": "If I have time, I study more",
+      "englishCorrect": "If I had time, I would study more."
+    },
+    {
+      "arabicStructure": "لو عندي سيارة، أذهب إلى العمل.",
+      "arabicLiteral": "If I have a car, I go to work",
+      "englishCorrect": "If I had a car, I would drive to work."
+    },
+    {
+      "arabicStructure": "لو كانت تعرف الإسبانية، تعمل في مدريد.",
+      "arabicLiteral": "If she knows Spanish, she works in Madrid",
+      "englishCorrect": "If she knew Spanish, she would work in Madrid."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I will have time, I would study more.",
+      "correct": "If I had time, I would study more.",
+      "explanationEn": "Do not use will in the if-clause for unreal present conditions; use past simple then would.",
+      "explanationAr": "خطأ شائع: وضع will بعد if عند التعبير عن فرضية غير حقيقية الآن. في الإنجليزية الصحيحة نستخدم الماضي البسيط بعد if ثم would في جملة النتيجة، ولا نترجم will من العربية حرفيًا."
+    },
+    {
+      "wrong": "If she knows Spanish, she would work in Madrid.",
+      "correct": "If she knew Spanish, she would work in Madrid.",
+      "explanationEn": "Using present in the if-clause makes the situation real; use past simple for unreal present.",
+      "explanationAr": "خطأ من النقل الحرفي: استخدام المضارع بعد if يعطي معنى واقعي. للتخيّل الآن نستخدم الماضي البسيط بعد if ثم would في النتيجة."
+    },
+    {
+      "wrong": "If I had time, I will help you.",
+      "correct": "If I had time, I would help you.",
+      "explanationEn": "Mixing will with if + past is incorrect for imagined present/future results; use would.",
+      "explanationAr": "خلط will مع if + الماضي خطأ في التعبير عن نتيجة افتراضية. يجب استخدام would في نتيجة شرط افتراضي، لأن ذلك يغيّر نوع الفرضية مقارنة بالعربية."
+    },
+    {
+      "wrong": "If he had had experience, he would work there.",
+      "correct": "If he had experience, he would work there.",
+      "explanationEn": "Don't use past perfect for a present unreal condition; use past simple after if for present hypotheticals.",
+      "explanationAr": "استخدام الماضي التام (had had) يوحِّي بفرضية متعلقة بالماضي فقط وليس بحالة حالية افتراضية. للتخيل الحاضر نستخدم الماضي البسيط بعد if."
+    }
+  ],
+  "questions": [
+    {
+      "id": "second_q1",
+      "type": "multiple_choice",
+      "prompt": "You don't own a car now. Which sentence correctly says what you would do in that unreal situation?",
+      "promptAr": "أنت لا تملك سيارة الآن. أي جملة تعبّر بشكل صحيح عن ما ستفعله في هذا الوضع الافتراضي غير الحقيقي؟",
+      "explanation": "Use past in the if-clause and would + base verb for unreal present results.",
+      "arabicNote": "نستخدم if + الماضي ثم would للتعبير عن نتيجة افتراضية الآن. المتحدثون العرب قد يضعون will بعد if بسبب الترجمة الحرفية، لكن ذلك خطأ هنا.",
+      "weakTag": "second_conditional_form",
+      "options": [
+        "If I had a car, I would drive to work.",
+        "If I have a car, I will drive to work.",
+        "If I will have a car, I would drive to work."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "second_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly describes an unlikely present possibility about study time.",
+      "promptAr": "اختر الجملة التي تصف احتمالًا حاليًا غير مرجحًا بخصوص وقت الدراسة.",
+      "explanation": "Second conditional uses past after if and would for unlikely present possibilities.",
+      "arabicNote": "الجملة الصحيحة تحتوي على if + الماضي ثم would في النتيجة. متحدثو العربية قد يترجمون المضارع بعد لو، فاحذر هذا النقل الحرفي.",
+      "weakTag": "second_conditional_meaning",
+      "options": [
+        "If I have more time, I will study more.",
+        "If I had more time, I would study more.",
+        "If I will have more time, I would study more."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "second_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Imagine she doesn't know Spanish now. Complete: If she ___ Spanish, she would work in Madrid.",
+      "promptAr": "تخيل أنها لا تعرف الإسبانية الآن. أكمل: If she ___ Spanish, she would work in Madrid.",
+      "explanation": "Use the past simple (knew) after if for unreal present possibilities.",
+      "arabicNote": "بعد if هنا نستخدم الماضي البسيط (knew) للتعبير عن فرضية غير حقيقية الآن. قد يختار المتعلمون المضارع فتصبح الجملة واقعية، لذا انتبه.",
+      "weakTag": "second_conditional_word_order",
+      "options": [
+        "knew",
+        "knows",
+        "will know",
+        "had known"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "second_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: You think getting a scholarship is unlikely.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: تعتقد أن الحصول على منحة أمر غير مرجح.",
+      "explanation": "Use past after if and would in the result for unlikely future possibilities.",
+      "arabicNote": "الخطأ هو وضع will بعد if. عند التعبير عن نتيجة افتراضية نستخدم if + الماضي ثم would. تجنّب الترجمة الحرفية من العربية.",
+      "weakTag": "second_conditional_arabic_transfer",
+      "options": [
+        "If I got a scholarship, I would travel next year.",
+        "If I get a scholarship, I would travel next year.",
+        "If I will get a scholarship, I will travel next year."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If I will get a scholarship, I would travel next year."
+    },
+    {
+      "id": "second_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order for an unreal present possibility about the weather and your plans.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تعبر عن فرضية حالية غير حقيقية عن الطقس وخططك.",
+      "explanation": "Order: If + past clause, then result with would + base verb.",
+      "arabicNote": "ضع if + الماضي في جملة الشرط أولًا ثم النتيجة مع would. في العربية الترتيب أكثر مرونة، لكن في الإنجليزية هذا الترتيب مهم لتوضيح الفرضية.",
+      "weakTag": "second_conditional_word_order",
+      "words": [
+        "have",
+        "we",
+        "a",
+        "sunny",
+        "If",
+        "picnic",
+        "it",
+        "were",
+        "would"
+      ],
+      "correctOrder": [
+        4,
+        6,
+        7,
+        3,
+        1,
+        8,
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "second_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. All show unreal present or future hypotheticals.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي. كل الجمل فرضيات غير حقيقية للحاضر أو المستقبل.",
+      "explanation": "Each sentence uses if + past and would to show imagined results now or later.",
+      "arabicNote": "الروابط توضح أن if + الماضي و would تعبّران عن تخيّل أو رغبة غير حقيقية الآن أو مستقبلًا. احذر الترجمة الحرفية من العربية التي قد تبدو بالمضارع.",
+      "weakTag": "second_conditional_meaning",
+      "pairs": [
+        {
+          "left": "If I won the lottery, I would buy a house.",
+          "right": "لو ربحت اليانصيب، لَاشْتَرَيْتُ بيتًا."
+        },
+        {
+          "left": "If she knew the answer, she would tell us.",
+          "right": "لو كانت تعرف الإجابة، لَأخبرَتْنا."
+        },
+        {
+          "left": "If we lived near the sea, we would swim more.",
+          "right": "لو كنا نعيش قرب البحر، لكنا نسبح أكثر."
+        }
+      ]
+    },
+    {
+      "id": "second_q7",
+      "type": "multiple_choice",
+      "prompt": "It's unlikely he will pass the test. Which sentence correctly expresses that idea?",
+      "promptAr": "من غير المرجح أن ينجح في الاختبار. أي جملة تعبّر عن هذه الفكرة بشكل صحيح؟",
+      "explanation": "Use if + past and would for an unlikely present or future outcome.",
+      "arabicNote": "نستخدم if + الماضي مع would للتعبير عن نتيجة افتراضية الآن أو مستقبلًا. لا تضع will بعد if لأن ذلك يُظهر فعلًا حقيقيًا أو خطة.",
+      "weakTag": "second_conditional_form",
+      "options": [
+        "If he studied harder, he would pass the test.",
+        "If he studies harder, he will pass the test.",
+        "If he will study harder, he would pass the test.",
+        "If he had studied harder, he will pass the test."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "second_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "You know she is unemployed now. Complete: If she had experience, she ___ a better job.",
+      "promptAr": "تعرف أنها عاطلة عن العمل الآن. أكمل: If she had experience, she ___ a better job.",
+      "explanation": "Use would + base verb (would get) for the imagined result of a present unreal condition.",
+      "arabicNote": "في النتيجة نستخدم would + الفعل الأساسي لأن الحالة افتراضية الآن. المتعلمون العرب قد يختارون will أو يخطئون في شكل would، فانتبه للقاعدة.",
+      "weakTag": "second_conditional_form",
+      "options": [
+        "would get",
+        "will get",
+        "gets",
+        "would got"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "second_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly expresses a present unreal wish about a health habit now (not a single past action).",
+      "promptAr": "اختر الجملة التي تعبّر عن رغبة غير حقيقية الآن بخصوص عادة صحية (ليس عن فعل ماضٍ محدد).",
+      "explanation": "Second conditional: past after if and would for an unreal present wish.",
+      "arabicNote": "الجملة الصحيحة تستخدم if + الماضي (didn't eat) ثم would للتعبير عن رغبة غير حقيقية الآن. تجنّب الأخطاء النحوية أو استخدام will هنا.",
+      "weakTag": "second_conditional_arabic_transfer",
+      "options": [
+        "If I don't eat so much, I will feel better.",
+        "If I didn't eat so much, I would feel better.",
+        "If I didn't ate so much, I would feel better."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "second_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: Your schedule tomorrow is full, so helping is unlikely.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: جدولك غدًا ممتلئ، لذا من غير المرجح أن تساعد.",
+      "explanation": "For an unlikely future possibility use if + past and would in the result.",
+      "arabicNote": "لأن الحالة غير مرجحة نستخدم if + الماضي ثم would في النتيجة. استخدام will هنا يعطي معنى واقعي وليس تخيليًا، وهو خطأ شائع بين المتحدثين بالعربية.",
+      "weakTag": "second_conditional_arabic_transfer",
+      "options": [
+        "If I had time tomorrow, I would help you.",
+        "If I have time tomorrow, I will help you.",
+        "If I had had time tomorrow, I would have helped you."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If I have time tomorrow, I will help you."
+    }
+  ]
+}

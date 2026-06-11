@@ -1,0 +1,230 @@
+{
+  "id": "superlatives_basic",
+  "category": "a2_core",
+  "titleEn": "Basic Superlatives",
+  "titleAr": "صيغة التفضيل الأساسية",
+  "level": "A2",
+  "explanationEn": "Use -est for short adjectives (tall → tallest) and use 'the most' with longer adjectives (careful → the most careful). Put 'the' before a superlative to show one item is the top in a group. Watch spelling changes like happy → happiest and do not use 'more' with short adjectives.",
+  "explanationAr": "في الإنجليزية نصنع صيغة التفضيل بإضافة «-est» للصفات القصيرة أو بوضع «the most» قبل الصفات الأطول. عند تحديد عنصر واحد في مجموعة نضع «the» قبل التفضيل. المتحدثون العرب قد يترجمون ترتيب الكلمات حرفيًا أو يسقطون «the» أو يستخدمون «more» مع صفات قصيرة، لذا انتبه لهذه الفروق النحوية بين العربية والإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هذا المبنى أعلى",
+      "arabicLiteral": "This building higher",
+      "englishCorrect": "This is the tallest building."
+    },
+    {
+      "arabicStructure": "هي سائقة حذرة أكثر",
+      "arabicLiteral": "She driver more careful",
+      "englishCorrect": "She is the most careful driver."
+    },
+    {
+      "arabicStructure": "أنا أسعد واحد",
+      "arabicLiteral": "I happiest one",
+      "englishCorrect": "I am the happiest person here."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "This is most tall building in the city.",
+      "correct": "This is the tallest building in the city.",
+      "explanationEn": "Learners sometimes copy Arabic word order and use 'most' with a short adjective and forget 'the'. English needs both 'the' and the -est form for a short adjective when naming one top item in a group.",
+      "explanationAr": "يميل بعض المتعلمين إلى الترجمة الحرفية من العربية فيقولون 'most tall' ويهملون 'the'. في الإنجليزية لتحديد عنصر واحد نستخدم 'the' ثم الصفة بصيغة -est للصفات القصيرة."
+    },
+    {
+      "wrong": "She is the most carefully driver.",
+      "correct": "She is the most careful driver.",
+      "explanationEn": "Arabic speakers sometimes mix adjective and adverb forms. After a linking verb like 'is' we need the adjective 'careful', not the adverb 'carefully'. The meaning should stay the same but the form must be adjective.",
+      "explanationAr": "قد يخلط المتكلمون العرب بين الصفة والظرف. بعد 'is' نحتاج الصفة 'careful' وليس الظرف 'carefully'. المعنى يجب أن يبقى كما هو لكن الصياغة الإنجليزية تتطلب صفة هنا."
+    },
+    {
+      "wrong": "He is more tall than all the boys in his class.",
+      "correct": "He is the tallest of all the boys in his class.",
+      "explanationEn": "Using 'more' with a short adjective is incorrect when we want the one top person. To say someone is top of a group, use 'the' + adjective + -est (the tallest) or 'the tallest of', not 'more tall'.",
+      "explanationAr": "يستخدم بعض المتعلمين 'more' بسبب الترجمة من العربية. عند تحديد شخص كالأطول في مجموعة نستخدم 'the' + الصفة + -est أو 'the tallest of'، وليس 'more' مع الصفة القصيرة."
+    },
+    {
+      "wrong": "My sister is prettiest than me.",
+      "correct": "My sister is the prettiest of us.",
+      "explanationEn": "This wrong sentence mixes superlative form with 'than', which belongs to comparatives. Superlatives name one top item and need 'the' and usually a group phrase like 'of us' to keep the same meaning.",
+      "explanationAr": "الجملة الخاطئة تخلط بين التفضيل و'than' المستخدَم للمقارنة. صيغة التفضيل تتطلب 'the' وسياق مجموعة مثل 'of us' لتحديد الأكثر دون تغيير المعنى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "supe_q1",
+      "type": "multiple_choice",
+      "prompt": "This is the ___ building in the city.",
+      "promptAr": "اكمل الفراغ بكلمة التفضيل الصحيحة.",
+      "explanation": "For short adjectives use the -est ending and include 'the' to show one item is the top in the group. The sentence names a single top building, so the superlative 'tallest' is correct. Comparatives or 'most' forms are not correct here.",
+      "arabicNote": "قد يترجم المتعلمون حرفيًا فيضعون 'more' أو ينسون 'the'. في الإنجليزية لتحديد مبنى واحد كالأطول نضع 'the' ثم الصفة بصيغة -est، ولا نستخدم 'more' مع الصفات القصيرة.",
+      "weakTag": "superlatives_basic_form",
+      "options": [
+        "tallest",
+        "more taller",
+        "the most tall",
+        "tall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "supe_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly says one driver is the most careful.",
+      "promptAr": "اختر الجملة الصحيحة التي تحدد سائقة واحدة كالأكثر حذراً.",
+      "explanation": "To name one person as highest in a quality we use 'the most' plus the adjective. The adjective must be used after 'is' (not an adverb) and we must include 'the' to show a single top person. The third sentence follows these rules exactly.",
+      "arabicNote": "قد يضع المتعلمون الظرف بدلاً من الصفة أو يسقطون 'the' بسبب اختلاف ترتيب وكلمات الربط في العربية. الصحيح هنا: 'She is the most careful driver.' لأننا نحتاج 'the' والصيغة الصفةية بعد 'is'.",
+      "weakTag": "superlatives_basic_word_order",
+      "options": [
+        "She is the most carefully driver.",
+        "She is most careful driver.",
+        "She is the most careful driver."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "supe_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "My cat is the ___ of all the cats in my house.",
+      "promptAr": "اكمل الفراغ بصيغة التفضيل الصحيحة.",
+      "explanation": "Adjectives that end in -y change y → i and add -est to make the superlative (pretty → prettiest). Because the sentence identifies one top cat in the group, include 'the' and the -est form. Comparatives or 'most' with this short pattern are wrong.",
+      "arabicNote": "الصفات التي تنتهي بـ -y تتغير إلى -iest عند عمل التفضيل. المتحدثون العرب قد يترجمون 'more pretty' حرفيًا، لكن الصحيح لتحديد الأجمل هو 'the prettiest' لتحديد عنصر واحد.",
+      "weakTag": "superlatives_basic_form_y",
+      "options": [
+        "prettiest",
+        "more pretty",
+        "most pretty",
+        "prettier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "supe_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this sentence about students in a class.",
+      "promptAr": "اختر التصحيح الأفضل للجملة المتعلقة بطلاب في الفصل.",
+      "explanation": "The wrong sentence uses 'more' with a short adjective and therefore is ungrammatical for naming the single top student. The correct form uses 'the' plus the -est form, or 'the tallest of', to show he is the top of that group.",
+      "arabicNote": "الترجمة الحرفية قد تؤدي إلى 'more tall'. في الإنجليزية لتحديد فرد كالأطول نستخدم 'the' + الصفة بصيغة -est مثل 'the tallest' أو عبارة 'the tallest of' لتوضيح المجموعة.",
+      "weakTag": "superlatives_basic_missing_the",
+      "options": [
+        "He is the tallest of all the boys in his class.",
+        "He is the more tall of all the boys in his class.",
+        "He is tallest than all the boys in his class."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He is more tall than all the boys in his class."
+    },
+    {
+      "id": "supe_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the right order to make a correct superlative sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تفضيل صحيحة.",
+      "explanation": "English word order for a simple superlative sentence is: subject + verb + 'the' + superlative adjective + noun + place. Keep 'the' before the superlative and place the adjective before the noun to name a single top item in the location.",
+      "arabicNote": "في العربية قد يختلف ترتيب الوصف والمكان. في الإنجليزية الترتيب ثابت: الفاعل ثم الفعل ثم 'the' ثم صفة التفضيل قبل الاسم ثم ظرف المكان. ضع كل كلمة في مكانها الصحيح.",
+      "weakTag": "supe_sentence_order",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "tallest",
+        "building",
+        "in",
+        "town"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "supe_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English superlative sentence with its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بصياغة تفضيل بمعناها العربي.",
+      "explanation": "Each English sentence uses 'the' plus a superlative to identify one item as highest in a group. Arabic translations may omit articles, but English requires 'the' in these contexts to mark the single top item.",
+      "arabicNote": "قد تُترجم العربية بدون أداة تعريف واضحة، لكن في الإنجليزية نستخدم 'the' لتحديد عنصر واحد كالأكثر. انتبه لا تستخدم صيغة المقارنة بدل التفضيل عند تحديد عنصر واحد.",
+      "weakTag": "superlatives_basic_meaning",
+      "pairs": [
+        {
+          "left": "He is the tallest.",
+          "right": "هو الأطول."
+        },
+        {
+          "left": "This is the most expensive phone.",
+          "right": "هذا أغلى هاتف."
+        },
+        {
+          "left": "She is the most careful driver.",
+          "right": "هي السائقة الأكثر حذراً."
+        }
+      ]
+    },
+    {
+      "id": "supe_q7",
+      "type": "multiple_choice",
+      "prompt": "For the adjective 'interesting', choose the correct superlative form to identify one item.",
+      "promptAr": "اختر صيغة التفضيل الصحيحة للصفة 'interesting' لتحديد عنصر واحد.",
+      "explanation": "Long or multi-syllable adjectives use 'the most' before the adjective to form the superlative when we name one top item. We do not add -est to long adjectives like 'interesting' and we must include 'the' to show one item is highest.",
+      "arabicNote": "الصفات الطويلة في الإنجليزية تستخدم 'the most' وليس إضافة -est. المتحدثون العرب قد يحاولون وضع -est خطأً أو حذف 'the'؛ الصحيح هنا 'the most interesting'.",
+      "weakTag": "supe_most_rule",
+      "options": [
+        "the most interesting",
+        "interestingest",
+        "interestinger",
+        "most interest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "supe_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Ali is 12 and Sam is 10. ___ is the oldest.",
+      "promptAr": "علي عمره ١٢ وسام عمره ١٠. أكمل الفراغ لتحديد الأكبر بين الأخوين.",
+      "explanation": "When naming the single oldest person in a small group, use the person's name followed by 'is the oldest'. The sentence asks for the older brother, so 'Ali' fits. Using a plural or both names would not identify one top person.",
+      "arabicNote": "في العربية قد يُحذف 'the' أو يتغير الترتيب. في هذه الجملة نحتاج اسم الشخص ثم 'is the oldest' لتحديد الأكبر دون ذكر مجموعة بأكملها.",
+      "weakTag": "superlatives_basic_the_usage",
+      "options": [
+        "Ali",
+        "Sam",
+        "They",
+        "Ali and Sam"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "supe_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses -iest for a word that ends with -y?",
+      "promptAr": "أي جملة تستخدم -iest بشكل صحيح لكلمة تنتهي بـ -y؟",
+      "explanation": "Words ending in -y change y to i and add -est to form the superlative (happy → happiest). Include 'the' to name the single top item; do not drop 'the' or use 'more' with this short pattern because that changes the grammar and is ungrammatical here.",
+      "arabicNote": "التحويل الإملائي مهم؛ المتحدثون العرب قد يترجمون حرفياً أو يستخدمون 'more'. هنا الصحيح هو تغيير y إلى i وإضافة -est مع 'the' لتحديد الشخص الأكثر سعادة.",
+      "weakTag": "superlatives_basic_y_to_i",
+      "options": [
+        "She is the happiest student in class.",
+        "She is happiest student in class.",
+        "She is more happy student in class."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "supe_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "Of all the drivers in the city, Ahmed is ___.",
+      "promptAr": "من بين جميع السائقين في المدينة، أحمد هو ___.",
+      "explanation": "When identifying one person as the top in a group with a longer adjective like 'careful', use 'the most' + adjective. The sentence names Ahmed as the single top driver, so 'the most careful' is the only correct, grammatical choice here.",
+      "arabicNote": "الصفات الطويلة في الإنجليزية تستخدم 'the most'. المتحدثون العرب قد يتركون 'the' أو يستخدمون 'more' بسياق خاطئ. لتحديد فرد كالأكثر حذراً نكتب 'the most careful'.",
+      "weakTag": "superlatives_basic_most_vs_est",
+      "options": [
+        "the most careful",
+        "most careful",
+        "more careful",
+        "carefully"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "advanced_error_correction",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Error Correction",
+  "titleAr": "تصحيح الأخطاء المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic trains you to spot and correct advanced grammar errors with clear context: choose the right tense when time is explicit, pick the modal that matches meaning, select precise articles and connectors, ensure agreement and clear reference, and use the proper register. Examples use school, work, and study situations.",
+  "explanationAr": "يركّز هذا الدرس على تحديد وتصحيح أخطاء النحو المتقدّم الناتجة عن الترجمة الحرفية أو الإحالات غير الواضحة. نشرح متى يفرض السياق زمنًا محددًا، كيف نختار مودال مناسب، متى نستخدم أدوات التعريف والروابط، وكيف نضمن اتفاق الفاعل والفعل وإحالة واضحة في الإنجليزية مقارنةً بالعربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أرسلت التقرير عندما انتهى الاجتماع.",
+      "arabicLiteral": "sent the report when finished the meeting",
+      "englishCorrect": "At the end of the meeting, she sent the report."
+    },
+    {
+      "arabicStructure": "أخبرته أن يسلّم التقرير.",
+      "arabicLiteral": "I told him submit the report",
+      "englishCorrect": "I told him to submit the report."
+    },
+    {
+      "arabicStructure": "وصل زميل جديد. الزميل يتحدث الفرنسية.",
+      "arabicLiteral": "a new colleague arrived. the colleague speaks French",
+      "englishCorrect": "A new colleague arrived. The colleague speaks French."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Each of the students have finished the assignment.",
+      "correct": "Each of the students has finished the assignment.",
+      "explanationEn": "Use singular verb with 'each' because it treats members individually, not as a plural subject.",
+      "explanationAr": "الخطأ شائع لأن العربية قد تعامل 'كلّ' كمجموعة. في الإنجليزية 'each' يُعامَل كمفرد، لذلك نستخدم فعلًا مفردًا (has) لمطابقة الفاعل."
+    },
+    {
+      "wrong": "I think you must call the office; it is polite advice.",
+      "correct": "I think you should call the office; it is polite advice.",
+      "explanationEn": "For polite advice in a professional setting, 'should' is appropriate; 'must' implies an obligation.",
+      "explanationAr": "في العربية قد تُستخدم كلمات أقوى للتوصية. في السياق المهني نميّز النصيحة عن الإلزام في الإنجليزية باستخدام 'should' بدل 'must'."
+    },
+    {
+      "wrong": "When she arrived, the meeting already started.",
+      "correct": "When she arrived, the meeting had already started.",
+      "explanationEn": "Past perfect shows the meeting began before her arrival; simple past leaves the order unclear.",
+      "explanationAr": "في العربية نربط الأحداث بالتسلسل بدون تعابير تامة. في الإنجليزية نستخدم الماضي التام (had started) لإظهار أن حدثًا وقع قبل حدثٍ ماضٍ آخر."
+    },
+    {
+      "wrong": "A new colleague arrived. Colleague speaks French.",
+      "correct": "A new colleague arrived. The colleague speaks French.",
+      "explanationEn": "After introducing someone with 'a', use 'the' when referring back to that same specific person.",
+      "explanationAr": "المتحدثون بالعربية قد يحذفون أداة التعريف عند الإحالة اللاحقة. في الإنجليزية نستخدم 'the' للإشارة إلى نفس الشخص المذكور سابقًا وتجنب الغموض."
+    }
+  ],
+  "questions": [
+    {
+      "id": "aec_q1",
+      "type": "multiple_choice",
+      "prompt": "At the end of the meeting yesterday, she ___ the report she had promised earlier and handed it to the manager.",
+      "promptAr": "في نهاية الاجتماع أمس، هي ___ التقرير الذي وعدت به سابقًا وسلمته للمدير. اختر الشكل الصحيح للزمن.",
+      "explanation": "The action happened at that specific past moment; simple past 'sent' matches the completed event.",
+      "arabicNote": "وجود 'أمس' و'في نهاية الاجتماع' يحدد زمنًا ماضيًا محددًا؛ المتحدثون بالعربية قد يميلون لاستخدام الماضي التام بلا داعٍ. هنا وقع الإجراء في تلك اللحظة، لذا نستخدم الماضي البسيط.",
+      "weakTag": "advanced_error_correction_tense",
+      "options": [
+        "has sent",
+        "sent",
+        "had sent",
+        "was sending"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aec_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "You are giving friendly advice, not stating a rule: I think you ___ buy travel insurance; flights are often delayed.",
+      "promptAr": "أنت مسافر قريبًا. أعتقد أنه ___ شراء تأمين السفر؛ الرحلات غالبًا ما تتأخر. اختر الخيار الأنسب للنصيحة.",
+      "explanation": "This is a recommendation about a likely future event; use 'should' for polite advice.",
+      "arabicNote": "في العربية قد يُستخدم 'يجب' لكن هنا المقصود نصيحة، وليست قاعدة ملزمة. في الإنجليزية 'should' يناسب النصيحة المهذبة أكثر من 'must'.",
+      "weakTag": "advanced_error_correction_modality",
+      "options": [
+        "should",
+        "will",
+        "can",
+        "would rather"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aec_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses articles after introducing a person?",
+      "promptAr": "أي جملة تستخدم أدوات التعريف بشكل صحيح بعد ذكر شخص لأول مرة؟",
+      "explanation": "Introduce with 'a' then use 'the' to refer back to that same specific person in the next sentence.",
+      "arabicNote": "في العربية قد لا نعيد أداة التعريف عند الإشارة لاحقًا. في الإنجليزية نستخدم 'the' لتوضيح أننا نتحدث عن نفس الشخص المذكور سابقًا.",
+      "weakTag": "advanced_error_correction_articles",
+      "options": [
+        "A new colleague arrived. Colleague speaks French.",
+        "A new colleague arrived. The colleague speaks French.",
+        "The new colleague arrived. A colleague speaks French."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aec_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English pronoun or expression to its Arabic meaning (focus on clear reference).",
+      "promptAr": "وصل كل ضمير أو تعبير إنجليزي بمعناه العربي (التركيز على إحالة واضحة).",
+      "explanation": "Choose the Arabic meaning that shows how English words point to nearby people or things.",
+      "arabicNote": "غياب إحالة واضحة يسبب لبسًا عند الترجمة. اربط الضمير بمعناه العربي لتفهم متى يشير إلى شيء محدد أو لعموم.",
+      "weakTag": "advanced_error_correction_reference",
+      "pairs": [
+        {
+          "left": "it (non-person thing)",
+          "right": "لغير العاقل / لشيء"
+        },
+        {
+          "left": "they (people)",
+          "right": "هم / هن"
+        },
+        {
+          "left": "one (general pronoun)",
+          "right": "واحد/واحدة بصيغة عامة"
+        },
+        {
+          "left": "this / these (near reference)",
+          "right": "هذا/هذه/هؤلاء للإشارة إلى شيء أو شخص قريب"
+        }
+      ]
+    },
+    {
+      "id": "aec_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order so that the adverbial phrase 'before leaving the office' comes after the main clause.",
+      "promptAr": "رتّب الكلمات بحيث تأتي العبارة الظرفية 'before leaving the office' بعد الجملة الأساسية لتكون الإحالة واضحة.",
+      "explanation": "Main clause first, then the adverbial phrase; this order avoids unclear modifiers.",
+      "arabicNote": "في العربية قد توضع العبارات الظرفية في مواقع مختلفة. وضع العبارة بعد الجملة الأساسية يزيل لبسًا حول من غادر ومتى.",
+      "weakTag": "advanced_error_correction_precision",
+      "words": [
+        "before",
+        "leaving",
+        "She",
+        "the",
+        "apologized",
+        "office",
+        "to",
+        "her",
+        "manager"
+      ],
+      "correctOrder": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "aec_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for subject-verb agreement.",
+      "promptAr": "اختر التصحيح الأفضل لمشكلة اتفاق الفاعل والفعل.",
+      "explanation": "Use singular 'has' with 'each' because English treats each member individually, so the verb must be singular.",
+      "arabicNote": "خطأ شائع لأن 'كلّ' في العربية قد تُعامل كمجموعة. في الإنجليزية 'each' يتطلب فعلًا مفردًا، فاختر 'has' لمطابقة القاعدة.",
+      "weakTag": "advanced_error_correction_agreement",
+      "options": [
+        "Each of the students has finished the assignment.",
+        "Each of the students have finished assignments.",
+        "All students has finished the assignment."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Each of the students have finished the assignment."
+    },
+    {
+      "id": "aec_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the clearly formal and respectful phrasing for an email to your manager or professor to request a deadline extension.",
+      "promptAr": "اختر الصيغة الرسمية الأكثر ملاءمة لطلب تمديد مهلة عبر البريد الإلكتروني إلى مديرك أو أستاذك.",
+      "explanation": "A formal, polite email uses 'I would like to request' to be professional and clear.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تبدو آمرة أو مباشرة. في السياق الرسمي مع مدير أو أستاذ استعمل تعبيرًا مؤدبًا وواضحًا مثل 'I would like to request...'.",
+      "weakTag": "advanced_error_correction_register",
+      "options": [
+        "Extend my deadline now.",
+        "I would like to request an extension of the deadline.",
+        "Give me more time for this.",
+        "You must extend my deadline."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aec_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Earlier in the meeting she summarized the study we ran last month. Later she referred to ___ study's findings when answering questions.",
+      "promptAr": "في وقت سابق من الاجتماع لخصت الدراسة التي أجريناها الشهر الماضي. لاحقًا أحالت إلى نتائج ___ الدراسة أثناء الإجابة عن الأسئلة.",
+      "explanation": "The study was already introduced, so 'the' refers to that specific, previously mentioned study.",
+      "arabicNote": "عند الإشارة إلى شيء ذكرناه سابقًا نستخدم 'the' في الإنجليزية. حذف أداة التعريف أو استخدام 'a' يخلق غموضًا في الإحالة.",
+      "weakTag": "advanced_error_correction_articles",
+      "options": [
+        "the",
+        "a",
+        "some"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aec_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly asks permission in a polite, formal context?",
+      "promptAr": "أي جملة تطلب إذنًا بأسلوب مهذب ورسمي؟",
+      "explanation": "Use 'May I' for polite, formal requests for permission; it signals respect and appropriate register.",
+      "arabicNote": "في السياق الرسمي نستخدم تراكيب مهذبة وواضحة لطلب الإذن. 'May I' تعبر عن الأدب والصرامة المطلوبة في المواقف الرسمية مثل الاجتماعات أو الرسائل.",
+      "weakTag": "advanced_error_correction_register",
+      "options": [
+        "May I leave early?",
+        "May I to leave early?",
+        "I leave early?",
+        "Leave early I may?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aec_q10",
+      "type": "multiple_choice",
+      "prompt": "By 9am, when the students arrived, the teacher ___ the exam papers to them already.",
+      "promptAr": "بحلول الساعة التاسعة، عندما وصل الطلاب، كان المعلم قد ___ أوراق الامتحان لهم بالفعل.",
+      "explanation": "Past perfect with 'already' shows the distribution was complete before the students' arrival.",
+      "arabicNote": "لإظهار أن فعلًا اكتمل قبل حدث ماضٍ آخر نستخدم الماضي التام مع كلمة توكيد مثل 'already'. هذا يوضح ترتيب الأحداث بوضوح.",
+      "weakTag": "advanced_error_correction_tense",
+      "options": [
+        "had already distributed",
+        "distributed",
+        "has distributed",
+        "was distributing"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

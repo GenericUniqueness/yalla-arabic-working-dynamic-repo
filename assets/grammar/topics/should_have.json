@@ -1,0 +1,234 @@
+{
+  "id": "should_have",
+  "category": "b1_core",
+  "titleEn": "Should Have",
+  "titleAr": "استخدام should have",
+  "level": "B1",
+  "explanationEn": "Use should have + past participle to talk about past advice, regret, or criticism. This structure shows that a past action would have been better or expected. Always include a clear past time marker (yesterday, last week, this morning) so the meaning is unambiguous.",
+  "explanationAr": "نستخدم should have + التصريف الثالث للتعبير عن نصيحة أو ندم أو نقد عن حدث حدث في الماضي. في العربية قد يعبّر المتكلم بنفس المعنى بصيغة فعلية دون فعل مساعد، ولذلك يميل بعض المتعلمين إلى حذف have أو تغيير ترتيب الكلمات. انتبه إلى وجود علامة زمنية للماضي لتوضيح المعنى.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "كان يجب أن تغادر الباص مبكراً أمس",
+      "arabicLiteral": "كان يجب أن تغادر الباص مبكراً أمس",
+      "englishCorrect": "You should have left the bus earlier yesterday."
+    },
+    {
+      "arabicStructure": "كان يجب أن أدرس أكثر للامتحان الأسبوع الماضي",
+      "arabicLiteral": "كان يجب أن أدرس أكثر للامتحان الأسبوع الماضي",
+      "englishCorrect": "I should have studied more for the exam last week."
+    },
+    {
+      "arabicStructure": "كان يجب أن تخبر أمك عند وصولك هذا الصباح",
+      "arabicLiteral": "كان يجب أن تخبر أمك عند وصولك هذا الصباح",
+      "englishCorrect": "She should have told her mother when she arrived this morning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You should leave earlier for the exam last week.",
+      "correct": "You should have left earlier for the exam last week.",
+      "explanationEn": "Using present modal with a past time is incorrect for past advice.",
+      "explanationAr": "الخطأ هنا استخدام should مع فعل أساس في الحاضر بينما الحدث في الماضي (last week). الإنجليزية تحتاج should have + التصريف الثالث لإظهار نصيحة أو ندم عن حدث ماضٍ."
+    },
+    {
+      "wrong": "She should told her mother when she arrived this morning.",
+      "correct": "She should have told her mother when she arrived this morning.",
+      "explanationEn": "Missing auxiliary have makes the sentence ungrammatical.",
+      "explanationAr": "حذف have بعد should شائع بين المتحدثين العرب. في الإنجليزية يجب وجود have ثم التصريف الثالث (told) للتعبير عن نصيحة/ندم في الماضي."
+    },
+    {
+      "wrong": "I should have not studied for the test yesterday.",
+      "correct": "I should not have studied for the test yesterday.",
+      "explanationEn": "Word order for not is wrong; not normally comes before have here.",
+      "explanationAr": "ترتيب not خاطئ. في هذا التركيب نضع not قبل have: should not have. المتعلمين العرب قد يترجمون حرفياً فيضعون not بعد have."
+    },
+    {
+      "wrong": "They must have finished the homework last night.",
+      "correct": "They should have finished the homework last night.",
+      "explanationEn": "Must have is a deduction, not past advice or criticism. Use should have for advice/regret.",
+      "explanationAr": "استخدام must have يدل على استنتاج أو يقين، بينما should have يعبر عن نصيحة أو توقع لم يحدث. التمييز مهم لأن الترجمة العربية قد تربط نفس الفكرة بكلمة واحدة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "shou2_q1",
+      "type": "multiple_choice",
+      "prompt": "You missed the bus yesterday and arrived late to work. Which is the best sentence for past advice?",
+      "promptAr": "فاتك الباص بالأمس ووصلت للعمل متأخراً. أي جملة تعبر عن نصيحة للماضي؟",
+      "explanation": "Should have + past participle shows past advice for a specific past time.",
+      "arabicNote": "نستخدم should have + التصريف الثالث عندما نعطي نصيحة عن حدث وقع في الماضي. تجنب حذف have أو وضع الفعل بصيغة الحاضر بعد should لأن ذلك يغير الزمن والمعنى.",
+      "weakTag": "should_have_form",
+      "options": [
+        "You should have left home earlier yesterday.",
+        "You should leave home earlier yesterday.",
+        "You must left home earlier yesterday.",
+        "You should have leave home earlier yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou2_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly gives past advice about last week's exam?",
+      "promptAr": "أي جملة تعطي نصيحة صحيحة عن امتحان الأسبوع الماضي؟",
+      "explanation": "Use should have + past participle for advice about a past event.",
+      "arabicNote": "الجملة الصحيحة تحتاج should have + التصريف الثالث لأن الامتحان كان في الماضي. انتبه أن استخدام should + فعل أساسي غير مناسب مع last week.",
+      "weakTag": "should_have_meaning",
+      "options": [
+        "You should study more for the exam last week.",
+        "You should have studied more for the exam last week.",
+        "You should studied more for the exam last week."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "shou2_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I ____ told Ali about the change yesterday; now he is upset.",
+      "promptAr": "كان يجب أن أخبر علي بالتغيير بالأمس؛ الآن هو منزعج. اختر الشكل الصحيح.",
+      "explanation": "Past advice uses should have + past participle (told).",
+      "arabicNote": "اختر should have + التصريف الثالث (told) لأن الحدث في الماضي. خطأ شائع بين المتكلمين العرب هو استخدام should مع الفعل الأساسي أو تغيير ترتيب الكلمات.",
+      "weakTag": "shou2_fill_past_advice",
+      "options": [
+        "should have told",
+        "should tell",
+        "should had told",
+        "should have telling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou2_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة أدناه.",
+      "explanation": "Replace 'of' with 'have' to make should have + past participle.",
+      "arabicNote": "خطأ شائع في الكتابة والنطق هو should of أو حذف have. الإنجليزية تتطلب have ثم التصريف الثالث لتعبير ندم أو نصيحة عن الماضي.",
+      "weakTag": "should_have_word_order",
+      "options": [
+        "She should have called her mother when she arrived this morning.",
+        "She should called her mother when she arrived this morning.",
+        "She should have call her mother when she arrived this morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She should of called her mother when she arrived this morning."
+    },
+    {
+      "id": "shou2_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a sentence about checking homework before class ended yesterday.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة عن فحص الواجب قبل انتهاء الدرس بالأمس.",
+      "explanation": "Order the sentence as: You should have checked homework before class ended yesterday.",
+      "arabicNote": "الترتيب الصحيح في مثل هذه الجملة هو should ثم have ثم التصريف الثالث (checked). المتعلمون العرب قد يضعون checked قبل have أو يحذفون have.",
+      "weakTag": "shou2_word_order",
+      "words": [
+        "You",
+        "homework",
+        "checked",
+        "have",
+        "should",
+        "before",
+        "class",
+        "ended",
+        "yesterday"
+      ],
+      "correctOrder": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "shou2_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning (past advice or regret).",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي (نصيحة أو ندم في الماضي).",
+      "explanation": "Match sentences that show past advice or regret using should have.",
+      "arabicNote": "الترجمة العربية تشرح أن should have يذكر فعلًا في الماضي كان من الأفضل حدوثه أو لم يكن مناسبا حدوثه. لاحظ الفرق عن الأزمنة الأخرى.",
+      "weakTag": "should_have_meaning",
+      "pairs": [
+        {
+          "left": "I should have studied harder for the test last Monday.",
+          "right": "كان يجب أن أدرس أكثر للاختبار الإثنين الماضي."
+        },
+        {
+          "left": "They should have told us about the delay yesterday.",
+          "right": "كان يجب أن يخبرونا عن التأخير بالأمس."
+        },
+        {
+          "left": "You should not have used your phone during the meeting this morning.",
+          "right": "لم يكن يجب أن تستخدم هاتفك أثناء الاجتماع هذا الصباح."
+        }
+      ]
+    },
+    {
+      "id": "shou2_q7",
+      "type": "multiple_choice",
+      "prompt": "At the airport you missed your flight because you arrived late. Which sentence best expresses regret about a past action?",
+      "promptAr": "في المطار فاتك الطائرة لأنك وصلت متأخراً. أي جملة تعبّر عن ندم لماضي؟",
+      "explanation": "Should have + past participle expresses regret for a completed past action.",
+      "arabicNote": "للتعبير عن الندم نستخدم should have + التصريف الثالث مع إشارة زمنية للماضي. تجنب الأخطاء الشائعة مثل حذف have أو تغيير التصريف.",
+      "weakTag": "should_have_regret",
+      "options": [
+        "I should have arrived at the airport earlier.",
+        "I should arrived at the airport earlier.",
+        "I must of arrived at the airport earlier.",
+        "I should have arrive at the airport earlier."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou2_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly criticizes a past decision about food yesterday?",
+      "promptAr": "أي جملة تنتقد قرارًا سابقًا بشأن الطعام بالأمس بشكل صحيح؟",
+      "explanation": "Use shouldn't have + past participle to criticise a past choice.",
+      "arabicNote": "للنقد عن فعل في الماضي نستخدم shouldn't have ثم التصريف الثالث. لا تستخدم should أو shouldn't مع الفعل الأساسي مع علامة زمنية ماضية.",
+      "weakTag": "shou2_negative_past",
+      "options": [
+        "You should not eat that sandwich yesterday.",
+        "You shouldn't have eaten that sandwich yesterday.",
+        "You shouldn't eat that sandwich yesterday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "shou2_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "I ____ spilled coffee on the report this morning; now it's ruined.",
+      "promptAr": "سكبتُ القهوة على التقرير هذا الصباح؛ الآن إنه تالف. اختر الشكل الصحيح للتعبير عن الندم.",
+      "explanation": "Use should not have + past participle for past regret.",
+      "arabicNote": "الترتيب الصحيح: should not have spilled. خطأ شائع كتابة should of أو استخدام الفعل بصيغة غير صحيحة بعد have.",
+      "weakTag": "should_have_negative",
+      "options": [
+        "should not have spilled",
+        "should of spilled",
+        "should have spill",
+        "should have spilleded"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "shou2_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the correct correction for the wrong sentence below about last night.",
+      "promptAr": "اختر التصحيح الصحيح للجملة الخاطئة أدناه عن الليلة الماضية.",
+      "explanation": "Add have before the past participle to form should have finished.",
+      "arabicNote": "الخطأ حذف have بعد should. عند الحديث عن شيء لم يحدث في الماضي نحتاج should have + التصريف الثالث. لا تترجم حرفياً من العربية وتنسى have.",
+      "weakTag": "shou2_fix_have_missing",
+      "options": [
+        "They should have finished the project last night.",
+        "They should finish the project last night.",
+        "They should had finished the project last night."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They should finished the project last night."
+    }
+  ]
+}

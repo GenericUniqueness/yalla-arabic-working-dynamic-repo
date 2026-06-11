@@ -1,0 +1,251 @@
+{
+  "id": "cleft_sentences_emphasis",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Cleft Sentences for Emphasis",
+  "titleAr": "جمل التركيز المقسومة",
+  "level": "C1",
+  "explanationEn": "Cleft sentences (it-clefts and what-clefts) let you stress a person, thing, reason, or action without changing the basic meaning. Use the cleft form that clearly places focus on the intended element in formal writing or speech to avoid ambiguity.",
+  "explanationAr": "جمل التركيز المقسومة (it-clefts و what-clefts) تُستخدم لإبراز شخص أو شيء أو سبب أو فعل دون تغيير المعنى. المتحدثون العرب قد يعتمدون على ترتيب مرن أو سياقٍ ضمني؛ في الإنجليزية المتقدمة يجب تحديد الجزء المؤكد صراحة داخل cleft لتفادي الغموض اللغوي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أختي هي التي اقترحت الفكرة.",
+      "arabicLiteral": "My sister is the one who suggested the idea.",
+      "englishCorrect": "It was my sister who suggested the idea."
+    },
+    {
+      "arabicStructure": "السبب هو نقص القطع.",
+      "arabicLiteral": "The reason is lack of parts.",
+      "englishCorrect": "What delayed the project was the lack of parts."
+    },
+    {
+      "arabicStructure": "الطالب الذي فاز هو محمود.",
+      "arabicLiteral": "The student who won is Mahmoud.",
+      "englishCorrect": "It was Mahmoud who won the prize."
+    },
+    {
+      "arabicStructure": "ما نحتاجه الآن جدول أبسط.",
+      "arabicLiteral": "What we need now is a simpler schedule.",
+      "englishCorrect": "What we need now is a simpler schedule."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "It my sister was who suggested the idea.",
+      "correct": "It was my sister who suggested the idea.",
+      "explanationEn": "The verb 'was' must follow 'It' in an it-cleft; wrong word order makes the structure ungrammatical.",
+      "explanationAr": "الخطأ هو في ترتيب الفعل بعد it. في it-cleft نضع was مباشرة بعد It، وإلا تصبح البنية غير صحيحة وغير مفهومة."
+    },
+    {
+      "wrong": "What delayed the project lack of parts was.",
+      "correct": "What delayed the project was the lack of parts.",
+      "explanationEn": "In a what-cleft the verb 'was' follows the clause starting with 'What'; placing parts after breaks the structure.",
+      "explanationAr": "في what-cleft يجب وضع was بعد العبارة التي تبدأ بـ What، ثم تليها العبارة الاسمية المؤكِّدة. قلب الترتيب يجعل الجملة غير سليمة."
+    },
+    {
+      "wrong": "It was the manager suggested the change.",
+      "correct": "It was the manager who suggested the change.",
+      "explanationEn": "An it-cleft needs a relative word (who/which) after the emphasized element to join the rest of the clause.",
+      "explanationAr": "حذف 'who' هنا يجعل الجملة غير صحيحة. في it-cleft نضيف who/which بعد العنصر المؤكَّد لربط الجملة الفرعية بشكل سليم."
+    },
+    {
+      "wrong": "What I needed was to a clear plan.",
+      "correct": "What I needed was a clear plan.",
+      "explanationEn": "An extra 'to' incorrectly turns the noun phrase into an infinitive; remove it to supply a noun phrase after was.",
+      "explanationAr": "وجود 'to' الزائد يحول العبارة إلى تركيب غير مناسب بعد was. في what-cleft يجب أن يتبع was اسم أو عبارة اسمية واضحة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cse_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses an it-cleft to emphasize the person who completed the report?",
+      "promptAr": "أي جملة تستخدم it-cleft بشكل صحيح لإبراز الشخص الذي أكمل التقرير؟",
+      "explanation": "It-clefts use 'It was X who ...' to stress the person without changing meaning.",
+      "arabicNote": "في it-cleft نؤكد الشخص بوضع 'It was [الشخص] who ...'. المتحدثون العرب قد يكتفون بترتيب فاعل-فعل، لكن هنا نستخدم cleft لتحديد التركيز بوضوح.",
+      "weakTag": "cleft_sentences_emphasis_form",
+      "options": [
+        "It was Ahmed who completed the report.",
+        "Ahmed completed the report yesterday.",
+        "The report was completed by Ahmed.",
+        "Ahmed was the one that the report completed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cse_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "_____ caused the delay was the supplier's late shipment.",
+      "promptAr": "أكمل الجملة لاختيار تركيب what-cleft المناسب.",
+      "explanation": "Start a what-cleft with 'What ...' to name the cause before 'was'.",
+      "arabicNote": "في العربية يمكن قول السبب مباشرة. في what-cleft تبدأ العبارة بـ 'What' ثم الجملة الفرعية ثم 'was' لتحدد السبب بوضوح.",
+      "weakTag": "cse_what_cleft_usage",
+      "options": [
+        "What caused the delay",
+        "It was the supplier's late shipment that",
+        "The supplier's late shipment was who"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cse_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the grammatically correct it-cleft that emphasizes the reason for our late arrival.",
+      "promptAr": "اختر it-cleft الصحيحة نحويًا التي تؤكد سبب تأخر وصولنا.",
+      "explanation": "An it-cleft must place the emphasized noun after 'It was' and connect with who/that.",
+      "arabicNote": "في it-cleft نضع العنصر المؤكد بعد 'It was' ثم نربطه بجملة فعلية. هذا يعطي وضوحًا أكثر من ترتيب عربي مرن قد يترك غموضًا.",
+      "weakTag": "cse_it_cleft_precision",
+      "options": [
+        "It was the traffic that caused our delay.",
+        "It was because the traffic that we were late.",
+        "Because the traffic it was the cause of delay."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cse_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English cleft sentence with the correct Arabic meaning.",
+      "promptAr": "وصل كل جملة cleft الإنجليزية بالمعنى العربي المناسب.",
+      "explanation": "Match the cleft to the Arabic sentence that shows which element is emphasized.",
+      "arabicNote": "ابحث عن الجزء المؤكَّد بعد It was أو بعد What. ربط التركيز في الإنجليزية بالمعنى العربي يساعد على فهم الفرق بين ترتيب الكلمات.",
+      "weakTag": "cse_meaning_match",
+      "pairs": [
+        {
+          "left": "It was the final exam that worried the students.",
+          "right": "الامتحان النهائي هو ما أقلق الطلاب."
+        },
+        {
+          "left": "What impressed me most was her careful research.",
+          "right": "ما أدهشني أكثر كان بحثها الدقيق."
+        },
+        {
+          "left": "It was in the lab that the idea first appeared.",
+          "right": "في المختبر ظهرت الفكرة أولًا."
+        },
+        {
+          "left": "What we need now is a simpler schedule.",
+          "right": "ما نحتاجه الآن هو جدول أبسط."
+        }
+      ]
+    },
+    {
+      "id": "cse_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form: 'It was Ali who rescheduled the meeting.'",
+      "promptAr": "رتّب الكلمات لتكوين: 'It was Ali who rescheduled the meeting.'",
+      "explanation": "It-clefts start with 'It was', then the emphasized noun, then 'who' and the rest of the clause.",
+      "arabicNote": "رتّب العبارة على شكل it-cleft: 'It was [الشخص] who [الفعل والمفعول]'. هذا يختلف عن ترتيب عربي مرن حيث قد يُفهم الفاعل من السياق فقط.",
+      "weakTag": "cse_sentence_order",
+      "words": [
+        "It",
+        "was",
+        "Ali",
+        "who",
+        "rescheduled",
+        "the",
+        "meeting"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "cse_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the cleft sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة المقسومة الخاطئة.",
+      "explanation": "A what-cleft requires a proper noun phrase after 'was', not disordered words.",
+      "arabicNote": "الجملة الخاطئة تقلب ترتيب ما يلي what أو تضيف كلمات زائدة. في what-cleft نضع 'What ... was' ثم عبارة اسمية واضحة لتحدد التركيز.",
+      "weakTag": "cse_fix_the_mistake",
+      "options": [
+        "What surprised us was the team's quick solution.",
+        "What surprised was the team's quick solution us.",
+        "The team's quick solution was what surprised.",
+        "It was what surprised the team's quick solution."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "What surprised was the team their quick solution."
+    },
+    {
+      "id": "cse_q7",
+      "type": "multiple_choice",
+      "prompt": "In 'It was the schedule that confused everyone,' which element is emphasized by the it-cleft?",
+      "promptAr": "في 'It was the schedule that confused everyone' أي جزء تم تأكيده بواسطة it-cleft؟",
+      "explanation": "The it-cleft places focus on 'the schedule' as the cause of confusion.",
+      "arabicNote": "في العربية قد نذكر السبب أو الحالة أولًا. في it-cleft نضع العنصر المؤكَّد بعد 'It was' لتوضيح التركيز بعبارة رسمية ومحددة.",
+      "weakTag": "cse_emphasis_identification",
+      "options": [
+        "the schedule",
+        "everyone",
+        "confused",
+        "It"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cse_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "_____ helped the students most was the extra tutorial sessions.",
+      "promptAr": "أكمل لاختيار تركيب what-cleft المناسب لتأكيد ما ساعد الطلاب.",
+      "explanation": "Start the clause with 'What' to name the helpful thing before 'was'.",
+      "arabicNote": "في العربية نذكر الشيء المفيد ببساطة. في what-cleft نبدأ بـ 'What' لتحديد الشيء ثم نتابع بـ 'was' والعبارة الاسمية المؤكدة.",
+      "weakTag": "cse_what_cleft_form",
+      "options": [
+        "What",
+        "It was the extra tutorial sessions that",
+        "The extra tutorial sessions were who"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cse_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses an it-cleft to emphasize when the idea came?",
+      "promptAr": "أي جملة تستخدم it-cleft بشكل صحيح لإبراز متى ظهرت الفكرة؟",
+      "explanation": "An it-cleft with 'It was [time] that ...' clearly stresses the time element.",
+      "arabicNote": "لإبراز زمن محدد في الإنجليزية نستخدم it-cleft: 'It was [الزمن] that ...'. المتحدثون العرب قد يضعون الزمن في نهاية الجملة فقط، لكن cleft يقدمه كتأكيد.",
+      "weakTag": "cse_time_emphasis",
+      "options": [
+        "What time the idea came was last week.",
+        "It was last week that the idea came.",
+        "Last week it was when the idea came."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cse_q10",
+      "type": "sentence_order",
+      "prompt": "Order the words to make: 'What we need now is a simpler schedule.'",
+      "promptAr": "رتب الكلمات لتكوين: 'What we need now is a simpler schedule.'",
+      "explanation": "What-clefts start with What plus a clause, then is or was, followed by the emphasized noun phrase.",
+      "arabicNote": "في what-cleft نبدأ بـ What ثم جملة فرعية ثم was/is ثم العبارة الاسمية المؤكدة. هذا يحدد بوضوح ما الذي نحتاجه مقارنةً بالترتيب العربي المرن.",
+      "weakTag": "cse_what_cleft_order",
+      "words": [
+        "need",
+        "now",
+        "is",
+        "a",
+        "simpler",
+        "schedule.",
+        "What",
+        "we"
+      ],
+      "correctOrder": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

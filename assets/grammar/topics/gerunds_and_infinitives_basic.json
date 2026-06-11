@@ -1,0 +1,226 @@
+{
+  "id": "gerunds_and_infinitives_basic",
+  "category": "b1_core",
+  "titleEn": "Gerunds and Infinitives Basics",
+  "titleAr": "أساسيات gerund و infinitive",
+  "level": "B1",
+  "explanationEn": "This topic teaches common verb patterns that use verb-ing (gerunds) or to + base verb (infinitives). Focus on frequent verbs such as enjoy, avoid, decide, promise, plan, and suggest. Use everyday contexts (school, work, home, travel) so learners see which form follows each verb and why.",
+  "explanationAr": "يشرح هذا الدرس متى نستخدم صيغة الفعل المنتهية بـ -ing (gerund) ومتى نستخدم to + المصدر (infinitive) بعد أفعال شائعة. نعرض أمثلة يومية حول الدراسة والعمل والمنزل والسفر، ونبيّن فخاخ المتحدث العربي عند النقل الحرفي بين اللغتين.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أستمتع بالقراءة.",
+      "arabicLiteral": "I enjoy + reading",
+      "englishCorrect": "I enjoy reading books."
+    },
+    {
+      "arabicStructure": "قررت أن أدرس في الخارج.",
+      "arabicLiteral": "I decided to study abroad",
+      "englishCorrect": "I decided to study abroad next year."
+    },
+    {
+      "arabicStructure": "وعدت أن أتصل بك.",
+      "arabicLiteral": "I promised to call you",
+      "englishCorrect": "I promised to call you next week."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I enjoy to play football after school.",
+      "correct": "I enjoy playing football after school.",
+      "explanationEn": "Enjoy is followed by a gerund (-ing). Using to + verb after enjoy is incorrect even though Arabic uses structures that may look similar.",
+      "explanationAr": "بعد الفعل enjoy نستخدم صيغة -ing وليس to + الفعل. يميل المتعلمون إلى النقل الحرفي من العربية فيضعون to خطأً."
+    },
+    {
+      "wrong": "She suggested to meet at five o'clock.",
+      "correct": "She suggested meeting at five o'clock.",
+      "explanationEn": "Suggest takes a gerund when proposing an action. Saying 'suggested to meet' is not standard English for this meaning.",
+      "explanationAr": "الفعل suggest يتبعه gerund عند الاقتراح. الترجمة الحرفية من 'اقترح أن' تؤدي لوضع to خاطئ."
+    },
+    {
+      "wrong": "They promised calling me tomorrow.",
+      "correct": "They promised to call me tomorrow.",
+      "explanationEn": "Promise is followed by to + base verb for intended future actions. Using the -ing form here is not grammatical.",
+      "explanationAr": "الفعل promise يتبعه to + المصدر عند الحديث عن وعد بفعل مستقبلي. الخلط مع gerund ينتج من اختلاف أسماء المصدر في العربية."
+    },
+    {
+      "wrong": "He avoided to speak in class.",
+      "correct": "He avoided speaking in class.",
+      "explanationEn": "Avoid requires the -ing form after it. Using 'to speak' is a transfer error from Arabic infinitive patterns.",
+      "explanationAr": "بعد avoid يجب استخدام الفعل بصيغة -ing. الخلط يحدث لأن العربية تسمح بمصدر قد يبدو مشابهاً لكن الإنجليزية تختلف."
+    }
+  ],
+  "questions": [
+    {
+      "id": "gib_q1",
+      "type": "multiple_choice",
+      "prompt": "I enjoy ___ after school.",
+      "promptAr": "اختر الشكل الصحيح بعد enjoy في سياق نشاط بعد المدرسة.",
+      "explanation": "Use -ing after enjoy to talk about activities you like doing.",
+      "arabicNote": "بعد enjoy نستخدم الفعل بـ -ing وليس to + الفعل. المتعلمون العرب قد يضعون to بسبب الترجمة الحرفية من 'أستمتع أن'.",
+      "weakTag": "gerunds_and_infinitives_basic_form",
+      "options": [
+        "to play basketball",
+        "playing basketball",
+        "play basketball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gib_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows a decision made last year?",
+      "promptAr": "أي جملة تُظهر قرارًا اتُخذ العام الماضي مع الإشارة إلى نية مستقبلية؟",
+      "explanation": "Decide is followed by to + base verb for decisions about future plans.",
+      "arabicNote": "الفعل decide يتبعه to + المصدر عند الحديث عن قرار يُتخذ لشيء مستقبلي. تجنب وضع الفعل بصيغة -ing بعد decide.",
+      "weakTag": "gib_form_decide",
+      "options": [
+        "She decided to study abroad last year.",
+        "She decided studying abroad last year.",
+        "She decide to study abroad last year."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "gib_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "We plan ___ to Cairo this summer (we intend to travel).",
+      "promptAr": "اختر الشكل الصحيح بعد plan في سياق السفر هذا الصيف (نحن نخطط للسفر).",
+      "explanation": "Plan (intend) is normally followed by to + base verb for future actions.",
+      "arabicNote": "عند التعبير عن نية مستقبلية باستخدام plan نستخدم to + المصدر. خطأ النقل الحرفي قد يجعل البعض يختار -ing رغم أن 'plan on' هي بنية مختلفة.",
+      "weakTag": "gerunds_and_infinitives_basic_intention",
+      "options": [
+        "going",
+        "to go",
+        "go"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gib_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تعبر عن اقتراح لقاء.",
+      "explanation": "Suggest is followed by an -ing form when offering an idea or plan.",
+      "arabicNote": "الفعل suggest يتبعه gerund في سياق الاقتراح. المتحدثون العرب قد يترجمون حرفيًا 'اقترح أن' فيضيفون to، لكن الإنجليزية تختلف.",
+      "weakTag": "gib_fix_suggest",
+      "options": [
+        "He suggested meeting at 5.",
+        "He suggested to meet at 5.",
+        "He suggested meet at 5."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He suggested to meet at 5."
+    },
+    {
+      "id": "gib_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة إنجليزية طبيعية تعبر عن عادة مساءً.",
+      "explanation": "Arrange subject, verb, gerund, object, and time phrase in natural English order.",
+      "arabicNote": "في الإنجليزية نبدأ غالبًا بالفاعل ثم الفعل ثم الفعل بصيغة -ing ثم المفعول ثم ظرف الزمان. تجنّب النقل الحرفي لترتيب الكلمات من العربية.",
+      "weakTag": "gerunds_and_infinitives_basic_word_order",
+      "words": [
+        "She",
+        "enjoys",
+        "reading",
+        "novels",
+        "in",
+        "the",
+        "evening"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "gib_q6",
+      "type": "meaning_match",
+      "prompt": "Match each verb to the usual form that follows it in English.",
+      "promptAr": "وصل كل فعل بالنمط الذي يأتي بعده عادةً في الإنجليزية (gerund أو infinitive).",
+      "explanation": "Match verbs with the form English usually requires after them: -ing or to + verb.",
+      "arabicNote": "هذا التدريب يساعد على التخلص من النقل الحرفي من العربية. اربط الفعل بالنمط المناسب لأن بعض الأفعال تتطلب gerund وأخرى infinitive.",
+      "weakTag": "gib_meaning_match",
+      "pairs": [
+        {
+          "left": "enjoy",
+          "right": "يليها verb-ing عند الحديث عن نشاط ممتع"
+        },
+        {
+          "left": "decide",
+          "right": "يليها to + الفعل عند اتخاذ قرار"
+        },
+        {
+          "left": "avoid",
+          "right": "يليها verb-ing عند الحديث عن تجنّب فعل"
+        }
+      ]
+    },
+    {
+      "id": "gib_q7",
+      "type": "multiple_choice",
+      "prompt": "I stopped ___ coffee last month for my health (I quit drinking it).",
+      "promptAr": "اختر الشكل الصحيح بعد stopped في سياق الإقلاع عن عادة الشهر الماضي (أوقفت ممارستها).",
+      "explanation": "When stop means 'quit' an activity, use the -ing form to show the activity stopped.",
+      "arabicNote": "إذا كان stop بمعنى 'توقف عن عادة' نستخدم الصيغة -ing. الترجمة الحرفية قد تضع to خطأً لكن هنا الخيار الصحيح هو -ing.",
+      "weakTag": "gerunds_and_infinitives_basic_stop",
+      "options": [
+        "drink",
+        "to drink",
+        "drinking"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "gib_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "They promised ___ me next week (they gave a clear promise).",
+      "promptAr": "اختر الشكل الصحيح بعد promised في سياق وعد بالاتصال الأسبوع المقبل (مع وعد واضح).",
+      "explanation": "Promise takes to + base verb when referring to a future action or commitment.",
+      "arabicNote": "بعد promise للتعبير عن وعد بفعل مستقبل نستخدم to + المصدر. الخطأ الشائع هو استعمال -ing هنا نتيجة للاختلاف مع العربية.",
+      "weakTag": "gib_promise",
+      "options": [
+        "call",
+        "to call",
+        "calling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gib_q9",
+      "type": "multiple_choice",
+      "prompt": "She avoids ___ late at night because the noise bothers the neighbors.",
+      "promptAr": "اختر الشكل الصحيح بعد avoids في سياق تجنّب فعل مزعج لوقت متأخر.",
+      "explanation": "Avoid is followed by an -ing form when talking about avoiding actions.",
+      "arabicNote": "الفعل avoid يتبعه gerund عند الحديث عن تجنّب فعل. الترجمة الحرفية من العربية قد تستخدم مصدر آخر، فاحذر.",
+      "weakTag": "gerunds_and_infinitives_basic_avoid",
+      "options": [
+        "to play music",
+        "playing music",
+        "play music"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gib_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تعبر عن نشاط محبب في عطلة نهاية الأسبوع.",
+      "explanation": "Enjoy requires the -ing form to describe activities you like doing regularly.",
+      "arabicNote": "بعد enjoy نستخدم gerund للتعبير عن نشاط نحب فعله. المتعلمون العرب قد يضيفون to نتيجة لتركيب 'أستمتع أن' بالعربية، وهذا خطأ في الإنجليزية.",
+      "weakTag": "gib_fix_enjoy",
+      "options": [
+        "I enjoy cooking with my family on weekends.",
+        "I enjoy to cook with my family on weekends.",
+        "I enjoy cook with my family on weekends."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I enjoy to cook with my family on weekends."
+    }
+  ]
+}

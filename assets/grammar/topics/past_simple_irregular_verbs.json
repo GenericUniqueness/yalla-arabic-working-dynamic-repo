@@ -1,0 +1,235 @@
+{
+  "id": "past_simple_irregular_verbs",
+  "category": "a2_core",
+  "titleEn": "Past Simple: Irregular Verbs",
+  "titleAr": "الماضي البسيط: الأفعال غير المنتظمة",
+  "level": "A2",
+  "explanationEn": "English uses special past simple forms for many common verbs. Irregular verbs do not add -ed; they change completely (went, ate, saw, bought, made, had). Use these forms for finished past actions with time words like yesterday, last week, or ago. Watch word order and verb forms.",
+  "explanationAr": "في الإنجليزية نستخدم أشكالًا خاصة للماضي البسيط لأفعال شائعة لا تتبع النهاية -ed، مثل went, ate, saw, bought, made, had. قد يترجم المتحدثون العرب مباشرة من بنية العربية أو يحتفظون بترتيب مختلف، لذلك ركّز على شكل الماضي وموقع الفعل والكلمات الزمنية في الجملة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هو ذهب إلى العمل أمس.",
+      "arabicLiteral": "He went to work yesterday.",
+      "englishCorrect": "He went to work yesterday."
+    },
+    {
+      "arabicStructure": "أكلنا العشاء في البيت.",
+      "arabicLiteral": "We ate dinner at home.",
+      "englishCorrect": "We ate dinner at home."
+    },
+    {
+      "arabicStructure": "رأى سامي الفيلم.",
+      "arabicLiteral": "literal word order: 'Saw Sami the movie.'",
+      "englishCorrect": "Sami saw the movie."
+    },
+    {
+      "arabicStructure": "هي اشترت حقيبة جديدة أمس.",
+      "arabicLiteral": "She bought a new bag yesterday.",
+      "englishCorrect": "She bought a new bag yesterday."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Saw Sami the movie yesterday.",
+      "correct": "Sami saw the movie yesterday.",
+      "explanationEn": "Arabic often places the verb before the subject. In English we use subject + past verb: Sami saw the movie. The wrong order copies Arabic word order and is ungrammatical in English.",
+      "explanationAr": "تميل العربية لوضع الفعل قبل الفاعل في بعض الجمل. في الإنجليزية نستخدم الفاعل ثم الفعل الماضي: Sami saw the movie. كتابة الفعل أولًا هو نسخ لترتيب عربي ولا يصح في الإنجليزية."
+    },
+    {
+      "wrong": "Did you went to school yesterday?",
+      "correct": "Did you go to school yesterday?",
+      "explanationEn": "After 'did' we must use the base verb 'go', not the past form 'went'. The time word 'yesterday' shows a past event, but 'did' already marks the past.",
+      "explanationAr": "بعد did نستخدم الفعل في الصورة الأساسية 'go' وليس الماضي 'went'. كلمة yesterday تشير إلى الماضي لكن did هي التي تضع الزمن الماضي في السؤال."
+    },
+    {
+      "wrong": "We eat dinner last night.",
+      "correct": "We ate dinner last night.",
+      "explanationEn": "The irregular past of 'eat' is 'ate'. Using the present form with a past time marker like 'last night' is grammatically wrong even if the meaning is clear.",
+      "explanationAr": "الصيغة الماضية غير المنتظمة من 'eat' هي 'ate'. وضع صيغة الحاضر مع علامة زمنية للماضي مثل last night خطأ نحويًا رغم وضوح المعنى."
+    },
+    {
+      "wrong": "They seen a movie yesterday.",
+      "correct": "They saw a movie yesterday.",
+      "explanationEn": "Using the past participle 'seen' without a helper verb is wrong in simple past sentences. For simple past use 'saw' when no auxiliary is present.",
+      "explanationAr": "استخدام التصريف الثالث 'seen' بدون فعل مساعد خطأ في جمل الماضي البسيط. في الماضي البسيط نستخدم 'saw' إذا لم يكن هناك فعل مساعد."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psiv_q1",
+      "type": "multiple_choice",
+      "prompt": "What is the past simple form of 'go' for an action that happened yesterday?",
+      "promptAr": "ما هو شكل الماضي من 'go' لحدث حدث بالأمس؟",
+      "explanation": "The correct past simple form of 'go' for a finished action yesterday is 'went'. Use 'went' with time words like yesterday to show completed past actions.",
+      "arabicNote": "الشكل الماضي الصحيح من 'go' لحدث بالأمس هو 'went'. نضع went مع كلمات زمنية مثل yesterday.",
+      "weakTag": "past_simple_irregular_verbs_go",
+      "options": [
+        "goes",
+        "went",
+        "going",
+        "gone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psiv_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a finished action yesterday?",
+      "promptAr": "أي الجمل التالية صحيحة لحدث مكتمل بالأمس؟",
+      "explanation": "Use 'made' as the past simple of 'make' for a completed action yesterday. 'Make' and 'makes' are present forms and do not match the past time marker.",
+      "arabicNote": "نستخدم 'made' كماضي من 'make' لحدث مكتمل بالأمس. الخيارات الأخرى أزمنة حالية ولا تتوافق مع yesterday.",
+      "weakTag": "psiv_made",
+      "options": [
+        "She made a cake yesterday.",
+        "She make a cake yesterday.",
+        "She makes a cake yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psiv_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ to the park yesterday.",
+      "promptAr": "هم ___ إلى الحديقة أمس.",
+      "explanation": "Choose 'went', the irregular past of 'go', because the sentence has the past time word 'yesterday' and describes a finished action.",
+      "arabicNote": "نختار 'went' وهو الماضي غير المنتظم من 'go' لأن الجملة تحتوي على yesterday وتصف حدثًا مكتملًا.",
+      "weakTag": "past_simple_irregular_verbs_go",
+      "options": [
+        "go",
+        "went",
+        "going",
+        "gone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psiv_q4",
+      "type": "fix_the_mistake",
+      "prompt": "This sentence has a verb mistake. Pick the version that is correct in the past simple.",
+      "promptAr": "تحتوي هذه الجملة على خطأ في الفعل. اختر الصيغة الصحيحة في الماضي البسيط.",
+      "explanation": "The past simple of 'buy' is 'bought'. With the time word 'yesterday' replace 'buy' with 'bought' to show the completed past action.",
+      "arabicNote": "الصيغة الماضية من 'buy' هي 'bought'. وجود yesterday يجعل المطلوب استخدام الماضي 'bought' وليس الصيغ الحالية أو المستمرة.",
+      "weakTag": "psiv_bought",
+      "options": [
+        "She bought a new bag yesterday.",
+        "She buys a new bag yesterday.",
+        "She is buying a new bag yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She buy a new bag yesterday."
+    },
+    {
+      "id": "psiv_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a past sentence about school yesterday.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة بالماضي عن المدرسة بالأمس.",
+      "explanation": "English past statements use subject + past verb + object/place + time. Put the subject first: 'I went to school yesterday.' This contrasts with some Arabic word orders.",
+      "arabicNote": "في الإنجليزية نضع الفاعل أولًا ثم الفعل الماضي ثم المكان ثم الظرف الزمني: 'I went to school yesterday.' هذا يختلف عن ترتيب قد تراه في العربية.",
+      "weakTag": "psiv_sentence_order",
+      "words": [
+        "I",
+        "went",
+        "to",
+        "school",
+        "yesterday"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "psiv_q6",
+      "type": "meaning_match",
+      "prompt": "Match each past verb to its Arabic meaning (past action context).",
+      "promptAr": "صل كل فعل ماضٍ بمعناه العربي (سياق فعل ماضي).",
+      "explanation": "Knowing the meaning of irregular past verbs helps you choose the correct form when a sentence includes a past time word. These are common verbs used in everyday contexts.",
+      "arabicNote": "معرفة معنى الأفعال الماضية يساعدك في اختيار الشكل الصحيح عندما تكون هناك كلمة زمنية للماضي. هذه أفعال شائعة في الحياة اليومية.",
+      "weakTag": "psiv_meaning_match",
+      "pairs": [
+        {
+          "left": "went",
+          "right": "ذهب"
+        },
+        {
+          "left": "ate",
+          "right": "أكل"
+        },
+        {
+          "left": "saw",
+          "right": "رأى"
+        },
+        {
+          "left": "bought",
+          "right": "اشترى"
+        }
+      ]
+    },
+    {
+      "id": "psiv_q7",
+      "type": "multiple_choice",
+      "prompt": "What is the past simple form of 'eat' for dinner last night?",
+      "promptAr": "ما هو شكل الماضي من 'eat' لعشاء الليلة الماضية؟",
+      "explanation": "The irregular past of 'eat' for a completed action last night is 'ate'. 'Eaten' is a past participle used with helpers like 'have', not the simple past alone.",
+      "arabicNote": "'ate' هي صيغة الماضي غير المنتظمة من 'eat' لحدث مكتمل مثل dinner last night. 'eaten' تستخدم مع have.",
+      "weakTag": "past_simple_irregular_verbs_eat",
+      "options": [
+        "eats",
+        "eaten",
+        "ate",
+        "eating"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "psiv_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for an action that happened last week?",
+      "promptAr": "أي الجمل التالية صحيحة لحدث حدث الأسبوع الماضي؟",
+      "explanation": "Use 'saw' as the simple past of 'see' for a completed action last week. Present or continuous forms do not match the past time marker and are incorrect here.",
+      "arabicNote": "نستخدم 'saw' للماضي لجملة عن حدث مكتمل last week. الصيغ الحالية أو المستمرة لا تتوافق مع علامة الزمن الماضي.",
+      "weakTag": "psiv_saw",
+      "options": [
+        "They saw a movie last week.",
+        "They see a movie last week.",
+        "They are seeing a movie last week."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psiv_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "He ___ a new car last month.",
+      "promptAr": "هو ___ سيارة جديدة الشهر الماضي.",
+      "explanation": "The past simple of 'have' (meaning 'own') is 'had'. With the time marker 'last month' use 'had' to show possession in the past.",
+      "arabicNote": "صيغة الماضي من 'have' بمعنى 'كان لديه' هي 'had'. وجود last month يتطلب استخدام الماضي 'had'.",
+      "weakTag": "past_simple_irregular_verbs_have",
+      "options": [
+        "have",
+        "had",
+        "has",
+        "having"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psiv_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction to make this sentence correct in the past simple.",
+      "promptAr": "اختر التصحيح الأفضل لجعل هذه الجملة صحيحة في الماضي البسيط.",
+      "explanation": "Replace the incorrect past participle 'seen' with the simple past 'saw' because the sentence describes a completed action yesterday without a helper verb.",
+      "arabicNote": "استبدل 'seen' الخاطئ بـ 'saw' لأن الجملة تصف حدثًا مكتملًا بالأمس وليس هناك فعل مساعد.",
+      "weakTag": "psiv_saw",
+      "options": [
+        "They saw a movie yesterday.",
+        "They see a movie yesterday.",
+        "They are seeing a movie yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They seen a movie yesterday."
+    }
+  ]
+}

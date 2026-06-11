@@ -1,0 +1,219 @@
+{
+  "id": "no_article_general_meaning",
+  "category": "basics",
+  "titleEn": "No Article for General Meaning",
+  "titleAr": "عدم استخدام أداة مع المعنى العام",
+  "level": "A1-A2",
+  "explanationEn": "In English, we do not use 'a', 'an', or 'the' when talking about things in general, especially with plural or uncountable nouns. For example, we say 'Dogs are friendly' instead of 'The dogs are friendly' when speaking generally.",
+  "explanationAr": "في الإنجليزية، لا نستخدم أدوات التعريف أو التنكير مثل 'a' و'an' و'the' عند الحديث عن أشياء بشكل عام، خاصة مع الأسماء الجمع أو الأسماء غير المعدودة. على سبيل المثال، نقول 'الكلاب ودودة' بدلاً من 'الكلاب هي ودودة' عندما نتحدث بشكل عام.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الكلاب ودودة",
+      "arabicLiteral": "the dogs are friendly",
+      "englishCorrect": "Dogs are friendly"
+    },
+    {
+      "arabicStructure": "الماء مهم",
+      "arabicLiteral": "the water is important",
+      "englishCorrect": "Water is important"
+    },
+    {
+      "arabicStructure": "الأطفال يحبون اللعب",
+      "arabicLiteral": "the children love to play",
+      "englishCorrect": "Children love to play"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The dogs are friendly.",
+      "correct": "Dogs are friendly.",
+      "explanationEn": "For general meaning, say 'Dogs are friendly.' 'The dogs are friendly' is correct only for specific dogs.",
+      "explanationAr": "للمعنى العام نقول 'Dogs are friendly.' أما 'The dogs' فتشير إلى كلاب معينة معروفة."
+    },
+    {
+      "wrong": "The water is important.",
+      "correct": "Water is important.",
+      "explanationEn": "For water in general, omit 'the'. 'The water is important' can be correct for specific known water.",
+      "explanationAr": "عند الحديث عن الماء بشكل عام لا نستخدم 'the'. أما 'The water' فتعني ماءً محدداً معروفاً."
+    },
+    {
+      "wrong": "The children love to play.",
+      "correct": "Children love to play.",
+      "explanationEn": "For children in general, omit 'the'. Use 'the children' only for specific children.",
+      "explanationAr": "للمعنى العام نستخدم 'children' بدون 'the'. نستخدم 'the children' لأطفال معينين."
+    },
+    {
+      "wrong": "The apples are sweet.",
+      "correct": "Apples are sweet.",
+      "explanationEn": "For apples in general, omit 'the'. Use 'the apples' for specific apples you both know.",
+      "explanationAr": "للتفاح بشكل عام لا نستخدم 'the'. نستخدم 'the apples' لتفاح معين يعرفه المتكلم والمستمع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "nag_q1",
+      "type": "multiple_choice",
+      "prompt": "___ are friendly.",
+      "promptAr": "اختر الجواب الصحيح.",
+      "explanation": "We use 'Dogs' to speak generally about all dogs.",
+      "arabicNote": "نستخدم 'Dogs' للحديث عن جميع الكلاب بشكل عام.",
+      "weakTag": "no_article_general_meaning_multiple_choice",
+      "options": [
+        "The dogs",
+        "Dogs",
+        "A dog",
+        "An dog"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "We say 'Water is essential' to talk about water in general.",
+      "arabicNote": "نقول 'Water is essential' للحديث عن الماء بشكل عام.",
+      "weakTag": "no_article_general_meaning_choose_correct_sentence",
+      "options": [
+        "The water is essential.",
+        "Water is essential.",
+        "A water is essential."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ are delicious.",
+      "promptAr": "اختر الجواب الصحيح.",
+      "explanation": "We use 'Apples' to refer to apples in general.",
+      "arabicNote": "نستخدم 'Apples' للإشارة إلى التفاح بشكل عام.",
+      "weakTag": "no_article_general_meaning_fill_blank",
+      "options": [
+        "The apples",
+        "Apples",
+        "An apple"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "We say 'Children love to play' to speak generally.",
+      "arabicNote": "نقول 'Children love to play' للحديث بشكل عام.",
+      "weakTag": "no_article_general_meaning_fix_the_mistake",
+      "options": [
+        "Children love to play.",
+        "The children loves to play.",
+        "A children love to play."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The children love to play."
+    },
+    {
+      "id": "nag_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'Cats are friendly.'",
+      "arabicNote": "الجملة الصحيحة هي 'Cats are friendly.'",
+      "weakTag": "no_article_general_meaning_sentence_order",
+      "words": [
+        "are",
+        "Cats",
+        "friendly."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "nag_q6",
+      "type": "meaning_match",
+      "prompt": "Match each noun to its Arabic meaning.",
+      "promptAr": "صل كل اسم بمعناه العربي.",
+      "explanation": "These nouns are used without articles when speaking generally.",
+      "arabicNote": "هذه الأسماء تُستخدم بدون أدوات عند الحديث بشكل عام.",
+      "weakTag": "no_article_general_meaning_meaning_match",
+      "pairs": [
+        {
+          "left": "Water",
+          "right": "ماء"
+        },
+        {
+          "left": "Dogs",
+          "right": "كلاب"
+        },
+        {
+          "left": "Children",
+          "right": "أطفال"
+        }
+      ]
+    },
+    {
+      "id": "nag_q7",
+      "type": "multiple_choice",
+      "prompt": "___ is important.",
+      "promptAr": "اختر الجواب الصحيح.",
+      "explanation": "We say 'Air is important' to refer to air in general.",
+      "arabicNote": "نقول 'Air is important' للإشارة إلى الهواء بشكل عام.",
+      "weakTag": "no_article_general_meaning_multiple_choice",
+      "options": [
+        "The air",
+        "Air",
+        "An air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "We use 'Fruits' to talk about fruits in general.",
+      "arabicNote": "نستخدم 'Fruits' للحديث عن الفواكه بشكل عام.",
+      "weakTag": "no_article_general_meaning_choose_correct_sentence",
+      "options": [
+        "The fruits are fresh.",
+        "Fruits are fresh.",
+        "A fruit is fresh."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "___ is necessary.",
+      "promptAr": "اختر الجواب الصحيح.",
+      "explanation": "We say 'Food is necessary' to refer to food in general.",
+      "arabicNote": "نقول 'Food is necessary' للإشارة إلى الطعام بشكل عام.",
+      "weakTag": "no_article_general_meaning_fill_blank",
+      "options": [
+        "The food",
+        "Food",
+        "A food"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nag_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "We say 'Books are interesting' to speak generally about all books.",
+      "arabicNote": "نقول 'Books are interesting' للحديث عن جميع الكتب بشكل عام.",
+      "weakTag": "no_article_general_meaning_fix_the_mistake",
+      "options": [
+        "Books are interesting.",
+        "The book is interesting.",
+        "A book is interesting."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The books are interesting."
+    }
+  ]
+}

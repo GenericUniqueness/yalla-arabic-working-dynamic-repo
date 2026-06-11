@@ -1,0 +1,238 @@
+{
+  "id": "advanced_inversion",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Inversion",
+  "titleAr": "القلب المتقدم في ترتيب الجملة",
+  "level": "C1",
+  "explanationEn": "Inversion after negative or limiting adverbials (e.g., rarely, not only, no sooner, under no circumstances) places the auxiliary before the subject. This adds emphasis, formality, and precision. Use inversion when the adverbial begins the clause to avoid ambiguity and match formal written and spoken English.",
+  "explanationAr": "في العربية يمكن وضع أدوات النفي أو التقليل دون تغيير ترتيب الفاعل والفعل. لكن في الإنجليزية المتقدمة، عندما تبدأ الجملة بأدوات مثل rarely أو not only أو no sooner أو under no circumstances، يجب قلب ترتيب المساعد والفاعل للحصول على رسمية ودقة أكبر، وإلا تصبح الجملة غير صحيحة أو غامضة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "نادراً المعلم يشرح الدرس هكذا.",
+      "arabicLiteral": "Rarely the teacher explains the lesson like this.",
+      "englishCorrect": "Rarely did the teacher explain the lesson so clearly."
+    },
+    {
+      "arabicStructure": "ليس فقط قدمت العرض، بل حسنت عرضه.",
+      "arabicLiteral": "Not only I submitted the report, but I improved it.",
+      "englishCorrect": "Not only did I submit the report, but I improved it."
+    },
+    {
+      "arabicStructure": "ما إن وصلت حتى رن الهاتف.",
+      "arabicLiteral": "No sooner I arrived than the phone rang.",
+      "englishCorrect": "No sooner had I arrived than the phone rang."
+    },
+    {
+      "arabicStructure": "تحت أي ظرف لا تحذف الملفات.",
+      "arabicLiteral": "Under no circumstances you delete files.",
+      "englishCorrect": "Under no circumstances should you delete personal files."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Rarely she answered student emails promptly.",
+      "correct": "Rarely did she answer student emails promptly.",
+      "explanationEn": "Starting with 'Rarely' requires inversion: auxiliary before subject in formal English.",
+      "explanationAr": "يميل المتعلمون لنقل الترتيب العربي حرفيًا: 'Rarely she...'. عند بدء الجملة بـ 'Rarely' يجب قلب المساعد والفاعل: 'Rarely did she...' حتى تكون الجملة صحيحة ورسميّة."
+    },
+    {
+      "wrong": "Not only she passed the test, she also topped the class.",
+      "correct": "Not only did she pass the test, she also topped the class.",
+      "explanationEn": "A clause beginning with 'Not only' needs auxiliary-subject inversion for emphasis and grammar.",
+      "explanationAr": "عند بدء الجملة بـ 'Not only' تحتاج الإنجليزية إلى قلب التركيب. الترتيب العربي 'Not only she...' يترك الجملة غير صحيحة في الإنجليزية الرسمية."
+    },
+    {
+      "wrong": "Under no circumstances you should change the password.",
+      "correct": "Under no circumstances should you change the password.",
+      "explanationEn": "'Under no circumstances' requires inversion of auxiliary and subject in a formal prohibition.",
+      "explanationAr": "في العربية يمكن أن يتم النفي دون قلب. لكن في الإنجليزية الرسمية بعد 'Under no circumstances' يجب قلب المساعد والفاعل للحصول على معنى نفي واضح ورسمى."
+    },
+    {
+      "wrong": "No sooner I finished the report than the manager called.",
+      "correct": "No sooner had I finished the report than the manager called.",
+      "explanationEn": "'No sooner' requires past perfect with inversion (had + subject) to show correct event sequence.",
+      "explanationAr": "الترجمة الحرفية من العربية 'No sooner I...' لا تكفي. بعد 'No sooner' نستخدم الماضي التام مع قلب المساعد والفاعل: 'No sooner had I...' لتحديد الترتيب الزمني بين حدثين."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ainv_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses inversion to emphasize rarity?",
+      "promptAr": "أي جملة تستخدم القلب (inversion) بشكل صحيح لتأكيد الندرة؟",
+      "explanation": "The inverted sentence places the auxiliary before the subject and emphasises rarity in a formal way.",
+      "arabicNote": "يميل المتحدث العربي لوضع أداة الندرة قبل الفاعل دون قلب. في الإنجليزية الرسمية بعد 'Rarely' يجب قلب المساعد والفاعل: هذا يمنع الغموض ويزيد الدقة.",
+      "weakTag": "advanced_inversion_form",
+      "options": [
+        "Rarely did the teacher explain the procedure so clearly.",
+        "The teacher rarely explained the procedure so clearly.",
+        "Rarely the teacher explained the procedure so clearly."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ainv_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Not only ___ the report on time, but she also improved it.",
+      "promptAr": "اكمل الفراغ باستخدام قلب الفاعل والمساعد بعد 'Not only'.",
+      "explanation": "When a clause begins with 'Not only', invert auxiliary and subject for correct emphasis and clarity.",
+      "arabicNote": "الترجمة العربية قد تضع الفاعل قبل الفعل. لكن بعد 'Not only' في الإنجليزية نضع 'did' قبل الفاعل: 'Not only did she submit...' لإظهار التأكيد والرسمية.",
+      "weakTag": "advanced_inversion_not_only",
+      "options": [
+        "she submitted",
+        "did she submit",
+        "she did submit",
+        "submitted she"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ainv_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence starting with 'No sooner'.",
+      "promptAr": "اختر الجملة الصحيحة التي تبدأ بـ 'No sooner'.",
+      "explanation": "When 'No sooner' begins a clause, invert auxiliary and subject and use past perfect to show order.",
+      "arabicNote": "في العربية قد تقول 'ما إن جلست'. في الإنجليزية يجب قلب المساعد والفاعل بعد 'No sooner' واستخدام الماضي التام، مثل 'No sooner had I...'.",
+      "weakTag": "advanced_inversion_no_sooner",
+      "options": [
+        "No sooner had I sat down than the phone rang.",
+        "No sooner I had sat down than the phone rang.",
+        "No sooner had I sat down the phone rang."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ainv_q4",
+      "type": "meaning_match",
+      "prompt": "Match each inverted English sentence with its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية مستخدمة فيها inversion بمعناها العربي.",
+      "explanation": "Match each inverted sentence to its Arabic meaning to show you recognise inversion and emphasis.",
+      "arabicNote": "الهدف هنا ربط تركيب القلب الانعكاسي بالمعنى العربي وملاحظة أن الترتيب العربي المباشر لا يكفي دائماً في اللغة الإنجليزية الرسمية.",
+      "weakTag": "advanced_inversion_meaning",
+      "pairs": [
+        {
+          "left": "Rarely did he miss a deadline.",
+          "right": "نادراً ما يتأخر عن موعد التسليم."
+        },
+        {
+          "left": "Not only did Mariam finish the project, she documented every step.",
+          "right": "لم تُنهِ مريم المشروع فحسب، بل وثقت كل خطوة."
+        },
+        {
+          "left": "Under no circumstances should you share student records.",
+          "right": "تحت أي ظرف لا يجب أن تشارك سجلات الطلاب."
+        },
+        {
+          "left": "No sooner had the plane landed than the passengers stood up.",
+          "right": "ما إن هبطت الطائرة حتى قام الركاب."
+        }
+      ]
+    },
+    {
+      "id": "ainv_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a formal prohibition.",
+      "promptAr": "رتب الكلمات لتكوين جملة إنجليزية رسمية للنهي أو المنع.",
+      "explanation": "Start with the limiting phrase, then invert subject and auxiliary for a formal prohibition.",
+      "arabicNote": "في العربية قد تأتي عبارة النهي ثم الفاعل. لكن الإنجليزية الرسمية تبدأ بـ 'Under no circumstances' وتحتاج قلبًا للمساعد والفاعل لِتبقى رسمية وواضحة.",
+      "weakTag": "advanced_inversion_register",
+      "words": [
+        "circumstances",
+        "should",
+        "you",
+        "delete",
+        "personal",
+        "files.",
+        "Under",
+        "no"
+      ],
+      "correctOrder": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ainv_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the correction that uses inversion.",
+      "promptAr": "اختر التصحيح الذي يستخدم قلب المساعد والفاعل بعد 'Seldom'.",
+      "explanation": "When 'Seldom' starts a clause, invert auxiliary and subject (e.g., 'Seldom is she late') to be grammatical and formal.",
+      "arabicNote": "الخطأ شائع لأن المتكلم العربي يترجم الترتيب حرفيًا. عند بداية الجملة بـ 'Seldom' يجب قلب المساعد والفاعل: 'Seldom is she...' لضمان صحة ودقة الجملة.",
+      "weakTag": "advanced_inversion_fix",
+      "options": [
+        "Seldom is she late to staff meetings.",
+        "She seldom is late to staff meetings.",
+        "Seldom she is late to staff meetings."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Seldom she is late to staff meetings."
+    },
+    {
+      "id": "ainv_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the formal inversion that shows surprise or ignorance.",
+      "promptAr": "اختر تركيب القلب الرسمي الذي يدل على الدهشة أو الجهل.",
+      "explanation": "Use 'Little did I know' to invert auxiliary and subject and to emphasise surprise in a formal register.",
+      "arabicNote": "في العربية نقول عادة 'لم أدرِ' دون قلب. لكن الإنجليزية الرسمية للتعبير عن الدهشة تستخدم 'Little did I know...' مع قلب المساعد والفاعل.",
+      "weakTag": "advanced_inversion_little",
+      "options": [
+        "Little did I know she had already left.",
+        "I little did I know she had already left.",
+        "I knew little she had already left."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ainv_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "No sooner had the exam finished ___ the students began to leave.",
+      "promptAr": "اكمل الفراغ بعد 'No sooner had the exam finished'.",
+      "explanation": "After 'No sooner had...' use 'than' to link the two events correctly in English.",
+      "arabicNote": "في العربية قد لا تحتاج إلى 'than'. في الإنجليزية يجب أن نقول 'No sooner had the exam finished than the students began to leave.' وربط الحدثين واضح بهذه البنية.",
+      "weakTag": "advanced_inversion_no_sooner_link",
+      "options": [
+        "than the students began to leave.",
+        "then the students began to leave.",
+        "that the students began to leave."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ainv_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly forbids an action in a workplace policy using formal inversion?",
+      "promptAr": "أي جملة تمنع إجراءً ما بشكل صحيح في سياسة العمل باستخدام قلب رسمي؟",
+      "explanation": "Only the first option correctly inverts the auxiliary and subject after 'Under no circumstances' to form a formal prohibition.",
+      "arabicNote": "التعبير العربي قد يترك الفاعل قبل الفعل. في سياسة عمل رسمية يجب قلب المساعد والفاعل بعد 'Under no circumstances' للحصول على نفي واضح ورسمي.",
+      "weakTag": "advanced_inversion_under_no_circumstances",
+      "options": [
+        "Under no circumstances should employees delete training records.",
+        "Under no circumstances employees delete training records.",
+        "Employees under no circumstances delete training records."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ainv_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the correction that preserves the clause-initial 'Not only' and uses inversion.",
+      "promptAr": "اختر التصحيح الذي يحافظ على 'Not only' في البداية ويستخدم قلب المساعد والفاعل.",
+      "explanation": "When 'Not only' begins a clause, invert auxiliary and subject: 'Not only did he complete...' keeps emphasis and correct grammar.",
+      "arabicNote": "في العربية قد تضع 'ليس فقط' ثم الفاعل. في الإنجليزية الرسمية يجب قلب المساعد والفاعل بعد 'Not only': 'Not only did he...'. هذا يحفظ التأكيد والدقة.",
+      "weakTag": "advanced_inversion_not_only_fix",
+      "options": [
+        "Not only did he complete the assignment, he added useful comments.",
+        "Not only completed he the assignment, he added useful comments.",
+        "Not only he completed the assignment, he added useful comments."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Not only he completed the assignment, he added useful comments."
+    }
+  ]
+}

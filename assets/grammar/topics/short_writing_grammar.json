@@ -1,0 +1,226 @@
+{
+  "id": "short_writing_grammar",
+  "category": "b2_expansion",
+  "titleEn": "Short Writing Grammar",
+  "titleAr": "قواعد الكتابة القصيرة",
+  "level": "B2",
+  "explanationEn": "This topic teaches controlled grammar for short paragraphs, messages, and explanations. Focus on clear clause order, linking words, required helpers (articles, auxiliaries), and simple punctuation so everyday short texts at work, school, home, travel, and family are cohesive and unambiguous.",
+  "explanationAr": "هذا الموضوع يعلّم قواعد مكتوبة مُسيطرَة لكتابة فقرات ورسائل قصيرة وشروحات مترابطة. نركّز على ترتيب الجمل، أدوات الربط، الكلمات المساعدة (مثل المقالات والأفعال المساعدة)، وعلامات الترقيم البسيطة. تحذير لمتحدّثي العربية: العربية أكثر مرونة في ترتيب الجمل وحذف الضمائر، بينما الإنجليزية تطلب فاعلاً واضحاً وكلمات ربط ثابتة للحفاظ على الترابط.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "وصلت متأخراً لأن فاتني الباص",
+      "arabicLiteral": "I arrived late because missed the bus",
+      "englishCorrect": "I missed the bus, so I arrived late."
+    },
+    {
+      "arabicStructure": "أرسلت التقرير مرفق",
+      "arabicLiteral": "I sent the report attached",
+      "englishCorrect": "The report is attached."
+    },
+    {
+      "arabicStructure": "ذهبت إلى العمل مبكراً لأن لدي اجتماع مهم",
+      "arabicLiteral": "I went to work early because I have important meeting",
+      "englishCorrect": "I went to work early because I had an important meeting."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Missed the meeting, I told my boss.",
+      "correct": "I missed the meeting, and I told my boss.",
+      "explanationEn": "Arabic order may drop the subject or connector; English requires a subject and a connector like 'and' to link full clauses.",
+      "explanationAr": "يميل المتحدّث بالعربية لوضع الجمل بدون ضمير أو رابط. في الإنجليزية نذكر الفاعل ونستخدم رابطًا مثل and لربط جملتين تامّتين."
+    },
+    {
+      "wrong": "I not finished the report yesterday.",
+      "correct": "I did not finish the report yesterday.",
+      "explanationEn": "In simple past negatives English requires the auxiliary did + not before the base verb.",
+      "explanationAr": "في العربية قد لا نستخدم فعل مساعد للنفي. في الإنجليزية للماضي نستخدم did + not ثم الفعل في صورته الأساسية."
+    },
+    {
+      "wrong": "Because I was late, arrived late to class.",
+      "correct": "Because I was late, I arrived late to class.",
+      "explanationEn": "English requires the subject before the verb in each full clause; Arabic sometimes omits it.",
+      "explanationAr": "في العربية يمكن حذف الضمير عندما يكون السياق واضحًا. في الإنجليزية نذكر الفاعل في كل جملة تامّة لتجنّب الغموض."
+    },
+    {
+      "wrong": "Sent you the file. Please check.",
+      "correct": "I have sent you the file. Please check it.",
+      "explanationEn": "Short messages need a clear tense and object pronoun for cohesion; add the auxiliary and the pronoun.",
+      "explanationAr": "في الرسائل العربية يُحذف أحيانًا الفاعل أو الضمير. في الإنجليزية نضيف فعلًا مساعدًا وضمير مفعولًا لإتمام المعنى وجعل الرسالة رسمية ومفهومة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "swg_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence best connects two short ideas in a message about being late for work this morning? Use full, standard written English (complete clauses and clear connectors).",
+      "promptAr": "أي جملة تربط فكرتين لتشرح التأخر عن العمل هذا الصباح؟ استخدم الإنجليزية المكتوبة الكاملة (جمل تامة وروابط واضحة).",
+      "explanation": "Choose a full sentence with a correct past verb and a clear connector.",
+      "arabicNote": "في العربية قد تُسقط أدوات الربط أو الضمائر. هنا نحتاج جملة كاملة وفاصل ربط واضح مثل so لربط السبب والنتيجة.",
+      "weakTag": "short_writing_grammar_cohesion",
+      "options": [
+        "I missed the bus, so I arrived late.",
+        "I missed the bus, so I arrives late.",
+        "I miss the bus and arrived late."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "swg_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that is a polite short message explaining absence from class yesterday. Use full, standard written English (complete clauses and clear connectors).",
+      "promptAr": "اختر عبارة مهذبة قصيرة تشرح الغياب عن الصف أمس. استخدم الإنجليزية المكتوبة الكاملة (جمل تامة وروابط واضحة).",
+      "explanation": "Pick I + did not + base verb and a clear reason clause.",
+      "arabicNote": "المتحدّثون بالعربية قد يحذفون did أو الضمير. في الإنجليزية للحديث عن غياب بالأمس نستخدم I didn't + الفعل ثم سبب واضح.",
+      "weakTag": "short_writing_grammar_word_order",
+      "options": [
+        "Not came to class yesterday.",
+        "I didn't come to class yesterday because I was sick.",
+        "I didn't came to class yesterday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "swg_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "When I wrote to my manager, I ______ the main point in the first sentence to be clear.",
+      "promptAr": "عندما كتبت إلى مديري، ______ النقطة الأساسية في الجملة الأولى لتكون واضحة.",
+      "explanation": "Past simple 'stated' matches the past time 'wrote' and keeps the message concise.",
+      "arabicNote": "الجملة تبدأ بالماضي wrote، لذلك نحتاج فعلًا بالماضي في الإنجليزية. استخدم stated لإظهار الاتساق في الزمن.",
+      "weakTag": "short_writing_grammar_tense_consistency",
+      "options": [
+        "stated",
+        "state",
+        "states",
+        "to state"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "swg_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the message that intends to explain an early departure reason. Use full, standard written English (complete clauses and clear connectors).",
+      "promptAr": "اختر التصحيح الأفضل لرسالة تشرح سبب المغادرة المبكّرة. استخدم الإنجليزية المكتوبة الكاملة (جمل تامة وروابط واضحة).",
+      "explanation": "Put a subject before the main verb and use 'wanted to' to complete the clause.",
+      "arabicNote": "في العربية قد يُسقط الترتيب أو يُحذف الضمير. في الإنجليزية نذكر الفاعل ونعطي الفعل الكامل: I left early because I wanted to.",
+      "weakTag": "short_writing_grammar_function_words",
+      "options": [
+        "I left early because I wanted to.",
+        "Because I wanted, left early.",
+        "I left early because wanted to."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Because I wanted, left early."
+    },
+    {
+      "id": "swg_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a short attached-file message. Use full, standard written English.",
+      "promptAr": "رتّب الكلمات لتكوين رسالة قصيرة عن ملف مرفق. استخدم الإنجليزية المكتوبة الكاملة.",
+      "explanation": "Begin with the subject phrase, then the verb and complement for a clear short message.",
+      "arabicNote": "في العربية قد يأتي الترتيب مختلفًا، لكن في الإنجليزية نحتاج جملة مرتّبة وواضحة: The report file is attached.",
+      "weakTag": "short_writing_grammar_word_order",
+      "words": [
+        "The",
+        "report",
+        "file",
+        "is",
+        "attached",
+        "."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "swg_q6",
+      "type": "meaning_match",
+      "prompt": "Match each linking word to its Arabic meaning. These connectors help short explanations flow.",
+      "promptAr": "وصل كل أداة ربط بمعناها العربي. هذه الكلمات تساعد على ربط جمل الشرح القصيرة.",
+      "explanation": "Connectors show cause, contrast, or result in short messages and explanations.",
+      "arabicNote": "اختر رابطًا مناسبًا بدل الاعتماد على ترتيب الجملة فقط كما في العربية. الرابط يوضح العلاقة بين الجمل.",
+      "weakTag": "short_writing_grammar_cohesive_devices",
+      "pairs": [
+        {
+          "left": "because",
+          "right": "لأن"
+        },
+        {
+          "left": "however",
+          "right": "مع ذلك"
+        },
+        {
+          "left": "therefore",
+          "right": "لذلك"
+        }
+      ]
+    },
+    {
+      "id": "swg_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the best opening line for a short family message that then gives the reason for lateness. Use full, standard written English (complete clauses and clear connectors).",
+      "promptAr": "اختر سطر الافتتاح الأفضل لرسالة عائلية قصيرة يليه سبب التأخر. استخدم الإنجليزية المكتوبة الكاملة (جمل تامة وروابط واضحة).",
+      "explanation": "Select a full clause with subject and correct verb form, then give the reason.",
+      "arabicNote": "في العربية يمكن حذف الضمائر أو ترتيب الجمل بحرية. في الإنجليزية نحتاج جملة تامة: I am late because my car broke down.",
+      "weakTag": "short_writing_grammar_cohesion",
+      "options": [
+        "I am late because my car broke down.",
+        "I am late. My car break down.",
+        "Late due to car broken."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "swg_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I sent the draft. ___, I still need your feedback before Friday.",
+      "promptAr": "أرسلت المسودة. ___، ما زلت أحتاج ملاحظاتك قبل يوم الجمعة.",
+      "explanation": "'However' shows contrast between sending the draft and still needing feedback before the deadline.",
+      "arabicNote": "الترجمة الحرفية قد تبدو مقبولة، لكن الإنجليزية تحتاج رابطًا يوضح العلاقة المتناقضة. استخدم However هنا.",
+      "weakTag": "short_writing_grammar_connectors",
+      "options": [
+        "Because",
+        "However",
+        "Because of",
+        "When"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "swg_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the best short explanation that matches the Arabic meaning: 'ذهبت إلى العمل مبكرًا لأن لدي اجتماع مهم.' Use full, standard written English.",
+      "promptAr": "اختر أفضل جملة قصيرة توضح المعنى العربي: 'ذهبت إلى العمل مبكرًا لأن لدي اجتماع مهم.' استخدم الإنجليزية المكتوبة الكاملة.",
+      "explanation": "Use past tense for went, include I and because for a clear explanation.",
+      "arabicNote": "الترتيب العربي قد يغري بحذف فاعل أو تغيير زمن الفعل. في الإنجليزية نستخدم I went وbecause لإيضاح السبب والزمن.",
+      "weakTag": "short_writing_grammar_arabic_transfer",
+      "options": [
+        "I went to work early because I had an important meeting.",
+        "I went early to working because had an important meeting.",
+        "Go to work early because meeting was important."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "swg_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the short explanation that gives a reason for leaving early.",
+      "promptAr": "اختر التصحيح الأفضل لعبارة قصيرة تشرح سبب المغادرة المبكّرة.",
+      "explanation": "Use 'why' to link the reason and correct past tense in the clause.",
+      "arabicNote": "في العربية قد تُسقط أدوات الربط أو تُغيّر الترتيب. في الإنجليزية نستخدم why أو the reasons مع ترتيب وزمن صحيحين لتوضيح السبب.",
+      "weakTag": "swg_pronoun_reference",
+      "options": [
+        "He explained why he left early.",
+        "He explained reason he left early.",
+        "He explained the reasons why he leaving early."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He explained reason he left early."
+    }
+  ]
+}

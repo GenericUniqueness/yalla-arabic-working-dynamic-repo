@@ -1,0 +1,230 @@
+{
+  "id": "want_to_need_to",
+  "category": "a2_core",
+  "titleEn": "Want To and Need To",
+  "titleAr": "want to و need to",
+  "level": "A2",
+  "explanationEn": "Use want to + base verb to show a desire and need to + base verb to show a necessity. After want or need we put to followed by the base verb (not -ing). In short: want/need + to + verb. This pattern is used for school, work, home, travel and family actions.",
+  "explanationAr": "في الإنجليزية نستخدم want to أو need to متبوعة بالفعل الأساسي للتعبير عن الرغبة أو الضرورة. المتحدثون العرب قد يترجمون مباشرة بترتيب عربي أو يستخدمون اسمًا فعليًا أو -ing بدل to+الفعل. تعلّم وضع to ثم الفعل الأساسي. أمثلة من المدرسة والعمل والمنزل تساعد الفهم.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أريد دراسة الإنجليزية.",
+      "arabicLiteral": "I want study English",
+      "englishCorrect": "I want to study English."
+    },
+    {
+      "arabicStructure": "أحتاج أن أذهب إلى العمل.",
+      "arabicLiteral": "I need that I go to work",
+      "englishCorrect": "I need to go to work."
+    },
+    {
+      "arabicStructure": "هي تريد الاتصال بوالدتها.",
+      "arabicLiteral": "She wants the calling her mother",
+      "englishCorrect": "She wants to call her mother."
+    },
+    {
+      "arabicStructure": "نحتاج العمل غدًا.",
+      "arabicLiteral": "We need work tomorrow",
+      "englishCorrect": "We need to work tomorrow."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want study English tonight.",
+      "correct": "I want to study English tonight.",
+      "explanationEn": "Learners often omit 'to' after want. English needs 'to' + base verb here.",
+      "explanationAr": "الخطأ حذف 'to' بعد want. في الإنجليزية يجب أن يتبع want بـ to + الفعل الأساسي لإظهار الرغبة."
+    },
+    {
+      "wrong": "He needs going to the shop.",
+      "correct": "He needs to go to the shop.",
+      "explanationEn": "Using -ing after need here is incorrect. Use need to + base verb for necessity.",
+      "explanationAr": "الخطأ استخدام المصدر المنتهي بـ -ing بعد need. يجب أن نستخدم need to ثم الفعل الأساسي عند التعبير عن الضرورة."
+    },
+    {
+      "wrong": "We need work tomorrow.",
+      "correct": "We need to work tomorrow.",
+      "explanationEn": "Missing 'to' makes the sentence ungrammatical. The pattern is need to + base verb.",
+      "explanationAr": "الخطأ حذف 'to' في التركيب. الصيغة الصحيحة للتعبير عن الحاجة هي need to ثم الفعل الأساسي."
+    },
+    {
+      "wrong": "I want to cooking dinner.",
+      "correct": "I want to cook dinner.",
+      "explanationEn": "After want to we must use the base verb cook, not the -ing form cooking.",
+      "explanationAr": "الخطأ استخدام فعل بـ -ing بعد to. بعد want to نضع الفعل في صورته الأساسية، وليس -ing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "want_q1",
+      "type": "multiple_choice",
+      "prompt": "You are hungry at home this evening. Which sentence correctly shows a desire to eat?",
+      "promptAr": "أنت جائع في البيت هذا المساء. أي جملة تعبّر عن رغبة بالأكل بشكل صحيح؟",
+      "explanation": "Want is followed by to + the base verb. Say 'I want to eat' to show desire. Other forms are ungrammatical here.",
+      "arabicNote": "في الإنجليزية نضع want ثم to ثم الفعل الأساسي. لا نحذف to ولا نستخدم -ing بعد want. المتحدثون العرب قد يترجمون حرفيًا ويهملون to.",
+      "weakTag": "want_to_need_to_form",
+      "options": [
+        "I want eat now.",
+        "I want to eat now.",
+        "I want eating now.",
+        "I wanting to eat now."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "want_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "At school you must finish homework tonight. Which sentence correctly shows necessity?",
+      "promptAr": "في المدرسة يجب أن تنهي الواجب الليلة. أي جملة تعبّر عن ضرورة صحيحة؟",
+      "explanation": "Use need to + base verb to show necessity. 'I need to finish' is correct; the others are not correct English in this context.",
+      "arabicNote": "جملة الضرورة تحتاج need to ثم الفعل. تجنب حذف to أو استخدام -ing بعد need. هذا فرق شائع بين العربية والإنجليزية.",
+      "weakTag": "want_to_need_to_meaning",
+      "options": [
+        "I need finish my homework tonight.",
+        "I need to finish my homework tonight.",
+        "I need finishing my homework tonight."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "want_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "My brother is late for work. He ___ call his manager immediately.",
+      "promptAr": "أخي متأخر عن العمل. هو ___ الاتصال بمديره فورًا.",
+      "explanation": "Use 'needs to' (he + needs) plus the base verb to show he must do something now. Other forms are ungrammatical for he in this immediate necessity context.",
+      "arabicNote": "للفاعل المفرد 'he' نستخدم needs to ثم الفعل. تجنّب حذف s أو حذف to. المتحدثون العرب أحيانًا ينسون الاتفاق أو يترجمون ترتيبًا عربياً.",
+      "weakTag": "want_to_need_to_word_order",
+      "options": [
+        "needs to",
+        "need to",
+        "need calling",
+        "needs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "want_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence showing a plan to visit family this weekend.",
+      "promptAr": "اختر أفضل تصحيح للجملة التي تعبّر عن خطة لزيارة العائلة هذا الأسبوع.",
+      "explanation": "Correct form: she + wants to + base verb. Fix both the third-person 's' and add 'to' before the verb.",
+      "arabicNote": "التصحيح يضيف s للفعل مع she ويضع to قبل الفعل. المتكلمون العرب قد يترجمون حرفيًا فينسون to أو s.",
+      "weakTag": "want_to_need_to_form",
+      "options": [
+        "She wants to visit her family this weekend.",
+        "She want to visit her family this weekend.",
+        "She wants visit her family this weekend."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She want visit her family this weekend."
+    },
+    {
+      "id": "want_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a sentence that shows a necessity tonight.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تعبّر عن ضرورة الليلة.",
+      "explanation": "Correct sentence: 'I need to study tonight.' Follow subject + need + to + base verb + time.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية: الفاعل ثم need ثم to ثم الفعل الأساسي ثم زمان الفعل. انتبه لا تكرر كلمات. المتحدثون العرب قد يضعون الفعل قبل الفاعل.",
+      "weakTag": "want_to_need_to_word_order",
+      "words": [
+        "study",
+        "I",
+        "tonight",
+        "to",
+        "need"
+      ],
+      "correctOrder": [
+        1,
+        4,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "want_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. Focus on the difference between want and need.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي. ركز على الفرق بين want و need.",
+      "explanation": "Want shows desire; need shows necessity. The Arabic verbs differ and learners must map which English verb expresses which idea.",
+      "arabicNote": "في العربية قد تبدو التراكيب متشابهة، لكن في الإنجليزية نميّز بين want (رغبة) و need (ضرورة) بصيغة الفعل. هذا يساعد في اختيار to+الفعل الصحيح.",
+      "weakTag": "want_to_need_to_meaning",
+      "pairs": [
+        {
+          "left": "I want to rest.",
+          "right": "أريد أن أرتاح."
+        },
+        {
+          "left": "I need to rest.",
+          "right": "أحتاج أن أرتاح."
+        },
+        {
+          "left": "She wants to call her mother.",
+          "right": "تريد أن تتصل بوالدتها."
+        }
+      ]
+    },
+    {
+      "id": "want_q7",
+      "type": "multiple_choice",
+      "prompt": "At the station your phone is dead. You must call a taxi now. Which sentence correctly shows necessity?",
+      "promptAr": "في المحطة بطارية هاتفك نفدت. يجب عليك الآن طلب سيارة أجرة. أي جملة تعبّر عن ضرورة صحيحة؟",
+      "explanation": "Use need to + base verb to express necessity. 'I need to call' is the correct structure for immediate necessity.",
+      "arabicNote": "للتعبير عن ضرورة فورية نستخدم need to ثم الفعل. تجنّب حذف to أو استخدام -ing. المتحدثون العرب قد يضعون ترتيبًا عربيًا في الخطأ.",
+      "weakTag": "want_to_need_to_form",
+      "options": [
+        "I need call a taxi now.",
+        "I need to call a taxi now.",
+        "I need calling a taxi now."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "want_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "My sister offers help with cooking. She ___ cook dinner tonight.",
+      "promptAr": "أختي عرضت المساعدة في الطبخ. هي ___ طهي العشاء الليلة.",
+      "explanation": "With she (third person) use 'wants to' + base verb to show desire or offer. 'wants to cook' is the full, grammatical phrase here.",
+      "arabicNote": "مع she نستخدم wants to ثم الفعل. لا تضع want بدون s ولا تترك to خارج العبارة. المتحدثون العرب قد ينسون الاتفاق أو يستخدِموا -ing خطأ.",
+      "weakTag": "want_to_need_to_form",
+      "options": [
+        "wants",
+        "wants to",
+        "want to",
+        "wants cooking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "want_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for expressing today's work necessity.",
+      "promptAr": "اختر أفضل تصحيح للتعبير عن ضرورة العمل اليوم.",
+      "explanation": "Correct: need to + base verb. Use 'need to work' for the necessity; the -ing form is incorrect in this structure.",
+      "arabicNote": "الخطأ استخدام -ing بعد need. الصيغة الصحيحة هي need to ثم الفعل الأساسي عند الحديث عن ضرورة. المتحدثون العرب قد يترجمون مباشرة ويضعون -ing.",
+      "weakTag": "want_to_need_to_form",
+      "options": [
+        "They need to work on the project today.",
+        "They need work on the project today.",
+        "They need working on the project today."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They need working on the project today."
+    },
+    {
+      "id": "want_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses desire to learn a new language?",
+      "promptAr": "أي جملة تعبّر صحيحًا عن الرغبة في تعلم لغة جديدة؟",
+      "explanation": "Use wants to + base verb to show desire. 'He wants to learn' is the correct pattern; the others misuse -ing or omit to.",
+      "arabicNote": "في الإنجليزية نستخدم wants to ثم الفعل. انتبه لعدم استخدام -ing أو حذف to بعد wants. المتحدثون العرب قد يخطئون في ترتيب الكلمات.",
+      "weakTag": "want_to_need_to_arabic_transfer",
+      "options": [
+        "He wants learning Spanish.",
+        "He wants to learn Spanish.",
+        "He wants learn Spanish."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

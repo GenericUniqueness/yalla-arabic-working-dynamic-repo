@@ -1,0 +1,234 @@
+{
+  "id": "question_tags_basic",
+  "category": "b1_core",
+  "titleEn": "Basic Question Tags",
+  "titleAr": "أسئلة الذيل الأساسية",
+  "level": "B1",
+  "explanationEn": "Question tags repeat the auxiliary from the main clause and add a matching pronoun. Use a negative tag after a positive main clause and a positive tag after a negative clause. Match tense and subject: isn't it, don't you, didn't she. Use simple contexts like school, work, family, and travel.",
+  "explanationAr": "تستخدم نهايات أسئلة الذيل في الإنجليزية نفس الفعل المساعد من الجملة الأساسية ثم نضيف ضميرًا مطابقًا. عادةً نضع ذيلًا سالبًا بعد جملة مثبتة وذيلًا موجبًا بعد جملة منفية. يميل المتحدثون العرب إلى حذف الأفعال المساعدة أو تغيير الترتيب، لذلك يجب الانتباه لاستخدام do/does/did أو صيغ to be أو modal في ذيل السؤال.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبت إلى المدرسة، أليس كذلك؟",
+      "arabicLiteral": "I went to school, isn't it?",
+      "englishCorrect": "I went to school, didn't I?"
+    },
+    {
+      "arabicStructure": "أنت تعمل صباحًا، أليس كذلك؟",
+      "arabicLiteral": "You work in the morning, isn't it?",
+      "englishCorrect": "You work in the morning, don't you?"
+    },
+    {
+      "arabicStructure": "هو يتحدث جيدًا، أليس كذلك؟",
+      "arabicLiteral": "He speaks well, isn't it?",
+      "englishCorrect": "He speaks well, doesn't he?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He went to school yesterday, doesn't he?",
+      "correct": "He went to school yesterday, didn't he?",
+      "explanationEn": "Past main clauses need 'did' in the tag, not 'does'.",
+      "explanationAr": "في جملة رئيسية بالماضي يجب أن يكون الفعل المساعد في ذيل السؤال بصيغة الماضي did، لذلك doesn't خطأ هنا لأنه يشير إلى المضارع."
+    },
+    {
+      "wrong": "You like coffee, isn't it?",
+      "correct": "You like coffee, don't you?",
+      "explanationEn": "Use 'do/does' tags with present simple verbs; 'isn't it' is for be-verbs.",
+      "explanationAr": "عند الحديث عن فعل في المضارع البسيط نستخدم do/does في الذيل. الخطأ هنا ترجمة حرفية لعبارة 'أليس كذلك؟' بينما الإنجليزية تحتاج فعل مساعد."
+    },
+    {
+      "wrong": "She can swim, don't she?",
+      "correct": "She can swim, can't she?",
+      "explanationEn": "Modal verbs keep their own auxiliary in the tag: can → can't.",
+      "explanationAr": "الأفعال النوعية (modal) مثل can تحتفظ بالمساعد الخاص بها في الذيل. استخدام do هنا خطأ لأن العربية لا تميز هذه الصيغة بنفس الطريقة."
+    },
+    {
+      "wrong": "They are at home, doesn't they?",
+      "correct": "They are at home, aren't they?",
+      "explanationEn": "Use the correct form of 'to be' in the tag and match the plural pronoun.",
+      "explanationAr": "في ذيل السؤال يجب أن نطابق فعل to be مع الضمير الجمع، لذلك aren't they هو الشكل الصحيح. الخطأ هنا استخدام doesn't."
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtb_q1",
+      "type": "multiple_choice",
+      "prompt": "She finished her homework yesterday, ___?",
+      "promptAr": "أكملت واجبها البارحة، أليس كذلك؟",
+      "explanation": "Use didn't she after a past positive sentence with she; did matches past tense.",
+      "arabicNote": "في جمل الماضي نستخدم did في ذيل السؤال. قد ينسى المتعلم العربي did لأن العربية لا تستخدم فعلًا مساعدًا منفصلاً للماضي، لذا نضع didn't ثم الضمير she.",
+      "weakTag": "question_tags_basic_past",
+      "options": [
+        "didn't she?",
+        "doesn't she?",
+        "didn't it?",
+        "didn't he?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "qtb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence for a present routine.",
+      "promptAr": "اختر الجملة الصحيحة للتعبير عن روتين حاضر.",
+      "explanation": "For present simple with you use don't you as the tag; match auxiliary and subject.",
+      "arabicNote": "في المضارع البسيط مع you نستخدم don't you في ذيل السؤال. احذر من نقل ترتيب عربي حرفي أو حذف do لأن العربية لا تظهر فعل المساعدة بهذا الشكل.",
+      "weakTag": "question_tags_basic_word_order",
+      "options": [
+        "You work on Saturdays, don't you?",
+        "You work on Saturdays, didn't you?",
+        "You works on Saturdays, don't you?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "qtb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "This is your bag, ___?",
+      "promptAr": "هذه حقيبتك، أليس كذلك؟",
+      "explanation": "With a noun + be (this is) use isn't it to match it and the auxiliary is.",
+      "arabicNote": "عند وجود this/that + be نضع isn't it كذيل لأن الفعل المساعد is هو الذي يجب أن يتكرر في الذيل. تجنب حذف الفعل المساعد كما يحدث أحيانًا عند الترجمة من العربية.",
+      "weakTag": "question_tags_basic_form",
+      "options": [
+        "isn't it?",
+        "aren't they?",
+        "don't you?",
+        "isn't she?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "qtb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Past positive sentences need a negative past tag: use didn't they to match the past verb went.",
+      "arabicNote": "الجملة الأساسية في الماضي تتطلب ذيلًا بصيغة الماضي. شائع عند المتحدثين العرب حذف did أو استخدام صيغة مضارع في الذيل؛ هنا الصحيح didn't they.",
+      "weakTag": "question_tags_basic_past",
+      "options": [
+        "They went home last night, didn't they?",
+        "They went home last night, don't they?",
+        "They went home last night, doesn't they?",
+        "They went home last night, didn't it?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They went home last night, don't they?"
+    },
+    {
+      "id": "qtb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a tag question.",
+      "promptAr": "رتّب الكلمات لتكوين سؤال ذيل صحيح.",
+      "explanation": "Order the sentence then add the correct tag didn't you for the past routine.",
+      "arabicNote": "الترتيب في الإنجليزية عادةً: الفاعل ثم الفعل ثم المفعول ثم ذيل السؤال. هنا الحدث في الماضي لذلك نستخدم didn't you كذيل.",
+      "weakTag": "question_tags_basic_sentence_order",
+      "words": [
+        "You",
+        "enjoyed",
+        "the",
+        "trip",
+        "didn't",
+        "you"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "qtb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each tag to its Arabic meaning.",
+      "promptAr": "صل كل ذيل سؤال بمعناه العربي.",
+      "explanation": "Match each English auxiliary+pronoun tag to its natural Arabic meaning, noting subject and tense.",
+      "arabicNote": "نهايات الأسئلة تجمع فعلًا مساعدًا مع ضمير. انتبه إلى الزمن والفاعل لأن الترجمة العربية قد تبدو أقصر أو مختلفة التركيب.",
+      "weakTag": "question_tags_basic_meaning",
+      "pairs": [
+        {
+          "left": "isn't it?",
+          "right": "أليس كذلك؟"
+        },
+        {
+          "left": "don't you?",
+          "right": "ألا تفعل؟"
+        },
+        {
+          "left": "didn't she?",
+          "right": "ألم تفعل؟"
+        },
+        {
+          "left": "aren't they?",
+          "right": "أليسوا كذلك؟"
+        }
+      ]
+    },
+    {
+      "id": "qtb_q7",
+      "type": "multiple_choice",
+      "prompt": "She doesn't eat meat for health reasons, ___?",
+      "promptAr": "هي لا تأكل لحمًا لأسباب صحية، أليس كذلك؟",
+      "explanation": "After a negative statement use a positive tag: does she matches she in present simple.",
+      "arabicNote": "بعد جملة منفية نستخدم ذيلًا موجبا. هنا الفعل في المضارع مع she لذلك نستخدم does she. احذر من استخدام isn't أو didn't لأنهما لا يطابقان الفاعل أو الزمن.",
+      "weakTag": "question_tags_basic_negation",
+      "options": [
+        "does she?",
+        "doesn't she?",
+        "isn't she?",
+        "didn't she?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "qtb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly asks about a habitual fact?",
+      "promptAr": "أي جملة تسأل بشكل صحيح عن عادة؟",
+      "explanation": "For present habit use don't they; tense and subject must match the main verb live.",
+      "arabicNote": "للسؤال عن عادة أو حقيقة حالية نستخدم do/does في الذيل ويجب مطابقة الضمير والزمن. تجنب ذيل الماضي أو ذيل to be هنا.",
+      "weakTag": "question_tags_basic_form",
+      "options": [
+        "They live near school, don't they?",
+        "They lived near school, don't they?",
+        "They live near school, didn't they?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "qtb_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "For present facts with he use doesn't he as the tag; don't use isn't he with non‑be verbs.",
+      "arabicNote": "مع أفعال غير 'to be' في المضارع نستخدم do/does في الذيل. شائع لدى المتحدثين العرب استخدام isn't خطأً بسبب الترجمة الحرفية، فالصحيح doesn't he هنا.",
+      "weakTag": "question_tags_basic_do_support",
+      "options": [
+        "He speaks English well, doesn't he?",
+        "He speaks English well, don't he?",
+        "He speaks English well, doesn't they?",
+        "He speaks English well, isn't he?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He speaks English well, isn't he?"
+    },
+    {
+      "id": "qtb_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "You saw the movie last night, ___?",
+      "promptAr": "شاهدت الفيلم الليلة الماضية، أليس كذلك؟",
+      "explanation": "Past action needs a past auxiliary in the tag: didn't you matches saw last night.",
+      "arabicNote": "في أمثلة الماضي نستخدم didn't في الذيل. كثير من المتعلمين العرب ينسون did أو يستخدمون ذيلًا للمضارع عن طريق الخطأ، فتذكر didn't you هنا.",
+      "weakTag": "question_tags_basic_past",
+      "options": [
+        "didn't you?",
+        "don't you?",
+        "didn't it?",
+        "aren't you?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

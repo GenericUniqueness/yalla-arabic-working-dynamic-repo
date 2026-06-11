@@ -1,0 +1,227 @@
+{
+  "id": "relative_clauses_who_which_that",
+  "category": "b1_core",
+  "titleEn": "Relative Clauses: Who, Which, That",
+  "titleAr": "جمل الوصل who و which و that",
+  "level": "B1",
+  "explanationEn": "Use who for people and which for things. Use that for people or things in defining (essential) relative clauses. Note: in formal written English, which is normally used in non-defining clauses (with commas); that is used in defining clauses and is not used in non-defining clauses.",
+  "explanationAr": "في العربية قد نربط الجمل بترتيب مختلف أو بدون ضمير واضح، مما يؤدي إلى حذف أدوات الربط أو تغيير موقعها عند الترجمة. في الإنجليزية نستخدم who للأشخاص، وwhich في الجمل الغير معرفة بين فواصل، وthat في جمل الوصل المعرفة الأساسية. انتبه لترتيب الكلمات والفواصل عند الترجمة من العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الرجل الذي يعيش هنا مدرس.",
+      "arabicLiteral": "The man who lives here teacher.",
+      "englishCorrect": "The man who lives here is a teacher."
+    },
+    {
+      "arabicStructure": "الكتاب، الذي اشتريته أمس، مفيد.",
+      "arabicLiteral": "The book, which I bought yesterday, useful.",
+      "englishCorrect": "The book, which I bought yesterday, is helpful."
+    },
+    {
+      "arabicStructure": "السيارة التي وجدتها جديدة.",
+      "arabicLiteral": "The car I found is new.",
+      "englishCorrect": "The car that I found is new."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The man lives here is a teacher.",
+      "correct": "The man who lives here is a teacher.",
+      "explanationEn": "Some learners omit the relative pronoun when translating from Arabic. English requires who/which/that to join clauses and keep clear word order.",
+      "explanationAr": "يحذف بعض المتعلمين ضمير الوصل عند الترجمة الحرفية من العربية. في الإنجليزية نحتاج who أو which أو that لربط الجمل والحفاظ على ترتيب الكلمات."
+    },
+    {
+      "wrong": "The book I bought it yesterday is helpful.",
+      "correct": "The book that I bought yesterday is helpful.",
+      "explanationEn": "Do not keep an extra object pronoun inside the relative clause; the relative clause already points back to the book.",
+      "explanationAr": "خطأ شائع هو إبقاء ضمير زائد داخل جملة الوصل. في الإنجليزية لا نقول bought it عندما تكون الجملة تصف the book؛ نستخدم that ثم الفعل مباشرة."
+    },
+    {
+      "wrong": "The teacher which teaches Arabic is new.",
+      "correct": "The teacher who teaches Arabic is new.",
+      "explanationEn": "Which is not standard for people in defining clauses. Use who to refer to a person in this context.",
+      "explanationAr": "استخدام which مع شخص في جملة وصل معرفة غير قياسي. نستخدم who للإشارة إلى الأشخاص في هذا السياق."
+    },
+    {
+      "wrong": "The phone which I need it is on the table.",
+      "correct": "The phone that I need is on the table.",
+      "explanationEn": "Arabic speakers sometimes repeat pronouns. English drops the extra pronoun inside the relative clause and uses that/which without adding 'it'.",
+      "explanationAr": "قد يكرر المتكلم العربي الضمير داخل الجملة. في الإنجليزية نحذف الضمير الزائد داخل جملة الوصل ونستخدم that أو which دون إضافة 'it'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "rcwwt_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct relative pronoun: The woman ___ teaches my son is kind.",
+      "promptAr": "اختر ضمير الوصل الصحيح: المرأة ___ تُدَرِّس ابني لطيفة.",
+      "explanation": "Who is used for a person in a defining relative clause to link two clauses.",
+      "arabicNote": "في العربية قد تُترك الجملة مكملة بدون ضمير وصل واضح. في الإنجليزية نستخدم who للأشخاص في جملة وصل معرفة لإظهار الفاعل داخل الجملة.",
+      "weakTag": "relative_clauses_who_which_that_form",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rcwwt_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use who for people in this defining clause; omitting the pronoun is incorrect.",
+      "arabicNote": "في العربية قد تُحذف أدوات الربط. هنا الحذف يجعل الجملة غير صحيحة. يجب وضع who لربط جملة الوصل المعرفة بالشخص.",
+      "weakTag": "relative_clauses_who_which_that_meaning",
+      "options": [
+        "The students which study in the library are quiet.",
+        "The students who study in the library are quiet.",
+        "The students study in the library are quiet."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "rcwwt_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Fill the blank: This laptop, ___ I bought last week, is new.",
+      "promptAr": "أكمل الفراغ: هذا اللابتوب، ___ اشتريته الأسبوع الماضي، جديد.",
+      "explanation": "Which is used in a non-defining clause with commas to add extra, non-essential information.",
+      "arabicNote": "إذا كانت المعلومات داخل الفواصل إضافية وليست ضرورية لتعريف الشيء، نستخدم which وليس that. العربية قد لا تستخدم الفواصل بهذه الطريقة، فانتبه.",
+      "weakTag": "relative_clauses_who_which_that_word_order",
+      "options": [
+        "which",
+        "that",
+        "who"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rcwwt_q4",
+      "type": "multiple_choice",
+      "prompt": "Which relative pronoun can refer to people or things in defining clauses?",
+      "promptAr": "أي ضمير وصل يمكن أن يشير إلى الأشخاص أو الأشياء في جملة وصل معرفة؟",
+      "explanation": "That can refer to people or things in defining clauses and is common in restrictive contexts.",
+      "arabicNote": "في العربية لا نفرق دائمًا بين مرجع الأشخاص والأشياء بنفس الوضوح. في الإنجليزية that يمكن أن يشير إلى كِلَا النوعين في جملة وصل معرفة.",
+      "weakTag": "relative_clauses_who_which_that_form",
+      "options": [
+        "that",
+        "who",
+        "which"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rcwwt_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأنسب للجملة الخاطئة.",
+      "explanation": "Replace which with who for a person; keep the subject phrase complete and natural.",
+      "arabicNote": "الخطأ هنا هو استخدام which مع شخص. في الإنجليزية نستخدم who للأشخاص داخل جملة وصل معرفة، واحذف أي ضمير زائد داخل جملة الوصل.",
+      "weakTag": "relative_clauses_who_which_that_form",
+      "options": [
+        "The teacher who teaches Arabic is new.",
+        "Teacher which teaches Arabic is new.",
+        "The teacher teaches Arabic is new."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The teacher which teaches Arabic is new."
+    },
+    {
+      "id": "rcwwt_q6",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة واحدة صحيحة.",
+      "explanation": "Arrange the words into: The book that I bought yesterday is helpful.",
+      "arabicNote": "في الإنجليزية جملة الوصل المعرفة هنا لا تُحاط بفواصل ونستخدم that لربط المعلومات الأساسية. في العربية قد يتغير الترتيب، فعليك الالتزام بالترتيب الإنجليزي.",
+      "weakTag": "relative_clauses_who_which_that_word_order",
+      "words": [
+        "The",
+        "book",
+        "that",
+        "I",
+        "bought",
+        "yesterday",
+        "is",
+        "helpful"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "rcwwt_q7",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة بمعناها العربي.",
+      "explanation": "Who for people, which for non-defining things with commas, and that for defining clauses.",
+      "arabicNote": "الفرق مهم لأن العربية قد لا تظهر أدوات الوصل أو الفواصل بنفس الوضوح. ركّز على نوع المرجع (شخص/شيء) وحالة الجملة (معرفة أم غير معرفة).",
+      "weakTag": "relative_clauses_who_which_that_meaning",
+      "pairs": [
+        {
+          "left": "The woman who called is my aunt.",
+          "right": "المرأة التي اتصلت هي عمتي."
+        },
+        {
+          "left": "This phone, which I need for work, is new.",
+          "right": "هذا الهاتف، الذي أحتاجه للعمل، جديد."
+        },
+        {
+          "left": "The students that study hard pass the exam.",
+          "right": "الطلاب الذين يدرسون بجد ينجحون في الامتحان."
+        }
+      ]
+    },
+    {
+      "id": "rcwwt_q8",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word: My sister, ___ lives in Riyadh, works at a school.",
+      "promptAr": "اختر الكلمة الصحيحة: أختي، ___ تعيش في الرياض، تعمل في مدرسة.",
+      "explanation": "Commas make this a non-defining clause; use who for a person in a non-defining clause.",
+      "arabicNote": "وجود الفواصل يجعل الجملة غير معرفة والمعلومة بداخلها إضافية. في الإنجليزية نستخدم who للأشخاص في الجمل غير المعرفة بين فواصل.",
+      "weakTag": "relative_clauses_who_which_that_arabic_transfer",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rcwwt_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Fill the blank: I returned the plate, ___ was in the sink, to the cupboard.",
+      "promptAr": "أكمل الفراغ: أعَدْتُ الصحن، ___ كان في الحوض، إلى الخزانة.",
+      "explanation": "Which fits this non-defining clause with commas referring to a thing.",
+      "arabicNote": "في العربية قد نضيف ملاحظة داخل الجملة بدون ضلالة. في الإنجليزية الجملة بين الفواصل هنا إضافية وتحتاج which لأن المقصود شيء وليس شخصًا.",
+      "weakTag": "relative_clauses_who_which_that_form",
+      "options": [
+        "which",
+        "that",
+        "who"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rcwwt_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use that (or which) with places in a defining clause; here the correct form is: 'The hotel that we stayed in last night was comfortable.' The preposition 'in' must stay with stayed.",
+      "arabicNote": "في العربية قد يختلف ترتيب الأماكن والأفعال. هنا الجملة تتحدث عن مكان أقمنا فيه، لذلك نستخدم that أو which مع ترتيب الفعل والظرف الصحيح ('stayed in').",
+      "weakTag": "relative_clauses_who_which_that_arabic_transfer",
+      "options": [
+        "The hotel which we stayed last night was comfortable.",
+        "The hotel that we stayed in last night was comfortable.",
+        "The hotel who we stayed in last night was comfortable."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

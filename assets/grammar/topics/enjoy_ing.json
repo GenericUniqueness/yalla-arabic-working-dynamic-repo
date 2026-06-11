@@ -1,0 +1,226 @@
+{
+  "id": "enjoy_ing",
+  "category": "a2_core",
+  "titleEn": "Enjoy + -ing",
+  "titleAr": "استخدام enjoy مع ing",
+  "level": "A2",
+  "explanationEn": "Use enjoy with a verb + -ing (a gerund) to say you like an activity. Do not use enjoy + to + base verb. This rule is for habits, likes, and experiences: I enjoy reading, not I enjoy to read. The -ing form is the fixed choice after enjoy.",
+  "explanationAr": "في الإنجليزية نستخدم enjoy متبوعة بالفعل بلاحقة -ing للإشارة إلى الاستمتاع بنشاط (مثل: I enjoy reading). لا نقول enjoy to + فعل. هذا يختلف عن العربية حيث قد نستخدم مصدر أو ترتيب مختلف. انتبه لأن الاختيار بين -ing و to لا يتطابق مع البناء العربي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أستمتع بالقراءة كل مساء.",
+      "arabicLiteral": "I enjoy with-reading every evening",
+      "englishCorrect": "I enjoy reading every evening."
+    },
+    {
+      "arabicStructure": "هو يحب السفر.",
+      "arabicLiteral": "He likes travel",
+      "englishCorrect": "He enjoys travelling."
+    },
+    {
+      "arabicStructure": "نحن نستمتع بتحضير الطعام للعائلة.",
+      "arabicLiteral": "We enjoy preparing food for the family",
+      "englishCorrect": "We enjoy preparing food for the family."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My brother enjoys to swim in the pool on weekends.",
+      "correct": "My brother enjoys swimming in the pool on weekends.",
+      "explanationEn": "After enjoy we must use the -ing form; 'enjoys to swim' is incorrect. The activity form is 'swimming'.",
+      "explanationAr": "خطأ شائع أن يضع المتعلمون 'to' بعد enjoy بسبب الترجمة الحرفية من العربية. في الإنجليزية نستخدم شكل -ing بعد enjoy."
+    },
+    {
+      "wrong": "I enjoy to cook dinner for my family every Friday.",
+      "correct": "I enjoy cooking dinner for my family every Friday.",
+      "explanationEn": "Use cooking (gerund) after enjoy to show a regular activity. 'Enjoy to cook' is not correct English.",
+      "explanationAr": "التعبير الصحيح هو استخدام الفعل -ing بعد enjoy للتعبير عن عادة. لا نقول 'enjoy to cook'."
+    },
+    {
+      "wrong": "She enjoys to study English at night.",
+      "correct": "She enjoys studying English at night.",
+      "explanationEn": "Studying is the correct form after enjoys. The infinitive with to is not used here.",
+      "explanationAr": "المصدر بالعربية قد يقود الطالب لوضع 'to' خطأ. اللاحقة -ing هي الشكل المطلوب بعد enjoy."
+    },
+    {
+      "wrong": "They enjoy to visit new cities when they travel.",
+      "correct": "They enjoy visiting new cities when they travel.",
+      "explanationEn": "Visiting (gerund) is needed after enjoy to name the activity they like. 'Enjoy to visit' is wrong.",
+      "explanationAr": "الفرق مع العربية أن استخدام مصدر الفعل وحده أو مع 'to' لا يعادل دائمًا بنية enjoy + -ing في الإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "enjo_q1",
+      "type": "multiple_choice",
+      "prompt": "Ahmed talks about his weekday hobby. Choose the correct sentence.",
+      "promptAr": "يتحدث أحمد عن هوايته الأسبوعية. اختر الجملة الصحيحة.",
+      "explanation": "After enjoys we use the -ing form to name the activity: enjoys playing. 'Enjoys to play' is not correct.",
+      "arabicNote": "بعد enjoy نستخدم فعلًا بلاحقة -ing. المتحدثون العرب قد يترجمون حرفيًا ويضيفون to، وهذا خطأ.",
+      "weakTag": "enjoy_ing_form",
+      "options": [
+        "Ahmed enjoys to play football after school.",
+        "Ahmed enjoys playing football after school.",
+        "Ahmed enjoying playing football after school."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct when talking about a regular habit?",
+      "promptAr": "أي جملة صحيحة عند الحديث عن عادة منتظمة؟",
+      "explanation": "For habits after enjoy use the gerund: enjoy cooking. 'Enjoy to cook' is incorrect and 'am enjoy' is ungrammatical.",
+      "arabicNote": "في العربية قد يقول المتعلمون مصدر الفعل دون تغيير الشكل. في الإنجليزية نحتاج -ing بعد enjoy.",
+      "weakTag": "enjo_habit_choice",
+      "options": [
+        "I enjoy to cook dinner every night.",
+        "I enjoy cooking dinner every night.",
+        "I am enjoy cooking dinner every night."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ (listen) to music while I study.",
+      "promptAr": "أكمل الفراغ: أنا ___ الموسيقى أثناء المذاكرة.",
+      "explanation": "Use 'enjoy listening' because enjoy is followed by the -ing form to show the activity you like doing.",
+      "arabicNote": "نختار 'enjoy listening' لأننا نستخدم -ing بعد enjoy لوصف نشاط، لا نضع to.",
+      "weakTag": "enjoy_ing_listen",
+      "options": [
+        "enjoy to listen",
+        "enjoy listening",
+        "enjoy listens",
+        "enjoyed listening"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "Replace 'enjoys to bake' with 'enjoys baking' because enjoy takes a gerund to name the activity.",
+      "arabicNote": "الجملة الخاطئة جاءت من ترجمة حرفية. الصحيح هو 'enjoys baking' لأننا نستخدم -ing بعد enjoy.",
+      "weakTag": "enjoy_ing_fix",
+      "options": [
+        "My sister enjoys baking cakes for the family.",
+        "My sister enjoys to baking cakes for the family.",
+        "My sister is enjoying to bake cakes for the family."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "My sister enjoys to bake cakes for the family."
+    },
+    {
+      "id": "enjo_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة طبيعية وواضحة.",
+      "explanation": "Correct order: She enjoys reading books in summer. Notice 'enjoys' is followed by the -ing verb 'reading'.",
+      "arabicNote": "الترتيب في الإنجليزية: الفاعل ثم الفعل ثم النشاط (-ing). في العربية الترجمة قد تبدو مختلفة لكن الصيغة الإنجليزية ثابتة.",
+      "weakTag": "enjoy_ing_order",
+      "words": [
+        "in",
+        "She",
+        "summer.",
+        "enjoys",
+        "reading",
+        "books"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        4,
+        5,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "enjo_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to its Arabic meaning.",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي.",
+      "explanation": "After enjoy, the English phrases use gerunds (-ing) to name activities. The Arabic meanings show the same idea but grammar differs.",
+      "arabicNote": "في العربية نترجم المعنى، لكن في الإنجليزية نستخدم شكل -ing بعد enjoy بدلاً من مصدر أو تركيب آخر.",
+      "weakTag": "enjoy_ing_meaning",
+      "pairs": [
+        {
+          "left": "enjoy cooking",
+          "right": "يستمتع بالطبخ"
+        },
+        {
+          "left": "enjoy reading",
+          "right": "يستمتع بالقراءة"
+        },
+        {
+          "left": "enjoy visiting new places",
+          "right": "يستمتع بزيارة أماكن جديدة"
+        }
+      ]
+    },
+    {
+      "id": "enjo_q7",
+      "type": "multiple_choice",
+      "prompt": "Sami talks about his study routine. Choose the correct sentence.",
+      "promptAr": "سامي يتحدث عن روتين دراسته. اختر الجملة الصحيحة.",
+      "explanation": "We use 'enjoys studying' to describe Sami's regular activity. 'Enjoys to study' is incorrect after enjoy.",
+      "arabicNote": "لاحظ أن الفاعل مفرد (Sami) لذلك أيضاً نستخدم enjoys. لكن القاعدة الأساسية: enjoy + -ing.",
+      "weakTag": "enjo_study_choice",
+      "options": [
+        "Sami enjoys to study with a friend after class.",
+        "Sami enjoys studying with a friend after class.",
+        "Sami enjoy studying with a friend after class."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says someone likes the experience of travel?",
+      "promptAr": "أي جملة تعبر بشكل صحيح عن استمتاع شخص بتجربة السفر؟",
+      "explanation": "Use 'enjoy travelling' to show they like the experience. 'Enjoy to travel' is not correct here.",
+      "arabicNote": "قد يترجم الطالب من العربية إلى 'to travel' بالخطأ. في الإنجليزية بعد enjoy نستخدم -ing لاسم النشاط.",
+      "weakTag": "enjoy_ing_travel",
+      "options": [
+        "They enjoy to travel to new cities during holidays.",
+        "They enjoy travelling to new cities during holidays.",
+        "They enjoy to travelling to new cities during holidays."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "They enjoy ___ new cities during vacations.",
+      "promptAr": "أكمل الفراغ: هم ___ مدنًا جديدة خلال الإجازات.",
+      "explanation": "After enjoy we name the activity with the -ing form: enjoy visiting. 'To visit' or base form are incorrect here.",
+      "arabicNote": "الجملة العربية قد تستخدم مصدرًا. الترجمة الصحيحة بالإنجليزية تستخدم visiting بعد enjoy.",
+      "weakTag": "enjo_visit_fill",
+      "options": [
+        "visit",
+        "visiting",
+        "to visit",
+        "visited"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "enjo_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence below.",
+      "promptAr": "اختر أفضل تصحيح للجملة أدناه.",
+      "explanation": "Change 'enjoy to eat' to 'enjoy eating' because enjoy requires the -ing form to name the activity.",
+      "arabicNote": "الجملة الخاطئة ناتجة عن ترجمة حرفية. الصحيح هو 'enjoy eating' لإظهار النشاط الذي تستمتع به.",
+      "weakTag": "enjoy_ing_fix2",
+      "options": [
+        "I enjoy eating traditional food when I travel.",
+        "I enjoy to eating traditional food when I travel.",
+        "I am enjoy eating traditional food when I travel."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I enjoy to eat traditional food when I travel."
+    }
+  ]
+}

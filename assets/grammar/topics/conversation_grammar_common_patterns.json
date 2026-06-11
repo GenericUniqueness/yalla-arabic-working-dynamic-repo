@@ -1,0 +1,231 @@
+{
+  "id": "conversation_grammar_common_patterns",
+  "category": "b1_core",
+  "titleEn": "Conversation Grammar Patterns",
+  "titleAr": "أنماط قواعد المحادثة",
+  "level": "B1",
+  "explanationEn": "This topic teaches common spoken grammar chunks for everyday offers and preferences: Would you like, Do you mind, I'd rather, Let's. Focus on correct helper verbs, word order, and gerund/base verb choices in school, work, home, or travel contexts to avoid direct Arabic transfer errors.",
+  "explanationAr": "تعلّم هذه الوحدة عبارات المحادثة الشائعة مثل Would you like و Do you mind و I’d rather و Let's. نوضح ترتيب الكلمات والأدوات اللازمة (مثل الفعل الأساسي أو -ing) ونقارن أخطاء المتحدثين العرب، لأن العربية تسمح بصياغات يختلف ترتيبها ووظائف كلماتها عن الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هل تحب الشاي؟",
+      "arabicLiteral": "Do you like tea?",
+      "englishCorrect": "Would you like some tea?"
+    },
+    {
+      "arabicStructure": "هل تمانع أن أفتح النافذة؟",
+      "arabicLiteral": "Do you mind that I open the window?",
+      "englishCorrect": "Do you mind if I open the window?"
+    },
+    {
+      "arabicStructure": "أفضل أن أبقى في المنزل الليلة.",
+      "arabicLiteral": "I prefer to stay at home tonight.",
+      "englishCorrect": "I'd rather stay home tonight."
+    },
+    {
+      "arabicStructure": "هيا نذهب إلى المكتبة.",
+      "arabicLiteral": "Let us go to the library.",
+      "englishCorrect": "Let's go to the library."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You like some tea?",
+      "correct": "Would you like some tea?",
+      "explanationEn": "Arabic allows dropping question helpers; English needs 'Would you' for polite offers.",
+      "explanationAr": "في العربية يسهل حذف أداة السؤال. في الإنجليزية عند العرض اللبق نستخدم 'Would you like' وليس مجرد ترتيب كلمات."
+    },
+    {
+      "wrong": "Do you mind to help me with homework?",
+      "correct": "Do you mind helping me with my homework?",
+      "explanationEn": "After 'Do you mind' use gerund (-ing), not 'to' + verb.",
+      "explanationAr": "خطأ شائع أن يترجم المتحدثون العرب حرفياً. بعد 'Do you mind' نستخدم مصدر بِـ -ing وليس 'to'."
+    },
+    {
+      "wrong": "I rather to go now.",
+      "correct": "I'd rather go now.",
+      "explanationEn": "English uses 'I'd rather' + base verb. Arabic speakers often insert 'to' or change word order.",
+      "explanationAr": "في العربية قد يقول المتعلمون 'أفضل أن' مع 'أن'. في الإنجليزية نستخدم \"I'd rather\" مع الفعل الأساسي بدون 'to'."
+    },
+    {
+      "wrong": "Let us to meet at five.",
+      "correct": "Let's meet at five.",
+      "explanationEn": "Use contraction 'Let's' + base verb. Do not add 'to' after 'let's'.",
+      "explanationAr": "نقطة تحويلية: العربية قد تضيف 'أن' قبل الفعل. في الإنجليزية مع 'Let's' يأتي الفعل مباشرة بدون 'to' أو 'أن'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cgcp_q1",
+      "type": "multiple_choice",
+      "prompt": "You are offering tea to a classmate after class. Which sentence is the polite offer?",
+      "promptAr": "أنت تعرض الشاي على زميل بعد الحصة. أي جملة هي العرض اللبق؟",
+      "explanation": "Use 'Would you like' for polite offers in social contexts.",
+      "arabicNote": "عند العرض اللبق نستخدم 'Would you like'. المتحدثون العرب قد يحذفون أدوات السؤال أو يترجمون حرفياً، فتصبح الجملة غير طبيعية.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "Would you like some tea?",
+        "Do you like some tea?",
+        "You like tea?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cgcp_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly asks permission politely at work?",
+      "promptAr": "أي جملة تسأل عن الإذن بأدب في العمل؟",
+      "explanation": "Use 'Do you mind' + gerund for polite permission requests.",
+      "arabicNote": "بعد 'Do you mind' نستخدم مصدر بـ -ing. المتعلمين العرب قد يضعون 'to' أو يغيرون الترتيب، وهذا غير صحيح.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "Mind you opening the window?",
+        "Do you mind opening the window?",
+        "Do you mind to open the window?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cgcp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "You're choosing between staying out or going home. Complete: \"I'd rather ___ home tonight.\"",
+      "promptAr": "أنت تختار بين البقاء أو الذهاب للمنزل. أكمل: \"I'd rather ___ home tonight.\"",
+      "explanation": "'I'd rather' is followed by the base verb without 'to' in preferences.",
+      "arabicNote": "في العربية نقول 'أفضل أن أبقى' مع 'أن'. في الإنجليزية بعد 'I'd rather' نضع الفعل الأساسي بدون 'to' أو 'أن'.",
+      "weakTag": "conversation_grammar_common_patterns_word_order",
+      "options": [
+        "stay home",
+        "to stay home",
+        "staying home"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cgcp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a common learner mistake.",
+      "promptAr": "اختر التصحيح الأفضل لخطأ شائع من المتعلمين.",
+      "explanation": "After 'Do you mind' use gerund (-ing); this keeps the polite meaning.",
+      "arabicNote": "الخطأ ناتج عن الترجمة الحرفية من 'أن' أو 'to'. الصحيح: بعد 'Do you mind' نستخدم فعلًا بنهاية -ing.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "Do you mind helping me with my homework?",
+        "Do you mind help me with my homework?",
+        "Are you mind helping me with my homework?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Do you mind to help me with my homework?"
+    },
+    {
+      "id": "cgcp_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural suggestion for meeting.",
+      "promptAr": "رتّب الكلمات لتكوين اقتراح طبيعي للاجتماع.",
+      "explanation": "The natural suggestion order is: Let's + base verb + time/place.",
+      "arabicNote": "في العربية قد نغير ترتيب الجملة. في الإنجليزية مع 'Let's' نضع الفعل مباشرة ثم ظرف الوقت أو المكان.",
+      "weakTag": "conversation_grammar_common_patterns_word_order",
+      "words": [
+        "Let's",
+        "meet",
+        "at",
+        "five",
+        "pm."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cgcp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each expression to its Arabic meaning.",
+      "promptAr": "وصل كل تعبير بمعناه العربي.",
+      "explanation": "These common chunks show offers, permission, preference, and suggestions.",
+      "arabicNote": "هذه العبارات تُستخدم في المحادثة اليومية. انتبه لترجمة المعنى وليس لترتيب الكلمات الحرفي من العربية.",
+      "weakTag": "conversation_grammar_common_patterns_meaning",
+      "pairs": [
+        {
+          "left": "Would you like",
+          "right": "هل تود/هل تودّين؟"
+        },
+        {
+          "left": "Do you mind",
+          "right": "هل تمانع؟"
+        },
+        {
+          "left": "I'd rather",
+          "right": "أفضل أن / أُفضّل"
+        },
+        {
+          "left": "Let's",
+          "right": "هيا / دعونا"
+        }
+      ]
+    },
+    {
+      "id": "cgcp_q7",
+      "type": "multiple_choice",
+      "prompt": "You want to offer to bring a classmate's notebook now. Which is the polite sentence?",
+      "promptAr": "تريد أن تعرض إحضار دفتر زميلك الآن. أي جملة لبقة؟",
+      "explanation": "'Would you like me to...' is the standard polite offer form in English.",
+      "arabicNote": "المتحدثون العرب قد يترجمون حرفياً. استخدم 'Would you like me to' لعرض مساعدة بشكل مهذب وواضح.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "Would you like me to bring your notebook?",
+        "Do you like me to bring your notebook?",
+        "I bring your notebook?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cgcp_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "You're in a quiet study room. Ask politely: \"Do you mind if I ___ the music?\"",
+      "promptAr": "أنت في غرفة دراسة هادئة. اسأل بأدب: \"Do you mind if I ___ the music?\"",
+      "explanation": "After 'Do you mind if I' use the base verb for the suggestion or action.",
+      "arabicNote": "في العربية قد يقترن الفعل بحرف مثل 'أن'. هنا نستخدم الفعل الأساسي بعد 'Do you mind if I'.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "turn off",
+        "to turn off",
+        "turned off"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cgcp_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "You prefer studying now rather than later. Which sentence correctly expresses this preference?",
+      "promptAr": "تفضل الدراسة الآن بدلاً من لاحقًا. أي جملة تعبر عن هذا التفضيل؟",
+      "explanation": "'I'd rather' is followed by the base verb, not 'to' or missing contraction.",
+      "arabicNote": "الخطأ شائع لأن العربية تستخدم 'أفضل أن'. في الإنجليزية نقول \"I'd rather\" ثم الفعل دون 'to'.",
+      "weakTag": "conversation_grammar_common_patterns_form",
+      "options": [
+        "I'd rather study now than later.",
+        "I'd rather to study now than later.",
+        "I rather study now than later."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cgcp_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Find the best correction that keeps the same meaning.",
+      "promptAr": "اختر أفضل تصحيح يحافظ على نفس المعنى.",
+      "explanation": "Convert to 'I'd rather' + base verb to express preference correctly.",
+      "arabicNote": "المتحدثون العرب يضيفون 'أن' أو 'to'. هنا نحتاج 'I'd rather' متبوعة بالفعل الأساسي دون 'to'.",
+      "weakTag": "conversation_grammar_common_patterns_arabic_transfer",
+      "options": [
+        "I'd rather go now.",
+        "I rather go now.",
+        "I prefer to going now."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I rather to go now."
+    }
+  ]
+}

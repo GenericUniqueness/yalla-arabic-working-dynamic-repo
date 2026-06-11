@@ -1,0 +1,233 @@
+{
+  "id": "reported_speech_basic",
+  "category": "b1_core",
+  "titleEn": "Reported Speech Basics",
+  "titleAr": "أساسيات الكلام المنقول",
+  "level": "B1",
+  "explanationEn": "Reported speech shows what someone said earlier. With said/told we backshift present simple to past simple, will to would, and change pronouns and time words. Always state the reporting time so tense and word changes are required and unambiguous.",
+  "explanationAr": "عند نقل كلام قيل في وقت سابق نغير الأزمنة والضمائر وكلمات الزمن. عادةً نرجع المضارع إلى الماضي وwill إلى would ونحوّل كلمات مثل \"الآن/غدًا/البارحة\". المتحدثون العرب قد لا يغيرون الترتيب أو الأفعال المساعدة كما في الإنجليزية، لذا اجعل وقت الإبلاغ واضحًا دائماً حتى تكون تغييرات الزمن والضمير مطلوبة وواضحة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "«أدرس الإنجليزية كل يوم» قالت سارة أمس.",
+      "arabicLiteral": "I study English every day, Sarah said yesterday.",
+      "englishCorrect": "Sarah said (that) she studied English every day."
+    },
+    {
+      "arabicStructure": "«سآتي الأسبوع المقبل» قال لي عمر الأسبوع الماضي.",
+      "arabicLiteral": "I will come next week, Omar told me last week.",
+      "englishCorrect": "Omar told me he would come the following week."
+    },
+    {
+      "arabicStructure": "«أنهيت الواجب هذا الصباح» قالت لي اليوم.",
+      "arabicLiteral": "I have finished the homework this morning, she told me today.",
+      "englishCorrect": "She said she had finished her homework that morning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She said she is hungry when I visited her yesterday.",
+      "correct": "She said she was hungry when I visited her yesterday.",
+      "explanationEn": "Keep past tense after said when reporting later about a past visit.",
+      "explanationAr": "الخطأ يبقي المضارع كما في العربية. عند نقل كلام عن زيارة ماضية بعد وقوعها نستخدم الماضي بدل الحاضر لنوضح توقيت الكلام."
+    },
+    {
+      "wrong": "He told me he will come last week.",
+      "correct": "He told me he would come last week.",
+      "explanationEn": "After told (past) a reported future normally backshifts from will to would.",
+      "explanationAr": "المتحدثون العرب قد يترجمون will كما هي. لكن بعد told بالماضي نغيّر will إلى would لأن الكلام يُنقل بالنسبة لوقت ماضٍ."
+    },
+    {
+      "wrong": "They said we finish the homework this morning.",
+      "correct": "They said they had finished the homework that morning.",
+      "explanationEn": "Do not copy Arabic word order or tense; use past perfect for an earlier completed action.",
+      "explanationAr": "الخطأ ينسخ ترتيب الضمائر والزمن بالعربية. في الإنجليزية نستخدم past perfect لإظهار أن الفعل اكتمل قبل وقت الإبلاغ."
+    },
+    {
+      "wrong": "Tom said I lost my keys yesterday.",
+      "correct": "Tom said he had lost his keys the day before.",
+      "explanationEn": "Change first person to third and backshift to past perfect for an earlier event.",
+      "explanationAr": "الخطأ يترك الضمير 'I' كما في الكلام المباشر. عند النقل نغيّر الضمير إلى he ونرجع الزمن لتوضيح ترتيب الأحداث."
+    }
+  ],
+  "questions": [
+    {
+      "id": "rsb_q1",
+      "type": "multiple_choice",
+      "prompt": "Direct: \"I live in Riyadh,\" she said yesterday. Report it now (after the event). Use backshift even if the situation may still be true. She said that ___.",
+      "promptAr": "نقل الآن بعد وقوع الحدث واستخدم الرجوع في الزمن حتى لو بقي الكلام صحيحًا الآن: «أعيش في الرياض»، قالت بالأمس. أكمل الجملة المنقولة.",
+      "explanation": "Present simple backshifts to past simple after said when reporting later; choose 'lived'.",
+      "arabicNote": "الكلام قيل بالأمس والإبلاغ الآن يطلب الرجوع في الزمن: غيّر المضارع إلى الماضي (مثال: plays → played). احذر من ترك الزمن كما في العربية.",
+      "weakTag": "reported_speech_basic_tense_shift",
+      "options": [
+        "she lived in Riyadh.",
+        "she live in Riyadh.",
+        "she will live in Riyadh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Direct: \"We finished the homework,\" they said this morning. Report it later (reporting after the morning). Which sentence correctly uses past perfect and time change?",
+      "promptAr": "قيل هذا الصباح، وننقله لاحقًا بعد الصباح. أي جملة منقولة صحيحة تستخدم past perfect وتحوّل 'this morning' إلى 'that morning'؟",
+      "explanation": "Reporting later needs past perfect and 'this morning' becomes 'that morning' for clarity.",
+      "arabicNote": "لأن الإبلاغ لاحقًا بعد الصباح، نستخدم past perfect ونحوّل 'this morning' إلى 'that morning'. العرب قد لا يقومون بهذا التغيير، فانتبه للزمن والضمير.",
+      "weakTag": "reported_speech_basic_past_perfect",
+      "options": [
+        "They said they had finished the homework that morning.",
+        "They said they have finished the homework that morning.",
+        "They said we had finished the homework that morning."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "He told me last week, \"I will come next week.\" Report it now (after both weeks). Backshift will → would. He told me that ___.",
+      "promptAr": "قيل الأسبوع الماضي عن حدث في الأسبوع التالي، ونبلغه الآن بعد مروّ الأسابيع. رجّع will إلى would. أكمل الجملة.",
+      "explanation": "Will backshifts to would after told in past when reporting later about a future event.",
+      "arabicNote": "الكلام قيل الأسبوع الماضي عن الأسبوع التالي، والإبلاغ يحدث الآن؛ لذلك نغيّر will إلى would. المتحدثون العرب قد يبقون will، ولكن هنا يجب would.",
+      "weakTag": "reported_speech_basic_will_would",
+      "options": [
+        "he would come",
+        "he comes next week",
+        "he had come next week"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Yesterday at lunch she said, \"I am hungry now.\" Report it later. Choose the best correction (is → was; now → then).",
+      "promptAr": "قيل أثناء الغداء البارحة وننقله لاحقًا. اختر التصحيح الأفضل مع الرجوع في الزمن: غير is إلى was و now إلى then.",
+      "explanation": "Change is to was and now to then when reporting later about a past moment.",
+      "arabicNote": "الكلام قيل بالأمس أثناء الغداء وننقله لاحقًا، لذلك نغيّر is إلى was و now إلى then. انتبه لأن العربية قد تبقي كلمات الزمن كما هي.",
+      "weakTag": "reported_speech_basic_now_then",
+      "options": [
+        "She said she was hungry then.",
+        "She said she is hungry now.",
+        "She said she will be hungry then."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She said she is hungry now."
+    },
+    {
+      "id": "rsb_q5",
+      "type": "sentence_order",
+      "prompt": "Direct: John said yesterday, \"I saw my teacher.\" Report it later using past perfect and change 'yesterday' → 'the day before'. Put the words in the correct order.",
+      "promptAr": "قال جون البارحة «رأيت معلمي». انقله لاحقًا مع past perfect وحوّل 'yesterday' إلى 'the day before'. رَتّب الكلمات لتكوين الجملة الصحيحة.",
+      "explanation": "Correct order: \"John said he had seen his teacher the day before.\" Use past perfect and the time phrase the day before.",
+      "arabicNote": "الإبلاغ بعد وقوع الحدث يتطلب past perfect و'البارحة' تتحول إلى 'the day before'. العرب قد يبقون الماضي عاديًا، فراجع ترتيب الكلمات والزمن.",
+      "weakTag": "reported_speech_basic_word_order",
+      "words": [
+        "John",
+        "said",
+        "he",
+        "had",
+        "seen",
+        "his",
+        "teacher",
+        "the",
+        "day",
+        "before"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "rsb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each reported sentence (already backshifted) with its Arabic past-in-past meaning. The English shows tense and pronoun changes.",
+      "promptAr": "وصل كل جملة منقولة (بعد الرجوع في الزمن) بمعناها العربي بصيغة الماضي في الماضي لتوضيح تحويل الأزمنة والضمائر.",
+      "explanation": "Match reported English forms to Arabic meanings showing tense shifts and pronoun changes.",
+      "arabicNote": "الجمل الإنجليزية عُدِّلت زمنًا وضميرًا. اختر الترجمة العربية التي تعكس الماضي بالنسبة لوقت سابق كما في reported speech.",
+      "weakTag": "reported_speech_basic_meaning",
+      "pairs": [
+        {
+          "left": "Anna said she had seen the movie the day before.",
+          "right": "قالت آنا إنها كانت قد شاهدت الفيلم في اليوم السابق."
+        },
+        {
+          "left": "Mark told me he would arrive at six.",
+          "right": "قال لي مارك إنه كان سيصل عند الساعة السادسة."
+        },
+        {
+          "left": "They said they had lived in Cairo when they were students.",
+          "right": "قالوا إنهم كانوا قد عاشوا في القاهرة عندما كانوا طلابًا."
+        }
+      ]
+    },
+    {
+      "id": "rsb_q7",
+      "type": "multiple_choice",
+      "prompt": "Direct: \"I play football every day,\" Ahmed said last year. Report it now (after the year). Use backshift explicitly. Ahmed said he ___.",
+      "promptAr": "قال أحمد العام الماضي «ألعب كرة القدم كل يوم». انقله الآن بعد مرور العام واستخدم الرجوع في الزمن صراحة. أي خيار يصح؟",
+      "explanation": "Present simple for past habits backshifts to past simple (played) when reporting later.",
+      "arabicNote": "الكلام قيل العام الماضي والإبلاغ الآن يتطلب played بدل plays. احذر من إبقاء المضارع أو استخدام أشكال غير صحيحة نحويًا.",
+      "weakTag": "reported_speech_basic_present_to_past",
+      "options": [
+        "he played football every day.",
+        "he is play football every day.",
+        "he will play football every day."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "She said today, \"I will call tomorrow.\" Report it later before the called day. Backshift will → would and 'tomorrow' → 'the next day'. Which reported sentence is correct?",
+      "promptAr": "قالت اليوم «سأتصل غدًا». انقله لاحقًا قبل يوم الاتصال وغيّر will إلى would و'tomorrow' إلى 'the next day'. أي جملة صحيحة؟",
+      "explanation": "When reporting later but before the event, will normally backshift to would and 'tomorrow' becomes 'the next day'.",
+      "arabicNote": "الإبلاغ يحدث بعد قولها ولكن قبل اليوم المقصود؛ لذلك نغيّر will إلى would و'tomorrow' إلى 'the next day'. المتحدثون العرب قد لا يحتاجون هذا التغيير بالعربية، فانتبه.",
+      "weakTag": "reported_speech_basic_will_to_would",
+      "options": [
+        "She said she would call the next day.",
+        "She said she calls the next day.",
+        "She said she called the next day."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Direct: Tom said, \"I lost my keys yesterday.\" Report it now using backshift and change pronoun (I → he) and time (yesterday → the day before). Tom said ___ had lost his keys.",
+      "promptAr": "قال توم «فقدت مفاتيحي البارحة». انقله الآن مع تغيير الضمير والزمن: I→he و yesterday→the day before. أكمل الفراغ.",
+      "explanation": "Change first-person I to third-person he and backshift tense when reporting Tom's words.",
+      "arabicNote": "الخطأ الشائع هو ترك 'I' كما هي أو عدم تغيير كلمة الزمن. عند نقل كلام توم غيّر الضمير إلى he وارجع الزمن كما يلزم.",
+      "weakTag": "reported_speech_basic_pronoun_change",
+      "options": [
+        "he",
+        "I",
+        "they",
+        "we"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rsb_q10",
+      "type": "fix_the_mistake",
+      "prompt": "This morning she said, \"I have finished my homework.\" Report it later (after the morning). Backshift present perfect → past perfect and this morning → that morning. Choose the best correction.",
+      "promptAr": "قالت هذا الصباح «أنهيت واجبي». انقله لاحقًا بعد الصباح: غيّر present perfect إلى past perfect و this morning إلى that morning. اختر التصحيح الأفضل.",
+      "explanation": "Present perfect backshifts to past perfect and 'this morning' becomes 'that morning' when reporting later.",
+      "arabicNote": "لأن الإبلاغ يحدث بعد الصباح، نغيّر have finished إلى had finished وthis morning إلى that morning. انتبه لأن العربية قد تبقي زمن المضارع التام كما هو.",
+      "weakTag": "reported_speech_basic_perfect_backshift",
+      "options": [
+        "She said she had finished her homework that morning.",
+        "She said she has finished her homework this morning.",
+        "She said she will have finished her homework this morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She said she has finished her homework this morning."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "comparatives_basic",
+  "category": "a2_core",
+  "titleEn": "Basic Comparatives",
+  "titleAr": "المقارنة الأساسية",
+  "level": "A2",
+  "explanationEn": "Comparatives let us show differences between two things. Use short adjectives with -er + than (taller than) and long adjectives with more + adjective + than (more expensive than). Always include than after the comparative and keep the English word order: subject + verb + comparative + than + other item.",
+  "explanationAr": "تشرح المقارنات الفرق بين شيئين. نضيف -er للصفات القصيرة ونستخدم more قبل الصفات الطويلة ثم نضع كلمة than بعد الصفة. احرص على ترتيب الكلمات في الإنجليزية: الفاعل ثم الفعل ثم الصفة المقارنة ثم than ثم الشيء الثاني. ينتج عن النقل الحرفي من العربية حذف فعل الربط أو تغيير الترتيب.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "علي أطول من عمر.",
+      "arabicLiteral": "Ali taller than Omar.",
+      "englishCorrect": "Ali is taller than Omar."
+    },
+    {
+      "arabicStructure": "هذه الحقيبة أكثر غلاءًا من تلك.",
+      "arabicLiteral": "This bag more expensive than that one.",
+      "englishCorrect": "This bag is more expensive than that one."
+    },
+    {
+      "arabicStructure": "سيارتي أكبر من بيتك.",
+      "arabicLiteral": "My car bigger than your house.",
+      "englishCorrect": "My car is bigger than your house."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ali taller than Omar.",
+      "correct": "Ali is taller than Omar.",
+      "explanationEn": "Some Arabic speakers drop the linking verb because Arabic allows nominal sentences without a verb. In English we must include a form of be (is/are) before the adjective in a comparative sentence that describes a state between two items.",
+      "explanationAr": "يحذف بعض المتعلمين فعل الربط لأن العربية تسمح بالجملة الاسمية دون فعل ظاهر. في الإنجليزية يجب وضع فعل الربط (مثل 'is') قبل الصفة عند المقارنة بين شيئين."
+    },
+    {
+      "wrong": "This bag expensive than that one.",
+      "correct": "This bag is more expensive than that one.",
+      "explanationEn": "Learners sometimes forget to use 'more' with long adjectives and to include the linking verb. Long adjectives need 'more' + adjective, and the sentence usually needs a verb like 'is' to be grammatical.",
+      "explanationAr": "ينسى بعض المتعلمين استخدام 'more' مع الصفات الطويلة أو حذف فعل الربط. في هذه الحالات نستخدم 'more' قبل الصفة الطويلة ونضيف فعل ربط (مثل 'is') لتصحيح الجملة."
+    },
+    {
+      "wrong": "More tall than my brother is Ahmed.",
+      "correct": "Ahmed is taller than my brother.",
+      "explanationEn": "This is a direct transfer of Arabic word order into English. English requires subject + verb + comparative adjective + than + other item. Moving 'more' to the front or changing order makes the sentence ungrammatical.",
+      "explanationAr": "هذا مثال لنقل الترتيب العربي حرفياً إلى الإنجليزية. الترتيب الصحيح في الإنجليزية هو الفاعل ثم الفعل ثم الصفة المقارنة ثم than ثم الشيء الآخر. تغيير الترتيب يجعل الجملة خاطئة."
+    },
+    {
+      "wrong": "She is more taller than me.",
+      "correct": "She is taller than me.",
+      "explanationEn": "Do not combine -er with 'more'. Short adjectives take -er; long adjectives take more. Combining both is ungrammatical and redundant. Choose the correct comparative form based on adjective length.",
+      "explanationAr": "لا نجمع -er مع 'more'. الصفات القصيرة تأخذ -er والصفات الطويلة تأخذ more. الجمع بينهما غير صحيح ويعطي جملة مكررة وغير سليمة لغوياً."
+    }
+  ],
+  "questions": [
+    {
+      "id": "comp_q1",
+      "type": "multiple_choice",
+      "prompt": "Sara is 10 years old and her brother is 12. To compare their ages we say: Sara is ___ her brother.",
+      "promptAr": "سارة تبلغ من العمر 10 سنوات، وأخوها 12 سنة. للمقارنة بين عمريهما نقول: سارة ___ أخيها.",
+      "explanation": "To compare two ages use the comparative of the short adjective 'young'. Add -er to form 'younger' and then add than to link the second person. Avoid 'more younger' or missing than because those mix rules or leave out the required link word.",
+      "arabicNote": "في العربية نُعبر أحيانًا بعبارات اسمية دون فعل. في الإنجليزية نستخدم صفة قصيرة + -er ثم than، مثل 'younger than'. لا تضع 'more' مع الصفات القصيرة ولا تحذف than.",
+      "weakTag": "comparatives_basic_form",
+      "options": [
+        "younger than",
+        "more younger than",
+        "younger that",
+        "more young than"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence to compare the price of two bags.",
+      "promptAr": "اختر الجملة الصحيحة لمقارنة سعر حقيبتين.",
+      "explanation": "The adjective 'expensive' is long, so English uses more + adjective + than. Also include the linking verb 'is' in a full declarative sentence. Sentences that drop 'is' or use the wrong preposition are incorrect in this comparison context.",
+      "arabicNote": "الصفة 'expensive' طويلة، لذلك نستخدم 'more' قبلها ثم 'than' بعدها، مع فعل الربط 'is'. في العربية قد تُحذف كلمات ربط، لكن في الإنجليزية تحتاج الجملة الكاملة فعلًا واضحًا.",
+      "weakTag": "comparatives_basic_meaning",
+      "options": [
+        "This bag is more expensive than that one.",
+        "This bag expensive than that one.",
+        "This bag is more expensive of that one."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Ali and Omar are brothers. Ali is ___ Omar.",
+      "promptAr": "علي وعمر إخوة. علي ___ عمر.",
+      "explanation": "When describing height between two people, use the short adjective 'tall' with the -er comparative and then than. The correct short form is 'taller than'. Options that add 'more' or use superlative forms are wrong for a two-person comparison.",
+      "arabicNote": "الصفة 'tall' قصيرة فنضيف -er عند مقارنة اثنين، ثم نضع than. تجنّب استخدام 'more' مع الصفات القصيرة أو استخدام الصيغة العليا 'tallest' التي تناسب مقارنة أكثر من عنصرين.",
+      "weakTag": "comparatives_basic_word_order",
+      "options": [
+        "taller than",
+        "more tall than",
+        "tallest than",
+        "more taller than"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة أدناه.",
+      "explanation": "The wrong sentence omits the linking verb 'is'. English requires a verb before an adjective in a clause that describes a state. Add 'is' after the subject, keep the comparative adjective, and include 'than' to show the comparison between the two items.",
+      "arabicNote": "في العربية الجملة الاسمية غالبًا لا تحتاج فعلًا، أما في الإنجليزية فنعطي حالة وصفية فعل ربط مثل 'is' قبل الصفة عند المقارنة بين شيئين. لا تحذف فعل الربط.",
+      "weakTag": "comparatives_basic_arabic_transfer",
+      "options": [
+        "Ali is taller than Omar.",
+        "Ali taller than Omar is.",
+        "Ali is more tall than Omar."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Ali taller than Omar."
+    },
+    {
+      "id": "comp_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a grammatical comparative sentence.",
+      "promptAr": "رتب الكلمات لتكوين جملة مقارنة صحيحة نحويًا.",
+      "explanation": "English comparative word order is subject + verb + comparative adjective + than + the other item. Keep that fixed order. If you move 'more' or the subject, you create a sequence that English speakers will find ungrammatical even if Arabic word order allows it.",
+      "arabicNote": "في الإنجليزية الترتيب ثابت: الفاعل ثم الفعل ثم الصفة المقارنة ثم than ثم الشيء الثاني. المتحدثون بالعربية قد يغيّرون الترتيب بسبب الجملة الاسمية؛ لا تنقل هذا الترتيب حرفيًا.",
+      "weakTag": "comparatives_basic_word_order",
+      "words": [
+        "This",
+        "car",
+        "is",
+        "cheaper",
+        "than",
+        "that",
+        "one"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "comp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English comparative phrase to its Arabic meaning.",
+      "promptAr": "وصل كل عبارة مقارنة إنجليزية بمعناها العربي.",
+      "explanation": "These pairs show how short and long adjectives form comparisons in English. Remember the required structure and the word 'than'. Studying these fixed pairs helps you choose -er or more and avoid literal translations that miss a linking verb or than.",
+      "arabicNote": "المطابقة تربط أشكال المقارنة الإنجليزية بمعانيها العربية. تذكّر متى نستخدم -er ومتى نستخدم more، وأنه يجب وضع 'than' بعد الصفة في الإنجليزية. هذا يساعد على تجنب الترجمة الحرفية الخاطئة.",
+      "weakTag": "comparatives_basic_meaning",
+      "pairs": [
+        {
+          "left": "taller than",
+          "right": "أطول من"
+        },
+        {
+          "left": "more expensive than",
+          "right": "أغلى من"
+        },
+        {
+          "left": "younger than",
+          "right": "أصغر سنًا من"
+        }
+      ]
+    },
+    {
+      "id": "comp_q7",
+      "type": "multiple_choice",
+      "prompt": "My living room is more comfortable than your small apartment.",
+      "promptAr": "غرفة المعيشة لدي أكثر راحة من شقتك الصغيرة. اختر الصياغة الصحيحة للجملة.",
+      "explanation": "The adjective 'comfortable' is long, so use more + adjective + than. Keep the subject and verb at the start: 'My living room is...'. Other options change word order or create non‑English endings, which are ungrammatical in this comparison context.",
+      "arabicNote": "الصفة 'comfortable' طويلة فلا نستخدم -er بل نستخدم 'more' قبلها، ثم نضع 'than'. كما يجب أن يأتي الفاعل ثم فعل الربط. تجنب تغيير ترتيب الكلمات أو وضع 'more' في بداية الجملة.",
+      "weakTag": "comparatives_basic_form",
+      "options": [
+        "My living room is more comfortable than your small apartment.",
+        "My living room comfortabler than your small apartment.",
+        "More comfortable my living room than your small apartment.",
+        "My living room is comfortableer than your small apartment."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly compares the difficulty of two exams.",
+      "promptAr": "اختر الجملة التي تقارن صعوبة امتحانين بشكل صحيح.",
+      "explanation": "The adjective 'hard' is short, so add -er to make 'harder' and then than to show the second item. Full sentences need the subject and verb in place. Options that use 'more hard' or move words are wrong because they do not follow English comparative rules.",
+      "arabicNote": "كلمة 'hard' قصيرة فنستخدم -er ثم than. لا تترجم حرفيًا بقول 'more hard'. احرص على وجود الفاعل والفعل قبل الصفة المقارنة في الجملة الإنجليزية.",
+      "weakTag": "comparatives_basic_form",
+      "options": [
+        "Her exam was harder than mine.",
+        "Her exam more hard than mine.",
+        "Harder her exam than mine."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "In heavy traffic a bike is ___ a car.",
+      "promptAr": "في زحمة المرور، الدراجة ___ السيارة.",
+      "explanation": "To compare speed between two items use the short adjective 'fast' with -er and then than. The correct form is 'faster than'. Options that use 'more' or drop letters are mixing rules or miss the linking word, so they are incorrect in this two‑item comparison.",
+      "arabicNote": "الصفة 'fast' قصيرة فتصبح 'faster' عند المقارنة بين اثنين ثم نضع than. خطأ شائع هو إضافة 'more' نتيجة للترجمة الحرفية من العربية؛ تجنب ذلك هنا.",
+      "weakTag": "comparatives_basic_arabic_transfer",
+      "options": [
+        "faster than",
+        "more fast than",
+        "fast than",
+        "more faster than"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "comp_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence that copies Arabic word order.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي نقلت الترتيب العربي حرفيًا.",
+      "explanation": "The wrong sentence starts with 'More' and places the subject at the end, mirroring Arabic order. In English put the subject before the verb, use the short adjective with -er, and keep than before the second noun. The correction restores correct English word order and comparative form.",
+      "arabicNote": "مثال على نقل الترتيب العربي: وضع 'more' أول الصورة أو قلب الفاعل والمكمل. في الإنجليزية نضع الفاعل ثم فعل الربط ثم الصفة المقارنة ثم than ثم العنصر الثاني. صحح الترتيب ولا تضع 'more' في البداية مع الصفات القصيرة.",
+      "weakTag": "comparatives_basic_arabic_transfer",
+      "options": [
+        "Ahmed is taller than my brother.",
+        "Ahmed taller than my brother is.",
+        "More taller Ahmed than my brother."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "More tall than my brother is Ahmed."
+    }
+  ]
+}

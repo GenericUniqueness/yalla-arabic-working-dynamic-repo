@@ -1,0 +1,228 @@
+{
+  "id": "past_continuous",
+  "category": "b2_expansion",
+  "titleEn": "Past Continuous",
+  "titleAr": "الماضي المستمر",
+  "level": "B2",
+  "explanationEn": "Use was/were + verb-ing to describe actions that were in progress at a specific past time. Use this form for background events, actions interrupted by another event, or to emphasize duration at a past moment. Do not use simple past when the action was ongoing at that time.",
+  "explanationAr": "نستخدم was/ were + الفعل بصيغة -ing لوصف فعل كان مستمراً في وقت محدد بالماضي، مثلاً عند مقاطعة حدث آخر أو لوصف الخلفية. في العربية قد نعبر عن نفس المعنى بدون أداة مساعدة واضحة؛ لكن في الإنجليزية يجب إضافة was/were وفعل -ing لإظهار الاستمرارية والتوافق.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "كنت أطبخ العشاء البارحة.",
+      "arabicLiteral": "I was cook dinner.",
+      "englishCorrect": "I was cooking dinner."
+    },
+    {
+      "arabicStructure": "كنا ندرس عند التاسعة.",
+      "arabicLiteral": "We were study at nine.",
+      "englishCorrect": "We were studying at nine."
+    },
+    {
+      "arabicStructure": "كانت نائمة عندما اتصلت.",
+      "arabicLiteral": "She was sleep when I called.",
+      "englishCorrect": "She was sleeping when I called."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I studying at 8 last night.",
+      "correct": "I was studying at 8 last night.",
+      "explanationEn": "Learners often omit the auxiliary 'was'; the continuous needs was + verb-ing.",
+      "explanationAr": "يميل المتعلمون إلى حذف أداة المساعدة 'was' عند الترجمة من العربية، لكن الإنجليزية تتطلب was مع فعل -ing لإظهار الاستمرارية."
+    },
+    {
+      "wrong": "They was playing football at 5 yesterday.",
+      "correct": "They were playing football at 5 yesterday.",
+      "explanationEn": "Wrong auxiliary agreement: plural subject needs 'were', not 'was'.",
+      "explanationAr": "المشكلة هنا توافق الفاعل؛ مع they نستخدم 'were'. المتحدث العربي قد يترجم حرفياً فيستخدم was بالخطأ."
+    },
+    {
+      "wrong": "He was play piano at 3 yesterday.",
+      "correct": "He was playing the piano at 3 yesterday.",
+      "explanationEn": "After was we must use verb-ing; also include 'the' with the instrument here.",
+      "explanationAr": "بعد was يجب أن يكون الفعل بصيغة -ing. أيضاً في أمثلة العزف نستخدم 'the' مع أداة موسيقية في هذا السياق."
+    },
+    {
+      "wrong": "She studying when I knocked on the door.",
+      "correct": "She was studying when I knocked on the door.",
+      "explanationEn": "Missing 'was' makes the sentence ungrammatical; the action was in progress at that moment.",
+      "explanationAr": "حذف was يجعل الجملة خاطئة نحوياً. في العربية قد تُفهم الجملة بدون أداة، لكن في الإنجليزية نحتاج 'was' لبيان الاستمرارية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "past2_q1",
+      "type": "multiple_choice",
+      "prompt": "At 9 p.m. last night I _____ for the exam when the lights went out.",
+      "promptAr": "اختر الشكل الصحيح لبيان فعل كان مستمراً في الماضي عند مقاطعة حدث آخر.",
+      "explanation": "Use was + verb-ing for an interrupted action that was in progress at that past time.",
+      "arabicNote": "نحتاج was + فعل -ing لأن الفعل كان جارٍ عند انقطاع الكهرباء. تجنّب حذف was أو استخدام شكل الفعل الخطأ عند الترجمة من العربية.",
+      "weakTag": "past_continuous_form",
+      "options": [
+        "was studying",
+        "I studying",
+        "was study",
+        "studying"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past2_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "When my mother called at 7 yesterday, we _____ dinner and could not answer.",
+      "promptAr": "اِختر الشكل الصحيح لإظهار فعل كان مستمراً عند مكالمة الأم.",
+      "explanation": "Use were + verb-ing because the action was ongoing at that specific past time.",
+      "arabicNote": "الجملة تتطلب were + فعل -ing لأن الفعل كان جارٍ عند المكالمة. لا تترجم ترتيب العربية حرفياً بدون was/were.",
+      "weakTag": "past_continuous_meaning",
+      "options": [
+        "were eating",
+        "we eating",
+        "were eat",
+        "eating"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past2_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows an action in progress at a past time?",
+      "promptAr": "أي جملة تعرض فعلاً مستمراً في وقت ماضٍ بشكل صحيح؟",
+      "explanation": "The correct choice uses was + verb-ing to show the ongoing action at that past moment.",
+      "arabicNote": "الجملة الصحيحة تحتوي على was + فعل -ing. تجنّب حذف was أو استخدام صيغة الفعل الخاطئة عند نقل الفكرة من العربية.",
+      "weakTag": "past_continuous_word_order",
+      "options": [
+        "At 10 am last Tuesday, I was listening to the teacher.",
+        "At 10 am last Tuesday, I listening to the teacher.",
+        "At 10 am last Tuesday, I was listen to the teacher."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past2_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below.",
+      "promptAr": "اختر أفضل تصحيح للجملة الخاطئة التالية.",
+      "explanation": "Restore was + verb-ing to show the interrupted action was in progress then.",
+      "arabicNote": "الجملة الأصلية تفتقد was أو -ing. المتعلمين العرب قد يترجمون حرفياً دون was، فيجب إضافة was مع فعل -ing هنا.",
+      "weakTag": "past2_missing_auxiliary",
+      "options": [
+        "I was cooking dinner at 8 yesterday when the power went out.",
+        "I cooking dinner at 8 yesterday when the power went out.",
+        "I was cook dinner at 8 yesterday when the power went out."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I cooking dinner at 8 yesterday when the power went out."
+    },
+    {
+      "id": "past2_q5",
+      "type": "multiple_choice",
+      "prompt": "While they _____ on the train at 5 pm last Sunday, the announcement started.",
+      "promptAr": "اختر الشكل الصحيح ليبين فعلًا كان مستمراً في وقت محدد بالماضي.",
+      "explanation": "Use were + verb-ing for a plural subject doing an action that continued then.",
+      "arabicNote": "مع they نستخدم were + فعل -ing لإظهار الاستمرارية. قد ينسى المتعلمون was/were أو يضعون صيغة الفعل الخاطئة.",
+      "weakTag": "past_continuous_agreement",
+      "options": [
+        "were sleeping",
+        "they sleeping",
+        "were sleep",
+        "sleeping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past2_q6",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a past continuous sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة في الماضي المستمر.",
+      "explanation": "The correct order is subject + was/were + verb-ing + time/place phrase.",
+      "arabicNote": "في الإنجليزية نبدأ بالفاعل ثم was/were ثم الفعل بصيغة -ing ثم ظرف الزمان. لا تنقل ترتيب الجملة العربية مباشرة.",
+      "weakTag": "past_continuous_word_order",
+      "words": [
+        "I",
+        "was",
+        "studying",
+        "at",
+        "home",
+        "yesterday."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "past2_q7",
+      "type": "meaning_match",
+      "prompt": "Match each English past-continuous sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بالماضي المستمر بمعناها العربي.",
+      "explanation": "Each Arabic sentence shows an action in progress at a past time; match was/were + -ing forms.",
+      "arabicNote": "اقرأ الترجمات: كل جملة عربية تُظهر استمرار الحدوث في الماضي. لاحظ ضرورة was/were في الإنجليزية بينما العربية قد لا تحتاج أداة مساعدة صريحة.",
+      "weakTag": "past_continuous_arabic_transfer",
+      "pairs": [
+        {
+          "left": "I was cooking dinner yesterday.",
+          "right": "كنت أطبخ العشاء البارحة."
+        },
+        {
+          "left": "They were studying at 9 pm.",
+          "right": "كانوا يدرسون الساعة التاسعة مساءً."
+        },
+        {
+          "left": "She was sleeping when I called.",
+          "right": "كانت نائمة عندما اتصلت."
+        }
+      ]
+    },
+    {
+      "id": "past2_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that shows an action in progress at a past time.",
+      "promptAr": "اختر الجملة التي تُظهر فعلًا مستمراً في وقت ماضٍ.",
+      "explanation": "The correct sentence uses was + verb-ing to indicate the ongoing action at that time.",
+      "arabicNote": "في العربية قد نعبر عن الاستمرار بدون أداة مساعدة. هنا نحتاج was مع -ing لبيان أن الفعل كان جارياً عند ذلك الوقت.",
+      "weakTag": "past_continuous_meaning",
+      "options": [
+        "I was fixing the bike at 6 yesterday.",
+        "I fixing the bike at 6 yesterday.",
+        "I was fix the bike at 6 yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past2_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the correct sentence that fixes the error below.",
+      "promptAr": "اختر الجملة الصحيحة التي تصلح الخطأ في الجملة التالية.",
+      "explanation": "Use was (not were) with singular subject and verb-ing to show a past action in progress.",
+      "arabicNote": "الخطأ توافقي: مع she يجب was وليس were، ويجب فعل بصيغة -ing. المتعلمين العرب قد يترجمون دون تغيير الأدوات المساعدة.",
+      "weakTag": "past_continuous_agreement",
+      "options": [
+        "She was reading a book at noon yesterday.",
+        "She were reading a book at noon yesterday.",
+        "She was read a book at noon yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She were reading a book at noon yesterday."
+    },
+    {
+      "id": "past2_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "At the airport, while I _____ for my bag, I saw my old teacher.",
+      "promptAr": "اِختر الشكل الصحيح لإظهار فعل كان مستمراً عند انتظار الحقيبة.",
+      "explanation": "Use was waiting to show the ongoing action when the teacher appeared.",
+      "arabicNote": "كان الحدث جاريًا عند رؤية المعلم، لذلك نستخدم was + فعل -ing. تجنّب حذف was كما يحدث أحيانًا في الترجمة الحرفية من العربية.",
+      "weakTag": "past_continuous_form",
+      "options": [
+        "was waiting",
+        "waiting",
+        "was wait",
+        "I waiting"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

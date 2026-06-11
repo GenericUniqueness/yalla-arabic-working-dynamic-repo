@@ -1,0 +1,239 @@
+{
+  "id": "participle_clauses",
+  "category": "b2_expansion",
+  "titleEn": "Participle Clauses",
+  "titleAr": "جمل participle",
+  "level": "B2",
+  "explanationEn": "This lesson practices reduced participle clauses. Use -ing for simultaneous or background actions, and 'having + past participle' for actions completed before the main event. Keep the same subject in both clauses unless an impersonal 'it' is required; punctuation and helper words are important.",
+  "explanationAr": "في هذا الدرس نتدرّب على جمل التصريف المختصرة: صيغة -ing للأفعال المتزامنة و'having + التصريف الثالث' للأحداث المكتملة قبل الحدث الأساسي. عادةً يجب إبقاء نفس الفاعل في الجملة المصغّرة والجملة الأساسية. حالة impersonal 'it' خاصة وتُستخدم بصياغات منفصلة. انتبه لترتيب الكلمات وعلامات الترقيم لأن العربية تسمح بمرونة أكبر قد تضلل الترجمة الحرفية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "على الرغم من تأخرنا، أنهينا العمل.",
+      "arabicLiteral": "Although we were late, we finished the work.",
+      "englishCorrect": "Although we were late, we finished."
+    },
+    {
+      "arabicStructure": "لأننا كنا بردانين، بقينا في الداخل.",
+      "arabicLiteral": "Because we were cold, we stayed inside.",
+      "englishCorrect": "Being cold, we stayed inside."
+    },
+    {
+      "arabicStructure": "بعد أن أنهينا العمل، شربنا القهوة.",
+      "arabicLiteral": "After we finished the work, we drank coffee.",
+      "englishCorrect": "Having finished the work, we went for coffee."
+    },
+    {
+      "arabicStructure": "لأنه كسر النافذة، اعتذر.",
+      "arabicLiteral": "Because he broke the window, he apologized.",
+      "englishCorrect": "Having broken the window, he apologized."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Having finished the exam, celebrated the students.",
+      "correct": "Having finished the exam, the students celebrated.",
+      "explanationEn": "Arabic often omits the subject. The participle clause needs the same subject present in the main clause.",
+      "explanationAr": "في الترجمة الحرفية قد يُحذف الفاعل. في جملة التصريف يجب أن يظهر الفاعل في الجملة الأساسية حتى يبقى المعنى واضحًا."
+    },
+    {
+      "wrong": "Having left the building found their phone missing.",
+      "correct": "Having left the building, they found their phone missing.",
+      "explanationEn": "'Having + past participle' needs a clear main-clause subject and punctuation to show time order.",
+      "explanationAr": "لا تُركب جملة 'Having +' بدون فاعل واضح في الجملة الأساسية أو بدون فاصلة. استخدم الفاعل والفاصلة لتوضيح تتابع الأحداث."
+    },
+    {
+      "wrong": "He was broken the window yesterday, so he apologized.",
+      "correct": "Having broken the window yesterday, he apologized.",
+      "explanationEn": "Using 'was' with a past participle creates passive meaning. We need active prior action here.",
+      "explanationAr": "استخدام 'was' مع التصريف الثالث يعطي معنى مبني للمجهول. لتوضيح أن الفاعل قام بالفعل استخدم 'Having broken' مع الفاعل في الجملة الأساسية."
+    },
+    {
+      "wrong": "Because finished his homework, went to bed.",
+      "correct": "Having finished his homework, he went to bed.",
+      "explanationEn": "A reduced participle clause needs 'having' (for prior action) and the main-clause subject to show sequence.",
+      "explanationAr": "قد تحذف الترجمة العربية 'having' أو الفاعل. استعمل 'Having finished' مع إبقاء الفاعل في الجملة الأساسية لبيان ترتيب الزمن دون لبس."
+    }
+  ],
+  "questions": [
+    {
+      "id": "part_q1",
+      "type": "multiple_choice",
+      "prompt": "___ tired after the exam, Sarah stayed home.",
+      "promptAr": "بعد الامتحان، اختر بداية الجملة الصحيحة التي تستخدم جملة تصريف تعبّر عن سبب بقاء سارة في المنزل.",
+      "explanation": "Use 'Being' to show a reason linked to the same subject before the result.",
+      "arabicNote": "عند تقليص السبب في الإنجليزية نستخدم 'Being' مع إبقاء نفس الفاعل. لا ترجم حرفياً من العربية بحذف الفاعل أو تغيير الصيغة.",
+      "weakTag": "participle_clauses_form",
+      "options": [
+        "Being",
+        "Was",
+        "Because being",
+        "Had been"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "part_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a participle clause to show the study finished before the result?",
+      "promptAr": "أي جملة تستخدم جملة تصريف صحيحة لتوضيح أن الدراسة انتهت قبل النجاح في الاختبار؟",
+      "explanation": "'Having studied' shows the prior completed action; the main clause keeps the subject.",
+      "arabicNote": "لبيان أن الدراسة انتهت قبل النجاح نستخدم 'Having studied' ثم نضع الفاعل في الجملة الأساسية. لا تترجم بحذف الفاعل كما في العربية.",
+      "weakTag": "participle_clauses_meaning",
+      "options": [
+        "He having studied hard, passed the test.",
+        "Having studied hard, he passed the test.",
+        "Having study hard, he passed the test."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "part_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ the concert, we went for coffee.",
+      "promptAr": "أكمل الفراغ بخيار صحيح يعبر أن الحفلة انتهت قبل أن نذهب للشاي أو القهوة.",
+      "explanation": "'Having enjoyed' shows the concert was finished before we went for coffee.",
+      "arabicNote": "بما أن الحدث اكتمل قبل الحدث التالي نستخدم 'Having + التصريف الثالث'. أخطاء في شكل التصريف تغير الترتيب الزمني وتفقد الجملة معناها.",
+      "weakTag": "participle_clauses_time",
+      "options": [
+        "Having enjoyed",
+        "Having enjoying",
+        "Having enjoy",
+        "Being enjoyed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "part_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this wrong sentence about finishing homework before bed.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي تعبّر عن إتمام الواجب قبل الذهاب إلى السرير.",
+      "explanation": "Include 'Having finished' and the subject to show the earlier action clearly.",
+      "arabicNote": "في العربية قد تُحذف كلمات الربط أو الفاعل. بالإنجليزية نحتاج 'Having' للفعل المكتمل ثم الفاعل في الجملة الأساسية لتوضيح تتابع الأحداث.",
+      "weakTag": "participle_clauses_word_order",
+      "options": [
+        "Having finished his homework, he went to bed.",
+        "Having finished his homework he went bed.",
+        "Because finished his homework, he went to bed."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Because he finished his homework, went to bed."
+    },
+    {
+      "id": "part_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence showing that arriving late caused missing the train.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تصريف صحيحة تبين أن الوصول المتأخر أدّى إلى فقدان القطار.",
+      "explanation": "Correct order: \"Having arrived late, he missed the train.\" Use the perfect participle clause before the main clause.",
+      "arabicNote": "نبدأ 'Having arrived late,' لتوضيح أن الوصول المتأخر حدث قبل فقدان القطار. احفظ إبقاء نفس الفاعل في الجملة الأساسية لتجنّب الترجمة الخاطئة.",
+      "weakTag": "participle_clauses_word_order",
+      "words": [
+        "missed",
+        "the",
+        "train.",
+        "Having",
+        "he",
+        "arrived",
+        "late,"
+      ],
+      "correctOrder": [
+        3,
+        5,
+        6,
+        4,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "part_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning.",
+      "promptAr": "اصِل كل جملة إنجليزية بالمعنى العربي الذي يبيّن السبب أو الزمن أو النتيجة.",
+      "explanation": "Each clause links time, reason, or result to the main clause; choose the matching meaning.",
+      "arabicNote": "التمييز بين '-ing' للفعل المتزامن و'HAVING + التصريف الثالث' للحدث المكتمل مهم. لاحظ كيف يحدد كل تركيب الترتيب الزمني أو السبب.",
+      "weakTag": "participle_clauses_meaning",
+      "pairs": [
+        {
+          "left": "Having finished my work, I went out.",
+          "right": "بعد أن أنهيت عملي، خرجت."
+        },
+        {
+          "left": "Being hungry, she ate quickly.",
+          "right": "لأنها كانت جائعة، أكلت بسرعة."
+        },
+        {
+          "left": "Not having set the alarm, she overslept.",
+          "right": "لأنها لم تضبط المنبه، نامت متأخرة."
+        },
+        {
+          "left": "Arriving early, they prepared the room.",
+          "right": "عندما وصلوا مبكراً، أعدّوا الغرفة."
+        }
+      ]
+    },
+    {
+      "id": "part_q7",
+      "type": "multiple_choice",
+      "prompt": "The window, ___ yesterday, is fixed now.",
+      "promptAr": "اختر الكلمة الصحيحة لتكوين جملة تصريف مبسطة تبين أن النافذة انكسرت بالأمس والآن تم إصلاحها.",
+      "explanation": "Use the past participle 'broken' to describe the window's past damage and present repair.",
+      "arabicNote": "لوصف حالة النافذة بعد الحدث نستخدم التصريف الثالث 'broken'. لا نستخدم 'broke' أو أشكال غير صحيحة لتكوين جملة وصفية مصغّرة.",
+      "weakTag": "participle_clauses_form",
+      "options": [
+        "broken",
+        "broke",
+        "breaked",
+        "had broke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "part_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a participle clause to show the cause of oversleeping?",
+      "promptAr": "أي جملة تستخدم جملة تصريف صحيحة لتوضيح السبب الذي أدى إلى النوم المتأخر؟",
+      "explanation": "'Not having set' correctly forms a reduced clause showing the omitted prior action caused the result.",
+      "arabicNote": "في العربية نربط السبب والنتيجة بحرّية. بالإنجليزية استخدم 'Not having set the alarm' لإظهار أن عدم ضبط المنبه سبب النوم المتأخر، مع إبقاء ترتيب الفاعل واضحًا.",
+      "weakTag": "participle_clauses_result",
+      "options": [
+        "Not having set the alarm, she overslept.",
+        "Because she not set the alarm, she overslept.",
+        "She not having set the alarm, so she overslept."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "part_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "___ for school, Ahmed packed his bag.",
+      "promptAr": "اختر بداية الجملة الصحيحة للتعبير عن فعلين متقاربين زمنياً أثناء الاستعداد للمدرسة.",
+      "explanation": "Use '-ing' to show a simultaneous or background action while the main action happens.",
+      "arabicNote": "في العربية يمكن ربط الفعلين مباشرة. بالإنجليزية نستخدم '-ing' لنبين أن فعل التحضير حدث أثناء تعبئة الحقيبة، ولا نحذف الفاعل أو نغيّر ترتيب الكلمات.",
+      "weakTag": "participle_clauses_time",
+      "options": [
+        "Preparing",
+        "To prepared",
+        "Preparinged",
+        "Was prepare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "part_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence that tries to show a prior event.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي تحاول أن تبيّن حدثًا انتهى قبل حدث آخر.",
+      "explanation": "'Having finished' makes the earlier action clear and keeps the same subject.",
+      "arabicNote": "قد تحذف الترجمة الحرفية 'having' أو ترتب الكلمات بطريقة غير صحيحة. استخدم 'Having finished' ثم الفاعل في الجملة الأساسية لتوضيح تتابع الأفعال.",
+      "weakTag": "participle_clauses_arabic_transfer",
+      "options": [
+        "Having finished his dinner, he watched TV.",
+        "Having finished his dinner watching TV.",
+        "After finished his dinner he watched TV."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "After finished his dinner, he watched TV."
+    }
+  ]
+}

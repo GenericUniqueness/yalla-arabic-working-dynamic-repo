@@ -1,0 +1,985 @@
+{
+  "lesson_title": "Easy Arabic Podcast | about Social Media",
+  "private_dev_source": {
+    "source": "youtube_teacher_pilot_private_dev_only",
+    "video_id": "Mq51rklpGog",
+    "webpage_url": "https://www.youtube.com/watch?v=Mq51rklpGog",
+    "playlist_index": 7,
+    "redistribution_permission": "not_claimed"
+  },
+  "sentences": [
+    {
+      "id": 0,
+      "english": "Peace be upon you, my brothers. How are you? I hope you are well. As for your friend, he is a little unwell, but it's alright. Excuse my voice . I caught a cold. I don't know, maybe it's from the air conditioner or",
+      "arabic": "السلام عليكم اخواني كيف حالكم لعلكم بخير اما صديقكم فمريض قليلا لكن لا باس سامحوني على صوتي اصبت بزكام لا ادري ربما بسبب المكيف او",
+      "start_time": 0.96,
+      "end_time": 20.6,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 1,
+      "english": "a virus. I really don't know. Anyway, I wanted to share some thoughts that have been on my mind lately.",
+      "arabic": "بسبب فيروس والله انا ما ادري على كل حال اريد ان اشارككم بعض الافكار التي شغلت بالي في هذه الايام",
+      "start_time": 20.6,
+      "end_time": 37.6,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 2,
+      "english": "In this day and age, social media has spread , and everyone spends long hours",
+      "arabic": "في هذا الزمن انتشرت وسائل التواصل الاجتماعي فاصبح كل الناس يقضون ساعات طوالا",
+      "start_time": 38.16,
+      "end_time": 50.879,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 3,
+      "english": "looking at their phone screens from morning till night. I am one of them, unfortunately. We see various videos",
+      "arabic": "وهم ينظرون في شاشات الهواتف من الصباح الى الليل وانا واحد منهم للاسف الشديد فنرى مقاطع متنوعه",
+      "start_time": 50.96,
+      "end_time": 68.2,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 4,
+      "english": ", and these videos are professionally designed and filmed so that we will keep watching them.",
+      "arabic": "وهذه المقاطع صممت وصورت باحترافيه عاليه حتى نكمل مشاهدتها",
+      "start_time": 68.2,
+      "end_time": 79.84,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 5,
+      "english": "This is because content creators—and content includes",
+      "arabic": "لان صناع المحتوى الذين يصنعون المحتوى والمحتوى هو الفيديوهات والصور وكل ما ترى في ال في وسائل التواصل",
+      "start_time": 79.84,
+      "end_time": 95.24000000000001,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 6,
+      "english": "videos, images, and everything you see on social media— are competing with each other",
+      "arabic": "نسميه بالمحتوى المحتوى فصناع المحتوى يتسابقون فيما بينهم",
+      "start_time": 95.24000000000001,
+      "end_time": 108.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 7,
+      "english": ", trying to reach the largest possible audience. They care a lot about viewers finishing their videos for various reasons.",
+      "arabic": "فيحاولون ان يوصلوا محتواهم الى اكبر عدد ممكن يهتمون كثيرا باكمال المشاهده لاغراض عده لاغراض عده",
+      "start_time": 108.64,
+      "end_time": 128.28,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 8,
+      "english": "So now we see a huge number of content creators on social media competing",
+      "arabic": "اذا نرى الان في وسائل التواصل عددا هائلا من صناع المحتوى يتسابقون",
+      "start_time": 129.319,
+      "end_time": 142.76,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 9,
+      "english": "to get your attention and a piece of your time. Even websites, social media platforms",
+      "arabic": "في الحصول على انتباهكم وعلى الحصول على قطعه من وقتكم حتى المواقع ووسائل التواصل وهذه المنصات",
+      "start_time": 142.959,
+      "end_time": 160.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 10,
+      "english": ", and applications encourage them to do this. For example, if you have an account or For example, if you own an Instagram channel",
+      "arabic": "والتطبيقات تشجعهم على ذلك مثلا اذا كنت صاحب حساب او صاحب قناه مثلا في الانستغرام",
+      "start_time": 160.64,
+      "end_time": 175.12,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 11,
+      "english": ", Instagram encourages you to create videos that attract viewers.",
+      "arabic": "فالانستغرام يشجعك على صناعه مقاطع تجذب المشاهدين",
+      "start_time": 175.12,
+      "end_time": 187.68,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 12,
+      "english": "Instagram wants you to create visual videos that draw viewers in and keep them",
+      "arabic": "فالانستغرام يريد منك ان تصنع فيديوهات مرئيات مقاطع تجذب المشاهدين وتجعلهم",
+      "start_time": 187.68,
+      "end_time": 201.0,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 13,
+      "english": "watching. Then they'll visit your account, browse , and watch more videos from that account. This way, they stay on Instagram and spend",
+      "arabic": "يكملون المشاهده ثم يدخلون على حسابك ويتصفحون الحساب ويشاهدون مقاطع اخرى منه من هذا الحساب وهكذا يمكثون في الانستغرام ويقضون وقتا",
+      "start_time": 201.0,
+      "end_time": 217.4,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 14,
+      "english": "more time there, without switching to another app. Leaving Instagram and going to YouTube is a loss",
+      "arabic": "اخر وقتا اكثر ولا ينتقلون ولا يقفزون الى تطبيق اخر لان خروجك من الانستغرام ودخولك على اليوتيوب خساره",
+      "start_time": 217.4,
+      "end_time": 232.12,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 15,
+      "english": "for Instagram, you know. That's why Instagram doesn't want you to leave for YouTube. Instagram wants you to stay on",
+      "arabic": "للانستغرام تعرفون لذلك انستغرام لا يريد منك ان تخرج الى اليوتيوب الانستغرام يريدك ان تبقى في",
+      "start_time": 232.12,
+      "end_time": 245.0,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 16,
+      "english": "Instagram and spend more time there. And what does the Instagram platform gain? It benefits from showing you ads. The more you spend on Instagram",
+      "arabic": "الانستغرام وتقضي وقتا اكثر وماذا تستفيد منصه انستغرام تستفيد من اظهار الاعلانات لكم وكلما جلست اكثر رايت اعلانات",
+      "start_time": 245.0,
+      "end_time": 261.759,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 17,
+      "english": ", the more ads you see. These ads program your mind. Then, when you go to a store and stand in front of a shelf, seeing different products and not knowing which is better—",
+      "arabic": "اكثر فهذه الاعلانات تبرمج عقلك ثم عندما تذهب الى الدكان وتقف امام رف وترى منتجات مختلفه وانت لا تدري ايهما افضل",
+      "start_time": 261.759,
+      "end_time": 280.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 18,
+      "english": "for example, if you want to buy soap and don't know which one to choose— you'll almost certainly choose the soap you saw on Instagram or somewhere else.",
+      "arabic": "مثلا تريد ان تشتري صابونا ولا تدري اي ايه اياها تختار فانت بالتاكيد ستختار الصابون الذي رايته في الانستغرام مثلا او رايته في مكان اخر",
+      "start_time": 280.88,
+      "end_time": 297.72,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 19,
+      "english": "This is how social media works, and this is how it earns millions of dollars . These tools encourage and help content creators, and",
+      "arabic": "هكذا تعمل وسائل التواصل وهكذا تربح ملايين من الدولارات فذه الوسائل تشجع صناع المحتوى وتساعدهم",
+      "start_time": 297.72,
+      "end_time": 317.759,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 20,
+      "english": "show you the most beautiful clips through algorithms. Because if you browse Instagram like this and see",
+      "arabic": "وتظهر لك من خلال الخو وارزميات اجمل المقاطع لانك اذا تصفحت الانستغرام هكذا تصفحت ورايت",
+      "start_time": 317.759,
+      "end_time": 332.759,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 21,
+      "english": "boring videos, what will you do? It's boring, and you'll go somewhere else, or jump to another platform, app, or game. That's why Instagram,",
+      "arabic": "مرئيات ممله ماذا ستفعل؟ ممل وستذهب الى مكان اخر او ستقفز الى منصه اخرى او تطبيق اخر او لعبه اخرى لذلك الانستغرام",
+      "start_time": 332.759,
+      "end_time": 349.15999999999997,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 22,
+      "english": "through its algorithms, shows you the most beautiful videos and the videos you like. If you're interested in sports, you'll naturally",
+      "arabic": "من خلال الخوارزم الخوارزميات تظهر لك اجمل المقاطع والمقاطع التي انت تحبها اذا كنت مهتما بالرياضه فبالطبع",
+      "start_time": 349.15999999999997,
+      "end_time": 363.8,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 23,
+      "english": "see many sports videos. If you're interested in cars, you'll see videos about cars. Instagram",
+      "arabic": "سترى كثيرا مقاطع حول الرياضه اذا كنت مهتما بالسيارات فسترى مقاطع عن السيارات والانستغرام",
+      "start_time": 363.8,
+      "end_time": 377.24,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 24,
+      "english": "and all these platforms know what you like. How do you know? If you start browsing and your eye falls on a beautiful video, a video that",
+      "arabic": "وكل هذه الوسائل اعرفك تعرف ماذا تحب كيف تعرف اذا بدات تتصفح ووقع عينك على محتوى على مرئيه جميله على مرئيه",
+      "start_time": 377.24,
+      "end_time": 393.68,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 25,
+      "english": "appeals to you, you'll naturally stop. You wo n't just browse; you'll stop at that video and watch it. Then you'll browse video",
+      "arabic": "تعجبك انت انت طبعا ستقف لن تتصفح ستقف على هذه المرئيه وستشاهدها ثم ستتصفح مرئيه",
+      "start_time": 393.68,
+      "end_time": 409.44,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 26,
+      "english": "after video, not finishing watching them. You'll just look, watch the first second or two, then move on to another. Then, your eye will fall on another video that attracts you,",
+      "arabic": "تلو اخرى لا تكمل مشاهدتها فقط يعني تنظر تشاهد اول ثانيه او ثانيتين ثم تنتقل الى اخرى ثم مره اخرى ي تقع عينك على مرئيه اخرى فتجاذبك",
+      "start_time": 409.44,
+      "end_time": 427.16,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 27,
+      "english": "so you'll continue watching it. Now Instagram knows that you like this type of video, for example, cars.",
+      "arabic": "فتكمل مشاهدتها والان عرف الانستغرام انك تحب هذا النوع من المرئيات مثلا كانت سيارات",
+      "start_time": 427.16,
+      "end_time": 439.44,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 28,
+      "english": "After that, you'll see this type of video more and continue watching it. So, excuse me for the long introduction.",
+      "arabic": "ف فبعد ذلك سترى هذا النوع من المرئيات اكثر وستكمل مشاهدتها وستجلس اذا سامحوني على الاطاله في المقدمه",
+      "start_time": 440.28,
+      "end_time": 454.919,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 29,
+      "english": "There are some of the smartest people in the world, and they aren't the best people; in fact, most of them are among the most cunning. They try to steal your time",
+      "arabic": "هناك اذكى الناس حول العالم وهم ليسوا خير الناس بل اكثرهم من اخبث الناس يحاولون سرقه وقتك",
+      "start_time": 454.919,
+      "end_time": 472.039,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 30,
+      "english": "by presenting trivial, stupid, and worthless content. There is benefit in it, and they want to steal your time.",
+      "arabic": "بتقديم محتوى تافه م محتوى غبي محتوى لا فائده فيها وهم يريدون سرقه وقتك",
+      "start_time": 472.039,
+      "end_time": 488.28,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 31,
+      "english": "These people are in their cave, and in another cave are students of knowledge, creators of meaningful content,",
+      "arabic": "هؤلاء في كهفه هؤلاء في كهفه وفي كهفه اخرى طلاب العلم صناع محتوى هادف",
+      "start_time": 488.28,
+      "end_time": 504.039,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 32,
+      "english": "creators of useful content, people of beneficial thought, scholars, teachers",
+      "arabic": "صناع محتوى مفيد اصحاب فكر نافع علماء مدرسون",
+      "start_time": 504.039,
+      "end_time": 519.279,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 33,
+      "english": "who want to offer something beneficial to viewers. They think that simply recording lessons",
+      "arabic": "يريدون تقديم شيء مفيد للمشاهدين دين فهم يظنون ان مجرد تصوير الدروس",
+      "start_time": 519.44,
+      "end_time": 532.24,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 34,
+      "english": "is enough. If they sit in an old hall with dim lighting, without a microphone or sound system,",
+      "arabic": "يكفي انهم اذا جلسوا في قاعه قديمه مع ضوء ضعيف وبدون ميكروفون او لاقه صوت",
+      "start_time": 532.24,
+      "end_time": 550.0,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 35,
+      "english": "without a good camera, without all these extra things, if they sit and talk and record this lesson on a phone,",
+      "arabic": "بدون اله التصوير الجيده بدون كل هذه الاشياء الاضافيه اذا جلسوا وتكلموا وصوروا هذا الدرس على الهاتف",
+      "start_time": 550.0,
+      "end_time": 564.44,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 36,
+      "english": "they think that is enough. Unfortunately, this is not enough. This is not enough. So, praise be to God, I realized this fact early on,",
+      "arabic": "يظنون ان ذلك يكفي وللاسف الشديد هذا لا يكفي هذا لا يكفي ف فلله الحمد لقد ادركت هذه الحقيقه في وقت مبكر",
+      "start_time": 564.44,
+      "end_time": 581.56,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 37,
+      "english": "so I tried to combine the rules of the game, the rules of this game, with my idea, my goal, and my project.",
+      "arabic": "فحاولت ان اجمع بين قواعد اللعبه قواعد هذه اللعبه وبين فكرتي وبين هدفي و مشروعي",
+      "start_time": 581.56,
+      "end_time": 597.8,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 38,
+      "english": "I tried to combine them because those with projects, those with ideas,",
+      "arabic": "وحاولت ان اجمع بينهما حاولت ان اجمع بينهما لان على اصحاب المشاريع على اصحاب المشاريع واصحاب الفكر",
+      "start_time": 597.8,
+      "end_time": 612.56,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 39,
+      "english": "those with faith , and those with knowledge must compete with the people",
+      "arabic": "وعلى اصحاب العقيده وعلى اصحاب العلم ان يزاحموا اصحاب",
+      "start_time": 612.56,
+      "end_time": 625.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 40,
+      "english": "of evil, the people of trivial thought. And in reality, they are not people of any thought, but rather they are",
+      "arabic": "الشر اصحاب فكر تافه وهم حقيقه ليسوا اصحاب اي فكر بل هم",
+      "start_time": 626.16,
+      "end_time": 640.079,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 41,
+      "english": "like highway robbers. They do not steal your money, but they steal what is more precious and valuable than money, which is your time.",
+      "arabic": "مثلهم كمثل قطاع الطريق فهم لا يسرقون مالكم بل يسرقون ما هو اثمن واغلى من المال الا وهو وقتكم",
+      "start_time": 640.16,
+      "end_time": 656.519,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 42,
+      "english": "So you, the viewer, are watching a clip full of dopamine, full of pleasure and happiness, and full of beautiful scenery.",
+      "arabic": "فانت ايها المشاهد بين مشاهده مقطع مليء بالدوفامين مليء بالسرور والسعاده ومليء بالمناظر ظ",
+      "start_time": 656.519,
+      "end_time": 670.839,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 43,
+      "english": "The beautiful and the words you love, and between watching a heavy, boring lesson, even if it's useful, it's incomparable to this video about cars, about the fastest",
+      "arabic": "الجميله والكلام الذي تحبه وبين مشاهده درس ثقيل ممل وان كان مفيدا لكنه مقارنه بهذه المرئيه عن السيارات عن اسرع",
+      "start_time": 670.839,
+      "end_time": 688.8,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 44,
+      "english": "cars in the world. The man talks about the cars, the camera zooms in on the car, then zooms out, showing the car from the back and the inside, and all these effects",
+      "arabic": "السيارات في العالم والرجل يتكلم عن السيارات والكاميرا تقترب من السياره ثم تبتعد وتظهر السياره من الخلف ومن الداخل وكل هذه المؤثرات",
+      "start_time": 688.8,
+      "end_time": 702.519,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 45,
+      "english": "—the sound effects, the engine sounds , the visual effects—your eyes and ears enjoy it, and you sit smiling",
+      "arabic": "هذه المؤثرات الصوتيه والمؤثرات تسمع صوت المحرك ثم المؤثرات البصريه وعينك تستمتع واذنك تستمتع وانت تجلس مبتسما",
+      "start_time": 702.519,
+      "end_time": 718.68,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 46,
+      "english": ", feeling as if you're riding in and driving this car. Next to this video is one of Sheikh Abu Muhammad,",
+      "arabic": "وتشعر كانك تركب هذه السياره وتقودها وبجانب هذه المرئيه مرئيه شيخ ابو محمد",
+      "start_time": 718.68,
+      "end_time": 731.92,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 47,
+      "english": "for example, sitting and talking about something. And please understand me correctly, I'm describing the reality of this",
+      "arabic": "مثلا يجلس ويتكلم عن شيء وانا ارجوكم ان تفهموني صحيحا انا اصف الواقع واقع هذا المشاهد",
+      "start_time": 731.92,
+      "end_time": 747.68,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 48,
+      "english": "poor viewer. Sheikh Abu Muhammad is sitting with a frown—this is a stereotype. I don't know any sheikh like that, thank God. The sheikhs I see on",
+      "arabic": "المسكين والشيخ ابو محمد يجلس و عبوسا هذه يعني صوره نمطيه لا اعرف شيخا مثل هذا الحمد لله الشيوخ الذين اراهم في",
+      "start_time": 747.68,
+      "end_time": 765.12,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 49,
+      "english": "YouTube are smiling, and, God willing, they exert tremendous efforts in preaching and teaching. They are not the ones I'm referring to. I'm referring to the image I created.",
+      "arabic": "اليوتوب مبتسمون وما شاء الله يبذلون جهودا جباره في الدعوه والتعليم فهم ليسوا من الذين اقصدهم انا اقصد الصوره التي اخترعتها",
+      "start_time": 765.12,
+      "end_time": 780.36,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "Our Sheikh Abu Muhammad sits and films the video on an old phone—not even an iPhone—",
+      "arabic": "فيجلس شيخنا ابو محمد ويصور الفيديو على الهاتف القديم وليس ايفون حتى يعني هاتف",
+      "start_time": 780.36,
+      "end_time": 787.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 50
+    },
+    {
+      "english": "an old, old phone with no good sound or clear lighting, nothing. He talks, and our friend, the viewer, tries to",
+      "arabic": "قديم قديم ولا صوت جيد ولا ضوء واضح ولا شيء ويتكلم و وصديقنا المشاهد يحاول ان",
+      "start_time": 787.88,
+      "end_time": 799.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 51
+    },
+    {
+      "id": 52,
+      "english": "listen but can't. And the first video gets... A million views and a sheikh gets 100 out of 100 views at best.",
+      "arabic": "يسمع ولا يسمع والمرئيه الاولى تحصل على مليون مشاهده ومرئيه الشيخ تحصل على 100 على 100 مشاهده في احسن الاحوال",
+      "start_time": 799.88,
+      "end_time": 822.24,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 53,
+      "english": "Is this fair? This isn't fair, but that's how the game works online. Therefore,",
+      "arabic": "هل هذا عدل؟ هذا ليس عدلا لكن هكذا اللعبه هكذا لعبتنا في الانترنت لذلك",
+      "start_time": 822.24,
+      "end_time": 836.92,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 54,
+      "english": "I believe understanding the rules of this game is essential. Every person with a",
+      "arabic": "ارى ان ان فهم قواعد هذه اللعبه ضروره يجب على كل صاحب فكر",
+      "start_time": 836.92,
+      "end_time": 850.759,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 55,
+      "english": "useful idea and an important project must understand these rules. They must understand that they must challenge those who are corrupt and strive to",
+      "arabic": "مفيد ومشروع مهم ان يفهم هذه القواعد يفهم ان عليه ان يزاعم اهل الفساد ويحاول ان",
+      "start_time": 850.759,
+      "end_time": 865.72,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "produce the best possible content. They must work hard so that the quality",
+      "arabic": "ياتي بال بالافضل باحسن ما يمكن فعليه ان يجتهد حتى تكون جوده",
+      "start_time": 865.72,
+      "end_time": 876.8,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 56
+    },
+    {
+      "english": "of their lesson is higher than the quality of this video about cars, sports, or anything else.",
+      "arabic": "درسه افضل من جوده هذا هذه المرئيه عن السيارات او عن الرياضه او عن ايا كان",
+      "start_time": 876.8,
+      "end_time": 888.72,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 57
+    },
+    {
+      "english": "They must strive, but of course, they must start with what they have. I don't mean everyone should buy",
+      "arabic": "فعليه ان يجتهد ولكن طبعا يجب ان يبدا بما لديه انا لا اقصد ان على الجميع اشتراء",
+      "start_time": 888.72,
+      "end_time": 898.32,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 58
+    },
+    {
+      "english": "the best equipment, not at all. Start with what you have, but try to do the best possible with the tools",
+      "arabic": "افضل المعدات لا لا ابدا ابدا بالذي عندك لكن حاول ان تاتي بافضل ما يمكن بالادوات",
+      "start_time": 898.32,
+      "end_time": 908.759,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 59
+    },
+    {
+      "english": "available to you. If you have a phone, try to place it nearby, for example. If you don't have",
+      "arabic": "المتاحه عندك اذا كان عندك هاتف فح حاول ان تضعه قريبا مثلا واذا كان عندك لا يوجد",
+      "start_time": 908.759,
+      "end_time": 917.92,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 60
+    },
+    {
+      "english": "a light source, try to film your lesson in a well-lit place, or outside the house, for example.",
+      "arabic": "عندك ضوء حاول ان تصور درسك مثلا في مكان فيه ضوء جيد او خارج البيت مثلا او هناك",
+      "start_time": 917.92,
+      "end_time": 927.959,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 61
+    },
+    {
+      "id": 62,
+      "english": "Try as much as possible to make your content the best it can be. And of course, this includes sound, camera, and lighting . I try to make my content",
+      "arabic": "يعني حاول بقدر المستطاع ان تجعل محتواك احسن ما يمكن وطبعا هذا الصوت والكاميرا والاضوات فانا احاول ان اجعل محتوايه",
+      "start_time": 927.959,
+      "end_time": 944.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 63,
+      "english": "the best it can be in terms of quality, and in terms of content— the content within this The video within this visual means the words",
+      "arabic": "من حيث الجوده احسن ما يكون من حيث الجوده ومن حيث من حيث المضمون من حيث المضمون المضمون الذي داخل هذا الفيديو داخل هذه المرئيه يعني الكلام",
+      "start_time": 944.88,
+      "end_time": 961.44,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 64,
+      "english": "as well. I try to make it useful, so, for example, a week ago I bought a new lens. A lens",
+      "arabic": "ايضا احاول ان اجعله مفيدا فلذلك اشتريت مثلا قبل اسبوع اي عدسه جديده عدسه",
+      "start_time": 961.44,
+      "end_time": 974.399,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "is the camera, and you attach a lens to the camera. For example, this lens,",
+      "arabic": "يعني هي هذه اله التصوير الكاميرا وعلى الكاميرا انت تضع عدسه يعني مثلا هذه عدسه",
+      "start_time": 974.399,
+      "end_time": 983.12,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 65
+    },
+    {
+      "english": "this lens, this lens, this lens, three lenses. So, a few days ago I bought a new lens, an excellent lens, thank",
+      "arabic": "عدسه عدسه عدسه ثلاث عدسات فانا قبل ايام اشتريت عدسه جديده عدسه ممتازه ما شاء",
+      "start_time": 983.12,
+      "end_time": 992.8,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 66
+    },
+    {
+      "id": 67,
+      "english": "God. It helps me and solves some of the problems I was facing. It solved some of the problems I was having with the old lens. Now, God willing,",
+      "arabic": "الله تساعدني و يعني حلت بعض المشاكل التي كنت اجا اجاه اواجه حلت لي بعض المشاكل التي كنت اواجهها مع العدسه القديمه الان ان شاء الله",
+      "start_time": 992.8,
+      "end_time": 1010.199,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 68,
+      "english": "the visuals will be better. The quality was excellent, but there were some technical problems because I'm shooting in a small place, this room",
+      "arabic": "المرئيات سوف تصبح افضل الجوده كانت ممتازه لكن يعني كانت هناك بعض المشاكل التقنيه لاني اصور في مكان صغير يعني هذه الغرفه",
+      "start_time": 1010.199,
+      "end_time": 1025.52,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 69,
+      "english": "is small, so my mobility is limited. I can't, for example, place the camera too far away or too close because there were some problems",
+      "arabic": "صغيره فامكانياتي من حيث الحركه قليله لا استطيع ان مثلا اضع الكاميرا بعيدا عني او قريبا كثيرا لان هناك بعض المشاكل اييه",
+      "start_time": 1025.52,
+      "end_time": 1040.039,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 70,
+      "english": "related to the lens. I also bought lights, different lamps. For example, a few days ago I bought this lamp, this one is very powerful",
+      "arabic": "كانت تتعلق بالعدسه وايضا اشتريت الضوء اشتريت يعني مصابيح مختلفه مثلا قبل ايام اشتريت هذا المصباح مثل هذا المصباح قوي جدا",
+      "start_time": 1040.039,
+      "end_time": 1056.799,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 71,
+      "english": "and gives off different colors. Now look at this yellow, blue, white, and red color . I'm not saying they're essential, but they're useful and important.",
+      "arabic": "ومثلا يعطي الوان مختلفه الان انظروا هذا اللون الاصفر والازرق والابيض والاحمر يعني ايضا ليس لا اقول انها اشياء ضروريه لكن يعني اشياء مفيده مهمه يعني",
+      "start_time": 1056.799,
+      "end_time": 1078.159,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "I know that the person watching this video has a strong psychological drive. They will watch even",
+      "arabic": "انا اعرف الذي يشاهد هذه المرئيه انسان دافعه النفسي قوي يعني هو سيشاهد وان كان",
+      "start_time": 1078.159,
+      "end_time": 1086.919,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 72
+    },
+    {
+      "english": "without light. Even if it's like this, brothers, this man will watch even with this",
+      "arabic": "بدون ضوء وان كان هكذا يا اخوان اذا كان هكذا سيشاهد هذا الرجل سيشاهد مع هذا",
+      "start_time": 1086.919,
+      "end_time": 1094.12,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 73
+    },
+    {
+      "id": 74,
+      "english": "even with this light. Now, I know you will watch because you want knowledge. You, God willing, are a person with a strong psychological drive, and you don't need these extraneous things.",
+      "arabic": "الضوء ايضا الان انا اعرف انت ستشاهد لانك تريد العلم انت ما شاء الله انسان دافعه النفسي قوي وانسان لا يحتاج الى هذه الامور الجانبيه",
+      "start_time": 1094.12,
+      "end_time": 1110.159,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 75,
+      "english": "The person who watches looks at the content, the substance, the substance, the substance.",
+      "arabic": "الانسان الذي ينظر ينظر الى الى المضمون المضموم المضمون المضمون",
+      "start_time": 1110.159,
+      "end_time": 1124.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 76,
+      "english": "You are like that. But there are people who just skim through the video, and their eyes fall on it. Look, this man is studying Arabic, and the clips, God willing, are",
+      "arabic": "انت هكذا لكن هناك اشخاص يمرون بالفيديو هكذا يتصفحونه ويقع تقع عينهم وهم يظر انظروا هذا الرجل يدرس العربيه والمقاطع ما شاء الله جودتها",
+      "start_time": 1125.44,
+      "end_time": 1138.799,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 77,
+      "english": "of high quality. So it seems they are good clips. And there is a Russian proverb, a Russian proverb that says, \"People welcome you,",
+      "arabic": "عاليه اذا يبدو انه انها مقاطع جيده و يعني هناك مثل روسي هناك مثل روسي يقول الناس يستقبلونك",
+      "start_time": 1138.799,
+      "end_time": 1154.2,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 78,
+      "english": "welcome you, welcome you.\" May God forgive me, it's dawn now. I have a few hours, a few minutes left. Look, this is dawn. It was 20 minutes ago. It's",
+      "arabic": "يستقبلونك يستقبلون استغفر الله الوقت الان وقت الفجر يعني عندي بعد كم ساعه كم دقيقه الان انظروا هذا وقت الفجر قبل 20 دقيقه عندي وقت",
+      "start_time": 1154.2,
+      "end_time": 1167.4,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 79,
+      "english": "dawn for me, and I don't sleep at night. I know this is bad, I know this is bad, this is harmful to health, but God willing, I will try to change this",
+      "arabic": "الفجر وانا لا انام في الليل انا اعرف هذا سيء اعرف هذا سيء هذا يضر الصحه لكن ان شاء الله يعني ساحاول ان اغير هذا",
+      "start_time": 1167.4,
+      "end_time": 1180.2,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "pattern. But I work at night, and I can't quit. I can't quit teaching.",
+      "arabic": "النمط ال الدار لكن انا اعمل في الليل ولا استطيع ان اترك العمل لا استطيع ان اترك التدريس",
+      "start_time": 1180.2,
+      "end_time": 1190.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 80
+    },
+    {
+      "english": "Anyway, what was I saying? I've gone on too long. I'll finish now. Wait.",
+      "arabic": "على كل حال ماذا كنت اقول لقد اطلت سانتهي الان انتظر",
+      "start_time": 1190.64,
+      "end_time": 1199.36,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 81
+    },
+    {
+      "id": 82,
+      "english": "The Russian proverb says, \"People welcome you.\" They greet you with a certain look , they greet you with a certain look",
+      "arabic": "ا يقول المثل الروسي الناس يستقبلون يستقبلونك بال منظر يستقبلونك",
+      "start_time": 1199.52,
+      "end_time": 1215.52,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 83,
+      "english": ", and they bid you farewell. I mean, logically, I'll explain now, when people see you, when",
+      "arabic": "ويودعون ويودعونك يعني بالعقل ساشرح الان يعني عندما يرونك الناس عندما",
+      "start_time": 1215.52,
+      "end_time": 1227.08,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 84,
+      "english": "they see you, when people see you, they judge you based on your clothes, your beard, your hair, and your gaze.",
+      "arabic": "يرونك عندما يراك الناس فهم يقيمونك نظرا الى ملابسك والى لحيتك وشعرك ونظراتك",
+      "start_time": 1227.08,
+      "end_time": 1239.32,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 85,
+      "english": "They evaluate you, meaning they give you value, price, meaning they look at you, how much are you worth, a million, or 000, or 100? They evaluate you based on appearance.",
+      "arabic": "فهم يقيمونك يعني يعطونك القيمه السعر يعني ينظرون بكم انت بمليون او بال000 او ب 100 فهم يقيمونك نظرا الى المظهر",
+      "start_time": 1239.32,
+      "end_time": 1253.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 86,
+      "english": "If you look presentable, if you are wearing a suit and a white shirt, and, God willing, an expensive watch, and so on, and glasses,",
+      "arabic": "مظهر اذا كان مظ اظهرك مرتبا وانت تلبس البدله والقميص الابيض وما شاء الله ساعه غاليه وهكذا والنظارات",
+      "start_time": 1253.64,
+      "end_time": 1267.2,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 87,
+      "english": "then they think you are a businessman or a university professor or a person. They think you are a person of high social value,",
+      "arabic": "فهم ين يظنونك رجل اعمال او استاذ في الجامعه او انسان يظنونك يظنونك انسانا ذا قيمه اجتماعيه عاليه",
+      "start_time": 1267.2,
+      "end_time": 1283.96,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 88,
+      "english": "with money, and with a position. They think you are like that. But if you are in this shirt, for example, and in what? Wearing old clothes and cheap shoes,",
+      "arabic": "وذا مال وذا ذا منصب يظنونك هكذا اما اذا كنت في هذا القميص مثلا وفي اي في ماذا؟ في ملابس قديمه في حذاء رخيص",
+      "start_time": 1283.96,
+      "end_time": 1303.0,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 89,
+      "english": "even if you're a millionaire, they'll naturally assume you're poor. They'll look at you",
+      "arabic": "وان كنت مليونيرا فهم طبعا سيظنونك سيظنونك فقيرا سينظرون اليك",
+      "start_time": 1303.0,
+      "end_time": 1317.159,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 90,
+      "english": "and wonder, \"Who is this man? He looks like a vegetable vendor. \" And if you are a millionaire, then as the Russian proverb says, \"People greet you",
+      "arabic": "ويفكرون وهم سيفكرون من هذا الرجل يبدو انه بائع خضروات وان كنت مليونيرا اذا المثل الروسي يقول الناس يستقبلونك",
+      "start_time": 1318.32,
+      "end_time": 1332.679,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 91,
+      "english": "based on your appearance.\" Your appearance isn't what it seems. Unfortunately, my tongue betrays me",
+      "arabic": "نظرا الى منظرك مظهرك ليس منظر نظرا الى من مظهرك للاسف لساني يخون",
+      "start_time": 1332.679,
+      "end_time": 1345.36,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 92,
+      "english": "today, not just today, but tonight. My tongue betrays me often. May God forgive you, tongue!",
+      "arabic": "اليوم لساني وليس اليوم الليله لساني يخونني كثيرا يخون سامحك الله يا لسان",
+      "start_time": 1345.36,
+      "end_time": 1357.52,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 93,
+      "english": "People greet you based on your appearance and bid you farewell based on your intellect. Of course, after speaking, if they see you for the first time,",
+      "arabic": "فالناس يستقبلونك نظرا الى مظهرك ويودعونك نظرا الى عقلك طبعا بعد الكلام يعني اذا راوك لاول وهله",
+      "start_time": 1357.96,
+      "end_time": 1372.32,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 94,
+      "english": "they look at you and assess you. How many are you out of 10? Five? Six? One? They evaluate you. They want to place you in a certain category in their minds.",
+      "arabic": "وهله ينظرون اليك ويق يقيمونك كم انت من 10 خمسه 6 واحد يعني يقيمونك يريدون ان يريدون ان يضعوك في مكان معين في عقولهم",
+      "start_time": 1372.32,
+      "end_time": 1390.84,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "Then, after speaking with you, they discover your true nature after half an hour or an hour",
+      "arabic": "ثم بعد الكلام معك يستكشفون حقيقتك بعد نصف ساعه او بعد ساعه",
+      "start_time": 1390.84,
+      "end_time": 1399.48,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 95
+    },
+    {
+      "english": "of conversation. They discover that you are knowledgeable, wealthy, and hold a high position in society. For example, you might be",
+      "arabic": "في الكلام يستكشفون انك صاحب علم صاحب مال صاحب مكانه عاليه في المجتمع مثلا قد تكون",
+      "start_time": 1399.48,
+      "end_time": 1411.279,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 96
+    },
+    {
+      "id": 97,
+      "english": "a professor, a university professor, or a businessman. So, when they say goodbye, they bid you farewell knowing your true nature. They bid you farewell with reason, so it's",
+      "arabic": "استاذه ا استاذا جامعيا قد تكون قد تكون رجل اعمال يعني فهم عند الوداع عند الوداع يودعونك وهم يعرفون حقيقتك يودعونك بالعقل لذلك من",
+      "start_time": 1411.279,
+      "end_time": 1430.84,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 98,
+      "english": "very important that your appearance suits your circumstances. If you are poor, don't try to pretend to be",
+      "arabic": "المهم جدا ان يكون مظهرك لائقا بحالك اذا كنت فقيرا فلا تحاول ان تتظاهر",
+      "start_time": 1430.84,
+      "end_time": 1442.76,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "rich by buying things you don't need just to make people think",
+      "arabic": "بالغناء فتشتري اشياء لا تحتاج اليها فقط لتشعر الناس انك",
+      "start_time": 1442.76,
+      "end_time": 1452.24,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 99
+    },
+    {
+      "english": "you have money. Don't do that. Be yourself. Why did you even bring this up? Why did you even bring",
+      "arabic": "ذو مال لا تفعل هذا كن كما انت كن كما انت فلماذا اصلا تطرقت لماذا اصلا تطرقت الى",
+      "start_time": 1452.24,
+      "end_time": 1463.24,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 100
+    },
+    {
+      "id": 101,
+      "english": "this up? Yes, the quality of the videos must be high to attract the person who wasn't even thinking",
+      "arabic": "هذا ال الكلام نعم ال الجوده في الفيديوهات يجب ان تكون عاليه حتى تجذب الانسان الذي اصلا ما كان يفكر",
+      "start_time": 1463.24,
+      "end_time": 1476.84,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "id": 102,
+      "english": "of watching you, who wasn't even interested in you. But you started your video with interesting and beautiful words, and you",
+      "arabic": "ان يشاهدك هو اصلا ما كان يهتم بك لكن بدات مرئيتك بكلام شيق جميل وامسكته",
+      "start_time": 1476.84,
+      "end_time": 1488.559,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    },
+    {
+      "english": "captured their attention and gave them knowledge. Look, how beneficial you are,",
+      "arabic": "امسكته امسكت انتباهه واعطيته العلم انظر ما شاء الله ما انفعك",
+      "start_time": 1488.559,
+      "end_time": 1496.88,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 103
+    },
+    {
+      "english": "how clever you are, and how cunning you are in spreading goodness, if I may say so.",
+      "arabic": "ما اذكاك وما امكرك في نشر الخير ان صح التعبير ان جاز القول ما امكرك في نشر",
+      "start_time": 1496.88,
+      "end_time": 1506.76,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 104
+    },
+    {
+      "english": "So now, a preacher should be like this. He should combine",
+      "arabic": "الخير فالان صاحب دعوه يجب ان يكون هكذا يجب ان يجمع بين",
+      "start_time": 1506.76,
+      "end_time": 1517.64,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 105
+    },
+    {
+      "english": "what? High quality with sound knowledge. May God reward you, and peace, mercy, and blessings of",
+      "arabic": "ماذا؟ بين الجوده العاليه وبين علم رصين فجزاكم الله خيرا والسلام عليكم ورحمه",
+      "start_time": 1517.72,
+      "end_time": 1527.559,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high",
+      "id": 106
+    },
+    {
+      "id": 107,
+      "english": "God be upon you.",
+      "arabic": "الله وبركاته",
+      "start_time": 1527.559,
+      "end_time": 1528.576,
+      "source_caption_type": "human_ar_manual",
+      "english_alignment_confidence": "high"
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,163 @@
+{
+  "id": "articles_a_an_basic",
+  "category": "basics",
+  "titleEn": "A and An",
+  "titleAr": "استخدام a و an",
+  "level": "A1",
+  "explanationEn": "Use a or an before one countable thing when it is not a specific named item. Use a before a consonant sound and an before a vowel sound.",
+  "explanationAr": "في العربية لا توجد أداة نكرة مثل a أو an. نستخدم a أو an في الإنجليزية قبل اسم مفرد يمكن عده عندما نتحدث عن شيء واحد غير محدد. نستخدم a قبل صوت ساكن و an قبل صوت متحرك.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عندي قلم",
+      "arabicLiteral": "I have pen",
+      "englishCorrect": "I have a pen"
+    },
+    {
+      "arabicStructure": "هذه تفاحة",
+      "arabicLiteral": "This apple",
+      "englishCorrect": "This is an apple"
+    },
+    {
+      "arabicStructure": "هو طالب",
+      "arabicLiteral": "He student",
+      "englishCorrect": "He is a student"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have pencil.",
+      "correct": "I have a pencil.",
+      "explanationEn": "Use a before one countable noun like pencil.",
+      "explanationAr": "نضيف a قبل الاسم المفرد المعدود مثل pencil."
+    },
+    {
+      "wrong": "She has a apple.",
+      "correct": "She has an apple.",
+      "explanationEn": "Apple starts with a vowel sound, so use an.",
+      "explanationAr": "كلمة apple تبدأ بصوت متحرك، لذلك نستخدم an."
+    },
+    {
+      "wrong": "This is an bag.",
+      "correct": "This is a bag.",
+      "explanationEn": "Bag starts with a consonant sound, so use a.",
+      "explanationAr": "كلمة bag تبدأ بصوت ساكن، لذلك نستخدم a."
+    }
+  ],
+  "questions": [
+    {
+      "id": "aan_q1",
+      "type": "fill_blank_with_options",
+      "prompt": "I have ___ book.",
+      "promptAr": "اختر a أو an.",
+      "options": ["a", "an", "are", "is"],
+      "correctIndex": 0,
+      "explanation": "Book starts with a consonant sound, so use a.",
+      "arabicNote": "نقول a book لأن الصوت الأول ساكن.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "She has ___ apple.",
+      "promptAr": "اختر a أو an.",
+      "options": ["an", "a", "am", "are"],
+      "correctIndex": 0,
+      "explanation": "Apple starts with a vowel sound, so use an.",
+      "arabicNote": "نقول an apple لأن الصوت الأول متحرك.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q3",
+      "type": "multiple_choice",
+      "prompt": "Which article goes before orange?",
+      "promptAr": "أي أداة تأتي قبل orange؟",
+      "options": ["an", "a", "is"],
+      "correctIndex": 0,
+      "explanation": "Orange starts with a vowel sound, so use an.",
+      "arabicNote": "orange تبدأ بصوت متحرك، لذلك نستخدم an.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "options": ["He has pen.", "He has a pen.", "He has an pen."],
+      "correctIndex": 1,
+      "explanation": "Pen is one countable noun and starts with a consonant sound, so use a.",
+      "arabicNote": "العربية لا تحتاج أداة هنا، لكن الإنجليزية تحتاج a.",
+      "weakTag": "article_omission"
+    },
+    {
+      "id": "aan_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "I have pencil.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["I have a pencil.", "I have an pencil.", "I a have pencil."],
+      "correctIndex": 0,
+      "explanation": "Add a before pencil.",
+      "arabicNote": "هذا خطأ شائع لأن العربية لا تستخدم a/an.",
+      "weakTag": "article_omission"
+    },
+    {
+      "id": "aan_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "She has a egg.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["She has an egg.", "She has a egg.", "She an has egg."],
+      "correctIndex": 0,
+      "explanation": "Egg starts with a vowel sound, so use an.",
+      "arabicNote": "نستخدم an قبل egg لأن بدايتها صوت متحرك.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "This is ___ umbrella.",
+      "promptAr": "اختر a أو an.",
+      "options": ["an", "a", "are", "am"],
+      "correctIndex": 0,
+      "explanation": "Umbrella starts with a vowel sound, so use an.",
+      "arabicNote": "نقول an umbrella.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "It is ___ bag.",
+      "promptAr": "اختر a أو an.",
+      "options": ["a", "an", "is", "are"],
+      "correctIndex": 0,
+      "explanation": "Bag starts with a consonant sound, so use a.",
+      "arabicNote": "نقول a bag.",
+      "weakTag": "article_a_vs_an"
+    },
+    {
+      "id": "aan_q9",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["apple.", "an", "is", "This"],
+      "correctOrder": [3, 2, 1, 0],
+      "explanation": "The correct sentence is This is an apple.",
+      "arabicNote": "نضع an قبل apple لأنها تبدأ بصوت متحرك.",
+      "weakTag": "article_word_order"
+    },
+    {
+      "id": "aan_q10",
+      "type": "meaning_match",
+      "prompt": "Match each phrase to its Arabic meaning.",
+      "promptAr": "صل كل عبارة بمعناها.",
+      "pairs": [
+        { "left": "a book", "right": "كتاب واحد" },
+        { "left": "an apple", "right": "تفاحة واحدة" },
+        { "left": "a pen", "right": "قلم واحد" }
+      ],
+      "explanation": "A and an both show one item, but the sound after the article changes the choice.",
+      "arabicNote": "a و an معناهما قريب: شيء واحد غير محدد.",
+      "weakTag": "article_meaning"
+    }
+  ]
+}

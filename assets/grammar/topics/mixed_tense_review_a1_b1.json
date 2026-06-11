@@ -1,0 +1,231 @@
+{
+  "id": "mixed_tense_review_a1_b1",
+  "category": "b1_core",
+  "titleEn": "Mixed Tense Review A1-B1",
+  "titleAr": "مراجعة الأزمنة من A1 إلى B1",
+  "level": "B1",
+  "explanationEn": "Practice choosing the correct tense (present simple, past simple, future simple, present perfect) using clear time markers and result/experience contexts. Focus on helper verbs (do/does, did, will, have/has) and word order. Target: standard British English where present perfect is required for present relevance.",
+  "explanationAr": "مراجعة لاختيار الزمن الصحيح (الحاضر البسيط، الماضي البسيط، المستقبل البسيط، والمضارع التام) اعتمادًا على دلائل زمنية واضحة ونتيجة أو خبرة في الحاضر. نركّز على أفعال المساعدة مثل do/did/will و have/has وترتيب الكلمات لأن العربية لا تستخدم دائمًا نفس أدوات الزمن، فيحدث نقل نحوي خاطئ عند الترجمة الحرفية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أعيش هنا منذ 2019.",
+      "arabicLiteral": "I live here since 2019.",
+      "englishCorrect": "I have lived here since 2019."
+    },
+    {
+      "arabicStructure": "هي لم تزُرْ لندن أبداً.",
+      "arabicLiteral": "She did not visit London ever.",
+      "englishCorrect": "She has never visited London."
+    },
+    {
+      "arabicStructure": "أنهيت واجبي أمس.",
+      "arabicLiteral": "I finished my homework yesterday.",
+      "englishCorrect": "I finished my homework yesterday."
+    },
+    {
+      "arabicStructure": "لقد أنهيت واجبي.",
+      "arabicLiteral": "I have finished my homework.",
+      "englishCorrect": "I have finished my homework."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She never visited London.",
+      "correct": "She has never visited London.",
+      "explanationEn": "When we ask about life experience with no past time, use present perfect: has/have + past participle.",
+      "explanationAr": "خطأ شائع: الترجمة الحرفية من العربية تؤدي إلى حذف have/has. عند الحديث عن خبرة عامة بلا وقت محدد نستخدم has/have + التصريف الثالث."
+    },
+    {
+      "wrong": "I live here since 2019.",
+      "correct": "I have lived here since 2019.",
+      "explanationEn": "Actions started in the past and continuing now need present perfect with 'since'.",
+      "explanationAr": "في العربية قد نستخدم المضارع مع 'منذ'. بالإنجليزية القياسية (British) نحتاج have + التصريف الثالث مع 'since' لأن الفعل مرتبط بالحاضر."
+    },
+    {
+      "wrong": "Did you went to school yesterday?",
+      "correct": "Did you go to school yesterday?",
+      "explanationEn": "After 'did' use the base verb. Using past form is incorrect because 'did' already marks past tense.",
+      "explanationAr": "يميل المتعلمون العرب إلى وضع الفعل الماضي بعد did. لكن did تجعل الجملة ماضية، لذا نستخدم الفعل في صورته الأساسية."
+    },
+    {
+      "wrong": "He will finished the test by tomorrow.",
+      "correct": "He will finish the test by tomorrow.",
+      "explanationEn": "After 'will' use the base verb. A past participle after will is ungrammatical for simple future.",
+      "explanationAr": "خطأ شائع هو وضع التصريف الثالث بعد will. في المستقبل البسيط نستخدم will + الفعل الأساسي بدون تصريف ثالث."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mtrab_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence. Context: He started living in this city in 2019 and still lives here now.",
+      "promptAr": "اختر الجملة الصحيحة. السياق: بدأ السكن هنا في 2019 وما زال يعيش هنا الآن.",
+      "explanation": "Use present perfect for actions that began in the past and continue now.",
+      "arabicNote": "في الإنجليزية القياسية (British) عند الحديث عن حالة مستمرة منذ نقطة ماضية مع 'since' نستخدم have/has + التصريف الثالث. الجملة 'He lived here since 2019.' غير معيارية لوصف حالة مستمرة الآن؛ انتبه لاستخدام has.",
+      "weakTag": "mixed_tense_review_a1_b1_form",
+      "options": [
+        "He lived here since 2019.",
+        "He has lived here since 2019.",
+        "He will live here since 2019."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mtrab_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence matches the time marker 'yesterday'?",
+      "promptAr": "أي جملة تناسب الدليل الزمني 'yesterday'؟",
+      "explanation": "Use past simple to talk about finished actions at a specific past time like 'yesterday'.",
+      "arabicNote": "عند ذكر زمن محدد في الماضي مثل 'yesterday' نستخدم الماضي البسيط. قد يخلط المتعلم بين الماضي والمضارع التام لأن العربية لا تستخدم نفس أدوات المساعدة.",
+      "weakTag": "mixed_tense_review_a1_b1_word_order",
+      "options": [
+        "She has breakfast yesterday.",
+        "She had breakfast yesterday.",
+        "She has had breakfast yesterday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mtrab_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: Every morning Ali ___ English words before school.",
+      "promptAr": "أكمل: كل صباح علي ___ كلمات إنجليزية قبل المدرسة.",
+      "explanation": "Use present simple for daily routines and habits; add -s for he/she/it.",
+      "arabicNote": "للوصف الروتيني نستخدم المضارع البسيط. المتعلمون العرب قد يترجمون بصيغة الماضي أو التام؛ لكن مع he نضيف s للفعل في الإنجليزية، لذلك الشكل الصحيح هنا هو studies.",
+      "weakTag": "mixed_tense_review_a1_b1_meaning",
+      "options": [
+        "studies",
+        "studied",
+        "study",
+        "will study"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "mtrab_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: We ask now about her life experience up to the present (no past time mentioned).",
+      "promptAr": "اختر التصحيح الأفضل. السياق: نسأل الآن عن خبرتها الحياتية حتى الحاضر (بدون ذكر زمن ماضٍ محدد).",
+      "explanation": "Use present perfect for life experience when no specific past time is given.",
+      "arabicNote": "عند السؤال عن خبرة عامة بلا وقت محدد نستخدم have/has + التصريف الثالث. الترجمة الحرفية من العربية قد تُنقِص have/has أو تستخدم الماضي البسيط، وهذا يجعل الجملة غير صحيحة للسياق.",
+      "weakTag": "mixed_tense_review_a1_b1_arabic_transfer",
+      "options": [
+        "She has never visited London.",
+        "She didn't never visit London.",
+        "Did she visited London?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She never visited London."
+    },
+    {
+      "id": "mtrab_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order. Context: The work will be finished tomorrow.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة. السياق: سينتهي العمل غدًا.",
+      "explanation": "Use will + be + past participle to form the passive for future events.",
+      "arabicNote": "في المبني للمجهول للمستقبل نضع will ثم be ثم التصريف الثالث. ترتيب الكلمات في الإنجليزية صارم ويختلف عن بعض تراكيب العربية لذلك يجب الالتزام بـ will + be + التصريف الثالث.",
+      "weakTag": "mixed_tense_review_a1_b1_word_order",
+      "words": [
+        "work",
+        "The",
+        "finished",
+        "will",
+        "be",
+        "tomorrow"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        3,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "mtrab_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. Each sentence has a time marker that decides the tense.",
+      "promptAr": "وصل كل جملة إنجليزية بترجمتها العربية. كل جملة تحتوي على دليل زمني يحدد الزمن.",
+      "explanation": "Match tense to the time marker: present perfect for present result, past simple for specific past time, future simple for scheduled 'tomorrow'.",
+      "arabicNote": "طبق دليل الزمن: 'have finished' أو 'already' تشير لنتيجة الآن وتحتاج المضارع التام؛ 'yesterday' أو 'last year' يحدد الماضي؛ 'tomorrow' يحدد المستقبل.",
+      "weakTag": "mixed_tense_review_a1_b1_meaning",
+      "pairs": [
+        {
+          "left": "I have finished my homework.",
+          "right": "لقد أنهيت واجبي."
+        },
+        {
+          "left": "I finished my homework yesterday.",
+          "right": "أنهيت واجبي أمس."
+        },
+        {
+          "left": "I will finish my homework tomorrow.",
+          "right": "سأنهي واجبي غدًا."
+        }
+      ]
+    },
+    {
+      "id": "mtrab_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form. Context: The exam is next week, so the teacher talks about a scheduled action in the future.",
+      "promptAr": "اختر الشكل الصحيح. السياق: الامتحان الأسبوع القادم والمعلمة تتحدث عن فعل مقرر في المستقبل.",
+      "explanation": "Use 'will' plus the base verb to describe a future action from now.",
+      "arabicNote": "للفعل المستقبلي من الآن نستخدم will + الفعل الأساسي. الترجمة الحرفية قد تضع الماضي بدل will أو تغير ترتيب الكلمات، انتبه لاستخدام will الصحيح.",
+      "weakTag": "mixed_tense_review_a1_b1_form",
+      "options": [
+        "The teacher gave the exam next week.",
+        "The teacher will gave the exam next week.",
+        "The teacher will give the exam next week."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "mtrab_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: They ___ the project already. (We care about the result now.)",
+      "promptAr": "أكمل: هم ___ المشروع بالفعل. (نريد النتيجة الآن.)",
+      "explanation": "Use present perfect with 'already' to show a past action that has a present result.",
+      "arabicNote": "مع 'already' التي تشير إلى نتيجة حالية نستخدم have/has + التصريف الثالث. الترجمة الحرفية قد تحذف have أو تغير زمن الفعل؛ تأكد على have + past participle.",
+      "weakTag": "mixed_tense_review_a1_b1_form",
+      "options": [
+        "will finished",
+        "have finished",
+        "have finish",
+        "will finish"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mtrab_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes an action at a specific past time 'last year'?",
+      "promptAr": "أي جملة تصف فعلًا في زمن ماضٍ محدد 'last year'؟",
+      "explanation": "'Last year' needs past simple; present perfect cannot be used with a specific past time.",
+      "arabicNote": "عند ذكر زمن محدد في الماضي مثل 'last year' نستخدم الماضي البسيط. المتعلمون قد يخلطون لأن العربية أحيانًا لا تفصل بنفس أدوات الزمن، لذلك انتبه لاستخدام past simple.",
+      "weakTag": "mixed_tense_review_a1_b1_word_order",
+      "options": [
+        "I have seen that film last year.",
+        "I saw that film last year.",
+        "I see that film last year."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mtrab_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: We want the result now; ask whether his homework is already complete at this moment.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: نريد النتيجة الآن؛ نسأل إذا كان واجبه قد اكتمل بالفعل في هذه اللحظة.",
+      "explanation": "Present perfect shows a past action with a present result; use has finished for the result now.",
+      "arabicNote": "للسؤال عن الحالة الآن بعد فعل ماضٍ نستخدم has/have + التصريف الثالث. المتعلمون قد يختارون 'did' أو تركيب خاطئ بدلاً من has/have، فتأكد على has + past participle.",
+      "weakTag": "mixed_tense_review_a1_b1_arabic_transfer",
+      "options": [
+        "He has finished his homework.",
+        "He will finished his homework.",
+        "He did finished his homework."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He did finished his homework."
+    }
+  ]
+}

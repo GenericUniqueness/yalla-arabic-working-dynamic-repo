@@ -1,0 +1,169 @@
+{
+  "id": "to_be_adjectives",
+  "category": "basics",
+  "titleEn": "Be with Adjectives",
+  "titleAr": "فعل be مع الصفات",
+  "level": "A1",
+  "explanationEn": "Use am, is, or are before an adjective when you describe a person or thing in the present. The adjective does not work alone after the subject in English.",
+  "explanationAr": "عندما نصف شخصًا أو شيئًا في الحاضر بالإنجليزية، نحتاج إلى am أو is أو are قبل الصفة. في العربية يمكن أن نقول الجملة بدون فعل، لكن في الإنجليزية نحتاج فعل be.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي سعيدة",
+      "arabicLiteral": "She happy",
+      "englishCorrect": "She is happy"
+    },
+    {
+      "arabicStructure": "أنا جاهز",
+      "arabicLiteral": "I ready",
+      "englishCorrect": "I am ready"
+    },
+    {
+      "arabicStructure": "هم متعبون",
+      "arabicLiteral": "They tired",
+      "englishCorrect": "They are tired"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She happy.",
+      "correct": "She is happy.",
+      "explanationEn": "Use is before an adjective with she.",
+      "explanationAr": "مع she نستخدم is قبل الصفة."
+    },
+    {
+      "wrong": "I is ready.",
+      "correct": "I am ready.",
+      "explanationEn": "Use am only with I.",
+      "explanationAr": "الضمير I يأخذ am وليس is."
+    },
+    {
+      "wrong": "They is tired.",
+      "correct": "They are tired.",
+      "explanationEn": "Use are with they.",
+      "explanationAr": "مع they نستخدم are."
+    },
+    {
+      "wrong": "He no sad.",
+      "correct": "He is not sad.",
+      "explanationEn": "Use is not for a negative sentence with he.",
+      "explanationAr": "النفي مع be يكون بإضافة not بعد is."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tba_q1",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ happy.",
+      "promptAr": "اختر فعل be الصحيح.",
+      "options": ["am", "is", "are", "be"],
+      "correctIndex": 1,
+      "explanation": "Use is with she before an adjective.",
+      "arabicNote": "في العربية نقول هي سعيدة، لكن الإنجليزية تحتاج is.",
+      "weakTag": "to_be_omission"
+    },
+    {
+      "id": "tba_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ tired.",
+      "promptAr": "اختر فعل be مع they.",
+      "options": ["are", "is", "am", "be"],
+      "correctIndex": 0,
+      "explanation": "Use are with they.",
+      "arabicNote": "هم متعبون = They are tired.",
+      "weakTag": "to_be_plural"
+    },
+    {
+      "id": "tba_q3",
+      "type": "multiple_choice",
+      "prompt": "Which word completes the sentence: I ___ ready.",
+      "promptAr": "أي كلمة تكمل الجملة؟",
+      "options": ["am", "is", "are", "be"],
+      "correctIndex": 0,
+      "explanation": "Use am with I.",
+      "arabicNote": "أنا جاهز = I am ready.",
+      "weakTag": "to_be_first_person"
+    },
+    {
+      "id": "tba_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which negative sentence is correct?",
+      "promptAr": "أي جملة نفي صحيحة؟",
+      "options": ["He no sad.", "He is not sad.", "He not is sad."],
+      "correctIndex": 1,
+      "explanation": "Put not after is: He is not sad.",
+      "arabicNote": "النفي في الإنجليزية هنا: is not.",
+      "weakTag": "to_be_negative"
+    },
+    {
+      "id": "tba_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "She happy.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["She is happy.", "She are happy.", "She happy is."],
+      "correctIndex": 0,
+      "explanation": "Add is after she and before the adjective.",
+      "arabicNote": "هذا خطأ شائع لأن العربية لا تحتاج فعلًا في هذا النوع من الجمل.",
+      "weakTag": "to_be_omission"
+    },
+    {
+      "id": "tba_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "They is tired.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["They are tired.", "They am tired.", "They tired are."],
+      "correctIndex": 0,
+      "explanation": "They takes are, not is.",
+      "arabicNote": "مع الجمع في هذه الجملة نستخدم are.",
+      "weakTag": "to_be_plural"
+    },
+    {
+      "id": "tba_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "We ___ not late.",
+      "promptAr": "اختر فعل be قبل not.",
+      "options": ["are", "is", "am", "be"],
+      "correctIndex": 0,
+      "explanation": "Use are with we, then add not for the negative.",
+      "arabicNote": "نحن لسنا متأخرين = We are not late.",
+      "weakTag": "to_be_negative"
+    },
+    {
+      "id": "tba_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which question is correct?",
+      "promptAr": "أي سؤال صحيح؟",
+      "options": ["Are you ready?", "You are ready?", "Ready you are?"],
+      "correctIndex": 0,
+      "explanation": "In a be question, put are before you.",
+      "arabicNote": "في السؤال نبدأ بـ are ثم الضمير you.",
+      "weakTag": "to_be_question_form"
+    },
+    {
+      "id": "tba_q9",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["not", "is", "He", "cold."],
+      "correctOrder": [2, 1, 0, 3],
+      "explanation": "The correct order is subject + is + not + adjective: He is not cold.",
+      "arabicNote": "ترتيب النفي مع be مهم: is not.",
+      "weakTag": "to_be_negative"
+    },
+    {
+      "id": "tba_q10",
+      "type": "meaning_match",
+      "prompt": "Match each adjective to its Arabic meaning.",
+      "promptAr": "صل كل صفة بمعناها.",
+      "pairs": [
+        { "left": "happy", "right": "سعيد" },
+        { "left": "tired", "right": "متعب" },
+        { "left": "ready", "right": "جاهز" }
+      ],
+      "explanation": "These adjectives need am, is, or are when they describe the subject.",
+      "arabicNote": "بعد معرفة معنى الصفة، تذكر إضافة be قبلها في الجملة الإنجليزية.",
+      "weakTag": "to_be_adjectives_meaning"
+    }
+  ]
+}

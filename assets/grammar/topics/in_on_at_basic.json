@@ -1,0 +1,224 @@
+{
+  "id": "in_on_at_basic",
+  "category": "basics",
+  "titleEn": "In, On, and At Basics",
+  "titleAr": "أساسيات in و on و at",
+  "level": "A1-A2",
+  "explanationEn": "Use 'in' for enclosed spaces, 'on' for surfaces, and 'at' for specific points. For example, 'in a room', 'on a table', 'at school'. Arabic prepositions do not always match English, so be careful.",
+  "explanationAr": "استخدم 'in' للأماكن المغلقة مثل الغرفة، و' on' للأسطح مثل الطاولة، و'at' للنقاط المحددة مثل المدرسة. في العربية، قد لا تتطابق حروف الجر مع الإنجليزية، لذا كن حذرًا.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا في الغرفة",
+      "arabicLiteral": "I in the room",
+      "englishCorrect": "I am in the room"
+    },
+    {
+      "arabicStructure": "الكتاب على الطاولة",
+      "arabicLiteral": "The book on the table",
+      "englishCorrect": "The book is on the table"
+    },
+    {
+      "arabicStructure": "أنا في المدرسة",
+      "arabicLiteral": "I at school",
+      "englishCorrect": "I am at school"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am in home.",
+      "correct": "I am at home.",
+      "explanationEn": "'At home' is a fixed English phrase. Do not say 'in home'.",
+      "explanationAr": "'at home' عبارة ثابتة في الإنجليزية تعني في البيت. لا تقل 'in home'."
+    },
+    {
+      "wrong": "The book is in the table.",
+      "correct": "The book is on the table.",
+      "explanationEn": "'On' is used for surfaces, not 'in'.",
+      "explanationAr": "'On' تُستخدم للأسطح، وليس 'in'."
+    },
+    {
+      "wrong": "I am in school.",
+      "correct": "I am at school.",
+      "explanationEn": "'At' is used for specific locations like school.",
+      "explanationAr": "'At' تُستخدم للأماكن المحددة مثل المدرسة."
+    },
+    {
+      "wrong": "She is in the bus.",
+      "correct": "She is on the bus.",
+      "explanationEn": "Use 'on' with public transport: on the bus, on the train, on the plane.",
+      "explanationAr": "نستخدم 'on' مع وسائل النقل العام: on the bus، on the train، on the plane."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ioa_q1",
+      "type": "multiple_choice",
+      "prompt": "I am ___ school.",
+      "promptAr": "أنا ___ المدرسة.",
+      "explanation": "'At' is used for specific locations like school.",
+      "arabicNote": "نستخدم 'at' للأماكن المحددة مثل المدرسة.",
+      "weakTag": "in_on_at_basic_multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ioa_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'On' is used for surfaces like a table.",
+      "arabicNote": "نستخدم 'on' للأسطح مثل الطاولة.",
+      "weakTag": "in_on_at_basic_choose_correct_sentence",
+      "options": [
+        "The cat is in the table.",
+        "The cat is on the table.",
+        "The cat is at the table."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ioa_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She is ___ the room.",
+      "promptAr": "هي ___ الغرفة.",
+      "explanation": "'In' is used for enclosed spaces like a room.",
+      "arabicNote": "نستخدم 'in' للأماكن المغلقة مثل الغرفة.",
+      "weakTag": "in_on_at_basic_fill_blank",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ioa_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use 'on' with public transport: on the bus, on the train, on the plane.",
+      "arabicNote": "نستخدم 'on' مع وسائل النقل العام مثل bus و train و plane.",
+      "weakTag": "in_on_at_basic_fix_the_mistake",
+      "options": [
+        "I am on the bus.",
+        "I am at the bus.",
+        "I am in bus."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I am in the bus."
+    },
+    {
+      "id": "ioa_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'The book is on the table.'",
+      "arabicNote": "الجملة الصحيحة هي 'The book is on the table.'",
+      "weakTag": "in_on_at_basic_sentence_order",
+      "words": [
+        "is",
+        "The",
+        "book",
+        "on",
+        "the",
+        "table."
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ioa_q6",
+      "type": "meaning_match",
+      "prompt": "Match each preposition to its Arabic meaning.",
+      "promptAr": "صل كل حرف جر بمعناه العربي.",
+      "explanation": "These are basic prepositions used for places and times.",
+      "arabicNote": "هذه حروف جر أساسية تُستخدم للأماكن والأوقات.",
+      "weakTag": "in_on_at_basic_meaning_match",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "في"
+        },
+        {
+          "left": "on",
+          "right": "على"
+        },
+        {
+          "left": "at",
+          "right": "عند"
+        }
+      ]
+    },
+    {
+      "id": "ioa_q7",
+      "type": "multiple_choice",
+      "prompt": "The keys are ___ the table.",
+      "promptAr": "المفاتيح ___ الطاولة.",
+      "explanation": "'On' is used for surfaces like a table.",
+      "arabicNote": "نستخدم 'on' للأسطح مثل الطاولة.",
+      "weakTag": "in_on_at_basic_multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ioa_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'In' is used for months like May.",
+      "arabicNote": "نستخدم 'in' للأشهر مثل مايو.",
+      "weakTag": "in_on_at_basic_choose_correct_sentence",
+      "options": [
+        "My birthday is in May.",
+        "My birthday is on May.",
+        "My birthday is at May."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ioa_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "We meet ___ Monday.",
+      "promptAr": "نلتقي ___ يوم الإثنين.",
+      "explanation": "'On' is used for days like Monday.",
+      "arabicNote": "نستخدم 'on' للأيام مثل يوم الإثنين.",
+      "weakTag": "in_on_at_basic_fill_blank",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ioa_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "'In' is used for enclosed spaces like a room.",
+      "arabicNote": "نستخدم 'in' للأماكن المغلقة مثل الغرفة.",
+      "weakTag": "in_on_at_basic_fix_the_mistake",
+      "options": [
+        "I am in the room.",
+        "I am at the room.",
+        "I am at room."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I am on the room."
+    }
+  ]
+}

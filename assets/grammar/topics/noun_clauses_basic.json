@@ -1,0 +1,225 @@
+{
+  "id": "noun_clauses_basic",
+  "category": "b1_core",
+  "titleEn": "Basic Noun Clauses",
+  "titleAr": "الجمل الاسمية التابعة الأساسية",
+  "level": "B1",
+  "explanationEn": "Noun clauses act as objects after verbs like know, think, believe, and hope. Use a full clause (subject + verb) after these verbs. English often uses 'that' to introduce the clause; Arabic speakers may omit it or keep Arabic word order, causing errors with word order and helper words.",
+  "explanationAr": "في الإنجليزية، تُستخدم الجمل الاسمية التابعة كمفعول بعد أفعال مثل know وthink وbelieve وhope. يجب أن تكون الجملة التابعة كاملة بفاعل وفعل، وأحيانًا تُقدّم بـ that. يميل المتحدثون العرب إلى حذف أداة الربط أو نقل الترتيب العربي حرفيًا، مما يسبب أخطاء في ترتيب الفاعل والفعل واستخدام كلمات الربط.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أعتقد أنه سيسافر غداً.",
+      "arabicLiteral": "I think that he will travel tomorrow",
+      "englishCorrect": "I think that he will travel tomorrow."
+    },
+    {
+      "arabicStructure": "أعرف أن الولد في الصف.",
+      "arabicLiteral": "I know that the boy is in the class",
+      "englishCorrect": "I know that the boy is in the class."
+    },
+    {
+      "arabicStructure": "نأمل أن تكون الرحلة ناجحة.",
+      "arabicLiteral": "We hope that the trip will be successful",
+      "englishCorrect": "We hope that the trip will be successful."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I think him will pass the exam.",
+      "correct": "I think that he will pass the exam.",
+      "explanationEn": "Arabic word order can place the pronoun where English needs a clause with subject then verb.",
+      "explanationAr": "خطأ شائع: نقل ترتيب الضمير من العربية إلى الإنجليزية. في الإنجليزية نحتاج جملة تابعة كاملة: فاعل ثم فعل، وأحيانًا 'that'."
+    },
+    {
+      "wrong": "She believe that she can speaks English.",
+      "correct": "She believes that she can speak English.",
+      "explanationEn": "Two problems: missing -s for she and wrong verb form after modal; the clause must have correct forms.",
+      "explanationAr": "أخطاء متكررة: نسيان -s مع she، واستخدام شكل فعل خاطئ بعد modal (مثل can). الجملة التابعة تحتاج توافقًا صحيحًا."
+    },
+    {
+      "wrong": "We hope arriving early is good.",
+      "correct": "We hope that arriving early will be good.",
+      "explanationEn": "After hope, English normally uses a full clause; a bare gerund changes structure or meaning.",
+      "explanationAr": "خطأ شائع: استخدام مصدر أو -ing وحده دون جملة تابعة كاملة بعد hope. نحتاج إلى جملة واضحة بفاعل وفعل للحفاظ على المعنى."
+    },
+    {
+      "wrong": "He knows the answer is correct him.",
+      "correct": "He knows that the answer is correct.",
+      "explanationEn": "Literal Arabic translation sometimes adds an extra pronoun at the end; English removes the redundant pronoun.",
+      "explanationAr": "ترجمة حرفية قد تضيف ضمائر زائدة أو ترتيبًا مختلفًا. في الإنجليزية لا نضع ضميرًا زائداً بعد جملة تابعة ونحافظ على ترتيب الفاعل ثم الفعل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ncb_q1",
+      "type": "multiple_choice",
+      "prompt": "Complete: I think ___.",
+      "promptAr": "أكمل الجملة بجملة تابعة مناسبة.",
+      "explanation": "Choose a full noun clause with subject and correct verb form as the object of think.",
+      "arabicNote": "في الإنجليزية بعد think نستخدم جملة تابعة كاملة (فاعل + فعل). لا تترك -ing بدون فعل مساعد أو تغيّر ترتيب الفاعل كما في العربية.",
+      "weakTag": "noun_clauses_basic_form",
+      "options": [
+        "that we should study harder",
+        "we should studying harder",
+        "should study we harder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q2",
+      "type": "multiple_choice",
+      "prompt": "They believe ___ about the team's schedule.",
+      "promptAr": "اختر الجملة التابعة الصحيحة حول جدول الفريق.",
+      "explanation": "Pick the clause with correct tense and word order as the object of believe.",
+      "arabicNote": "احذر من نقل ترتيب عربي مباشر أو أخطاء في تصريف الأفعال. جملة تابعة تحتاج الفاعل ثم الفعل بصيغة صحيحة ومناسبة للسياق.",
+      "weakTag": "noun_clauses_basic_word_order",
+      "options": [
+        "that the coach changed the plan",
+        "that the coach has change the plan",
+        "that changed the coach the plan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q3",
+      "type": "multiple_choice",
+      "prompt": "She hopes ___ before dinner.",
+      "promptAr": "اختر الجملة التابعة الصحيحة لِ hope في سياق المنزل والعائلة.",
+      "explanation": "Hope takes a full clause; use future form 'will arrive' with the subject before the verb.",
+      "arabicNote": "في العربية قد نغيّر ترتيب الكلمات أو نحذف أدوات الربط. هنا نحتاج إلى فاعل ثم فعل في الجملة التابعة بعد hope.",
+      "weakTag": "noun_clauses_basic_meaning",
+      "options": [
+        "that her brother will arrive home",
+        "that her brother arriving home",
+        "that will arrive her brother home"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a noun clause as the object?",
+      "promptAr": "أي جملة تستخدم جملة تابعة كمفعول بشكل صحيح؟",
+      "explanation": "Only the first sentence has a complete noun clause with subject and verb after know.",
+      "arabicNote": "الجملة الصحيحة تحتوي على that (اختياري أحيانًا) وجملة تابعة كاملة. لا تُسقط الفاعل أو تضع صيغة -ing وحدها كما في أمثلة خاطئة.",
+      "weakTag": "noun_clauses_basic_form",
+      "options": [
+        "I know that my sister is studying.",
+        "Know my sister is studying.",
+        "I know my sister studying."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q5",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence with hope about travel.",
+      "promptAr": "اختر الجملة الصحيحة مع hope في سياق سفر.",
+      "explanation": "The correct sentence uses a full clause after hope with subject and future verb.",
+      "arabicNote": "في الإنجليزية نحتاج إلى جملة تابعة واضحة بعد hope. تجنّب حذف الفاعل أو تغيير ترتيب الكلمات كما قد يحدث عند الترجمة حرفيًا من العربية.",
+      "weakTag": "noun_clauses_basic_arabic_transfer",
+      "options": [
+        "We hope that the train will arrive on time.",
+        "Hope train arrives on time.",
+        "We hope that arrival the train on time."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q6",
+      "type": "fill_blank_with_options",
+      "prompt": "The teacher thinks ___ for the test.",
+      "promptAr": "أكمل الجملة بما يناسب رأي المعلم عن الاختبار.",
+      "explanation": "Choose a noun clause with modal structure 'must' and correct infinitive form.",
+      "arabicNote": "المتحدثون العرب قد يضيفون to أو يحولون الفعل إلى -ing. بعد must نستخدم المصدر بدون to داخل الجملة التابعة.",
+      "weakTag": "ncb_word_order",
+      "options": [
+        "that students must study more",
+        "students must studying more",
+        "that students must to study more"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "My mother believes ___ after the trip.",
+      "promptAr": "أكمل للجملة في سياق رحلة: ما الذي تؤمن به والدتي؟",
+      "explanation": "Use past simple 'visited' because the action happened during the finished trip.",
+      "arabicNote": "للسياق الماضي (بعد الرحلة) نستخدم زمن الماضي في الجملة التابعة. تجنّب نقل ترتيب أو تصريفات عربية خاطئة إلى الإنجليزية.",
+      "weakTag": "noun_clauses_basic_form",
+      "options": [
+        "that we visited three cities",
+        "that we visit three cities",
+        "that we have visit three cities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ncb_q8",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر أفضل تصحيح للجملة الخاطئة.",
+      "explanation": "Fix subject-verb agreement and keep a full noun clause after hope with correct verb forms.",
+      "arabicNote": "خطأ شائع: ننسى إضافة s مع he/she أو نغير ترتيب الفاعل داخل الجملة التابعة. حافظ على توافق الفاعل والفعل واستخدم that عند الحاجة.",
+      "weakTag": "ncb_subject_agreement",
+      "options": [
+        "She hopes that she will pass the exam.",
+        "She hope that she will passes the exam.",
+        "She hopes that will pass the exam."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She hope that she will pass the exam."
+    },
+    {
+      "id": "ncb_q9",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a full sentence with a noun clause.",
+      "promptAr": "رتب الكلمات لتكوين جملة كاملة تحتوي على جملة تابعة.",
+      "explanation": "Correct order: \"We believe that Ali forgot his book.\" A noun clause follows that with subject and verb.",
+      "arabicNote": "في الإنجليزية نرتّب الجملة الأساسية ثم 'that' ثم الجملة التابعة (فاعل + فعل). المتكلمون العرب قد يغيّرون موضع الضمير أو الأداة، فاحذر.",
+      "weakTag": "noun_clauses_basic_word_order",
+      "words": [
+        "forgot",
+        "his",
+        "We",
+        "that",
+        "book.",
+        "Ali",
+        "believe"
+      ],
+      "correctOrder": [
+        2,
+        6,
+        3,
+        5,
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "ncb_q10",
+      "type": "meaning_match",
+      "prompt": "Match each English noun clause to its Arabic meaning.",
+      "promptAr": "وصل كل جملة تابعة إنجليزية بمعناها العربي.",
+      "explanation": "Each clause is a full object after verbs like know or believe and gives a fact or report.",
+      "arabicNote": "الجمل التابعة هنا تعمل كمفعول بعد أفعال إخبارية. احفظ التتابع: that + فاعل + فعل، ولا تترجم ترتيب الجملة حرفيًا من العربية.",
+      "weakTag": "noun_clauses_basic_meaning",
+      "pairs": [
+        {
+          "left": "that the meeting will start at nine",
+          "right": "أن الاجتماع سيبدأ في التاسعة"
+        },
+        {
+          "left": "that she studied for three hours",
+          "right": "أنها درست لمدة ثلاث ساعات"
+        },
+        {
+          "left": "that he forgot his passport",
+          "right": "أنه نسي جواز سفره"
+        }
+      ]
+    }
+  ]
+}

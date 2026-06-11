@@ -1,0 +1,166 @@
+{
+  "id": "to_be_jobs",
+  "category": "basics",
+  "titleEn": "Be with Jobs",
+  "titleAr": "فعل be مع المهن",
+  "level": "A1",
+  "explanationEn": "Use am, is, or are when you say a person's job or role. With one job noun, English usually uses a or an: She is a teacher. He is an engineer.",
+  "explanationAr": "عند الحديث عن المهنة في الإنجليزية نستخدم am أو is أو are. ومع المهنة المفردة نضيف غالبًا a أو an قبل اسم المهنة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي معلمة",
+      "arabicLiteral": "She teacher",
+      "englishCorrect": "She is a teacher"
+    },
+    {
+      "arabicStructure": "هو مهندس",
+      "arabicLiteral": "He engineer",
+      "englishCorrect": "He is an engineer"
+    },
+    {
+      "arabicStructure": "هم طلاب",
+      "arabicLiteral": "They students",
+      "englishCorrect": "They are students"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She teacher.",
+      "correct": "She is a teacher.",
+      "explanationEn": "English needs is and a before a singular job noun.",
+      "explanationAr": "نحتاج is ثم a قبل المهنة المفردة."
+    },
+    {
+      "wrong": "He is doctor.",
+      "correct": "He is a doctor.",
+      "explanationEn": "Use a before a singular job noun that starts with a consonant sound.",
+      "explanationAr": "نضيف a قبل المهنة المفردة مثل doctor."
+    },
+    {
+      "wrong": "I is a student.",
+      "correct": "I am a student.",
+      "explanationEn": "Use am with I.",
+      "explanationAr": "مع I نستخدم am."
+    },
+    {
+      "wrong": "They are a students.",
+      "correct": "They are students.",
+      "explanationEn": "Do not use a with plural job nouns.",
+      "explanationAr": "لا نستخدم a مع الجمع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tbj_q1",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ a teacher.",
+      "promptAr": "اختر فعل be الصحيح.",
+      "options": ["is", "am", "are", "be"],
+      "correctIndex": 0,
+      "explanation": "Use is with she when you name her job.",
+      "arabicNote": "هي معلمة = She is a teacher.",
+      "weakTag": "to_be_jobs_omission"
+    },
+    {
+      "id": "tbj_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ a student.",
+      "promptAr": "اختر فعل be مع I.",
+      "options": ["am", "is", "are", "be"],
+      "correctIndex": 0,
+      "explanation": "Use am with I.",
+      "arabicNote": "أنا طالب = I am a student.",
+      "weakTag": "to_be_jobs_first_person"
+    },
+    {
+      "id": "tbj_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ doctors.",
+      "promptAr": "اختر فعل be مع الجمع.",
+      "options": ["are", "is", "am", "a"],
+      "correctIndex": 0,
+      "explanation": "Use are with they. Doctors is plural, so no a is needed.",
+      "arabicNote": "هم أطباء = They are doctors.",
+      "weakTag": "to_be_jobs_plural"
+    },
+    {
+      "id": "tbj_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "He is doctor.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["He is a doctor.", "He are a doctor.", "He doctor is."],
+      "correctIndex": 0,
+      "explanation": "Add a before the singular job noun doctor.",
+      "arabicNote": "العربية لا تستخدم أداة مثل a، لذلك هذا خطأ شائع.",
+      "weakTag": "to_be_jobs_article"
+    },
+    {
+      "id": "tbj_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "Omar a driver.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "options": ["Omar is a driver.", "Omar are a driver.", "Omar driver a."],
+      "correctIndex": 0,
+      "explanation": "Use is after one person's name.",
+      "arabicNote": "اسم شخص واحد يأخذ is في هذه الجملة.",
+      "weakTag": "to_be_jobs_omission"
+    },
+    {
+      "id": "tbj_q6",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "options": ["She nurse.", "She is a nurse.", "She are nurse."],
+      "correctIndex": 1,
+      "explanation": "The correct sentence has she + is + a + job.",
+      "arabicNote": "التركيب الصحيح: الفاعل ثم is ثم a ثم المهنة.",
+      "weakTag": "to_be_jobs_article"
+    },
+    {
+      "id": "tbj_q7",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["a", "teacher.", "is", "He"],
+      "correctOrder": [3, 2, 0, 1],
+      "explanation": "The correct order is He is a teacher.",
+      "arabicNote": "ضع is بعد الفاعل، و a قبل المهنة المفردة.",
+      "weakTag": "to_be_jobs_word_order"
+    },
+    {
+      "id": "tbj_q8",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["are", "They", "students."],
+      "correctOrder": [1, 0, 2],
+      "explanation": "Use They are before a plural job or role noun.",
+      "arabicNote": "مع الجمع نستخدم are ولا نضيف a.",
+      "weakTag": "to_be_jobs_plural"
+    },
+    {
+      "id": "tbj_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Mona is ___ engineer.",
+      "promptAr": "اختر a أو an.",
+      "options": ["an", "a", "are", "is"],
+      "correctIndex": 0,
+      "explanation": "Engineer starts with a vowel sound, so use an.",
+      "arabicNote": "قبل صوت متحرك نستخدم an مثل an engineer.",
+      "weakTag": "to_be_jobs_article"
+    },
+    {
+      "id": "tbj_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for two students?",
+      "promptAr": "أي جملة صحيحة عن طالبين؟",
+      "options": ["They are students.", "They are a students.", "They is students."],
+      "correctIndex": 0,
+      "explanation": "Use are with they, and do not use a before a plural noun.",
+      "arabicNote": "الجمع لا يأخذ a.",
+      "weakTag": "to_be_jobs_plural"
+    }
+  ]
+}

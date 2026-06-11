@@ -1,0 +1,241 @@
+{
+  "id": "subjunctive_formal_structures",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Subjunctive and Formal Structures",
+  "titleAr": "صيغة الشرط والتراكيب الرسمية",
+  "level": "C1",
+  "explanationEn": "This unit explains the mandative subjunctive and polite inversion used in formal instructions, recommendations, and rules. The mandative subjunctive is the base verb used after verbs like suggest/recommend/insist and phrases like 'it is important that' to state a requirement or recommendation. Practice with school, work, and travel contexts.",
+  "explanationAr": "تشرح هذه الوحدة صيغة المانداتيف (تعني استخدام الفعل في صورته الأساسية بعد أفعال مثل suggest/recommend/insist) والانعكاس الرسمي Were I to. نستخدم أمثلة من المدرسة والعمل والسفر ونقارن بالعربية التي تسمح بمرونة أكبر في الترتيب والسياق بينما تحتاج الإنجليزية الرسمية إلى بنية دقيقة وواضحة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أقترح أن تدرسْ غدًا",
+      "arabicLiteral": "I suggest that you study tomorrow",
+      "englishCorrect": "I suggest that you study tomorrow."
+    },
+    {
+      "arabicStructure": "من المهم أن يكون الطالب حاضرًا غدًا",
+      "arabicLiteral": "It is important that the student be present tomorrow",
+      "englishCorrect": "It is important that the student be present tomorrow."
+    },
+    {
+      "arabicStructure": "لو كان لدي وقت أكثر لكنت ساعدتكم",
+      "arabicLiteral": "If I had more time, I would help you",
+      "englishCorrect": "Were I to have more time, I would help you."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I suggest that she goes to the meeting.",
+      "correct": "I suggest that she go to the meeting.",
+      "explanationEn": "Formal suggestions use the base verb (mandative subjunctive). 'goes' is indicative and wrong for official instruction.",
+      "explanationAr": "في الاقتراحات الرسمية نستخدم الفعل في صورته الأساسية (المانداتيف). استخدام 'goes' يعطي صيغة خبرية غير مناسبة في سياق تعليم رسمي."
+    },
+    {
+      "wrong": "It is important that he is on time tomorrow.",
+      "correct": "It is important that he be on time tomorrow.",
+      "explanationEn": "Formal necessity often uses subjunctive 'be' to show a requirement. Using 'is' reads as mere fact, not instruction.",
+      "explanationAr": "عند التعبير عن ضرورة رسمية نستخدم المانداتيف 'be'. قول 'is' يبدو تصريحًا خبرًا وليس تعليمًا أو ضرورة ملزِمة."
+    },
+    {
+      "wrong": "If I would have more time, I would help.",
+      "correct": "Were I to have more time, I would help.",
+      "explanationEn": "Formal hypothetical uses inversion 'Were I to...'. The inversion is more formal and polite than the common conditional.",
+      "explanationAr": "في الشرط الرسمي نستخدم الانعكاس 'Were I to...'. هذا التركيب أكثر رسمية ومهذّبًا من الشرط العادي ويُفضّل في السياقات الرسمية."
+    },
+    {
+      "wrong": "They recommend him to arrive early.",
+      "correct": "They recommend that he arrive early.",
+      "explanationEn": "Formal recommendation uses 'recommend that' + base verb. 'recommend him to' is not correct formal structure.",
+      "explanationAr": "في التوصيات الرسمية نستخدم 'recommend that' ثم الفعل في صورته الأساسية. تركيب 'recommend him to' غير صحيح نحويًا في الإنجليزية الرسمية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "subj_q1",
+      "type": "multiple_choice",
+      "prompt": "At the staff meeting (formal written instruction) the principal wrote: 'It is important that the new intern ___ on time every day.' Use the mandative subjunctive. Which is correct?",
+      "promptAr": "في مذكرة رسمية قال المدير: «من المهم أن يكون المتدرب الجديد حاضرًا في الوقت كل يوم». استخدم صيغة المانداتيف. أي خيار صحيح؟",
+      "explanation": "In formal instruction after 'it is important that' use the mandative subjunctive 'be'.",
+      "arabicNote": "مع تعبير رسمي مثل it is important that نستخدم المانداتيف 'be'. المتحدثون بالعربية قد يترجمون مباشرة بـ 'is' وهذه ترجمة غير مناسبة للتعليم الرسمي.",
+      "weakTag": "subjunctive_formal_structures_form",
+      "options": [
+        "be",
+        "was",
+        "becomes",
+        "being"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "A professor writes in a formal memo: 'I suggest that Maria ___ the report before Friday.' Use the mandative subjunctive. Choose the best form.",
+      "promptAr": "كتب الأستاذ في مذكرة رسمية: «أقترح أن تُقدّم ماريا التقرير قبل يوم الجمعة». استخدم صيغة المانداتيف. اختر أفضل صياغة.",
+      "explanation": "In a formal written suggestion use the base verb after 'suggest that' (mandative subjunctive).",
+      "arabicNote": "في مذكرة رسمية مع suggest that يجب الفعل في صورته الأساسية 'submit'. الترجمة العربية قد تسمح بصيغ مرنة لكن الإنجليزية الرسمية تتطلب بناءً محددًا.",
+      "weakTag": "subjunctive_formal_structures_register",
+      "options": [
+        "submit",
+        "submits",
+        "will submit",
+        "submitted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses the mandative subjunctive in a formal written recommendation? Choose the single correct formal sentence.",
+      "promptAr": "أي جملة تستخدم المانداتيف في توصية رسمية مكتوبة بشكل صحيح؟ اختر الجملة الرسمية الوحيدة الصحيحة.",
+      "explanation": "Formal recommendation requires 'recommend that' + base verb (mandative subjunctive) for precision.",
+      "arabicNote": "في التوصيات الرسمية نستخدم recommend that ثم الفعل في صورته الأساسية. تراكيب مثل 'recommend him to' أو 'being' غير صحيحة في السياق الرسمي.",
+      "weakTag": "subjunctive_formal_structures_precision",
+      "options": [
+        "The committee recommends that he be present at the meeting.",
+        "The committee recommends that he being present at the meeting.",
+        "The committee recommends him to be present at the meeting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning, noting register and level of obligation or hypothesis.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي مع ملاحظة النبرة ودرجة الإلزام أو الفرضية.",
+      "explanation": "Pair formal English structures with clear Arabic equivalents showing force and register.",
+      "arabicNote": "الهدف توضيح الفرق بين الإنجليزية الرسمية والترجمة العربية المرنة. لاحظ أن العربية قد تعبر بصيغ متعددة لكن الإنجليزية الرسمية تحدد بنية واضحة.",
+      "weakTag": "subjunctive_formal_structures_meaning",
+      "pairs": [
+        {
+          "left": "It is essential that he be informed immediately.",
+          "right": "من الضروري أن يُبلّغ فورًا."
+        },
+        {
+          "left": "I suggest that you arrive early tomorrow.",
+          "right": "أقترح أن تصل مبكرًا غدًا."
+        },
+        {
+          "left": "Were I to see her, I would tell her the news.",
+          "right": "لو قابلتها، لكنت أخبرتها بالأمر."
+        }
+      ]
+    },
+    {
+      "id": "subj_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in order to make a correct formal sentence that gives a requirement for tomorrow. Use the mandative subjunctive.",
+      "promptAr": "رتّب الكلمات لتكوين جملة رسمية صحيحة تعبّر عن ضرورة ليوم الغد. استخدم صيغة المانداتيف.",
+      "explanation": "Correct order: It is important that he arrive on time tomorrow. Use mandative subjunctive.",
+      "arabicNote": "الترتيب الإنجليزي صارم هنا: 'It is important that' ثم الفعل الأساسي 'arrive'. المتحدثون بالعربية قد يتركّبون الجملة بمرونة أكبر، وهذا إشكال شائع.",
+      "weakTag": "subjunctive_formal_structures_arabic_transfer",
+      "words": [
+        "important",
+        "is",
+        "that",
+        "It",
+        "he",
+        "arrive",
+        "on",
+        "time",
+        "tomorrow."
+      ],
+      "correctOrder": [
+        3,
+        1,
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "subj_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this suggested action in a formal note. Use the mandative subjunctive.",
+      "promptAr": "اختر التصحيح الأفضل لهذه العبارة المقترحة في مذكرة رسمية. استخدم صيغة المانداتيف.",
+      "explanation": "Formal suggestion requires 'suggest that' + base verb; choose the mandative subjunctive correction.",
+      "arabicNote": "الخطأ ناتج عن ترجمة حرفية من العربية. في المذكرات الرسمية يجب 'suggest that' ثم الفعل في صورته الأساسية بدون إضافات.",
+      "weakTag": "subjunctive_formal_structures_form",
+      "options": [
+        "I suggest that she go to the meeting.",
+        "I suggest that she will go to the meeting.",
+        "I suggest her to go to the meeting."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I suggest that she goes to the meeting."
+    },
+    {
+      "id": "subj_q7",
+      "type": "multiple_choice",
+      "prompt": "Polite formal hypothetical: 'Were I to ___ more time, I would join the team.' Use the inversion 'Were I to'. Which verb form completes this formal structure?",
+      "promptAr": "شرط مهذب ورسمي: «Were I to ___ more time, I would join the team.» استخدم الانعكاس 'Were I to'. أي صيغة فعل تكمل هذا التركيب الرسمي؟",
+      "explanation": "Formal inversion 'Were I to' is followed by the base verb: 'have' completes the structure correctly.",
+      "arabicNote": "في شرط رسمي مهذب نستخدم 'Were I to' متبوعة بالفعل في صورته الأساسية. المتحدثون بالعربية قد يقولون 'had' لكن هنا التركيب يتطلب 'have'.",
+      "weakTag": "subjunctive_formal_structures_register",
+      "options": [
+        "have",
+        "had",
+        "having",
+        "to have"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "A notice (formal rule) reads: 'It is crucial that every student ___ their ID card at all times.' For this regulation use the mandative subjunctive. Choose the best verb form.",
+      "promptAr": "لوحة إعلانية (قاعدة رسمية) تقول: «من الضروري أن يحمل كل طالب بطاقة هويته طوال الوقت». لاستخدام القاعدة الرسمية استخدم صيغة المانداتيف. اختر أفضل صيغة فعل.",
+      "explanation": "Regulation language uses 'it is crucial that' plus the base verb (mandative subjunctive) 'carry'.",
+      "arabicNote": "في قواعد رسمية مثل هذه نستخدم 'it is crucial that' ثم الفعل في صورته الأساسية 'carry'. كلمة 'يحمل' في العربية تتطابق مع 'carry' هنا وليس 'show'. استخدام 'their' للحياد الجنسي مقبول في القواعد.",
+      "weakTag": "subjunctive_formal_structures_precision",
+      "options": [
+        "carry",
+        "carries",
+        "is carrying",
+        "to carry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses a formal suggestion in written advice? Use the mandative subjunctive in an official written tone.",
+      "promptAr": "أي جملة تعبّر عن اقتراح رسمي بشكل صحيح في نص مكتوب يقدم نصيحة؟ استخدم صيغة المانداتيف في نبرة رسمية مكتوبة.",
+      "explanation": "Formal written suggestion: 'suggest that' + base verb (mandative subjunctive) is required.",
+      "arabicNote": "في نصيحة رسمية نستخدم 'suggest that' ثم الفعل الأساسي. ترجمات عربية قد تسمح بتركيب آخر لكن الإنجليزية الرسمية في هذه الحالة لا تسمح بذلك.",
+      "weakTag": "subjunctive_formal_structures_register",
+      "options": [
+        "I suggest that she do the extra homework before Monday.",
+        "I suggest that she does the extra homework before Monday.",
+        "I suggest for her to do the extra homework before Monday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "subj_q10",
+      "type": "meaning_match",
+      "prompt": "Match the English formal phrase to the correct Arabic idea, noting register and nuance (necessity, suggestion, or polite hypothesis).",
+      "promptAr": "وصل العبارة الإنجليزية الرسمية بالفكرة العربية الصحيحة مع ملاحظة النبرة والدقة (ضرورة، اقتراح، أو شرط مهذب).",
+      "explanation": "Pair formal English phrasing with Arabic summaries showing nuance: necessity, suggestion or polite hypothetical.",
+      "arabicNote": "الهدف تمييز النبرة: المانداتيف يعبر عن ضرورة أو قاعدة، 'If I were' تعبير تخيلي شخصي، و'Were I to' شرطي رسمي ومهذب. لا تترجم حرفيًا.",
+      "weakTag": "subjunctive_formal_structures_meaning",
+      "pairs": [
+        {
+          "left": "They insist that the report be finished today.",
+          "right": "يصرون على إنهاء التقرير اليوم (أمر/ضرورة رسمية)."
+        },
+        {
+          "left": "If I were in your position, I would accept the offer.",
+          "right": "لو كنت مكانك، لكنت قبلت العرض (تخيلي شخصي، أقل رسمية من المانداتيف)."
+        },
+        {
+          "left": "Were I to start again, I would practise speaking more.",
+          "right": "لو بدأت من جديد، لكنت أولي أهمية أكبر لممارسة المحادثة (شرط رسمي ومهذب)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "adverbs_of_manner",
+  "category": "a2_core",
+  "titleEn": "Adverbs of Manner",
+  "titleAr": "ظروف الطريقة",
+  "level": "A2",
+  "explanationEn": "Adverbs of manner (slowly, carefully, well, loudly) tell how an action happens. Put them after the verb or after the object (She reads slowly; She reads the book slowly). Do not use an adjective where English needs an adverb (good → well). Watch word order differences from Arabic.",
+  "explanationAr": "ظروف الطريقة تشرح كيف يحدث الفعل (مثلاً ببطء، بحذر، جيدًا). في الإنجليزية نستخدم صيغًا ظرفية أو كلمات مثل well، ونضع الظرف عادةً بعد الفعل أو بعد المفعول. قد يميل المتحدث العربي إلى نقل ترتيب الكلمات بالعربية أو إلى استخدام صفة بدل ظرف، فاحذر هذا الخطأ وغيّر الصفة إلى ظرف مناسب.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هو يتكلم جيد",
+      "arabicLiteral": "He speaks good",
+      "englishCorrect": "He speaks well."
+    },
+    {
+      "arabicStructure": "هو حمل الصندوق بعناية",
+      "arabicLiteral": "He carried the box with care",
+      "englishCorrect": "He carried the box carefully."
+    },
+    {
+      "arabicStructure": "هي تقرأ ببطء",
+      "arabicLiteral": "She reads slowly",
+      "englishCorrect": "She reads slowly."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She speaks good at school.",
+      "correct": "She speaks well at school.",
+      "explanationEn": "English needs the adverb well to describe how she speaks. 'Good' is an adjective and is wrong after a verb.",
+      "explanationAr": "الخطأ: استخدام صفة ('good') بعد الفعل. في الإنجليزية نحتاج ظرف ('well') لوصف كيفية الحديث. هذا خطأ شائع عند متعلمي العربية."
+    },
+    {
+      "wrong": "He did the homework careful.",
+      "correct": "He did the homework carefully.",
+      "explanationEn": "Use the adverb 'carefully' to describe how he did the homework. 'Careful' is an adjective and does not modify the verb correctly.",
+      "explanationAr": "الخطأ: استبدال الظرف بالصفة. 'careful' صفة ولا تعدل الفعل. يجب استخدام 'carefully' لتوضيح كيفية أداء الفعل."
+    },
+    {
+      "wrong": "She cooked well the dinner.",
+      "correct": "She cooked the dinner well.",
+      "explanationEn": "Place the adverb after the object for natural English word order: subject + verb + object + adverb.",
+      "explanationAr": "الخطأ: نقل الترتيب العربي حرفيًا. الإنجليزية تفضل وضع الظرف بعد المفعول في هذه الحالة، بينما قد تختلف العربية في ترتيب الكلمات."
+    },
+    {
+      "wrong": "Ali paints beautifully yesterday.",
+      "correct": "Ali painted beautifully yesterday.",
+      "explanationEn": "When describing a past action, use the past tense verb. The adverb stays the same, but the verb must match the time.",
+      "explanationAr": "الخطأ: إبقاء زمن الحاضر مع ظرف زماني للماضي. يجب تغيير الفعل ليتوافق مع 'yesterday' لأن الظرف يحدد زمن الحدث."
+    }
+  ],
+  "questions": [
+    {
+      "id": "adve2_q1",
+      "type": "multiple_choice",
+      "prompt": "How did Sara finish her homework at home?",
+      "promptAr": "كيف أنهت سارة واجبها في البيت؟",
+      "explanation": "We need the adverb 'carefully' after the verb phrase to show how she finished the homework. The adjective form is not correct here.",
+      "arabicNote": "في العربية قد تقول حرفياً 'هي أنهت الواجب بحذر'. في الإنجليزية نستخدم ظرفًا ('carefully') بعد الفعل؛ لا تضع الصفة أو تغيّر الترتيب.",
+      "weakTag": "adverbs_of_manner_word_order",
+      "options": [
+        "She did it carefully.",
+        "She careful did it.",
+        "She did it careful."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adve2_q2",
+      "type": "multiple_choice",
+      "prompt": "Tom carried the box ____ to the car.",
+      "promptAr": "حمل توم الصندوق ____ إلى السيارة.",
+      "explanation": "Choose the adverb 'carefully' to describe how Tom carried the box; we need the -ly adverb after the verb.",
+      "arabicNote": "المتحدثون العرب قد يضعون الصفة. هنا نحتاج ظرفًا بصيغة -ly لوصف الفعل.",
+      "weakTag": "adverbs_of_manner_form",
+      "options": [
+        "careful",
+        "carefully",
+        "carefulness",
+        "is careful"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve2_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "The teacher spoke ____ so everyone understood.",
+      "promptAr": "تكلّم المعلم ____ حتى فهم الجميع.",
+      "explanation": "Use 'loudly' (an adverb) to describe how the teacher spoke; 'loud' is an adjective and incorrect after the verb.",
+      "arabicNote": "في العربية يمكن أن تبقى الصفة كما هي. في الإنجليزية نحتاج شكل ظرفي واضح هنا مثل 'loudly' بعد الفعل.",
+      "weakTag": "adverbs_of_manner_form",
+      "options": [
+        "loud",
+        "loudly",
+        "loudness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve2_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses an adverb with the object? (cooking at home)",
+      "promptAr": "أي جملة تستخدم الظرف بشكل صحيح مع المفعول؟ (الطبخ في البيت)",
+      "explanation": "Put the adverb after the object for natural English word order: subject + verb + object + adverb. This is the normal order for such sentences.",
+      "arabicNote": "تجنّب النقل الحرفي من العربية. هنا نضع الظرف بعد المفعول في الإنجليزية: 'She cooked the dinner well.'",
+      "weakTag": "adverbs_of_manner_word_order",
+      "options": [
+        "She cooked well the dinner.",
+        "She cooked the dinner well.",
+        "She well cooked the dinner."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve2_q5",
+      "type": "fill_blank_with_options",
+      "prompt": "The driver drove ____ on the snowy road.",
+      "promptAr": "قاد السائق ____ على الطريق المغطى بالثلج.",
+      "explanation": "'Slowly' is the adverb that correctly describes how the driver drove the car; use the -ly form after the verb.",
+      "arabicNote": "في العربية كثيرًا ما نستخدم 'ببطء'. في الإنجليزية نستخدم الشكل الظرفي 'slowly' بعد الفعل.",
+      "weakTag": "adverbs_of_manner_form",
+      "options": [
+        "slow",
+        "slowly",
+        "the slow",
+        "slowness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve2_q6",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct about how he did the job at work?",
+      "promptAr": "أي جملة صحيحة عن كيفية قيامه بالعمل في المكتب؟",
+      "explanation": "Use the adverb 'carefully' after the verb phrase. The adjective 'careful' is incorrect because it does not modify the verb.",
+      "arabicNote": "المتحدثون العرب قد يضعون الصفة مكان الظرف. تعامل مع الفعل في الإنجليزية بظرف مناسب بعد الفعل، مثل 'carefully'.",
+      "weakTag": "adverbs_of_manner_arabic_transfer",
+      "options": [
+        "He did the job careful.",
+        "He did the job carefully.",
+        "He did job careful."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve2_q7",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "'Beautifully' is the correct adverb form to modify the verb 'paints'. The original sentence uses an adjective instead of an adverb.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تضع صفة بدلاً من ظرف. غيّر الصفة إلى ظرف (-ly) لتعديل الفعل: 'beautiful' → 'beautifully'.",
+      "weakTag": "adverbs_of_manner_arabic_transfer",
+      "options": [
+        "Ali paints beautifully.",
+        "Ali paint beautifully.",
+        "Ali paints beauty."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Ali paints beautiful."
+    },
+    {
+      "id": "adve2_q8",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order: (watching a video at home)",
+      "promptAr": "رتّب الكلمات بالترتيب الصحيح: (يشاهد فيديو في البيت)",
+      "explanation": "Correct sentence: 'He watches the video carefully.' The natural English order is subject + verb + object + adverb.",
+      "arabicNote": "في العربية قد يأتي الظرف قبل أو بعد بحسب الأسلوب، لكن في هذه الجملة نضع الظرف بعد المفعول في الإنجليزية.",
+      "weakTag": "adverbs_of_manner_word_order",
+      "words": [
+        "He",
+        "watches",
+        "the",
+        "video",
+        "carefully"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "adve2_q9",
+      "type": "meaning_match",
+      "prompt": "Match each adverb to its Arabic meaning.",
+      "promptAr": "صل كل ظرف بمعناه العربي.",
+      "explanation": "These Arabic words show common translations for adverbs of manner. Knowing meaning helps choose correct forms and placement in sentences.",
+      "arabicNote": "ليس كافياً حفظ المعنى فقط؛ انتبه إلى شكل الظرف في الإنجليزية ووضعه بعد الفعل أو المفعول.",
+      "weakTag": "adverbs_of_manner_meaning",
+      "pairs": [
+        {
+          "left": "slowly",
+          "right": "ببطء"
+        },
+        {
+          "left": "carefully",
+          "right": "بحرص"
+        },
+        {
+          "left": "well",
+          "right": "بشكل جيد"
+        },
+        {
+          "left": "loudly",
+          "right": "بصوت عالٍ"
+        }
+      ]
+    },
+    {
+      "id": "adve2_q10",
+      "type": "multiple_choice",
+      "prompt": "She has finished her test ____ and feels confident.",
+      "promptAr": "هي أنهت اختبارها ____ وتشعر بالثقة.",
+      "explanation": "Use the adverb 'well' to describe how she finished the test. 'Good' is an adjective and is incorrect after a verb like 'finished'.",
+      "arabicNote": "قد يظن المتعلمون أن 'good' تكفي لأنها في العربية تعمل أحيانًا كظرف. في الإنجليزية نحتاج 'well' لوصف الفعل.",
+      "weakTag": "adverbs_of_manner_form",
+      "options": [
+        "good",
+        "well",
+        "better",
+        "goodly"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

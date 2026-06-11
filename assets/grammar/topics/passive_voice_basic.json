@@ -1,0 +1,231 @@
+{
+  "id": "passive_voice_basic",
+  "category": "b1_core",
+  "titleEn": "Basic Passive Voice",
+  "titleAr": "المبني للمجهول الأساسي",
+  "level": "B1",
+  "explanationEn": "Use be + past participle to focus on the action or the object rather than the doer. Choose the correct form of be (is, are, was, were) and the past participle. Time words and context decide the correct auxiliary.",
+  "explanationAr": "في الإنجليزية نستخدم be + التصريف الثالث (past participle) للتركيز على الحدث أو المفعول بدل ذكر الفاعل. هذا يختلف عن العربية لأن ترتيب الكلمات والأدوات الزمنية يختلف، ويجب اختيار auxiliary المناسب حسب الزمن والسياق.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يغسل العامل الغرفة كل يوم.",
+      "arabicLiteral": "The worker washes the room every day",
+      "englishCorrect": "The room is washed every day."
+    },
+    {
+      "arabicStructure": "أُرسِلَ البريد الإلكتروني البارحة.",
+      "arabicLiteral": "The email was sent yesterday",
+      "englishCorrect": "The email was sent yesterday."
+    },
+    {
+      "arabicStructure": "يُطهَى العشاء كل يوم أحد من قبل والدتي.",
+      "arabicLiteral": "Dinner is cooked every Sunday by my mother",
+      "englishCorrect": "Dinner is cooked by my mother every Sunday."
+    },
+    {
+      "arabicStructure": "طُلِيَ السياج الشهر الماضي.",
+      "arabicLiteral": "The fence was painted last month",
+      "englishCorrect": "The fence was painted last month."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Room cleaned every day.",
+      "correct": "The room is cleaned every day.",
+      "explanationEn": "Learners often drop the auxiliary and article. English requires 'the' and 'is' for a correct present passive routine.",
+      "explanationAr": "يحذف المتعلمون أحياناً فعل المساعدة 'is' والمحدد 'the'. في الإنجليزية نحتاج 'The' و 'is' لتكوين المبني للمجهول في الحاضر الروتيني."
+    },
+    {
+      "wrong": "The email sent yesterday.",
+      "correct": "The email was sent yesterday.",
+      "explanationEn": "A past time marker like 'yesterday' needs the past auxiliary 'was' with the past participle.",
+      "explanationAr": "وجود ظرف زمن مثل 'yesterday' يفرض استخدام 'was' مع التصريف الثالث. في العربية قد تسقط أداة الزمن، لكن الإنجليزية لا تسمح ذلك هنا."
+    },
+    {
+      "wrong": "The cake is bake every birthday.",
+      "correct": "The cake is baked every birthday.",
+      "explanationEn": "The main verb must be the past participle 'baked', not the base form 'bake', in passive sentences.",
+      "explanationAr": "الفعل الأساسي يجب أن يكون في التصريف الثالث 'baked' وليس الشكل الأساسي 'bake'. الترجمة الحرفية من العربية قد تنتج هذا الخطأ."
+    },
+    {
+      "wrong": "The letter is sent yesterday by Ali.",
+      "correct": "The letter was sent yesterday by Ali.",
+      "explanationEn": "Mixing present auxiliary 'is' with a past time word makes the sentence ungrammatical; use 'was' for past passive.",
+      "explanationAr": "خلط 'is' مع ظرف الماضي 'yesterday' يجعل الجملة خاطئة. يجب استخدام 'was' للمبني للمجهول في الماضي حتى لو ذكر الفاعل لاحقاً."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pvb_q1",
+      "type": "multiple_choice",
+      "prompt": "Every day the cleaner cleans the room. How do we focus on the room instead of the cleaner?",
+      "promptAr": "كل يوم يقوم المنظف بتنظيف الغرفة. كيف نركز على الغرفة بدلاً من المنظف؟",
+      "explanation": "For routines use present passive: subject + is/are + past participle to show repeated action.",
+      "arabicNote": "للتعبير عن عادة يومية بُنيت للمجهول نستخدم 'is' + التصريف الثالث. لا تُسقط 'is' كما قد يحدث بالترجمة الحرفية من العربية.",
+      "weakTag": "passive_voice_basic_form",
+      "options": [
+        "The room is cleaned every day.",
+        "The room cleaned every day.",
+        "The room was cleaned every day.",
+        "Is cleaned every day the room."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Yesterday the manager sent the email. Which sentence gives the correct passive?",
+      "promptAr": "أرسل المدير البريد الإلكتروني البارحة. أي جملة مبنية للمجهول صحيحة؟",
+      "explanation": "Use past passive with 'yesterday': 'was' + past participle gives a correct past passive sentence.",
+      "arabicNote": "كلمة 'yesterday' تحدد الماضي، لذلك نستخدم 'was' مع التصريف الثالث. احذر من ترجمة العربية التي قد تحذف أداة الزمن.",
+      "weakTag": "passive_voice_basic_auxiliary",
+      "options": [
+        "The email was sent yesterday by the manager.",
+        "The email is sent yesterday by the manager.",
+        "Sent yesterday the email by the manager."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Every morning the bread ____ baked at the bakery.",
+      "promptAr": "كل صباح يُخبَز الخبز في المخبز. اختر فعل المساعدة الصحيح.",
+      "explanation": "A daily routine needs present passive: 'is baked' because bread here is treated as a singular item or uncountable noun.",
+      "arabicNote": "العادة الصباحية تتطلب زمن الحاضر المبني للمجهول: 'is' + التصريف الثالث. لا تستخدم 'are' مع bread المفرد أو غير المعدود هنا.",
+      "weakTag": "pvb_form",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: students do homework every week.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: الطلاب يؤدون الواجب كل أسبوع.",
+      "explanation": "Form present passive by adding 'is' and using past participle 'done' for a weekly routine.",
+      "arabicNote": "العربية قد لا تظهر فعل المساعدة. هنا يجب إضافة 'is' و' done' للتعبير عن المبني للمجهول الروتيني بالإنجليزية.",
+      "weakTag": "pvb_fix_mistake",
+      "options": [
+        "The homework is done by students every week.",
+        "The homework does by students every week.",
+        "Homework done by students every week."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The homework do by students every week."
+    },
+    {
+      "id": "pvb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order (past passive, time marked).",
+      "promptAr": "رتب الكلمات لتكوين جملة مبنية للمجهول في الماضي مع تحديد الزمن.",
+      "explanation": "Correct order: subject + past auxiliary + past participle + time adverb to form past passive.",
+      "arabicNote": "الترتيب في الإنجليزية يطلب فاعل ثم 'was' ثم التصريف الثالث ثم ظرف الزمن. تجنب نقل ترتيب الجملة العربية حرفياً.",
+      "weakTag": "pvb_sentence_order",
+      "words": [
+        "The",
+        "letter",
+        "was",
+        "sent",
+        "yesterday"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pvb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each passive sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة مبنية للمجهول بمعناها العربي.",
+      "explanation": "These passive sentences show focus on the object or the action, not on who does it.",
+      "arabicNote": "للمطابقة تأكد من وجود 'be' + التصريف الثالث والظرف الزمني المناسب؛ هذا يوضح الفرق عن التركيبات المقتبسة من العربية.",
+      "weakTag": "pvb_meaning_match",
+      "pairs": [
+        {
+          "left": "The room is cleaned every day.",
+          "right": "تُنَظَّف الغرفة كل يوم."
+        },
+        {
+          "left": "The email was sent yesterday.",
+          "right": "أُرسِل البريد الإلكتروني البارحة."
+        },
+        {
+          "left": "Dinner is cooked by my mother every Sunday.",
+          "right": "يُطهَى العشاء كل يوم أحد من قبل والدتي."
+        }
+      ]
+    },
+    {
+      "id": "pvb_q7",
+      "type": "multiple_choice",
+      "prompt": "Last month someone painted the fence. Choose the correct passive sentence.",
+      "promptAr": "طُلِيَ السياج الشهر الماضي. اختر الجملة المبنية للمجهول الصحيحة.",
+      "explanation": "Use past passive 'was painted' with 'last month' to show a completed action in the past.",
+      "arabicNote": "وجود 'last month' يفرض الماضي 'was' مع التصريف الثالث. لا تخلط بين الصيغة المستمرة أو حذف 'was' كما يحدث بالترجمة الحرفية.",
+      "weakTag": "passive_voice_basic_auxiliary",
+      "options": [
+        "The fence was painted last month.",
+        "The fence painted last month.",
+        "The fence is painted last month.",
+        "The fence was painting last month."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence focuses on the action today rather than naming who does it?",
+      "promptAr": "أي جملة تركز على الفعل اليوم بدل أن تذكر الفاعل؟",
+      "explanation": "The passive 'is cleaned' puts the focus on the table and the action happening today.",
+      "arabicNote": "لتركيز الانتباه على المفعول استخدم 'is' + التصريف الثالث. المتكلمون العرب قد يترجمون حرفياً ويغفلون فعل المساعدة.",
+      "weakTag": "passive_voice_basic_meaning",
+      "options": [
+        "Ali cleans the table today.",
+        "The table is cleaned today.",
+        "The table cleans today."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pvb_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "The email ____ sent yesterday. Choose the correct auxiliary.",
+      "promptAr": "أُرسل البريد الإلكتروني البارحة. اختر فعل المساعدة الصحيح.",
+      "explanation": "Because the time marker is 'yesterday', use past auxiliary 'was' plus the past participle for past passive.",
+      "arabicNote": "وجود 'yesterday' يحدد الماضي، لذلك نستخدم 'was'. احذر من استخدام 'is' أو حذف الأداة كما في بعض الترجمات الحرفية من العربية.",
+      "weakTag": "pvb_auxiliary_choice",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "be"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pvb_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Fix the sentence. Context: the bakery baked the cakes yesterday.",
+      "promptAr": "صلح الجملة. السياق: الخباز خبز الكعكات البارحة.",
+      "explanation": "Use past passive 'were baked' with 'yesterday' to show the completed past action on the cakes.",
+      "arabicNote": "وجود 'yesterday' يفرض استخدام الماضي 'were' مع التصريف الثالث 'baked'. لا تخلط بين الحاضر والماضي كما قد يحدث بالترجمة.",
+      "weakTag": "passive_voice_basic_practice",
+      "options": [
+        "The cakes were baked yesterday.",
+        "The cakes are baking yesterday.",
+        "The cakes baked yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The cakes are baked yesterday."
+    }
+  ]
+}

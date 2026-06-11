@@ -1,0 +1,151 @@
+{
+  "id": "subject_pronouns",
+  "category": "basics",
+  "titleEn": "Subject Pronouns",
+  "titleAr": "ضمائر الفاعل",
+  "level": "A1",
+  "explanationEn": "Subject pronouns replace the person or thing doing the action. In English, every normal sentence needs a clear subject, so we usually say I, you, he, she, it, we, or they.",
+  "explanationAr": "ضمائر الفاعل هي الكلمات التي تأتي في بداية الجملة لتوضح من يقوم بالفعل أو من نتحدث عنه. في الإنجليزية لا نترك الفاعل غير مذكور كما يحدث أحيانًا في العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا طالب",
+      "arabicLiteral": "I student",
+      "englishCorrect": "I am a student"
+    },
+    {
+      "arabicStructure": "هي لطيفة",
+      "arabicLiteral": "She kind",
+      "englishCorrect": "She is kind"
+    },
+    {
+      "arabicStructure": "هم في المدرسة",
+      "arabicLiteral": "They in school",
+      "englishCorrect": "They are at school"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Is a teacher.",
+      "correct": "She is a teacher.",
+      "explanationEn": "English needs a subject before the verb.",
+      "explanationAr": "لا تبدأ الجملة الإنجليزية بفعل بدون فاعل واضح."
+    },
+    {
+      "wrong": "Am ready.",
+      "correct": "I am ready.",
+      "explanationEn": "Use I before am.",
+      "explanationAr": "مع am نحتاج دائمًا إلى الضمير I."
+    },
+    {
+      "wrong": "Ali and Omar are here. He are here.",
+      "correct": "Ali and Omar are here. They are here.",
+      "explanationEn": "Use they for two or more people.",
+      "explanationAr": "عند الحديث عن شخصين أو أكثر نستخدم they."
+    }
+  ],
+  "questions": [
+    {
+      "id": "sp_q1",
+      "type": "multiple_choice",
+      "prompt": "___ am a student.",
+      "promptAr": "اختر ضمير الفاعل الصحيح.",
+      "options": ["I", "He", "They", "We"],
+      "correctIndex": 0,
+      "explanation": "Use I with am when you speak about yourself.",
+      "arabicNote": "أنا = I، ومعها نستخدم am.",
+      "weakTag": "pronouns_first_person"
+    },
+    {
+      "id": "sp_q2",
+      "type": "multiple_choice",
+      "prompt": "Mona is my friend. ___ is kind.",
+      "promptAr": "اختر الضمير المناسب لاسم Mona.",
+      "options": ["She", "He", "It", "They"],
+      "correctIndex": 0,
+      "explanation": "Mona is one female person, so the subject pronoun is she.",
+      "arabicNote": "هي = she عندما نتحدث عن امرأة أو بنت واحدة.",
+      "weakTag": "pronouns_third_person"
+    },
+    {
+      "id": "sp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Ali and Omar are brothers. ___ are brothers.",
+      "promptAr": "اختر ضمير الجمع الصحيح.",
+      "options": ["They", "He", "We", "She"],
+      "correctIndex": 0,
+      "explanation": "Ali and Omar are two people, so we replace their names with they.",
+      "arabicNote": "عندما يكون الفاعل شخصين أو أكثر نستخدم they.",
+      "weakTag": "pronouns_plural"
+    },
+    {
+      "id": "sp_q4",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence has a clear subject?",
+      "promptAr": "أي جملة فيها فاعل واضح؟",
+      "options": ["Is tired.", "He is tired.", "Am tired."],
+      "correctIndex": 1,
+      "explanation": "He is the subject. English does not normally drop the subject pronoun.",
+      "arabicNote": "حتى لو كان المعنى واضحًا، نكتب الضمير في الإنجليزية.",
+      "weakTag": "pronouns_subject_required"
+    },
+    {
+      "id": "sp_q5",
+      "type": "fill_blank_with_options",
+      "prompt": "My sister and I are at school. ___ are at school.",
+      "promptAr": "اختر الضمير الذي يعني أنا وشخص آخر.",
+      "options": ["We", "They", "You", "He"],
+      "correctIndex": 0,
+      "explanation": "My sister and I means I plus another person, so the pronoun is we.",
+      "arabicNote": "نحن = we، وتستخدم عندما تكون أنت ضمن المجموعة.",
+      "weakTag": "pronouns_plural"
+    },
+    {
+      "id": "sp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each pronoun to its Arabic meaning.",
+      "promptAr": "صل كل ضمير بمعناه العربي.",
+      "pairs": [
+        { "left": "I", "right": "أنا" },
+        { "left": "he", "right": "هو" },
+        { "left": "they", "right": "هم / هن" }
+      ],
+      "explanation": "These are basic subject pronouns used before the verb in English.",
+      "arabicNote": "احفظ معنى الضمير قبل التدريب على الجمل.",
+      "weakTag": "pronouns_meaning"
+    },
+    {
+      "id": "sp_q7",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "words": ["is", "She", "a", "student."],
+      "correctOrder": [1, 0, 2, 3],
+      "explanation": "The subject pronoun comes first: She is a student.",
+      "arabicNote": "في الإنجليزية نبدأ عادة بالفاعل ثم الفعل.",
+      "weakTag": "pronouns_word_order"
+    },
+    {
+      "id": "sp_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "options": ["She is a teacher.", "Is a teacher.", "She teacher."],
+      "correctIndex": 0,
+      "explanation": "The sentence needs both the subject she and the verb is.",
+      "arabicNote": "لا نحذف الضمير ولا فعل be في هذه الجملة.",
+      "weakTag": "pronouns_subject_required"
+    },
+    {
+      "id": "sp_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "wrongSentence": "Is at work.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "options": ["He is at work.", "He at work.", "Is he at work."],
+      "correctIndex": 0,
+      "explanation": "He is at work is a full sentence with a subject and verb.",
+      "arabicNote": "الجملة الخبرية تحتاج إلى فاعل قبل is.",
+      "weakTag": "pronouns_subject_required"
+    }
+  ]
+}

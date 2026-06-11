@@ -1,0 +1,234 @@
+{
+  "id": "future_continuous",
+  "category": "b2_expansion",
+  "titleEn": "Future Continuous",
+  "titleAr": "المستقبل المستمر",
+  "level": "B2",
+  "explanationEn": "Use will be + verb-ing to describe an action that will be in progress at a specific future time. This tense emphasizes the continuing nature of the action at that moment, unlike simple future which often describes a single event. Always include a clear time phrase so the ongoing meaning is obvious.",
+  "explanationAr": "يُعَبَّرُ عن المستقبل المستمر في الإنجليزية بالصِيغة will be + الفعل بصيغة -ing لِلدلالة على فعلٍ سيكون جاريًا في وقتٍ مستقبلي محدد. في العربية يمكن أن يظهر المعنى بتركيبات أبسط بدون أدوات مساعدة ظاهرة، لذلك يجب الانتباه إلى will وbe وصيغة -ing لتمييز الاستمرارية عن المستقبل البسيط.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "سأتصل غدًا.",
+      "arabicLiteral": "I will call tomorrow.",
+      "englishCorrect": "I will be calling you tomorrow at 6."
+    },
+    {
+      "arabicStructure": "ستمطر الليلة.",
+      "arabicLiteral": "It will rain tonight.",
+      "englishCorrect": "It will be raining at 9 pm tonight."
+    },
+    {
+      "arabicStructure": "سأدرس عند الساعة 5.",
+      "arabicLiteral": "I will study at 5.",
+      "englishCorrect": "At 5 pm I will be studying."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Misleading for continuous meaning: 'I will call you at 6 tomorrow.'",
+      "correct": "I will be calling you at 6 tomorrow.",
+      "explanationEn": "The simple future sentence is grammatical but does not emphasize that the action will be in progress at that time. Use will be + -ing to show continuity at a specific future time.",
+      "explanationAr": "الجملة بالمستقبل البسيط صحيحة نحويًا لكنها لا تُبرز أن الفعل سيكون جارياً في وقت محدد. لا بد من استخدام will be + الفعل بـ-ing لتوضيح الاستمرارية."
+    },
+    {
+      "wrong": "Tomorrow at 9 I talking to Sarah.",
+      "correct": "Tomorrow at 9 I will be talking to Sarah.",
+      "explanationEn": "Missing 'will be' and -ing makes the sentence ungrammatical for future continuous meaning.",
+      "explanationAr": "حُذِفَت الأدوات المساعدة. الإنجليزية تحتاج will be + ـing للتعبير عن فعل جاري في وقت مستقبلي محدد."
+    },
+    {
+      "wrong": "At 8 pm she will be cooked dinner.",
+      "correct": "At 8 pm she will be cooking dinner.",
+      "explanationEn": "Using a past participle (cooked) after will be is incorrect. The continuous requires the -ing form.",
+      "explanationAr": "خطأ في شكل الفعل: لا نستخدم التصريف الثالث بعد will be. للتعبير عن الاستمرارية نستخدم will be + الفعل بـ-ing."
+    },
+    {
+      "wrong": "Next week I will be in the office work.",
+      "correct": "Next week I will be working in the office.",
+      "explanationEn": "Wrong word order and missing -ing. Place the verb in -ing form after will be and keep proper word order.",
+      "explanationAr": "ترتيب الكلمات مهم. لا يجوز وضع المكان قبل الفعل أو حذف صيغة -ing عند التعبير عن فعل جارٍ في المستقبل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "futu2_q1",
+      "type": "fill_blank_with_options",
+      "prompt": "At 7 tomorrow morning, I ____ dinner for guests.",
+      "promptAr": "في الساعة السابعة غدًا صباحًا، ماذا ستكون تفعل؟ اختر الشكل الصحيح للفعل.",
+      "explanation": "Use will be + verb-ing for an ongoing action at a specific future time.",
+      "arabicNote": "نحتاج will + be + الفعل بصيغة -ing لأن الجملة تشير إلى فعل جاري عند وقت محدد. احذر حذف be أو خطأ في صيغة الفعل.",
+      "weakTag": "future_continuous_form",
+      "options": [
+        "will be cooking",
+        "will be cook",
+        "will cooks",
+        "will cooking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q2",
+      "type": "multiple_choice",
+      "prompt": "This time next week, she ___ on the train to Cairo.",
+      "promptAr": "في هذا الوقت الأسبوع المقبل، ماذا ستكون تفعل في القطار إلى القاهرة؟ اختر الإجابة الصحيحة.",
+      "explanation": "Future continuous shows an action traveling that is in progress at that future time.",
+      "arabicNote": "المقصد فعل مستمر أثناء السفر عند زمن محدد. لذلك نستخدم will be + الفعل بـ-ing وليس أشكالًا ناقصة أو ترتيبًا خاطئًا.",
+      "weakTag": "future_continuous_word_order",
+      "options": [
+        "will be traveling",
+        "will be travel",
+        "will been traveling",
+        "will traveling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows an action in progress at 5 pm tomorrow?",
+      "promptAr": "أي جملة تُظهر فعلاً جارٍ في الخامسة مساء غدًا؟ اختر الجواب الوحيد الصحيح.",
+      "explanation": "Only will be + -ing shows the action continuing at that time.",
+      "arabicNote": "الجملة الصحيحة تستخدم will be + ـing لأننا نريد توضيح أن الفعل سيكون جاريًا عند الخامسة مساءً. تجنّب أشكال ناقصة أو ترتيب خاطئ.",
+      "weakTag": "future_continuous_meaning",
+      "options": [
+        "At 5 pm tomorrow, I will be calling my boss.",
+        "At 5 pm tomorrow, I will calling my boss.",
+        "At 5 pm tomorrow, I will be call my boss."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية: \"Tomorrow at 6, we will talking about the report.\"",
+      "explanation": "Add 'be' and use -ing to show the action will be in progress at that time.",
+      "arabicNote": "الجملة الأصلية تحذف be. للتعبير عن فعل جاري في المستقبل نستخدم will be + الفعل بصيغة -ing. الخيار الأول يصحح هذا الخطأ ويعيد ترتيب الأدوات.",
+      "weakTag": "futu2_missing_helper",
+      "options": [
+        "Tomorrow at 6, we will be talking about the report.",
+        "Tomorrow at 6, we will be talk about the report.",
+        "Tomorrow at 6, we talking about the report."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Tomorrow at 6, we will talking about the report."
+    },
+    {
+      "id": "futu2_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a proper future continuous sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة في المستقبل المستمر: تكون واضحة زمنياً وعلى الفاعل والمكان.",
+      "explanation": "Start with the time phrase, then subject, then will be + verb-ing and place.",
+      "arabicNote": "ابدأ بعبارة الوقت ثم الفاعل ثم will be + الفعل بـ-ing ثم المكان. العربية أكثر مرونة في الترتيب، لكن الإنجليزية تحتاج هذا النظام لتمييز الاستمرارية.",
+      "weakTag": "future_continuous_word_order",
+      "words": [
+        "library.",
+        "will",
+        "in",
+        "studying",
+        "be",
+        "At",
+        "3 pm",
+        "they",
+        "the",
+        "tomorrow"
+      ],
+      "correctOrder": [
+        5,
+        6,
+        9,
+        7,
+        1,
+        4,
+        3,
+        2,
+        8,
+        0
+      ]
+    },
+    {
+      "id": "futu2_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning (future continuous).",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي المناسب (المستقبل المستمر).",
+      "explanation": "Each English sentence shows an ongoing future action at a specific time.",
+      "arabicNote": "كل جملة تُظهر فعلاً جارياً في وقت مستقبلي محدد. لاحظ will be + ـing في الإنجليزية مقابل تراكيب عربية أقصر عادةً.",
+      "weakTag": "future_continuous_meaning",
+      "pairs": [
+        {
+          "left": "At 8 tonight I will be cooking dinner.",
+          "right": "عند الساعة الثامنة هذا المساء سأكونُ أُعِدُّ العشاء."
+        },
+        {
+          "left": "This afternoon they will be fixing the car.",
+          "right": "بعد الظهر اليوم سيكونونَ يصلحونَ السيارة."
+        },
+        {
+          "left": "On Monday she will be teaching a review class at 10.",
+          "right": "يوم الإثنين ستُدرِّسُ صفَّ مراجعةٍ في الساعة العاشرة."
+        }
+      ]
+    },
+    {
+      "id": "futu2_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "When you arrive at 9, I ____ (sleep).",
+      "promptAr": "عندما تصل عند الساعة التاسعة، سأكون ماذا؟ اختر الشكل الصحيح للفعل.",
+      "explanation": "Use will be + -ing for an action that will be ongoing when someone arrives.",
+      "arabicNote": "نستخدم will be + الفعل بصيغة -ing هنا لأن النوم سيكون جارياً عند وصول الشخص. انتبه لوجود be وصيغة -ing في الفعل.",
+      "weakTag": "futu2_form_helper",
+      "options": [
+        "will be sleeping",
+        "will sleeping",
+        "will be slept"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q8",
+      "type": "multiple_choice",
+      "prompt": "At midnight on New Year's Eve, he ___ on stage giving his speech.",
+      "promptAr": "في منتصف ليلة رأس السنة، ماذا سيكون على المسرح يفعل أثناء إلقاء خطبته؟ اختر الإجابة الصحيحة.",
+      "explanation": "A continuous action at that moment needs will be + -ing form.",
+      "arabicNote": "الحدث سيكون جارٍ في منتصف الليل، لذا نستخدم will be + الفعل بـ-ing. تجنب أشكال تفتقد be أو الـ-ing لأنها غير صحيحة هنا.",
+      "weakTag": "future_continuous_meaning",
+      "options": [
+        "will be standing",
+        "will standing",
+        "will be stand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses future continuous for a planned overlapping action next Monday?",
+      "promptAr": "أي جملة تستخدم المستقبل المستمر بشكل صحيح لفعل متداخل مخطط له يوم الإثنين القادم؟",
+      "explanation": "Future continuous shows two planned actions overlapping at the same time.",
+      "arabicNote": "نستخدم المستقبل المستمر لبيان أن فعلاً سيكون جاريًا بينما يحدث فعل آخر. الصيغة المطلوبة: will be + الفعل بـ-ing.",
+      "weakTag": "future_continuous_meaning",
+      "options": [
+        "Next Monday at 10am, I will be teaching two classes at once.",
+        "Next Monday at 10am, I will be teach two classes at once.",
+        "Next Monday at 10am, I teaching two classes at once."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu2_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأنسب للجملة التالية: \"This evening at 10, Sarah will be cooks for guests.\"",
+      "explanation": "Replace the wrong verb form with the -ing form after will be for continuous action.",
+      "arabicNote": "الجملة الأصلية تستخدم تصريفًا خاطئًا (cooks). للتعبير عن فعل جارٍ في وقت محدد نستخدم will be + الفعل بصيغة -ing. الخيار الأول هو التصحيح الصحيح.",
+      "weakTag": "futu2_wrong_participle",
+      "options": [
+        "This evening at 10, Sarah will be cooking for guests.",
+        "This evening at 10, Sarah will be cook for guests.",
+        "This evening at 10, Sarah will cooks for guests."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "This evening at 10, Sarah will be cooks for guests."
+    }
+  ]
+}

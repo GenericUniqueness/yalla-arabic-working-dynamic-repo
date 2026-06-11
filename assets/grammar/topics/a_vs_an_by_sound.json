@@ -1,0 +1,220 @@
+{
+  "id": "a_vs_an_by_sound",
+  "category": "basics",
+  "titleEn": "A vs An by Sound",
+  "titleAr": "اختيار a أو an حسب الصوت",
+  "level": "A1-A2",
+  "explanationEn": "In English you choose 'a' or 'an' by the first sound of the next word, not only by its first letter. Use 'an' before vowel sounds (e.g. an apple, an hour) and 'a' before consonant sounds (e.g. a cat, a university). Arabic has no sound-based article choice, so learners may pick by spelling and make mistakes with silent or special sounds.",
+  "explanationAr": "في العربية نستخدم أداة نكرة واحدة بدون تغيير حسب صوت بداية الكلمة. لكن في الإنجليزية نختار a أو an حسب الصوت الأول للكلمة التالية، وليس حسب الحرف المكتوب. في الإنجليزية نستخدم an أمام الأصوات المتحركة (مثل an apple أو an hour) وa أمام الأصوات الساكنة (مثل a book أو a university). هذا الفرق يسبب أخطاء لمتحدثي العربية إذا اتبعوا التهجئة فقط.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عندي تفاحة",
+      "arabicLiteral": "I have apple",
+      "englishCorrect": "I have an apple"
+    },
+    {
+      "arabicStructure": "هذه ساعة",
+      "arabicLiteral": "This is hour",
+      "englishCorrect": "This is an hour"
+    },
+    {
+      "arabicStructure": "هو طالب في جامعة",
+      "arabicLiteral": "He is student in university",
+      "englishCorrect": "He is a student at a university"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have a apple.",
+      "correct": "I have an apple.",
+      "explanationEn": "Choose 'an' because 'apple' begins with a vowel sound. Learners who look only at spelling may choose 'a'.",
+      "explanationAr": "المتعلّم قد يختار 'a' لأن التهجئة تبدأ بحرف a، لكن القرار يعتمد على الصوت. 'apple' يبدأ بصوت متحرك، لذلك نستخدم 'an'."
+    },
+    {
+      "wrong": "She is an teacher.",
+      "correct": "She is a teacher.",
+      "explanationEn": "Use 'a' because 'teacher' begins with a consonant sound /t/. Arabic speakers may overgeneralize and think all words use 'an' before vowels only by letter, causing confusion.",
+      "explanationAr": "كلمة 'teacher' تبدأ بصوت ساكن /t/. المتعلم العربي قد يظن أن وجود حرف متحرك في مكان ما يجعل 'an' دائماً صحيحاً، فبالتالي يخطئ."
+    },
+    {
+      "wrong": "This is a hour.",
+      "correct": "This is an hour.",
+      "explanationEn": "Although 'hour' starts with h in spelling, the h is silent and the word begins with a vowel sound, so use 'an'. Arabic speakers may follow spelling and choose 'a'.",
+      "explanationAr": "في الكلمة 'hour' حرف h صامت، والبداية صوت متحرك. المتحدثون بالعربية قد يختارون بناءً على الحرف المكتوب (h) بدلاً من الصوت، فيحدث الخطأ."
+    },
+    {
+      "wrong": "I saw an university student.",
+      "correct": "I saw a university student.",
+      "explanationEn": "Use 'a' because 'university' begins with a consonant glide /j/ (you- sound). Arabic learners may think 'u' always needs 'an' and so use 'an' incorrectly.",
+      "explanationAr": "كلمة 'university' تبدأ بصوت y كـ 'you' وليس صوت متحرك بسيط. المتعلم العربي قد يرى حرف u ويظن أنه صوت متحرك فيستخدم 'an' خطأ."
+    }
+  ],
+  "questions": [
+    {
+      "id": "avans_q1",
+      "type": "multiple_choice",
+      "prompt": "I saw ___ elephant.",
+      "promptAr": "اختر الأداة الصحيحة.",
+      "explanation": "Use 'an' because 'elephant' begins with a vowel sound /ɛ/. The choice depends on sound, not the written letter.",
+      "arabicNote": "الكلمة تبدأ بصوت متحرك /ɛ/، لذلك نستخدم 'an'. المتعلم العربي قد يحتاج للتذكير بأن القرار صوتي.",
+      "weakTag": "a_vs_an_by_sound_multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use 'a' before 'banana' because it starts with a consonant sound /b/. 'an banana' is wrong.",
+      "arabicNote": "كلمة 'banana' تبدأ بصوت ساكن /b/ لذلك نستخدم 'a'. راجع الصوت الأول وليس الحرف فقط.",
+      "weakTag": "a_vs_an_by_sound_choose_correct_sentence_1",
+      "options": [
+        "I have an banana.",
+        "I have a banana.",
+        "I have banana."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "This is ___ apple.",
+      "promptAr": "اختر الأداة المناسبة.",
+      "explanation": "Use 'an' because 'apple' begins with a vowel sound /æ/. The rule is about pronunciation.",
+      "arabicNote": "ابدأ بالصوت /æ/ في 'apple'، لذلك 'an'. المتحدثون بالعربية يتذكرون أن القرار صوتي.",
+      "weakTag": "avans_fill_blank_apple",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Correct: 'I want an orange.' Use 'an' because 'orange' begins with a vowel sound /ɔː/.",
+      "arabicNote": "لأن 'orange' يبدأ بصوت متحرك، نستخدم 'an'. المتعلم العربي قد يختار 'a' إذا اتبع الحرف فقط.",
+      "weakTag": "avans_fix_mistake_orange",
+      "options": [
+        "I want an orange.",
+        "I want a orange.",
+        "I want orange."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I want a orange."
+    },
+    {
+      "id": "avans_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"It is an apple.\"",
+      "arabicNote": "الترتيب الصحيح يعتمد على الفاعل ثم الفعل ثم الأداة ثم الاسم. هنا 'an' لأن 'apple' يبدأ بصوت متحرك.",
+      "weakTag": "a_vs_an_by_sound_sentence_order",
+      "words": [
+        "It",
+        "is",
+        "an",
+        "apple."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "avans_q6",
+      "type": "meaning_match",
+      "prompt": "Match each article to its meaning.",
+      "promptAr": "وصل كل أداة بمعناها.",
+      "explanation": "Match shows whether the article is for consonant sounds, vowel sounds, or to make a noun definite.",
+      "arabicNote": "اشرح لكل أداة متى نستخدمها صوتياً: 'a' للأصوات الساكنة، 'an' للأصوات المتحركة، 'the' للتعريف.",
+      "weakTag": "avans_meaning_match",
+      "pairs": [
+        {
+          "left": "a",
+          "right": "مستخدم قبل اسم يبدأ بصوت ساكن"
+        },
+        {
+          "left": "an",
+          "right": "مستخدم قبل اسم يبدأ بصوت متحرك"
+        },
+        {
+          "left": "the",
+          "right": "أداة التعريف للمحدد"
+        }
+      ]
+    },
+    {
+      "id": "avans_q7",
+      "type": "multiple_choice",
+      "prompt": "She is ___ artist.",
+      "promptAr": "اختر الأداة الصحيحة.",
+      "explanation": "Use 'an' because 'artist' begins with a vowel sound /ɑː/. The choice follows pronunciation.",
+      "arabicNote": "كلمة 'artist' تبدأ بصوت متحرك، لذلك نستخدم 'an'. المتعلم العربي يتذكر أن القرار صوتي لا هجائي.",
+      "weakTag": "a_vs_an_by_sound_multiple_choice_2",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Use 'an' because 'hour' has a silent h and begins with an /aʊ/ vowel sound.",
+      "arabicNote": "حرف h في 'hour' صامت، لذا الصوت الأول متحرك. المتحدثون بالعربية قد يختارون 'a' إذا اعتمدوا على الحرف المكتوب.",
+      "weakTag": "a_vs_an_by_sound_choose_correct_sentence_2",
+      "options": [
+        "This is a hour.",
+        "This is an hour.",
+        "This is hour."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "I need ___ umbrella.",
+      "promptAr": "اختر الأداة الصحيحة.",
+      "explanation": "Use 'an' because 'umbrella' begins with a vowel sound /ʌ/. Sound decides the article.",
+      "arabicNote": "كلمة 'umbrella' تبدأ بصوت متحرك /ʌ/ لذلك 'an'. المتعلم العربي يتحقق من الصوت لا الحرف فقط.",
+      "weakTag": "avans_fill_blank_umbrella",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "avans_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Correct: 'He is an engineer.' Use 'an' because 'engineer' begins with a vowel sound /ɛ/.",
+      "arabicNote": "كلمة 'engineer' تبدأ بصوت متحرك لذلك نستخدم 'an'. قد يخطئ المتعلم إذا اتبع الحرف المكتوب فقط.",
+      "weakTag": "avans_fix_mistake_engineer",
+      "options": [
+        "He is an engineer.",
+        "He is a engineer.",
+        "He is engineer."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He is a engineer."
+    }
+  ]
+}

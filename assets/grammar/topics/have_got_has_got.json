@@ -1,0 +1,245 @@
+{
+  "id": "have_got_has_got",
+  "category": "a2_core",
+  "titleEn": "Have Got and Has Got",
+  "titleAr": "استخدام have got و has got",
+  "level": "A2",
+  "explanationEn": "Use 'have got' with I/you/we/they and 'has got' with he/she/it to describe possession or physical features in the simple present. These forms show what someone or something owns or has now (today/now). Always match the subject and keep have/has before got.",
+  "explanationAr": "نستخدم have got مع I/you/we/they وhas got مع he/she/it للتعبير عن الملكية أو الصفات في الحاضر (الآن/اليوم). احذر من الترجمة الحرفية من العربية: الإنجليزية تتطلب كلمة مساعدة (have/has) قبل got وترتيب ثابت للكلمات، بينما العربية قد تحذف أو تغير هذه الوظائف.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عندي كتاب",
+      "arabicLiteral": "لديّ كتاب",
+      "englishCorrect": "I have got a book now."
+    },
+    {
+      "arabicStructure": "هو عنده أخ",
+      "arabicLiteral": "له أخ",
+      "englishCorrect": "He has got a brother today."
+    },
+    {
+      "arabicStructure": "نحن عندنا ثلاث كراسي",
+      "arabicLiteral": "لدينا ثلاث كراسي",
+      "englishCorrect": "We have got three chairs in the classroom today."
+    },
+    {
+      "arabicStructure": "هي عندها شعر طويل",
+      "arabicLiteral": "لها شعر طويل",
+      "englishCorrect": "She has got long hair now."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Me have got a new phone today at home.",
+      "correct": "I have got a new phone today at home.",
+      "explanationEn": "Using 'Me' as subject is wrong. English requires the subject pronoun 'I' before 'have got' to show possession now.",
+      "explanationAr": "استخدام 'Me' كفاعل خطأ؛ في الإنجليزية نحتاج الضمير الفاعل 'I' قبل 'have got' لإظهار الملكية الآن."
+    },
+    {
+      "wrong": "She have got two books in her bag now.",
+      "correct": "She has got two books in her bag now.",
+      "explanationEn": "'She' needs 'has' (not 'have') with 'got'. This is a subject-verb agreement error when stating present possession.",
+      "explanationAr": "مع 'she' نستخدم 'has' وليس 'have'. هذا خطأ نتيجة الترجمة الحرفية من العربية دون مراعاة تطابق الفاعل."
+    },
+    {
+      "wrong": "I got a car now.",
+      "correct": "I have got a car now.",
+      "explanationEn": "Using 'got' alone may look like past tense. To state present ownership now, use 'have got' with the subject.",
+      "explanationAr": "'got' بمفرده قد تُفهم كفعل ماضٍ. لإظهار ملكية حالية الآن نستخدم 'have got' مع الفاعل الصحيح."
+    },
+    {
+      "wrong": "There have got a computer in our class today.",
+      "correct": "We have got a computer in our class today.",
+      "explanationEn": "The sentence misses the right subject and word order. Use 'We have got' to say the class has the computer now.",
+      "explanationAr": "الترتيب هنا خاطئ ويفتقد الفاعل الصحيح. للتعبير عن أن الصف يملك الحاسوب الآن نستخدم 'We have got'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "hghg_q1",
+      "type": "multiple_choice",
+      "prompt": "Right now at school I ___ a new laptop to show the class.",
+      "promptAr": "الآن في المدرسة: اختر الشكل الصحيح لقول أن لدي حاسوبًا جديدًا لعرضه على الصف.",
+      "explanation": "Use 'have got' with I to show present possession at this moment. 'Has got' does not agree with I, and the other choices are ungrammatical in this context.",
+      "arabicNote": "مع 'I' نستخدم 'have got' لإظهار ملكية حالية. لا تترجم ترتيب الجملة من العربية حرفياً؛ ضع have قبل got.",
+      "weakTag": "have_got_has_got_form",
+      "options": [
+        "have got",
+        "has got",
+        "am got",
+        "has have"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "At home now, my sister ___ long dark hair.",
+      "promptAr": "الآن في البيت: أكمل الجملة بوصف صفة مظهر لأختك.",
+      "explanation": "Use 'has got' with she to describe a present physical feature now. 'Have got' is for I/you/we/they and the other forms are ungrammatical.",
+      "arabicNote": "مع 'she' نستخدم 'has got' قبل وصف المظهر الحاضر؛ لا تحذف أداة have/has كما قد تفعل في العربية.",
+      "weakTag": "have_got_has_got_word_order",
+      "options": [
+        "has got",
+        "have got",
+        "has have",
+        "got has"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says the family owns three cats now?",
+      "promptAr": "أي جملة تقول بشكل صحيح أن العائلة تملك ثلاثة قطط الآن؟",
+      "explanation": "'They have got three cats now.' is correct for present possession. The second has wrong word order and the third uses wrong agreement (has with they).",
+      "arabicNote": "للتعبير عن ملكية حالية نستخدم have/has قبل got. تجنب ترتيب الكلمات الخاطئ أو تطابق الفاعل غير الصحيح كما في خيارين الخاطئين.",
+      "weakTag": "have_got_has_got_meaning",
+      "options": [
+        "They have got three cats now.",
+        "They have they three cats now.",
+        "They has got three cats now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about today at home.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة عن شيء اليوم في البيت.",
+      "explanation": "The subject must be 'I'. 'I have got' is the correct present-tense form to show current possession today at home. Other choices are ungrammatical or change word order.",
+      "arabicNote": "في العربية قد تُستخدم 'عندي' دون تغيير الضمير، لكن في الإنجليزية يجب أن يكون الضمير الصحيح قبل have/has.",
+      "weakTag": "hghg_fix_subject",
+      "options": [
+        "I have got a new car today at home.",
+        "Me has got a new car today at home.",
+        "Have got I a new car today at home?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Me have got a new car today at home."
+    },
+    {
+      "id": "hghg_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural present possession sentence used at the park today.",
+      "promptAr": "رتب الكلمات لتكوين جملة صحيحة عن ملكية في الحاضر في الحديقة اليوم.",
+      "explanation": "The normal order is Subject + has + got + object and details: 'She has got a red bike at the park today.' This order shows present possession today.",
+      "arabicNote": "الترتيب مهم: الفاعل ثم have/has ثم got ثم المفعول ثم التفاصيل. في العربية قد يختلف الترتيب، فانتبه عند الترجمة.",
+      "weakTag": "have_got_has_got_word_order",
+      "words": [
+        "She",
+        "has",
+        "got",
+        "a",
+        "red",
+        "bike",
+        "at",
+        "the",
+        "park",
+        "today"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "hghg_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning about present possession or features now/today.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي عن الملكية أو الصفات الحالية الآن/اليوم.",
+      "explanation": "Each sentence uses have got/has got to state present ownership or a feature at this moment or today. Match the correct English form to the Arabic meaning.",
+      "arabicNote": "العبارات تعبر عن ملكية أو صفة حالية. لاحظ أن have/has يبقيان ثابتين قبل got بينما العربية قد تصوغ الملكية بطريقة مختلفة.",
+      "weakTag": "have_got_has_got_meaning",
+      "pairs": [
+        {
+          "left": "I have got a new bag today.",
+          "right": "لدي حقيبة جديدة اليوم."
+        },
+        {
+          "left": "He has got blue eyes now.",
+          "right": "له عيون زرقاء الآن."
+        },
+        {
+          "left": "We have got two chairs in the classroom today.",
+          "right": "لدينا كرسيان في الصف اليوم."
+        },
+        {
+          "left": "She has got a warm coat today.",
+          "right": "لديها معطف دافئ اليوم."
+        }
+      ]
+    },
+    {
+      "id": "hghg_q7",
+      "type": "multiple_choice",
+      "prompt": "My phone today: ___ a cracked screen so I will fix it after class.",
+      "promptAr": "اليوم هاتفي: اختر الشكل الصحيح لقول أن الشاشة مكسورة.",
+      "explanation": "Use 'It has got' because a phone uses 'it' and 'has' is the correct helper for third-person singular to show the present condition today.",
+      "arabicNote": "لغير العاقل نستخدم it مع has لوصف حالة حالية. في العربية قد تُحذف أدوات المساعدة لكن الإنجليزية تتطلبها.",
+      "weakTag": "have_got_has_got_form",
+      "options": [
+        "It has got",
+        "He has got",
+        "It have got",
+        "Has it got"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "We ___ three chairs in the classroom today for the group work.",
+      "promptAr": "اليوم في الصف: اختر الصيغة الصحيحة لوجود ثلاثة كراسي لأجل العمل الجماعي.",
+      "explanation": "'We have got' shows present possession for plural subjects today. 'Has got' is for singular third person and the other choices are ungrammatical here.",
+      "arabicNote": "مع we نستخدم have got. لا تترجم ترتيب الجملة من العربية أو تحذف have/has لأن ذلك يغيِّر القواعد.",
+      "weakTag": "hghg_plural_possession",
+      "options": [
+        "have got",
+        "has got",
+        "has have",
+        "is got"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "In the office now, Tom owns a large map. Which sentence is correct?",
+      "promptAr": "في المكتب الآن: أي جملة صحيحة عن ملكية توم لخريطة كبيرة؟",
+      "explanation": "'He has got' is the correct affirmative form for present possession now. The second changes the sentence into a question and the third has wrong agreement.",
+      "arabicNote": "الجملة المثبتة تحتاج 'He has got' مع he. تجنب تحويل الجملة إلى سؤال أو خطأ في تطابق الفاعل كما يظهر في الخيارات الخاطئة.",
+      "weakTag": "have_got_has_got_arabic_transfer",
+      "options": [
+        "He has got a large map in his office now.",
+        "Has he got a large map in his office now?",
+        "He have got a large map in his office now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "hghg_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence about my brother and his new job today.",
+      "promptAr": "اختر التصحيح الأفضل لجملة عن أخي ووظيفته الجديدة اليوم.",
+      "explanation": "Singular third person 'my brother' needs 'has got' to show current possession (a job) today. 'Have' does not agree with he/she and the missing article is ungrammatical.",
+      "arabicNote": "مع اسم مفرد مثل 'my brother' يجب استخدام has وليس have. الخطأ شائع بسبب اختلاف ترتيب الضمائر والأفعال عند المترجمين العرب.",
+      "weakTag": "have_got_has_got_agreement",
+      "options": [
+        "My brother has got a job today.",
+        "My brother have a job today.",
+        "My brother has got job today."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "My brother have got a job today."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "advanced_passive",
+  "category": "b2_expansion",
+  "titleEn": "Advanced Passive Voice",
+  "titleAr": "المبني للمجهول المتقدم",
+  "level": "B2",
+  "explanationEn": "Practice passive forms with modals, perfect constructions, and reporting verbs. Focus on correct auxiliary + past participle order and clear time or modality context so only one passive form fits the situation.",
+  "explanationAr": "في هذا الدرس نركّز على المبني للمجهول مع الأفعال المساعدة (modals)، وصيغ التام، وأفعال التقرير. على المتعلّم ملاحظة ترتيب المساعد + التصريف الثالث والتمييز الزمني والمعنوي لأن الإنجليزية تفرض مساعدات ثابتة خلافًا للترجمة الحرفية من العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أنهيت واجبي.",
+      "arabicLiteral": "I finished my homework.",
+      "englishCorrect": "I have finished my homework."
+    },
+    {
+      "arabicStructure": "لم تزُر لندن أبداً.",
+      "arabicLiteral": "She never visited London.",
+      "englishCorrect": "She has never visited London."
+    },
+    {
+      "arabicStructure": "يُقال إن القرار قد اتخذ.",
+      "arabicLiteral": "It is said the decision was made.",
+      "englishCorrect": "The decision is believed to have been made."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The homework has finished by me.",
+      "correct": "The homework has been finished by me.",
+      "explanationEn": "Omitting 'been' in present perfect passive makes the sentence ungrammatical.",
+      "explanationAr": "يحذف بعض المتعلّمون 'been' في التام المبني للمجهول. الإنجليزية تحتاج 'has/have been' ثم التصريف الثالث، وإلا تصبح الجملة غير صحيحة نحوياً."
+    },
+    {
+      "wrong": "The policy is believed to approved.",
+      "correct": "The policy is believed to have been approved.",
+      "explanationEn": "Reporting verbs need 'to have been' to show a completed past passive action.",
+      "explanationAr": "عند استخدام أفعال التقرير للإشارة إلى نتيجة ماضية، نحتاج 'to have been' ثم التصريف الثالث. الحذف أو ترتيب الكلمات الخاطئ يجعل الجملة غير صحيحة."
+    },
+    {
+      "wrong": "Students can be divided groups.",
+      "correct": "Students can be divided into groups.",
+      "explanationEn": "Missing function words (like 'into') make the passive ungrammatical in English.",
+      "explanationAr": "بعض المتعلّمين يحذفون كلمات وظيفية مثل 'into'. في الإنجليزية هذا يغيّر البنية ويجعل الجملة خاطئة؛ يجب إضافة 'into' في هذا السياق."
+    },
+    {
+      "wrong": "The packages might have delivered yesterday.",
+      "correct": "The packages might have been delivered yesterday.",
+      "explanationEn": "Modal perfect passive requires 'been' before the past participle to be grammatical.",
+      "explanationAr": "العربية لا تحتاج كلمة مقابلة لـ 'been' لذا قد يُسقطها الطلاب. لكن الإنجليزية تتطلب 'might have been' قبل التصريف الثالث لإظهار احتمال حدث ماضٍ بصورة صحيحة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "adva_q1",
+      "type": "multiple_choice",
+      "prompt": "Context: The site manager asks whether the report met yesterday's deadline. Which passive sentence is correct?",
+      "promptAr": "السياق: يسأل مدير الموقع إذا التزم التقرير بالموعد النهائي بالأمس. أي جملة مبنية للمجهول صحيحة؟",
+      "explanation": "Use 'should have been' + past participle for past expectation in passive voice.",
+      "arabicNote": "قد يترجم المتعلّمون حرفياً دون 'been'. لإظهار توقع ماضٍ بالمبني للمجهول نستخدم 'should have been' ثم التصريف الثالث لأن الإنجليزية تحدد المساعدات بوضوح.",
+      "weakTag": "advanced_passive_form",
+      "options": [
+        "The report should have been finished by 5 pm yesterday.",
+        "The report should had been finish by 5 pm yesterday.",
+        "The report should be finished by 5 pm yesterday.",
+        "The report should have been finish by 5 pm yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "People believe the policy was approved earlier. Which passive reporting sentence keeps that perfect meaning?",
+      "promptAr": "الناس يعتقدون أن السياسة أُقرّت سابقًا. أي جملة تقريرية مبنية للمجهول تحافظ على معنى التام؟",
+      "explanation": "Use 'is believed to have been' to report a completed past action in passive voice.",
+      "arabicNote": "العربية قد تستخدم زمنًا واحدًا للدلالة على نتيجة ماضية. الإنجليزية تتطلب 'is believed to have been' لإظهار أن الموافقة حدثت قبل الآن دون تغيير المعنى.",
+      "weakTag": "advanced_passive_reporting",
+      "options": [
+        "The policy is believed to have been approved.",
+        "The policy is believed to have approve.",
+        "The policy was believed having been approved."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Safety rule: All parents ___ notified after an incident. Fill the blank with correct passive modal form.",
+      "promptAr": "قانون السلامة: يجب إبلاغ جميع الآباء بعد الحادث. اكمِل الفراغ بصيغة المبني للمجهول المناسبة للمودال.",
+      "explanation": "Modal obligation in passive requires modal + be + past participle; do not drop 'be'.",
+      "arabicNote": "في العربية قد نقول 'يجب إبلاغ الآباء' بدون مساعد. في الإنجليزية نستخدم 'must be' ثم التصريف الثالث لإظهار الضرورة بصيغة المبني للمجهول، فلا نحذف 'be'.",
+      "weakTag": "advanced_passive_modal_obligation",
+      "options": [
+        "must be notified",
+        "must notified",
+        "must been notified",
+        "must being notified"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a present perfect passive sentence about homework completed already.",
+      "promptAr": "اختر التصحيح الأفضل لجملة تامة مبنية للمجهول عن واجب تم إنجازه بالفعل.",
+      "explanation": "Present perfect passive needs has/have been + past participle to show completed action.",
+      "arabicNote": "المتحدثون العرب قد يترجمون حرفيًا 'has finished' من العربية. يجب إضافة 'been' لأن الإنجليزية توضح الفاعل الحقيقي باستخدام 'has been' ثم التصريف الثالث، خاصة مع 'already'.",
+      "weakTag": "advanced_passive_missing_helper",
+      "options": [
+        "The homework has already been finished by me.",
+        "The homework have already been finished by me.",
+        "The homework already been finished by me."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The homework has already finished by me."
+    },
+    {
+      "id": "adva_q5",
+      "type": "sentence_order",
+      "prompt": "Order the words to make a natural perfect passive sentence about travel experience.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تامة مبنية للمجهول عن خبرة سفر.",
+      "explanation": "Put subject, auxiliaries, 'been', past participle, and agent in the correct sequence for perfect passive.",
+      "arabicNote": "في العربية ترتيب الجملة يختلف. الإنجليزية تضع 'has/have been' ثم التصريف الثالث لتوضح خبرة ماضية بدل ترجمة حرفية من العربية.",
+      "weakTag": "advanced_passive_word_order",
+      "words": [
+        "London",
+        "been",
+        "by",
+        "her",
+        "never",
+        "has",
+        "visited"
+      ],
+      "correctOrder": [
+        0,
+        5,
+        4,
+        1,
+        6,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "adva_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English passive sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة مبنية للمجهول بمعناها العربي.",
+      "explanation": "Match passive sentences to Arabic meanings by identifying modality, perfect/result, and reporting differences.",
+      "arabicNote": "انظُر إلى المودال والتام والتقرير. العربية قد تعبر عنها بشكل مختلف، لذا ركّز على المساعدات مثل 'must/might/have been' لتحديد المعنى بدقة.",
+      "weakTag": "advanced_passive_meaning",
+      "pairs": [
+        {
+          "left": "The room must be cleaned after class.",
+          "right": "يجب تنظيف الغرفة بعد الحصة."
+        },
+        {
+          "left": "The exam is believed to have been leaked last week.",
+          "right": "يُعتقد أن الامتحان قد تسرّب الأسبوع الماضي."
+        },
+        {
+          "left": "By noon the tests might have been graded.",
+          "right": "بحلول الظهر ربما تكون الاختبارات قد صُنّفت."
+        }
+      ]
+    },
+    {
+      "id": "adva_q7",
+      "type": "multiple_choice",
+      "prompt": "Advice context: Mechanic recommends a check before driving again. Choose the correct passive.",
+      "promptAr": "سياق نصيحة: يوصي الميكانيكي بفحص السيارة قبل القيادة مجدداً. اختر المبني للمجهول الصحيح.",
+      "explanation": "Advice in passive uses 'should be' + past participle to recommend action without naming the actor.",
+      "arabicNote": "أحيانًا يترجم المتعلّمون 'يجب فحص السيارة' بدون 'be'. الإنجليزية تتطلب 'should be checked' لتكوين نصيحة مبنية للمجهول، وعدم حذف 'be' يغيّر البُنية.",
+      "weakTag": "advanced_passive_advice",
+      "options": [
+        "The car should be checked before you drive it again.",
+        "The car should checked before you drive it again.",
+        "The car should have checking before you drive it again."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Report: There is no record that she ever visited. Which passive sentence correctly reports this idea with perfect form?",
+      "promptAr": "تقرير: لا يوجد سجل بأنها زارت من قبل. أي جملة مبنية للمجهول صحيحة بصيغة التام للتقرير؟",
+      "explanation": "Use 'is thought never to have visited' to report a past experience not occurring in passive reporting perfect.",
+      "arabicNote": "الإنجليزية تستخدم تركيب 'is thought never to have visited' للتعبير عن عدم وجود خبرة سابقة. لا تُغيّر زمن الفعل أو ترتيب المساعدات كما في الترجمة الحرفية من العربية.",
+      "weakTag": "advanced_passive_reporting_perfect",
+      "options": [
+        "She is thought never to have visited London.",
+        "She is thought never to have visit London.",
+        "She is thought to never visited London."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Delivery possibility: The customer asks if the package arrived. Fill the blank with the correct modal perfect passive: The package ___ yesterday.",
+      "promptAr": "احتمال توصيل: يسأل الزبون إن وصلت الطرد بالأمس. اكمِل الفراغ بصيغة المودال التام المبني للمجهول الصحيحة: The package ___ yesterday.",
+      "explanation": "Use 'might have been' + past participle for possible past passive events; include 'been'.",
+      "arabicNote": "المتحدثون العرب قد يحذفون 'been' لأن العربية لا تحتاجه. لإظهار احتمال حدث ماضٍ مبني للمجهول يجب قول 'might have been' ثم التصريف الثالث قبل ظرف الزمان.",
+      "weakTag": "advanced_passive_modal_possibility",
+      "options": [
+        "might have been delivered",
+        "might have delivered",
+        "might be delivered",
+        "might been delivered"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Correct the reported passive sentence about letters sent before the meeting yesterday.",
+      "promptAr": "صحّح الجملة التقريرية المبنية للمجهول عن رسائل أُرسلت قبل الاجتماع بالأمس.",
+      "explanation": "Report a past result before another past time with past perfect passive: had been + past participle.",
+      "arabicNote": "في العربية قد نستخدم زمنًا واحدًا للأحداث السابقة. عند الإبلاغ عن حدث اكتمل قبل وقت ماضٍ آخر مثل اجتماع بالأمس، تتطلب الإنجليزية 'had been sent' في المبني للمجهول.",
+      "weakTag": "advanced_passive_reporting_tense",
+      "options": [
+        "It was reported that the letters had been sent before the meeting yesterday.",
+        "It was reported that the letters have sent before the meeting yesterday.",
+        "It was reported that the letters had sent before the meeting yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "It was reported that the letters have sent before the meeting yesterday."
+    }
+  ]
+}

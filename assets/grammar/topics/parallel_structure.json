@@ -1,0 +1,242 @@
+{
+  "id": "parallel_structure",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Parallel Structure",
+  "titleAr": "التوازي في بنية الجملة",
+  "level": "C1",
+  "explanationEn": "Parallel structure uses the same grammatical form for items in lists, comparisons, and repeated patterns. At C1, choose matching forms so meaning and register are precise. Good parallelism improves clarity in reports, emails, and presentations and avoids ambiguity common with long or flexible Arabic word order.",
+  "explanationAr": "التوازي يعني استخدام نفس الشكل النحوي لعناصر القوائم والمقارنات والأنماط المتكررة. في العربية قد تُفهم العلاقات من السياق أو بترتيب مرن، لكن الإنجليزية المتقدمة تتطلب صيغًا متطابقة وأدوات وصل واضحة لتجنّب الغموض وتحسين الأسلوب في التقارير والبريد العملي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أفضّل القراءة على أن أشاهد التلفاز.",
+      "arabicLiteral": "I prefer reading than to watch TV",
+      "englishCorrect": "I prefer reading to watching TV."
+    },
+    {
+      "arabicStructure": "يجب أن تراجع وأن تكتب وتنجز المهام.",
+      "arabicLiteral": "You must review and write and complete tasks",
+      "englishCorrect": "You must review, write, and complete the tasks."
+    },
+    {
+      "arabicStructure": "سنزور المتحف أو الذهاب إلى الحديقة.",
+      "arabicLiteral": "We will visit the museum or going to the park",
+      "englishCorrect": "We will visit the museum or go to the park."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The course requires attending lectures, to complete assignments, and a final exam.",
+      "correct": "The course requires attending lectures, completing assignments, and taking a final exam.",
+      "explanationEn": "Mixing gerunds, infinitives, and noun phrases breaks the list's parallel form and reduces clarity in academic descriptions.",
+      "explanationAr": "خلط المصدر المستمر والمصدر والعبارة الاسمية يكسر توازي القائمة ويجعل وصف المقرر أقل دقة ووضوحاً."
+    },
+    {
+      "wrong": "She values honesty, hard work, and that employees are punctual.",
+      "correct": "She values honesty, hard work, and punctuality in employees.",
+      "explanationEn": "A clause does not match a noun list; change the clause to a noun to keep the list parallel.",
+      "explanationAr": "وجود جملة فرعية وسط قائمة أسماء يكسر التوازن. حوّل العبارة إلى اسم لتكوين قائمة متوازنة وواضحة."
+    },
+    {
+      "wrong": "For the report, we will analyze the data, write conclusions, and presenting recommendations.",
+      "correct": "For the report, we will analyze the data, write conclusions, and present recommendations.",
+      "explanationEn": "After 'will' use the base verb for each item; a gerund in the last item breaks parallel verb forms.",
+      "explanationAr": "بعد 'will' نستخدم صورة الفعل الأساسية لكل عنصر؛ ظهور مصدر -ing في آخر القائمة يكسر التوازي بين الأفعال."
+    },
+    {
+      "wrong": "The workshop is intended for new teachers, for mentors, and those returning from leave.",
+      "correct": "The workshop is intended for new teachers, mentors, and returning staff.",
+      "explanationEn": "Mixing a prepositional phrase, a noun, and a clause creates uneven items; make all list items the same type.",
+      "explanationAr": "خلط عبارة جرّية مع اسم وجملة وصفية يخلّ بإيقاع القائمة. اجعل جميع العناصر من نفس النوع لنتيجة واضحة ومهنية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "parall_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence keeps the list items grammatically parallel in a project summary?",
+      "promptAr": "أيهما يحافظ على توازي عناصر القائمة في ملخص المشروع؟",
+      "explanation": "Use the same verb form (gerund) for each item to keep the list parallel and professional.",
+      "arabicNote": "اجعل عناصر قائمة المهام بنفس شكل الفعل (-ing) لتفادي الخلط. المتحدثون بالعربية قد يغيّرون الصيغة، لكن الإنجليزية تحتاج توازناً واضحاً في التقارير.",
+      "weakTag": "parallel_structure_form",
+      "options": [
+        "The project will involve designing the interface, testing the code, and writing documentation.",
+        "The project will involve designing the interface, to test the code, and documentation writing.",
+        "The project will involve design the interface, testing code, and to write documentation.",
+        "The project will involve designing the interface, the code will be tested, and write documentation."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "parall_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "The committee recommended ___, ___, and ___ to improve student support.",
+      "promptAr": "أكمل الفراغات لتكون الأفعال متوازية في توصيات اللجنة.",
+      "explanation": "Use gerunds for each recommendation so all items match grammatically and formally.",
+      "arabicNote": "استخدم نفس صيغة الفعل لكل عنصر (مثل -ing) في توصيات رسمية. العربية قد تسمح بتغييرات، لكن الإنجليزية تتطلب تساوياً واضحًا في الصياغة.",
+      "weakTag": "parall_recommendations",
+      "options": [
+        "to hire more tutors, increasing office hours, and to create online resources",
+        "hiring more tutors, increasing office hours, and creating online resources",
+        "hire more tutors, to increase office hours, and to create online resources",
+        "hired more tutors, increasing office hours, creating online resources"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "parall_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly compares two activities in parallel form?",
+      "promptAr": "أي جملة تقارن بين نشاطين بشكل متوازي صحيح؟",
+      "explanation": "Both activities should use the same form; 'reading' and 'watching' are parallel and clear.",
+      "arabicNote": "ضع النشاطين بنفس الشكل النحوي (مثل -ing). المتحدثون بالعربية قد يغيّرون الصياغة، لكن الإنجليزية تتطلب تطابقاً لتفادي الغموض.",
+      "weakTag": "parallel_structure_precision",
+      "options": [
+        "I prefer reading magazines to watching documentaries.",
+        "I prefer reading magazines to watch documentaries.",
+        "I prefer to read magazines than watching documentaries."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "parall_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English connector to its Arabic meaning (used in parallel structures).",
+      "promptAr": "وصل كل رابط إنجليزي بمعناه العربي (يستخدم في التوازي).",
+      "explanation": "These connectors require parallel grammatical forms on each side for clarity.",
+      "arabicNote": "تتطلب هذه الروابط عناصر متوازية نحويًا بعد كل جزء. في العربية قد يُفهم المعنى من السياق لكن الإنجليزية تطلب مقابلات متطابقة بعد الروابط.",
+      "weakTag": "parall_connectors",
+      "pairs": [
+        {
+          "left": "both...and",
+          "right": "كلا... و"
+        },
+        {
+          "left": "not only... but also",
+          "right": "ليس فقط... بل أيضاً"
+        },
+        {
+          "left": "either... or",
+          "right": "إما... أو"
+        }
+      ]
+    },
+    {
+      "id": "parall_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a parallel sentence for a job ad.",
+      "promptAr": "رتّب الكلمات لتكوين جملة متوازنة لإعلان وظيفة.",
+      "explanation": "Order words to produce three parallel -ing phrases describing duties in a clear sequence.",
+      "arabicNote": "رتّب واجبات العمل بصيغة -ing متطابقة لتكوّن جملة واضحة ومهنية. المتحدثون بالعربية قد يسردون بدون تكرار الروابط، لكن الإنجليزية تحتاج توازناً واضحاً.",
+      "weakTag": "parallel_structure_order",
+      "words": [
+        "designing",
+        "user",
+        "interfaces,",
+        "testing",
+        "backend",
+        "systems,",
+        "and",
+        "leading",
+        "client",
+        "relationships.",
+        "Duties",
+        "include"
+      ],
+      "correctOrder": [
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "parall_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction to make this sentence parallel in a job description.",
+      "promptAr": "اختر التصحيح الأفضل لجعل الجملة متوازنة في وصف وظيفة.",
+      "explanation": "Make the third item a noun phrase so all three list items match grammatically.",
+      "arabicNote": "حوّل العبارة إلى عبارة اسمية ('the ability to...') لتتطابق مع بقية عناصر القائمة. المتحدثون بالعربية قد يستخدمون جملة فرعية بدل اسم، مما يكسر التوازي.",
+      "weakTag": "parall_fix_mistake",
+      "options": [
+        "The job requires attention to detail, patience, and the ability to work quickly.",
+        "The job requires attention to detail, patience, and that you work quickly.",
+        "The job requires attention to detail, patience, and to work quickly.",
+        "The job requires attention to detail, patience, and be working quickly."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The job requires attention to detail, patience, and that you can work quickly."
+    },
+    {
+      "id": "parall_q7",
+      "type": "multiple_choice",
+      "prompt": "HR email: Choose the parallel completion for this sentence.",
+      "promptAr": "بريد الموارد البشرية: اختر الإتمام المتوازي لهذه الجملة.",
+      "explanation": "After 'either' use two base verbs to keep both options parallel and formal.",
+      "arabicNote": "بعد either استخدم شكلين متوازيين للفعل دون إضافات. المتحدثون بالعربية قد يقدّمون أشكالًا مختلفة دون أن يشعروا بالخطأ، لكن هنا مطلوب تطابق واضح.",
+      "weakTag": "parall_choices",
+      "options": [
+        "You can either call HR or email HR to submit your request.",
+        "You can either calling HR or email HR to submit your request.",
+        "You can either call HR or to email HR to submit your request.",
+        "You can either calling HR or emailing HR to submit your request."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "parall_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "In the minutes: He said he would update the schedule, he would prepare the report, and ___.",
+      "promptAr": "في محضر الاجتماع: أكمل لتجعل الأفعال متوازية بعد 'he would'.",
+      "explanation": "Repeat 'he would' before the final verb so each item uses the same auxiliary pattern.",
+      "arabicNote": "حافظ على نمط 'he would' لكل فعل في القائمة. المتحدثون بالعربية قد يحذفون الضمائر أو يغيّرون الأزمنة، لكن هنا الإنجليزية تحتاج تكرار النمط للحفاظ على التوازي والدقة.",
+      "weakTag": "parall_modal_sequence",
+      "options": [
+        "he would present the results",
+        "he will present the results",
+        "that he present the results",
+        "presenting the results"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "parall_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence keeps a clear parallel comparison for two proposals?",
+      "promptAr": "أي جملة تحافظ على مقارنة متوازنة وواضحة بين اقتراحين؟",
+      "explanation": "Use matching adjective phrases for each point; do not mix a noun phrase or an unfinished verb phrase.",
+      "arabicNote": "حافظ على نوع نحوي واحد في المقارنة. في الإنجليزية المتقدمة يجب أن تبدو الصفات أو العبارات الوصفية متوازنة لا خليطًا من أسماء وأفعال.",
+      "weakTag": "parall_comparisons",
+      "options": [
+        "Proposal A is more cost-effective, more efficient, and easier to implement than Proposal B.",
+        "Proposal A is more cost-effective, has greater efficiency, and easier to implement than Proposal B.",
+        "Proposal A is more cost-effective and is efficient and easier to implement than Proposal B."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "parall_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Pick the best correction for a travel announcement to make the list parallel.",
+      "promptAr": "اختر أفضل تصحيح لإعلان سفر لجعل العناصر متوازية.",
+      "explanation": "Use the same past simple verb form for each completed action to keep tense and form parallel.",
+      "arabicNote": "استخدم نفس زمن الفعل وصيغته لكل عنصر مذكور (الماضي البسيط هنا). المتحدثون بالعربية قد يمزجون الصيغ داخل السرد، لكن الإنجليزية تتطلب تساوياً زمنياً وصيغياً لالتزام الدقة.",
+      "weakTag": "parall_tenses",
+      "options": [
+        "During the trip we visited museums, walked along the beach, and ate in local restaurants.",
+        "During the trip we visited museums, we walking along the beach, and we ate in local restaurants.",
+        "During the trip we visited museums, to walk along the beach, and to eat in local restaurants.",
+        "During the trip we visit museums, walk along the beach, and ate in local restaurants."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "During the trip we visited museums, walking along the beach, and ate in local restaurants."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "advanced_articles",
+  "category": "b2_expansion",
+  "titleEn": "Advanced Articles",
+  "titleAr": "أدوات التعريف والتنكير المتقدمة",
+  "level": "B2",
+  "explanationEn": "This lesson explains how to use the, a/an, or no article with abstract nouns, institutions, media, places, and shared knowledge. It focuses on first mention versus known reference and on English structures that do not map directly from Arabic. Each example gives clear context so only one article choice is correct.",
+  "explanationAr": "تعلّم متى نستخدم the أو a/an أو نحذف الأداة مع الأسماء المجردة والمؤسسات ووسائل الإعلام والأماكن والمعرفة المشتركة. سنقارن مع عادة المتحدث العربي لأن بنية العربية لا تتطابق دائماً مع الإنجليزية، ونقدّم سياقات واضحة لتجنب النقل الحرفي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "اشتريت كتابًا. الكتاب مفيد.",
+      "arabicLiteral": "I bought book. The book useful.",
+      "englishCorrect": "I bought a book. The book is useful."
+    },
+    {
+      "arabicStructure": "الماء مهم.",
+      "arabicLiteral": "Water important.",
+      "englishCorrect": "Water is important."
+    },
+    {
+      "arabicStructure": "هي تذهب إلى الجامعة كل يوم.",
+      "arabicLiteral": "She goes to university every day.",
+      "englishCorrect": "She goes to university every day. (British English: this is normal; American English often says 'She goes to the university' when referring to the building.)"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I bought book yesterday.",
+      "correct": "I bought a book yesterday.",
+      "explanationEn": "Missing 'a' before a first mention of a singular countable noun; English requires an article.",
+      "explanationAr": "خطأ شائع عند حذف a/an قبل اسم مفرد معدود عند الذكر الأول. في العربية قد لا تظهر الأداة بنفس الطريقة، لكن الإنجليزية تحتاجها هنا."
+    },
+    {
+      "wrong": "Water important.",
+      "correct": "Water is important.",
+      "explanationEn": "Missing the helper verb 'is'. English needs a verb to link subject and adjective in a general statement.",
+      "explanationAr": "حذف فعل الربط 'is' هو خطأ شائع لأن العربية أحيانًا تكتفي بالتركيب الاسمي. في الإنجليزية يجب وجود الفعل ليصبح المعنى صحيحًا."
+    },
+    {
+      "wrong": "I visited hospital that treated my father yesterday.",
+      "correct": "I visited the hospital that treated my father yesterday.",
+      "explanationEn": "When referring to a specific institution known from context, English uses 'the' before hospital.",
+      "explanationAr": "عند الإشارة إلى مؤسسة محددة معروفة من السياق نستخدم the. العربية قد تحذف الأداة لكن الإنجليزية تحتاجها لتحديد المكان."
+    },
+    {
+      "wrong": "I saw it on the television last night.",
+      "correct": "I saw it on television last night.",
+      "explanationEn": "'On television' names the medium and usually omits 'the'; 'the television' refers to the physical device.",
+      "explanationAr": "للدلالة على وسيلة البث نستخدم عادةً بدون the. استخدام the يشير إلى الجهاز نفسه، وهو فرق مهم بين العربية والإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "adva2_q1",
+      "type": "multiple_choice",
+      "prompt": "I bought a book. ___ book is useful for my class.",
+      "promptAr": "اختر أداة التعريف الصحيحة عند إعادة ذكر شيء ذُكر سابقًا.",
+      "explanation": "After a first mention, refer back to that specific book with 'the'.",
+      "arabicNote": "عند ذكر شيء للمرة الثانية نستخدم the في الإنجليزية لتحديده. المتحدثون العرب قد يعيدون الاسم بدون أداة، فاحذر ذلك عند الترجمة.",
+      "weakTag": "advanced_articles_first_mention",
+      "options": [
+        "The book",
+        "A book",
+        "Book",
+        "An book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva2_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "In general, ___ freedom matters to citizens of a democracy.",
+      "promptAr": "اختر ما يناسب الاسم المجرد عند تصريح عام.",
+      "explanation": "Abstract nouns used generally usually take no article in English.",
+      "arabicNote": "الأسماء المجردة مثل 'freedom' تُستخدم عادة بدون أداة في بيانات عامة. في العربية قد تُبنى الجملة بشكل مختلف، فانتبه.",
+      "weakTag": "advanced_articles_abstract_nouns",
+      "options": [
+        "The freedom",
+        "Freedom",
+        "A freedom",
+        "An freedom"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adva2_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly refers to listening to broadcast media this morning (the broadcast, not a device).",
+      "promptAr": "اختر الجملة الصحيحة لوصف الاستماع إلى البث الإذاعي هذا الصباح (قصد البث، وليس الجهاز).",
+      "explanation": "'The radio' is the usual phrase when we mean the broadcast medium.",
+      "arabicNote": "عند الإشارة إلى البث الإذاعي نستخدم 'the radio' أو أحيانًا بدون 'the' حسب السياق. هنا نريد الوسيط (البث)، فاختَر the radio.",
+      "weakTag": "advanced_articles_media",
+      "options": [
+        "She listened radio this morning.",
+        "She listened to the radio this morning.",
+        "She listened to a radio this morning."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adva2_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this sentence about a specific hospital visit.",
+      "promptAr": "اختر التصحيح الأفضل لجملة تتحدث عن زيارة لمستشفى محدد عالَج أبًا.",
+      "explanation": "Use 'the' before hospital when you mean a specific hospital known from the context.",
+      "arabicNote": "عند الإشارة إلى مستشفى محدد معروف من السياق نستخدم the في الإنجليزية. العربية قد لا تُظهر الأداة بنفس الطريقة، فضعها هنا.",
+      "weakTag": "advanced_articles_institutions",
+      "options": [
+        "I visited the hospital that treated my father yesterday.",
+        "I visited hospital the that treated my father yesterday.",
+        "I visited a hospital that treated my father yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I visited hospital that treated my father yesterday."
+    },
+    {
+      "id": "adva2_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a clear sentence about shared knowledge.",
+      "promptAr": "رتّب الكلمات لتكوين جملة واضحة عن إعلان جهة معروفة للجميع.",
+      "explanation": "'The government' shows a known authority; it fits before the verb.",
+      "arabicNote": "نستخدم the قبل government عندما تكون الحكومة جهة معروفة للجميع. هذه البنية قد تختلف عن الطريقة التي تُبنى بها الجملة في العربية.",
+      "weakTag": "advanced_articles_shared_knowledge",
+      "words": [
+        "announced",
+        "The",
+        "government",
+        "new",
+        "rules."
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "adva2_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English noun to its Arabic meaning.",
+      "promptAr": "وصل كل اسم إنجليزي بمعناه العربي المناسب.",
+      "explanation": "Understand the meanings so you can pick the correct article by context.",
+      "arabicNote": "فهم معنى الكلمة مهم لاختيار الأداة الصحيحة لاحقًا، خاصة مع الأسماء المجردة والمؤسسات ووسائل الإعلام.",
+      "weakTag": "advanced_articles_meaning",
+      "pairs": [
+        {
+          "left": "freedom",
+          "right": "الحرية"
+        },
+        {
+          "left": "the media",
+          "right": "وسائل الإعلام"
+        },
+        {
+          "left": "university",
+          "right": "الجامعة"
+        },
+        {
+          "left": "water",
+          "right": "الماء"
+        }
+      ]
+    },
+    {
+      "id": "adva2_q7",
+      "type": "multiple_choice",
+      "prompt": "My sister works as a teacher at ___ school on Main Street, the school everyone in this town knows.",
+      "promptAr": "اختر أداة التعريف المناسبة عند ذكر مكان عمل محدّد يعرفه الجميع في البلدة.",
+      "explanation": "Because the school is specific and known, use 'the' before school.",
+      "arabicNote": "عندما نذكر مدرسة محددة ومعروفة للجميع نستخدم the في الإنجليزية. لا تنقل بنية العربية حرفيًا لأن ذلك يغيّر المعنى.",
+      "weakTag": "advanced_articles_places",
+      "options": [
+        "the school",
+        "a school",
+        "school",
+        "an school"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva2_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I saw the interview on ___ television last night (meaning the broadcast medium).",
+      "promptAr": "اختر التعبير الصحيح لوصف مشاهدة مقابلة على التلفزيون كوسيط بث، وليس الجهاز.",
+      "explanation": "When naming the medium generally, we say 'on television' without 'the'.",
+      "arabicNote": "للدلالة على وسيلة البث (التلفزيون كبث) نستخدم عادةً without 'the' في الإنجليزية. استخدام the يشير إلى الجهاز نفسه.",
+      "weakTag": "advanced_articles_media_medium",
+      "options": [
+        "television",
+        "the television",
+        "a television",
+        "televisions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adva2_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses an abstract noun for a general statement?",
+      "promptAr": "أي جملة تستخدم اسمًا مجردًا بشكل صحيح في بيان عام؟",
+      "explanation": "General statements with abstract nouns usually omit the article.",
+      "arabicNote": "في العبارات العامة مع أسماء مجردة نُسقِط الأداة في الإنجليزية. العربية قد تتصرف بشكل مختلف، فانتبه عند الترجمة.",
+      "weakTag": "adva2_abstract_general",
+      "options": [
+        "The patience helps students learn.",
+        "Patience helps students learn.",
+        "A patience helps students learn."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adva2_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this first-mention sentence.",
+      "promptAr": "اختر التصحيح الأفضل عندما يُذكر اسم مفرد للمرة الأولى.",
+      "explanation": "For a first mention of a single countable noun use 'a'.",
+      "arabicNote": "عند الذكر الأول لاسم مفرد معدود نستخدم a/an في الإنجليزية. لا تعتقد أن حذف الأداة كما في العربية سيبقي المعنى صحيحًا.",
+      "weakTag": "advanced_articles_first_mention_fix",
+      "options": [
+        "I read a book yesterday.",
+        "I read the book yesterday.",
+        "I read books yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I read book yesterday."
+    }
+  ]
+}

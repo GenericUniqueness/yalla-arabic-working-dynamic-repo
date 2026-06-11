@@ -1,0 +1,224 @@
+{
+  "id": "countable_uncountable_nouns",
+  "category": "basics",
+  "titleEn": "Countable and Uncountable Nouns",
+  "titleAr": "الأسماء المعدودة وغير المعدودة",
+  "level": "A1-A2",
+  "explanationEn": "Countable nouns are items you can count: one apple, two apples. Use numbers and a/an with singular countable nouns (a book, an orange). Uncountable nouns (water, rice, milk) are substances or mass items you cannot count one by one; do not add -s or use a/an alone. Arabic speakers often pluralize or add a/an because Arabic treats some mass nouns differently.",
+  "explanationAr": "في العربية بعض الأسماء تُجمع أو تُذكر مع عدد بسهولة، لكن في الإنجليزية نفرق بين الأسماء المعدودة (يمكن عدها: an apple، two apples) والأسماء غير المعدودة (مثل الماء، الأرز، الحليب) التي لا تُجمع ولا نضيف لها s. في الإنجليزية نستخدم كلمات قياس مثل \"a glass of\" أو \"some\" مع الأسماء غير المعدودة. في العربية قد يُجمع الشيء الذي في الإنجليزية اسم غير معدود، لذلك يخطئ المتعلمون بجمعه أو بوضع a.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عندي تفاحة.",
+      "arabicLiteral": "I have apple.",
+      "englishCorrect": "I have an apple."
+    },
+    {
+      "arabicStructure": "أحب الماء.",
+      "arabicLiteral": "I love water.",
+      "englishCorrect": "I love water."
+    },
+    {
+      "arabicStructure": "لدي أرز.",
+      "arabicLiteral": "I have rice.",
+      "englishCorrect": "I have rice."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have two waters.",
+      "correct": "I have two glasses of water.",
+      "explanationEn": "Water is uncountable; to show quantity use a measure word (glasses, bottles).",
+      "explanationAr": "الماء غير معدود في الإنجليزية؛ لنقول كمية نستخدم كلمة قياس مثل glass أو bottle."
+    },
+    {
+      "wrong": "I want a rice.",
+      "correct": "I want rice.",
+      "explanationEn": "Rice is uncountable, so we do not use 'a' before it.",
+      "explanationAr": "الأرز غير معدود في الإنجليزية، لذلك لا نستخدم a قبله."
+    },
+    {
+      "wrong": "I see three apple.",
+      "correct": "I see three apples.",
+      "explanationEn": "After a number, use the plural form with countable nouns: three apples.",
+      "explanationAr": "بعد العدد نستخدم صيغة الجمع مع الأسماء المعدودة: three apples."
+    },
+    {
+      "wrong": "I have a milks.",
+      "correct": "I have milk.",
+      "explanationEn": "Milk is uncountable; do not use 'a' or add -s. Use a measure if needed (a glass of milk).",
+      "explanationAr": "الحليب غير معدود في الإنجليزية؛ لا نضع a ولا نضيف s. يمكن استخدام كلمة قياس مثل a glass of milk."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cun_q1",
+      "type": "multiple_choice",
+      "prompt": "How many apples do you have?",
+      "promptAr": "كم عدد التفاح لديك؟",
+      "explanation": "Use 'an' with one countable noun: 'an apple'.",
+      "arabicNote": "نستخدم 'an' مع اسم معدود مفرد مثل apple.",
+      "weakTag": "countable_uncountable_nouns_choice",
+      "options": [
+        "I have an apple.",
+        "I have apple.",
+        "I have apples."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cun_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Water is uncountable; we use 'water' or a measure like 'two glasses of water'.",
+      "arabicNote": "الماء غير معدود، نستخدم water أو نذكر وحدة قياس مثل two glasses of water.",
+      "weakTag": "countable_uncountable_nouns_choose",
+      "options": [
+        "I have a water.",
+        "I have water.",
+        "I have two waters."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cun_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I want ___ rice.",
+      "promptAr": "أريد ___ أرز.",
+      "explanation": "Use 'some' with uncountable nouns when you want an unspecified amount.",
+      "arabicNote": "نستخدم 'some' مع الأسماء غير المعدودة مثل rice عندما نريد كمية غير محددة.",
+      "weakTag": "cun_fill_some",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "cun_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Milk is uncountable: remove 'a' and the plural -s, or use 'a glass of milk'.",
+      "arabicNote": "الحليب غير معدود في الإنجليزية؛ لا نضع a ولا نضيف s.",
+      "weakTag": "cun_fix_milk",
+      "options": [
+        "I have milk.",
+        "I have a milk.",
+        "I have milks."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have a milks."
+    },
+    {
+      "id": "cun_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is: \"I have two apples.\"",
+      "arabicNote": "الجملة الصحيحة هي: \"I have two apples.\" نستخدم جمع الاسم بعد العدد.",
+      "weakTag": "cun_sentence_order",
+      "words": [
+        "I",
+        "have",
+        "two",
+        "apples."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cun_q6",
+      "type": "meaning_match",
+      "prompt": "Match each noun to its type.",
+      "promptAr": "صل كل اسم بنوعه.",
+      "explanation": "Countable nouns can be pluralized; uncountable nouns use no -s and need measure words.",
+      "arabicNote": "الأسماء المعدودة تُجمع، أما غير المعدودة فلا نضيف لها s ونستخدم كلمات قياس.",
+      "weakTag": "cun_meaning_match",
+      "pairs": [
+        {
+          "left": "apple",
+          "right": "اسم معدود: apple"
+        },
+        {
+          "left": "water",
+          "right": "اسم غير معدود: water"
+        },
+        {
+          "left": "milk",
+          "right": "اسم غير معدود: milk"
+        },
+        {
+          "left": "book",
+          "right": "اسم معدود: book"
+        }
+      ]
+    },
+    {
+      "id": "cun_q7",
+      "type": "multiple_choice",
+      "prompt": "Which is correct?",
+      "promptAr": "أيها صحيح؟",
+      "explanation": "Use 'some' with uncountable nouns for an unspecified amount: 'some water'.",
+      "arabicNote": "نستخدم 'some' مع الأسماء غير المعدودة مثل الماء عندما لا نحدد الكمية.",
+      "weakTag": "cun_choice_water",
+      "options": [
+        "I have a water.",
+        "I have some water.",
+        "I have waters."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cun_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Water is uncountable; do not use 'a' before it when you mean the substance.",
+      "arabicNote": "الماء غير معدود، لا نستخدم a قبله للتعبير عن المادة.",
+      "weakTag": "cun_choose_water2",
+      "options": [
+        "I want a water.",
+        "I want water.",
+        "I want waters."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cun_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "I see ___ apples.",
+      "promptAr": "أرى ___ تفاح.",
+      "explanation": "Use a number like 'two' with countable nouns: 'two apples'.",
+      "arabicNote": "نستخدم رقمًا مع الأسماء المعدودة، ثم نضع اسم الجمع.",
+      "weakTag": "cun_fill_number",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "cun_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Rice is uncountable: remove 'a'. If you want to show quantity use 'some' or a measure.",
+      "arabicNote": "الأرز غير معدود في الإنجليزية؛ لا نستخدم a. يمكن استخدام some أو كلمة قياس.",
+      "weakTag": "cun_fix_rice",
+      "options": [
+        "I have rice.",
+        "I have some rice.",
+        "I have rices."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have a rice."
+    }
+  ]
+}

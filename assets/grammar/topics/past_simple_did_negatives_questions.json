@@ -1,0 +1,227 @@
+{
+  "id": "past_simple_did_negatives_questions",
+  "category": "basics",
+  "titleEn": "Past Simple: Did, Negatives, and Questions",
+  "titleAr": "did والنفي والأسئلة في الماضي البسيط",
+  "level": "A2",
+  "explanationEn": "In past simple questions and negatives English uses the auxiliary did (or didn't) plus the base verb. For example: \"Did you go?\" and \"I didn't go.\" Arabic does not use a helper verb here, so learners often add -ed or the past form after did. Remember: after did/didn't use the base verb (go, see, eat).",
+  "explanationAr": "في العربية نضيف علامة الماضي أو نستخدم صيغة الماضي مباشرة، لكن في الإنجليزية للأسئلة والنفي في الماضي نستخدم الفعل المساعد did أو didn't ثم الفعل في صورته الأساسية. فالجملة العربية \"هل ذهبت؟\" تُترجم إلى \"Did you go?\" وليس *\"Did you went?\". هذا يفسر خطأ المتحدثين العرب الذين يضعون صيغة الماضي بعد did.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبت إلى المدرسة.",
+      "arabicLiteral": "I went to school.",
+      "englishCorrect": "I went to school."
+    },
+    {
+      "arabicStructure": "لم أذهب إلى المدرسة.",
+      "arabicLiteral": "I did not go to school.",
+      "englishCorrect": "I didn't go to school."
+    },
+    {
+      "arabicStructure": "هل قرأت الكتاب؟",
+      "arabicLiteral": "Did you read the book?",
+      "englishCorrect": "Did you read the book?"
+    },
+    {
+      "arabicStructure": "هو لم ير الفيلم.",
+      "arabicLiteral": "He not saw the movie.",
+      "englishCorrect": "He didn't see the movie."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Did you went to school?",
+      "correct": "Did you go to school?",
+      "explanationEn": "After did we must use the base verb 'go', not the past 'went'.",
+      "explanationAr": "المتحدثون العرب قد يترجمون مباشرة من الماضي العربي فيقولون 'went' بعد did. لكن يجب استخدام الفعل الأساسي 'go' بعد did."
+    },
+    {
+      "wrong": "I didn't went to the market.",
+      "correct": "I didn't go to the market.",
+      "explanationEn": "Use the base verb 'go' after didn't; don't add the past ending.",
+      "explanationAr": "في العربية نستخدم صيغة الماضي داخل الجملة السلبية، لذلك يضع المتعلمون 'went' بعد didn't. الصحيح هو استخدام 'go' بعد didn't."
+    },
+    {
+      "wrong": "He didn't saw the movie.",
+      "correct": "He didn't see the movie.",
+      "explanationEn": "Use the base verb 'see' after didn't; 'saw' is the past form and should not follow didn't.",
+      "explanationAr": "أحيانًا يختار المتعلمون الصيغة الماضية 'saw' لأن العربية تستخدم الفعل الماضي للنفي، لكن في الإنجليزية نستخدم 'see' بعد didn't."
+    },
+    {
+      "wrong": "Did she done her homework?",
+      "correct": "Did she do her homework?",
+      "explanationEn": "After did we use the base verb 'do', not the past participle 'done'.",
+      "explanationAr": "قد يظن المتعلم أن صيغة التام 'done' مناسبة بعد did لأن العربية لا تستخدم فعل مساعد، لكن نضع الفعل الأساسي 'do' بعد did."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pdnq_q1",
+      "type": "multiple_choice",
+      "prompt": "Did you ___ the book?",
+      "promptAr": "هل قرأت ___ الكتاب؟",
+      "explanation": "After did we use the base verb 'read'.",
+      "arabicNote": "بعد did نستخدم الفعل في صورته الأساسية 'read'.",
+      "weakTag": "pdnq_multiple_choice_read",
+      "options": [
+        "read",
+        "reads",
+        "reading",
+        "reader"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pdnq_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'Did you go to the store?' uses the base verb 'go' after did.",
+      "arabicNote": "الصيغة الصحيحة تستخدم 'go' بعد did، ليس 'went'.",
+      "weakTag": "past_simple_did_negatives_questions_choose",
+      "options": [
+        "Did you went to the store?",
+        "Did you go to the store?",
+        "Did you goes to the store?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pdnq_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ go to the party.",
+      "promptAr": "لم أذهب ___ الحفلة.",
+      "explanation": "Use 'didn't' to make a negative in the past simple.",
+      "arabicNote": "للنفي في الماضي نستخدم didn't وليس don't أو doesn't.",
+      "weakTag": "pdnq_fill_blank_negation",
+      "options": [
+        "didn't",
+        "don't",
+        "doesn't"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pdnq_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "After didn't use the base verb 'go'.",
+      "arabicNote": "في العربية نستخدم الماضي بعد أدوات النفي، لكن الإنجليزية تستخدم didn't ثم الفعل الأساسي.",
+      "weakTag": "pdnq_fix_the_mistake_go",
+      "options": [
+        "I didn't go to the market.",
+        "I didn't gone to the market.",
+        "I didn't going to the market."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I didn't went to the market."
+    },
+    {
+      "id": "pdnq_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"Did you see the movie?\"",
+      "arabicNote": "ترتيب السؤال في الإنجليزية يبدأ بفعل المساعدة: Did + الفاعل + الفعل الأساسي.",
+      "weakTag": "pdnq_sentence_order",
+      "words": [
+        "Did",
+        "you",
+        "see",
+        "the movie?"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "pdnq_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "These show questions and negatives with did/didn't plus the base verb.",
+      "arabicNote": "أمثلة على استخدام did للسؤال وdidn't للنفي مع الفعل الأساسي.",
+      "weakTag": "pdnq_meaning_match",
+      "pairs": [
+        {
+          "left": "I didn't go.",
+          "right": "لم أذهب."
+        },
+        {
+          "left": "Did you call?",
+          "right": "هل اتصلت؟"
+        },
+        {
+          "left": "He didn't eat.",
+          "right": "هو لم يأكل."
+        }
+      ]
+    },
+    {
+      "id": "pdnq_q7",
+      "type": "multiple_choice",
+      "prompt": "Did she ___ the homework?",
+      "promptAr": "هل قامت ___ الواجب؟",
+      "explanation": "Use the base verb 'do' after did.",
+      "arabicNote": "بعد did نضع الفعل الأساسي 'do' وليس 'did' أو 'does'.",
+      "weakTag": "pdnq_multiple_choice_do",
+      "options": [
+        "do",
+        "does",
+        "did",
+        "doing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pdnq_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'He didn't see the movie.' is correct: base verb after didn't.",
+      "arabicNote": "نستخدم الفعل الأساسي 'see' بعد didn't، لا 'saw' أو 'sees'.",
+      "weakTag": "past_simple_did_negatives_questions_choose2",
+      "options": [
+        "He didn't saw the movie.",
+        "He didn't see the movie.",
+        "He didn't sees the movie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pdnq_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ go to the park.",
+      "promptAr": "لم يذهبوا ___ الحديقة.",
+      "explanation": "Use 'didn't' for past negative with any subject.",
+      "arabicNote": "في الماضي نضع didn't قبل الفعل الأساسي لجميع الضمائر.",
+      "weakTag": "pdnq_fill_blank_park",
+      "options": [
+        "didn't",
+        "don't",
+        "doesn't"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pdnq_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "After did use the base verb 'go'.",
+      "arabicNote": "قد تترجم مباشرة من العربية فتقول 'went' بعد did، لكن الصحيح 'go' بعد did.",
+      "weakTag": "pdnq_fix_the_mistake_store",
+      "options": [
+        "Did he go to the store?",
+        "Did he gone to the store?",
+        "Did he goes to the store?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Did he went to the store?"
+    }
+  ]
+}

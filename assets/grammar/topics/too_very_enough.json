@@ -1,0 +1,226 @@
+{
+  "id": "too_very_enough",
+  "category": "a2_core",
+  "titleEn": "Too, Very, and Enough",
+  "titleAr": "too و very و enough",
+  "level": "A2",
+  "explanationEn": "This topic contrasts very, too, and enough: their meanings, placements, and use for degree versus result. Learners practice choosing the correct word and the correct word order (adjective + enough, too + adjective + to ...) and avoid Arabic transfer errors like dropping the linking verb.",
+  "explanationAr": "تشرح هذه الوحدة الفرق بين very و too و enough بوضوح عملي. نركز على المعنى وموقع الكلمة وترتيبها: very لتقوية الصفة، too عندما تكون الدرجة سببًا لنتيجة سلبية، و enough للدلالة على الكفاية. نبيّن أخطاء المتحدِّثين العرب مثل نسخ ترتيب عربي أو حذف فعل الربط المطلوب ونشرح كيف يصلح الترتيب بالإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "على الرغم من أنه كان متأخِّرًا، أنهينا العمل.",
+      "arabicLiteral": "Although it was late, we finished.",
+      "englishCorrect": "Although it was late, we finished."
+    },
+    {
+      "arabicStructure": "كان الجو باردًا؛ لذلك بقينا داخل المنزل.",
+      "arabicLiteral": "It was cold; therefore, we stayed inside.",
+      "englishCorrect": "It was cold; therefore, we stayed inside."
+    },
+    {
+      "arabicStructure": "الشاي ساخن جدًا لدرجة أنه لا يمكن شربه.",
+      "arabicLiteral": "The tea hot very to degree that cannot drink it",
+      "englishCorrect": "The tea is too hot to drink."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She enough old to drive.",
+      "correct": "She is old enough to drive.",
+      "explanationEn": "Learners sometimes place enough before the adjective or drop the linking verb. English requires 'is' and places 'enough' after the adjective when describing ability.",
+      "explanationAr": "يميل بعض المتعلِّمين لوضع enough قبل الصفة أو حذف فعل الربط. في الإنجليزية نضع enough بعد الصفة ونحتاج فعل ربط مثل is عند الحديث عن القدرة."
+    },
+    {
+      "wrong": "Coffee very hot to drink.",
+      "correct": "The coffee is too hot to drink.",
+      "explanationEn": "This error copies Arabic word order and omits the linking verb. Use 'too' plus adjective and include 'is' when the degree causes inability or a negative result.",
+      "explanationAr": "هذا الخطأ ينسخ ترتيبًا عربيًا ويحدث نتيجته حذف فعل الربط. عند أن تكون الدرجة سببًا لنتيجة سلبية نستخدم 'is' و 'too' قبل الصفة."
+    },
+    {
+      "wrong": "The soup enough hot.",
+      "correct": "The soup is hot enough.",
+      "explanationEn": "Putting 'enough' before the adjective or omitting 'is' makes the sentence ungrammatical. The correct English order is subject + be + adjective + enough.",
+      "explanationAr": "وضع enough قبل الصفة أو حذف is يجعل الجملة غير صحيحة. الترتيب الصحيح في الإنجليزية: الفاعل + فعل الربط + الصفة + enough."
+    },
+    {
+      "wrong": "He very tired, so he could not drive.",
+      "correct": "He was too tired, so he could not drive.",
+      "explanationEn": "Using 'very' here fails to show that tiredness caused the inability. 'Too' expresses a degree that produces a negative result, so it fits this context.",
+      "explanationAr": "استخدام very لا يوضّح أن التعب هو سبب عدم القدرة. نستخدم too لتوضيح أن الدرجة تسبّبت في نتيجة سلبية مثل عدم القدرة على القيادة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tve_q1",
+      "type": "multiple_choice",
+      "prompt": "The coffee is ___ hot to drink, so I waited for it to cool.",
+      "promptAr": "اختر الكلمة الصحيحة التي تبين أن المشروب حار لدرجة تمنع شربه الآن.",
+      "explanation": "Because the sentence shows a negative result (you waited because you could not drink it), use 'too' to indicate the degree that causes the result. 'Very' emphasizes degree but does not show inability as 'too' does.",
+      "arabicNote": "نستخدم 'too' عندما تكون الدرجة سببًا لنتيجة سلبية. خطأ شائع أن يترجم المتعلمون حرفيًا ويختاروا very بدلًا من too أو يحذفوا فعل الربط.",
+      "weakTag": "too_very_enough_result",
+      "options": [
+        "very",
+        "too",
+        "enough",
+        "cold"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tve_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses 'enough' correctly for ability or permission?",
+      "promptAr": "أي جملة تستخدم enough بشكل صحيح للدلالة على القدرة أو الأهلية؟",
+      "explanation": "'Enough' comes after the adjective when it modifies a person's ability. The sentence must include the linking verb 'is' to be grammatical: subject + be + adjective + enough + to ...",
+      "arabicNote": "الخطأ الشائع هو وضع enough قبل الصفة أو حذف فعل الربط. في الإنجليزية: الفاعل + be + الصفة + enough لبيان الكفاية.",
+      "weakTag": "too_very_enough_word_order",
+      "options": [
+        "She is enough old to drive.",
+        "She is old enough to drive.",
+        "She enough is old to drive."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tve_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "This box is ___ heavy to carry by myself.",
+      "promptAr": "اختر الكلمة المناسبة التي تبين أن الصندوق ثقيل لدرجة تمنع حمله بمفردي.",
+      "explanation": "The structure 'too + adjective + to + verb' shows a degree that causes inability. Only 'too' fits logically and grammatically in this sentence to show that one person cannot carry it.",
+      "arabicNote": "التركيب الصحيح للتعبير عن أن شيئًا ما يفوق القدرة هو 'too + الصفة + to + الفعل'. تجنّب ترجمة تركيب عربي حرفيًّا أو وضع enough قبل الصفة هنا.",
+      "weakTag": "too_very_enough_result",
+      "options": [
+        "too",
+        "enough",
+        "my",
+        "small"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tve_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تحتوي خطأ في موضع enough أو فعل الربط.",
+      "explanation": "The correct English order is subject + 'is' + adjective + 'enough'. 'The soup is hot enough.' keeps the same meaning but fixes word order and adds the missing linking verb.",
+      "arabicNote": "الخطأ ناتج عن ترتيب عربي أو حذف فعل الربط. في الإنجليزية نحتاج is ثم الصفة ثم enough عند الحديث عن الكفاية.",
+      "weakTag": "too_very_enough_word_order",
+      "options": [
+        "The soup is hot enough.",
+        "The soup enough is hot.",
+        "The soup is enough hot."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "The soup enough hot."
+    },
+    {
+      "id": "tve_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence meaning the room is sufficiently large.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تعني أن الغرفة كبيرة بما فيه الكفاية.",
+      "explanation": "When 'enough' modifies an adjective, it follows the adjective. The natural English sentence is 'The room is big enough.'",
+      "arabicNote": "في العربية قد يختلف موضع كلمة الكفاية. في الإنجليزية تأتي enough بعد الصفة: 'big enough'. تأكد من وجود فعل الربط is.",
+      "weakTag": "too_very_enough_word_order",
+      "words": [
+        "enough",
+        "is",
+        "The",
+        "room",
+        "big"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "tve_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "These examples contrast 'too' (causes inability or negative result), 'enough' (shows sufficiency), and 'very' (strong degree without implying a problem). Understanding meaning avoids literal Arabic transfer.",
+      "arabicNote": "لاحظ الفروق: too يشير لنتيجة سلبية، enough يشير للكفاية، very يؤكد الدرجة دون أن يكون سببًا للمشكلة. تجنّب الترجمة الحرفية لترتيب الكلمات.",
+      "weakTag": "too_very_enough_meaning",
+      "pairs": [
+        {
+          "left": "The tea is too hot to drink.",
+          "right": "الشاي ساخن جدًا لدرجة أنه لا يمكن شربه الآن."
+        },
+        {
+          "left": "I have enough money to buy the ticket.",
+          "right": "لديّ ما يكفي من المال لشراء التذكرة."
+        },
+        {
+          "left": "The music is very loud but we can still talk.",
+          "right": "الموسيقى بصوت عالٍ جدًا لكننا ما زلنا نستطيع التحدث."
+        }
+      ]
+    },
+    {
+      "id": "tve_q7",
+      "type": "multiple_choice",
+      "prompt": "He was ___ tired to keep studying, so he slept early.",
+      "promptAr": "اختر الكلمة الصحيحة التي تبين أن التعب منع الاستمرار في الدراسة.",
+      "explanation": "The clause shows a negative result: he could not keep studying. Use 'too' to express a degree that caused the result. 'Very' would not clearly state the cause for sleeping early.",
+      "arabicNote": "السياق يحتوي على نتيجة؛ لذلك too هي الصحيحة. خطأ شائع هو استخدام very لأنها تترجم 'جداً' لكنها لا تعبّر عن النتيجة في هذا السياق.",
+      "weakTag": "too_very_enough_result",
+      "options": [
+        "very",
+        "too",
+        "enough",
+        "ready"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tve_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I don't have ___ time to finish the test, so I will skip the last question.",
+      "promptAr": "اختر الكلمة المناسبة للدلالة على أن الوقت غير كافٍ.",
+      "explanation": "Use 'enough' after a noun phrase when describing sufficient quantity. The negative 'I don't have' plus 'enough time' clearly shows the quantity is insufficient.",
+      "arabicNote": "في العربية قد نقول ترتيبًا مختلفًا، لكن في الإنجليزية نستخدم 'don't have enough time' أي don't have + enough + noun. انتبه لموضع enough بعد الاسم أو بعد الصفة حسب التركيب.",
+      "weakTag": "too_very_enough_arabic_transfer",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "often"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tve_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses 'too' to show a problem or negative result?",
+      "promptAr": "أي جملة تستخدم too لتبيان وجود مشكلة أو نتيجة سلبية؟",
+      "explanation": "Option 2 uses 'too' with a negative result (the baby cannot sleep because the music is too loud). The other sentences use 'very' (emphasis) or 'enough' (sufficiency), so they do not express a problematic result.",
+      "arabicNote": "انظر للسياق: too يدل على أن الدرجة تسبّبت في نتيجة سلبية. المتحدثون العرب قد يخلطون very مع too لأن كلاهما قد يترجمان 'جداً'.",
+      "weakTag": "too_very_enough_meaning",
+      "options": [
+        "The music is very loud, so we enjoy the concert.",
+        "The music is too loud for the baby to sleep.",
+        "The music is loud enough to hear outside."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tve_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي فيها خطأ في موضع enough وحذف فعل الربط.",
+      "explanation": "The correct form is 'He is old enough to join the club.' This keeps the intended meaning but fixes word order and adds the missing linking verb 'is'.",
+      "arabicNote": "الخطأ ناتج عن ترجمة حرفية من العربية. في الإنجليزية نحتاج فعل الربط قبل الصفة، ونعطِ enough بعد الصفة عند التعبير عن الكفاية: 'is old enough'.",
+      "weakTag": "too_very_enough_form",
+      "options": [
+        "He is old enough to join the club.",
+        "He old is enough to join the club.",
+        "He is enough old to join the club."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He enough old to join the club."
+    }
+  ]
+}

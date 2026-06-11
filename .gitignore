@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code workspace settings — IDE-local, not for version control
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local development fixtures and AI session artifacts — never commit
+local_fixtures/
+docs/
+!docs/
+docs/*
+!docs/privacy_policy.md
+!docs/privacy_policy.html
+!docs/STATUS.md
+!docs/ARCHITECTURE.md
+!docs/REPORT_INDEX.md
+!docs/ASSET_POLICY.md
+!docs/CONTENT_PIPELINE.md
+!docs/YALLA_ARABIC_REPO_SEPARATION_AUDIT.md
+!docs/YALLA_ARABIC_DEV_CONTENT_PIPELINE.md
+!docs/FLIP_ARABIC_APP_REUSE_PLAN.md
+
+# Claude Code session files
+.claude/
+
+# Python scripts — local pipeline tooling, not for version control
+# scripts/ directory is visible but all .py files are ignored unless explicitly un-ignored below
+*.py
+!scripts/word_panel/word_panel_rich_enrichment_factory.py
+!scripts/word_panel/word_panel_core_learner_pack_selector.py
+!scripts/word_panel/word_panel_entry_census.py
+!scripts/course09/course09_post_cleanup_validate.py
+!scripts/course09/course09_arabic_phase2_repair.py
+
+# Audio files — stored in R2, not in git
+*.opus
+*.mp3
+*.wav
+*.ogg
+*.aac
+*.m4a
+*.flac
+
+# Pipeline runtime state
+scripts/pipeline/*.json
+scripts/content/*.json
+
+# Secrets / signing / Firebase config — never publish to GitHub
+# (files remain on local disk so local builds keep working)
+*.jks
+*.keystore
+android/key.properties
+android/app/upload-keystore.jks
+android/app/google-services.json
+lib/firebase_options.dart
+.env
+.env.*

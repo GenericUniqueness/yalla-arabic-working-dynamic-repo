@@ -1,0 +1,220 @@
+{
+  "id": "basic_word_order",
+  "category": "basics",
+  "titleEn": "Basic Word Order",
+  "titleAr": "ترتيب الكلمات الأساسي",
+  "level": "A1",
+  "explanationEn": "In English, the basic word order is subject + verb + object. This means the subject comes first, followed by the action (verb), and then what is affected by the action (object). Arabic can have a more flexible order, but in English, we usually start with the subject.",
+  "explanationAr": "في الإنجليزية، ترتيب الكلمات الأساسي هو الفاعل + الفعل + المفعول به. هذا يعني أن الفاعل يأتي أولاً، يليه الفعل، ثم ما يتأثر بالفعل. في العربية، يمكن أن يكون الترتيب أكثر مرونة، لكن في الإنجليزية نبدأ عادةً بالفاعل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يأكل سام الأرز",
+      "arabicLiteral": "Eats rice Sam",
+      "englishCorrect": "Sam eats rice"
+    },
+    {
+      "arabicStructure": "نحن في المنزل",
+      "arabicLiteral": "At home we are",
+      "englishCorrect": "We are at home"
+    },
+    {
+      "arabicStructure": "هي تلعب كرة القدم",
+      "arabicLiteral": "Plays football she",
+      "englishCorrect": "She plays football"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Eats rice Sam.",
+      "correct": "Sam eats rice.",
+      "explanationEn": "The subject must come first in English.",
+      "explanationAr": "يجب أن يأتي الفاعل أولاً في الإنجليزية."
+    },
+    {
+      "wrong": "At home we are.",
+      "correct": "We are at home.",
+      "explanationEn": "The subject must precede the verb in English.",
+      "explanationAr": "يجب أن يسبق الفاعل الفعل في الإنجليزية."
+    },
+    {
+      "wrong": "Plays football she.",
+      "correct": "She plays football.",
+      "explanationEn": "The subject comes before the verb in English.",
+      "explanationAr": "يأتي الفاعل قبل الفعل في الإنجليزية."
+    },
+    {
+      "wrong": "Sam at home is.",
+      "correct": "Sam is at home.",
+      "explanationEn": "In English, the subject must be first.",
+      "explanationAr": "في الإنجليزية، يجب أن يكون الفاعل أولاً."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bwo_q1",
+      "type": "multiple_choice",
+      "prompt": "Which is the correct order?",
+      "promptAr": "ما هو الترتيب الصحيح؟",
+      "explanation": "The correct order is subject first: Sam eats rice.",
+      "arabicNote": "في الإنجليزية، نبدأ بالفاعل ثم الفعل.",
+      "weakTag": "basic_word_order_order",
+      "options": [
+        "Sam eats rice.",
+        "Eats rice Sam.",
+        "Rice eats Sam."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The subject 'We' comes before the verb 'are'.",
+      "arabicNote": "يجب أن يأتي الفاعل قبل الفعل في الإنجليزية.",
+      "weakTag": "basic_word_order_subject_first",
+      "options": [
+        "We are at home.",
+        "At home we are.",
+        "Home at we are."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Ali ___",
+      "promptAr": "اختر العبارة التي تكمل الجملة بترتيب صحيح.",
+      "explanation": "After the subject Ali, use verb + place: Ali is at school.",
+      "arabicNote": "في الإنجليزية يأتي الفاعل أولاً، ثم الفعل، ثم المكان.",
+      "weakTag": "basic_word_order_fill",
+      "options": [
+        "is at school.",
+        "at school is.",
+        "school at is."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "The correct sentence is 'Sam is at home'.",
+      "arabicNote": "يجب أن يأتي الفاعل أولاً في الجملة.",
+      "weakTag": "basic_word_order_fix",
+      "options": [
+        "Sam is at home.",
+        "At home is Sam.",
+        "Sam home is at."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Is at home Sam."
+    },
+    {
+      "id": "bwo_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct order is 'Sam is at home.'",
+      "arabicNote": "في الإنجليزية، نبدأ عادةً بالفاعل ثم الفعل.",
+      "weakTag": "basic_word_order_sentence_order",
+      "words": [
+        "Sam",
+        "is",
+        "at",
+        "home."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "bwo_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "These sentences follow the subject + verb + object order.",
+      "arabicNote": "هذه الجمل تتبع ترتيب الفاعل + الفعل + المفعول به.",
+      "weakTag": "basic_word_order_meaning",
+      "pairs": [
+        {
+          "left": "He eats apples.",
+          "right": "هو يأكل التفاح."
+        },
+        {
+          "left": "They play games.",
+          "right": "هم يلعبون الألعاب."
+        },
+        {
+          "left": "She reads books.",
+          "right": "هي تقرأ الكتب."
+        }
+      ]
+    },
+    {
+      "id": "bwo_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The subject 'She' comes first before the verb 'is'.",
+      "arabicNote": "يجب أن يأتي الفاعل قبل الفعل في الإنجليزية.",
+      "weakTag": "basic_word_order_correct",
+      "options": [
+        "She is happy.",
+        "Happy is she.",
+        "Is she happy."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The subject 'They' comes before the verb 'are'.",
+      "arabicNote": "يجب أن يأتي الفاعل قبل الفعل في الإنجليزية.",
+      "weakTag": "basic_word_order_subject_first",
+      "options": [
+        "They are friends.",
+        "Friends are they.",
+        "Are they friends."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "The dog ___",
+      "promptAr": "اختر العبارة التي تكمل الجملة بترتيب صحيح.",
+      "explanation": "After the subject The dog, use verb + place: The dog is in the garden.",
+      "arabicNote": "في الإنجليزية نضع الفعل بعد الفاعل، ثم المكان.",
+      "weakTag": "basic_word_order_fill",
+      "options": [
+        "is in the garden.",
+        "in the garden is.",
+        "Garden in is the."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bwo_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "The correct sentence is 'Ali is at school'.",
+      "arabicNote": "يجب أن يأتي الفاعل أولاً في الجملة.",
+      "weakTag": "basic_word_order_fix",
+      "options": [
+        "Ali is at school.",
+        "Is Ali at school.",
+        "School at is Ali."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "At school is Ali."
+    }
+  ]
+}

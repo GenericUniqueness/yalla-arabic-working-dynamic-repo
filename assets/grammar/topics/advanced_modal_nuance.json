@@ -1,0 +1,242 @@
+{
+  "id": "advanced_modal_nuance",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Modal Nuance",
+  "titleAr": "دلالات الأفعال الناقصة المتقدمة",
+  "level": "C1",
+  "explanationEn": "Learn precise choices among must, might, could, should, would, and may. Focus on degrees of certainty, polite requests, obligation, permission, and hypothetical nuance in school, work, and home examples. Avoid Arabic transfer that creates ambiguity or wrong register.",
+  "explanationAr": "يركز هذا الموضوع على اختيار الفعل الناقص الأدق بين must و might و could و should و would و may. نشرح درجات اليقين، طلب الإذن اللبق، الالتزام، والافتراضات في سياقات المدرسة والعمل والمنزل. نبيّن أخطاء النقل الحرفي من العربية التي تُدخل غموضاً أو تغيّر رُتْبَة الحديث، مع أمثلة وتوضيح عملي لتفاديها.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لازم تسلّمون الواجب يوم الجمعة",
+      "arabicLiteral": "It is necessary you submit the homework Friday",
+      "englishCorrect": "You must submit the homework by Friday."
+    },
+    {
+      "arabicStructure": "سيارتها في الممر؛ من المفترض أنها في البيت",
+      "arabicLiteral": "Her car is in the driveway; she supposed is home",
+      "englishCorrect": "She must be at home; her car is in the driveway."
+    },
+    {
+      "arabicStructure": "هل أستطيع المغادرة مبكرًا؟",
+      "arabicLiteral": "Can I leave early?",
+      "englishCorrect": "Could I leave early, please?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You must to finish the report tonight.",
+      "correct": "You must finish the report tonight.",
+      "explanationEn": "Learners sometimes add 'to' after must by literal translation from Arabic structures.",
+      "explanationAr": "يميل المتعلمون إلى وضع 'to' بعد must بترجمة بنية عربية حرفيًّا. في الإنجليزية لا نستخدم 'to' بعد must."
+    },
+    {
+      "wrong": "She should be at home; her car is here, so maybe she must be.",
+      "correct": "She must be at home; her car is in the driveway.",
+      "explanationEn": "Mixing hedging words like maybe with must creates unclear degree of certainty and is unnatural.",
+      "explanationAr": "خلط كلمات التردد مثل maybe مع must يغيّر درجَة اليقين ويبدو غير طبيعي. العربيّة تسمح بصيغ مشابهة بالتوازي، لكن الإنجليزية تتطلب اختيار مستوى اليقين بوضوح."
+    },
+    {
+      "wrong": "May I leaving early today?",
+      "correct": "May I leave early today?",
+      "explanationEn": "After may use the base verb form; -ing is incorrect here because may requires the infinitive without to.",
+      "explanationAr": "بعد may نستخدم الفعل الأساسي دون -ing أو to. الخطأ ناتج عن نقل شكل عربي أو خلط صيغ الأفعال."
+    },
+    {
+      "wrong": "If I was you, I should ask HR.",
+      "correct": "If I were you, I would ask HR.",
+      "explanationEn": "Use the subjunctive 'were' and 'would' for unreal hypotheticals; using should changes meaning to obligation.",
+      "explanationAr": "في الافتراضات غير الحقيقية نستخدم were و would. ترجمة حرفية من العربية قد تدفع لاستخدام was أو should، وهذا يغيّر المعنى أو يخلق خطأ نحويًا."
+    }
+  ],
+  "questions": [
+    {
+      "id": "amn_q1",
+      "type": "multiple_choice",
+      "prompt": "The faculty handbook states: \"Students ___ submit the essay by Friday.\" Choose the best modal for a firm, official rule.",
+      "promptAr": "توضح لوائح الكلية: «يجب على الطلاب تسليم المقال يوم الجمعة». اختر الفعل الناقص الأنسب لقاعدة رسمية وحازمة.",
+      "explanation": "Must is the strongest choice to show an official obligation set by an authority.",
+      "arabicNote": "نستخدم must للالتزام الرسمي الواضح. المتحدثون بالعربية قد يترجمون should أو لازم بشكل غير محدد، لكن must أقوى ولا يضع مجرد نصيحة.",
+      "weakTag": "advanced_modal_nuance_obligation",
+      "options": [
+        "must",
+        "should",
+        "may",
+        "could"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "amn_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Her coat and keys are on the table; she ____ be home now. Choose the modal for a strong logical conclusion from evidence.",
+      "promptAr": "معطفها ومفاتيحها على الطاولة؛ هي ____ في المنزل الآن. اختر الفعل الناقص للاستنتاج المنطقي القوي المبني على دليل.",
+      "explanation": "Must shows a strong, logical conclusion when clear evidence supports it; other modals weaken certainty.",
+      "arabicNote": "عندما تكون الأدلة واضحة نستخدم must للاستنتاج القوي. قد يختار المتعلمون might أو could بالترجمة، لكن ذلك يقلل اليقين دون سبب منطقي.",
+      "weakTag": "amn_deduction",
+      "options": [
+        "must",
+        "might",
+        "could",
+        "should"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "amn_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is most polite and appropriate when requesting early leave from a supervisor?",
+      "promptAr": "أي جملة هي الأكثر لباقة ومناسبة لطلب إذن بالمغادرة المبكرة من المشرف؟",
+      "explanation": "Would it be possible is indirect and formally polite for a supervisor request in a professional setting.",
+      "arabicNote": "التعبير مع would يعطي لباقة ورسمية مناسبة للعمل. يتحاشى المتحدثون بالعربية أحيانًا اللباقة ويستخدمون can أو will مباشرة، وهي أقل ملاءمة في سياق رسمي.",
+      "weakTag": "advanced_modal_nuance_register",
+      "options": [
+        "Can I leave early today?",
+        "Would it be possible for me to leave early today?",
+        "I will leave early today."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "amn_q4",
+      "type": "meaning_match",
+      "prompt": "Match each modal to its best Arabic meaning in a precise context.",
+      "promptAr": "وصل كل فعل ناقص بمعناه العربي الأدق في سياق محدد.",
+      "explanation": "Choose the Arabic phrase that matches each modal's main function and strength in context.",
+      "arabicNote": "صِل كل فعل بمعناه المناسب حسب الوظيفة ودرجة اليقين: must للضرورة، might للاحتمال الضعيف، could للقدرة أو احتمال معقول، may للإذن الرسمي أو احتمال رسمي.",
+      "weakTag": "advanced_modal_nuance_meaning",
+      "pairs": [
+        {
+          "left": "must",
+          "right": "ضرورة قوية أو استنتاج منطقي"
+        },
+        {
+          "left": "might",
+          "right": "احتمال ضعيف أو تردد"
+        },
+        {
+          "left": "could",
+          "right": "قدرة ماضية أو احتمال معقول"
+        },
+        {
+          "left": "may",
+          "right": "إذن رسمي أو احتمال رسمي"
+        }
+      ]
+    },
+    {
+      "id": "amn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in order to make a correct hypothetical suggestion using the appropriate modal.",
+      "promptAr": "رتّب الكلمات لتكوين اقتراح افتراضي صحيح باستخدام الفعل الناقص المناسب.",
+      "explanation": "If I had more time, I would help with the project.",
+      "arabicNote": "في الافتراضات غير الحقيقية نستخدم If + past و would للتعبير عن ما كنا سنفعله. المتكلمون بالعربية قد يخطئون في الترتيب أو الزمن، فاحذر ذلك.",
+      "weakTag": "amn_hypothetical",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "more",
+        "time,",
+        "I",
+        "would",
+        "help",
+        "with",
+        "the",
+        "project."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "amn_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this sentence with an extra word from Arabic transfer.",
+      "promptAr": "اختر التصحيح الأفضل لهذه الجملة التي تحتوي كلمة زائدة نتيجة نقل من العربية.",
+      "explanation": "Remove the unnecessary 'to' after must; must takes the base verb without to.",
+      "arabicNote": "الخطأ ناتج عن نقل تركيب عربي يضيف حرفًا زائداً. بعد must نستخدم الفعل الأساسي دون to. التصحيح يحافظ على معنى الالتزام نفسه.",
+      "weakTag": "advanced_modal_nuance_form",
+      "options": [
+        "You must finish the report tonight.",
+        "You should finish the report tonight.",
+        "You will finish the report tonight."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You must to finish the report tonight."
+    },
+    {
+      "id": "amn_q7",
+      "type": "multiple_choice",
+      "prompt": "The teacher announced: \"Students ___ leave early if they finish the test.\" Which modal best grants formal permission?",
+      "promptAr": "أعلن المدرس: «يمكن للطلاب المغادرة مبكراً إذا أنهوا الاختبار». أي فعل يعبر أفضل عن الإذن الرسمي؟",
+      "explanation": "May is the conventional modal for formal permission; must and should express obligation, might weakens certainty.",
+      "arabicNote": "may تُستخدم للإذن الرسمي هنا. قد يختار المتعلمون could أو should بالترجمة الحرفية، لكن may هي الأدق في تصريح رسمي أو قاعدة مدرسية.",
+      "weakTag": "advanced_modal_nuance_permission",
+      "options": [
+        "may",
+        "must",
+        "should",
+        "might"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "amn_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "When she was a teenager, she ____ swim across the lake without help. Choose the modal for past ability.",
+      "promptAr": "عندما كانت مراهقة، كانت ____ تعبر البحيرة سباحة بدون مساعدة. اختر الفعل الناقص لتمثيل قدرة سابقة في الماضي.",
+      "explanation": "Could is used for general past ability; other modals change meaning or are not used for simple past ability.",
+      "arabicNote": "could تُستخدم للتعبير عن القدرة في الماضي. المتعلمون قد يترجمون حرفيًّا أو يستخدمون would بشكل خاطئ، لكن could يحدد قدرة سابقة بصورة مناسبة.",
+      "weakTag": "amn_ability_past",
+      "options": [
+        "could",
+        "must",
+        "may",
+        "would"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "amn_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is a polite, non-binding suggestion to a colleague about the deadline?",
+      "promptAr": "أي جملة تمثل اقتراحًا مهذبًا وغير ملزم لزميل بخصوص الموعد النهائي؟",
+      "explanation": "You might want to is indirect and polite; it avoids obligation while offering a suggestion.",
+      "arabicNote": "التعبير you might want to لطيف وغير ملزم للاقتراح. المتحدثون بالعربية قد يترجمون should حرفيًا، لكن ذلك يعطي قوة التزام لا يريدها المتحدث.",
+      "weakTag": "advanced_modal_nuance_register",
+      "options": [
+        "You should speak to him about the deadline.",
+        "You might want to speak to him about the deadline.",
+        "You must speak to him about the deadline."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "amn_q10",
+      "type": "multiple_choice",
+      "prompt": "Which modal fits best in a formal email: \"I ___ appreciate your feedback on this draft.\" (politeness/appreciation)",
+      "promptAr": "أي فعل يناسب عبارة بريد رسمي: «سأكون ممتنًا لتلقّي ملاحظاتكم على المسوّدة.» (لباقة وتقدير)",
+      "explanation": "Would softens the request and expresses polite appreciation in formal correspondence.",
+      "arabicNote": "would تُضفي لباقة وامتنانًا مناسبًا في رسائل العمل. يلجأ بعض المتعلّمون إلى must أو could ترجمة حرفية، لكن would هو الأنسب هنا.",
+      "weakTag": "amn_politeness",
+      "options": [
+        "would",
+        "might",
+        "must",
+        "could"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

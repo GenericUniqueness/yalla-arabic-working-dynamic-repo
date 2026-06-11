@@ -1,0 +1,228 @@
+{
+  "id": "singular_plural_nouns",
+  "category": "basics",
+  "titleEn": "Singular and Plural Nouns",
+  "titleAr": "الأسماء المفردة والجمع",
+  "level": "A1",
+  "explanationEn": "In English, we use singular nouns for one item, like 'cat'. For more than one, we add -s or -es, like 'cats' or 'boxes'. Arabic has different plural forms, so learners might forget to add -s in English or use it incorrectly.",
+  "explanationAr": "في الإنجليزية، نستخدم الأسماء المفردة لشيء واحد، مثل 'قطة'. ولأكثر من واحد، نضيف -s أو -es، مثل 'قطط' أو 'صناديق'. في العربية، لدينا أشكال جمع مختلفة، لذا قد ينسى المتعلمون إضافة -s في الإنجليزية أو يستخدمونها بشكل غير صحيح.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "قطة واحدة",
+      "arabicLiteral": "one cat",
+      "englishCorrect": "one cat"
+    },
+    {
+      "arabicStructure": "قطط كثيرة",
+      "arabicLiteral": "many cats",
+      "englishCorrect": "many cats"
+    },
+    {
+      "arabicStructure": "صندوق واحد",
+      "arabicLiteral": "one box",
+      "englishCorrect": "one box"
+    },
+    {
+      "arabicStructure": "صناديق كثيرة",
+      "arabicLiteral": "many boxes",
+      "englishCorrect": "many boxes"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have two cat.",
+      "correct": "I have two cats.",
+      "explanationEn": "The plural form 'cats' is needed for more than one.",
+      "explanationAr": "نحتاج إلى الشكل الجمع 'cats' لأكثر من واحد."
+    },
+    {
+      "wrong": "She has a boxes.",
+      "correct": "She has boxes.",
+      "explanationEn": "No need for 'a' with plural nouns.",
+      "explanationAr": "لا نحتاج إلى 'a' مع الأسماء الجمع."
+    },
+    {
+      "wrong": "There is three dog.",
+      "correct": "There are three dogs.",
+      "explanationEn": "Use 'are' for plural nouns.",
+      "explanationAr": "نستخدم 'are' مع الأسماء الجمع."
+    },
+    {
+      "wrong": "I see a birds.",
+      "correct": "I see birds.",
+      "explanationEn": "Remove 'a' for plural nouns.",
+      "explanationAr": "نزيل 'a' مع الأسماء الجمع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "spn_q1",
+      "type": "multiple_choice",
+      "prompt": "Which phrase is correct?",
+      "promptAr": "أي عبارة صحيحة نحوياً؟",
+      "explanation": "Use the plural form 'cats' with a number greater than one.",
+      "arabicNote": "مع الأعداد أكبر من واحد نستخدم الجمع: two cats.",
+      "weakTag": "singular_plural_nouns_multiple_choice",
+      "options": [
+        "two cat",
+        "two cats",
+        "two a cats"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "spn_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'I have dogs.' is correct for more than one.",
+      "arabicNote": "الجملة الصحيحة هي 'I have dogs.' لأكثر من واحد.",
+      "weakTag": "singular_plural_nouns_choose_correct_sentence",
+      "options": [
+        "I have a dog.",
+        "I have dogs.",
+        "I have a dogs."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "spn_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I see ___ bird.",
+      "promptAr": "أرى ___ طائر.",
+      "explanation": "Use 'a' for one bird.",
+      "arabicNote": "نستخدم 'a' لشيء واحد.",
+      "weakTag": "singular_plural_nouns_fill_blank",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "two"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "spn_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'cats' is needed for more than one.",
+      "arabicNote": "نحتاج إلى 'cats' لأكثر من واحد.",
+      "weakTag": "singular_plural_nouns_fix_the_mistake",
+      "options": [
+        "I have two cats.",
+        "I have a cat.",
+        "I have cat."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have two cat."
+    },
+    {
+      "id": "spn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'There are two dogs.'",
+      "arabicNote": "الجملة الصحيحة هي 'There are two dogs.'",
+      "weakTag": "singular_plural_nouns_sentence_order",
+      "words": [
+        "There",
+        "are",
+        "two",
+        "dogs"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "spn_q6",
+      "type": "meaning_match",
+      "prompt": "Match each noun to its plural form.",
+      "promptAr": "صل كل اسم مع شكله الجمع.",
+      "explanation": "These are basic singular nouns and their plural forms.",
+      "arabicNote": "هذه أسماء مفردة أساسية وأشكالها الجمع.",
+      "weakTag": "singular_plural_nouns_meaning_match",
+      "pairs": [
+        {
+          "left": "cat",
+          "right": "قطط"
+        },
+        {
+          "left": "box",
+          "right": "صناديق"
+        },
+        {
+          "left": "dog",
+          "right": "كلاب"
+        }
+      ]
+    },
+    {
+      "id": "spn_q7",
+      "type": "multiple_choice",
+      "prompt": "What is the plural of 'box'?",
+      "promptAr": "ما هو جمع 'صندوق'؟",
+      "explanation": "The correct plural form is 'boxes'.",
+      "arabicNote": "الشكل الجمع الصحيح هو 'boxes'.",
+      "weakTag": "singular_plural_nouns_multiple_choice",
+      "options": [
+        "boxs",
+        "boxes",
+        "boxies",
+        "box"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "spn_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'There are two cats.' is correct for plural.",
+      "arabicNote": "الجملة الصحيحة هي 'There are two cats.' للجمع.",
+      "weakTag": "singular_plural_nouns_choose_correct_sentence",
+      "options": [
+        "There is two cats.",
+        "There are two cats.",
+        "There is a cats."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "spn_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She has ___ apple.",
+      "promptAr": "لديها ___ تفاحة.",
+      "explanation": "Use 'a' for one apple.",
+      "arabicNote": "نستخدم 'a' لشيء واحد.",
+      "weakTag": "singular_plural_nouns_fill_blank",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "two"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "spn_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Remove 'a' for plural 'dogs'.",
+      "arabicNote": "نزيل 'a' مع الأسماء الجمع 'dogs'.",
+      "weakTag": "singular_plural_nouns_fix_the_mistake",
+      "options": [
+        "I see dogs.",
+        "I see a dog.",
+        "I see two dogs."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I see a dogs."
+    }
+  ]
+}

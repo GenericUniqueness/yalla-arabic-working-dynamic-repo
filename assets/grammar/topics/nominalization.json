@@ -1,0 +1,229 @@
+{
+  "id": "nominalization",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Nominalization",
+  "titleAr": "التحويل إلى أسماء",
+  "level": "C1",
+  "explanationEn": "Nominalization means turning verbs or whole clauses into noun phrases (e.g., 'the committee's decision'). Use it for concise, formal writing or to focus on actions as concepts. Choose noun forms when you need a formal tone, clearer reference, or to compress a clause into one precise idea.",
+  "explanationAr": "التحويل إلى أسماء يعني تحويل أفعال أو جمل إلى عبارات اسمية مثل «قرار اللجنة». متحدثو العربية قد يتركون العلاقة ضمن السياق، بينما الإنجليزية الرسمية تحتاج أحيانًا اسمًا واضحًا ومحدداً. هدف الدرس: متى تحول الفعل أو الجملة إلى اسم لتكون أكثر رسمية ودقة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "اللجنة قررت تأجيل الرحلة.",
+      "arabicLiteral": "The committee decided postponing the trip.",
+      "englishCorrect": "The committee's decision to postpone the trip."
+    },
+    {
+      "arabicStructure": "هم شرحوا الخطة.",
+      "arabicLiteral": "They explained the plan.",
+      "englishCorrect": "Their explanation of the plan was helpful."
+    },
+    {
+      "arabicStructure": "أرجو أن تشرحوا الموعد.",
+      "arabicLiteral": "Please explain the date.",
+      "englishCorrect": "A clarification of the date is requested."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We need explain the process before Tuesday.",
+      "correct": "We need an explanation of the process before Tuesday.",
+      "explanationEn": "Arabic speakers may omit articles or use a verb where English expects a noun phrase in formal contexts. Nominalization adds clarity and formality.",
+      "explanationAr": "خطأ شائع هو حذف أداة أو استخدام فعل بدل عبارة اسمية. الإنجليزية الرسمية هنا تتطلب اسمًا واضحًا لإعطاء الدقة والشكل الرسمي."
+    },
+    {
+      "wrong": "The team decide to delay the meeting was fast.",
+      "correct": "The team's decision to delay the meeting was swift.",
+      "explanationEn": "Directly translating Arabic clause order can produce ungrammatical English. Make the action a noun phrase with possessive or 'the' for clarity.",
+      "explanationAr": "الترجمة الحرفية من العربية قد تعطي ترتيبًا غير صحيح. اجعل الفعل اسمًا مع ملكية أو 'the' لتوضيح الموضوع بدقة."
+    },
+    {
+      "wrong": "About arriving late there was discussion.",
+      "correct": "There was a discussion about late arrivals.",
+      "explanationEn": "Arabic allows flexible word order; English prefers a clear noun or prepositional phrase. Move the topic into a natural noun phrase.",
+      "explanationAr": "اللغة العربية مرنة في الترتيب، لكن الإنجليزية الرسمية تحتاج عبارة اسمية أو ظرفية واضحة لتجنب الغموض في الموضوع."
+    },
+    {
+      "wrong": "They suggested change timetable quickly.",
+      "correct": "They suggested a change to the timetable quickly.",
+      "explanationEn": "Missing articles or nominal forms make sentences unclear. Use a noun (change) with an article to match English register and precision.",
+      "explanationAr": "حذف الأداة أو استخدام الفعل بدلاً من الاسم يجعل الجملة غير واضحة. استخدم اسمًا مع أداة ليكون الأسلوب رسميًا ودقيقًا."
+    }
+  ],
+  "questions": [
+    {
+      "id": "nom_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the clear formal sentence using a noun phrase.",
+      "promptAr": "اختر الجملة الرسمية الواضحة التي تستخدم عبارة اسمية.",
+      "explanation": "Use the noun phrase 'manager's approval' for a concise formal statement in writing.",
+      "arabicNote": "في العربية قد تُترجم بشكل فعلي. في الإنجليزية الرسمية نستخدم عبارة اسمية مثل 'manager's approval' لتكون الجملة واضحة ودقيقة في النصوص.",
+      "weakTag": "nominalization_register",
+      "options": [
+        "The manager's approval of the schedule was prompt.",
+        "Approve the schedule promptly by the manager.",
+        "The manager to approve the schedule was quick."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "nom_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "We need a clear ____ of the project's timeline for the report.",
+      "promptAr": "نحتاج إلى ____ واضح لجدول المشروع من أجل التقرير.",
+      "explanation": "A noun 'explanation' fits 'a clear ___' and sounds formal and precise.",
+      "arabicNote": "في العربية قد تستخدم الفعل 'اشرح'. لكن هنا بعد 'a clear' نحتاج اسمًا واضحًا مثل 'explanation' لصياغة رسمية ودقيقة في التقرير.",
+      "weakTag": "nominalization_form",
+      "options": [
+        "explain",
+        "explanation",
+        "to explain",
+        "explaining"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nom_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence gives the formal noun-focus for the deadline?",
+      "promptAr": "أيهما يعطي التركيز الاسمي الرسمي على الموعد النهائي؟",
+      "explanation": "Nominalize into 'the team's completion' to make the action a clear formal subject.",
+      "arabicNote": "في العربية الترتيب قد يجعل الفعل واضحًا بدون اسم. بالإنجليزية الرسمية نحول الفعل إلى عبارة اسمية لتحديد الفاعل والموعد بدقة في الكتابة.",
+      "weakTag": "nominalization_precision",
+      "options": [
+        "They will finish the report by Friday.",
+        "The team's completion of the report is due on Friday.",
+        "Finish the report by Friday is the team's task."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nom_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English noun form to its Arabic meaning.",
+      "promptAr": "وصل كل اسم إنجليزي بمعناه العربي.",
+      "explanation": "Know common nominal forms used in formal writing and reports for clarity.",
+      "arabicNote": "احفظ الأسماء الشائعة (approval, proposal, arrival, clarification). المتحدثون العرب قد يترجمون الفعل مباشرة لكن الإنجليزية الرسمية تفضل الاسم لتوضيح الفكرة.",
+      "weakTag": "nominalization_meaning",
+      "pairs": [
+        {
+          "left": "approval",
+          "right": "موافقة"
+        },
+        {
+          "left": "proposal",
+          "right": "اقتراح"
+        },
+        {
+          "left": "arrival",
+          "right": "وصول"
+        },
+        {
+          "left": "clarification",
+          "right": "توضيح"
+        }
+      ]
+    },
+    {
+      "id": "nom_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a formal sentence.",
+      "promptAr": "رتب الكلمات لتكوين جملة رسمية صحيحة.",
+      "explanation": "Form 'The importance of accurate measurement is ...' to nominalize the idea.",
+      "arabicNote": "في العربية قد تُذكر الفكرة ضمن جملة طويلة بدون تحويل صريح. بالإنجليزية الرسمية نبدأ بعبارة اسمية مثل 'The importance of accurate measurement is...' لتحديد الموضوع بدقة.",
+      "weakTag": "nominalization_form",
+      "words": [
+        "of",
+        "measurement",
+        "accurate",
+        "The",
+        "importance",
+        "is"
+      ],
+      "correctOrder": [
+        3,
+        4,
+        0,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "nom_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction that makes a clear formal noun phrase.",
+      "promptAr": "اختر التصحيح الأفضل الذي يجعل عبارة اسمية رسمية وواضحة.",
+      "explanation": "Use the nominal phrase 'Their discussion about changing...' to sound formal and precise.",
+      "arabicNote": "الخطأ 'They discussed to change' ناتج عن ترجمة حرفية. الإنجليزية الرسمية تستخدم اسمًا ('discussion') أو الفعل بصيغة -ing، لكن هذا السؤال يطلب العبارة الاسمية.",
+      "weakTag": "nominalization_arabic_transfer",
+      "options": [
+        "Their discussion about changing the schedule.",
+        "They discussed changing the schedule.",
+        "They discuss to changing the schedule."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They discussed to change the schedule."
+    },
+    {
+      "id": "nom_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence that uses nominalization to show cause.",
+      "promptAr": "اختر الجملة التي تستخدم اسمًا لإظهار السبب.",
+      "explanation": "Nominalization 'His failure to arrive' focuses on the action as a cause.",
+      "arabicNote": "في العربية قد تذكر السبب بصيغة فعلية. بالإنجليزية الرسمية نستخدم عبارة اسمية مثل 'His failure to arrive' لتؤكد السبب بشكل رسمي وواضح.",
+      "weakTag": "nominalization_cause",
+      "options": [
+        "His failure to arrive caused the meeting to be postponed.",
+        "He failed to arrive so the meeting postponed.",
+        "Arriving late he caused the meeting postpone."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "nom_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The teacher praised Maria's ____ in the competition.",
+      "promptAr": "المعلّم أشاد بـ ____ ماريا في المسابقة.",
+      "explanation": "Use the noun 'performance' after possession for a formal clear statement in reports.",
+      "arabicNote": "قد تقول بالعربية 'أدت أداءً جيدًا'. بالإنجليزية الرسمية نستخدم اسمًا مملوكًا مثل 'Maria's performance' ليكون التعبير رسميًا ودقيقًا في التقارير.",
+      "weakTag": "nominalization_form",
+      "options": [
+        "perform",
+        "performance",
+        "to perform",
+        "performing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "nom_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence gives a precise formal subject and avoids ambiguity?",
+      "promptAr": "أي جملة تعطي فاعلًا اسمياً دقيقًا وتتفادى اللبس؟",
+      "explanation": "Use 'The editor's decision' to make the subject and responsibility clear in writing.",
+      "arabicNote": "في العربية قد يفهم الفاعل من السياق. بالإنجليزية الرسمية يجب تحديد الفاعل باسم واضح مثل 'The editor's decision' لتجنب اللبس في النصوص.",
+      "weakTag": "nominalization_precision",
+      "options": [
+        "The editor's decision to shorten the article improved clarity.",
+        "Deciding to shorten the article improved clarity by the editor.",
+        "Shorten the article decision improved clarity."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "nom_q10",
+      "type": "multiple_choice",
+      "prompt": "Select the most natural formal rephrase using a noun phrase.",
+      "promptAr": "اختر إعادة الصياغة الرسمية والطبيعية التي تستخدم عبارة اسمية.",
+      "explanation": "Nominalize into 'parents' concern' to make the sentence formal and clear in tone.",
+      "arabicNote": "قد تعبر العربية عن القلق كفعل. بالإنجليزية الرسمية نستخدم عبارة اسمية مملوكة مثل 'The parents' concern' لتوضيح الفاعل والسبب بوضوح وبأسلوب رسمي.",
+      "weakTag": "nominalization_register",
+      "options": [
+        "The parents' concern about exam dates led to a meeting.",
+        "Concern of parents about exam dates lead meeting.",
+        "To be concerned about exam dates parents led to meeting."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "articles_intermediate_review",
+  "category": "b1_core",
+  "titleEn": "Intermediate Articles Review",
+  "titleAr": "مراجعة متوسطة لأدوات التعريف والتنكير",
+  "level": "B1",
+  "explanationEn": "Practice when to use a, an, the, or no article. Focus on first mention (a/an), referring back (the), unique items (the), and general statements with no article. Pay attention to countability and common Arabic transfer errors that change article choice.",
+  "explanationAr": "هذه وحدة مراجعة متوسطة لاستخدام a/an و the أو حذف أداة التعريف. نركّز على الذكر الأول لأسماء مفردة قابلة للعد، والإشارة لاحقًا لشيء مذكور سابقًا أو محدّد، والأشياء الفريدة، والعموميات بدون أداة. سنوضح أخطاء شائعة ناتجة عن اختلاف العدّية والتركيب في العربية وكيف تؤثر على اختيار الأداة في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "اشتريت كتابًا. الكتاب مفيد.",
+      "arabicLiteral": "I bought book. The book useful.",
+      "englishCorrect": "I bought a book. The book is useful."
+    },
+    {
+      "arabicStructure": "الماء مهم.",
+      "arabicLiteral": "Water important.",
+      "englishCorrect": "Water is important."
+    },
+    {
+      "arabicStructure": "هي معلمة.",
+      "arabicLiteral": "She teacher.",
+      "englishCorrect": "She is a teacher."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I bought book yesterday.",
+      "correct": "I bought a book yesterday.",
+      "explanationEn": "English needs 'a' for a first mention of a singular countable noun.",
+      "explanationAr": "في العربية قد نحذف ما يعادل أداة التنكير، لكن في الإنجليزية نستخدم 'a' عند ذكر اسم مفرد قابل للعد للمرة الأولى."
+    },
+    {
+      "wrong": "I need a information about the course.",
+      "correct": "I need information about the course.",
+      "explanationEn": "Information is uncountable. Using 'a' is incorrect in a general request.",
+      "explanationAr": "كلمة information غير معدودة، فلا نضع 'a' عند الحديث عن معلومات بشكل عام. المتحدثون العرب قد يترجمون حرفيًّا فيظهر الخطأ."
+    },
+    {
+      "wrong": "She is teacher.",
+      "correct": "She is a teacher.",
+      "explanationEn": "When giving an occupation for one person, use 'a' before the singular countable noun.",
+      "explanationAr": "عند ذكر مهنة لشخص واحد نستخدم 'a' قبل الاسم المفرد القابل للعد. الترجمة العربية قد تحذف أداة التنكير فتظهر الجملة الخاطئة."
+    },
+    {
+      "wrong": "Sun rises in the morning.",
+      "correct": "The sun rises in the morning.",
+      "explanationEn": "Unique, well-known objects like the sun require 'the' because they are definite.",
+      "explanationAr": "الأشياء الفريدة والمعروفة للجميع مثل الشمس تحتاج 'the' لأنها معرفة. قد يختلف تركيب العربية فلا يظهر هذا التمييز بوضوح."
+    }
+  ],
+  "questions": [
+    {
+      "id": "air_q1",
+      "type": "multiple_choice",
+      "prompt": "I bought ___ book yesterday. It was my first one on photography.",
+      "promptAr": "اختر أداة التنكير الصحيحة عند الذكر الأول لاسم مفرد قابل للعد.",
+      "explanation": "Use 'a' for a first mention of a single countable item not known before.",
+      "arabicNote": "عند ذكر شيء للمرة الأولى نستخدم 'a' مع الاسم المفرد القابل للعد. المتحدثون العرب قد لا يضيفون ما يعادله في الترجمة، فاحذر النقل الحرفي.",
+      "weakTag": "articles_intermediate_review_first_mention",
+      "options": [
+        "a",
+        "the",
+        "no article"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "air_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses a general truth about water (not a specific sample)?",
+      "promptAr": "أي جملة تعبّر عن حقيقة عامة عن الماء (ليست عينة معيّنة)؟",
+      "explanation": "For general statements about uncountable substances like water, use no article; the noun is general here.",
+      "arabicNote": "عند الحديث عن الماء كعموم نستخدم حذف الأداة في الإنجليزية. المتحدثون العرب قد يترجمون بـ'الماء' أو يضيفون 'the'، ما يغيّر المعنى من عام إلى محدد.",
+      "weakTag": "articles_intermediate_review_meaning",
+      "options": [
+        "The water is essential for life.",
+        "A water is essential for life.",
+        "Water is essential for life."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "air_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ sun warmed the fields during the long summer.",
+      "promptAr": "اختر أداة التعريف الصحيحة للإشارة إلى شيء فريد ومعروف للجميع.",
+      "explanation": "'The' is used for unique, well-known objects like the sun; they are definite and shared knowledge.",
+      "arabicNote": "عند الإشارة إلى أشياء فريدة ومعروفة للجميع نستخدم 'the'. العرب قد يحذفون الأداة أو يخطئون في الموضع عند الترجمة الحرفية.",
+      "weakTag": "articles_intermediate_review_unique",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "air_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this general request: \"I need a information about the course.\"",
+      "promptAr": "اختر التصحيح الأفضل لطلب عام: \"I need a information about the course.\"",
+      "explanation": "Information is an uncountable noun; in a general request do not use 'a' before it.",
+      "arabicNote": "كلمة information غير معدودة. في طلب عام نستخدم حذف الأداة. المتحدثون العرب قد يضعون 'a' بسبب كلمة 'معلومة' بالعربية، فاحذر النقل الحرفي.",
+      "weakTag": "articles_intermediate_review_countability",
+      "options": [
+        "I need an information about the course.",
+        "I need information about the course.",
+        "I need informations about the course."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "I need a information about the course."
+    },
+    {
+      "id": "air_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in order to make a sentence about a book we already mentioned (use 'the').",
+      "promptAr": "رتّب الكلمات لتكوين جملة عن كتاب ذُكر سابقًا في الحوار (نستخدم 'the').",
+      "explanation": "When the book was already mentioned, include 'the' before the noun and keep normal English word order.",
+      "arabicNote": "إذا ذُكر الكتاب سابقًا نستخدم 'the' قبل الاسم. انتبه لترتيب الفاعل ثم الفعل ثم المفعول في الإنجليزية، لأن ترتيب الكلمات في العربية قد يختلف.",
+      "weakTag": "articles_intermediate_review_word_order",
+      "words": [
+        "bought",
+        "the",
+        "I",
+        "book",
+        "yesterday"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "air_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to its Arabic explanation about article use (first mention, specific, general).",
+      "promptAr": "وصل كل عبارة إنجليزية بشرحها العربي المتعلق بالاستخدام: الذكر الأول، المحدد، أو العموم.",
+      "explanation": "Match examples to their Arabic meanings showing first mention, specific reference, and general uncountable use.",
+      "arabicNote": "صل الأمثلة بالشرح العربي الذي يوضح: ذكر أول (a)، إشارة إلى شيء محدد أو مذكور سابقًا (the)، وعموميات بدون أداة مع الأسماء غير المعدودة.",
+      "weakTag": "articles_intermediate_review_meaning_match",
+      "pairs": [
+        {
+          "left": "a dog",
+          "right": "كلب — مثال للذكر الأول (لم يُذكر سابقًا)"
+        },
+        {
+          "left": "the dog",
+          "right": "الكلب — اسم محدد أو مذكور سابقًا في المحادثة"
+        },
+        {
+          "left": "water (no article)",
+          "right": "الماء — مثال لعموم غير معدود يُحذف معه الأداة"
+        }
+      ]
+    },
+    {
+      "id": "air_q7",
+      "type": "multiple_choice",
+      "prompt": "Speaking generally, ___ student at our school wears a uniform every day.",
+      "promptAr": "عند التحدث بشكل عام وبصيغة المفرد النموذجي، أي خيار يكمل الجملة عن طالب مدرستنا؟",
+      "explanation": "Use 'a' for a singular generic statement about any typical student; 'the' or no article are wrong here.",
+      "arabicNote": "في المقولة العامة المفردة نستخدم 'a' للدلالة على فرد نموذجي، وليس 'the' أو حذف الأداة. العرب قد يترجمون بالمحدد لأن العربية تختلف في التعبير عن العموم.",
+      "weakTag": "articles_intermediate_review_general",
+      "options": [
+        "a",
+        "the",
+        "no article",
+        "an"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "air_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which pair of sentences correctly shows first mention then specific reference to the same camera?",
+      "promptAr": "أي زوج جمل يوضح ذكرًا أوليًا ثم إشارة محددة لنفس الكاميرا؟",
+      "explanation": "First use 'a' to introduce something new, then 'the' to talk about that same item later.",
+      "arabicNote": "نستخدم 'a' عند الذكر الأول لشيء جديد ثم 'the' عند الإشارة إليه لاحقًا. هذا الاختلاف لا يظهر بنفس الطريقة دائمًا في العربية، فاحذر النقل الحرفي.",
+      "weakTag": "articles_intermediate_review_first_then_specific",
+      "options": [
+        "I bought a camera. Camera takes good pictures.",
+        "I bought a camera. The camera takes good pictures.",
+        "I bought the camera. A camera takes good pictures."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "air_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "There is ___ apple on the table. Would you like it?",
+      "promptAr": "اختر أداة التنكير الصحيحة أمام اسم مفرد يبدأ بصوت متحرك في الذكر الأول.",
+      "explanation": "Use 'an' before a vowel sound for a singular countable noun mentioned for the first time.",
+      "arabicNote": "قبل صوت متحرك نستخدم 'an' مع اسم مفرد قابل للعد عند الذكر الأول. احذر الصوت وليس الحرف فقط عند التمييز.",
+      "weakTag": "air_vowel_sound_articles",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "air_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction — the sentence is missing an article for a first mention: \"I saw movie yesterday.\"",
+      "promptAr": "اختر التصحيح الأفضل: الجملة تنقصها أداة عند ذكر فيلم للمرة الأولى: \"I saw movie yesterday.\"",
+      "explanation": "For a first mention of one film use 'a'; 'the' would mean a specific known film, which the context does not give.",
+      "arabicNote": "عند ذكر فيلم للمرة الأولى نستخدم 'a'. 'The' تفيد أنك تتكلّم عن فيلم محدّد معروف للمستمع، لكن السياق هنا عام لذلك 'a' صحيح.",
+      "weakTag": "articles_intermediate_review_first_mention_fix",
+      "options": [
+        "I saw the movie yesterday.",
+        "I saw a movie yesterday.",
+        "I saw movie yesterday."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "I saw movie yesterday."
+    }
+  ]
+}

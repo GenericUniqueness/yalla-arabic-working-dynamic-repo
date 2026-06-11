@@ -1,0 +1,236 @@
+{
+  "id": "used_to",
+  "category": "b1_core",
+  "titleEn": "Used To",
+  "titleAr": "استخدام used to",
+  "level": "B1",
+  "explanationEn": "Use 'used to' + base verb to describe past habits or states that are no longer true. It expresses repeated past actions or long states (school, home, work, family) and highlights that the situation changed compared with now.",
+  "explanationAr": "نستخدم 'used to' مع الفعل الأساسي لوصف عادات أو حالات ماضية لم تعد صحيحة الآن. الإنجليزية تستخدم تركيبة ثابتة ومساعدة هنا بينما العربية قد تعبّر عن الماضي بترتيبات مختلفة. انتبه لوضع 'used to' قبل الفعل الأساسي وترتيب الكلمات المختلف عن العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "كنت أذهب إلى المدرسة كل يوم.",
+      "arabicLiteral": "I was go to school every day",
+      "englishCorrect": "I used to go to school every day."
+    },
+    {
+      "arabicStructure": "عندما كنت طفلاً، كنت خجولاً.",
+      "arabicLiteral": "When I was a child, I was shy",
+      "englishCorrect": "I used to be shy when I was a child."
+    },
+    {
+      "arabicStructure": "سابقًا كنت أعيش في جدة.",
+      "arabicLiteral": "Before I lived in Jeddah",
+      "englishCorrect": "I used to live in Jeddah."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I used to went to school when I was a child.",
+      "correct": "I used to go to school when I was a child.",
+      "explanationEn": "After 'used to' use the base verb, not the past form.",
+      "explanationAr": "بعد 'used to' نضع الفعل في صورته الأساسية. الخطأ شائع بسبب الترجمة الحرفية من العربية."
+    },
+    {
+      "wrong": "I was used to go to school when I was a child.",
+      "correct": "I used to go to school when I was a child.",
+      "explanationEn": "'Was used to' means being familiar with something now, not a past habit.",
+      "explanationAr": "'was used to' تعني الاعتياد أو التأقلم الحالي، وليست للتعبير عن عادة ماضية انتهت كما يفعل 'used to'."
+    },
+    {
+      "wrong": "I used to playing football when I was young.",
+      "correct": "I used to play football when I was young.",
+      "explanationEn": "Use the base verb after 'used to', not the -ing form.",
+      "explanationAr": "بعد 'used to' يجب أن يأتي الفعل الأساسي. الخطأ يحدث عندما تترجم من بنية عربية مختلفة وتستخدم صيغة -ing."
+    },
+    {
+      "wrong": "Before, I live in Cairo and now I don't.",
+      "correct": "I used to live in Cairo, but I don't anymore.",
+      "explanationEn": "Use 'used to' to show a past state that has changed, not present tense.",
+      "explanationAr": "استخدام الزمن الحاضر هنا لا يوضح أن الحالة تغيرت. استخدم 'used to' لتبين أنها كانت عادة أو حالة سابقة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "used_q1",
+      "type": "multiple_choice",
+      "prompt": "When I was a child, I _____ soccer every day, but now I never play.",
+      "promptAr": "اختر الشكل الصحيح للتعبير عن عادة ماضية لم تعد موجودة.",
+      "explanation": "Use 'used to' + base verb for a past habit or repeated action that stopped.",
+      "arabicNote": "الجملة توضح عادة ماضية انتهت. بعد 'used to' نضع الفعل في صورته الأساسية ولا تترجم حرفياً من ترتيب العربية.",
+      "weakTag": "used_to_form",
+      "options": [
+        "used to play",
+        "was used to play",
+        "used to playing",
+        "use to play"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows a past habit that is not true now? (about school)",
+      "promptAr": "أي جملة تعبّر عن عادة ماضية لم تعد صحيحة الآن؟",
+      "explanation": "'Used to' + base verb is the correct form to show a past habit no longer true.",
+      "arabicNote": "الاختيار الصحيح يستعمل 'used to' مع الفعل الأساسي. انتبه أن بعض التركيبات الخاطئة تأتي من إضافة صيغ الماضي أو من 'was used to'.",
+      "weakTag": "used_to_word_order",
+      "options": [
+        "I used to go to that school when I was a child.",
+        "I used to went to that school when I was a child.",
+        "I was used to go to that school when I was a child."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Before I moved to Cairo, I _____ in a small apartment near the university.",
+      "promptAr": "اختر الشكل الصحيح لملء الفراغ عن مكان سكن سابق.",
+      "explanation": "'Used to live' shows a past state (where you lived) that has changed now.",
+      "arabicNote": "نريد هنا التعبير عن سكن سابق انتهى بعد الانتقال. بعد 'used to' نضع الفعل الأساسي وليس صيغة -ing.",
+      "weakTag": "used_to_meaning",
+      "options": [
+        "used to live",
+        "used to living",
+        "was used to live",
+        "live used to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تعبر عن حالة خجل ماضية.",
+      "explanation": "Use 'used to be' for a past state; put base verb 'be' after 'used to'.",
+      "arabicNote": "الخطأ ناتج عن وضع فعل مساعد غير صحيح. بعد 'used to' يجب أن يأتي الفعل الأساسي مثل 'be' للتعبير عن حالة ماضية.",
+      "weakTag": "used_to_form",
+      "options": [
+        "When I was at school, I used to be shy.",
+        "When I was at school, I used to being shy.",
+        "When I was at school, I was used to shy."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "When I was at school, I used to was shy."
+    },
+    {
+      "id": "used_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a sentence about a past habit.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة عن عادة ماضية.",
+      "explanation": "Start with the time phrase, then subject, then 'used to' and the base verb for the habit.",
+      "arabicNote": "رتّب الجملة لتبدأ بعبارة زمنية مثل 'When I was young,' ثم 'I used to' والفعل الأساسي. هذا يختلف عن ترتيب بعض التركيبات في العربية.",
+      "weakTag": "used_to_word_order",
+      "words": [
+        "When",
+        "I",
+        "was",
+        "young,",
+        "I",
+        "used",
+        "to",
+        "ride",
+        "my",
+        "bike."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "used_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning. Each sentence shows a past habit or state no longer true.",
+      "promptAr": "صِل كل جملة إنجليزية بمعناها العربي. كل جملة تعبّر عن عادة أو حالة ماضية انتهت.",
+      "explanation": "Each example uses 'used to' for a past habit or state that changed; match with the Arabic meaning.",
+      "arabicNote": "الترجمة توضّح أن الحدث كان عادة أو حالة في الماضي ولم يعد كذلك. لاحظ كيف تُظهر الإنجليزية التغيير باستخدام 'used to' بينما العربية قد تصف الماضي بدون أداة مساوية.",
+      "weakTag": "used_to_meaning",
+      "pairs": [
+        {
+          "left": "I used to play piano when I was young.",
+          "right": "كنت أعزف البيانو عندما كنت صغيراً."
+        },
+        {
+          "left": "She used to live in Alexandria when she was a student.",
+          "right": "كانت تسكن في الإسكندرية عندما كانت طالبة."
+        },
+        {
+          "left": "We used to eat late at home, but we don't anymore.",
+          "right": "كنا نأكل متأخراً في البيت لكننا لم نعد كذلك."
+        }
+      ]
+    },
+    {
+      "id": "used_q7",
+      "type": "multiple_choice",
+      "prompt": "Before 2019, she _____ in a small studio, but now she works from home.",
+      "promptAr": "اختر الشكل الصحيح للتعبير عن سكن سابق انتهى الآن.",
+      "explanation": "'Used to live' correctly expresses a past state that changed and is not true now.",
+      "arabicNote": "نحتاج هنا أن نبيّن تغيير الحالة السكنية. لا تُستبدل 'used to' بصيغ غير صحيحة أو بصيغ عادية للماضي لأن السياق يظهر التغيير.",
+      "weakTag": "used_to_arabic_transfer",
+      "options": [
+        "used to live",
+        "used to living",
+        "was used to lived",
+        "used to lived"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says they had a late dinner habit when they lived in Spain?",
+      "promptAr": "أي جملة تعبّر بشكل صحيح عن عادة تناول الطعام المتأخر أثناء العيش في إسبانيا؟",
+      "explanation": "Use 'used to' + base verb to describe a repeated past habit while they lived there.",
+      "arabicNote": "الجملة الصحيحة تستعمل 'used to' مع الفعل الأساسي. خطأ شائع هو استعمال 'be used to' أو الفعل الماضي بدل تركيب 'used to'.",
+      "weakTag": "used_to_form",
+      "options": [
+        "My parents used to eat dinner late when they lived in Spain.",
+        "My parents used to ate dinner late when they lived in Spain.",
+        "My parents are used to eat dinner late when they lived in Spain."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "My grandmother died last year. She _____ visit us every Friday when she was alive.",
+      "promptAr": "اختر الشكل الصحيح لملء الفراغ عن عادة زيارة أسبوعية انتهت.",
+      "explanation": "'Used to visit' shows a repeated past action that ended and no longer happens.",
+      "arabicNote": "المثال يتضمن نتيجة (وفاتها)، لذلك نحتاج 'used to' لتوضيح أن الزيارة كانت عادة ماضية انتهت الآن. لا تضع -ing أو الماضي بعد 'used to'.",
+      "weakTag": "used_to_meaning",
+      "options": [
+        "used to visit",
+        "used to visiting",
+        "was used to visit",
+        "used to visited"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "used_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول قدرة سابقة انتهت الآن.",
+      "explanation": "'Used to' + 'be able to' correctly shows a past ability that is no longer true.",
+      "arabicNote": "الخطأ جاء من محاولة وضع 'can' بعد 'used to'. للتعبير عن قدرة سابقة انتهت نستخدم 'used to be able to'. هذا يختلف عن تركيب العربية حيث قد تُستخدم صيغ أخرى للماضي.",
+      "weakTag": "used_to_form",
+      "options": [
+        "I used to be able to swim when I was a child.",
+        "I used to can swim when I was a child.",
+        "I used to canning swim when I was a child."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I used to can swim when I was a child."
+    }
+  ]
+}

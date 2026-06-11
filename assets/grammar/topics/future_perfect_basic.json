@@ -1,0 +1,238 @@
+{
+  "id": "future_perfect_basic",
+  "category": "b2_expansion",
+  "titleEn": "Future Perfect Basics",
+  "titleAr": "أساسيات المستقبل التام",
+  "level": "B2",
+  "explanationEn": "Use will have + past participle to say an action will be completed before a specific future time (by, by the time, before). This form emphasizes completion by a deadline. Arabic speakers often drop auxiliaries or use different word order, so keep will + have + past participle together.",
+  "explanationAr": "المستقبل التام يُظهر أن حدثًا سيُكمل قبل لحظة مستقبلية محددة باستخدام will have + التصريف الثالث. المتحدثون العرب قد يترجمون مباشرة بترتيب عربي أو يحذفون الكلمات المساعدة (مثل have) أو يغيّرون زمن الفعل. لذلك التذكر: will + have + التصريف الثالث لإظهار الاكتمال بحلول وقت مثل by أو by the time.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "سأتصل بك غدًا.",
+      "arabicLiteral": "I will call you tomorrow.",
+      "englishCorrect": "By tomorrow morning, I will have called you."
+    },
+    {
+      "arabicStructure": "ستمطر الليلة.",
+      "arabicLiteral": "It will rain tonight.",
+      "englishCorrect": "It will have rained by tonight."
+    },
+    {
+      "arabicStructure": "سأكون قد قرأت الكتاب بحلول الأسبوع القادم.",
+      "arabicLiteral": "By next week I will have read the book.",
+      "englishCorrect": "By next week, I will have read the book."
+    },
+    {
+      "arabicStructure": "سوف يزور أحمد عائلته يوم السبت.",
+      "arabicLiteral": "Ahmed will visit his family on Saturday.",
+      "englishCorrect": "By Saturday, Ahmed will have visited his family."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "By tomorrow, I will have finish the report.",
+      "correct": "By tomorrow, I will have finished the report.",
+      "explanationEn": "A learner error: wrong past participle. Use finished after will have for completion before tomorrow.",
+      "explanationAr": "خطأ شائع هو استخدام شكل فعل خاطئ بعد will have. يجب استخدام التصريف الثالث 'finished' لإظهار الاكتمال قبل الغد."
+    },
+    {
+      "wrong": "By 2024 she will have went to five cities.",
+      "correct": "By 2024 she will have gone to five cities.",
+      "explanationEn": "Wrong past participle 'went' breaks the future perfect form; use 'gone' after will have.",
+      "explanationAr": "المشكلة هنا في التصريف الثالث؛ 'went' غير صحيح بعد will have، يجب استعمال 'gone' لبناء المستقبل التام."
+    },
+    {
+      "wrong": "By the time you arrive I finish dinner.",
+      "correct": "By the time you arrive, I will have finished dinner.",
+      "explanationEn": "Direct Arabic word order and missing auxiliaries. English needs will have + past participle to show completion.",
+      "explanationAr": "هذه ترجمة مباشرة من العربية دون الأفعال المساعدة. الإنجليزية تحتاج will have + التصريف الثالث لإظهار الاكتمال قبل وصولك."
+    },
+    {
+      "wrong": "Next month we have completed the course.",
+      "correct": "Next month we will have completed the course.",
+      "explanationEn": "Missing 'will' so tense is wrong. Future perfect requires will have to mark future completion.",
+      "explanationAr": "حذف will يجعل الزمن غير مستقبلي تام. لإظهار الاكتمال في المستقبل يجب وجود will have قبل التصريف الثالث."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fpb_q1",
+      "type": "multiple_choice",
+      "prompt": "By tomorrow morning, she ___ the report.",
+      "promptAr": "اختر الشكل الصحيح لإظهار اكتمال التقرير قبل صباح الغد.",
+      "explanation": "Use will have + past participle to show completion by tomorrow morning.",
+      "arabicNote": "عبارة زمنية مثل by tomorrow تطلب will have + التصريف الثالث. انتبه لخطأ حذف have أو استخدام تصريف خاطئ بدلاً من التصريف الثالث.",
+      "weakTag": "future_perfect_basic_form",
+      "options": [
+        "will have finished",
+        "will have finish",
+        "have finished",
+        "she finish"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "By 2025, they ___ moved to a bigger house.",
+      "promptAr": "اختر الشكل الصحيح لإظهار الانتقال بحلول عام 2025.",
+      "explanation": "Pick will have + past participle to show the move is finished by 2025.",
+      "arabicNote": "علامة الزمن by 2025 تشير إلى اكتمال الحدث بحلول ذلك التاريخ. لا تحذف will أو have، واستخدم التصريف الثالث 'moved'.",
+      "weakTag": "future_perfect_basic_meaning",
+      "options": [
+        "will have moved",
+        "will have move",
+        "have moved",
+        "they moved"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows completion before 'by next week'?",
+      "promptAr": "أي جملة تُظهر الإكمال بحلول 'بحلول الأسبوع القادم'؟",
+      "explanation": "Future perfect needs will have + past participle for completion by next week.",
+      "arabicNote": "تجنّب حذف have أو استخدام شكل فعل خاطئ أو ترتيب عربي مباشر. الصيغة الصحيحة: will have + التصريف الثالث لإظهار الاكتمال.",
+      "weakTag": "future_perfect_basic_word_order",
+      "options": [
+        "I will have finished the course by next week.",
+        "I will have finish the course by next week.",
+        "By next week I will finishing the course."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "Add will have + finished to show the dinner is complete before arrival.",
+      "arabicNote": "الجملة الخاطئة تحذف have أو تستخدم تصريفًا خاطئًا. استخدم will have + التصريف الثالث لإظهار اكتمال العشاء قبل الوصول.",
+      "weakTag": "future_perfect_basic_form",
+      "options": [
+        "By the time you arrive, I will have finished dinner.",
+        "By the time you arrive, I have finished dinner.",
+        "By the time you arrive, I will finished dinner."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "By the time you arrive, I will finish dinner."
+    },
+    {
+      "id": "fpb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to show completion by Friday.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تُظهر الاكتمال بحلول يوم الجمعة.",
+      "explanation": "They will have finished the project by Friday.",
+      "arabicNote": "الترتيب الإنجليزي: فاعل ثم will ثم have ثم التصريف الثالث. لا تضع الترتيب العربي مباشرة أو تحذف have.",
+      "weakTag": "future_perfect_basic_word_order",
+      "words": [
+        "finished",
+        "by",
+        "will",
+        "They",
+        "the",
+        "project",
+        "have",
+        "Friday"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        6,
+        0,
+        4,
+        5,
+        1,
+        7
+      ]
+    },
+    {
+      "id": "fpb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence with its Arabic meaning.",
+      "promptAr": "وصل كل جملة بمعناها العربي.",
+      "explanation": "Each sentence shows completion by a future time; match to Arabic.",
+      "arabicNote": "كل جملة تحتوي على علامة زمنية مثل by أو by the time لتحدد اكتمال حدث قبل لحظة مستقبلية. لاحظ will have + التصريف الثالث.",
+      "weakTag": "future_perfect_basic_meaning",
+      "pairs": [
+        {
+          "left": "By next month, I will have saved enough money.",
+          "right": "بحلول الشهر القادم سأكون قد ادخرت ما يكفي من المال."
+        },
+        {
+          "left": "By the time class starts, she will have arrived.",
+          "right": "بحلول وقت بدء الدرس ستكون قد وصلت."
+        },
+        {
+          "left": "By 9 PM, they will have finished the exam.",
+          "right": "بحلول الساعة التاسعة مساءً سيكونون قد أنهوا الاختبار."
+        }
+      ]
+    },
+    {
+      "id": "fpb_q7",
+      "type": "multiple_choice",
+      "prompt": "By 6 PM, he ___ completed his shift.",
+      "promptAr": "اختر الشكل الصحيح لإظهار اكتمال دوام العمل بحلول الساعة السادسة.",
+      "explanation": "Use will have + past participle to show the shift ends by 6 PM.",
+      "arabicNote": "لا تخلط ترتيب الكلمات أو تستخدم has بعد will. التركيب الصحيح للمستقبل التام: will have + التصريف الثالث لإظهار الاكتمال.",
+      "weakTag": "future_perfect_basic_form",
+      "options": [
+        "will have completed",
+        "will has completed",
+        "will have complete",
+        "has completed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "By the time the plane lands, Maria ___ her suitcase.",
+      "promptAr": "اختر الشكل الصحيح لإظهار حزم الحقيبة قبل هبوط الطائرة.",
+      "explanation": "Pick will have + packed to show packing is complete before landing.",
+      "arabicNote": "عبارات مثل by the time تطلب مستقبلًا تامًا لإظهار الاكتمال قبل حدث آخر. تجنّب حذف will أو استخدام تصريف خاطئ.",
+      "weakTag": "future_perfect_basic_form",
+      "options": [
+        "will have packed",
+        "will have pack",
+        "has packed",
+        "will packed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses the future perfect for 'by Saturday'?",
+      "promptAr": "أي جملة تستخدم المستقبل التام بشكل صحيح مع 'بحلول يوم السبت'؟",
+      "explanation": "Future perfect places will have before the past participle to show completion by Saturday.",
+      "arabicNote": "الصيغة الصحيحة: فاعل ثم will have ثم التصريف الثالث. لا تترك have أو تغير ترتيب الكلمات كما في العربية المباشرة.",
+      "weakTag": "future_perfect_basic_word_order",
+      "options": [
+        "By Saturday, Ahmed will have visited his family.",
+        "By Saturday, Ahmed have visited his family.",
+        "By Saturday, will Ahmed visited his family."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fpb_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية مع وجود سياق زمني واضح.",
+      "explanation": "Use the correct past participle 'gone' after will have to show completion by year end.",
+      "arabicNote": "الخطأ هنا في استخدام تصريف خاطئ بعد will have. استخدم التصريف الثالث الصحيح 'gone' لإظهار أنك ستنتهي من زيارة الدول بحلول نهاية السنة.",
+      "weakTag": "future_perfect_basic_participle",
+      "options": [
+        "By the end of the year, I will have gone to three countries.",
+        "By the end of the year, I have went to three countries.",
+        "By the end of the year, I will have been going to three countries.",
+        "By the end of the year, I will have went to three countries."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "By the end of the year, I will have went to three countries."
+    }
+  ]
+}

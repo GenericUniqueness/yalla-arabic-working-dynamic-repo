@@ -1,0 +1,230 @@
+{
+  "id": "phrasal_verb_grammar_basics",
+  "category": "b1_core",
+  "titleEn": "Phrasal Verb Grammar Basics",
+  "titleAr": "أساسيات قواعد الأفعال المركبة",
+  "level": "B1",
+  "explanationEn": "This topic explains how separable and inseparable phrasal verbs work and where to place object pronouns. Examples use school, work, home, family, and travel contexts. Practice stops direct Arabic word-order transfer and prevents dropping necessary English function words that change meaning.",
+  "explanationAr": "تشرح هذه الوحدة كيفية عمل الأفعال المركبة القابلة وغير القابلة للفصل ومكان وضع ضمائر المفعول به. الأمثلة من المدرسة والعمل والمنزل والسفر لتجنب نقل الترتيب العربي حرفياً وحذف الكلمات الوظيفية المطلوبة في الإنجليزية، مع قواعد عملية لوضع الضمائر والجسيمات.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أطفأت المصباح.",
+      "arabicLiteral": "I turned off the light.",
+      "englishCorrect": "I turned the light off. / I turned it off."
+    },
+    {
+      "arabicStructure": "سأعتني بالطفل غداً.",
+      "arabicLiteral": "I will look after the child tomorrow.",
+      "englishCorrect": "I will look after the child tomorrow."
+    },
+    {
+      "arabicStructure": "ارتديت المعطف.",
+      "arabicLiteral": "I put on the coat.",
+      "englishCorrect": "I put the coat on. / I put it on."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She looked the baby after yesterday.",
+      "correct": "She looked after the baby yesterday.",
+      "explanationEn": "Placing the object between parts of an inseparable phrasal verb breaks the verb; 'look after' must stay together.",
+      "explanationAr": "وضع المفعول بين كلمتي فعل مركب غير قابل للفصل يكسر تركيب الفعل. يجب أن تبقى 'look after' متصلة كما في 'look after the baby yesterday'."
+    },
+    {
+      "wrong": "Turn off it before class.",
+      "correct": "Turn it off before class.",
+      "explanationEn": "With separable verbs and pronoun objects, the pronoun must come between the verb and particle.",
+      "explanationAr": "عند وجود ضمير كمفعول لفعل مركب قابل للفصل يجب وضع الضمير بين الفعل والجسيم. الترجمة الحرفية من العربية قد تؤدي لخطأ 'turn off it'."
+    },
+    {
+      "wrong": "He will look him after on Friday.",
+      "correct": "He will look after him on Friday.",
+      "explanationEn": "Do not insert the pronoun inside an inseparable phrasal verb; the particle stays adjacent to the verb.",
+      "explanationAr": "لا تدخل الضمير داخل فعل مركب غير قابل للفصل. يجب أن يبقى الجسيم بجانب الفعل ثم يأتي الضمير بعدهما كما في 'look after him'."
+    },
+    {
+      "wrong": "Please pick up the children them at four.",
+      "correct": "Please pick them up at four.",
+      "explanationEn": "When the object is a pronoun with a separable verb, only the pronoun goes between the verb and particle.",
+      "explanationAr": "مع الفعل القابل للفصل ووجود ضمير، نضع الضمير بين الفعل والجسيم فقط. إضافة الاسم والضمير معًا تؤدي إلى ترتيب خاطئ مثل 'pick up the children them'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pvgb_q1",
+      "type": "multiple_choice",
+      "prompt": "You turned the kitchen light off after the meeting. Which sentence correctly uses a pronoun instead of 'the kitchen light'?",
+      "promptAr": "لقد أطفأتَ ضوء المطبخ بعد الاجتماع. أي جملة تستخدم الضمير بشكل صحيح بدلًا من 'ضوء المطبخ'؟",
+      "explanation": "For separable verbs and pronouns, put the pronoun between verb and particle.",
+      "arabicNote": "مع الأفعال القابلة للفصل والضمير، يجب وضع الضمير بين الفعل والجسيم. الترجمة الحرفية من العربية قد تؤدي إلى 'turned off it' وهو ترتيب خاطئ في الإنجليزية.",
+      "weakTag": "phrasal_verb_grammar_basics_pronoun_placement",
+      "options": [
+        "You turned it off after the meeting.",
+        "You turned off it after the meeting.",
+        "You turned off the it after the meeting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q2",
+      "type": "multiple_choice",
+      "prompt": "She will look after the baby tomorrow. Which is the correct sentence with a pronoun?",
+      "promptAr": "هي ستعتني بالطفل غدًا. أي جملة صحيحة عند استخدام ضمير؟",
+      "explanation": "Some phrasal verbs are inseparable; the particle must stay with the verb and the pronoun follows after.",
+      "arabicNote": "بعض الأفعال المركبة غير قابلة للفصل؛ لا تضع الضمير بين أجزاء الفعل. المتعلمون العرب قد يترجمون ترتيبًا عربيًا خاطئًا فيقولون 'look him after', وهو غير صحيح.",
+      "weakTag": "phrasal_verb_grammar_basics_inseparable",
+      "options": [
+        "She will look after him tomorrow.",
+        "She will look him after tomorrow.",
+        "She will him look after tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence that shows proper pronoun placement with a separable verb.",
+      "promptAr": "اختر الجملة الصحيحة التي تُظهر وضع الضمير بشكل صحيح مع فعل مركب قابل للفصل.",
+      "explanation": "With separable verbs the pronoun goes between the verb and particle: 'cleaned it up'.",
+      "arabicNote": "الفعل 'clean up' قابل للفصل؛ عند وجود ضمير يوضع بين الفعل والجسيم. المتعلمون العرب أحيانًا يضعون الضمير بعد الجسيم، وهذا يعد خطأً لغوياً في هذا السياق.",
+      "weakTag": "phrasal_verb_grammar_basics_word_order",
+      "options": [
+        "He cleaned it up after the lesson.",
+        "He cleaned up it after the lesson.",
+        "He it cleaned up after the lesson."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q4",
+      "type": "fill_blank_with_options",
+      "prompt": "The radio is still on. Please _____ it now.",
+      "promptAr": "الراديو ما زال يعمل. من فضلك _____ه الآن.",
+      "explanation": "The pronoun 'it' must go between verb and particle for separable phrasal verbs.",
+      "arabicNote": "عند استخدام فعل مركب قابل للفصل والضمير، نضع الضمير بين الفعل والجسيم. الترجمة الحرفية من العربية قد تؤدي إلى 'turn off it' وهو ترتيب خاطئ في الإنجليزية.",
+      "weakTag": "phrasal_verb_grammar_basics_form",
+      "options": [
+        "turn it off",
+        "turn off it",
+        "turn off the radio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q5",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "Keep the inseparable phrasal verb together in word order: 'She will look after the baby tomorrow.'",
+      "arabicNote": "في الإنجليزية بعض الأفعال المركبة غير قابلة للفصل. المتعلمون العرب قد يضعون المفعول بين كلمتي الفعل المركب، لذا نطلب إبقاء 'look after' متصلاً ثم يأتي المفعول بعدهما.",
+      "weakTag": "phrasal_verb_grammar_basics_fix_order",
+      "options": [
+        "She will look after the baby tomorrow.",
+        "She will the baby look after tomorrow.",
+        "She will look after tomorrow the baby."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She will look the baby after tomorrow."
+    },
+    {
+      "id": "pvgb_q6",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence. Place the separable particle 'away' after the object; put the time word 'yesterday' at the end.",
+      "promptAr": "رتّب الكلمات لتكوين جملة طبيعية. ضع الجسيم القابل للفصل 'away' بعد المفعول وضع كلمة الزمن 'yesterday' في النهاية.",
+      "explanation": "Place the particle after the object to follow separable-verb with object rule: 'Ahmed threw the old book away yesterday.'",
+      "arabicNote": "نطلب هنا وضع الجسيم القابل للفصل بعد المفعول لتوضيح قاعدة وضع الضمائر والأسماء. هذا يمنع ترتيبين صحيحين ويعلم وضع الجسيم بعد المفعول في هذا النوع من الجمل.",
+      "weakTag": "phrasal_verb_grammar_basics_word_order",
+      "words": [
+        "yesterday",
+        "Ahmed",
+        "threw",
+        "away",
+        "the",
+        "old",
+        "book"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "pvgb_q7",
+      "type": "meaning_match",
+      "prompt": "Match each phrasal verb to its Arabic meaning.",
+      "promptAr": "وصل كل فعل مركب بمعناه العربي.",
+      "explanation": "These meanings show common separable and inseparable phrasal verbs used in daily contexts.",
+      "arabicNote": "احفظ معاني الأفعال المركبة مع ملاحظة أيها قابل للفصل. بعض الأفعال تُفصل ويختلف مكان الضمير، وبعضها يبقى ملتصقًا، وهذا يؤثر في ترتيب الكلمات.",
+      "weakTag": "phrasal_verb_grammar_basics_meaning",
+      "pairs": [
+        {
+          "left": "turn off",
+          "right": "يطفئ / يغلق جهازاً"
+        },
+        {
+          "left": "look after",
+          "right": "يعتني بـ"
+        },
+        {
+          "left": "put on",
+          "right": "يلبس / يضع ملابساً"
+        },
+        {
+          "left": "pick up",
+          "right": "يجمع أو يوصل شخصاً"
+        }
+      ]
+    },
+    {
+      "id": "pvgb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "At the hotel, he met an old friend by chance. Which sentence is correct?",
+      "promptAr": "في الفندق قابل صديقًا قديمًا مصادفةً. أي جملة صحيحة؟",
+      "explanation": "Phrasal verb 'run into' is inseparable; the pronoun must follow the whole verb.",
+      "arabicNote": "بعض الأفعال المركبة مثل 'run into' غير قابلة للفصل، لذلك يأتي الضمير بعد الفعل المركب كاملاً. تجنب إدخال المفعول بين كلمتي الفعل.",
+      "weakTag": "phrasal_verb_grammar_basics_inseparable2",
+      "options": [
+        "He ran into him at the hotel yesterday.",
+        "He ran him into at the hotel yesterday.",
+        "He ran into at the hotel him yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Please _____ them from school at four. (You will drive the children.)",
+      "promptAr": "من فضلك _____هم من المدرسة عند الرابعة. (أنت ستقود الأطفال).",
+      "explanation": "With a pronoun object, put the pronoun between verb and particle: 'pick them up'.",
+      "arabicNote": "مع الأفعال القابلة للفصل والضمير استخدم الضمير بين الفعل والجسيم. الترتيب العربي الذي يضع الضمير بعد الجسيم خاطئ في هذا السياق.",
+      "weakTag": "phrasal_verb_grammar_basics_pronoun_placement2",
+      "options": [
+        "pick them up",
+        "pick up them",
+        "pick up the children"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pvgb_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the correct revision of the sentence.",
+      "promptAr": "اختر التصحيح الصحيح للجملة التالية.",
+      "explanation": "For separable verbs, the pronoun must be between the verb and its particle: 'put it on'.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تؤدي إلى وضع الضمير بعد الجسيم. في الإنجليزية مع ضمير نضعه بين الفعل والجسيم للحفاظ على البنية الصحيحة.",
+      "weakTag": "phrasal_verb_grammar_basics_fix_pronoun_order",
+      "options": [
+        "She put it on before class this morning.",
+        "She put on it before class this morning.",
+        "She on put it before class this morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She put on it before class this morning."
+    }
+  ]
+}

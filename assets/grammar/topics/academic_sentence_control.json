@@ -1,0 +1,232 @@
+{
+  "id": "academic_sentence_control",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Academic Sentence Control",
+  "titleAr": "ضبط الجملة الأكاديمية",
+  "level": "C1",
+  "explanationEn": "Practice writing controlled academic sentences with a clear subject, a finite verb, correct subordination, precise connectors, proper punctuation, and readable length. Focus on reducing Arabic-style implicit links, fixing unclear references and misplaced modifiers, and choosing punctuation that preserves formal clarity and precision.",
+  "explanationAr": "التدريب يركّز على كتابة جملٍ أكاديمية مضبوطة بفاعل واضح وفعل مقيد وزمن واضح، وروابط تابعة مناسبة، وفواصل وعلامات ترقيم تحافظ على الوضوح. بخلاف العربية التي تسمح بالإيحاء والسياق المرن، تتطلب الإنجليزية توضيح الروابط والإحالات داخل الجملة لتجنب اللبس.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "قدمتُ التقرير وناقشت النتائج",
+      "arabicLiteral": "I submitted the report and discussed the results",
+      "englishCorrect": "I submitted the report, and I discussed the results."
+    },
+    {
+      "arabicStructure": "الطلاب الذين أتمّوا الاستبيان",
+      "arabicLiteral": "the students who completed the survey",
+      "englishCorrect": "The students who completed the survey were interviewed."
+    },
+    {
+      "arabicStructure": "التقرير طويل لكنه واضح",
+      "arabicLiteral": "The report is long but clear",
+      "englishCorrect": "The report is long, but it remains clear and focused."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Report published confusing readers.",
+      "correct": "The published report confused readers.",
+      "explanationEn": "Missing article and wrong word order make the sentence fragmentary and unclear. Add 'The' and a finite verb for readability.",
+      "explanationAr": "خطأ شائع هو حذف أداة التعريف أو ترتيب الكلمات كما في العربية. في الإنجليزية الأكاديمية نضيف 'The' ونضع فعلًا مقيدًا لجعل الجملة كاملة ومفهومة."
+    },
+    {
+      "wrong": "The manager, because absent, decision delayed.",
+      "correct": "Because the manager was absent, the decision was delayed.",
+      "explanationEn": "A cause clause needs a finite verb. Insert 'was' and reorder to show the causal subordinate clause clearly.",
+      "explanationAr": "في العربية قد يُذكر السبب بدون فعل واضح. الإنجليزية الأكاديمية تتطلب جملة تابعة بفعل ظاهري مثل 'was' لتوضيح العلاقة السببية بشكلٍ نحوي وواضح."
+    },
+    {
+      "wrong": "Students received books their study improved.",
+      "correct": "Students received books, and their study improved.",
+      "explanationEn": "Two independent ideas need a connector or punctuation. Add 'and' or proper punctuation to show sequence or result.",
+      "explanationAr": "الربط بين فكرتين مستقلتين دون رابط واضح ناتج عن الترجمة الحرفية. استخدام 'and' أو فاصلة يوضح العلاقة بين الاستلام وتحسن الدراسة."
+    },
+    {
+      "wrong": "I met the researcher who in London.",
+      "correct": "I met the researcher who lives in London.",
+      "explanationEn": "A relative clause must contain a finite verb. Add 'lives' to make the clause grammatical and specific.",
+      "explanationAr": "في العربية قد يكفي الضمير الوصفي بدون فعل. لكن الإنجليزية تتطلب فعلاً مقيدًا داخل الجملة التابعة (مثل 'lives') ليصبح الوصف نحويًا ومحدّدًا."
+    }
+  ],
+  "questions": [
+    {
+      "id": "asc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the best connector to express contrast after the semicolon: \"The study sampled 200 students; ___, it excluded teachers.\"",
+      "promptAr": "اختر الرابط الذي يُعبِّر عن التباين بعد الفاصلة المنقوطة: \"شملت الدراسة 200 طالبًا؛ ___ استُبعد المدرسون.\"",
+      "explanation": "Use 'however' to signal contrast between two independent clauses following a semicolon in formal writing.",
+      "arabicNote": "في العربية قد يُفهم التباين من السياق فقط. بعد الفاصلة المنقوطة في الإنجليزية الأكاديمية نستخدم 'however' لإظهار التباين بصيغة رسمية وواضحة.",
+      "weakTag": "academic_sentence_control_connectors",
+      "options": [
+        "however",
+        "because",
+        "during",
+        "unless"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "asc_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete the sentence formally: \"The professor argued ___ the new grading policy would improve fairness.\"",
+      "promptAr": "أكمل الجملة بصيغة أكاديمية: \"جادل الأستاذ ___ أن سياسة التقييم الجديدة ستحسّن الإنصاف.\"",
+      "explanation": "'That' introduces a reported clause after 'argued' and makes the claim explicit and formal in academic prose.",
+      "arabicNote": "في العربية قد يُعرض الرأي بدون أداة ربط. في الإنجليزية الأكاديمية نستخدم 'that' لبدء الجملة التابعة التي تنقل محتوى الجدل بدقة ووضوح.",
+      "weakTag": "academic_sentence_control_subordination",
+      "options": [
+        "that",
+        "for",
+        "about",
+        "despite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "asc_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence has a clear subject, finite verb, and readable academic length?",
+      "promptAr": "أي جملة تحتوي على فاعل واضح وفعل مقيد وطول مناسب للأسلوب الأكاديمي؟",
+      "explanation": "The correct option supplies the subject 'we' for the participle and keeps a finite verb for clarity.",
+      "arabicNote": "خطأ شائع هو بدء الجملة بمصدر أو مشتق بدون فاعل ظاهر. الخيار الصحيح يضم فاعلًا واضحًا (we) وفعلًا مقيدًا مما يجعل المعنى نحويًا ومقروءًا.",
+      "weakTag": "academic_sentence_control_precision",
+      "options": [
+        "Having reviewed the data, the conclusions drawn were questionable.",
+        "Having reviewed the data, we found the conclusions questionable.",
+        "Reviewed the data so conclusions questionable."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "asc_q4",
+      "type": "meaning_match",
+      "prompt": "Match each term to its Arabic meaning.",
+      "promptAr": "صل كل مصطلح بمعناه العربي المناسب.",
+      "explanation": "These terms describe clause types and verb forms essential for controlled academic sentences.",
+      "arabicNote": "معرفة هذه المصطلحات تساعد في بناء جمل مترابطة وواضحة؛ كثير من الأخطاء تنتج عن حذف الفعل أو استخدام رابط غير صحيح بين الجمل.",
+      "weakTag": "academic_sentence_control_meaning",
+      "pairs": [
+        {
+          "left": "subordinate clause",
+          "right": "جملة تابعة"
+        },
+        {
+          "left": "finite verb",
+          "right": "فعل مقيد زمنياً"
+        },
+        {
+          "left": "relative pronoun",
+          "right": "اسم موصول"
+        }
+      ]
+    },
+    {
+      "id": "asc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a clear academic sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة أكاديمية واضحة ومقروءة.",
+      "explanation": "Order subject, then restrictive relative clause with a finite verb, then the main verb and object for clear meaning.",
+      "arabicNote": "في العربية قد يُترك الوصف مضمنًا دون ترتيب صارم. الترتيب الصحيح يبيّن الفاعل والجملة التابعة والفعل الأساسي لتقليل اللبس وزيادة الدقة.",
+      "weakTag": "academic_sentence_control_order",
+      "words": [
+        "published",
+        "confused",
+        "The",
+        "report",
+        "that",
+        "was",
+        "readers"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "asc_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction to make this a full academic sentence.",
+      "promptAr": "اختر التصحيح الأفضل لتحويل العبارة إلى جملة أكاديمية كاملة وواضحة.",
+      "explanation": "Add a clear subject and finite verb to create a complete, formal academic sentence.",
+      "arabicNote": "الجملة الأصلية تبدأ بفعل دون فاعل؛ في العربية قد يكفي السياق، لكن الإنجليزية الأكاديمية تحتاج فاعلًا وفعلًا محددًا لتصبح نحوية ومقروءة.",
+      "weakTag": "academic_sentence_control_subject",
+      "options": [
+        "She bought a ticket to the conference.",
+        "Bought a ticket for conference is done.",
+        "A ticket bought to conference by her.",
+        "Buying a ticket to the conference, she."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Bought a ticket to the conference."
+    },
+    {
+      "id": "asc_q7",
+      "type": "multiple_choice",
+      "prompt": "Select the punctuation and connector most acceptable within a single sentence in formal academic writing: \"The committee met for two hours ___ no decision was reached.\"",
+      "promptAr": "اختر الفاصل والموصل المقبول داخل جملة واحدة في الكتابة الأكاديمية: \"اجتمعت اللجنة لمدة ساعتين ___ لم يُتَّخذ قرار.\"",
+      "explanation": "A semicolon plus lowercase 'however' and a comma ('; however,') links two independent clauses formally and shows contrast.",
+      "arabicNote": "في العربية قد يُربط الكلام دون علامات صارمة. في الإنجليزية الأكاديمية نفضل '; however,' للفصل بين جملتين مستقلتين وإظهار التباين بدقة وسلاسة.",
+      "weakTag": "academic_sentence_control_punctuation",
+      "options": [
+        "; however,",
+        "; therefore,",
+        ", because",
+        ". However no comma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "asc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete: \"We interviewed the students ___ had completed the survey.\"",
+      "promptAr": "أكمل: \"قمنا بمقابلة الطلاب ___ أكملوا الاستبيان.\"",
+      "explanation": "'Who' is correct for people in a restrictive relative clause and keeps the sentence precise and formal.",
+      "arabicNote": "قد يترجم المتعلمون 'الذي' حرفيًا. في الإنجليزية نستخدم 'who' للأشخاص في جمل تقييدية للحفاظ على الدقة والأسلوب الأكاديمي المناسب.",
+      "weakTag": "academic_sentence_control_relative",
+      "options": [
+        "who",
+        "which",
+        "where",
+        "when"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "asc_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses subordination and keeps an academic register and readable length?",
+      "promptAr": "أي جملة تستخدم جملة تابعة وتحافظ على الأسلوب الأكاديمي والطول المقروء؟",
+      "explanation": "The correct option subordinates the limitation and includes a concise relative clause, maintaining clarity and formality.",
+      "arabicNote": "الاختيار الصحيح يستخدم 'Although' لجملة تابعة تشرح القيد ثم جملة رئيسية موجزة، ما يمنع التكرار ويُحافظ على الوضوح الأكاديمي.",
+      "weakTag": "academic_sentence_control_register",
+      "options": [
+        "While the data were limited, however, the authors suggested a broad conclusion and many readers questioned this leap.",
+        "Although the data were limited, the authors suggested a broad conclusion, which some readers questioned.",
+        "Data limited, authors suggested conclusion, readers questioned it widely."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "asc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the clear correction that removes ambiguity in reference.",
+      "promptAr": "اختر التصحيح الذي يزيل اللبس في الإحالة بين العبارات.",
+      "explanation": "Use the possessive form to show clearly whose supervisor is meant and remove referent ambiguity.",
+      "arabicNote": "في العربية قد تكون الإحالة واضحة من السياق، لكن الإنجليزية الأكاديمية تتطلب تركيبًا واضحًا (مثل إضافة 's) لتحديد المالك أو المرجع بدقة.",
+      "weakTag": "academic_sentence_control_reference",
+      "options": [
+        "They praised the students' research supervisor.",
+        "They praised the research supervisor, of the students.",
+        "They praised the supervisor who belongs to the students' research.",
+        "They praised research supervisor of students."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They praised research supervisor of students."
+    }
+  ]
+}

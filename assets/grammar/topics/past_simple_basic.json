@@ -1,0 +1,222 @@
+{
+  "id": "past_simple_basic",
+  "category": "basics",
+  "titleEn": "Past Simple Basics",
+  "titleAr": "أساسيات الماضي البسيط",
+  "level": "A1-A2",
+  "explanationEn": "The past simple tense is used for actions that are finished. Regular verbs add -ed, while some verbs are irregular. Arabic uses different past forms, so learners may confuse these forms.",
+  "explanationAr": "في اللغة العربية، نستخدم أشكال مختلفة للدلالة على الماضي، لكن في الإنجليزية نضيف -ed للأفعال المنتظمة. بعض الأفعال غير منتظمة ولها أشكال خاصة. قد يخطئ المتعلمون في استخدام -ed مع الأفعال غير المنتظمة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا ذهبت إلى المدرسة",
+      "arabicLiteral": "I went to school",
+      "englishCorrect": "I went to school"
+    },
+    {
+      "arabicStructure": "هو لعب كرة القدم",
+      "arabicLiteral": "He played football",
+      "englishCorrect": "He played football"
+    },
+    {
+      "arabicStructure": "هي درست اللغة الإنجليزية",
+      "arabicLiteral": "She studied English",
+      "englishCorrect": "She studied English"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I goed to the store.",
+      "correct": "I went to the store.",
+      "explanationEn": "The verb 'go' is irregular; it does not take -ed.",
+      "explanationAr": "الفعل 'ذهب' غير منتظم، لذا لا نضيف -ed."
+    },
+    {
+      "wrong": "He play soccer yesterday.",
+      "correct": "He played soccer yesterday.",
+      "explanationEn": "Regular verbs need -ed in the past simple.",
+      "explanationAr": "الأفعال المنتظمة تحتاج إلى -ed في الماضي البسيط."
+    },
+    {
+      "wrong": "They didn't went to the party.",
+      "correct": "They didn't go to the party.",
+      "explanationEn": "Use the base form 'go' after 'didn't'.",
+      "explanationAr": "بعد 'didn't' نستخدم الشكل الأساسي للفعل."
+    },
+    {
+      "wrong": "She didn't studied hard.",
+      "correct": "She didn't study hard.",
+      "explanationEn": "Use the base form 'study' after 'didn't'.",
+      "explanationAr": "بعد 'didn't' نستخدم الشكل الأساسي للفعل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "past_q1",
+      "type": "multiple_choice",
+      "prompt": "What is the past form of 'play'?",
+      "promptAr": "ما هو الشكل الماضي للفعل 'يلعب'؟",
+      "explanation": "The correct past form is 'played'.",
+      "arabicNote": "نضيف -ed للفعل المنتظم 'يلعب'.",
+      "weakTag": "past_simple_basic_regular_verbs",
+      "options": [
+        "played",
+        "playd",
+        "plays"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'I saw a movie.' uses the correct past form.",
+      "arabicNote": "الفعل 'رأى' له شكل غير منتظم في الماضي.",
+      "weakTag": "past_simple_basic_irregular_verbs",
+      "options": [
+        "I seen a movie.",
+        "I saw a movie.",
+        "I see a movie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "past_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Yesterday, I ___ to the park.",
+      "promptAr": "بالأمس، أنا ___ إلى الحديقة.",
+      "explanation": "'Went' is the past form of 'go'.",
+      "arabicNote": "الفعل 'ذهب' في الماضي هو 'went'.",
+      "weakTag": "past_simple_basic_irregular_verbs",
+      "options": [
+        "go",
+        "went",
+        "going"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "past_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "'Played' is the correct past form.",
+      "arabicNote": "نستخدم 'played' كفعل في الماضي.",
+      "weakTag": "past_simple_basic_regular_verbs",
+      "options": [
+        "She played the piano yesterday.",
+        "She plays the piano yesterday.",
+        "She playing the piano yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She playd the piano yesterday."
+    },
+    {
+      "id": "past_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'I went to the store.'",
+      "arabicNote": "نبدأ عادة بالفاعل ثم الفعل.",
+      "weakTag": "past_simple_basic_word_order",
+      "words": [
+        "went",
+        "I",
+        "to",
+        "the",
+        "store."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "past_q6",
+      "type": "meaning_match",
+      "prompt": "Match each verb to its past form.",
+      "promptAr": "صل كل فعل مع شكله في الماضي.",
+      "explanation": "These are common verbs and their past forms.",
+      "arabicNote": "احفظ الأفعال مع أشكالها في الماضي.",
+      "weakTag": "past_simple_basic_meaning",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "ذهب"
+        },
+        {
+          "left": "see",
+          "right": "رأى"
+        },
+        {
+          "left": "play",
+          "right": "لعب"
+        }
+      ]
+    },
+    {
+      "id": "past_q7",
+      "type": "multiple_choice",
+      "prompt": "What is the past form of 'study'?",
+      "promptAr": "ما هو الشكل الماضي للفعل 'يدرس'؟",
+      "explanation": "'Studied' is the correct past form.",
+      "arabicNote": "نضيف -ed للفعل 'يدرس'.",
+      "weakTag": "past_simple_basic_regular_verbs",
+      "options": [
+        "studied",
+        "studyed",
+        "studys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'They ate dinner.' uses the correct past form.",
+      "arabicNote": "الفعل 'أكل' له شكل غير منتظم في الماضي.",
+      "weakTag": "past_simple_basic_irregular_verbs",
+      "options": [
+        "They eat dinner.",
+        "They ate dinner.",
+        "They eated dinner."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "past_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Last week, she ___ a book.",
+      "promptAr": "الأسبوع الماضي، هي ___ كتاب.",
+      "explanation": "'Read' is the past form of 'read'.",
+      "arabicNote": "الفعل 'قرأ' في الماضي هو 'read'.",
+      "weakTag": "past_simple_basic_irregular_verbs",
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "past_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "Use 'go' after 'didn't'.",
+      "arabicNote": "بعد 'didn't' نستخدم الشكل الأساسي للفعل.",
+      "weakTag": "past_simple_basic_irregular_verbs",
+      "options": [
+        "He didn't go to the party.",
+        "He didn't gone to the party.",
+        "He didn't goes to the party."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He didn't went to the party."
+    }
+  ]
+}

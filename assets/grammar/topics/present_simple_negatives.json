@@ -1,0 +1,222 @@
+{
+  "id": "present_simple_negatives",
+  "category": "basics",
+  "titleEn": "Present Simple Negatives",
+  "titleAr": "النفي في المضارع البسيط",
+  "level": "A1-A2",
+  "explanationEn": "In English, we use 'do not' or 'does not' plus the base verb to make negatives. For example, 'I do not like apples.' This is different from Arabic, where negation does not use 'do'. Arabic speakers may say 'I not like apples'.",
+  "explanationAr": "في الإنجليزية، نستخدم 'do not' أو 'does not' مع الفعل الأساسي لنفي الجمل. على سبيل المثال، 'I do not like apples.' هذا يختلف عن العربية، حيث لا نستخدم 'do' في النفي. قد يقول المتحدثون بالعربية 'I not like apples'.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي لا تذهب.",
+      "arabicLiteral": "She not goes.",
+      "englishCorrect": "She does not go."
+    },
+    {
+      "arabicStructure": "أنا لا أحب الرز.",
+      "arabicLiteral": "I not like rice.",
+      "englishCorrect": "I do not like rice."
+    },
+    {
+      "arabicStructure": "هم لا يلعبون.",
+      "arabicLiteral": "They not play.",
+      "englishCorrect": "They do not play."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She not goes.",
+      "correct": "She does not go.",
+      "explanationEn": "In English, we need 'does' before the verb for negatives with 'she'.",
+      "explanationAr": "في الإنجليزية، نحتاج إلى 'does' قبل الفعل في النفي مع 'she'."
+    },
+    {
+      "wrong": "He does not works.",
+      "correct": "He does not work.",
+      "explanationEn": "The verb should not have 's' when using 'does not'.",
+      "explanationAr": "الفعل لا يجب أن يكون فيه 's' عند استخدام 'does not'."
+    },
+    {
+      "wrong": "They does not play.",
+      "correct": "They do not play.",
+      "explanationEn": "'They' needs 'do' not 'does' for negatives.",
+      "explanationAr": "'They' تحتاج إلى 'do' وليس 'does' في النفي."
+    },
+    {
+      "wrong": "I not like rice.",
+      "correct": "I do not like rice.",
+      "explanationEn": "We need 'do' before 'not' in English.",
+      "explanationAr": "نحتاج إلى 'do' قبل 'not' في الإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psn_q1",
+      "type": "multiple_choice",
+      "prompt": "She ___ like bananas.",
+      "promptAr": "هي ___ تحب الموز.",
+      "explanation": "'Does not' is correct for negatives with 'she'.",
+      "arabicNote": "نستخدم 'does not' مع 'she' في النفي.",
+      "weakTag": "present_simple_negatives_multiple_choice",
+      "options": [
+        "does not",
+        "not does",
+        "do not"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psn_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "The correct form is 'does not work'.",
+      "arabicNote": "الصحيح هو 'does not work' بدون 's'.",
+      "weakTag": "present_simple_negatives_choose_correct_sentence",
+      "options": [
+        "He does not works.",
+        "He does not work.",
+        "He not works."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psn_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ like apples.",
+      "promptAr": "أنا ___ أحب التفاح.",
+      "explanation": "'Do not' is used with 'I' for negatives.",
+      "arabicNote": "نستخدم 'do not' مع 'I' في النفي.",
+      "weakTag": "present_simple_negatives_fill_blank",
+      "options": [
+        "do not",
+        "does not",
+        "not do"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psn_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'They do not play' is correct.",
+      "arabicNote": "الصحيح هو 'They do not play'.",
+      "weakTag": "present_simple_negatives_fix_the_mistake",
+      "options": [
+        "They do not play.",
+        "They does not play.",
+        "They not play."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They does not play."
+    },
+    {
+      "id": "psn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'I do not like bananas.'",
+      "arabicNote": "الجملة الصحيحة هي 'I do not like bananas.'",
+      "weakTag": "present_simple_negatives_sentence_order",
+      "words": [
+        "not",
+        "I",
+        "like",
+        "do",
+        "bananas."
+      ],
+      "correctOrder": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "psn_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its Arabic meaning.",
+      "promptAr": "صل كل جملة بمعناها العربي.",
+      "explanation": "These sentences show how to use negatives in English.",
+      "arabicNote": "هذه الجمل توضح كيفية استخدام النفي في الإنجليزية.",
+      "weakTag": "present_simple_negatives_meaning_match",
+      "pairs": [
+        {
+          "left": "I do not like rice.",
+          "right": "أنا لا أحب الأرز."
+        },
+        {
+          "left": "She does not go.",
+          "right": "هي لا تذهب."
+        },
+        {
+          "left": "They do not play.",
+          "right": "هم لا يلعبون."
+        }
+      ]
+    },
+    {
+      "id": "psn_q7",
+      "type": "multiple_choice",
+      "prompt": "He ___ like pizza.",
+      "promptAr": "هو ___ يحب البيتزا.",
+      "explanation": "'Does not' is correct for 'he'.",
+      "arabicNote": "نستخدم 'does not' مع 'he' في النفي.",
+      "weakTag": "present_simple_negatives_multiple_choice",
+      "options": [
+        "do not",
+        "does not",
+        "not does"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psn_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'I do not like apples' is correct.",
+      "arabicNote": "الصحيح هو 'I do not like apples'.",
+      "weakTag": "present_simple_negatives_choose_correct_sentence",
+      "options": [
+        "I does not like apples.",
+        "I do not like apples.",
+        "I not like apples."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psn_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ play football.",
+      "promptAr": "هم ___ يلعبون كرة القدم.",
+      "explanation": "'Do not' is used with 'they'.",
+      "arabicNote": "نستخدم 'do not' مع 'they'.",
+      "weakTag": "present_simple_negatives_fill_blank",
+      "options": [
+        "do not",
+        "does not",
+        "not do"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psn_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'She does not go to school' is correct.",
+      "arabicNote": "الصحيح هو 'She does not go to school'.",
+      "weakTag": "present_simple_negatives_fix_the_mistake",
+      "options": [
+        "She does not go to school.",
+        "She does not goes to school.",
+        "She not go to school."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She not goes to school."
+    }
+  ]
+}

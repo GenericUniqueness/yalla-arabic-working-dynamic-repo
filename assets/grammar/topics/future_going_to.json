@@ -1,0 +1,225 @@
+{
+  "id": "future_going_to",
+  "category": "a2_core",
+  "titleEn": "Future with Going To",
+  "titleAr": "المستقبل باستخدام going to",
+  "level": "A2",
+  "explanationEn": "Use 'be going to' + base verb to talk about plans and evidence-based predictions. Put the correct auxiliary (am / are / is) before 'going to', then the base verb. This form shows intention or a prediction from visible evidence (e.g., clouds). Focus on subject + auxiliary + going to + verb.",
+  "explanationAr": "استخدم 'be going to' مع الفعل الأساسي للتعبير عن الخطط أو التوقعات المبنية على دليل. ضع الفعل المساعد (am/are/is) قبل 'going to' ثم الفعل الأساسي. يتعثر المتحدثون العرب عادة في حذف الأفعال المساعدة أو تغيير ترتيب الكلمات؛ لذلك تذكر: الفاعل ثم الفعل المساعد ثم 'going to' ثم الفعل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هي ستدرس الليلة.",
+      "arabicLiteral": "She will study tonight.",
+      "englishCorrect": "She is going to study tonight."
+    },
+    {
+      "arabicStructure": "انظر إلى الغيوم. ستمطر قريبًا.",
+      "arabicLiteral": "Look at the clouds. It will rain soon.",
+      "englishCorrect": "Look at the clouds. It is going to rain soon."
+    },
+    {
+      "arabicStructure": "سنشتري كعكة للحفلة غدًا.",
+      "arabicLiteral": "We will buy a cake for the party tomorrow.",
+      "englishCorrect": "We are going to buy a cake for the party tomorrow."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She going to study tonight.",
+      "correct": "She is going to study tonight.",
+      "explanationEn": "Learners often omit the auxiliary verb. English needs the correct auxiliary (is) before 'going to' with she. The missing helper makes the sentence ungrammatical while keeping the same time meaning.",
+      "explanationAr": "يميل المتعلمون لحذف الفعل المساعد. مع 'she' نحتاج 'is' قبل 'going to'. حذف 'is' يؤدي إلى جملة غير صحيحة مع بقاء فكرة المستقبل نفسها."
+    },
+    {
+      "wrong": "They going to play soccer tomorrow.",
+      "correct": "They are going to play soccer tomorrow.",
+      "explanationEn": "The plural subject 'they' requires 'are' as the auxiliary. Leaving out 'are' copies Arabic-like omission and produces a wrong English sentence even though the time word 'tomorrow' is present.",
+      "explanationAr": "مع الفاعل الجمع 'they' يجب استخدام 'are'. حذف 'are' يعكس نقل مباشر من العربية ويجعل الجملة غير صحيحة رغم وجود كلمة الزمن 'tomorrow'."
+    },
+    {
+      "wrong": "To the store I am going tomorrow.",
+      "correct": "I am going to the store tomorrow.",
+      "explanationEn": "Arabic word order can differ, and learners sometimes put object or place first. English needs subject + auxiliary + 'going to' + object. Reorder the parts to make a grammatical English sentence with the same meaning.",
+      "explanationAr": "قد يضع المتحدثون العرب المفعول أو المكان أولًا. في الإنجليزية نحتاج الفاعل ثم الفعل المساعد ثم 'going to' ثم المفعول. عدّل الترتيب لتصبح الجملة صحيحة وتحافظ على نفس المعنى."
+    },
+    {
+      "wrong": "We going to buy a cake for the party tomorrow.",
+      "correct": "We are going to buy a cake for the party tomorrow.",
+      "explanationEn": "The plural subject 'we' requires the auxiliary 'are' before 'going to'. Omitting 'are' makes the sentence ungrammatical.",
+      "explanationAr": "مع 'we' نحتاج 'are' قبل 'going to'. حذف 'are' يجعل الجملة غير صحيحة نحويًا."
+    }
+  ],
+  "questions": [
+    {
+      "id": "futu_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses be going to + base verb to show a plan for tonight?",
+      "promptAr": "أي جملة تستخدم 'be going to' مع الفعل الأساسي للتعبير عن خطة الليلة؟",
+      "explanation": "We need the auxiliary 'is' before 'going to' with 'she' and the base verb after. Only the first sentence uses the correct structure: subject + is + going to + base verb. Other choices drop or mis-form the auxiliary, so they are ungrammatical for this planned action tonight.",
+      "arabicNote": "الجملة الصحيحة تضع الفاعل ثم الفعل المساعد 'is' ثم 'going to' ثم الفعل. المتعلمون العرب قد يحذفون 'is' أو يخلطون بين أشكال الأفعال المساعدة؛ لا تفعل ذلك هنا.",
+      "weakTag": "future_going_to_form",
+      "options": [
+        "She is going to study tonight.",
+        "She going to study tonight.",
+        "She will going to study tonight.",
+        "She study tonight."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows a decided plan for tomorrow morning?",
+      "promptAr": "أي جملة تظهر خطة قررتها لغدًا صباحًا؟",
+      "explanation": "A decided plan uses 'am/are/is + going to + base verb'. The first sentence has the correct auxiliary 'am' with subject 'I'. The other choices are wrong because they either omit the auxiliary or use an impossible auxiliary combination for this structure.",
+      "arabicNote": "لخطة قرَّرتها، ضع 'am/are/is' قبل 'going to'. كثير من المتعلمين العرب يسحبون ترتيب الكلمات من العربية ويُغفلون الفعل المساعد؛ هنا يجب أن تقول 'I am going to...'.",
+      "weakTag": "future_going_to_word_order",
+      "options": [
+        "I am going to meet Sara tomorrow morning.",
+        "I going to meet Sara tomorrow morning.",
+        "I will going to meet Sara tomorrow morning."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ going to travel next week.",
+      "promptAr": "هم ___ سيذهبون في رحلة الأسبوع القادم. اختر الكلمة الصحيحة.",
+      "explanation": "With the plural subject 'they' we must use the plural auxiliary 'are' before 'going to'. The correct full sentence is 'They are going to travel next week.' Other auxiliaries do not match the subject and make the sentence ungrammatical for this planned action.",
+      "arabicNote": "مع 'they' نستخدم 'are' قبل 'going to'. بعض المتعلمين يترجمون مباشرة من العربية ويختارون شكل فعل غير مطابق للفاعل؛ تأكد من مطابقة الفاعل مع الفعل المساعد.",
+      "weakTag": "future_going_to_word_order",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this planned action next Monday.",
+      "promptAr": "اختر أفضل تصحيح لهذه الخطة ليوم الاثنين القادم.",
+      "explanation": "The sentence lacks the auxiliary 'is' needed with 'he'. The correct structure is 'He is going to start his new job next Monday.' Other options use the wrong auxiliary forms and are ungrammatical for expressing this planned future event.",
+      "arabicNote": "الجملة الأصلية تفتقد الفعل المساعد 'is' مع he. في العربية قد لا يظهر هذا الفارق، لذا تذكر دائماً: الفاعل + is/are/am قبل 'going to'.",
+      "weakTag": "future_going_to_arabic_transfer",
+      "options": [
+        "He is going to start his new job next Monday.",
+        "He are going to start his new job next Monday.",
+        "He will going to start his new job next Monday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He going to start his new job next Monday."
+    },
+    {
+      "id": "futu_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a plan for tonight.",
+      "promptAr": "رتّب الكلمات لتكوين جملة تعبر عن خطة الليلة.",
+      "explanation": "The correct English order for a simple plan is subject + auxiliary + 'going to' + base verb + time. Reordering the words makes 'I am going to study tonight.' which follows the required pattern with the auxiliary 'am' before 'going to'.",
+      "arabicNote": "الترتيب الصحيح: الفاعل ثم الفعل المساعد ثم 'going to' ثم الفعل ثم ظرف الزمن. هذه القاعدة تمنع نقل ترتيب الجملة العربية حرفياً.",
+      "weakTag": "future_going_to_word_order",
+      "words": [
+        "going",
+        "to",
+        "I",
+        "study",
+        "am",
+        "tonight."
+      ],
+      "correctOrder": [
+        2,
+        4,
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "futu_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to the Arabic meaning.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي الواضح.",
+      "explanation": "Each English sentence uses 'be going to' + base verb for a plan or a prediction. Match each to the Arabic sentence that keeps the same time reference and meaning. The visible evidence or time word (tonight, soon, tomorrow) helps choose the correct translation.",
+      "arabicNote": "كل جملة تستخدم 'be going to' للتخطيط أو للتوقع. لاحظ كلمات الزمن أو الأدلة (الغيوم، الليلة، غدًا) لتطابق المعنى العربي الصحيح.",
+      "weakTag": "future_going_to_meaning",
+      "pairs": [
+        {
+          "left": "I am going to study tonight.",
+          "right": "سأدرس الليلة."
+        },
+        {
+          "left": "Look at the clouds. It is going to rain soon.",
+          "right": "انظر إلى الغيوم. ستمطر قريبًا."
+        },
+        {
+          "left": "We are going to buy a cake for the party tomorrow.",
+          "right": "سنشتري كعكة للحفلة غدًا."
+        }
+      ]
+    },
+    {
+      "id": "futu_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence shows a personal plan already decided for next weekend?",
+      "promptAr": "أي جملة تُظهر خطة شخصية قررتها لعطلة نهاية الأسبوع القادمة؟",
+      "explanation": "A decided personal plan uses 'am/are/is + going to + base verb'. The first option correctly shows a planned intention for next weekend. The second is present simple and the third is an impossible combination; both are wrong for expressing this decided future plan.",
+      "arabicNote": "للتعبير عن خطة شخصية قررتها، استخدم 'am/are/is' مع 'going to'. شكل المضارع البسيط أو تركيب فعل مساعد خاطئ لا يناسب هذا المعنى.",
+      "weakTag": "future_going_to_meaning",
+      "options": [
+        "I am going to visit my grandmother next weekend.",
+        "I visit my grandmother next weekend.",
+        "I will going to visit my grandmother next weekend."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct for a group plan next Friday evening?",
+      "promptAr": "أي جملة صحيحة لخطة جماعية يوم الجمعة القادم مساءً؟",
+      "explanation": "For a group plan with 'we' you must use 'are' as the auxiliary before 'going to'. The first sentence follows subject + are + going to + base verb + time. The other options either omit the auxiliary or combine auxiliaries incorrectly.",
+      "arabicNote": "مع 'we' استخدم 'are' قبل 'going to'. تجنّب حذف الفعل المساعد أو تركيب غير صحيح ناتج عن الترجمة الحرفية من العربية.",
+      "weakTag": "future_going_to_form",
+      "options": [
+        "We are going to watch a movie next Friday evening.",
+        "We going to watch a movie next Friday evening.",
+        "We will going to watch a movie next Friday evening."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ going to help us tomorrow morning.",
+      "promptAr": "هي ___ ستساعدنا صباح الغد. اختر الكلمة الصحيحة.",
+      "explanation": "With the singular subject 'she' you must use 'is' as the auxiliary. The full correct sentence is 'She is going to help us tomorrow morning.' Other auxiliaries do not match the subject and make the sentence grammatically incorrect for this planned action.",
+      "arabicNote": "مع 'she' نستخدم 'is' قبل 'going to'. تجنّب مطابقة تركيب العربية حرفياً حيث لا يظهر هذا الفاصلة المساعدة بوضوح.",
+      "weakTag": "future_going_to_word_order",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "futu_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this planned game this evening.",
+      "promptAr": "اختر أفضل تصحيح لمباراة مخطط لها هذا المساء.",
+      "explanation": "The sentence uses the wrong auxiliary 'is' with plural subject 'they'. Replace it with 'are' to get 'They are going to play basketball this evening.' Other choices either drop the helper or form an impossible combination, so they are incorrect.",
+      "arabicNote": "خطأ استخدام 'is' مع 'they'. في العربية قد لا يكون الفرق واضحًا، لكن في الإنجليزية يجب تطابق الفاعل والفعل المساعد (they → are).",
+      "weakTag": "future_going_to_arabic_transfer",
+      "options": [
+        "They are going to play basketball this evening.",
+        "They going to play basketball this evening.",
+        "They will going to play basketball this evening."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They is going to play basketball this evening."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "although_however_therefore",
+  "category": "b1_core",
+  "titleEn": "Although, However, Therefore",
+  "titleAr": "although و however و therefore",
+  "level": "B1",
+  "explanationEn": "Learn to use connectors for contrast (although, however) and result (therefore). Put although before a subordinate clause with a comma. Use however between main clauses with a semicolon or period and a following comma. Use therefore to show a logical result with proper separators. Avoid duplicate connectors.",
+  "explanationAr": "هذا الدرس يعلّم استخدام أدوات الربط للتعارض والنتيجة: ضع 'Although' قبل العبارة التابعة مع فاصلة، و'however' بين جملتين رئيسيتين مع فاصلة منقوطة أو نقطة ثم فاصلة، و'therefore' لنتيجة منطقية مع فواصل مناسبة. المتحدثون العرب يحتاجون تدريبًا على حدود العبارات وعلامات الترقيم لأن ترتيب العبارات في العربية أكثر مرونة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "رغم أن الوقت متأخر أكملنا العمل.",
+      "arabicLiteral": "Despite that the time late we finished the work.",
+      "englishCorrect": "Although it was late, we finished our work."
+    },
+    {
+      "arabicStructure": "كان الجو بارداً لذلك بقينا داخل المنزل.",
+      "arabicLiteral": "It was cold therefore we stayed inside.",
+      "englishCorrect": "It was cold; therefore, we stayed inside."
+    },
+    {
+      "arabicStructure": "درس كثيراً لكنه رسب.",
+      "arabicLiteral": "He studied a lot but he failed.",
+      "englishCorrect": "He studied hard; however, he failed the exam."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Although it was late but we finished our work.",
+      "correct": "Although it was late, we finished our work.",
+      "explanationEn": "Do not use both 'although' and 'but' for the same contrast in one sentence.",
+      "explanationAr": "لا تجمع بين although وbut للتعبير عن نفس التضاد. استخدم although مع فاصلة ثم الجملة الأساسية."
+    },
+    {
+      "wrong": "It was cold therefore stayed inside.",
+      "correct": "It was cold; therefore, we stayed inside.",
+      "explanationEn": "A result connector between two clauses needs a full second clause with subject and correct punctuation.",
+      "explanationAr": "عند استخدام therefore بين جملتين نحتاج فاعلًا في الجملة الثانية وترقيمًا واضحًا: فاصلة منقوطة قبلها وفاصلة بعدها."
+    },
+    {
+      "wrong": "We were tired. Although we finished our homework.",
+      "correct": "Although we were tired, we finished our homework.",
+      "explanationEn": "Do not split a subordinate clause into its own sentence; attach it to the main clause with a comma.",
+      "explanationAr": "خطأ ناتج عن الترجمة الحرفية: فصل العبارة التابعة في جملة منفصلة. اركب العبارة التابعة مع الجملة الأساسية أو ضع فاصلة."
+    },
+    {
+      "wrong": "Although he was tired but he finished his tasks.",
+      "correct": "Although he was tired, he finished his tasks.",
+      "explanationEn": "Do not use both 'although' and 'but' together; they duplicate contrast and make the sentence incorrect.",
+      "explanationAr": "خطأ شائع عند المتحدثين العرب: استخدام أداتين للربط معًا. لا تضع 'but' بعد 'Although'؛ استخدم فاصلة فقط."
+    }
+  ],
+  "questions": [
+    {
+      "id": "aht_q1",
+      "type": "multiple_choice",
+      "prompt": "_____ it was late, we finished our work.",
+      "promptAr": "اختر أداة الربط الصحيحة التي تبدأ عبارة تابعة ثم تفصلها بفاصلة.",
+      "explanation": "Use although to start the subordinate clause and separate it from the main clause with a comma.",
+      "arabicNote": "اختر 'Although' ثم ضع فاصلة. المتحدثون العرب قد يترجمون ترتيب الجمل مباشرة أو ينسون الفاصلة بعد العبارة التابعة.",
+      "weakTag": "although_however_therefore_form",
+      "options": [
+        "Although",
+        "Despite",
+        "However",
+        "Therefore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses however correctly with punctuation and word order?",
+      "promptAr": "أي جملة تستخدم 'however' بشكل صحيح مع علامات الترقيم وترتيب الكلمات؟",
+      "explanation": "Place a semicolon before however and a comma after when joining two main clauses.",
+      "arabicNote": "ضع فاصلة منقوطة قبل 'however' وفاصلة بعدها عند ربط جملتين رئيسيتين. لا تضع 'however' في منتصف العبارة التابعة دون فاصل صحيح.",
+      "weakTag": "aht_however_punctuation",
+      "options": [
+        "It was late; however, we finished our work.",
+        "However, it was late we finished our work.",
+        "It was late, we finished however our work."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "It rained all day; _____, we still played outside.",
+      "promptAr": "املأ الفراغ بأداة تناسب جملة تعبر عن التعارض مع الجملة السابقة.",
+      "explanation": "Use however to show contrast: despite the rain, the action still happened.",
+      "arabicNote": "عند وجود حدث متعارض مع التوقع، استخدم 'however' بعد فاصلة منقوطة، لأنها تُظهر التعارض بوضوح. المتحدثون العرب قد يخلطون بالمعاني.",
+      "weakTag": "although_however_therefore_word_order",
+      "options": [
+        "however",
+        "because",
+        "despite",
+        "therefore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي فصلت العبارة التابعة كجملة منفصلة.",
+      "explanation": "Attach the subordinate clause to the main clause with a comma rather than making it a separate sentence.",
+      "arabicNote": "الجملة الخاطئة فصلت العبارة التابعة. في الإنجليزية نربط العبارة التابعة بفاصلة أو نعيد ترتيب الجملة. المتحدثون العرب قد يفصلون العبارات بعفوية.",
+      "weakTag": "aht_fix_subordinate_comma",
+      "options": [
+        "Although we were tired, we finished our homework.",
+        "Although we tired, we finished our homework.",
+        "Although we were tired, but we finished our homework."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We were tired. Although we finished our homework."
+    },
+    {
+      "id": "aht_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a correct sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تحتوي على therefore مع الفاصلة المنقوطة المناسبة.",
+      "explanation": "Main clause, semicolon, therefore with comma, then the result clause in correct order.",
+      "arabicNote": "رتِّب الكلمات بحيث تأتي الجملة الأولى ثم فاصلة منقوطة، ثم 'therefore,' ثم نتيجة الجملة. المتحدثون العرب قد يضعون 'therefore' في بداية غير مناسبة.",
+      "weakTag": "although_however_therefore_word_order",
+      "words": [
+        "It",
+        "was",
+        "cold;",
+        "therefore,",
+        "we",
+        "stayed",
+        "inside."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "aht_q6",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning.",
+      "promptAr": "وصل كل أداة ربط بمعناها العربي المناسب.",
+      "explanation": "Match connectors to their primary meanings: contrast (although/however) and result (therefore).",
+      "arabicNote": "تعرّف المعنى الدقيق لكل أداة حتى لا تخلط بين التعارض والنتيجة. هذا يقلل الأخطاء عند ترجمة جمل عربية مباشرة.",
+      "weakTag": "although_however_therefore_meaning",
+      "pairs": [
+        {
+          "left": "although",
+          "right": "بالرغم من أن"
+        },
+        {
+          "left": "however",
+          "right": "مع ذلك"
+        },
+        {
+          "left": "therefore",
+          "right": "لذلك"
+        }
+      ]
+    },
+    {
+      "id": "aht_q7",
+      "type": "multiple_choice",
+      "prompt": "He studied hard; _____, he failed the exam.",
+      "promptAr": "اختر أداة الربط الصحيحة لتظهر التعارض بين الاجتهاد والنتيجة.",
+      "explanation": "Use however to show contrast: despite the hard study, the result was failure.",
+      "arabicNote": "اختر 'however' لأنها تعبر عن تعارض بين الجهد والنتيجة. كلمات مثل 'meanwhile' أو 'despite' لا تصلح هنا من حيث المعنى والتركيب.",
+      "weakTag": "aht_contrast_choice",
+      "options": [
+        "however",
+        "meanwhile",
+        "because",
+        "despite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "_____ she was late, she apologized and joined the class.",
+      "promptAr": "املأ الفراغ بأداة تبدأ عبارة تابعة وتُفصل بفاصلة قبل الجملة الأساسية.",
+      "explanation": "Although starts a subordinate clause at the beginning; follow it with a comma before the main clause.",
+      "arabicNote": "ضع 'Although' في البداية ثم فاصلة. تجنّب استخدام 'however' في هذا الموقع لأن تركيبها يختلف وتتطلب فواصل أخرى.",
+      "weakTag": "although_however_therefore_arabic_transfer",
+      "options": [
+        "Although",
+        "However",
+        "Therefore",
+        "So"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows correct use of therefore with punctuation and order?",
+      "promptAr": "أي جملة تستخدم 'therefore' بشكل صحيح مع علامات الترقيم وترتيب الجمل؟",
+      "explanation": "Use a semicolon or period before therefore and a comma after when joining two main clauses.",
+      "arabicNote": "ضع فاصلة منقوطة أو نقطة قبل 'therefore' وفاصلة بعده عند ربط جملتين رئيسيتين. ترتيب الكلمات قبل وبعد therefore مهم لتجنب الخلط.",
+      "weakTag": "aht_therefore_punctuation",
+      "options": [
+        "It was late; therefore, we left early.",
+        "Therefore, it was late we left early.",
+        "It was late; we left early therefore."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aht_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل: لا تستخدم أداتين للتعارض معًا أو ضع فاصلة بشكل خاطئ.",
+      "explanation": "Remove the extra connector and use a comma after the although-clause to show contrast.",
+      "arabicNote": "لا تضع أداتين متضادتين أو فاصلة في موضع خاطئ. المتحدثون العرب قد يضيفون 'but' بعد 'Although' أو يضعون فاصلة في مكان غير مناسب.",
+      "weakTag": "aht_no_duplicate_connectors",
+      "options": [
+        "Although he was tired, he finished his tasks.",
+        "Although he was tired, but he finished his tasks.",
+        "He was tired, although he finished his tasks."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Although he was tired but he finished his tasks."
+    }
+  ]
+}

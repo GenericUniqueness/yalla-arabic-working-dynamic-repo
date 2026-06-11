@@ -1,0 +1,235 @@
+{
+  "id": "could_basic",
+  "category": "b1_core",
+  "titleEn": "Could Basics",
+  "titleAr": "أساسيات could",
+  "level": "B1",
+  "explanationEn": "Could has three main uses: past ability (I could swim), polite requests (Could you help me?), and possibility (It could rain). After could use the base verb (no to). Arabic speakers often add to, change word order, or mix can and could in the wrong time or register.",
+  "explanationAr": "تُستخدم could لثلاثة معانٍ رئيسية: القدرة في الماضي (كنت أستطيع)، والطلبات المهذبة (هل يمكنك... بصيغة أكثر رسمية)، والإمكانية أو الاحتمال. في الإنجليزية بعد could نضع الفعل في صورته الأساسية بدون to. يميل متحدثو العربية إلى الترجمة الحرفية فَيُضيفون 'to' أو يغيرون ترتيب الكلمات أو يخلطون زمن أو مستوى الرسمية بين can وcould. انتبه دائمًا لسياق الزمن وترتيب الكلمات.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "كنت أستطيع السباحة.",
+      "arabicLiteral": "I was able swim",
+      "englishCorrect": "I could swim when I was a child."
+    },
+    {
+      "arabicStructure": "هل يمكنك مساعدتي؟ (بأدب)",
+      "arabicLiteral": "Can/Could you help me? (polite form often translated as Could you)",
+      "englishCorrect": "Could you help me with my homework, please?"
+    },
+    {
+      "arabicStructure": "قد تتأخر القطار الليلة.",
+      "arabicLiteral": "The train may be late tonight",
+      "englishCorrect": "The train could be late tonight because of signal problems."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I could to swim when I was little.",
+      "correct": "I could swim when I was little.",
+      "explanationEn": "Do not add 'to' after could. Use could + base verb to show past ability.",
+      "explanationAr": "خطأ شائع: إضافة 'to' بعد could بسبب الترجمة الحرفية من العربية. في الإنجليزية نقول could + الفعل في المصدر بدون to."
+    },
+    {
+      "wrong": "She can dance when she was young.",
+      "correct": "She could dance when she was young.",
+      "explanationEn": "Use could to match a past time phrase; can is present and does not fit the past context.",
+      "explanationAr": "خطأ زمني: استخدام can (حاضر) مع عبارة زمنية في الماضي. للتعبير عن قدرة سابقة نستخدم could."
+    },
+    {
+      "wrong": "Could you helping me now?",
+      "correct": "Could you help me now?",
+      "explanationEn": "After could use the base verb (help), not the -ing form in polite requests.",
+      "explanationAr": "خطأ في شكل الفعل بعد could: يجب استخدام الفعل في صورته الأساسية وليس الصيغة المستمرة (-ing) في الطلب المهذب. حافظ على نفس إشارة الزمن (now)."
+    },
+    {
+      "wrong": "It must rain tonight, so bring a coat.",
+      "correct": "It could rain tonight, so bring a coat.",
+      "explanationEn": "Must shows certainty; could shows a possibility. The context asks for a chance, not certainty.",
+      "explanationAr": "الخطأ هنا استخدام must الذي يعني تأكيدًا. أما could فيعبر عن احتمال فقط. اختر could عندما نتكلم عن احتمال غير مؤكد."
+    }
+  ],
+  "questions": [
+    {
+      "id": "coul_q1",
+      "type": "multiple_choice",
+      "prompt": "Past ability: Choose the correct sentence describing what someone could do as a child.",
+      "promptAr": "القدرة في الماضي: اختر الجملة الصحيحة التي تصف ما كان يستطيع فعله كطفل.",
+      "explanation": "Use could + base verb for past ability; do not add 'to' or change word order.",
+      "arabicNote": "نستخدم could مع الفعل في المصدر للتعبير عن قدرة في الماضي. لا تضف 'to' ولا تخلط ترتيب الكلمات كما قد يحدث بالترجمة الحرفية من العربية.",
+      "weakTag": "could_basic_past_ability",
+      "options": [
+        "I could climb trees when I was a child.",
+        "I can climb trees when I was a child.",
+        "I could to climb trees when I was a child.",
+        "I climb could trees when I was a child."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "coul_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Polite request (formal at school). Fill the blank: ___ you help me with this form, please?",
+      "promptAr": "طلب مهذب (رسمي في المدرسة). املأ الفراغ: ___ يمكنك مساعدتي في هذا النموذج، من فضلك؟",
+      "explanation": "Use Could for a formal polite request; after could use the base verb without to.",
+      "arabicNote": "في طلب رسمي نبدأ Could ثم الفعل في المصدر بدون 'to'. المتحدثون العرب قد يضيفون 'to' أو يضعون ترتيبًا خاطئًا للكلمات فيطلبون بصيغة غير إنجليزية.",
+      "weakTag": "could_basic_polite_request",
+      "options": [
+        "Could",
+        "Can to",
+        "Could to",
+        "Pass you"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "coul_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Polite request: Which sentence correctly and politely asks a classmate to pass a pencil now?",
+      "promptAr": "طلب مهذب: أي جملة تطلب بأدب من زميل أن يمرر قلمًا الآن؟",
+      "explanation": "Polite requests use 'Could you' then the base verb; keep subject before the verb.",
+      "arabicNote": "ترتيب الكلمات مهم: 'Could you' ثم الفعل. لا تبدّل الفاعل وتنقله إلى نهاية الجملة كما قد يحدث بالترجمة الحرفية من العربية.",
+      "weakTag": "could_basic_word_order",
+      "options": [
+        "Could you pass me your pencil, please?",
+        "Could pass me your pencil you, please?",
+        "Could to pass me your pencil, please?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "coul_q4",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its Arabic meaning (past ability, polite request, possibility).",
+      "promptAr": "وصل كل جملة بمعناها العربي (قدرة ماضية، طلب مهذب، إمكانية).",
+      "explanation": "Each example shows one clear use of could: ability, request, or possibility.",
+      "arabicNote": "اربط كل مثال بنوع could المناسب. لاحظ أن could يتبع بفعل في المصدر بدون 'to' وأن ترتيب الكلمات يختلف عن بعض تراكيب العربية.",
+      "weakTag": "could_basic_meaning",
+      "pairs": [
+        {
+          "left": "I could swim when I was five.",
+          "right": "كنت أستطيع السباحة عندما كنت في الخامسة."
+        },
+        {
+          "left": "Could you help me with my homework?",
+          "right": "طلب مهذب: هل يمكنك مساعدتي في واجبي؟"
+        },
+        {
+          "left": "It could rain this evening.",
+          "right": "إمكانية: قد تمطر هذا المساء."
+        }
+      ]
+    },
+    {
+      "id": "coul_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a sentence about past ability.",
+      "promptAr": "رتّب الكلمات لتكوين جملة عن قدرة في الماضي.",
+      "explanation": "Start with the time phrase, then subject, auxiliary could, and the base verb.",
+      "arabicNote": "في الإنجليزية نضع عبارة زمنية ثم الفاعل والمساعد (could) ثم الفعل في المصدر. قد يختلف هذا الترتيب عن بعض الجمل في العربية.",
+      "weakTag": "could_basic_word_order",
+      "words": [
+        "When",
+        "I",
+        "was",
+        "a",
+        "child,",
+        "I",
+        "could",
+        "run",
+        "fast."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "coul_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about past ability.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة عن قدرة في الماضي.",
+      "explanation": "Change can to could and remove 'to' to match the past time phrase.",
+      "arabicNote": "الخطأ مكوَّن من زمن وصيغة. استخدم could للفعل الماضي وبدون 'to'. المتحدثون العرب قد يضيفون 'to' أو يبقون can بدل could.",
+      "weakTag": "could_basic_form",
+      "options": [
+        "He could play the piano when he was young.",
+        "He can to play the piano when he was young.",
+        "He playing the piano when he was young."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He can to play the piano when he was young."
+    },
+    {
+      "id": "coul_q7",
+      "type": "multiple_choice",
+      "prompt": "Possibility about travel: Choose the sentence that correctly shows a likely possibility for tomorrow.",
+      "promptAr": "إمكانية تتعلق بالسفر: اختر الجملة التي تعبر عن احتمال قد يحدث غدًا.",
+      "explanation": "Use could + base verb to describe an uncertain future possibility; do not add 'to' or wrong auxiliaries.",
+      "arabicNote": "could تعبّر عن احتمال غير مؤكد. لا تضع 'to' بعد could ولا تستخدم تراكيب خاطئة مثل 'is able' بدون تكامل نحوي كما قد يحدث بالترجمة.",
+      "weakTag": "could_basic_possibility",
+      "options": [
+        "It could rain tomorrow, so take a light jacket.",
+        "It can to rain tomorrow, so take a light jacket.",
+        "It is able rain tomorrow, so take a light jacket.",
+        "It could to rain tomorrow, so take a light jacket."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "coul_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Past ability in study context: When I was at university, I ___ memorize formulas quickly.",
+      "promptAr": "قدرة ماضية في سياق الدراسة: عندما كنت في الجامعة، كنت ___ حفظ الصيغ بسرعة.",
+      "explanation": "Choose could to describe a past ability; use the base verb without to.",
+      "arabicNote": "للتعبير عن قدرة سابقة في الدراسة نستخدم could مع الفعل في المصدر. انتبه لعدم خلط can وcould أو إضافة 'to' بعد could.",
+      "weakTag": "could_basic_arabic_transfer",
+      "options": [
+        "could",
+        "can",
+        "could to",
+        "can to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "coul_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Fix the polite request sentence that currently has a common Arabic-speaker error.",
+      "promptAr": "صحح جملة طلب مهذب التي تحتوي على خطأ شائع لدى متحدثي العربية.",
+      "explanation": "Remove the extra 'to' and keep 'Could you' followed immediately by the base verb.",
+      "arabicNote": "الخطأ هنا إضافة 'to' بعد could. الصيغة الصحيحة: 'Could you' ثم الفعل في صورته الأساسية. راجع ترتيب الكلمات أيضاً.",
+      "weakTag": "could_basic_form",
+      "options": [
+        "Could you pass the salt?",
+        "Could you to pass the salt?",
+        "Could to pass the salt you?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Could you to pass the salt?"
+    },
+    {
+      "id": "coul_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Possibility about travel delay: Which sentence correctly states there is a chance the train will be late tonight?",
+      "promptAr": "احتمال لتأخر السفر: أي جملة تقول بشكل صحيح إن هناك فرصة أن يتأخر القطار الليلة؟",
+      "explanation": "Use could + base verb to state a chance of delay; avoid adding 'to' or wrong word order.",
+      "arabicNote": "نستخدم could للتعبير عن احتمال تأخّر القطار. انتبه لعدم إضافة 'to' بعد could ولترتيب الكلمات الصحيح لأن الترجمة الحرفية قد تُغيّر البناء.",
+      "weakTag": "could_basic_possibility",
+      "options": [
+        "The train could be late tonight because of signal problems.",
+        "The train could to be late tonight because of signal problems.",
+        "The train can to be late tonight because of signal problems.",
+        "It is able the train be late tonight because of signal problems."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

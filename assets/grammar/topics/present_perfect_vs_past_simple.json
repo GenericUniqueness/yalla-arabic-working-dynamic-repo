@@ -1,0 +1,228 @@
+{
+  "id": "present_perfect_vs_past_simple",
+  "category": "b1_core",
+  "titleEn": "Present Perfect vs Past Simple",
+  "titleAr": "المضارع التام مقابل الماضي البسيط",
+  "level": "B1",
+  "explanationEn": "Use the present perfect for life experience or when a past action has a present result and no finished time is stated (have + past participle). Use past simple when you state a specific finished time (yesterday, last week). Arabic speakers often drop the English helper verb or use the wrong participle form.",
+  "explanationAr": "نستخدم المضارع التام (have + التصريف الثالث) للتجارب الحياتية أو عندما يكون للماضي أثرٌ حاضر دون ذكر وقتٍ منتهي. نستخدم الماضي البسيط عند ذكر زمن محدد منتهي مثل \"yesterday\". يجب على المتحدثين بالعربية الانتباه إلى أدوات المساعدة وتصريف الفعل لأن العربية لا تستخدم نفس الأدوات دائماً.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبتُ إلى المدرسة بالأمس.",
+      "arabicLiteral": "I went to school yesterday.",
+      "englishCorrect": "I went to school yesterday."
+    },
+    {
+      "arabicStructure": "لم أزر لندن أبداً.",
+      "arabicLiteral": "I have never visited London.",
+      "englishCorrect": "I have never visited London."
+    },
+    {
+      "arabicStructure": "أنهيت واجبي للتو.",
+      "arabicLiteral": "I have finished my homework.",
+      "englishCorrect": "I have finished my homework."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have went to the store yesterday.",
+      "correct": "I went to the store yesterday.",
+      "explanationEn": "Do not use present perfect with a finished time like 'yesterday'. Use past simple 'went' when you state a specific past time.",
+      "explanationAr": "خطأ شائع: استخدام المضارع التام مع ظرف زمان منتهي مثل 'yesterday'. عند ذكر وقت محدد نستخدم الماضي البسيط."
+    },
+    {
+      "wrong": "She visited London.",
+      "correct": "She has visited London.",
+      "explanationEn": "If you mean life experience with no finished time, the present perfect is required. Without a time marker, use 'has visited' for experience.",
+      "explanationAr": "عند الحديث عن تجربة حياة بدون ذكر وقت محدد نستخدم المضارع التام (has + التصريف الثالث). الجملة 'She visited London.' تحتاج إلى زمن ماضٍ محدد لتكون صحيحة كجملة ماضية."
+    },
+    {
+      "wrong": "I have finished my homework yesterday.",
+      "correct": "I finished my homework yesterday.",
+      "explanationEn": "You cannot combine present perfect with an explicit finished time. 'Yesterday' forces the past simple to show the action is completed.",
+      "explanationAr": "لا يمكن استعمال المضارع التام مع ظرف زمان محدد. وجود 'yesterday' يجبرنا على استخدام الماضي البسيط لبيان أن الحدث انتهى."
+    },
+    {
+      "wrong": "She has ate breakfast this morning.",
+      "correct": "She has eaten breakfast this morning.",
+      "explanationEn": "Present perfect requires the past participle 'eaten', not the simple past 'ate'. Use have + past participle in present perfect.",
+      "explanationAr": "المضارع التام يتطلب التصريف الثالث للفعل (past participle). الخطأ هنا هو استعمال 'ate' بدلاً من 'eaten'. المتحدثون بالعربية قد يترجمون مباشرة دون تصريف مناسب."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ppps_q1",
+      "type": "multiple_choice",
+      "prompt": "Two days ago, I ____ my homework.",
+      "promptAr": "قبل يومين، أي شكل الفعل نستخدم عند ذكر وقت منتهي؟",
+      "explanation": "A specific finished time requires the past simple 'finished'.",
+      "arabicNote": "ذكر ظرف زمني محدد مثل 'قبل يومين' يعني أن الحدث منتهي الآن، لذلك نستخدم الماضي البسيط. انتبه لأن العربية قد لا تستخدم أداة مساعدة بهذا الشكل.",
+      "weakTag": "ppps_past_simple_form",
+      "options": [
+        "finished",
+        "have finished",
+        "have been finishing",
+        "finish"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows life experience without a finished time?",
+      "promptAr": "أي جملة تعبّر عن تجربة حياة بدون ذكر وقت محدد؟",
+      "explanation": "Experience without time uses present perfect 'has never visited'.",
+      "arabicNote": "كلمة 'never' هنا عن تجربة حياة بدون زمن محدد. في الإنجليزية نحتاج have + past participle. العربية قد تترجم بالتقارير الزمنية دون الأدوات المساعدة.",
+      "weakTag": "ppps_experience_meaning",
+      "options": [
+        "She has never visited London.",
+        "She never visited London yesterday.",
+        "She visited London last year."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "He ____ his keys, so he can't get in.",
+      "promptAr": "اختر الشكل الصحيح للفعل لأن هناك أثرًا حاضرًا الآن.",
+      "explanation": "Present perfect shows a past action with a present result: 'has lost'.",
+      "arabicNote": "وجود نتيجة حالية (لا يستطيع الدخول الآن) يجعل المضارع التام ضرورياً. المتحدثون بالعربية قد يترجمون الماضي دون كلمة المساعدة.",
+      "weakTag": "ppps_result_form",
+      "options": [
+        "has lost",
+        "had lost",
+        "is lost",
+        "was losing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي تظهر غياب أو خطأ في أداة المساعدة.",
+      "explanation": "Use 'has lost' (have + past participle) for a present result; the auxiliary and participle must be correct.",
+      "arabicNote": "الخطأ في الجملة هو 'have' مع he بدلاً من 'has' أو خطأ في التصريف. الإنجليزية تحتاج 'has' مع الضمير الثالث و'past participle'.",
+      "weakTag": "ppps_auxiliary_errors",
+      "options": [
+        "He has lost his phone; he cannot call.",
+        "He have lost his phone; he cannot call.",
+        "He has lose his phone; he cannot call."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He have lost his phone; he cannot call."
+    },
+    {
+      "id": "ppps_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to show life experience.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تعبّر عن تجربة حياة.",
+      "explanation": "Order: subject + have + past participle + object + adverb.",
+      "arabicNote": "الترتيب الإنجليزي عادة: الفاعل ثم have ثم التصريف الثالث ثم المفعول ثم الظرف. في العربية قد يتغير الترتيب، فانتبه لأداة have هنا.",
+      "weakTag": "ppps_word_order",
+      "words": [
+        "visited",
+        "museum",
+        "before",
+        "She",
+        "the",
+        "has"
+      ],
+      "correctOrder": [
+        3,
+        5,
+        0,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ppps_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning.",
+      "promptAr": "صل كل جملة إنجليزية بمعناها العربي المناسب.",
+      "explanation": "Present perfect = experience or recent result; past simple = finished time.",
+      "arabicNote": "الجمل الأولى والثالثة تظهر استخدام المضارع التام للتجربة أو النتيجة الحالية، والثانية استخدمت الماضي لأن فيها ظرف زماني محدد.",
+      "weakTag": "ppps_meaning_match",
+      "pairs": [
+        {
+          "left": "I have never eaten sushi.",
+          "right": "لم أتناول السوشي أبداً."
+        },
+        {
+          "left": "I ate sushi last week.",
+          "right": "تناولت السوشي الأسبوع الماضي."
+        },
+        {
+          "left": "He has just arrived.",
+          "right": "لقد وصل للتو."
+        }
+      ]
+    },
+    {
+      "id": "ppps_q7",
+      "type": "multiple_choice",
+      "prompt": "Have you ever ____ to Cairo?",
+      "promptAr": "هل استخدمت هذه الصيغة للتحدث عن تجربة حياة؟ اختر الصحيح.",
+      "explanation": "'Ever' with experience needs present perfect: 'Have you ever been'.",
+      "arabicNote": "'ever' تشير إلى تجربة حياة بدون زمن محدد لذلك نستخدم have + past participle. المتحدثون بالعربية قد يترجمون بالماضي الخطأ.",
+      "weakTag": "ppps_experience_question",
+      "options": [
+        "been",
+        "went",
+        "go",
+        "goes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "She ____ to the hospital yesterday after the accident.",
+      "promptAr": "اختر الشكل الصحيح لأن الجملة تحدد وقتًا منتهيًا (yesterday).",
+      "explanation": "A finished time 'yesterday' requires past simple 'went'.",
+      "arabicNote": "وجود ظرف زماني منتهي مثل 'yesterday' يجبرنا على الماضي البسيط. انتبه لأن العربية قد لا تظهر نفس الاختلاف بصيغة الفعل.",
+      "weakTag": "ppps_past_time",
+      "options": [
+        "went",
+        "has gone",
+        "had gone",
+        "goes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses present perfect to show a recent result?",
+      "promptAr": "أي جملة تستخدم المضارع التام لإظهار نتيجة حديثة؟",
+      "explanation": "'Has already finished' shows a present result without a finished time phrase.",
+      "arabicNote": "الجملة الأولى توضح أثرًا حاليًا دون ظرف زماني محدد لذلك نستخدم المضارع التام. المتحدثون بالعربية قد يضعون الماضي معًا وعدم استخدام have.",
+      "weakTag": "ppps_result_vs_time",
+      "options": [
+        "He has already finished his breakfast.",
+        "He already finished his breakfast an hour ago.",
+        "He finished already his breakfast."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppps_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل: هناك ظرف زمان محدد مع المضارع التام مما يجعله خطأً.",
+      "explanation": "With 'yesterday' use past simple 'finished', not present perfect.",
+      "arabicNote": "وجود 'yesterday' يعني زمنًا منتهيًا لذلك نستخدم الماضي البسيط. المتحدثون بالعربية قد يبقون 'have' خطأ لأن العربية لا تعتمد نفس أدوات المساعدة.",
+      "weakTag": "ppps_time_marker_error",
+      "options": [
+        "I finished my homework yesterday.",
+        "I have finished my homework yesterday.",
+        "I have been finishing my homework yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have finished my homework yesterday."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "inversion_basics",
+  "category": "b2_expansion",
+  "titleEn": "Inversion Basics",
+  "titleAr": "أساسيات القلب في ترتيب الجملة",
+  "level": "B2",
+  "explanationEn": "Inversion places an auxiliary or modal before the subject after sentence-initial negative adverbials (Never, Rarely, Seldom, Only after) and in formal conditional alternatives (Had I..., Were you to...). It keeps the original meaning but changes word order and often sounds more formal.",
+  "explanationAr": "القلب يعني وضع الفعل المساعد أو had/were قبل الفاعل بعد ظرف سلبي في بداية الجملة أو في بديل شرطي رسمي. العربية لا تعتمد عادةً على فعل مساعد بهذا الشكل، فالمشتركون العرب قد يترجمون ترتيب الكلمات حرفياً أو يخطئون في تصريف الأفعال المساعدة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لو كنت قد علمتُ، لكنت ساعدتك.",
+      "arabicLiteral": "If I had known, I would have helped you.",
+      "englishCorrect": "Had I known, I would have helped you."
+    },
+    {
+      "arabicStructure": "إذا أمطرت سأبقى في المنزل.",
+      "arabicLiteral": "If it rains, I will stay home.",
+      "englishCorrect": "If it rains, I will stay home."
+    },
+    {
+      "arabicStructure": "لم أرَ مثل هذا الفوضى مطلقاً.",
+      "arabicLiteral": "I have never seen such a mess.",
+      "englishCorrect": "Never have I seen such a mess."
+    },
+    {
+      "arabicStructure": "لو كان لدي وقت، لأدرس أكثر.",
+      "arabicLiteral": "If I had time, I would study more.",
+      "englishCorrect": "If I had time, I would study more."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I had knew, I would stayed home.",
+      "correct": "Had I known, I would have stayed home.",
+      "explanationEn": "Learners use the wrong past form and keep the un-inverted if-clause; we need had + past participle and inversion.",
+      "explanationAr": "الخطأ هنا في استخدام knew بدل التصريف الثالث وفي ترك If بدل قلب had. الصحيح: Had I known، ثم would have."
+    },
+    {
+      "wrong": "Never I have seen so many books in one house.",
+      "correct": "Never have I seen so many books in one house.",
+      "explanationEn": "After sentence-initial Never, the auxiliary must come before the subject; otherwise word order is wrong.",
+      "explanationAr": "بعد كلمة Never في بداية الجملة نضع الفعل المساعد قبل الفاعل. الترجمة الحرفية من العربية توضع الفاعل أولاً وتؤدي إلى خطأ."
+    },
+    {
+      "wrong": "Rarely I saw my teacher late for work last term.",
+      "correct": "Rarely did I see my teacher late for work last term.",
+      "explanationEn": "With Rarely + past time, use did + subject + base verb to invert and keep past meaning.",
+      "explanationAr": "عند بدء الجملة بـ Rarely مع إشارة زمنية ماضية نستخدم did قبل الفاعل ثم الفعل الأساسي. الترتيب العربي يؤدي إلى خطأ شكلي."
+    },
+    {
+      "wrong": "You were to call, I would come.",
+      "correct": "Were you to call, I would come.",
+      "explanationEn": "Formal conditional alternatives place were before the subject; the un-inverted order is incorrect here.",
+      "explanationAr": "في البديل الشرطي الرسمي نضع were قبل الفاعل. ترتيب 'You were to call' هنا غير مقبول في هذا السياق الرسمي."
+    }
+  ],
+  "questions": [
+    {
+      "id": "inve_q1",
+      "type": "multiple_choice",
+      "prompt": "Complete with the correct inversion after the negative adverbial: Rarely ____ such late homework last term.",
+      "promptAr": "أكمل بما يناسب من القلب بعد ظرف سلبي في البداية: Rarely ____ مثل هذا الواجب المتأخر في الفصل الماضي.",
+      "explanation": "Use did + subject for past simple after Rarely: 'Rarely did I see...'.",
+      "arabicNote": "عند بدء الجملة بـ Rarely مع ذكر زمن ماضٍ نضع did قبل الفاعل ثم الفعل الأساسي. الترجمة الحرفية من العربية تؤدي إلى ترتيب خاطئ.",
+      "weakTag": "inversion_basics_form",
+      "options": [
+        "I did see",
+        "did I see",
+        "did I seen",
+        "did saw I"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "inve_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses inversion after 'Never' to talk about a past experience?",
+      "promptAr": "أي جملة تستخدم القلب بشكل صحيح بعد 'Never' للحديث عن تجربة ماضية؟",
+      "explanation": "Only the third sentence correctly places the auxiliary before the subject with the past participle.",
+      "arabicNote": "بعد Never في بداية الجملة نضع الفعل المساعد قبل الفاعل ونستخدم التصريف الثالث للفعل. هذا ما يخيف المتعلمين عند الترجمة الحرفية.",
+      "weakTag": "inversion_basics_word_order",
+      "options": [
+        "Never I have seen so many flowers in one garden.",
+        "Never have I saw so many flowers in one garden.",
+        "Never have I seen so many flowers in one garden."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "inve_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the correct inversion for this past conditional alternative: ____ known you were coming, I would have prepared a room.",
+      "promptAr": "اختر القلب الصحيح لبديل شرطي ماضٍ: ____ علمتَ بأنك قادم، لكنت جهزت غرفة.",
+      "explanation": "Use 'Had I known' (had + past participle with inversion) for past conditional alternatives.",
+      "arabicNote": "بدلاً من If I had known نقلب الجملة إلى Had I known. المتعلمون العرب قد يخطئون في تصريف had أو يضيفون have غير ضرورية.",
+      "weakTag": "inve_form",
+      "options": [
+        "Had I known",
+        "Had I have known",
+        "I had know"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "inve_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about a past conditional.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول شرط ماضٍ/افتراضي.",
+      "explanation": "Invert had + past participle: 'Had I known, I would have stayed home.'",
+      "arabicNote": "الخطأ شائع: استخدام knew بدل known أو عدم قلب had. الصحيح: قلب had قبل الفاعل دون if. هذا يختلف عن ترتيب العربية.",
+      "weakTag": "inversion_basics_arabic_transfer",
+      "options": [
+        "Had I known, I would have stayed home.",
+        "Had I knew, I would have stayed home.",
+        "I had known, I would have stayed home.",
+        "Had known I, I would have stayed home."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If I had knew, I would stayed home."
+    },
+    {
+      "id": "inve_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in order to make a correct inverted sentence starting with Rarely about a teacher's lateness.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تبدأ بـ Rarely وتستخدم القلب حول تأخر المعلم.",
+      "explanation": "Correct order: \"Rarely did I see my teacher late for work last term.\" After a negative or limiting adverb, use auxiliary + subject + verb.",
+      "arabicNote": "الترتيب الصحيح بعد Rarely هو وضع فعل مساعد مناسب قبل الفاعل. المتعلمون العرب قد يترجمون ترتيبهم دون قلب فينتج خطأ.",
+      "weakTag": "inversion_basics_word_order",
+      "words": [
+        "Rarely",
+        "did",
+        "I",
+        "see",
+        "my",
+        "teacher",
+        "late",
+        "for",
+        "work",
+        "last",
+        "term"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "inve_q6",
+      "type": "meaning_match",
+      "prompt": "Match each inverted English sentence to its Arabic meaning. Inversion changes order, not the core meaning.",
+      "promptAr": "وصل كل جملة إنجليزية مقلوبة إلى معناها العربي. القلب يغير الترتيب لا المعنى الأساسي.",
+      "explanation": "Each inverted sentence keeps the original meaning but uses a different, formal word order.",
+      "arabicNote": "التطابق يوضح أن القلب لا يغيّر المعنى. المتعلمون العرب قد يظنون أن الترتيب العربي صالح في الإنجليزية، لكنه يحتاج قلب الفعل المساعد.",
+      "weakTag": "inversion_basics_meaning",
+      "pairs": [
+        {
+          "left": "Never have I eaten such spicy food.",
+          "right": "لم آكل طعاماً حاراً بهذا القدر من قبل."
+        },
+        {
+          "left": "Had I known about the meeting, I would have come earlier.",
+          "right": "لو كنت أعلم بالاجتماع لأتيت مبكراً."
+        },
+        {
+          "left": "Seldom do we see such polite students at school.",
+          "right": "نادراً ما نرى طلاباً مهذبين هكذا في المدرسة."
+        }
+      ]
+    },
+    {
+      "id": "inve_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct inversion after 'Only after I arrived' to describe a past discovery: Only after I arrived ____ I realized the door was locked.",
+      "promptAr": "اختر القلب الصحيح بعد 'Only after I arrived' لوصف اكتشاف ماضٍ: Only after I arrived ____ أدركت أن الباب كان مقفلاً.",
+      "explanation": "Use did + subject for past simple inversion after 'Only after...': 'did I realize'.",
+      "arabicNote": "عبارة 'Only after...' في الماضي تطلب قلب did قبل الفاعل عندما نصف اكتشافاً حدث لاحقاً. الترجمة الحرفية قد تبقي الترتيب الطبيعي وتسبب خطأ.",
+      "weakTag": "inversion_basics_form",
+      "options": [
+        "did I",
+        "I did",
+        "did have I",
+        "did I had"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "inve_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly inverts a hypothetical conditional about calling someone?",
+      "promptAr": "أي جملة تقلب ترتيب البديل الشرطي الافتراضي عن الاتصال بشخص ما؟",
+      "explanation": "The formal alternative requires 'were' before the subject: 'Were you to call me...'.",
+      "arabicNote": "في البديل الشرطي الرسمي نضع were قبل الفاعل ثم المصدر: Were you to call me. الترجمة الحرفية من العربية قد تخطئ ترتيب were أو تصريف الفعل.",
+      "weakTag": "inversion_basics_word_order",
+      "options": [
+        "You were to call me, I would help.",
+        "Were you to call me, I would help.",
+        "Were you call me, I would help.",
+        "Were you to called me, I would help."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "inve_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete with inversion for a present habitual situation: Seldom ____ problems with this printer at home these days.",
+      "promptAr": "أكمل باستخدام القلب لحالة اعتيادية حالية: Seldom ____ مشاكل مع هذه الطابعة في المنزل هذه الأيام.",
+      "explanation": "Use do + subject for present habitual inversion after Seldom: 'do we have'.",
+      "arabicNote": "عند وضع Seldom في البداية نستخدم do قبل الفاعل في المضارع البسيط. مشكلة شائعة هي حذف do أو إبقاء ترتيب العربية الطبيعي.",
+      "weakTag": "inversion_basics_word_order",
+      "options": [
+        "we have",
+        "do we have",
+        "have we",
+        "we do have"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "inve_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong past-conditional sentence using inversion.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة حول شرط ماضٍ باستخدام القلب.",
+      "explanation": "Invert had + past participle: 'Had you called, I would have helped.'",
+      "arabicNote": "الخطأ شائع: إبقاء had بعد الفاعل أو تغيير تصريفه. الصحيح يقلب had قبل الفاعل دون if للحفاظ على المعنى.",
+      "weakTag": "inve_arabic_transfer",
+      "options": [
+        "Had you called, I would have helped.",
+        "You had called I would have helped.",
+        "Had you call, I would have helped.",
+        "Had called you, I would have helped."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You had called, I would have helped."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "much_many_a_lot_of",
+  "category": "a2_core",
+  "titleEn": "Much, Many, and A Lot Of",
+  "titleAr": "much و many و a lot of",
+  "level": "A2",
+  "explanationEn": "Use many with plural countable nouns (many books). Use much with uncountable nouns (much water). Use a lot of with both countable plurals and uncountable nouns (a lot of books, a lot of water). Note: much is common in questions and negatives and in formal writing; a lot of is the usual choice in everyday positive speech.",
+  "explanationAr": "نستخدم many مع الأسماء المعدودة في الجمع (many books)، و much مع الأسماء غير المعدودة (much water)، و a lot of مع النوعين. يخطئ المتعلمون العرب أحيانًا بنقل ترتيب العربية أو أدوات النكرة/التعريف. انتبه: الإنجليزية تميّز بين المعدود وغير المعدود بطريقة لا تظهر دائماً في العربية، لذلك يجب تعديل تركيب الجملة وأداة الكمية عند الترجمة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عندي كتب كثيرة",
+      "arabicLiteral": "I have books many",
+      "englishCorrect": "I have many books."
+    },
+    {
+      "arabicStructure": "هناك ماء كثير",
+      "arabicLiteral": "There is water much",
+      "englishCorrect": "There is a lot of water."
+    },
+    {
+      "arabicStructure": "ليس لدي وقت كثير",
+      "arabicLiteral": "I don't have time much",
+      "englishCorrect": "I don't have much time."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She has much friends at school.",
+      "correct": "She has many friends at school.",
+      "explanationEn": "\"friends\" is a plural countable noun, so many is required. Using much here shows direct transfer from Arabic quantity words without changing English countability and determiners.",
+      "explanationAr": "كلمة \"friends\" جمع معدود، لذلك نستخدم many. هذا خطأ شائع عند الترجمة الحرفية من العربية حيث لا يتم التمييز بنفس طريقة التعداد."
+    },
+    {
+      "wrong": "How much books do you need?",
+      "correct": "How many books do you need?",
+      "explanationEn": "Books are countable, so questions use how many not how much. The mistake comes from translating Arabic 'كم' directly without changing the question word to match English countability.",
+      "explanationAr": "مع أسماء معدودة مثل books نستخدم how many وليس how much. يحدث هذا الخطأ عند نقل 'كم' العربية مباشرة بدون تعديل لأداة السؤال الإنجليزية."
+    },
+    {
+      "wrong": "There are many rice in the pot.",
+      "correct": "There is a lot of rice in the pot.",
+      "explanationEn": "Rice is uncountable, so we cannot use many or a plural verb. Use a lot of (or much in formal contexts) and singular verb agreement. This error mixes Arabic plural patterns with English uncountable nouns.",
+      "explanationAr": "rice اسم غير معدود في الإنجليزية؛ لا نستخدم many ولا فعل جمع. نستخدم a lot of مع فعل مفرد أو much في بعض السياقات الرسمية. الخطأ ناتج عن خلط قواعد الجمع العربية مع الإنجليزية."
+    },
+    {
+      "wrong": "I have many homework every day.",
+      "correct": "I have a lot of homework every day.",
+      "explanationEn": "Homework is uncountable, so using many is ungrammatical. Although much could be grammatical in negatives or questions, in positive everyday speech speakers usually prefer a lot of. The learner error comes from treating 'homework' like a countable noun.",
+      "explanationAr": "homework غير معدود بالإنجليزية، لذلك many خطأ نحوي. يمكن استخدام much في أسئلة أو نفيات رسمية، لكن في الجمل المثبتة اليومية يفضّل native speakers استخدام a lot of. يحدث الخطأ عند اعتبار 'الواجب' اسمًا معدودًا كما في العربية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mml_q1",
+      "type": "multiple_choice",
+      "prompt": "How ____ books do you need for the class?",
+      "promptAr": "كم كتاب تحتاج للحصة؟ اختر الكلمة الصحيحة.",
+      "explanation": "Books are plural countable nouns, so use many to ask about number. 'Much' is used with uncountable nouns like water. 'A lot of' does not fit the short question form as naturally here, and 'the' is not a question word. This difference is different from Arabic question word use.",
+      "arabicNote": "many تستخدم مع الأسماء المعدودة جمع. المتحدثون العرب قد يترجمون 'كم' مباشرة دون تغيير أداة السؤال أو عدد الاسم، فاحذر.",
+      "weakTag": "much_many_a_lot_of_countable",
+      "options": [
+        "much",
+        "many",
+        "a lot of",
+        "the"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct about rice for dinner?",
+      "promptAr": "أي جملة صحيحة عن الأرز لتناول العشاء؟",
+      "explanation": "Rice is an uncountable noun, so we use a singular verb and a lot of (or much in formal contexts). The first and third options wrongly treat rice as countable and use plural agreement. Arabic sometimes treats quantity words differently, so be careful.",
+      "arabicNote": "rice غير معدود بالإنجليزية، لذلك نستخدم a lot of مع فعل مفرد. تجنب تحويله إلى جمع كما قد يحدث في الترجمة الحرفية من العربية.",
+      "weakTag": "much_many_a_lot_of_uncountable",
+      "options": [
+        "There are much rice for dinner.",
+        "There is a lot of rice for dinner.",
+        "There are many rice for dinner."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I don't have ____ time to study tonight.",
+      "promptAr": "ليس لدي وقت كافٍ للدراسة الليلة. اختر الكلمة الصحيحة لإكمال الجملة.",
+      "explanation": "Time is an uncountable noun, so much fits in negative sentences. 'Many' is for countable nouns and is incorrect here. 'A few' is for countable nouns and changes the meaning; it is not a correct choice for uncountable time in this negative context.",
+      "arabicNote": "time غير معدود؛ لذا نستخدم much في النفي. لاحظ أن a few ومشتقاتها للمعدود الجمع، لذلك تكون خاطئة هنا. هذا يختلف عن بعض تعابير الكمية في العربية.",
+      "weakTag": "mml_fill_uncountable",
+      "options": [
+        "many",
+        "much",
+        "a few"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence about friends at work.",
+      "promptAr": "اختر التصحيح الأفضل للجملة عن الأصدقاء في العمل.",
+      "explanation": "\"friends\" is a plural countable noun, so many is required and the verb must agree: 'she has'. The second option has wrong verb agreement, and the third uses much with a singular form and wrong noun form. This mistake often comes from direct Arabic transfer.",
+      "arabicNote": "الخطأ ناتج عن نقل تركيب عربي بدون تعديل. تأكد من أن 'friends' جمع معدود فتستخدم many، وصيغة الفعل تتطابق مع الفاعل.",
+      "weakTag": "much_many_a_lot_of_friends",
+      "options": [
+        "She has many friends at work.",
+        "She have many friends at work.",
+        "She has much friend at work."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She has much friends at work."
+    },
+    {
+      "id": "mml_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence about books.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة عن الكتب.",
+      "explanation": "The natural English word order is Subject + Verb + quantity phrase + noun: 'We have a lot of books.' In Arabic the order or placement of quantity can differ, so learners must place the subject and verb first and then the phrase 'a lot of' before the noun.",
+      "arabicNote": "في العربية قد يوضع الموصوف والكمية بترتيب مختلف. في الإنجليزية نضع الفاعل ثم الفعل ثم 'a lot of' ثم الاسم: We have a lot of books.",
+      "weakTag": "much_many_a_lot_of_word_order",
+      "words": [
+        "have",
+        "We",
+        "a",
+        "lot",
+        "of",
+        "books"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "mml_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase with its Arabic meaning.",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي.",
+      "explanation": "Many is used with plural countable nouns like students. Much is used with uncountable nouns like water. A lot of works with both types and is common in spoken everyday English. Match meanings by deciding if the noun is countable or not.",
+      "arabicNote": "وصل الكلمة بنوعها: many للمعدود الجمع، much لغير المعدود، و a lot of يناسب كلا النوعين. هذا يساعد على تجنّب أخطاء النقل من العربية.",
+      "weakTag": "much_many_a_lot_of_meaning",
+      "pairs": [
+        {
+          "left": "many students",
+          "right": "طلاب كثيرون"
+        },
+        {
+          "left": "much water",
+          "right": "ماء كثير"
+        },
+        {
+          "left": "a lot of food",
+          "right": "كمية كبيرة من الطعام"
+        }
+      ]
+    },
+    {
+      "id": "mml_q7",
+      "type": "multiple_choice",
+      "prompt": "There aren't ____ apples in the kitchen.",
+      "promptAr": "لا توجد تفاحات كثيرة في المطبخ. اختر الكلمة الصحيحة.",
+      "explanation": "Apples are countable plural, so many is correct in negative sentences about number. 'Much' is for uncountable nouns, and 'a little' is for uncountable quantities and would not be used with apples. This contrasts with Arabic where the form of the quantity can be different.",
+      "arabicNote": "التفاح اسم معدود جمع، لذلك many هو الصحيح. انتبه أن 'a little' و 'much' مخصصتان للغير معدود، وهو اختلاف مهم عن العربية.",
+      "weakTag": "mml_negative_countable",
+      "options": [
+        "much",
+        "many",
+        "a little"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "How ____ sugar do you put in your tea?",
+      "promptAr": "كم من السكر تضع في الشاي؟ اختر الكلمة الصحيحة.",
+      "explanation": "Sugar is uncountable, so use how much to ask about amount. 'Many' is incorrect because it is for countable items. 'A lot of' cannot form this particular question structure (How a lot of ... is not correct), so much is the only correct choice here.",
+      "arabicNote": "sugar غير معدود بالإنجليزية، لذلك نستخدم how much. تجنّب ترجمة حرفية قد تقود إلى اختيار many، وهو خطأ شائع.",
+      "weakTag": "much_many_a_lot_of_sugar",
+      "options": [
+        "many",
+        "much",
+        "a lot of"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which question is correct to ask the number of chairs in a room?",
+      "promptAr": "أي سؤال صحيح لنعرف عدد الكراسي في الغرفة؟",
+      "explanation": "Chairs are countable plural, so 'How many chairs are in the room?' is correct. 'How much' and 'How a lot of' are ungrammatical with a plural countable noun. Arabic speakers often translate the question word directly, so watch the English pattern.",
+      "arabicNote": "عند السؤال عن عدد شيء معدود نستخدم how many. لا تترجم 'كم' حرفياً بدون تعديل أداة السؤال.",
+      "weakTag": "mml_question_countable",
+      "options": [
+        "How much chairs are in the room?",
+        "How many chairs are in the room?",
+        "How a lot of chairs are in the room?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mml_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Correct the grammatically wrong question about apples bought yesterday.",
+      "promptAr": "صحح السؤال الخاطئ عن التفاح الذي اشتريته بالأمس.",
+      "explanation": "Apples are countable plural, so use how many and plural noun 'apples'. The second option has singular 'apple' with did, which is wrong. The third option has wrong question word and word order. The first option is grammatically correct and matches the intended meaning.",
+      "arabicNote": "الخطأ شائع لأن العربية لا تميز بنفس شكل السؤال. استخدم how many مع اسم جمع للسؤال عن العدد، واحتفظ بترتيب السؤال الصحيح.",
+      "weakTag": "much_many_a_lot_of_fix",
+      "options": [
+        "How many apples did you buy yesterday?",
+        "How many apple did you buy yesterday?",
+        "How much apples you buy yesterday?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "How much apples did you buy yesterday?"
+    }
+  ]
+}

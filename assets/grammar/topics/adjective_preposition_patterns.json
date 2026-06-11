@@ -1,0 +1,237 @@
+{
+  "id": "adjective_preposition_patterns",
+  "category": "a2_core",
+  "titleEn": "Adjective + Preposition Patterns",
+  "titleAr": "الصفة مع حرف الجر",
+  "level": "A2",
+  "explanationEn": "Adjective + preposition patterns are fixed pairs like good at and interested in. English requires a specific preposition after many adjectives. Arabic speakers often translate prepositions directly or drop the verb be. This topic practices common pairs and shows how to choose the correct preposition in simple everyday sentences.",
+  "explanationAr": "في العربية قد نستخدم ترتيبًا مختلفًا أو نحذف فعل الربط في الجملة الاسمية، كما أن حرف الجر العربي قد يغطي أكثر من حرف واحد في الإنجليزية. في هذا الدرس نركّز على أزواج ثابتة صفة + حرف جر مثل good at و interested in و afraid of و ready for، مع أمثلة وشرح للأخطاء الشائعة الناتجة عن الترجمة الحرفية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا مهتم بالإنجليزية",
+      "arabicLiteral": "I interested with-English",
+      "englishCorrect": "I am interested in English."
+    },
+    {
+      "arabicStructure": "هي تنتظر الباص",
+      "arabicLiteral": "She waits the bus",
+      "englishCorrect": "She is waiting for the bus."
+    },
+    {
+      "arabicStructure": "هو جيد في الرياضيات",
+      "arabicLiteral": "He good in mathematics",
+      "englishCorrect": "He is good at math."
+    },
+    {
+      "arabicStructure": "هم مستعدون للاختبار",
+      "arabicLiteral": "They ready for exam",
+      "englishCorrect": "They are ready for the exam."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I interested in English.",
+      "correct": "I am interested in English.",
+      "explanationEn": "Learners sometimes drop the verb 'be'. With adjectives that describe a state, English usually needs the correct form of be (am/is/are). The meaning stays the same but the sentence must include the verb.",
+      "explanationAr": "يُحذف فعل الربط في بعض الترجمات الحرفية من العربية. مع الصفات التي تصف حالة نحتاج إلى am/is/are في الإنجليزية؛ معنى الجملة يبقى لكن البنية خاطئة بدون فعل الربط."
+    },
+    {
+      "wrong": "She waiting for the bus.",
+      "correct": "She is waiting for the bus.",
+      "explanationEn": "Present continuous requires the auxiliary 'is'. Arabic speakers may translate directly and omit the helper verb, but English needs the correct auxiliary before the verb or adjective phrase.",
+      "explanationAr": "المتحدثون بالعربية قد ينقلون الترتيب حرفيًا فيحذفون الفعل المساعد. الزمن المستمر في الإنجليزية يحتاج إلى 'is' قبل الفعل."
+    },
+    {
+      "wrong": "He good in math.",
+      "correct": "He is good at math.",
+      "explanationEn": "The adjective 'good' commonly pairs with 'at' when talking about skills or subjects. Using 'in' is a literal preposition transfer from Arabic and is unnatural here.",
+      "explanationAr": "ترجمة حرف الجر العربي 'في' إلى 'in' هنا غير صحيحة. مع 'good' عند الحديث عن مهارة أو مادة نستخدم 'good at'."
+    },
+    {
+      "wrong": "They are interested on history.",
+      "correct": "They are interested in history.",
+      "explanationEn": "'Interested' requires the preposition 'in' to show the topic someone likes or studies. Choosing 'on' is a common literal transfer error from Arabic and sounds unidiomatic.",
+      "explanationAr": "الخطأ يأتي من نقل حرف جر عربي أو استخدام حرف خاطئ. مع 'interested' نستخدم 'in' لإظهار الاهتمام بموضوع."
+    }
+  ],
+  "questions": [
+    {
+      "id": "app_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct preposition: She is good ___ math.",
+      "promptAr": "اختر حرف الجر الصحيح:",
+      "explanation": "We use 'good at' to talk about skills or school subjects. Using other prepositions here is unidiomatic. The verb be (is) plus 'good at' makes the normal English structure for abilities and subjects.",
+      "arabicNote": "في العربية نقول 'جيد في' فيظن بعض المتعلمين أن 'in' صحيح. في هذا السياق استخدم 'good at' للتحدث عن مهارة أو مادة دراسية.",
+      "weakTag": "adjective_preposition_patterns_form",
+      "options": [
+        "about",
+        "at",
+        "during",
+        "of"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "app_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "I am interested ___ English.",
+      "promptAr": "أكمل الفراغ بحرف الجر الصحيح:",
+      "explanation": "The adjective 'interested' pairs with 'in' when you talk about liking or studying a subject. Other prepositions like 'on' or 'about' either change the meaning or are not idiomatic in this structure.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تقودك إلى 'on' أو 'about'، لكن الصيغة الصحيحة هي 'interested in' عند الحديث عن موضوع تهتم به.",
+      "weakTag": "adjective_preposition_patterns_meaning",
+      "options": [
+        "in",
+        "on",
+        "for",
+        "about"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "app_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is natural English?",
+      "promptAr": "أي جملة صحيحة ومألوفة في الإنجليزية؟",
+      "explanation": "'Afraid' needs the verb be and pairs with 'of' to show fear of something. The natural full sentence uses 'is' and 'of' in this case.",
+      "arabicNote": "في العربية قد تكون الجملة بدون فعل. هنا يجب وضع 'is' واستخدام 'of' مع 'afraid' للتعبير عن الخوف من شيء.",
+      "weakTag": "adjective_preposition_patterns_form",
+      "options": [
+        "He afraid of dogs.",
+        "He is afraid from dogs.",
+        "He is afraid of dogs."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "app_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية:",
+      "explanation": "Adjective complements usually need the correct form of be. 'She ready for the exam.' is missing 'is'. The full correct sentence is 'She is ready for the exam.' which uses 'is' and 'for' with 'ready'.",
+      "arabicNote": "أحيانًا نحذف فعل الربط في العربية. هنا يجب إضافة 'is' قبل 'ready' واستخدام 'for' مع 'ready' عند ذكر هدف أو حدث.",
+      "weakTag": "adjective_preposition_patterns_word_order",
+      "options": [
+        "She is ready for the exam.",
+        "She ready exam.",
+        "She ready to the exam."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She ready for the exam."
+    },
+    {
+      "id": "app_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة باللغة الإنجليزية:",
+      "explanation": "The normal English order is Subject + verb + adjective + preposition + article + noun: 'He is ready for the exam.' Notice that 'is' follows the subject and the adjective comes before the preposition.",
+      "arabicNote": "في العربية قد ترى ترتيبًا مختلفًا أو حذفًا للفعل. في الإنجليزية نضع الفاعل ثم 'is' ثم الصفة ثم حرف الجر ثم الاسم.",
+      "weakTag": "adjective_preposition_patterns_word_order",
+      "words": [
+        "for",
+        "is",
+        "He",
+        "the",
+        "ready",
+        "exam"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        4,
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "app_q6",
+      "type": "meaning_match",
+      "prompt": "Match each adjective + preposition pair to its Arabic meaning.",
+      "promptAr": "وصل كل تركيب صفة + حرف جر بمعناه العربي:",
+      "explanation": "These pairs are fixed: the adjective and its preposition form a unit. Learn each pair and practice using them in short everyday sentences to avoid literal translation errors.",
+      "arabicNote": "كل تركيب له حرف جر ثابت في الإنجليزية. لا تُترجم حرف الجر حرفيًا من العربية دون التأكد من الثابت اللغوي.",
+      "weakTag": "adjective_preposition_patterns_meaning",
+      "pairs": [
+        {
+          "left": "good at",
+          "right": "جيد في / متقن لـ"
+        },
+        {
+          "left": "interested in",
+          "right": "مهتم بـ"
+        },
+        {
+          "left": "afraid of",
+          "right": "خائف من"
+        },
+        {
+          "left": "ready for",
+          "right": "مستعد لـ"
+        }
+      ]
+    },
+    {
+      "id": "app_q7",
+      "type": "multiple_choice",
+      "prompt": "Which preposition completes: She's proud ___ her son.",
+      "promptAr": "اختر حرف الجر المناسب:",
+      "explanation": "We say 'proud of' when we show a feeling toward a person. Other prepositions like 'with', 'by', or 'at' are not correct in this simple emotional expression.",
+      "arabicNote": "في العربية قد تقول 'فخور بـ'، والترجمة الصحيحة هنا إلى 'proud of' وليس إلى حروف جر أخرى.",
+      "weakTag": "adjective_preposition_patterns_usage",
+      "options": [
+        "of",
+        "with",
+        "by",
+        "at"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "app_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "They are familiar ___ Japanese food.",
+      "promptAr": "أكمل الفراغ بحرف الجر الصحيح:",
+      "explanation": "'Familiar' usually pairs with 'with' when someone knows or has experience of something. Using other prepositions here would change the grammar and sound unnatural in this sentence.",
+      "arabicNote": "الترجمة الحرفية قد تقترح حرفًا آخر، لكن التعبير الشائع هو 'familiar with' للتعبير عن المعرفة أو الخبرة بشيء.",
+      "weakTag": "adjective_preposition_patterns_usage",
+      "options": [
+        "with",
+        "in",
+        "about",
+        "during"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "app_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the natural sentence.",
+      "promptAr": "اختر الجملة الصحيحة والمألوفة بالإنجليزية:",
+      "explanation": "Correct structure is subject + be + adjective + preposition. 'I am good at chess.' uses 'good at' correctly and includes the verb 'am' to make a full sentence.",
+      "arabicNote": "الترجمة الحرفية قد تجعل المتعلم يختار 'in'. لكن مع 'good' عند الحديث عن لعبة أو مهارة نستخدم 'at' وليس 'in'.",
+      "weakTag": "adjective_preposition_patterns_form",
+      "options": [
+        "I am good about chess.",
+        "I good at chess.",
+        "I am good at chess."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "app_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence below.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية:",
+      "explanation": "'Interested' requires the preposition 'in' to show the topic someone likes or studies. Using 'on' or 'about' here is unidiomatic and changes the standard structure.",
+      "arabicNote": "خطأ شائع بسبب اختلاف حروف الجر. مع 'interested' استخدم 'in' وليس 'on' أو 'about'. تأكد أيضًا من وجود فعل be عندما يحتاج السياق له.",
+      "weakTag": "adjective_preposition_patterns_arabic_transfer",
+      "options": [
+        "They are interested in history.",
+        "They interested in history.",
+        "They are interested about history."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They are interested on history."
+    }
+  ]
+}

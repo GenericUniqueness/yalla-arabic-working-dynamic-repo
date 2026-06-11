@@ -1,0 +1,243 @@
+{
+  "id": "advanced_preposition_nuance",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Preposition Nuance",
+  "titleAr": "دلالات حروف الجر المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic trains learners to choose precise prepositions in advanced patterns: cause, dependence, contrast, degree, movement, and abstract relationships. Focus on small connector choices that change register or clarity, and on avoiding Arabic-style omissions or loose word order that create ambiguity in English sentences.",
+  "explanationAr": "يعلّم هذا الدرس اختيار حروف الجر بدقة في سياقات سببية واعتمادية وتناقضية ودرجة وحركة وعلاقات مجردة. نوضح كيف تغيّر كلمة ربط صغيرة الأسلوب أو المعنى، ونبيّن أخطاء المتحدثين العرب: حذف الروابط، ترتيب مرن يسبب غموضًا، والعبارات الطويلة التي تحتاج فواصل وأفعال واضحة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أعتمد على ملاحظاتي أثناء الامتحان.",
+      "arabicLiteral": "I depend my notes during the exam.",
+      "englishCorrect": "I depend on my notes during the exam."
+    },
+    {
+      "arabicStructure": "أجلت الاجتماع بسبب المطر.",
+      "arabicLiteral": "I postponed the meeting because the rain.",
+      "englishCorrect": "I postponed the meeting because of the rain."
+    },
+    {
+      "arabicStructure": "وصلت القاهرة الساعة السادسة.",
+      "arabicLiteral": "I arrived Cairo at six.",
+      "englishCorrect": "I arrived in Cairo at six."
+    },
+    {
+      "arabicStructure": "اختارت العمل بدل التدريب.",
+      "arabicLiteral": "She chose work instead training.",
+      "englishCorrect": "She chose work instead of training."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I depend of my parents for career advice.",
+      "correct": "I depend on my parents for career advice.",
+      "explanationEn": "Use 'depend on' to show reliance. 'Depend of' is ungrammatical and often comes from literal Arabic translation.",
+      "explanationAr": "الخطأ ناتج عن ترجمة حرفية. في الإنجليزية نستخدم 'depend on' لتحديد من يعتمد عليه الشخص؛ 'depend of' غير صحيح ويعطي جملة غير طبيعية."
+    },
+    {
+      "wrong": "He left the meeting because the child's illness.",
+      "correct": "He left the meeting because of the child's illness.",
+      "explanationEn": "'Because' must link to a clause. When the reason is a noun phrase, use 'because of' plus the noun.",
+      "explanationAr": "في العربية يمكن وضع السبب كاسم. الإنجليزية تتطلب 'because of' قبل عبارة اسمية، لأن 'because' يحتاج عادة جملة فاعل وفعل."
+    },
+    {
+      "wrong": "She arrived at Cairo late in the evening.",
+      "correct": "She arrived in Cairo late in the evening.",
+      "explanationEn": "'Arrive in' is used with cities and countries. 'Arrive at' is for specific points like stations or buildings.",
+      "explanationAr": "المتحدثون العرب قد يقولون حرفيًا «وصلت القاهرة». الإنجليزية تميّز: 'arrive in' مع المدن، و'arrive at' مع نقاط محددة."
+    },
+    {
+      "wrong": "The event was canceled due to because of the storm.",
+      "correct": "The event was canceled because of the storm.",
+      "explanationEn": "Use a single connector for cause. 'Because of' is correct here; doubling connectors is ungrammatical and unclear.",
+      "explanationAr": "يحدث تكرار الروابط نتيجة الترجمة الحرة أو محاولة التأكيد. في الإنجليزية نختار رابطًا واحدًا واضحًا لسبب الإلغاء، مثل 'because of'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "apnu_q1",
+      "type": "multiple_choice",
+      "prompt": "Students rely ___ their notes during the exam.",
+      "promptAr": "اختر حرف الجر الصحيح الذي يدلّ على الاعتماد.",
+      "explanation": "Use 'rely on' to show clear dependence; 'rely' requires 'on' to mark what is depended on.",
+      "arabicNote": "في العربية يُذكر الاعتماد أحيانًا بدون رابط واضح. في الإنجليزية يجب استخدام 'rely on' لتحديد مصدر الاعتماد بدقة وتفادي الغموض.",
+      "weakTag": "advanced_preposition_nuance_dependence",
+      "options": [
+        "on",
+        "in",
+        "for",
+        "about"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the phrase that indicates replacing practical training with philosophy: I chose to study philosophy ___ practical training this year.",
+      "promptAr": "اختر العبارة التي تعبّر عن الاختيار بدل شيء آخر: بدلاً من التدريب.",
+      "explanation": "'Instead of' clearly marks one option chosen in place of another and avoids confusion with cause or concession.",
+      "arabicNote": "الإنجليزية تميّز بين السبب والبديل. 'Instead of' توضح أنك اخترت شيئًا بدل شيء آخر، بينما 'because of' تعبر عن سبب ولا تصلح هنا.",
+      "weakTag": "advanced_preposition_nuance_contrast",
+      "options": [
+        "instead of",
+        "because of",
+        "for the sake of",
+        "among"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows movement toward a place?",
+      "promptAr": "أي جملة تُظهر الحركة نحو مكان محدد بشكل صحيح؟",
+      "explanation": "'To' shows movement toward a destination; it marks direction after verbs of motion.",
+      "arabicNote": "الترتيب العربي قد يوضح الاتجاه دون كلمة محددة. في الإنجليزية نحتاج 'to' بعد أفعال الحركة لتحديد الوجهة بدقة وتفادي الغموض.",
+      "weakTag": "advanced_preposition_nuance_movement",
+      "options": [
+        "She walked to the office.",
+        "She walked at the office.",
+        "She walked for the office."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English preposition phrase to its Arabic meaning.",
+      "promptAr": "وصل كل عبارة حرف جر بمعناها العربي المناسب.",
+      "explanation": "Match these preposition phrases to clear Arabic equivalents to avoid literal-translation errors.",
+      "arabicNote": "تعلّم مطابقة العبارات يمنع الترجمة الحرفية. ربط 'because of' أو 'in spite of' بالمعنى العربي الصحيح يساعدك على اختيار الرابط الملائم حسب السياق.",
+      "weakTag": "advanced_preposition_nuance_meaning",
+      "pairs": [
+        {
+          "left": "because of",
+          "right": "بسبب"
+        },
+        {
+          "left": "instead of",
+          "right": "بدلاً من"
+        },
+        {
+          "left": "in spite of",
+          "right": "على الرغم من"
+        },
+        {
+          "left": "depend on",
+          "right": "يعتمد على"
+        }
+      ]
+    },
+    {
+      "id": "apnu_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order so the reason follows the main clause.",
+      "promptAr": "رتّب الكلمات بحيث يأتي السبب بعد الجملة الأساسية، لا في بدايتها.",
+      "explanation": "Place 'because of' after the clause to state the reason clearly and avoid fronted adverbials here.",
+      "arabicNote": "في العربية قد يُذكر السبب أولًا. هذا التمرين يطلب وضع السبب بعد الجملة الأساسية لأن ذلك يزيل غموض المرجعية ويطابق أسلوبًا رسميًا واضحًا.",
+      "weakTag": "advanced_preposition_nuance_word_order",
+      "words": [
+        "the",
+        "meeting",
+        "because",
+        "of",
+        "a",
+        "family",
+        "emergency.",
+        "He",
+        "left"
+      ],
+      "correctOrder": [
+        7,
+        8,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "apnu_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the incorrect preposition.",
+      "promptAr": "اختر التصحيح الأفضل لحرف الجر الخاطئ في الجملة التالية.",
+      "explanation": "Use 'objected to' to show formal opposition to a proposal; 'objected about' is ungrammatical.",
+      "arabicNote": "في العربية قد يُقال ‘اعترض على’ بدون كلمة ربط واضحة أو بصيغة مختلفة. في الإنجليزية نستخدم 'object to' لتحديد ما يعترض عليه الشخص أو الاقتراح بدقة.",
+      "weakTag": "advanced_preposition_nuance_object",
+      "options": [
+        "He objected to the proposal.",
+        "He objected at the proposal.",
+        "He objected for the proposal."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He objected about the proposal."
+    },
+    {
+      "id": "apnu_q7",
+      "type": "multiple_choice",
+      "prompt": "She is concerned ___ her upcoming exams.",
+      "promptAr": "اختر حرف الجر الأنسب للتعبير عن القلق بشأن حدث قادم.",
+      "explanation": "'Concerned about' expresses worry directed at a specific issue or upcoming event.",
+      "arabicNote": "قد يُترجم القلق بصيغ مختلفة في العربية. الإنجليزية تتطلب 'concerned about' لربط القلق بشيء أو حدث محدّد بوضوح، وإلا تصبح الجملة غامضة.",
+      "weakTag": "advanced_preposition_nuance_worry",
+      "options": [
+        "about",
+        "at",
+        "to",
+        "in"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The success of the project depends ___ cooperation between the teams.",
+      "promptAr": "اختر حرف الجر الذي يعبر عن اعتماد نجاح المشروع على تعاون الفرق.",
+      "explanation": "'Depends on' links success to a specific condition; it clarifies what the outcome relies upon.",
+      "arabicNote": "في العربية قد يفهم الاعتماد ضمنيًا داخل الجملة. بالإنجليزية نستخدم 'depends on' لربط النتيجة بعامل محدد وتفادي الغموض في التقارير المهنية.",
+      "weakTag": "advanced_preposition_nuance_dependence_on",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is the best formal choice to state a drop in numbers and its cause?",
+      "promptAr": "أي جملة رسمية توضح انخفاض الأرقام وسببها بدقّة مناسبة لتقرير؟",
+      "explanation": "'Dropped by' with a percent and 'owing to' for cause is formal and precise in reports.",
+      "arabicNote": "اللغة العربية قد تخلط ترتيب السبب والنتيجة. في الإنجليزية الرسمية نوضح الرقم أولًا ثم السبب بصيغة مثل 'owing to' لتقديم بيان واضح ومهني.",
+      "weakTag": "advanced_preposition_nuance_register",
+      "options": [
+        "Attendance dropped by 10% owing to budget cuts.",
+        "Attendance dropped in 10% owing to budget cuts.",
+        "Attendance dropped because budget cuts by 10%."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "apnu_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "I will arrive ___ Cairo at six o'clock.",
+      "promptAr": "اختر حرف الجر المناسب مع اسم مدينة.",
+      "explanation": "Use 'arrive in' with city names to show reaching that city; 'arrive at' is for specific points.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تحذف 'in'. الإنجليزية تميّز بين الوصول إلى مدينة ('arrive in') والوصول إلى نقطة محددة ('arrive at').",
+      "weakTag": "apnu_arrive_in_city",
+      "options": [
+        "in",
+        "at",
+        "to",
+        "on"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

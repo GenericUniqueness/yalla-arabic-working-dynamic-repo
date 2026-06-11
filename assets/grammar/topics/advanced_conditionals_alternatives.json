@@ -1,0 +1,239 @@
+{
+  "id": "advanced_conditionals_alternatives",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Conditional Alternatives",
+  "titleAr": "بدائل الشرط المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic teaches alternatives to if: unless, provided that, as long as, and otherwise. Learn their precise meanings for real and unreal conditions, how to form clear clauses, and when one connector is more formal or more accurate in work, study, travel, or family contexts.",
+  "explanationAr": "يركز هذا الدرس على بدائل if: مثل unless وprovided that وas long as وotherwise. نشرح متى يغيّر كل رابط المعنى، وكيف نكوّن عبارات شرطية واضحة. نوضح أخطاء متحدثي العربية الشائعة: الاعتماد على السياق بدل رابط صريح، ترتيب كلمات يغيّر المنطق، والجمل الطويلة بدون فواصل. الهدف استخدام دقيق في العمل والدراسة والحياة اليومية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لا أذهب إذا لم تمطر.",
+      "arabicLiteral": "I not go if not rain.",
+      "englishCorrect": "I won't go unless it rains."
+    },
+    {
+      "arabicStructure": "يمكنك الخروج بشرط أن تنتهي من واجبك.",
+      "arabicLiteral": "You can go provided that you finish your homework.",
+      "englishCorrect": "You may go provided that you finish your homework."
+    },
+    {
+      "arabicStructure": "سأبقى طالما بقيتَ هنا.",
+      "arabicLiteral": "I will stay as long as you stay here.",
+      "englishCorrect": "I'll stay as long as you stay here."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Unless you study, you will pass the exam.",
+      "correct": "Unless you study, you will not pass the exam.",
+      "explanationEn": "Unless means 'if not'. Omitting the negative in the result clause reverses the meaning.",
+      "explanationAr": "unless تعني «ما لم». حذف النفي في نتيجة الجملة يغيّر المعنى إلى عكس المقصود؛ هذا خطأ شائع عند الترجمة الحرفية من العربية."
+    },
+    {
+      "wrong": "Provided you tell me, I won't come.",
+      "correct": "Provided you tell me, I will come.",
+      "explanationEn": "The wrong sentence is grammatical but it reverses the expected outcome; the result clause must match the condition.",
+      "explanationAr": "الجملة الخاطئة صحيحة نحويًا لكنها تعطي نتيجة معاكسَة. ترتيب وترجمة شروط اللغة العربية قد تقود إلى قلب النتيجة دون قصد."
+    },
+    {
+      "wrong": "You can leave otherwise you finish your task.",
+      "correct": "You can leave as long as you finish your task.",
+      "explanationEn": "Otherwise signals an alternative or negative result, not a permissive continuing condition.",
+      "explanationAr": "خلط otherwise مع شرط موجب شائع. otherwise يقدّم نتيجة بديلة أو سلبية، أما as long as فتحدّد شرط استمرار الإذن."
+    },
+    {
+      "wrong": "Call me, otherwise I will help.",
+      "correct": "Call me; otherwise I won't be able to help.",
+      "explanationEn": "Otherwise should introduce the negative consequence; missing negation breaks the intended warning.",
+      "explanationAr": "otherwise يجب أن يقدّم النتيجة السلبية؛ حذف النفي يكسّر المنطق. يحدث هذا عند نقل الجمل الطويلة من العربية بدون فصل واضح."
+    }
+  ],
+  "questions": [
+    {
+      "id": "acalt_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the single-word connector meaning \"if not\": \"_____ you tell me, I will not attend the meeting.\"",
+      "promptAr": "اختر الرابط كلمة واحدة بمعنى «ما لم»: «_____ تخبرني، لن أحضر الاجتماع.»",
+      "explanation": "Unless means 'if not' and fits the negative result; it expresses the exception clearly.",
+      "arabicNote": "unless = «ما لم». في العربية كثيرًا يُفهم الاستثناء من السياق دون أداة، بينما الإنجليزية تحتاج رابطًا صريحًا هنا لتجنب الغموض.",
+      "weakTag": "advanced_conditionals_alternatives_form",
+      "options": [
+        "Unless",
+        "Provided that",
+        "Otherwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "acalt_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the connector that emphasises a continuing condition: \"You can use the lab after 5 pm, _____ you have booked in advance.\"",
+      "promptAr": "اختر الرابط الذي يؤكد شرطًا مستمرًا: «يمكنك استخدام المختبر بعد الخامسة مساءً _____ أنك حجزت مسبقًا.»",
+      "explanation": "As long as sets a continuing practical condition for permission to use the lab after 5 pm.",
+      "arabicNote": "as long as يبيّن شرط استمرار ويحمل دلالة زمنية للمتابعة. تجنّب 'provided that' هنا إذا أردت التركيز على الاستمرارية وليس مجرد شرط وحيد.",
+      "weakTag": "acalt_as_long_as_form",
+      "options": [
+        "as long as",
+        "unless",
+        "otherwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "acalt_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence clearly gives a continuing condition for working from home?",
+      "promptAr": "أي جملة تعطي شرطًا مستمرًا واضحًا للعمل من المنزل؟",
+      "explanation": "As long as plus a complete clause expresses a continuing condition; include 'as' for correctness.",
+      "arabicNote": "as long as تعني شرط استمرار. في العربية قد نُسقط أدوات الربط أو نغير الترتيب، فاحرص على وجود 'as' والكلمة الكاملة لتجنب الغموض.",
+      "weakTag": "acalt_as_long_as_register",
+      "options": [
+        "You can work from home as long you finish tasks.",
+        "You can work from home as long as you finish your tasks.",
+        "You can work from home unless you finish your tasks."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "acalt_q4",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning.",
+      "promptAr": "وصل كل رابط بمعناه العربي.",
+      "explanation": "Knowing each connector's precise Arabic equivalent prevents confusing positive versus negative conditions in translation.",
+      "arabicNote": "احفظ معاني الروابط بدقة. الترجمة الحرفية من العربية قد تخلط بين شروط موجبة (بشرط أن) وسالبة (ما لم)، فالتدريب على المعاني يحدّ هذا الخطأ.",
+      "weakTag": "advanced_conditionals_alternatives_meaning",
+      "pairs": [
+        {
+          "left": "Unless",
+          "right": "ما لم"
+        },
+        {
+          "left": "Provided that",
+          "right": "بشرط أن"
+        },
+        {
+          "left": "As long as",
+          "right": "طالما"
+        },
+        {
+          "left": "Otherwise",
+          "right": "وإلا / خلاف ذلك"
+        }
+      ]
+    },
+    {
+      "id": "acalt_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a formal conditional sentence (a comma follows the condition).",
+      "promptAr": "رتّب الكلمات لتكوين جملة شرطية رسمية صحيحة (تُتبع العبارة الشرطية بفاصلة).",
+      "explanation": "Put the condition first with a comma, then the main clause; this is formal and clear.",
+      "arabicNote": "ضع 'Provided that' أولًا ثم العبارة الشرطية مع فاصلة متبوعة بالجملة الأساسية. في العربية يَدمج المتكلم الجمل أحيانًا بدون فصل، مما يسبب غموضًا في المعنى.",
+      "weakTag": "acalt_provided_that_form",
+      "words": [
+        "you",
+        "submit",
+        "your",
+        "report,",
+        "I",
+        "will",
+        "approve",
+        "the",
+        "project.",
+        "Provided",
+        "that"
+      ],
+      "correctOrder": [
+        9,
+        10,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "acalt_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "Add the required negation in the result clause because unless means 'if not' and reverses logic otherwise.",
+      "arabicNote": "تذكّر: unless = «ما لم»، وتطلب نتيجة سلبية واضحة في الجملة التالية. الترجمة الحرفية من العربية قد تحذف النفي وتغيّر المعنى بالكامل.",
+      "weakTag": "advanced_conditionals_alternatives_arabic_transfer",
+      "options": [
+        "Unless you study, you will not pass the exam.",
+        "Unless you will study, you pass the exam.",
+        "Unless you studied, you will pass the exam."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Unless you study, you will pass the exam."
+    },
+    {
+      "id": "acalt_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses otherwise to show a negative consequence?",
+      "promptAr": "أي جملة تستخدم otherwise بشكل صحيح لتبيان نتيجة سلبية؟",
+      "explanation": "Otherwise introduces the negative consequence when the instruction is not followed; it warns of the result.",
+      "arabicNote": "اختر otherwise عندما تريد بيان نتيجة سلبية إذا لم يُتبع الطلب. المتحدثون العرب أحيانًا يبدلون الرابط برابط موجب، مما يغيّر التحذير إلى شرط أو إذن.",
+      "weakTag": "acalt_otherwise_precision",
+      "options": [
+        "Come early; otherwise you'll miss the train.",
+        "Come early as long as you have the ticket.",
+        "Come early provided that you arrive on time."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "acalt_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I plan to join the trip tomorrow, but heavy rain would stop me: I'll join the trip tomorrow _____ it rains heavily.",
+      "promptAr": "أخطط للانضمام إلى الرحلة غدًا، لكن المطر الغزير سيمنعني: سأنضم إلى الرحلة غدًا _____ تمطر بغزارة.",
+      "explanation": "Unless introduces the exception that would prevent joining; it signals the negative condition clearly.",
+      "arabicNote": "في هذا السياق استخدم unless لبيان الاستثناء الذي يمنع الانضمام. الترجمة الحرفية قد تختار رابطًا موجبًا فيغيّر معنى المنع إلى إذن أو شرط إيجابي.",
+      "weakTag": "acalt_unless_form",
+      "options": [
+        "unless",
+        "provided that",
+        "as long as",
+        "otherwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "acalt_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly offers permission with a strict condition?",
+      "promptAr": "أي جملة تعطي إذنًا مع شرط صارم بشكل صحيح؟",
+      "explanation": "Provided that sets a required condition for permission; it is precise and formal here.",
+      "arabicNote": "استخدم provided that للتعبير عن شرط صارم يمنح الإذن. الترجمة المباشرة من العربية قد تستخدم 'إذا' فقط، مما يفقد الدقة الرسمية المطلوبة.",
+      "weakTag": "advanced_conditionals_alternatives_register",
+      "options": [
+        "You can borrow my textbook provided that you return it next week.",
+        "You can borrow my textbook unless you return it next week.",
+        "You can borrow my textbook otherwise return it next week."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "acalt_q10",
+      "type": "multiple_choice",
+      "prompt": "Which connector emphasizes a continuing time condition rather than a single event?",
+      "promptAr": "أي رابط يؤكد شرطًا مستمرًا زمنياً بدلاً من حدث واحد؟",
+      "explanation": "As long as stresses a condition that continues over time, not a one-time requirement.",
+      "arabicNote": "استعمل as long as لتبيان شرط يستمر عبر الزمن أو المدة. الترجمة الحرفية بـ'إذا' قد تفقد دلالة الاستمرارية في الإنجليزية، فتحدث غموضًا عن المدة.",
+      "weakTag": "acalt_as_long_as_meaning",
+      "options": [
+        "As long as",
+        "Provided that",
+        "Unless",
+        "Otherwise"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

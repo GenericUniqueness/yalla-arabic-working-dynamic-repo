@@ -1,0 +1,229 @@
+{
+  "id": "possessive_pronouns",
+  "category": "basics",
+  "titleEn": "Possessive Pronouns",
+  "titleAr": "ضمائر الملكية",
+  "level": "A1-A2",
+  "explanationEn": "Possessive pronouns (mine, yours, his, hers, ours, theirs) show ownership and stand alone — they do not come before a noun. Use them when the noun is omitted: 'This is mine.' Arabic often attaches possession to the noun (like 'كتابي'), so learners may try to put the pronoun before a noun or repeat the noun. Practice choosing the correct standalone form.",
+  "explanationAr": "تُظهر ضمائر الملكية (mine و yours و his و hers و ours و theirs) الملكية وتُستخدم وحدها دون اسم بعدها: «This is mine.» في العربية نلصق علامة الملكية بالاسم (مثل «كتابي»)، لذلك قد يحاول المتعلّم وضع الضمير قبل الاسم أو تكرار الاسم في الإنجليزية؛ يجب استخدام الشكل المستقل عندما لا يأتي اسم بعد الضمير.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هذا كتابي",
+      "arabicLiteral": "This is my book",
+      "englishCorrect": "This is mine."
+    },
+    {
+      "arabicStructure": "هذا قلمك",
+      "arabicLiteral": "This is your pen",
+      "englishCorrect": "This is yours."
+    },
+    {
+      "arabicStructure": "هو كتابها",
+      "arabicLiteral": "It is her book",
+      "englishCorrect": "It is hers."
+    },
+    {
+      "arabicStructure": "هذه حقيبتنا",
+      "arabicLiteral": "This is our bag",
+      "englishCorrect": "This is ours."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "This is my.",
+      "correct": "This is mine.",
+      "explanationEn": "Learners use the adjective 'my' instead of the pronoun 'mine' when the noun is omitted. In English we need the standalone pronoun here.",
+      "explanationAr": "يستخدم المتعلّمون my (صفة ملكية) بدلًا من mine (ضمير مستقل) عندما لا يوجد اسم بعده. في الإنجليزية نستخدم الضمير المستقل هنا."
+    },
+    {
+      "wrong": "This bag is her.",
+      "correct": "This bag is hers.",
+      "explanationEn": "Arabic speakers may translate directly and use 'her' (which is a possessive adjective) instead of 'hers' when the noun follows a verb like 'is'.",
+      "explanationAr": "يميل الناطقون بالعربية إلى الترجمة الحرفية واستخدام her (صفة) بدل hers لأن العربية تُظهر الملكية على الاسم، بينما بعد 'is' نحتاج إلى الضمير المستقل."
+    },
+    {
+      "wrong": "This house is our.",
+      "correct": "This house is ours.",
+      "explanationEn": "The form 'our' is a possessive adjective and does not stand alone after a verb. Use 'ours' to replace the noun phrase.",
+      "explanationAr": "our صفة ملكية ولا تُستخدم وحدها بعد الفعل. يجب استخدام ours لتبديل عبارة الاسم في الجملة."
+    },
+    {
+      "wrong": "This is mine book.",
+      "correct": "This book is mine.",
+      "explanationEn": "Arabic structure can put possession before the noun; in English, when using 'mine' the noun must come before the verb ('This book is mine').",
+      "explanationAr": "الترتيب في العربية قد يضع الملكية قبل الاسم، فتظهر أخطاء مثل 'mine book'. بالإنجليزية عند استخدام mine يجب أن يأتي الاسم قبل فعل الربط: 'This book is mine'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pp_q1",
+      "type": "multiple_choice",
+      "prompt": "This is __.",
+      "promptAr": "هذا هو __.",
+      "explanation": "Use 'mine' when the noun is omitted after 'This is'. 'My' is a possessive adjective and needs a noun after it.",
+      "arabicNote": "استخدم 'mine' لأن الاسم محذوف هنا. 'my' تحتاج إلى اسم بعدها، ولهذا قد يخطئ المتعلّمون القادمين من العربية.",
+      "weakTag": "possessive_pronouns_mine",
+      "options": [
+        "my",
+        "mine",
+        "yours"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pp_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'This is mine.' correctly uses the possessive pronoun alone. The others are ungrammatical.",
+      "arabicNote": "الجملة الصحيحة تستخدم الضمير المستقل 'mine' بدون اسم. المتكلمون بالعربية قد يختارون الشكل الخطأ بسبب ترتيب الكلمات في العربية.",
+      "weakTag": "pp_choose_correct",
+      "options": [
+        "This is my.",
+        "This is mine.",
+        "This is mine book."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pp_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "The red bag is __.",
+      "promptAr": "الحقيبة الحمراء هي __.",
+      "explanation": "Use 'hers' because the noun phrase is replaced and the pronoun stands alone after 'is'.",
+      "arabicNote": "استخدم 'hers' لأن الاسم محذوف هنا. في العربية قد تُلصق علامة الملكية بالاسم لذلك يحدث الخلط.",
+      "weakTag": "pp_hers",
+      "options": [
+        "hers",
+        "her",
+        "his"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pp_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "The correct standalone form is 'This is mine.' The second option is grammatical but adds a noun; the task asks for the best direct correction.",
+      "arabicNote": "تصحيح مباشر هو 'This is mine.'. قد يقترح المتعلّمون إضافة اسم كما في 'my book' بسبب عادة الربط في العربية.",
+      "weakTag": "pp_fix_my",
+      "options": [
+        "This is mine.",
+        "This is my book.",
+        "This my."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "This is my."
+    },
+    {
+      "id": "pp_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"This book is mine.\"",
+      "arabicNote": "الترتيب الصحيح بالإنجليزية هو: 'This book is mine.' وهذا يختلف عن تركيب الملكية الملحقة في العربية.",
+      "weakTag": "possessive_pronouns_order",
+      "words": [
+        "book",
+        "is",
+        "This",
+        "mine."
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "pp_q6",
+      "type": "meaning_match",
+      "prompt": "Match each pronoun to its Arabic meaning.",
+      "promptAr": "وصل كل ضمير بمعناه العربي.",
+      "explanation": "These pronouns replace a noun phrase and show possession without repeating the noun.",
+      "arabicNote": "هذه الضمائر تُعوض عبارة اسمية وتظهر الملكية بدون تكرار الاسم، وهو مختلف عن التصريف الملحق في العربية.",
+      "weakTag": "possessive_pronouns_meaning",
+      "pairs": [
+        {
+          "left": "mine",
+          "right": "لي / لي"
+        },
+        {
+          "left": "yours",
+          "right": "لك / لكِ"
+        },
+        {
+          "left": "his",
+          "right": "لَهُ"
+        },
+        {
+          "left": "ours",
+          "right": "لَنَا"
+        }
+      ]
+    },
+    {
+      "id": "pp_q7",
+      "type": "multiple_choice",
+      "prompt": "The green cup is __.",
+      "promptAr": "الكوب الأخضر هو __.",
+      "explanation": "'mine' stands alone and is correct when the noun is omitted. 'my' needs a noun after it.",
+      "arabicNote": "اختر 'mine' لأن الاسم غير مذكور بعد الضمير. المتعلّمون من العربية قد يختارون 'my' من طبع اللصق على الاسم.",
+      "weakTag": "possessive_pronouns_cup",
+      "options": [
+        "mine",
+        "my",
+        "her"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pp_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses a possessive pronoun correctly?",
+      "promptAr": "أي جملة تستخدم ضمير ملكية مستقل بشكل صحيح؟",
+      "explanation": "'This is hers.' correctly uses the possessive pronoun. The first is correct too but uses a possessive adjective + noun; the question asks for the pronoun form.",
+      "arabicNote": "الجملة الثانية تستخدم الضمير المستقل 'hers'. الجملة الأولى صحيحة لكنها تستخدم صفة ملكية مع اسم.",
+      "weakTag": "pp_choose_pronoun",
+      "options": [
+        "This is her book.",
+        "This is hers.",
+        "This hers."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pp_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "These toys are __.",
+      "promptAr": "هذه الألعاب هي __.",
+      "explanation": "Use 'theirs' as the standalone possessive pronoun. 'their' would need a noun after it.",
+      "arabicNote": "اختر 'theirs' لأن الاسم محذوف. في العربية قد يُستخدم تركيب آخر لذا يحدث لبس بين 'their' و 'theirs'.",
+      "weakTag": "pp_theirs",
+      "options": [
+        "their",
+        "theirs",
+        "they"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pp_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "'This is theirs.' is the correct standalone form. The other options are ungrammatical.",
+      "arabicNote": "التصحيح الصحيح هو 'This is theirs.' لأن 'their' صفة وتحتاج اسمًا بعدها؛ هذا فرق مهم للمتعلمين القادمين من العربية.",
+      "weakTag": "pp_fix_their",
+      "options": [
+        "This is theirs.",
+        "This their is.",
+        "Their is this."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "This is their."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "future_will_basic",
+  "category": "a2_core",
+  "titleEn": "Future with Will",
+  "titleAr": "المستقبل باستخدام will",
+  "level": "A2",
+  "explanationEn": "Use will + the base verb to express simple future meanings: predictions, quick decisions, promises, offers, and future facts. Place will before the base verb (will + verb) and do not change the verb form after will. This structure is the standard simple future for clear future statements.",
+  "explanationAr": "نستخدم \"will\" مع الفعل بصيغته الأساسية للتعبير عن توقعات بسيطة، قرارات تُتخذ الآن، ووعود أو حقائق مستقبلية. تختلف العربية: أحيانًا لا تظهر كلمات مساعدة أو يختلف ترتيب الكلمات. انتبه: في الإنجليزية يجب وضع will قبل الفعل الأساسي ولا نغيّر شكل الفعل بعده.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "سأتناول الغداء بعد قليل.",
+      "arabicLiteral": "I will eat lunch in a little while.",
+      "englishCorrect": "I will eat lunch soon."
+    },
+    {
+      "arabicStructure": "هو سيذاكر غدًا.",
+      "arabicLiteral": "He will study tomorrow.",
+      "englishCorrect": "He will study tomorrow."
+    },
+    {
+      "arabicStructure": "سنكون سعداء غدًا.",
+      "arabicLiteral": "We will be happy tomorrow.",
+      "englishCorrect": "We will be happy tomorrow."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I will calling you tomorrow.",
+      "correct": "I will call you tomorrow.",
+      "explanationEn": "After will use the base verb form. Using -ing after will is incorrect for this simple future promise or decision about tomorrow.",
+      "explanationAr": "بعد will يجب أن يأتي الفعل بصيغته الأساسية. استخدام صيغة -ing هنا غير صحيح عند التعبير عن وعد أو قرار يتعلق بالغد."
+    },
+    {
+      "wrong": "It will raining tonight.",
+      "correct": "It will rain tonight.",
+      "explanationEn": "For weather predictions use will + base verb. The -ing form is wrong for a basic future statement about tonight.",
+      "explanationAr": "في توقعات الطقس نستخدم will يليها الفعل في صورته الأساسية. صيغة -ing هنا غير صحيحة لتعبير بسيط عن الطقس الليلة."
+    },
+    {
+      "wrong": "She will plays tennis tomorrow.",
+      "correct": "She will play tennis tomorrow.",
+      "explanationEn": "Do not add -s or other endings after will. The verb stays in the base form even with she/he for future statements.",
+      "explanationAr": "لا نضيف -s أو تغييرات للفعل بعد will. يبقى الفعل بصيغته الأساسية حتى مع ضمائر she أو he، وهذا يختلف عن قواعد بعض الأزمنة في العربية."
+    },
+    {
+      "wrong": "They be happy tomorrow.",
+      "correct": "They will be happy tomorrow.",
+      "explanationEn": "Omitting will removes the required auxiliary for a clear future meaning in English. Arabic often implies future without a helper, but English needs will here.",
+      "explanationAr": "حذف will يجعل الجملة غير واضحة زمنياً في الإنجليزية. قد يفهم المستقبل من السياق في العربية، لكن الإنجليزية تتطلب will كفعل مساعدة لتحديد المستقبل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fwb_q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses will for a future decision made now (deciding at this moment)?",
+      "promptAr": "أي جملة تستخدم will بشكل صحيح لقرار يُتخذ الآن (قرار في لحظة الكلام)؟",
+      "explanation": "A quick decision at the moment of speaking uses will + base verb. Choose the option that shows a present decision to call after class, not a wrong verb form.",
+      "arabicNote": "ابحث عن will ثم الفعل الأساسي للدلالة على قرار فوري. يتسبب اختلاف ترتيب الكلمات في العربية في أخطاء؛ في الإنجليزية يأتي will قبل الفعل الأساسي.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "I will call you after class.",
+        "I will calling you after class.",
+        "I will called you after class.",
+        "I calling you after class."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fwb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence predicting the weather tonight (prediction about tonight).",
+      "promptAr": "اختر الجملة الصحيحة لتوقع الطقس الليلة (توقع عن الليلة).",
+      "explanation": "Weather predictions use will + base verb for a simple future statement about tonight. Only the option with will followed by the base verb is correct.",
+      "arabicNote": "لتوقع الطقس الليلة استخدم will ثم الفعل الأساسي. تجنب أشكال الفعل الخاطئة بعد will أو حذف will، لأن ذلك يغيّر صحة الجملة.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "It will rain tonight.",
+        "It will rains tonight.",
+        "It will raining tonight."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fwb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "I think she ___ like the gift when she sees it tomorrow (prediction about tomorrow).",
+      "promptAr": "أكمل الفراغ بالإنجليزية: I think she ___ like the gift when she sees it tomorrow.",
+      "explanation": "Use will + base verb to predict a future reaction. Choose the auxiliary that correctly goes before the base verb 'like' for a simple future prediction.",
+      "arabicNote": "استخدم will قبل الفعل الأساسي للتنبؤ برد فعل في المستقبل. قد يحذف المتكلم العربي فعل المساعدة أو يغير الترتيب، لكن بالإنجليزية نضع will قبل الفعل.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "will",
+        "is",
+        "does",
+        "did"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fwb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a phone message about tomorrow (promise or decision for tomorrow).",
+      "promptAr": "اختر التصحيح الأفضل لرسالة هاتفية عن الغد (وعد أو قرار يتعلّق بالغد).",
+      "explanation": "Correct the verb after will so the sentence expresses a promise or decision about tomorrow. After will use the base verb form to make the future meaning clear.",
+      "arabicNote": "بعد will يجب أن يأتي الفعل بصيغته الأساسية لتكوين وعد أو قرار عن الغد. يميل المتحدثون العرب إلى حذف الفعل المساعد أو تغيير شكل الفعل، فتأكد من will + الفعل.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "I will call you tomorrow.",
+        "I will calls you tomorrow.",
+        "I will to call you tomorrow."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I will calling you tomorrow."
+    },
+    {
+      "id": "fwb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a future sentence (subject + will + verb + time): 'tomorrow / will / I / study'.",
+      "promptAr": "رتّب كلمات اللغة الإنجليزية التالية لتكوين جملة مستقبلية صحيحة (فاعل + will + فعل + ظرف زمان): 'tomorrow / will / I / study'. أجب بالإنجليزية.",
+      "explanation": "English future word order is subject then will then the base verb then the time expression. Arrange the words so the time 'tomorrow' appears at the end.",
+      "arabicNote": "في الإنجليزية يأتي الفاعل ثم will ثم الفعل الأساسي ثم ظرف الزمان. في العربية قد يأتي ظرف الزمان في أماكن أخرى، لذلك ركّز على ترتيب will قبل الفعل بالإنجليزية.",
+      "weakTag": "future_will_basic_word_order",
+      "words": [
+        "tomorrow",
+        "will",
+        "I",
+        "study"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "fwb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to the Arabic meaning (simple future statements with will).",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي (جمل مستقبلية بسيطة مع will).",
+      "explanation": "These pairs show will + base verb used for simple future facts, predictions, and decisions. Match each English sentence to its correct Arabic meaning without changing time reference.",
+      "arabicNote": "الجمل تظهر will قبل الفعل الأساسي للتعبير عن المستقبل. لاحظ أن العربية قد تستخدم تركيبًا مختصرًا أو ظرفًا لتدل على المستقبل، بينما الإنجليزية تحتاج will.",
+      "weakTag": "future_will_basic_meaning",
+      "pairs": [
+        {
+          "left": "I will call you tomorrow.",
+          "right": "سأتصل بك غدًا."
+        },
+        {
+          "left": "It will rain tonight.",
+          "right": "سوف تمطر الليلة."
+        },
+        {
+          "left": "We will decide soon.",
+          "right": "سنقرر قريبًا."
+        }
+      ]
+    },
+    {
+      "id": "fwb_q7",
+      "type": "multiple_choice",
+      "prompt": "Which option correctly predicts a future action at work tomorrow (prediction about tomorrow at work)?",
+      "promptAr": "أي خيار يتنبأ بفعل مستقبلي في العمل غدًا (توقع عن الغد في العمل)؟",
+      "explanation": "Select the sentence that uses will followed by the base verb to predict a future action at work tomorrow. Wrong forms change the verb ending or use wrong verb forms after will.",
+      "arabicNote": "اختر الجملة التي تحتوي على will ثم الفعل الأساسي للتنبؤ بفعل في العمل غدًا. تجنّب تغيير نهاية الفعل أو استخدام صيغة خاطئة بعد will.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "She will finish the report tomorrow.",
+        "She will finishing the report tomorrow.",
+        "She finishing the report tomorrow.",
+        "She will finished the report tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fwb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence showing a quick decision said now (I decide now to help).",
+      "promptAr": "اختر الجملة الصحيحة التي تظهر قرارًا سريعًا قيل الآن (قررت الآن أن أساعد).",
+      "explanation": "A present quick decision is expressed with will + base verb. Pick the sentence that shows a decision spoken now to help someone immediately.",
+      "arabicNote": "استخدم will ثم الفعل الأساسي عندما تتخذ قرارًا فوريًا أثناء الكلام. في العربية قد يبدو التركييب مختلفًا لكن في الإنجليزية يجب أن يظهر will قبل الفعل.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "Okay, I will help you now.",
+        "Okay, I will helping you now.",
+        "Okay, I will helped you now."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fwb_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this weather prediction about tonight (prediction about tonight).",
+      "promptAr": "اختر التصحيح الأفضل لتوقع الطقس عن الليلة (توقع عن الليلة).",
+      "explanation": "Replace the incorrect verb form after will with the base verb to form a proper future prediction about the weather tonight. Only will + base verb is correct here.",
+      "arabicNote": "استبدل الصيغة الخاطئة بعد will بالفعل الأساسي لتكوين توقع صحيح عن الطقس الليلة. تأكد من أن will يليها الفعل بصيغته الأساسية مباشرة.",
+      "weakTag": "future_will_basic_form",
+      "options": [
+        "It will rain tonight.",
+        "It will rains tonight.",
+        "It will raining tonight."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "It will raining tonight."
+    },
+    {
+      "id": "fwb_q10",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a future sentence about travel next week (subject + will + verb + time): 'will / we / travel / next week'.",
+      "promptAr": "رتّب كلمات اللغة الإنجليزية التالية لتكوين جملة مستقبلية عن السفر الأسبوع المقبل (فاعل + will + فعل + ظرف زمان): 'will / we / travel / next week'. أجب بالإنجليزية.",
+      "explanation": "Arrange subject then will then the base verb then the time expression to make a clear future sentence about traveling next week. This order is standard for simple future statements.",
+      "arabicNote": "اتبع ترتيب الفاعل ثم will ثم الفعل الأساسي ثم ظرف الزمان لتكوين جملة مستقبلية صحيحة. في العربية قد يختلف الترتيب فعليك وضع will قبل الفعل في الإنجليزية.",
+      "weakTag": "future_will_basic_word_order",
+      "words": [
+        "will",
+        "We",
+        "travel",
+        "next week"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    }
+  ]
+}

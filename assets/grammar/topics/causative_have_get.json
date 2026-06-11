@@ -1,0 +1,228 @@
+{
+  "id": "causative_have_get",
+  "category": "b2_expansion",
+  "titleEn": "Causative Have and Get",
+  "titleAr": "استخدام have و get السببي",
+  "level": "B2",
+  "explanationEn": "Use 'have/get + object + past participle' to show you arrange a service or ask someone else to do work for you. The subject stays the main actor but another person performs the action. Always use correct tense, object placement, and past participle for clear meaning.",
+  "explanationAr": "في الإنجليزية نستخدم تركيب have/get + المفعول + التصريف الثالث للتعبير عن أننا رتبنا خدمة أو جعلنا شخصًا آخر يقوم بالعمل نيابةً عنا. في العربية نُعبّر غالبًا بنفس المعنى بترتيب مختلف بدون فعل مساعد واضح، لذلك يجب الانتباه لترتيب الكلمات والزمن والأداة لإيصال المعنى الصحيح.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أصلحت سيارتي عند الميكانيكي.",
+      "arabicLiteral": "I fixed my car at the mechanic.",
+      "englishCorrect": "I had my car repaired at the mechanic."
+    },
+    {
+      "arabicStructure": "قصصت شعري عند الحلاق الأسبوع الماضي.",
+      "arabicLiteral": "I cut my hair at the barber last week.",
+      "englishCorrect": "I got my hair cut last week."
+    },
+    {
+      "arabicStructure": "طلبت من المكتبة تصوير المستندات.",
+      "arabicLiteral": "I asked the library to photocopy the documents.",
+      "englishCorrect": "I had the documents photocopied at the library."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I repaired my car at the mechanic yesterday.",
+      "correct": "I had my car repaired at the mechanic yesterday.",
+      "explanationEn": "This wrong sentence implies you did the repair yourself, not that you arranged a mechanic to do it.",
+      "explanationAr": "الخطأ يعطي معنى أنك أصلحت السيارة بنفسك. للتعبير عن ترتيب خدمة لدى ميكانيكي نستخدم have/get + المفعول + التصريف الثالث."
+    },
+    {
+      "wrong": "I get my hair cut last week.",
+      "correct": "I got my hair cut last week.",
+      "explanationEn": "Use past form 'got' because the service happened in the past; 'get' is present and wrong with 'last week'.",
+      "explanationAr": "في العربية قد نستخدم صيغة الماضي مباشرة. في الإنجليزية مع 'last week' يجب تغيير get إلى 'got' لأن الحدث في الماضي."
+    },
+    {
+      "wrong": "She had cleaned the office last Saturday.",
+      "correct": "She had the office cleaned last Saturday.",
+      "explanationEn": "Wrong uses 'had' as an auxiliary for past perfect. The causative keeps object before past participle.",
+      "explanationAr": "الخطأ يجعل 'had' فعلًا مساعدًا للتام. في التركيب السببي نضع المفعول ثم التصريف الثالث، لإظهار أننا رتبنا تنظيفًا بواسطة آخرين."
+    },
+    {
+      "wrong": "We had a food prepared for the party.",
+      "correct": "We had the food prepared for the party.",
+      "explanationEn": "Missing or wrong article makes the meaning unclear; 'the food' identifies the prepared dishes for the party.",
+      "explanationAr": "النقل الحرفي من العربية قد يغير أداة التعريف. هنا نحتاج 'the food' لتحديد الطعام المقصود الذي أُعد للحفلة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "chg_q1",
+      "type": "multiple_choice",
+      "prompt": "I don't know how to fix cars, so I ____ my car repaired at the garage yesterday.",
+      "promptAr": "لا أعرف تصليح السيارات، لذلك ____ سيارتي لدى الورشة أمس.",
+      "explanation": "Use 'had + object + past participle' to show you arranged a service in the past, not that you did the work yourself.",
+      "arabicNote": "نستخدم have/get في الماضي للتعبير عن أننا رتبنا خدمة، وليس لنعني أننا قمنا بالعمل. المتحدثون العرب قد يترجمون حرفيًا فيقولون 'I repaired' وهذا يغيّر الفاعل.",
+      "weakTag": "causative_have_get_form",
+      "options": [
+        "had my car repaired",
+        "repaired my car",
+        "had repaired my car",
+        "was repairing my car"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "chg_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "She used a passport service. Which sentence shows she arranged the service?",
+      "promptAr": "هي استخدمت خدمة الجوازات. أي جملة توضح أنها رتّبت الخدمة؟",
+      "explanation": "Choose the causative sentence that shows she arranged the service rather than doing it herself.",
+      "arabicNote": "الجملة الصحيحة توضح أنها رتّبت أن يقوم الآخرون بالخدمة. المتحدثون العرب قد يترجمون دون تغيير ترتيب الكلمات، فانتبه للترتيب في الإنجليزية.",
+      "weakTag": "causative_have_get_word_order",
+      "options": [
+        "She renewed her passport herself last week.",
+        "She had her passport renewed last week.",
+        "She renewed her passport by herself last week."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "chg_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "We arranged painters; we ____ the house painted before the guests arrived.",
+      "promptAr": "رتّبنا رسامين؛ نحن ____ المنزل ليكون مصبوغًا قبل وصول الضيوف.",
+      "explanation": "Use had + object + past participle to show you arranged someone else to paint the house before guests arrived.",
+      "arabicNote": "في العربية قد تقول 'صبغنا المنزل' وتبدو أنك فعلت العمل بنفسك. في الإنجليزية استخدم had/get للتأكيد أنك رتّبت الخدمة لشخص آخر.",
+      "weakTag": "causative_have_get_meaning",
+      "options": [
+        "had the house painted",
+        "painted the house",
+        "had painted the house",
+        "are painting the house"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "chg_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "With 'last week' you must use past 'got' to show you had the service done in the past.",
+      "arabicNote": "وجود 'last week' يحدد زمنًا ماضياً؛ لذلك يجب تحويل get إلى 'got'. المتحدثون العرب قد ينسون تعديل الفعل المساعد مع زمن الجملة.",
+      "weakTag": "causative_have_get_form_past",
+      "options": [
+        "I got my hair cut last week.",
+        "I have my hair cut last week.",
+        "I am getting my hair cut last week."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I get my hair cut last week."
+    },
+    {
+      "id": "chg_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to match the meaning 'They arranged someone to check their homework yesterday.'",
+      "promptAr": "رتّب الكلمات لتطابق المعنى 'هم رتبوا أن يراجع شخص واجباتهم أمس'.",
+      "explanation": "Put words in subject + have/get + object + past participle order: 'They had their homework checked yesterday.'",
+      "arabicNote": "في العربية يمكن تغيير ترتيب الجملة بسهولة. في الإنجليزية نضع الفاعل ثم have/get ثم المفعول ثم التصريف الثالث للتعبير عن ترتيب خدمة.",
+      "weakTag": "causative_have_get_word_order",
+      "words": [
+        "checked",
+        "their",
+        "homework",
+        "yesterday.",
+        "They",
+        "had"
+      ],
+      "correctOrder": [
+        4,
+        5,
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "chg_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English causative phrase to its Arabic meaning (service/arranged action).",
+      "promptAr": "وصل كل عبارة سببية إنجليزية بمعناها العربي (خدمة/عمل مرتب).",
+      "explanation": "Each phrase uses have/get + object + past participle to show arranging a service done by someone else.",
+      "arabicNote": "هذه العبارات تظهر أنك رتّبت لآخرين أداء العمل، وليست أفعالًا قمت بها بنفسك. المتحدثون العرب قد يترجمون حرفيًا ويغيرون الفاعل، لذا انتبه للتركيب.",
+      "weakTag": "causative_have_get_meaning",
+      "pairs": [
+        {
+          "left": "have my phone repaired",
+          "right": "أرتب إصلاح هاتفي في مركز الصيانة"
+        },
+        {
+          "left": "get the report translated",
+          "right": "أرتب ترجمة التقرير بواسطة مترجم"
+        },
+        {
+          "left": "have the house painted",
+          "right": "أرتب طلاء المنزل بواسطة رسامين"
+        }
+      ]
+    },
+    {
+      "id": "chg_q7",
+      "type": "multiple_choice",
+      "prompt": "After I arranged the translation service, I ____ the report translated yesterday.",
+      "promptAr": "بعد أن رتبت خدمة الترجمة، أنا ____ التقرير مترجمًا بالأمس.",
+      "explanation": "Use 'had + object + past participle' to show you arranged the translation service and it was done yesterday.",
+      "arabicNote": "الجملة الصحيحة تبين أنك رتّبت الخدمة لشخص آخر. المتحدثون العرب قد يترجمون حرفيًا ويقولون 'translated' مما يغيّر الفاعل.",
+      "weakTag": "causative_have_get_form",
+      "options": [
+        "had the report translated",
+        "translated the report",
+        "had translated the report",
+        "was translating the report"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "chg_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "He paid a company to clean the office last Saturday. Which sentence is correct?",
+      "promptAr": "هو دفع لشركة لتنظيف المكتب السبت الماضي. أي جملة صحيحة تعبر عن ذلك؟",
+      "explanation": "The causative sentence 'had the office cleaned' shows he paid others to do the cleaning last Saturday.",
+      "arabicNote": "في العربية نميل للقول دون توضيح من قام بالفعل. في الإنجليزية نستخدم have/get لنوضح أن العمل قام به آخرون.",
+      "weakTag": "causative_have_get_arabic_transfer",
+      "options": [
+        "He cleaned the office last Saturday.",
+        "He had the office cleaned last Saturday.",
+        "He made the office cleaned last Saturday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "chg_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "The teacher arranged copying; she ____ the tests photocopied yesterday before class.",
+      "promptAr": "المعلّم رتب التصوير؛ هي ____ الاختبارات مصوّرة بالأمس قبل الحصّة.",
+      "explanation": "Use had + object + past participle to show the teacher arranged a copying service before class yesterday.",
+      "arabicNote": "كلمة 'yesterday' تحدد زمنًا ماضياً؛ إذا كتبت 'photocopied' دون have/get فهذا يوحي أن المعلم فعل التصوير بنفسه، بينما نريد التعبير عن ترتيب خدمة.",
+      "weakTag": "causative_have_get_arabic_transfer",
+      "options": [
+        "had the tests photocopied",
+        "photocopied the tests",
+        "had photocopied the tests",
+        "is photocopying the tests"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "chg_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about last night.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة عن الليلة الماضية.",
+      "explanation": "Use past 'had' with 'last night' to show the arranged action happened yesterday evening.",
+      "arabicNote": "مع 'last night' يجب تحويل have/get إلى الماضي 'had' أو 'got' لأن الحدث وقع في الماضي. المتحدثون العرب قد يبقون على صيغة الحاضر عن طريق الخطأ.",
+      "weakTag": "causative_have_get_tense",
+      "options": [
+        "We had our dinner cooked last night.",
+        "We have our dinner cooked yesterday night.",
+        "We are having our dinner cooked last night."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We have our dinner cooked last night."
+    }
+  ]
+}

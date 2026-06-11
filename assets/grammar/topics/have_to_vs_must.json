@@ -1,0 +1,241 @@
+{
+  "id": "have_to_vs_must",
+  "category": "b1_core",
+  "titleEn": "Have To vs Must",
+  "titleAr": "have to مقابل must",
+  "level": "B1",
+  "explanationEn": "This lesson contrasts external necessity (have to) with strong speaker necessity (must). Teach must + base verb for speaker insistence and have to for rules or external requirements. Emphasize correct verb forms and common Arabic transfer errors like adding to or changing the verb after a modal.",
+  "explanationAr": "يركّز هذا الدرس على الفرق بين الضرورات الخارجيّة (have to) وضرورة المتكلّم القوية (must). نُعلّم تركيب must مع الفعل بصيغته الأساسية، وhave to للالتزامات من جهة خارجية، مع التنبيه إلى أخطاء الناطقين بالعربية مثل إضافة to أو تغيير شكل الفعل أو ترتيب الكلمات.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "عليّ أن أذهب الآن.",
+      "arabicLiteral": "On me that I go now.",
+      "englishCorrect": "I have to leave now."
+    },
+    {
+      "arabicStructure": "يجب أن ترتدي حزام الأمان.",
+      "arabicLiteral": "It must that you wear seat belt.",
+      "englishCorrect": "You must wear a seat belt."
+    },
+    {
+      "arabicStructure": "المدرسة تطلب أن نحضر مبكراً.",
+      "arabicLiteral": "The school asks that we arrive early.",
+      "englishCorrect": "We have to arrive early at school."
+    },
+    {
+      "arabicStructure": "أنا أصرّ أن تذاكر الآن.",
+      "arabicLiteral": "I insist that you study now.",
+      "englishCorrect": "You must study now."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I must to leave now.",
+      "correct": "I must leave now.",
+      "explanationEn": "Must takes the base verb without to; adding to is incorrect and shows Arabic transfer.",
+      "explanationAr": "بعد must نستخدم الفعل بصيغته الأساسية بدون to. إضافة to هنا ناتجة عن النقل من العربية وهي خاطئة."
+    },
+    {
+      "wrong": "He musts wear a uniform at work.",
+      "correct": "He has to wear a uniform at work.",
+      "explanationEn": "Must does not take -s for third person. For external workplace rules use has to/have to with agreement.",
+      "explanationAr": "لا نضيف s لكلمة must. عند الحديث عن قاعدة عمل خارجية نستخدم has to أو have to مع مطابقة الفاعل."
+    },
+    {
+      "wrong": "You have to studying tonight.",
+      "correct": "You have to study tonight.",
+      "explanationEn": "After have to use the base verb. Using -ing after have to is ungrammatical in obligation sentences.",
+      "explanationAr": "بعد have to نضع الفعل بصيغته الأساسية دون -ing. الخطأ شائع لأن العربية تسمح بصيغ مصدر مختلفة."
+    },
+    {
+      "wrong": "School say you must go early.",
+      "correct": "The school says you have to go early.",
+      "explanationEn": "When obligation comes from an authority, use have to and correct subject-verb agreement in English.",
+      "explanationAr": "إذا كانت الضرورة من جهة خارجية نستخدم have to، ولا بدّ من مطابقة الفعل والفاعل، خلاف تركيب عربي مبسّط."
+    }
+  ],
+  "questions": [
+    {
+      "id": "htvm_q1",
+      "type": "multiple_choice",
+      "prompt": "Context: A traffic law requires a full stop at this sign. Choose the correct sentence that shows the legal requirement.",
+      "promptAr": "الموقف: القانون المروري يفرض التوقف التام عند هذه الإشارة. اختر الجملة الصحيحة التي تعبّر عن الالتزام القانوني.",
+      "explanation": "Legal obligations come from rules; use have to + base verb, not must + to.",
+      "arabicNote": "هذه ضرورة قانونية من جهة خارجية، فنستخدم have to + الفعل الأساسي. انتبه لأخطاء النقل من العربية مثل إضافة to بعد must أو تحويل الفعل.",
+      "weakTag": "have_to_vs_must_form",
+      "options": [
+        "You must to stop at the sign.",
+        "You have to stop at the sign.",
+        "You must stopping at the sign."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "htvm_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Context: A coach firmly insists a player practice more today. Which sentence shows the coach's strong insistence correctly?",
+      "promptAr": "الموقف: مدرّب يُصرّ بقوة أن يتدرّب اللاعب أكثر اليوم. أي جملة تعبّر عن إصرار المدرب بشكل صحيح؟",
+      "explanation": "Speaker insistence uses must + base verb. Keep must without to and with base verb only.",
+      "arabicNote": "إصرار المتكلّم يتطلّب must مع الفعل الأساسي. المتحدثون العرب قد يضيفون to أو يحوّرون الفعل، فتجنّب ذلك.",
+      "weakTag": "have_to_vs_must_meaning",
+      "options": [
+        "You must to train more, I insist.",
+        "You must train more, I insist.",
+        "You have training more, I insist."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "htvm_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: Company policy requires employees to show ID every day. The company rule says employees ___ wear their ID badges every day.",
+      "promptAr": "الموقف: سياسة الشركة تُلزم الموظفين بإظهار الشارة يومياً. قانون الشركة يقول إن الموظفين ___ ارتداء شارات الهوية يومياً.",
+      "explanation": "A company rule is an external requirement: use have to with the base verb; choose the correct verb chunk.",
+      "arabicNote": "قواعد جهة خارجية تقتضي have to + الفعل الأساسي. انتبه لأخطاء مثل استخدام has to مع فاعل جمع أو إضافة to بعد must.",
+      "weakTag": "have_to_vs_must_word_order",
+      "options": [
+        "must to",
+        "have to",
+        "has to",
+        "musting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "htvm_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Context: A family has a bedtime rule. Fix the sentence to make it correct English for this household rule (use have to for the rule).",
+      "promptAr": "الموقف: لدى العائلة قاعدة لوقت النوم. صحّح الجملة لتصبح إنجليزية صحيحة لقاعدة منزلية (استخدم have to لقاعدة الأسرة).",
+      "explanation": "Household rules are external: use have to + base verb and remove extra to or wrong verb forms.",
+      "arabicNote": "قاعدة منزلية مصدرها جهة خارجية ضمن الأسرة، لذلك نستخدم have to + الفعل الأساسي. ينتج عن النقل من العربية أخطاء مثل 'to to' أو حذف الفعل.",
+      "weakTag": "have_to_vs_must_form",
+      "options": [
+        "You have to sleep now.",
+        "You have sleep now.",
+        "You must to sleep now."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You have to to sleep now."
+    },
+    {
+      "id": "htvm_q5",
+      "type": "sentence_order",
+      "prompt": "Context: A school rule requires being on time. Arrange the words into a correct sentence: the school rule about arrival time.",
+      "promptAr": "الموقف: قاعدة المدرسة تلزم الحضور في الوقت المحدد. رتّب الكلمات لتكوين جملة صحيحة تعبّر عن قاعدة المدرسة بخصوص الوصول.",
+      "explanation": "Put the subject first, then have to, then the base verb, then place and time to form the rule sentence.",
+      "arabicNote": "في الإنجليزية يأتي الفاعل قبل have to ثم الفعل الأساسي ثم المكان والوقت. الاختلاف مع العربية قد يؤدي إلى ترتيب خاطئ إذا ترجمت حرفياً.",
+      "weakTag": "have_to_vs_must_word_order",
+      "words": [
+        "We",
+        "have",
+        "to",
+        "be",
+        "at",
+        "school",
+        "by",
+        "8:00"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "htvm_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to the Arabic meaning that shows whether it's an external rule or the speaker's personal insistence or feeling.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي الذي يوضّح إن كانت ضرورة خارجية أم إصرار المتكلّم أو شعور شخصي.",
+      "explanation": "Match must sentences to speaker insistence or feeling and have to sentences to external authority or rule.",
+      "arabicNote": "الفرق الأساسي: must يدل على إصرار أو شعور داخلي للمتكلّم، بينما have to يدلّ على قاعدة أو فرض من جهة خارجية. ركّز على مصدر الضرورة.",
+      "weakTag": "have_to_vs_must_meaning",
+      "pairs": [
+        {
+          "left": "You must finish your homework now.",
+          "right": "أنا أصرّ أن تكمل واجبك الآن (إصرار المتكلّم)."
+        },
+        {
+          "left": "Students have to wear uniforms at this school.",
+          "right": "الطلاب مُلزَمون بقرار المدرسة بارتداء الزي المدرسي (ضرورة خارجية)."
+        },
+        {
+          "left": "I feel I must call my mother tonight.",
+          "right": "أشعر بضرورة شخصية قوية للاتصال بأمي الليلة (شعور المتكلّم)."
+        }
+      ]
+    },
+    {
+      "id": "htvm_q7",
+      "type": "multiple_choice",
+      "prompt": "Context: A teacher announces a classroom rule about silence during lessons. Which sentence shows the classroom rule correctly?",
+      "promptAr": "الموقف: المعلّم يعلن قاعدة صفية عن الهدوء أثناء الحصة. أي جملة تعبّر عن قاعدة الصف بشكل صحيح؟",
+      "explanation": "A classroom rule is external: use have to + base verb and correct subject-verb agreement.",
+      "arabicNote": "قاعدة صفّية من جهة خارجية تقتضي have to + الفعل الأساسي مع مطابقة الفاعل. تجنّب إضافة to بعد must الناتجة عن الترجمة الحرفية.",
+      "weakTag": "have_to_vs_must_arabic_transfer",
+      "options": [
+        "You must to be quiet in class.",
+        "You have to be quiet in class.",
+        "You musts be quiet in class."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "htvm_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: A friend strongly recommends a recipe tonight. Complete: You ___ try this recipe, I say.",
+      "promptAr": "الموقف: صديق يصرّ أن تجرب الوصفة الليلة. أكمل: You ___ try this recipe, I say.",
+      "explanation": "Strong speaker recommendation uses must + base verb; do not add to after must.",
+      "arabicNote": "إصرار المتكلّم يتطلّب must مع الفعل الأساسي. انتبه من الأخطاء الشائعة مثل إضافة to بعد must أو تحويل الفعل.",
+      "weakTag": "have_to_vs_must_meaning",
+      "options": [
+        "You must try this recipe, I say.",
+        "You must to try this recipe, I say.",
+        "You have trying this recipe, I say.",
+        "You musts try this recipe, I say."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "htvm_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Context: A bus timetable is official and fixed. Choose the best correction for the sentence to show the official schedule.",
+      "promptAr": "الموقف: جدول الحافلات رسمي وثابت. اختر التصحيح الأفضل للجملة لتوضيح الجدول الرسمي.",
+      "explanation": "Official schedules show external obligation; use have to + base verb and correct agreement.",
+      "arabicNote": "الجدول الرسمي مصدر خارجي للضرورة، لذلك نستخدم have to + الفعل الأساسي. تجنّب أخطاء مثل إضافة to بعد must أو صيغة musts.",
+      "weakTag": "have_to_vs_must_arabic_transfer",
+      "options": [
+        "Buses have to arrive at 7:30 every morning.",
+        "Buses musts arrive at 7:30 every morning.",
+        "Buses must to arrive at 7:30 every morning."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Buses must to arrive at 7:30 every morning."
+    },
+    {
+      "id": "htvm_q10",
+      "type": "sentence_order",
+      "prompt": "Context: A parent strongly insists that the child studies tonight. Order the words to show the speaker's insistence.",
+      "promptAr": "الموقف: أحد الوالدين يُصرّ بشدّة أن يذاكر الطفل الليلة. رتّب الكلمات لتوضيح إصرار المتكلّم.",
+      "explanation": "For speaker insistence use must before the base verb. Put subject, must, base verb, then time.",
+      "arabicNote": "في هذه الجملة must يعكس إصرار المتكلّم. ضع الفاعل ثم must ثم الفعل الأساسي ثم ظرف الزمان حتى لا تخطئ بترجمة ترتيب عربي.",
+      "weakTag": "have_to_vs_must_word_order",
+      "words": [
+        "must",
+        "study",
+        "You",
+        "tonight"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3
+      ]
+    }
+  ]
+}

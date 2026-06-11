@@ -1,0 +1,245 @@
+{
+  "id": "advanced_article_nuance",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Article Nuance",
+  "titleAr": "دلالات أدوات التعريف المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic explains how to choose a, an, the, or no article for abstract nouns, institutions, generic meanings, shared knowledge, and specific references. Using everyday contexts like school, work and family, it shows why English sometimes requires an article (or omits it) to make meaning precise and avoid Arabic-style ambiguity.",
+  "explanationAr": "نشرح متى نستخدم a أو an أو the أو لا نستخدم أي أداة مع الأسماء المجردة والمؤسسات والمعاني العامة والمعرفة المشتركة والإشارات المحددة. نوضح فخ الترجمة الحرفية من العربية: العربية تعتمد كثيرًا على السياق، بينما الإنجليزية تحتاج أداة أو حذفًا واضحًا لتحديد المعنى بدقّة وتجنّب الغموض.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "التعليم مهم.",
+      "arabicLiteral": "Education important.",
+      "englishCorrect": "Education is important. (no article for the abstract noun)"
+    },
+    {
+      "arabicStructure": "ذهبت إلى الجامعة.",
+      "arabicLiteral": "I went to the university.",
+      "englishCorrect": "I went to university. (attending as a student; no article)"
+    },
+    {
+      "arabicStructure": "أعطني الملح.",
+      "arabicLiteral": "Give me salt.",
+      "englishCorrect": "Can you pass me the salt? (specific salt on the table)"
+    },
+    {
+      "arabicStructure": "أحتاج نصيحتك الأخيرة.",
+      "arabicLiteral": "I need your advice.",
+      "englishCorrect": "I need the advice you gave me yesterday. (specific advice)"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I need the advice about exams.",
+      "correct": "I need advice about exams.",
+      "explanationEn": "Adding 'the' makes an uncountable abstract noun sound specific; for general help use no article.",
+      "explanationAr": "الخطأ من النقل الحرفي: عند الحديث عامًا عن advice نَحذف الأداة في الإنجليزية لأن 'the' تُحدّد المعنى بلا سبب."
+    },
+    {
+      "wrong": "She studies in the university as a student.",
+      "correct": "She studies at university as a student.",
+      "explanationEn": "When describing student status we say 'study at university' without 'the' to mean enrollment, not a building.",
+      "explanationAr": "الترجمة الحرفية تشير إلى مبنى. عند الإشارة إلى كونها طالبة نستخدم 'study at university' دون 'the'."
+    },
+    {
+      "wrong": "Can you hand me salt?",
+      "correct": "Can you hand me the salt?",
+      "explanationEn": "At a shared table, 'the salt' names the specific salt both speakers see; no article removes the shared reference.",
+      "explanationAr": "في العربية قد يكفي السياق، لكن بالإنجليزية نستخدم 'the' للإشارة إلى عنصر محدد ومعروف بين المتكلمين."
+    },
+    {
+      "wrong": "Lion is a dangerous animal in the zoo.",
+      "correct": "A lion is a dangerous animal in the zoo.",
+      "explanationEn": "Singular generic reference needs an article like 'a' to present one example of the species correctly.",
+      "explanationAr": "الخطأ ناتج عن ترجمة حرفية. عند الحديث عن مثال عام لنوع مفرد نحتاج 'a' في الإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "aanu_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the best article: ___ education, in general, is essential for a well-informed citizenry.",
+      "promptAr": "اختر الأداة المناسبة: الجملة تتحدث عن التعليم بشكل عام، لا عن حالة أو مؤسسة محددة.",
+      "explanation": "No article is used with abstract nouns like 'education' when you mean it generally.",
+      "arabicNote": "في العربية قد نستخدم معرفة أو نحذفها حسب الأسلوب. في الإنجليزية مع المجردات العامة نَحذف الأداة لتجنّب التحديد غير المقصود بين المتكلمين.",
+      "weakTag": "advanced_article_nuance_meaning",
+      "options": [
+        "Education",
+        "The education system in this town",
+        "Educations",
+        "A educations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aanu_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "British English fixed expression for student status: She is a full-time student; she studies ___. Choose the form that means enrolled as a student, not physically inside a building.",
+      "promptAr": "املأ الفراغ: الجملة تشير إلى أنها طالبة مسجّلة، المقصود وضعها كطالبة وليس مبنى جامعي معيّن.",
+      "explanation": "Use 'at university' to describe student status, not a specific campus building.",
+      "arabicNote": "المصطلح 'at university' يعني الحالة كطالبة في الإنجليزية البريطانية/المعيارية؛ الترجمة الحرفية 'الجامعة' قد تُشير إلى مبنى محدد، لذلك نَحذف 'the'.",
+      "weakTag": "advanced_article_nuance_institution",
+      "options": [
+        "at university",
+        "inside the university building",
+        "at a university building"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aanu_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses an article to talk about a species generally?",
+      "promptAr": "أي جملة تستخدم أداة التعريف الصحيحة عند الحديث عن نوع حيواني بشكل عام؟",
+      "explanation": "'The lion' is correct for a singular generic statement about the species as a whole.",
+      "arabicNote": "في العربية قد نستخدم الجمع أو تركيب مختلف. الإنجليزية تستخدم 'the' مع المفرد النمطي للإشارة إلى النوع ككل لتكون الجملة دقيقة وواضحة.",
+      "weakTag": "advanced_article_nuance_precision",
+      "options": [
+        "Lion is a dangerous animal.",
+        "A lion are dangerous animals.",
+        "The lion is a dangerous animal."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "aanu_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to the Arabic meaning showing article nuance.",
+      "promptAr": "اوصل كل عبارة إنجليزية بمعناها العربي مع توضيح تأثير الأداة على المعنى.",
+      "explanation": "Each pair shows how English articles change meaning; avoid literal Arabic translation.",
+      "arabicNote": "التمرين يوضح أنّ الاختلاف في الأداة يمكن أن يغيّر المعنى. متحدثو العربية يميلون للترجمة الحرفية، فهنا نفصّل الفرق لنتجنّب الغموض.",
+      "weakTag": "aanu_article_meaning",
+      "pairs": [
+        {
+          "left": "Education",
+          "right": "التعليم بشكل عام (بدون أداة)"
+        },
+        {
+          "left": "The university",
+          "right": "الجامعة المحددة أو المبنى المعروف"
+        },
+        {
+          "left": "Study at university",
+          "right": "يدرس كطالب (بدون أداة)"
+        },
+        {
+          "left": "The salt",
+          "right": "الملح المحدد الذي على الطاولة (معرفة)"
+        }
+      ]
+    },
+    {
+      "id": "aanu_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a clear specific reference to a book left on a table.",
+      "promptAr": "رتّب الكلمات لتكوين جملة واضحة تشير إلى كتاب تركته على طاولة معيّنة، مع توضيح المكان بشكل محدد.",
+      "explanation": "Correct order: I left my book on that table. 'That' points to a specific table.",
+      "arabicNote": "في العربية قد يكفي السياق. في الإنجليزية نستخدم كلمات مثل 'that' وملكية 'my' لتحديد الشيء والمكان وضمان دقّة المرجع وتجنّب الالتباس.",
+      "weakTag": "advanced_article_nuance_register",
+      "words": [
+        "I",
+        "left",
+        "my",
+        "book",
+        "on",
+        "that",
+        "table"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "aanu_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence describing a specific, known hospital visit: 'I visited hospital to see my brother.'",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي تتكلّم عن زيارة محددة لمستشفى معروف: \"I visited hospital to see my brother.\"",
+      "explanation": "Use 'the hospital' for a specific, known visit both speaker and listener can identify.",
+      "arabicNote": "المتحدثون العرب يسقطون الأداة أحيانًا لأن العربية تعتمد على السياق. هنا المقصود زيارة لمستشفى معروف، لذلك نستخدم 'the hospital' لتحديد المرجع بوضوح.",
+      "weakTag": "advanced_article_nuance_form",
+      "options": [
+        "I visited the hospital to see my brother.",
+        "I visited a hospital to see my brother.",
+        "I visited hospital the to see my brother."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I visited hospital to see my brother."
+    },
+    {
+      "id": "aanu_q7",
+      "type": "multiple_choice",
+      "prompt": "During dinner you ask someone: 'Can you pass me ___?' (The salt shaker is visible on the table and both speakers can see it.)",
+      "promptAr": "اختر التعبير المناسب لسؤال على مائدة حيث الملح موجود أمامكم ويعرفه كلا المتكلمين.",
+      "explanation": "Use the with a specific visible countable object that both speakers can identify.",
+      "arabicNote": "في العربية قد لا نضيف أداة لأن السياق واضح. لكن بالإنجليزية نستخدم 'the' للإشارة إلى عنصر محدد يعرفه الطرفان على الطاولة.",
+      "weakTag": "aanu_shared_knowledge",
+      "options": [
+        "the salt shaker",
+        "salt shaker",
+        "a salt",
+        "an salt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aanu_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I appreciated ___ advice you gave yesterday about my CV.",
+      "promptAr": "املأ الفراغ: الإشارة هنا لنصيحة محددة قُدمت بالأمس وتعرفها المتحدثة والمتلقية.",
+      "explanation": "Use 'the advice' when referring to a specific suggestion you received yesterday about your CV.",
+      "arabicNote": "في العربية قد تكون العبارة مفهومة من السياق فقط. الإنجليزية تحتاج 'the' عندما تشير إلى نصيحة محددة قُدمت سابقًا لتوضيح المرجع.",
+      "weakTag": "advanced_article_nuance_specific",
+      "options": [
+        "the advice",
+        "an advice",
+        "advices",
+        "a advice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aanu_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly signals a natural, specific place reference for the speaker's house?",
+      "promptAr": "أي جملة تشير بشكل طبيعي إلى مكان محدد في الكلام اليومي وتعبر عن بيت المتحدث الخاص؟",
+      "explanation": "'At home' is the fixed expression to mean the speaker's house; other forms are wrong or awkward.",
+      "arabicNote": "المتحدثون العرب قد يترجمون حرفيًا. في الإنجليزية 'at home' عبارة ثابتة تعبر عن البيت الشخصي دون الحاجة لأداة أو تعديل.",
+      "weakTag": "aanu_register",
+      "options": [
+        "I left it at home.",
+        "I left it at a home.",
+        "I left it at home the."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "aanu_q10",
+      "type": "sentence_order",
+      "prompt": "Order the words to make a clear comment about specific feedback someone gave you.",
+      "promptAr": "رتّب الكلمات لتكوين جملة توضح أن ملاحظات محددة من شخص ما كانت مفيدة وأنك تشير إلى ملاحظاته الخاصة.",
+      "explanation": "Your feedback was very helpful. 'Your' already makes the feedback specific; no 'the' is needed.",
+      "arabicNote": "في العربية قد نضيف أداة أو نغيّر الترتيب. بالإنجليزية 'your feedback' تكفي لتحديد مصدر الملاحظات لأن الملكية توضح التحديد.",
+      "weakTag": "advanced_article_nuance_register",
+      "words": [
+        "Your",
+        "feedback",
+        "was",
+        "very",
+        "helpful"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

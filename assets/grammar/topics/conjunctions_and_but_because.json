@@ -1,0 +1,224 @@
+{
+  "id": "conjunctions_and_but_because",
+  "category": "a2_core",
+  "titleEn": "And, But, and Because",
+  "titleAr": "and و but و because",
+  "level": "A2",
+  "explanationEn": "Use and to add information, but to show contrast, and because to give a simple reason. Practice joining short sentences correctly and keep subjects and helping words. Examples: Although it was late, we finished. It was cold; therefore, we stayed inside. Focus on clear clause order and correct function words.",
+  "explanationAr": "في الإنجليزية نستخدم and للإضافة، but للتباين، وbecause للسبب. المتحدثون العرب قد ينسخون ترتيبًا عربيًا مرنًا أو يحذفون كلمات وظيفية. تدرب على ترتيب الجمل ووجود الفاعل أو الأدوات المطلوبة بالإنجليزية لتصبح الجمل واضحة وصحيحة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا وأخي ذهبنا إلى المدرسة.",
+      "arabicLiteral": "I and my brother went to school.",
+      "englishCorrect": "My brother and I went to school."
+    },
+    {
+      "arabicStructure": "درست لذلك نجحت.",
+      "arabicLiteral": "I studied therefore I passed.",
+      "englishCorrect": "I studied, so I passed."
+    },
+    {
+      "arabicStructure": "كنت متعبًا لذلك نمت مبكرًا.",
+      "arabicLiteral": "I was tired therefore I slept early.",
+      "englishCorrect": "Because I was tired, I slept early."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I like coffee but tea.",
+      "correct": "I like coffee, but I like tea.",
+      "explanationEn": "Learners sometimes drop repeated subjects when using but. English needs a clear clause or repeated subject to keep the meaning: 'but I like tea' shows contrast and completes the second clause.",
+      "explanationAr": "يميل المتعلمون إلى حذف الفاعل في العبارة الثانية كما في العربية. في الإنجليزية يجب إكمال الجملة بوضع فاعل أو فعل واضح بعد but."
+    },
+    {
+      "wrong": "He go work and home.",
+      "correct": "He goes to work and goes home.",
+      "explanationEn": "This copies Arabic word order and misses function words and verb agreement. English needs 'goes' (third person -s) and 'to' before place nouns when required.",
+      "explanationAr": "هنا تم نقل ترتيب عربي مباشر وحذف كلمات وظيفية. في الإنجليزية نحتاج إلى صيغ الفعل الصحيحة و'to' قبل بعض الأسماء المكانية."
+    },
+    {
+      "wrong": "I stayed home because raining.",
+      "correct": "I stayed home because it was raining.",
+      "explanationEn": "Arabic sometimes omits subject or auxiliary. English requires a subject and auxiliary in the clause after because when using continuous tenses: 'it was raining.'",
+      "explanationAr": "تُحذف أحيانًا الأداة أو الفاعل في العربية بعد السبب. في الإنجليزية يجب وجود فاعل وأداة زمنية في جملة because لِتكون صحيحة."
+    },
+    {
+      "wrong": "She studied she failed.",
+      "correct": "She studied, but she failed.",
+      "explanationEn": "Putting two sentences side by side without a conjunction can be ambiguous. Use but to show contrast between studying and failing; punctuation alone is not enough in simple writing.",
+      "explanationAr": "في العربية قد تُوضع الجمل متجاورة بدون رابط. في الإنجليزية نحتاج but أو رابط واضح لإظهار التباين بين الجملتين."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cbb_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the best conjunction to join: \"I like tea. I like coffee.\"",
+      "promptAr": "اختر أداة الربط الأنسب لربط الجملتين.",
+      "explanation": "Use and to add information without changing the meaning. The two ideas are similar acts of liking drinks, so and correctly connects them into one sentence.",
+      "arabicNote": "نستخدم and للربط والإضافة. المتحدثون العرب قد يحذفون رابطًا لأنهم سيضعون الكلمات جنبًا لبعضها، لكن الإنجليزية تحتاج and هنا.",
+      "weakTag": "conjunctions_and_but_because_form",
+      "options": [
+        "and",
+        "but",
+        "because"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cbb_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses but correctly to contrast two ideas?",
+      "promptAr": "أي جملة تستخدم but بشكل صحيح للتباين؟",
+      "explanation": "But is a conjunction that links two independent clauses to show contrast. A comma before but is common in written English when joining short clauses.",
+      "arabicNote": "في العربية يمكن وضع الجمل متجاورة دون رابط. في الإنجليزية يجب ربط الجمل بكلمة مثل but وإعادة الفاعل في الجملة الثانية.",
+      "weakTag": "conjunctions_and_but_because_word_order",
+      "options": [
+        "He likes tea he but likes coffee.",
+        "He likes tea, but he likes coffee.",
+        "But he likes tea he likes coffee."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cbb_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She stayed home ___ she was sick.",
+      "promptAr": "أكمل المسافة بأداة السبب الصحيحة.",
+      "explanation": "Because introduces a reason for the action. We explain why she stayed home: because she was sick. This adds a cause, not a contrast or addition.",
+      "arabicNote": "because تشرح السبب. قد يقول المتعلمون ترتيبًا عربيًا مختصرًا بدون أداة، لكن الإنجليزية تحتاج because أو صيغة أخرى لشرح السبب.",
+      "weakTag": "cbb_meaning",
+      "options": [
+        "and",
+        "because",
+        "but"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cbb_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "The clause after because needs a subject and correct auxiliary: 'it was raining.' This fixes the missing subject and verb form that Arabic speakers often omit.",
+      "arabicNote": "الخطأ هنا شائع عند نقل تركيب عربي حرفيًا بدون الفاعل أو الأداة. الإنجليزية تتطلب فاعلًا وأداة زمنية في جمل because.",
+      "weakTag": "conjunctions_and_but_because_arabic_transfer",
+      "options": [
+        "I stayed home because it was raining.",
+        "I stayed home because rain.",
+        "I stayed home because was raining."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I stayed home because raining."
+    },
+    {
+      "id": "cbb_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one sentence with because.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تستخدم because.",
+      "explanation": "The subordinate clause with because comes first: 'Because it rained, we stayed inside.' Keep the comma after the reason clause when it begins the sentence.",
+      "arabicNote": "في العربية ترتيب الجمل يمكن أن يكون مرنًا. هنا يجب وضع جملة السبب كاملة قبل الجملة الأساسية لأن الإنجليزية تتطلب بنية واضحة وفاصلة.",
+      "weakTag": "cbb_word_order",
+      "words": [
+        "we",
+        "stayed",
+        "Because",
+        "inside.",
+        "it",
+        "rained,"
+      ],
+      "correctOrder": [
+        2,
+        4,
+        5,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "cbb_q6",
+      "type": "meaning_match",
+      "prompt": "Match each conjunction to its Arabic meaning.",
+      "promptAr": "صل كل أداة ربط بمعناها العربي.",
+      "explanation": "and adds, but contrasts, because explains reason. Knowing these meanings helps choose the right word when joining clauses.",
+      "arabicNote": "احفظ معنى كل أداة لأن المعنى يحدد أيها تُستخدم; الترجمة المباشرة مفيدة لكن انتبه لترتيب الجمل والفاعل في الإنجليزية.",
+      "weakTag": "conjunctions_and_but_because_meaning",
+      "pairs": [
+        {
+          "left": "and",
+          "right": "و"
+        },
+        {
+          "left": "but",
+          "right": "لكن"
+        },
+        {
+          "left": "because",
+          "right": "لأن"
+        }
+      ]
+    },
+    {
+      "id": "cbb_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the conjunction: \"The test was hard. ___ many students passed.\"",
+      "promptAr": "اختر أداة الربط المناسبة للتباين بين الجملتين.",
+      "explanation": "But shows contrast: the test was hard, yet many students passed. And would add information, and because would give a reason, which does not fit here.",
+      "arabicNote": "في العربية قد تُستخدم كلمات للربط بدون تغيير واضح. في الإنجليزية نحتاج but لإظهار التباين بين الصعوبة والنتيجة.",
+      "weakTag": "cbb_contrast",
+      "options": [
+        "But",
+        "And",
+        "Because"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cbb_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses because to give a reason?",
+      "promptAr": "أيهما يستخدم because بشكل صحيح لشرح السبب؟",
+      "explanation": "The first sentence has a full clause after because and a clear subject. The others are missing a subject or have wrong verb order that Arabic speakers sometimes produce by direct translation.",
+      "arabicNote": "الجملة الأولى صحيحة لأنها تحتوي على جملة سبب كاملة. الترجمة الحرفية من العربية قد تحذف الفاعل أو تغير ترتيب الأفعال.",
+      "weakTag": "conjunctions_and_but_because_form",
+      "options": [
+        "Because I missed the bus, I was late.",
+        "I was late because missed the bus.",
+        "I was late because the bus missed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cbb_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "He studied hard ___ he failed the test.",
+      "promptAr": "اكمل الفراغ بأداة التباين الصحيحة.",
+      "explanation": "But contrasts effort and result: he studied hard, yet he failed. Because would give a reason for failing, which is not intended here.",
+      "arabicNote": "في العربية قد تبدو الجمل متجاورة دون رابطة توضح التباين. الإنجليزية تحتاج but هنا لتوضح المفارقة بين العمل والنتيجة.",
+      "weakTag": "cbb_contrast_meaning",
+      "options": [
+        "and",
+        "but",
+        "because",
+        "so"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "cbb_q10",
+      "type": "multiple_choice",
+      "prompt": "Choose the conjunction: \"She is smart ___ kind.\"",
+      "promptAr": "اختر أداة الربط الصحيحة للجملة البسيطة.",
+      "explanation": "And connects two positive qualities: smart and kind. But would show contrast and because would give a reason, neither matches the simple list of qualities.",
+      "arabicNote": "عند ذكر صفات متعددة نستخدم and. المتكلمون العرب قد يرتبون الصفات بدون رابط، لكن في الإنجليزية نحتاج and بين الصفات.",
+      "weakTag": "conjunctions_and_but_because_form",
+      "options": [
+        "and",
+        "but",
+        "because"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

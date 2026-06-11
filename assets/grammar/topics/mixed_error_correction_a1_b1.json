@@ -1,0 +1,233 @@
+{
+  "id": "mixed_error_correction_a1_b1",
+  "category": "b1_core",
+  "titleEn": "Mixed Error Correction A1-B1",
+  "titleAr": "تصحيح أخطاء مختلطة من A1 إلى B1",
+  "level": "B1",
+  "explanationEn": "Short focused practice on common A1–B1 errors. Each item targets grammar forms Arabic speakers often copy incorrectly: word order, missing helper words, articles, verb forms, and basic modals. Use school, work, home, family, food, travel, or study contexts. Every question has one clear correct answer.",
+  "explanationAr": "تراجع هذه الوحدة أخطاء شائعة بين مستويات A1 وB1. نركز على ترتيب الكلمات وحروف الجر وأدوات المساعدة مثل did و can وإضافة -s مع he/she. المتحدثون العرب قد يترجمون حرفيًا من العربية، لذلك نعرض أخطاء واضحة في سياق يومي مثل المدرسة أو المنزل مع تصحيح باللغة الإنجليزية المقيّدة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أذهب المدرسة كل يوم",
+      "arabicLiteral": "I go school every day",
+      "englishCorrect": "I go to school every day"
+    },
+    {
+      "arabicStructure": "عندي كتاب",
+      "arabicLiteral": "I have book",
+      "englishCorrect": "I have a book"
+    },
+    {
+      "arabicStructure": "أمس هل ذهبت إلى المكتبة؟",
+      "arabicLiteral": "You went to the library yesterday?",
+      "englishCorrect": "Did you go to the library yesterday?"
+    },
+    {
+      "arabicStructure": "أستطيع أن أسبح",
+      "arabicLiteral": "I can to swim",
+      "englishCorrect": "I can swim"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I go school every day.",
+      "correct": "I go to school every day.",
+      "explanationEn": "Arabic often omits prepositions before places. In English, add 'to' when talking about going to a place.",
+      "explanationAr": "في العربية نَحذف أحيانًا حرف الجر قبل المكان. في الإنجليزية نستخدم 'to' مع الحركة نحو مكان: I go to school every day."
+    },
+    {
+      "wrong": "She study English on Saturday.",
+      "correct": "She studies English on Saturday.",
+      "explanationEn": "With third-person singular in present simple, add -s to the verb. This error comes from direct Arabic transfer.",
+      "explanationAr": "في العربية لا يتغير الفعل مع الضمير الغائب بنفس الشكل. المتحدثون العرب ينسون -s مع she في المضارع، لذلك نضيف -s للفعل."
+    },
+    {
+      "wrong": "Can you to help me?",
+      "correct": "Can you help me?",
+      "explanationEn": "After modal 'can' use the base verb without 'to'. Arabic structure causes learners to add an extra particle like 'to'.",
+      "explanationAr": "بعد can لا يأتي 'to'. المتحدثون العرب قد يضيفون 'to' بسبب الترجمة الحرفية من العربية، لكن في الإنجليزية نستخدم الفعل الأساسي بعد can."
+    },
+    {
+      "wrong": "You went to the shop yesterday?",
+      "correct": "Did you go to the shop yesterday?",
+      "explanationEn": "For past simple yes/no questions use did + base verb. Arabic question order can make learners omit 'did'.",
+      "explanationAr": "في العربية يُغيّر ترتيب الجملة للسؤال. في الإنجليزية نحتاج did + الفعل بصيغة الأساس ليس الفعل الماضي بعد did."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mecab_q1",
+      "type": "multiple_choice",
+      "prompt": "I have ___ apple in my bag (choose the correct indefinite article).",
+      "promptAr": "اختر أداة النكرة الصحيحة قبل كلمة تبدأ بحرف علة في هذا السياق.",
+      "explanation": "Use 'an' before a word starting with a vowel sound such as 'apple' in this bag context.",
+      "arabicNote": "في العربية لا نستخدم a/an بنفس قواعد الأصوات. المتحدثون العرب يترجمون أحيانًا حرفيًا. هنا السياق (في حقيبتي) يَجعل 'an' هو الصحيح قبل apple.",
+      "weakTag": "mixed_error_correction_a1_b1_articles",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mecab_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is a correct full statement about her job at a hospital?",
+      "promptAr": "أي جملة صحيحة ومكتملة تتحدث عن عملها في المستشفى؟",
+      "explanation": "A subject is required before the verb in a normal English statement; include the correct article for hospital places.",
+      "arabicNote": "في العربية يمكن حذف الضمير إذا كان واضحًا من السياق، ولكن في الإنجليزية نحتاج ضميرًا واضحًا قبل الفعل ونستخدم 'a' مع hospital هنا: She works at a hospital.",
+      "weakTag": "mixed_error_correction_a1_b1_word_order",
+      "options": [
+        "Works at a hospital.",
+        "She works at a hospital.",
+        "At hospital she works."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mecab_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Every day, Sarah ___ her math homework after school.",
+      "promptAr": "اختر شكل الفعل الصحيح مع she في المضارع البسيط لهذا السياق اليومي.",
+      "explanation": "With she in present simple add -s to the verb: she does her homework every day.",
+      "arabicNote": "المتحدثون العرب قد يترجمون حرفيًا من العربية حيث الفعل لا يتغير. في الإنجليزية مع she نضيف -s: she studies/does.",
+      "weakTag": "mixed_error_correction_a1_b1_form",
+      "options": [
+        "do",
+        "does",
+        "doing",
+        "did"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mecab_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a past simple yes/no question about yesterday.",
+      "promptAr": "اختر التصحيح الأفضل لسؤال ماضي بسيط عن 'أمس' باللغة الإنجليزية الصحيحة.",
+      "explanation": "In past yes/no questions use did + base verb. Example: Did you go yesterday? Do not use past form after did.",
+      "arabicNote": "في العربية نُغير ترتيب الكلمات للسؤال. في الإنجليزية نستخدم did ثم الفعل بصيغته الأساسية للسؤال الماضي: Did you go... وليس You did/go بالعكس.",
+      "weakTag": "mecab_past_questions",
+      "options": [
+        "Did you go to the library yesterday?",
+        "You did went to the library yesterday?",
+        "Do you went to the library yesterday?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "You went to the library yesterday?"
+    },
+    {
+      "id": "mecab_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a normal sentence about routine.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة عن الروتين اليومي (الذهاب إلى المدرسة).",
+      "explanation": "Order: subject, verb, place, time. Put words to form 'I go to school every day'.",
+      "arabicNote": "ترتيب الكلمات في الإنجليزية ثابت عادة: الفاعل ثم الفعل ثم المكان ثم الزمان. المتحدثون العرب قد يضعون الزمن أو المكان قبل الفعل عند الترجمة.",
+      "weakTag": "mecab_word_order",
+      "words": [
+        "every",
+        "day",
+        "to",
+        "go",
+        "school",
+        "I"
+      ],
+      "correctOrder": [
+        5,
+        3,
+        2,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mecab_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English pronoun to its Arabic meaning.",
+      "promptAr": "وصل كل ضمير إنجليزي بمعناه العربي المناسب.",
+      "explanation": "Match pronouns to Arabic meanings. Knowing pronouns helps avoid dropping the subject in English.",
+      "arabicNote": "معرفة معاني الضمائر مهمة لأن الإنجليزية تحتاج غالبًا إلى فاعل صريح. المتحدثون العرب قد يحذفون الفاعل اعتمادًا على السياق العربي.",
+      "weakTag": "mixed_error_correction_a1_b1_meaning",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "أنا"
+        },
+        {
+          "left": "He",
+          "right": "هو"
+        },
+        {
+          "left": "They",
+          "right": "هم"
+        }
+      ]
+    },
+    {
+      "id": "mecab_q7",
+      "type": "fill_blank_with_options",
+      "prompt": "I'm ___ home now; please call me (choose the correct preposition).",
+      "promptAr": "اختر حرف الجر الصحيح مع كلمة 'home' في هذا السياق الحالي.",
+      "explanation": "Use 'at home' for location with 'home'. 'in home' is not idiomatic in this context.",
+      "arabicNote": "في العربية نقول 'أنا في البيت'. لكن في الإنجليزية التعبير الطبيعي هو 'at home'. المتحدثون العرب قد يترجمون حرفيًا ويضعون in أو on.",
+      "weakTag": "mixed_error_correction_a1_b1_prepositions",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "inside"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "mecab_q8",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for ability (can) in a simple statement about swimming now.",
+      "promptAr": "اختر التصحيح الصحيح لجملة عن القدرة باستخدام can في سياق القدرة الحالية.",
+      "explanation": "After can use the base verb without 'to'. Correct: I can swim. Do not add 'to' after can.",
+      "arabicNote": "في العربية نقول 'أستطيع أن أسبح' فتظهر أداة 'أن'. المتحدثون العرب يضيفون 'to' بعد can خطأ. في الإنجليزية نستخدم الفعل الأساسي بعد can.",
+      "weakTag": "mixed_error_correction_a1_b1_arabic_transfer",
+      "options": [
+        "I can swim.",
+        "I can to swim.",
+        "I able to swim."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I can to swim."
+    },
+    {
+      "id": "mecab_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Ask about his trip last week using the correct past question form.",
+      "promptAr": "أي جملة صحيحة تسأل عن رحلته الأسبوع الماضي باستخدام صيغة السؤال الصحيحة؟",
+      "explanation": "Use did + base verb for past questions: Did he go last week? Do not use past form after did.",
+      "arabicNote": "الخطأ الشائع هو استخدام الفعل الماضي بعد did بدلاً من الفعل الأساس. في الإنجليزية نقول: Did he go last week؟ وليس Did he went.",
+      "weakTag": "mecab_past_simple",
+      "options": [
+        "Did he went to Cairo last week?",
+        "He did went to Cairo last week?",
+        "Did he go to Cairo last week?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "mecab_q10",
+      "type": "multiple_choice",
+      "prompt": "My brother eats ___ orange every morning (choose the correct indefinite article).",
+      "promptAr": "اختر أداة النكرة الصحيحة قبل كلمة تبدأ بحرف صوتي في هذا السياق الصباحي.",
+      "explanation": "Use 'an' before vowel sounds: an orange. 'a' is incorrect before a vowel-starting noun in this context.",
+      "arabicNote": "المتحدثون العرب قد يضعون 'a' أو لا يضعون أداة. في الإنجليزية نستخدم 'an' قبل الأصوات المتحركة: an orange كل صباح.",
+      "weakTag": "mixed_error_correction_a1_b1_articles_2",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "adjectives_before_nouns",
+  "category": "basics",
+  "titleEn": "Adjectives Before Nouns",
+  "titleAr": "الصفات قبل الأسماء",
+  "level": "A1",
+  "explanationEn": "In English, most adjectives come before the noun they describe. Say 'a big room' or 'a new bag' — not 'room big' as in Arabic. Put the adjective (big, new, red, small) before the noun and include the article (a / an) for singular countable nouns. Watch for Arabic word order and move the adjective in front of the noun in English.",
+  "explanationAr": "في العربية تأتي الصفة بعد الاسم عادة، لكن في الإنجليزية تأتي الصفة قبل الاسم. على سبيل المثال: في العربية نقول \"غرفة كبيرة\" حرفيًا \"room big\"، لكن بالإنجليزي يجب أن نقول \"a big room\". احذر من ترتيب الكلمات العربي وحرك الصفة قبل الاسم في الإنجليزية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "غرفة كبيرة",
+      "arabicLiteral": "room big",
+      "englishCorrect": "a big room"
+    },
+    {
+      "arabicStructure": "حقيبة جديدة",
+      "arabicLiteral": "bag new",
+      "englishCorrect": "a new bag"
+    },
+    {
+      "arabicStructure": "كتاب سهل",
+      "arabicLiteral": "book easy",
+      "englishCorrect": "an easy book"
+    },
+    {
+      "arabicStructure": "سيارة صغيرة",
+      "arabicLiteral": "car small",
+      "englishCorrect": "a small car"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "room big",
+      "correct": "a big room",
+      "explanationEn": "Arabic places the adjective after the noun, so learners may translate word-for-word and say 'room big'. In English the adjective must come first.",
+      "explanationAr": "المتحدث العربي قد يترجم حرفيًا من العربية ويقول 'room big' لأن الصفة في العربية تأتي بعد الاسم. في الإنجليزية الصفة تأتي قبل الاسم."
+    },
+    {
+      "wrong": "bag new",
+      "correct": "a new bag",
+      "explanationEn": "Learners may place the adjective after the noun by habit from Arabic word order. Put 'new' before 'bag' in English.",
+      "explanationAr": "بسبب عادة ترتيب الكلمات في العربية يضع المتعلّم الصفة بعد الاسم. في الإنجليزية نضع 'new' قبل 'bag'."
+    },
+    {
+      "wrong": "I have book big.",
+      "correct": "I have a big book.",
+      "explanationEn": "Arabic often omits articles and keeps adjective after noun; English needs the article 'a' and adjective before the noun.",
+      "explanationAr": "في العربية قد يُحذف أحيانًا أداة التعريف/النكرة ويُبقي الصفة بعد الاسم. في الإنجليزية نحتاج 'a' للفظ المفرد ونضع الصفة قبل الاسم."
+    },
+    {
+      "wrong": "I see house small.",
+      "correct": "I see a small house.",
+      "explanationEn": "Transferring Arabic order leads to 'house small'. In English use 'a' and put 'small' before 'house'.",
+      "explanationAr": "نقل ترتيب الكلمات من العربية يؤدي إلى 'house small'. في الإنجليزية نستخدم 'a' ونضع 'small' قبل 'house'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "abn_q1",
+      "type": "multiple_choice",
+      "prompt": "Which is correct?",
+      "promptAr": "أي مما يلي صحيح؟",
+      "explanation": "Adjectives come before the noun: 'a big room'.",
+      "arabicNote": "في الإنجليزية الصفة قبل الاسم، لذلك 'a big room' صحيحة.",
+      "weakTag": "adjectives_before_nouns_mc",
+      "options": [
+        "a big room",
+        "big a room",
+        "room a big"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "abn_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence.",
+      "promptAr": "اختر الجملة الصحيحة.",
+      "explanation": "The adjective 'new' must come before the noun: 'a new bag'.",
+      "arabicNote": "الصفة 'new' تأتي قبل 'bag' في الإنجليزية.",
+      "weakTag": "adjectives_before_nouns_choose",
+      "options": [
+        "I have a new bag.",
+        "I have bag new.",
+        "I have new a bag."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "abn_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "This is ___ book.",
+      "promptAr": "هذا ___ كتاب.",
+      "explanation": "We say 'an easy book' because 'easy' (adjective) comes before 'book' and 'an' is used before vowel sounds.",
+      "arabicNote": "نقول 'an easy book' لأن الصفة 'easy' قبل الاسم ونستخدم 'an' قبل صوت حرف علة.",
+      "weakTag": "abn_fill_vowel",
+      "options": [
+        "an easy",
+        "easy an",
+        "book an"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "abn_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Correct order: article + adjective + noun → 'I have a big room.'",
+      "arabicNote": "الترتيب الصحيح: أداة + صفة + اسم، لذلك 'I have a big room.'",
+      "weakTag": "abn_fix_order",
+      "options": [
+        "I have a big room.",
+        "I have big a room.",
+        "I have room a big."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have room big."
+    },
+    {
+      "id": "abn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"It is a big house.\"",
+      "arabicNote": "الترتيب في الإنجليزية: الفاعل ثم الفعل ثم أداة ثم الصفة ثم الاسم — \"It is a big house.\"",
+      "weakTag": "adjectives_before_nouns_order",
+      "words": [
+        "It",
+        "is",
+        "a",
+        "big",
+        "house."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "abn_q6",
+      "type": "meaning_match",
+      "prompt": "Match each adjective to its Arabic meaning.",
+      "promptAr": "صل كل صفة بمعناها العربي.",
+      "explanation": "These adjectives commonly come before nouns in English (big car, new bag).",
+      "arabicNote": "هذه صفات شائعة وتأتي قبل الأسماء في الإنجليزية.",
+      "weakTag": "adjectives_before_nouns_meaning",
+      "pairs": [
+        {
+          "left": "big",
+          "right": "كبير"
+        },
+        {
+          "left": "new",
+          "right": "جديد"
+        },
+        {
+          "left": "red",
+          "right": "أحمر"
+        },
+        {
+          "left": "small",
+          "right": "صغير"
+        }
+      ]
+    },
+    {
+      "id": "abn_q7",
+      "type": "multiple_choice",
+      "prompt": "Which phrase has the adjective before the noun?",
+      "promptAr": "أي عبارة تضع الصفة قبل الاسم؟",
+      "explanation": "Adjective before noun: 'a small car'.",
+      "arabicNote": "في الإنجليزية الصفة قبل الاسم: 'a small car'.",
+      "weakTag": "abn_mc_small",
+      "options": [
+        "a small car",
+        "small a car",
+        "car small a"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "abn_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence with correct adjective order.",
+      "promptAr": "اختر الجملة ذات ترتيب الصفة الصحيح.",
+      "explanation": "Adjective 'red' comes before the noun 'dress'.",
+      "arabicNote": "الصفة 'red' توضع قبل 'dress' في الإنجليزية.",
+      "weakTag": "abn_choose_red",
+      "options": [
+        "She has a red dress.",
+        "She has dress a red.",
+        "She has a dress red."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "abn_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "This is ___ apple.",
+      "promptAr": "هذه ___ تفاحة.",
+      "explanation": "We say 'a red apple' because 'red' (consonant sound) comes before 'apple' and use 'a' for consonant sounds.",
+      "arabicNote": "نقول 'a red apple' لأن 'red' قبل 'apple' ونستخدم 'a' قبل صوت حرف ساكن.",
+      "weakTag": "abn_fill_article",
+      "options": [
+        "an red",
+        "a red",
+        "red a"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "abn_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Correct order: 'a fast car' with the adjective before the noun.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية: 'a fast car'، الصفة قبل الاسم.",
+      "weakTag": "abn_fix_fast",
+      "options": [
+        "I see a fast car.",
+        "I see fast a car.",
+        "I see car a fast."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I see car fast."
+    }
+  ]
+}

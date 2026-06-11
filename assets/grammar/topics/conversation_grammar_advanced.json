@@ -1,0 +1,227 @@
+{
+  "id": "conversation_grammar_advanced",
+  "category": "b2_expansion",
+  "titleEn": "Advanced Conversation Grammar",
+  "titleAr": "قواعد المحادثة المتقدمة",
+  "level": "B2",
+  "explanationEn": "This topic teaches natural spoken patterns: ellipsis (dropping predictable words), question softeners for polite requests, and response tags for confirmation. Emphasize when English requires auxiliaries, fixed word order, or matching tags. Contrast common Arabic transfer errors and practice short spoken replies in everyday contexts like school, work, and home.",
+  "explanationAr": "تعلّم هذه الوحدة أنماط الكلام المتقدمة في الإنجليزية: حذف الكلمات المتوقعة في الكلام اليومي، أدوات التلطيف لطلبات مؤدبة، وعلامات التأكيد (response tags). نوضح متى تحتاج الإنجليزية أدوات مساعدة وترتيب كلمات ثابت، ونقارن هذا بسلوك المتحدث العربي الذي قد يحذف الأدوات أو يغير الترتيب عند الترجمة الحرفية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "جاي؟",
+      "arabicLiteral": "Coming?",
+      "englishCorrect": "Are you coming?"
+    },
+    {
+      "arabicStructure": "تقدر تمر علي؟",
+      "arabicLiteral": "Can you pass by me?",
+      "englishCorrect": "Could you pass by my desk, please?"
+    },
+    {
+      "arabicStructure": "خلصت الواجب؟",
+      "arabicLiteral": "Finished the homework?",
+      "englishCorrect": "Did you finish the homework?"
+    },
+    {
+      "arabicStructure": "هو من القاهرة، صح؟",
+      "arabicLiteral": "He from Cairo, right?",
+      "englishCorrect": "He's from Cairo, isn't he?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She invited you yesterday?",
+      "correct": "Did she invite you yesterday?",
+      "explanationEn": "Arabic often omits auxiliaries in past questions; English needs 'did' to form a clear past question.",
+      "explanationAr": "في العربية قد نحذف أداة السؤال في الماضي. في الإنجليزية نحتاج 'did' قبل الفاعل لتكوين سؤال ماضٍ واضح."
+    },
+    {
+      "wrong": "Can you to send the report?",
+      "correct": "Can you send the report?",
+      "explanationEn": "After a modal verb use the base verb without 'to'. Adding 'to' is a literal translation error from Arabic.",
+      "explanationAr": "إدراج 'to' بعد فعل مودال خطأ شائع ناجم عن الترجمة الحرفية. بعد can/could نستخدم الفعل في المصدر بدون 'to'."
+    },
+    {
+      "wrong": "You like tea, is it?",
+      "correct": "You like tea, don't you?",
+      "explanationEn": "Response tags must match the auxiliary or tense; use 'don't you?' with present simple statements.",
+      "explanationAr": "علامات التأكيد يجب أن تتطابق مع زمن أو أداة الجملة. مع جمله في المضارع البسيط نستخدم 'don't you?' وليس 'is it?'."
+    },
+    {
+      "wrong": "Why you didn't call last night?",
+      "correct": "Why didn't you call last night?",
+      "explanationEn": "In past questions, English puts 'did' before the subject and the base verb after it for a correct word order.",
+      "explanationAr": "في أسئلة الماضي بالإنجليزية نضع 'did' قبل الفاعل ثم الفعل في المصدر. الترتيب المختلف من العربية يؤدي لهذا الخطأ."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cga_q1",
+      "type": "multiple_choice",
+      "prompt": "In class you want to ask politely for a book. Which softener is most natural here?",
+      "promptAr": "أثناء الدرس تريد أن تطلب كتابًا بأدب. أي أداة تلطيف مناسبة هنا؟",
+      "explanation": "Use 'Could you' plus the base verb for polite requests without 'to' or -ing.",
+      "arabicNote": "نستخدم 'Could you' ثم الفعل في المصدر لطلب مهذب. المتحدثون بالعربية قد يضيفون 'to' أو -ing بترجمة حرفية؛ تجنب ذلك.",
+      "weakTag": "conversation_grammar_advanced_softeners",
+      "options": [
+        "Could you to pass the book?",
+        "Can you passing the book?",
+        "Could you pass the book?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "cga_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a response tag for a colleague coming to the meeting?",
+      "promptAr": "أي جملة تستخدم علامة تأكيد مناسبة لوصول الزميل إلى الاجتماع؟",
+      "explanation": "Tags must match subject and auxiliary: 'isn't she?' matches 'She is...'.",
+      "arabicNote": "علامة التأكيد يجب أن تتطابق مع الفاعل والأداة المساعدة. لا تترجم 'صح؟' حرفياً بدون مطابقة الضمير والزمن.",
+      "weakTag": "conversation_grammar_advanced_response_tags",
+      "options": [
+        "She is coming to the meeting, isn't she?",
+        "She is coming to the meeting, isn't it?",
+        "She are coming to the meeting, isn't she?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cga_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "At work: You need the report by five. Choose the correct completion: \"Could you ___ the report by 5?\"",
+      "promptAr": "في العمل: تحتاج التقرير قبل الخامسة. اختر الإكمال الصحيح: \"Could you ___ the report by 5?\"",
+      "explanation": "After 'Could you' use the base verb 'send'; do not use past, 'to', or -ing forms.",
+      "arabicNote": "بعد 'Could you' نضع الفعل في المصدر بدون 'to'. الترجمة الحرفية قد تؤدي لاستخدام 'to' أو صيغة الماضي؛ تجنّبها في الطلبات المؤدبة.",
+      "weakTag": "conversation_grammar_advanced_softeners",
+      "options": [
+        "send",
+        "sent",
+        "to send",
+        "sending"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cga_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة أدناه.",
+      "explanation": "Remove 'to' after the modal and keep subject before the base verb in polite questions.",
+      "arabicNote": "خطأ شائع من الترجمة الحرفية: لا نضع 'to' بعد can/could، ونحافظ على ترتيب الفاعل ثم الفعل في السؤال المؤدب.",
+      "weakTag": "conversation_grammar_advanced_arabic_transfer",
+      "options": [
+        "Can you pass the salt?",
+        "Can pass you the salt?",
+        "Could you passing the salt?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Can you to pass the salt?"
+    },
+    {
+      "id": "cga_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a natural spoken question.",
+      "promptAr": "رتب الكلمات لتكوين سؤال منطوق وطبيعي.",
+      "explanation": "Yes/no questions start with the auxiliary, then the subject, then the verb.",
+      "arabicNote": "في العربية قد تُفهم الجملة بدون مساعد. في الإنجليزية نحتاج المساعد أولاً ثم الفاعل ثم الفعل لعمل سؤال صحيح.",
+      "weakTag": "conversation_grammar_advanced_word_order",
+      "words": [
+        "you",
+        "Are",
+        "coming",
+        "tonight?"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cga_q6",
+      "type": "meaning_match",
+      "prompt": "Match each spoken pattern to its Arabic meaning.",
+      "promptAr": "وصل كل نمط منطوق بمعناه العربي.",
+      "explanation": "These pairs show softeners, confirmation tags, and ellipsis used in casual speech.",
+      "arabicNote": "المطابقة تبيّن أدوات التلطيف وعلامات التأكيد وحذف الفاعل في الكلام اليومي. انتبه أن حذف الأدوات في العربية قد يغيّر صحة الجملة بالإنجليزية.",
+      "weakTag": "conversation_grammar_advanced_meaning",
+      "pairs": [
+        {
+          "left": "Could you...?",
+          "right": "طلب مهذب"
+        },
+        {
+          "left": "..., don't you?",
+          "right": "طلب تأكيد أو موافقة"
+        },
+        {
+          "left": "Want some tea?",
+          "right": "عرض مبسّط (حذف الفاعل)"
+        }
+      ]
+    },
+    {
+      "id": "cga_q7",
+      "type": "multiple_choice",
+      "prompt": "Past homework context: The assignment was due yesterday. Which short spoken reply is grammatically correct?",
+      "promptAr": "سياق واجب ماضٍ: موعد تسليمه كان البارحة. أي رد قصير منطوق صحيح نحوياً؟",
+      "explanation": "For a completed past action use 'did' in short answers: 'Yes, I did.'",
+      "arabicNote": "عند الإجابة عن حدث محدد في الماضي (أمس)، نستخدم 'did' في الإجابة القصيرة. لا تترجم حرفيًا من العربية دون أداة المساعدة.",
+      "weakTag": "conversation_grammar_advanced_form",
+      "options": [
+        "Yes, I did.",
+        "Yes, I am.",
+        "Yes, I do."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cga_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses a softener for a classroom request?",
+      "promptAr": "أي جملة تستخدم أداة تلطيف صحيحة لطلب داخل الصف؟",
+      "explanation": "'Would you mind' is followed by an -ing verb for polite classroom requests.",
+      "arabicNote": "لا تترجم 'هل تمانع أن...' حرفياً. في الإنجليزية نقول 'Would you mind' متبوعًا بالفعل مع -ing لصياغة طلب مهذب.",
+      "weakTag": "conversation_grammar_advanced_softeners",
+      "options": [
+        "Would you mind closing the window?",
+        "Do you mind close the window?",
+        "Will you to close the window?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cga_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "You want confirmation: \"You like tea, ___?\" Choose the correct response tag.",
+      "promptAr": "تريد تأكيداً: \"تحب الشاي، ___؟\" اختر علامة التأكيد الصحيحة.",
+      "explanation": "With 'You like...' use 'don't you?' as the matching present-simple response tag.",
+      "arabicNote": "علامة التأكيد يجب أن تتطابق مع زمن الجملة وفاعلها. اختيار 'isn't it' شائع بالترجمة الخاطئة لكنه غير مطابق هنا.",
+      "weakTag": "conversation_grammar_advanced_response_tags",
+      "options": [
+        "don't you",
+        "do you",
+        "isn't it",
+        "aren't you"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "cga_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence below.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة أدناه.",
+      "explanation": "Put 'did' before the subject and the base verb after it in past questions.",
+      "arabicNote": "في العربية قد يبدو ترتيب الكلمات بدون 'did' طبيعيًا. في الإنجليزية، ضع 'did' قبل الفاعل ثم الفعل في المصدر لتكوين سؤال الماضي الصحيح.",
+      "weakTag": "conversation_grammar_advanced_arabic_transfer",
+      "options": [
+        "Why didn't you call last night?",
+        "Why did you didn't call last night?",
+        "Why didn't call you last night?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Why you didn't call last night?"
+    }
+  ]
+}

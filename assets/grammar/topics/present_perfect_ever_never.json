@@ -1,0 +1,226 @@
+{
+  "id": "present_perfect_ever_never",
+  "category": "b1_core",
+  "titleEn": "Present Perfect with Ever and Never",
+  "titleAr": "المضارع التام مع ever و never",
+  "level": "B1",
+  "explanationEn": "Use ever to ask about experience at any time before now and never to say there is no experience before now. Form: have/has + past participle. Put ever after have/has in questions and never before the past participle. Examples: I have finished my homework. She has never visited London.",
+  "explanationAr": "نستخدم ever في الأسئلة عن تجربة حدثت في أي وقت قبل الآن، وnever للتأكيد على عدم وجود أي تجربة قبل الآن. البنية الصحيحة: have/has + التصريف الثالث (past participle). متحدثو العربية قد يترجمون حرفياً فتُحذف المساعدة أو يتغير ترتيب الكلمات أو يبقى الفعل في شكل الماضي، فاحرص على وضع have/has في المكان الصحيح واستخدام التصريف الثالث.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هل سبق لك أن زرت لندن؟",
+      "arabicLiteral": "You before visited London?",
+      "englishCorrect": "Have you ever visited London?"
+    },
+    {
+      "arabicStructure": "لم أزر باريس أبداً.",
+      "arabicLiteral": "I not visited Paris ever.",
+      "englishCorrect": "I have never visited Paris."
+    },
+    {
+      "arabicStructure": "هل سبق لك أن أكلت سوشي؟",
+      "arabicLiteral": "You before ate sushi?",
+      "englishCorrect": "Have you ever eaten sushi?"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She has visited never London.",
+      "correct": "She has never visited London.",
+      "explanationEn": "Incorrect word order. English places never before the past participle; the wrong order is a literal transfer from Arabic-like patterns and is ungrammatical.",
+      "explanationAr": "خطأ في ترتيب الكلمات. في الإنجليزية نضع never قبل التصريف الثالث، بينما الترجمة الحرفية من العربية قد تضعها بعد الفعل، فتحصل على ترتيب غير صحيح."
+    },
+    {
+      "wrong": "You ever been to Rome?",
+      "correct": "Have you ever been to Rome?",
+      "explanationEn": "Missing auxiliary 'have'. Experience questions require have/has before the subject; omitting it makes the sentence ungrammatical.",
+      "explanationAr": "حذف المساعد have في السؤال ناتج عن الترجمة الحرفية. في أسئلة الخبرة يجب وضع have قبل الفاعل ثم ever ثم التصريف الثالث."
+    },
+    {
+      "wrong": "I have ate sushi before.",
+      "correct": "I have eaten sushi before.",
+      "explanationEn": "Wrong past participle. After have we must use the past participle (eaten), not the simple past form (ate).",
+      "explanationAr": "خطأ في استخدام شكل الفعل: بعد have نستخدم التصريف الثالث (eaten). المتحدثون العرب يخلطون بين الماضي البسيط والتصريف الثالث لذا انتبه."
+    },
+    {
+      "wrong": "Never I have seen that movie.",
+      "correct": "I have never seen that movie.",
+      "explanationEn": "Direct Arabic word order copied into English. English normally keeps subject + auxiliary order in neutral statements with never after auxiliary.",
+      "explanationAr": "ترتيب الكلمات هنا نسخة حرفية من العربية. في الإنجليزية العادية يأتي الفاعل ثم have ثم never ثم التصريف الثالث، لذا ضع الكلمات بهذا الترتيب."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ppen_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct question to ask if someone has tried sushi at any time before now.",
+      "promptAr": "اختر السؤال الصحيح لسؤال شخص عمّا إذا جرّب السوشي في أي وقت قبل الآن. راعِ وجود have وموقع ever.",
+      "explanation": "Experience questions use have/has + past participle; ever follows the auxiliary in questions.",
+      "arabicNote": "في أسئلة الخبرة ضع have قبل الفاعل ثم ever بعدها. لا تضف ظرف زمان محدد مثل 'last week' لأن ذلك يغيّر الزمن ويجعل المضارع البسيط أو الماضي هو الصحيح.",
+      "weakTag": "present_perfect_ever_never_form",
+      "options": [
+        "Have you ever tried sushi?",
+        "Have you ever try sushi?",
+        "Did you try sushi last week?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppen_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly says she has no experience visiting London before now?",
+      "promptAr": "أي جملة تعبّر أنَّها لم تزر لندن في أي وقت قبل الآن؟ تأكّد من وجود has وترتيب never.",
+      "explanation": "Use has + never + past participle to show no experience up to now.",
+      "arabicNote": "الجملة الصحيحة تحتوي على has ثم never ثم التصريف الثالث. الترجمة الحرفية من العربية قد تحذف has أو تغيّر الترتيب، فانتبه لذلك عند الصياغة.",
+      "weakTag": "present_perfect_ever_never_meaning",
+      "options": [
+        "She visited London last year.",
+        "She has never visited London.",
+        "Never she visited London."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ppen_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Fill the blanks: ___ she ever ___ Italian food? (ask about experience at any time before now)",
+      "promptAr": "أكمل الفراغين: هل سبق لها أن ____ طعامًا إيطاليًا؟ اختر المساعد والتصريف الصحيحين في المضارع التام.",
+      "explanation": "Use has (for she) before the subject and the past participle after ever in questions.",
+      "arabicNote": "مع she نستخدم has في السؤال ثم ever وبعدها التصريف الثالث. المتحدثون العرب قد يضعون have أو يتركون الفعل في شكل المصدر، لكن الصحيح has + past participle.",
+      "weakTag": "present_perfect_ever_never_word_order",
+      "options": [
+        "Has / tried",
+        "Have / tried",
+        "Has / try",
+        "Did / try"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppen_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this polite experience question.",
+      "promptAr": "اختر التصحيح الأفضل لهذا السؤال المهذب عن تجربة قبل الآن. تأكد من وجود have وترتيب ever والتصريف الثالث.",
+      "explanation": "Add the missing preposition 'to' and keep have before the subject in experience questions.",
+      "arabicNote": "الخطأ هنا حذف 'to' بعد been قبل الاسم. تأكد من وضع have قبل الفاعل وever بعده، ثم استعمال 'been to' للمكان، لأن الترتيب والهرب من الترجمة الحرفية مهمان.",
+      "weakTag": "ppen_missing_helper",
+      "options": [
+        "Have you ever been to Rome?",
+        "Did you ever been to Rome?",
+        "You have ever been to Rome?"
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Have you ever been Rome?"
+    },
+    {
+      "id": "ppen_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a present perfect experience question.",
+      "promptAr": "رتّب الكلمات لتكوين سؤال بالمضارع التام عن تجربة قبل الآن. ضع ever بعد المساعد الصحيح.",
+      "explanation": "Order: Have + subject + ever + past participle + object. Use this order for experience questions.",
+      "arabicNote": "الترتيب في الإنجليزية: have قبل الفاعل ثم ever ثم التصريف الثالث ثم المفعول. المتحدثون العرب قد يغيرون الترتيب حسب العربية؛ التزام الترتيب الصحيح مهم لفهم السؤال.",
+      "weakTag": "present_perfect_ever_never_word_order",
+      "words": [
+        "Have",
+        "you",
+        "ever",
+        "seen",
+        "that",
+        "movie?"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ppen_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning. All use ever or never with present perfect.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي. جميع الجمل تستخدم ever أو never في المضارع التام عن الخبرة.",
+      "explanation": "Ever asks about any past experience; never denies any past experience up to now.",
+      "arabicNote": "ever للسؤال عن تجربة قبل الآن، وnever للتأكيد على عدم وجود تجربة. انتبه لأن البنية الإنجليزية تحتاج have/has والتصريف الثالث بينما العربية تبني الجملة بشكل مختلف.",
+      "weakTag": "present_perfect_ever_never_meaning",
+      "pairs": [
+        {
+          "left": "Have you ever ridden a horse?",
+          "right": "هل سبق لك أن ركبت حصانًا؟"
+        },
+        {
+          "left": "I have never ridden a horse.",
+          "right": "لم يسبق لي ركوب حصانٍ أبداً."
+        },
+        {
+          "left": "Has he ever studied abroad?",
+          "right": "هل سبق له أن درس في الخارج؟"
+        }
+      ]
+    },
+    {
+      "id": "ppen_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the best sentence to ask if someone has visited the museum at any time before now.",
+      "promptAr": "اختر أفضل جملة لسؤال شخص إن كان قد زار المتحف في أي وقت قبل الآن. ركّز على وجود have وموقع ever.",
+      "explanation": "Life-experience questions use have/has + past participle; avoid time markers that change tense.",
+      "arabicNote": "أسئلة الخبرة العامة لا تذكر وقتًا محددًا وتحتاج have قبل الفاعل وever بعدها. إضافة عبارة زمان محدد مثل 'last month' تحول السؤال إلى الماضي وتغيّر الزمن الصحيح.",
+      "weakTag": "present_perfect_ever_never_form",
+      "options": [
+        "Have you ever visited the museum?",
+        "Did you visit the museum last month?",
+        "Have you ever visit the museum?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppen_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses that she has not visited the museum at any time before now?",
+      "promptAr": "أي جملة تعبّر عن أنها لم تزر المتحف في أي وقت قبل الآن؟ راقب وجود has وموضع never.",
+      "explanation": "Use has + never + past participle to deny any past experience up to now.",
+      "arabicNote": "الجملة الصحيحة تضع has ثم never ثم التصريف الثالث. تجنّب البدائل التي تذكر وقتًا محددًا أو التي تغيّر ترتيب الكلمات كما في العربية.",
+      "weakTag": "ppen_ever_never_meaning",
+      "options": [
+        "She has never visited the museum.",
+        "She visited the museum last week.",
+        "Never she has visited the museum."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppen_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the correct words: ___ you ever ___ to this city? (ask about experience before now)",
+      "promptAr": "اختر الكلمات الصحيحة: هل سبق لك أن ___ إلى هذه المدينة؟ تأكد من استخدام have/has والتصريف المناسب.",
+      "explanation": "Use Have + past participle 'been' to ask about past experience in a place.",
+      "arabicNote": "عن تجربة في أي وقت قبل الآن نستخدم Have ثم ever ثم التصريف الثالث (been) بعد حرف الجر 'to'. المتحدثون العرب قد يضعون did أو يفترضون صيغة أخرى، لكن الصحيح Have / been.",
+      "weakTag": "present_perfect_ever_never_form",
+      "options": [
+        "Have / been",
+        "Did / go",
+        "Has / went",
+        "Have / goes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ppen_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Context: I mean before now, in my life up to now.",
+      "promptAr": "اختر التصحيح الأفضل. السياق: أعني قبل الآن، خلال حياتي حتى اللحظة. تحقق من استخدام التصريف الثالث بعد have.",
+      "explanation": "Use the past participle 'eaten' after have to express life experience up to now.",
+      "arabicNote": "الخطأ شائع لأن العربية لا تغيّر شكل الفعل بهذه الطريقة. استخدم have ثم التصريف الثالث (eaten) للتعبير عن تجربة حتى الآن، ولا تضع الشكل الماضي البسيط بعد have.",
+      "weakTag": "ppen_wrong_participle",
+      "options": [
+        "I have eaten sushi before.",
+        "I have eat sushi before.",
+        "Never I have eaten sushi."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I have ate sushi before."
+    }
+  ]
+}

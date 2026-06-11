@@ -1,0 +1,237 @@
+{
+  "id": "grammar_for_precise_meaning",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Grammar for Precise Meaning",
+  "titleAr": "القواعد من أجل معنى دقيق",
+  "level": "C1",
+  "explanationEn": "Practice choosing grammar that gives exact time, certainty, cause, contrast, emphasis, and clear relationships. Focus on connectors, precise modals, article choice, tense with explicit time markers, and modifier placement to remove ambiguity in work, study, and home contexts.",
+  "explanationAr": "هذا الدرس يعلّمك اختيار صيغ نحوية تعطي معنىً دقيقًا: زمن محدد، درجة يقين، سبب، تضاد، أو تأكيد وعلاقات واضحة بين الأفكار. بخلاف العربية التي تعتمد أحيانًا على السياق والترتيب المرن، تحتاج الإنجليزية وصلات واضحة، أدوات تعريف وزمن محدد وموقع تابع دقيق لتجنّب الغموض في العمل والدراسة والمنزل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبت إلى المحاضرة بعد أن انتهى الأستاذ",
+      "arabicLiteral": "I went to the lecture after the teacher finished",
+      "englishCorrect": "I went to the lecture after the professor had finished speaking."
+    },
+    {
+      "arabicStructure": "تأخرت لأن القطار متأخر",
+      "arabicLiteral": "I was late because the train late",
+      "englishCorrect": "I was late because the train was delayed."
+    },
+    {
+      "arabicStructure": "التقرير أُجيز بعد النقاش.",
+      "arabicLiteral": "the report was approved after the discussion",
+      "englishCorrect": "The report was approved after the discussion."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "By the time the teacher arrived, the students left.",
+      "correct": "By the time the teacher arrived, the students had left.",
+      "explanationEn": "Using simple past for both events can leave the order unclear. Past perfect (had left) shows the students left before the teacher arrived.",
+      "explanationAr": "استخدام الماضي البسيط لكلا الحدثين قد يترك ترتيب الأحداث غير واضح. الماضي التام (had left) يبيّن أن مغادرة الطلاب كانت قبل وصول المعلم."
+    },
+    {
+      "wrong": "She missed the meeting although the train was late.",
+      "correct": "She missed the meeting because the train was late.",
+      "explanationEn": "Although expresses contrast; it does not state cause. Use because to show the late train caused her absence.",
+      "explanationAr": "although تعبر عن تضاد وليست سبباً. إذا كان التأخّر هو السبب، فاستعمل because لتوضيح العلاقة السببية."
+    },
+    {
+      "wrong": "I met manager yesterday; he is head of marketing.",
+      "correct": "I met the manager yesterday; he is the head of marketing.",
+      "explanationEn": "Missing 'the' makes the reference vague. Use 'the' when you identify a specific role you then name in the same context.",
+      "explanationAr": "حذف أداة التعريف يترك الإشارة غامضة. نستخدم 'the' عند الإشارة إلى دور محدد سنعرّفه لاحقًا في السياق."
+    },
+    {
+      "wrong": "After discussing the schedule, the report was approved.",
+      "correct": "After discussing the schedule, the committee approved the report.",
+      "explanationEn": "The original sentence has a dangling modifier: it doesn't name who discussed the schedule. English requires a clear subject to avoid ambiguity.",
+      "explanationAr": "الجملة الأصلية تحتوي على تركيب معلق لا يذكر الفاعل. في الإنجليزية يجب ذكر الفاعل لتجنّب الغموض، بينما العربية قد تسمح بترتيب أكثر مرونة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "gfpm_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the connector that correctly shows cause in this work sentence: \"She missed the meeting ___ the train was late.\"",
+      "promptAr": "اختر الرابط الذي يوضح السبب في جملة العمل: «فاتتها الاجتماع ___ القطار كان متأخراً.»",
+      "explanation": "Because directly links cause and result; other connectors change meaning.",
+      "arabicNote": "في العربية قد يُفهم السبب من السياق فقط. الإنجليزية تحتاج رابطًا واضحًا مثل because لتبيان السبب والنتيجة بدقة في سياق العمل.",
+      "weakTag": "grammar_for_precise_meaning_connectors",
+      "options": [
+        "because",
+        "although",
+        "while",
+        "so that"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "gfpm_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the correct preposition to show a deadline (no later than Friday): \"I will have finished the report ___ Friday.\"",
+      "promptAr": "اختر حرف الجر الصحيح لبيان موعد نهائي (ليس بعد يوم الجمعة): «سأكون قد أنهيت التقرير ___ يوم الجمعة.»",
+      "explanation": "'By Friday' means on or before that deadline; other prepositions change timing.",
+      "arabicNote": "في العربية قد يكفي ذكر التاريخ. الإنجليزية تستخدم by لتوضح أن العمل يتم قبل الموعد أو فيه بالضبط، مما يعطي توقيتًا دقيقًا للالتزام.",
+      "weakTag": "gfpm_time_by",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "after"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "gfpm_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence shows certainty about a past event (yesterday)?",
+      "promptAr": "أي جملة تُظهر يقينًا عن حدث في الماضي (أمس)؟",
+      "explanation": "'Must have + past participle' expresses a confident conclusion about a past event.",
+      "arabicNote": "لليقين عن حدث سابق نستخدم 'must have + التصريف الثالث'. العربية قد تقول 'لا شك أنه'، لكن الإنجليزية تستخدم تركيبًا نحويًا خاصًا للتمييز بين اليقين والاحتمال.",
+      "weakTag": "grammar_for_precise_meaning_certainty",
+      "options": [
+        "He must have seen the email yesterday.",
+        "He might have seen the email yesterday.",
+        "He must see the email yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "gfpm_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to the correct Arabic meaning. Focus on the grammar nuance.",
+      "promptAr": "وصل كل جملة إنجليزية بالمعنى العربي الصحيح. ركّز على الفارق النحوي بين تتابع الأحداث والتأكيد.",
+      "explanation": "Pairs show how tense and connectors change time, cause, and contrast.",
+      "arabicNote": "لاحظ الفرق: الماضي التام يؤكد ترتيب الحدوث، بينما أدوات الربط (because، although) تحدد السبب أو التضاد بوضوح، وهو فرق مهم للمتحدثين العرب.",
+      "weakTag": "gfpm_meaning_match",
+      "pairs": [
+        {
+          "left": "She had left before the meeting started.",
+          "right": "كانت قد غادرت قبل أن يبدأ الاجتماع. (ماضٍ تام يؤكد أن المغادرة سبقت البداية)."
+        },
+        {
+          "left": "She left before the meeting started.",
+          "right": "غادرت قبل بدء الاجتماع. (ماضٍ بسيط يذكر التسلسل دون تأكيد إضافي)."
+        },
+        {
+          "left": "She left because the meeting was cancelled.",
+          "right": "غادرت لأن الاجتماع أُلغي. (سبب واضح ومباشر لمغادرتها)."
+        },
+        {
+          "left": "Although the meeting was cancelled, she still went.",
+          "right": "مع أن الاجتماع أُلغي، إلا أنها ذهبت. (تعبير عن التضاد بين الحدثين)."
+        }
+      ]
+    },
+    {
+      "id": "gfpm_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to emphasize the cause of delay.",
+      "promptAr": "رتّب الكلمات لتؤكد سبب التأخير.",
+      "explanation": "A cleft structure places strong emphasis on the cause.",
+      "arabicNote": "في العربية يمكن تغيير الترتيب للتأكيد. الإنجليزية تستخدم تركيب cleft لوضع التركيز على السبب بوضوح في جملة العمل أو اليومية.",
+      "weakTag": "grammar_for_precise_meaning_emphasis",
+      "words": [
+        "the",
+        "traffic",
+        "that",
+        "delayed",
+        "us",
+        "this",
+        "morning.",
+        "It",
+        "was"
+      ],
+      "correctOrder": [
+        7,
+        8,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "gfpm_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. Time context: two past events where one happened earlier.",
+      "promptAr": "اختر التصحيح الأفضل. السياق الزمني: حدثان في الماضي، وكان أحدهما أقدم من الآخر.",
+      "explanation": "Use past perfect to show one past action happened before another past action.",
+      "arabicNote": "الخطأ شائع لأن العربية قد تكتفي بترتيب الكلمات. الإنجليزية تحتاج الماضي التام (had + التصريف الثالث) لتوضيح أن حدثًا سبق حدثًا آخر.",
+      "weakTag": "gfpm_past_perfect",
+      "options": [
+        "By the time the teacher arrived, the students had left.",
+        "By the time the teacher had arrived, the students leave.",
+        "When the teacher arrived, the students are leaving."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "By the time the teacher arrived, the students left."
+    },
+    {
+      "id": "gfpm_q7",
+      "type": "multiple_choice",
+      "prompt": "Which modal gives polite advice about a deadline? \"You ___ submit the receipts by Friday.\"",
+      "promptAr": "أي فعل شرطي يعطي نصيحة مهذبة حول الموعد النهائي؟ «يجب عليك ___ تسليم الإيصالات بحلول يوم الجمعة.»",
+      "explanation": "'Should' gives polite advice; 'must' shows obligation and is stronger.",
+      "arabicNote": "في العربية قد يُترجم كلاهما بكلمة واحدة. الإنجليزية تميز should كنصيحة مهذبة عن must التي تعني إلزامًا، وهو فرق مهم في سياق العمل.",
+      "weakTag": "grammar_for_precise_meaning_modality",
+      "options": [
+        "must",
+        "should",
+        "may",
+        "can"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gfpm_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Context: At my new job I met ___ manager of marketing yesterday; he is the head of marketing. Choose the correct article.",
+      "promptAr": "السياق: في عملي الجديد قابلت ___ مدير قسم التسويق أمس؛ هو رئيس قسم التسويق. اختر أداة التعريف الصحيحة.",
+      "explanation": "'The' is required because you then identify that specific manager as head of marketing.",
+      "arabicNote": "في العربية أحيانًا لا نضع أداة تعريف مع المهن. الإنجليزية تحتاج 'the' عندما تشير إلى شخص محدد وتذكر دوره لاحقًا لتفادي الغموض.",
+      "weakTag": "gfpm_articles_specific",
+      "options": [
+        "the",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "gfpm_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct and clear for contrast in a match situation?",
+      "promptAr": "أي جملة صحيحة وواضحة للتعبير عن التضاد في موقف مباراة؟",
+      "explanation": "Although ... , we ... gives clear contrast; do not combine contrast words with extra conjunctions.",
+      "arabicNote": "المتحدثون العرب قد يترجمون حرفيًا فيجمعون أدوات تضاد. الإنجليزية تتطلب تركيبًا واحدًا واضحًا للتعبير عن التضاد دون إضافة كلمات متضاربة.",
+      "weakTag": "grammar_for_precise_meaning_connectors_contrast",
+      "options": [
+        "Even though it was raining, but we continued the match.",
+        "Although it was raining, we continued the match.",
+        "Despite it was raining, we continued the match."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "gfpm_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction. The sentence has an unclear subject after a modifying phrase.",
+      "promptAr": "اختر التصحيح الأفضل. الجملة تحتوي على فاعل غير واضح بعد عبارة افتتاحية معدّلة.",
+      "explanation": "Name the person who acted so the opening modifier clearly refers to that person.",
+      "arabicNote": "التركيب المعلق يحدث عندما لا نذكر الفاعل. العربية قد تسمح بمرونة أكبر، لكن الإنجليزية تتطلب ذكر الفاعل بعد العبارة الافتتاحية لتجنّب الالتباس.",
+      "weakTag": "gfpm_dangling_modifier",
+      "options": [
+        "After speaking with the boys, the manager finished the report.",
+        "After speaking with the boys, finishing the report done was.",
+        "Having spoken with the boys, the report finished itself."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "After speaking with the boys, the report was finished."
+    }
+  ]
+}

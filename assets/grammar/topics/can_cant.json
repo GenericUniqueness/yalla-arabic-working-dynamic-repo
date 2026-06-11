@@ -1,0 +1,227 @@
+{
+  "id": "can_cant",
+  "category": "basics",
+  "titleEn": "Can and Can't",
+  "titleAr": "استخدام can و can't",
+  "level": "A1-A2",
+  "explanationEn": "Use can to talk about ability or simple permission (I can swim; You can go). Use can't to say someone cannot do something (She can't drive). After can or can't always use the base verb: no to, no -s. Arabic learners often add 'to' or change the verb because Arabic uses different verb patterns and markers for ability.",
+  "explanationAr": "في العربية نعبّر عن القدرة أحيانًا بفعل مركب أو بصيغة فعل متصرفة، لكن في الإنجليزية نستخدم أداة إمكانية ثابتة: can / can't + الفعل الأساسي. في العربية قد تقول \"أستطيع أن أقرأ\" لذلك يضيف المتعلمون 'to' أو يصرّفون الفعل خطأً. في الإنجليزية نضع can أو can't ثم الفعل دون 'to' ودون تغيير الفعل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أستطيع السباحة.",
+      "arabicLiteral": "I can swim.",
+      "englishCorrect": "I can swim."
+    },
+    {
+      "arabicStructure": "لا أستطيع اللعب.",
+      "arabicLiteral": "I not can play.",
+      "englishCorrect": "I can't play."
+    },
+    {
+      "arabicStructure": "هل أستطيع الذهاب؟",
+      "arabicLiteral": "Can I go?",
+      "englishCorrect": "Can I go?"
+    },
+    {
+      "arabicStructure": "أستطيع أن أغنّي.",
+      "arabicLiteral": "I can to sing.",
+      "englishCorrect": "I can sing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I can to swim.",
+      "correct": "I can swim.",
+      "explanationEn": "Learners sometimes add 'to' because Arabic uses 'أن' before verbs (like 'أستطيع أن...'). In English we do not use 'to' after can.",
+      "explanationAr": "يميل متحدثو العربية لإضافة 'to' بسبب وجود 'أن' بعد أستطيع في العربية. في الإنجليزية لا نضع 'to' بعد can."
+    },
+    {
+      "wrong": "She can't to dance.",
+      "correct": "She can't dance.",
+      "explanationEn": "Same issue: don't use 'to' after can't. The modal + base verb pattern is different from Arabic verb patterns.",
+      "explanationAr": "نفس الخطأ هنا: لا نستخدم 'to' بعد can't. تركيب can + الفعل الأساسي يختلف عن بناء الفعل في العربية."
+    },
+    {
+      "wrong": "He can plays football.",
+      "correct": "He can play football.",
+      "explanationEn": "After can use the base verb (play). Arabic verbs are conjugated for person, so learners sometimes add -s wrongly.",
+      "explanationAr": "في العربية نصرّف الفعل للشخص، لذلك قد يضيف المتعلمون -s في الإنجليزية (plays) خطأً. بعد can نستخدم الفعل الأساسي play."
+    },
+    {
+      "wrong": "Can I to go?",
+      "correct": "Can I go?",
+      "explanationEn": "In questions with can, place can before the subject and use the base verb without 'to'. Arabic question word order and particles can make learners insert 'to'.",
+      "explanationAr": "في العربية ترتيب السؤال والجسيمات قد يجعل المتعلم يضيف 'to'. في الإنجليزية نسأل: Can + subject + base verb (Can I go?)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "can_q1",
+      "type": "multiple_choice",
+      "prompt": "I ___ swim.",
+      "promptAr": "أنا أستطيع السباحة جيداً. أنا ___ أسبح.",
+      "explanation": "'Can' shows ability: I am able to swim.",
+      "arabicNote": "نستخدم 'can' للتعبير عن القدرة: أنا قادر على السباحة.",
+      "weakTag": "can_cant_ability",
+      "options": [
+        "can",
+        "can't",
+        "must"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "can_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Correct: 'I can read.' Use can + base verb, no 'to' and no -s.",
+      "arabicNote": "الصحيح: 'I can read.' لأننا لا نضيف 'to' أو -s بعد can.",
+      "weakTag": "can_cant_correct_sentence",
+      "options": [
+        "I can to read.",
+        "I can read.",
+        "I can reads."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "can_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ play the piano.",
+      "promptAr": "سارة تعزف الموسيقى جيداً. هي ___ تعزف على البيانو.",
+      "explanation": "'Can' shows ability: she knows how to play.",
+      "arabicNote": "نستخدم 'can' عندما تكون لدى الشخص قدرة أو مهارة.",
+      "weakTag": "can_play",
+      "options": [
+        "can",
+        "can't",
+        "must"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "can_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Remove 'to' after can and use the base verb: 'He can swim.'",
+      "arabicNote": "احذف 'to' بعد can لأن العربية قد تضع أداة قبل الفعل (أن) لكنها ليست ضرورية هنا.",
+      "weakTag": "can_fix_to",
+      "options": [
+        "He can swim.",
+        "He can swims.",
+        "He cannot to swim."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He can to swim."
+    },
+    {
+      "id": "can_q5",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "Can shows ability or permission; can't negates it. Questions use can + subject + base verb.",
+      "arabicNote": "can هنا تعبر عن القدرة أو الإذن، وتركيب السؤال مختلف عن العربية.",
+      "weakTag": "can_cant_meaning",
+      "pairs": [
+        {
+          "left": "I can dance.",
+          "right": "أستطيع الرقص."
+        },
+        {
+          "left": "She can't sing.",
+          "right": "لا تستطيع الغناء."
+        },
+        {
+          "left": "Can I help?",
+          "right": "هل يمكنني المساعدة؟"
+        },
+        {
+          "left": "They can come.",
+          "right": "يمكنهم الحضور."
+        }
+      ]
+    },
+    {
+      "id": "can_q6",
+      "type": "multiple_choice",
+      "prompt": "They ___ play outside today.",
+      "promptAr": "الأطفال لديهم إذن للعب. هم ___ يلعبون في الخارج.",
+      "explanation": "'Can' shows they have permission or ability to play outside.",
+      "arabicNote": "نستخدم can للإشارة إلى الإذن أو القدرة: لديهم السماح للعب في الخارج.",
+      "weakTag": "can_cant_permission",
+      "options": [
+        "can",
+        "can't",
+        "should"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "can_q7",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"I cannot swim.\"",
+      "arabicNote": "الجملة الصحيحة: \"I cannot swim.\" لا نضيف 'to' بعد can أو cannot.",
+      "weakTag": "can_cant_order",
+      "words": [
+        "cannot",
+        "I",
+        "swim."
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "can_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "Correct: 'They can go.' Use can + base verb, no 'to' and no -s.",
+      "arabicNote": "الصحيح: 'They can go.' لأننا لا نضيف 'to' أو -s بعد can.",
+      "weakTag": "can_cant_correct_sentence_2",
+      "options": [
+        "They can to go.",
+        "They can go.",
+        "They can't goes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "can_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "After can use the base verb: 'She can sing.' Do not add -s.",
+      "arabicNote": "لا نضيف -s بعد can لأن العربية تُصرّف الفعل للفاعل فتخطئ بعض المترات.",
+      "weakTag": "can_fix_s",
+      "options": [
+        "She can sing.",
+        "She can to sing.",
+        "She can't sing."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She can sings."
+    },
+    {
+      "id": "can_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "I ___ go to the party tonight.",
+      "promptAr": "أنا مدعو إلى الحفلة الليلة. أنا ___ أذهب.",
+      "explanation": "'Can' here shows I have permission or ability to go.",
+      "arabicNote": "نستخدم 'can' عندما يكون لديك إذن أو يمكنك الحضور.",
+      "weakTag": "can_cant_party",
+      "options": [
+        "can",
+        "can't",
+        "must"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

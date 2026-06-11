@@ -1,0 +1,235 @@
+{
+  "id": "cause_and_result",
+  "category": "b2_expansion",
+  "titleEn": "Cause and Result",
+  "titleAr": "السبب والنتيجة",
+  "level": "B2",
+  "explanationEn": "This topic teaches how to connect causes and results using because, since, as, so, therefore, as a result, and due to. Emphasise correct word order, punctuation, and when to use 'due to' or 'because of' with noun phrases. Avoid literal Arabic transfer that drops function words or changes clause structure.",
+  "explanationAr": "تعلّم هذه الوحدة ربط السبب بالنتيجة في الإنجليزية باستخدام because و since و as و so و therefore و as a result و due to. نركز على ترتيب الكلمات، وعلامات الترقيم، ومتى نستخدم 'due to' أو 'because of' مع عبارة اسمية. انتبه أن العربية تسمح بترتيب مرن وحذف كلمات وظيفية، فترجمة حرفية تؤدي إلى أخطاء مثل حذف 'of' أو وضع 'due to' قبل جملة فعلية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "تأخرنا لذلك فاتتنا الحصة.",
+      "arabicLiteral": "We were late; therefore we missed the class.",
+      "englishCorrect": "We were late; therefore, we missed the class."
+    },
+    {
+      "arabicStructure": "الرحلة ألغيت بسبب المطر.",
+      "arabicLiteral": "The trip was cancelled because of the rain.",
+      "englishCorrect": "The trip was cancelled due to the rain."
+    },
+    {
+      "arabicStructure": "لأنه درس كثيرا، نجح.",
+      "arabicLiteral": "Because he studied a lot, he succeeded.",
+      "englishCorrect": "Because he studied a lot, he succeeded."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Because the heavy traffic, we arrived late.",
+      "correct": "Because of the heavy traffic, we arrived late.",
+      "explanationEn": "Use 'because of' with a noun phrase; 'because' needs a clause with a verb.",
+      "explanationAr": "أحيانًا تحذف 'of' عند الترجمة الحرفية من العربية. مع عبارة اسمية نستخدم 'because of'."
+    },
+    {
+      "wrong": "The picnic cancelled due to the rain.",
+      "correct": "The picnic was cancelled due to the rain.",
+      "explanationEn": "Passive voice needs the auxiliary verb (was) before the past participle.",
+      "explanationAr": "في المبني للمجهول بالإنجليزية نحتاج فعلًا مساعدًا ('was') قبل التصريف. الترتيب العربي المباشر يسبب هذا الخطأ."
+    },
+    {
+      "wrong": "I missed the bus so I late.",
+      "correct": "I missed the bus, so I was late.",
+      "explanationEn": "Result clauses require a verb; include 'was' in the result phrase.",
+      "explanationAr": "قد تُحذف الأفعال عند الترجمة من العربية، لكن في الإنجليزية يجب وجود فعل في عبارة النتيجة مثل 'I was late'."
+    },
+    {
+      "wrong": "Due to he was tired, he left early.",
+      "correct": "Because he was tired, he left early.",
+      "explanationEn": "'Due to' modifies nouns; use 'because' before a full clause with subject and verb.",
+      "explanationAr": "'due to' تتبعها عبارة اسمية فقط. الجملة التي تحتوي فاعلًا وفعلًا تحتاج 'because'، وهذا فرق نحوي مهم للمتحدثين العرب."
+    }
+  ],
+  "questions": [
+    {
+      "id": "caus_q1",
+      "type": "multiple_choice",
+      "prompt": "I missed the bus; _____, I was late for work.",
+      "promptAr": "اختر الرابط الرسمي المناسب بعد الفاصلة المنقوطة لربط جملتين مستقلتين.",
+      "explanation": "Use 'therefore' after a semicolon to link two independent clauses and show result.",
+      "arabicNote": "بعد الفاصلة المنقوطة نحتاج رابطًا منطقيًا يربط نتيجتين. الترجمة الحرفية من العربية قد تدفع الطالب لاختيار رابط غير مناسب أو زمني.",
+      "weakTag": "cause_and_result_word_order",
+      "options": [
+        "therefore",
+        "during",
+        "although",
+        "until"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "caus_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is grammatically correct?",
+      "promptAr": "أي جملة صحيحة نحوياً في استخدام 'due to' مع المبني للمجهول؟",
+      "explanation": "Choose the passive sentence that correctly places 'due to' after the verb phrase.",
+      "arabicNote": "في المبني للمجهول يجب وجود فعل مساعد ('was') قبل التصريف. المتحدثون العرب قد ينسون هذا الفعل عند الترجمة الحرفية من العربية.",
+      "weakTag": "cause_and_result_form",
+      "options": [
+        "The picnic cancelled due to the rain.",
+        "The picnic was cancelled due to the rain.",
+        "Due rain, the picnic was cancelled."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "caus_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "_____ the bad weather, school was closed.",
+      "promptAr": "أكمل الفراغ بكلمة ربط صحيحة تتبعها عبارة اسمية في بداية الجملة.",
+      "explanation": "'Due to' introduces a noun phrase reason at the start of a sentence.",
+      "arabicNote": "مع عبارة اسمية مثل 'the bad weather' نستخدم 'due to' أو 'because of' في بداية الجملة. لا تضع 'as' قبل اسم دون فعل؛ هذا خطأ شائع.",
+      "weakTag": "cause_and_result_form",
+      "options": [
+        "Due to",
+        "So",
+        "Therefore",
+        "As"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "caus_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التالية التي تفتقد 'of' بعد because.",
+      "explanation": "Use 'because of' before a noun phrase to show a cause correctly.",
+      "arabicNote": "الترجمة الحرفية من العربية قد تحذف 'of' بعد 'because'. في الإنجليزية نحتاج 'because of' عندما يلي السبب عبارة اسمية مثل 'the heavy traffic'.",
+      "weakTag": "cause_and_result_arabic_transfer",
+      "options": [
+        "Because of the heavy traffic, we arrived late.",
+        "Because heavy traffic, we arrived late.",
+        "Because the heavy traffic, we arrived late."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Because the heavy traffic, we arrived late."
+    },
+    {
+      "id": "caus_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a result sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة تُظهر النتيجة. ضع علامات الترقيم في أماكنها المناسبة.",
+      "explanation": "Correct order: \"As a result, the match was cancelled.\" Use as a result to introduce the result of the previous situation.",
+      "arabicNote": "في الإنجليزية نكتب 'As a result, ...' ثم نتابع الجملة مع فاصلة. في العربية قد تُكتب النتيجة بدون فاصلة، فتنقلك الحرفي يسبب خطأ في الكتابة.",
+      "weakTag": "cause_and_result_sentence_order",
+      "words": [
+        "As",
+        "a",
+        "result,",
+        "the",
+        "match",
+        "was",
+        "cancelled."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "caus_q6",
+      "type": "meaning_match",
+      "prompt": "Match each connector with its Arabic meaning.",
+      "promptAr": "وصل كل رابط بمعناه العربي المناسب مع الانتباه للفروق النحوية بين الروابط.",
+      "explanation": "Connectors differ in form and typical position; match each connector with its meaning.",
+      "arabicNote": "لا تخلط بين 'since' الزمنية و'بما أن' السببية. لاحظ أن بعض الروابط تتبعها عبارة اسمية مثل 'due to' وأخرى تتبعها جملة فعلية.",
+      "weakTag": "cause_and_result_meaning",
+      "pairs": [
+        {
+          "left": "because",
+          "right": "لأن"
+        },
+        {
+          "left": "since",
+          "right": "بما أن"
+        },
+        {
+          "left": "therefore",
+          "right": "لذلك"
+        },
+        {
+          "left": "due to",
+          "right": "بسبب"
+        }
+      ]
+    },
+    {
+      "id": "caus_q7",
+      "type": "multiple_choice",
+      "prompt": "She left early _____ she had an important appointment.",
+      "promptAr": "اختر الرابط الأنسب داخل الجملة لإظهار السبب المباشر بعد الفعل.",
+      "explanation": "'Because' introduces the reason clause directly after the main clause without extra punctuation.",
+      "arabicNote": "داخل الجملة نستخدم 'because' قبل جملة السبب. المتحدثون العرب قد يختارون 'due to' خطأً لأنهما يقاربان في المعنى لكنه لا يتبع بجملة فعلية.",
+      "weakTag": "cause_and_result_form",
+      "options": [
+        "because",
+        "due to",
+        "therefore",
+        "as a result"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "caus_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the sentence that correctly uses 'since' to mean 'because'.",
+      "promptAr": "اختر الجملة التي تستخدم 'since' بمعنى السبب بشكل صحيح وليس للزمن.",
+      "explanation": "'Since' can mean 'because' when it introduces a reason clause with a verb.",
+      "arabicNote": "الخلط شائع لأن 'since' تُستخدم زمنياً أيضاً. عندما تعني 'بما أن' يجب أن تليها جملة فعلية تحتوي فعلًا واضحًا، مثل المثال الصحيح هنا.",
+      "weakTag": "cause_and_result_word_order",
+      "options": [
+        "Since it was raining, we stayed inside.",
+        "I have lived here since five years.",
+        "He arrived since dinner."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "caus_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "He didn't set an alarm, _____ he missed breakfast.",
+      "promptAr": "أكمل الفراغ بكلمة تُظهر النتيجة بشكل صحيح بعد جملة سبب مع فاصلة.",
+      "explanation": "'So' links cause and result in this spoken/written sequence after a comma.",
+      "arabicNote": "في هذا السياق تأتي النتيجة بعد سبب وفاصلة، لذلك نستخدم 'so'. لا نستخدم 'due to' أو 'because of' قبل جملة فعلية هنا.",
+      "weakTag": "cause_and_result_form",
+      "options": [
+        "so",
+        "due to",
+        "because of",
+        "however"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "caus_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التالية التي تخلط بين 'because' و 'because of'.",
+      "explanation": "Use 'because' before a full clause; 'because of' must be followed by a noun phrase.",
+      "arabicNote": "خطأ شائع أن يضع المتعلمون 'because of' قبل جملة فعلية بسبب الترجمة الحرفية من العربية. هنا الصيغة الصحيحة هي 'because' لأن ما بعدها جملة كاملة.",
+      "weakTag": "cause_and_result_arabic_transfer",
+      "options": [
+        "I passed the exam because I studied hard.",
+        "I passed the exam because of I studied hard.",
+        "Because of I studied hard, I passed the exam.",
+        "I passed the exam due to I studied hard."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I passed the exam because of I studied hard."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "present_simple_third_person_s",
+  "category": "basics",
+  "titleEn": "Present Simple: Third Person -s",
+  "titleAr": "المضارع البسيط مع s للشخص الثالث",
+  "level": "A1-A2",
+  "explanationEn": "In the present simple tense, we add -s or -es to the verb when using he, she, or it. This is important for correct sentence structure. Arabic does not use this ending, so learners often forget it.",
+  "explanationAr": "في المضارع البسيط، نضيف -s أو -es للفعل مع he وshe وit. هذا مهم لبناء جملة صحيحة. في العربية، لا نستخدم هذا اللاحقة، لذا قد ينسى المتعلمون إضافتها.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "هو يلعب كرة القدم",
+      "arabicLiteral": "He play football",
+      "englishCorrect": "He plays football"
+    },
+    {
+      "arabicStructure": "هي تأكل التفاحة",
+      "arabicLiteral": "She eat the apple",
+      "englishCorrect": "She eats the apple"
+    },
+    {
+      "arabicStructure": "هو يدرس في المدرسة",
+      "arabicLiteral": "It study in the school",
+      "englishCorrect": "It studies in the school"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He play football.",
+      "correct": "He plays football.",
+      "explanationEn": "The verb needs -s with he.",
+      "explanationAr": "الفعل يحتاج إلى -s مع he."
+    },
+    {
+      "wrong": "She eat breakfast.",
+      "correct": "She eats breakfast.",
+      "explanationEn": "The verb needs -s with she.",
+      "explanationAr": "الفعل يحتاج إلى -s مع she."
+    },
+    {
+      "wrong": "It make noise.",
+      "correct": "It makes noise.",
+      "explanationEn": "The verb needs -s with it.",
+      "explanationAr": "الفعل يحتاج إلى -s مع it."
+    },
+    {
+      "wrong": "He go to school.",
+      "correct": "He goes to school.",
+      "explanationEn": "The verb needs -es with go.",
+      "explanationAr": "الفعل يحتاج إلى -es مع go."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psts_q1",
+      "type": "multiple_choice",
+      "prompt": "He ___ to the park.",
+      "promptAr": "هو ___ إلى الحديقة.",
+      "explanation": "Use goes with he in present simple.",
+      "arabicNote": "نستخدم goes مع he في المضارع البسيط.",
+      "weakTag": "present_simple_third_person_s_multiple_choice",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "She eats lunch is correct because of the -s.",
+      "arabicNote": "نستخدم -s مع she في الجملة الصحيحة.",
+      "weakTag": "present_simple_third_person_s_choose_correct_sentence",
+      "options": [
+        "She eat lunch.",
+        "She eats lunch.",
+        "She eating lunch."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ to school every morning.",
+      "promptAr": "اختر الفعل الصحيح مع she.",
+      "explanation": "Add -es to 'go' with she in present simple: she goes.",
+      "arabicNote": "مع she نضيف es إلى go: goes.",
+      "weakTag": "present_simple_third_person_s_fill_blank",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "He plays soccer is correct because of the -s.",
+      "arabicNote": "نستخدم -s مع he في الجملة الصحيحة.",
+      "weakTag": "present_simple_third_person_s_fix_the_mistake",
+      "options": [
+        "He plays soccer.",
+        "He playing soccer.",
+        "He played soccer."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He play soccer."
+    },
+    {
+      "id": "psts_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "He plays football every day. With he, add -s to the verb play.",
+      "arabicNote": "الفعل مع he يأخذ s: plays.",
+      "weakTag": "present_simple_third_person_s_sentence_order",
+      "words": [
+        "He",
+        "plays",
+        "football",
+        "every",
+        "day."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "psts_q6",
+      "type": "meaning_match",
+      "prompt": "Match each phrase to its Arabic meaning.",
+      "promptAr": "صل كل عبارة بمعناها.",
+      "explanation": "All phrases use third-person -s: she works, he reads, it rains.",
+      "arabicNote": "الفعل مع she/he/it يأخذ s في المضارع البسيط.",
+      "weakTag": "present_simple_third_person_s_meaning_match",
+      "pairs": [
+        {
+          "left": "she works",
+          "right": "هي تعمل"
+        },
+        {
+          "left": "he reads",
+          "right": "هو يقرأ"
+        },
+        {
+          "left": "it rains",
+          "right": "تمطر"
+        }
+      ]
+    },
+    {
+      "id": "psts_q7",
+      "type": "multiple_choice",
+      "prompt": "She ___ a book.",
+      "promptAr": "هي ___ كتاب.",
+      "explanation": "Use reads with she in present simple.",
+      "arabicNote": "نستخدم reads مع she في المضارع البسيط.",
+      "weakTag": "present_simple_third_person_s_multiple_choice",
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "It makes noise is correct because of the -s.",
+      "arabicNote": "نستخدم -s مع it في الجملة الصحيحة.",
+      "weakTag": "present_simple_third_person_s_choose_correct_sentence",
+      "options": [
+        "It make noise.",
+        "It makes noise.",
+        "It making noise."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "He ___ to school every day.",
+      "promptAr": "هو ___ إلى المدرسة كل يوم.",
+      "explanation": "Use goes with he in present simple.",
+      "arabicNote": "نستخدم goes مع he في المضارع البسيط.",
+      "weakTag": "present_simple_third_person_s_fill_blank",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "psts_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل.",
+      "explanation": "She eats dinner is correct because of the -s.",
+      "arabicNote": "نستخدم -s مع she في الجملة الصحيحة.",
+      "weakTag": "present_simple_third_person_s_fix_the_mistake",
+      "options": [
+        "She eats dinner.",
+        "She eating dinner.",
+        "She ate dinner."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She eat dinner."
+    }
+  ]
+}

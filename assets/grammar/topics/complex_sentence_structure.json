@@ -1,0 +1,236 @@
+{
+  "id": "complex_sentence_structure",
+  "category": "b2_expansion",
+  "titleEn": "Complex Sentence Structure",
+  "titleAr": "بناء الجمل المركبة",
+  "level": "B2",
+  "explanationEn": "Learn to build complex sentences by combining main and subordinate clauses with correct punctuation and clear pronoun reference. Practice choosing subordinators, placing commas after introductory clauses, and ordering clauses naturally in school, work, and home examples to avoid direct Arabic-transfer errors.",
+  "explanationAr": "تعلم كيفية بناء جمل مركبة بربط الجملة الأساسية والتابعة مع علامات الترقيم الصحيحة وتوضيح مرجع الضمائر. نركز على أخطاء المتحدثين بالعربية مثل حذف أدوات الربط أو تغيير ترتيب الجمل عند الترجمة الحرفية، لأن ذلك قد يعطي جملة غير مقبولة أو غامضة في الإنجليزية، خاصة في سياقات الدراسة والعمل والمنزل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "ذهبت للبيت لأن انتهى الدوام",
+      "arabicLiteral": "I went home because finished work",
+      "englishCorrect": "I went home because I had finished work."
+    },
+    {
+      "arabicStructure": "بعد أن أنهيت الواجب ذهبت للنوم",
+      "arabicLiteral": "After I finished homework I went to sleep",
+      "englishCorrect": "After I had finished my homework, I went to sleep."
+    },
+    {
+      "arabicStructure": "هو طالب يدرس بكثرة",
+      "arabicLiteral": "He student studies a lot",
+      "englishCorrect": "He is a student who studies a lot."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Because teacher explained, students understood.",
+      "correct": "Because the teacher explained the lesson, the students understood.",
+      "explanationEn": "Missing the article and an explicit object makes the reason clause unclear. Use 'the' before 'teacher' and include the object (lesson) to be clear.",
+      "explanationAr": "حذف أداة التعريف 'the' قبل 'teacher' أو عدم ذكر المفعول يجعل معنى جملة السبب غير واضح في الإنجليزية. ضع 'the' قبل 'teacher' واذكر المفعول مثل 'the lesson' لجعل السبب مفهوماً. الضمير 'it' قد يُستخدم بدل المفعول إذا أشرت له سابقًا، لكنه ليس ضرورياً هنا."
+    },
+    {
+      "wrong": "I studied hard I passed the exam.",
+      "correct": "Because I studied hard, I passed the exam.",
+      "explanationEn": "Two clauses joined without a connector or comma create a run-on. Add a subordinating word like 'because' or a comma and connector.",
+      "explanationAr": "الربط المباشر بين الجملتين بدون أداة ربط أو فاصلة ينتج عنه جملة مجمعة غير صحيحة. في الإنجليزية نحتاج إلى أداة سببية مثل 'because' أو فاصلة وكلمة توضح العلاقة بين السبب والنتيجة."
+    },
+    {
+      "wrong": "She cooked her child was sleeping.",
+      "correct": "She cooked while her child was sleeping.",
+      "explanationEn": "Use 'while' to show two actions happening at the same time; otherwise the timing is unclear.",
+      "explanationAr": "في العربية قد تُربط الأحداث بكلمة 'و' دون توضيح الزمن، لكن في الإنجليزية نستخدم 'while' لتبيان أن الحدثين حدثا معًا. بدون 'while' الجملة تصبح غير واضحة أو خاطئة."
+    },
+    {
+      "wrong": "If late, John missed the bus.",
+      "correct": "If John was late, he missed the bus.",
+      "explanationEn": "An 'if' clause needs an explicit subject and verb. The subject in the 'if' clause must match the main clause referent for clarity.",
+      "explanationAr": "في العربية قد يُحذف الضمير لأن السياق يكفي، لكن في جمل الشرط الإنجليزية يجب ذكر الفاعل والفعل داخل جملة الشرط. كما يجب أن يتطابق الفاعل بين جملة الشرط والجملة الأساسية لتجنب اللبس."
+    }
+  ],
+  "questions": [
+    {
+      "id": "css_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence that correctly uses a subordinate clause to give a reason.",
+      "promptAr": "اختر الجملة التي تستخدم جملة تابعة صحيحة للتعبير عن السبب.",
+      "explanation": "A 'because' clause must include a subject and correct verb form after the connector.",
+      "arabicNote": "في الإنجليزية بعد 'because' نحتاج إلى فاعل ثم فعل بصيغة صحيحة. المتحدثون بالعربية قد ينقلون الترتيب حرفيًا فينتج خطأ في بنية جملة السبب، لذا ضع الفاعل والفعل بوضوح.",
+      "weakTag": "complex_sentence_structure_clause_order",
+      "options": [
+        "Because the meeting ended, we left early.",
+        "Because ended the meeting, we left early.",
+        "Because the meeting end, we left early.",
+        "We left early because ended the meeting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "css_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence clearly links time and result with correct clause forms and punctuation?",
+      "promptAr": "أي جملة تربط الوقت والنتيجة بصيغ صحيحة وعلامة ترقيم صحيحة؟",
+      "explanation": "An introductory time clause needs a subject and correct verb, plus a comma before the main clause.",
+      "arabicNote": "عند بدء الجملة بعبارة زمنية مثل 'After' يجب أن تتبعها فاعل وفعل بصيغة صحيحة ثم فاصلة قبل الجملة الأساسية. المتحدثون بالعربية قد يحذفون الفاعل أو يغيرون صيغة الفعل عند النقل الحرفي.",
+      "weakTag": "css_punctuation_and_time_clauses",
+      "options": [
+        "After she finished her homework, she relaxed.",
+        "After finished her homework, she relaxed.",
+        "After she had finish her homework she relaxed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "css_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "____ he studied in the morning, he felt confident for the test. (Choose the temporal connector that shows the studying happened before his confidence.)",
+      "promptAr": "اختر أداة الربط الزمنية التي تبين أن الدراسة حدثت قبل شعوره بالثقة.",
+      "explanation": "Use 'After' to show the action happened first and the confidence came later.",
+      "arabicNote": "اختر 'After' لأن الدراسة وقعت أولًا ثم تلاها الشعور بالثقة. المتحدثون بالعربية قد يختارون أدوات لا تحدد ترتيب الزمن بدقة فتنتج غموضًا في الإنجليزية.",
+      "weakTag": "complex_sentence_structure_conjunction_choice",
+      "options": [
+        "After",
+        "Before",
+        "While",
+        "If"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "css_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a sentence fragment that lacks a clear subordinate subject and connection.",
+      "promptAr": "اختر التصحيح الأفضل لجملة مقطوعة تفتقد فاعلًا واضحًا ووصلًا مناسبًا.",
+      "explanation": "Include the subject and a subordinating word, and put a comma after the subordinate clause.",
+      "arabicNote": "الجملة الفرعية هنا تفتقد فاعلًا واضحًا؛ في العربية قد يُحذف الفاعل لأن السياق يكفي، لكن الإنجليزية تتطلب ذكر الفاعل وأداة الربط وفاصلة لتكون الجملة المركبة صحيحة ومفهومة.",
+      "weakTag": "complex_sentence_structure_subject_reference",
+      "options": [
+        "While she was preparing dinner, the phone rang.",
+        "Preparing dinner the phone rang, so she answered.",
+        "Preparing dinner, phone ringing.",
+        "She preparing dinner when the phone rang."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Preparing dinner the phone rang."
+    },
+    {
+      "id": "css_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make one clear complex sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة مركبة واضحة واحدة.",
+      "explanation": "Correct order: \"The woman left because she was late for work.\" Put the main clause before the reason clause.",
+      "arabicNote": "رتّب الكلمات بحيث تأتي الجملة الأساسية ثم جملة السبب بـ 'because' مع الفاعل والفعل. الترجمة الحرفية من العربية قد تغيّر الترتيب وتنتج جملة غير مقبولة في الإنجليزية.",
+      "weakTag": "css_sentence_order_reason",
+      "words": [
+        "The",
+        "woman",
+        "left",
+        "because",
+        "she",
+        "was",
+        "late",
+        "for",
+        "work"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "css_q6",
+      "type": "meaning_match",
+      "prompt": "Match each complex sentence to its Arabic meaning.",
+      "promptAr": "وصل كل جملة مركبة بمعناها العربي.",
+      "explanation": "Each English sentence uses a subordinate clause to show contrast, reason, or time.",
+      "arabicNote": "كل جملة إنجليزية هنا تحتوي على جملة تابعة توضح علاقة زمنية أو سببية أو تعارضية. لاحظ أن ترتيب أدوات الربط والفاعل مختلف في الإنجليزية مقارنة بالعربية لذلك لا تُترجم حرفيًا.",
+      "weakTag": "complex_sentence_structure_meaning",
+      "pairs": [
+        {
+          "left": "Although it rained, the picnic continued.",
+          "right": "رغم أن المطر هطل، استمرّت النزهة."
+        },
+        {
+          "left": "She called because she missed the bus.",
+          "right": "اتّصلت لأنها فوّتت الحافلة."
+        },
+        {
+          "left": "When he finishes work, he will visit his mother.",
+          "right": "عندما ينهي عمله، سيزور والدته."
+        }
+      ]
+    },
+    {
+      "id": "css_q7",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly uses a defining relative clause for a person?",
+      "promptAr": "أي جملة تستخدم جملة صلة تعريفية صحيحة عند الحديث عن شخص؟",
+      "explanation": "Use 'who' for people and match the verb to the singular subject 'student'.",
+      "arabicNote": "نستخدم 'who' مع الأشخاص في جمل التعريف ويجب أن يتوافق الفعل مع الفاعل المفرد. خطأ شائع هو توافق الفاعل والفعل بشكل خاطئ أو وضع العبارة في مكان غير مناسب.",
+      "weakTag": "complex_sentence_structure_relative_clause",
+      "options": [
+        "The student who study late is my sister.",
+        "The student that studies late are my sister.",
+        "The student who studies late is my sister.",
+        "The student studies late who is my sister."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "css_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "He apologized ___ he was late, and then he began the presentation.",
+      "promptAr": "اختر أداة الربط الصحيحة لشرح السبب قبل متابعة الفعل.",
+      "explanation": "Use 'because' to state the reason for his apology before the next action.",
+      "arabicNote": "اختر 'because' لأن الجزء الأول يوضح سبب الاعتذار ثم يتبعه الفعل التالي. المتعلمون بالعربية قد يختارون رابطًا لا يوضح السبب بدقة وتصبح الجملة غير منطقية.",
+      "weakTag": "css_conjunction_reason",
+      "options": [
+        "but",
+        "because",
+        "so",
+        "although"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "css_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence avoids an ambiguous pronoun reference by repeating the name?",
+      "promptAr": "أي جملة تتجنب مرجع الضمير الغامض بتكرار الاسم؟",
+      "explanation": "Repeat the name in the subordinate clause when a pronoun could refer to multiple people.",
+      "arabicNote": "الضمائر قد تصبح غامضة عند وجود أكثر من شخص. في الإنجليزية كرر الاسم داخل الجملة التابعة إذا كان الضمير قد يسبب لبسًا؛ العربية قد تسمح بالحذف لكن الإنجليزية تتطلب وضوحًا.",
+      "weakTag": "complex_sentence_structure_pronoun_reference",
+      "options": [
+        "When Ahmed spoke to Ali, agreed he with him.",
+        "When Ahmed spoke to Ali, Ali agreed with Ahmed.",
+        "When Ahmed spoke to Ali, him agreed with Ali."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "css_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the run-on sentence missing a subordinating word or comma.",
+      "promptAr": "اختر التصحيح الأفضل للجملة المجمعة التي تفتقر إلى أداة ربط أو فاصلة مناسبة.",
+      "explanation": "Add 'After' and a comma to separate the time clause from the main clause clearly.",
+      "arabicNote": "الربط بين جملتين دون أداة أو فاصلة يؤدي إلى جملة مجمعة غير صحيحة. في الإنجليزية نستخدم 'After' مع فاصلة أو نذكر الفاعل في الجملة الأساسية لتوضيح الزمن والنتيجة بوضوح.",
+      "weakTag": "css_fix_run_on",
+      "options": [
+        "After she finished the report, she went home.",
+        "She finished the report she went home, quietly.",
+        "After finished the report, she went home.",
+        "After she finished the report, went home."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She finished the report she went home."
+    }
+  ]
+}

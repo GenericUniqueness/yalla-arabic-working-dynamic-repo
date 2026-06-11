@@ -1,0 +1,236 @@
+{
+  "id": "advanced_linking_devices",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Advanced Linking Devices",
+  "titleAr": "أدوات الربط المتقدمة",
+  "level": "C1",
+  "explanationEn": "This topic teaches advanced connectors (nevertheless, moreover, consequently, whereas, in contrast with), with simple rules for correct punctuation and logical choice. Focus on matching connector meaning to clause relations and avoiding ambiguity familiar to Arabic speakers.",
+  "explanationAr": "يتعلّم المتدربون أدوات الربط المتقدمة مثل nevertheless و moreover و consequently و whereas و in contrast with مع قواعد علامات الترقيم والمنطق. في العربية تُترك العلاقات أحيانًا ضمنيّة، أما الإنجليزية فتحتاج رابطًا واضحًا وموقعًا مناسبًا وفاصلة أو فاصلة منقوطة لتجنب الغموض.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "حضرتُ كل المحاضرات ثم رسبتُ.",
+      "arabicLiteral": "I attended all lectures then I failed.",
+      "englishCorrect": "I attended all the lectures; nevertheless, I failed the exam."
+    },
+    {
+      "arabicStructure": "المبنى قديم لكن به مرافق جيدة.",
+      "arabicLiteral": "The building old but it has good facilities.",
+      "englishCorrect": "The building is old; moreover, it has good facilities."
+    },
+    {
+      "arabicStructure": "الفرع الشرقي قديم بينما الغربي أحدث.",
+      "arabicLiteral": "The east campus old whereas west campus newer.",
+      "englishCorrect": "The east campus is older, whereas the west campus has newer facilities."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She attended every lecture; moreover, she failed the course.",
+      "correct": "She attended every lecture; nevertheless, she failed the course.",
+      "explanationEn": "Use nevertheless for contrast when the second fact contradicts expectation; moreover wrongly adds supporting information instead.",
+      "explanationAr": "خطأ شائع: moreover تضيف معلومات داعمة، أما عندما تكون الجملة الثانية متناقضة فتحتاج nevertheless لتوضيح التناقض. في العربية قد يختفي رابط التباين، بينما الإنجليزية تتطلب أداة واضحة."
+    },
+    {
+      "wrong": "He missed the deadline; nevertheless, he lost the client.",
+      "correct": "He missed the deadline; consequently, he lost the client.",
+      "explanationEn": "Use consequently for a result. Nevertheless shows contrast, so it misrepresents the cause-and-result relationship.",
+      "explanationAr": "عندما تكون الجملة الثانية نتيجة للأولى نستخدم consequently. استعمال nevertheless يوحي بتضاد لا بسبب، وهذا يغيّر العلاقة المنطقية بين الجملتين."
+    },
+    {
+      "wrong": "The report is clear; moreover, it lacks data.",
+      "correct": "The report is clear, whereas it lacks data.",
+      "explanationEn": "Use whereas for contrast between two facts. Moreover wrongly adds supporting information instead of showing opposition.",
+      "explanationAr": "whereas تبيّن التباين بين فكرتين، أما moreover فتضيف معلومات داعمة. اختيار الأداة الخاطئة يغيّر العلاقة المنطقية حتى لو بدت الجملة مفهومة."
+    },
+    {
+      "wrong": "In contrast with the manager she agrees.",
+      "correct": "In contrast with the manager, she disagrees.",
+      "explanationEn": "Introductory 'in contrast with' needs a comma and the verb must reflect the contrast; wrong keeps same verb so meaning is lost.",
+      "explanationAr": "حذف الفاصلة أو إبقاء نفس الفعل يزيل التباين المقصود. يجب فصل العبارة التمهيدية بفاصلة وتغيير الفعل أو الطرف المقارن ليظهر الفرق بوضوح."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ald_q1",
+      "type": "multiple_choice",
+      "prompt": "The project was risky; ___, she accepted the lead because she wanted the challenge.",
+      "promptAr": "اختر أداة الربط الصحيحة لتبيان التناقض مع المخاطرة.",
+      "explanation": "Use nevertheless to show contrast: she accepted despite the risk; it signals unexpected outcome.",
+      "arabicNote": "مع المتحدثين العرب قد يبدو قبول المخاطرة ضمنيًا؛ في الإنجليزية نستخدم nevertheless لتوضيح أن الفعل حصل رغم الخطر الواضح.",
+      "weakTag": "advanced_linking_devices_form",
+      "options": [
+        "nevertheless",
+        "moreover",
+        "whereas",
+        "consequently"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "He missed the deadline; ___, he apologised and offered extra hours to finish the work.",
+      "promptAr": "اختر أداة الربط التي تُظهر النتيجة أو أثر التأخر في الإنجاز.",
+      "explanation": "Consequently links the missed deadline to the result: apologising and offering extra work.",
+      "arabicNote": "consequently توضح النتيجة بشكل مباشر. قد يترك المتحدث العربي العلاقة ضمنيًا، لكن الإنجليزية تتطلب رابطًا صريحًا لبيان النتيجة.",
+      "weakTag": "advanced_linking_devices_precision",
+      "options": [
+        "consequently",
+        "whereas",
+        "moreover",
+        "in contrast with"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence uses punctuation and 'whereas' correctly to contrast two groups?",
+      "promptAr": "أي جملة تستخدم 'whereas' وعلامة الترقيم بشكل صحيح للمقارنة بين مجموعتين؟",
+      "explanation": "Put a comma before whereas when linking two independent clauses to show clear contrast.",
+      "arabicNote": "في العربية قد يُفهم التباين من السياق دون فاصلة، أما في الإنجليزية فوجود الفاصلة قبل whereas يوضح العلاقة ويمنع الغموض.",
+      "weakTag": "advanced_linking_devices_register",
+      "options": [
+        "The older students preferred lectures, whereas the younger students liked group work.",
+        "The older students preferred lectures, whereas liked group work the younger students.",
+        "The older students preferred lectures, the younger students liked group work."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q4",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning.",
+      "promptAr": "وصل كل أداة ربط بمعناها العربي المناسب.",
+      "explanation": "Know each connector’s basic logical role: contrast, addition, result, or comparison.",
+      "arabicNote": "احفظ وظيفة كل رابط: هل يبيّن تناقضًا، إضافة، نتيجة، أم مقارنة؟ هذا يمنع اختيار رابط خاطئ عندما يكون السياق واضحًا في العربية لكن يحتاج رابطًا صريحًا في الإنجليزية.",
+      "weakTag": "advanced_linking_devices_meaning",
+      "pairs": [
+        {
+          "left": "nevertheless",
+          "right": "مع ذلك"
+        },
+        {
+          "left": "moreover",
+          "right": "علاوة على ذلك"
+        },
+        {
+          "left": "consequently",
+          "right": "وبالتالي"
+        },
+        {
+          "left": "in contrast with",
+          "right": "على النقيض من / بالمقارنة مع"
+        }
+      ]
+    },
+    {
+      "id": "ald_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a clear contrast sentence starting with an introductory prepositional phrase.",
+      "promptAr": "رتب الكلمات لتكوين جملة توضح التباين وتبدأ بعبارة تمهيدية 'In contrast with'.",
+      "explanation": "Start with the introductory contrast phrase plus comma, then the contrasted clause to show clear comparison.",
+      "arabicNote": "عبارة التباين التمهيدية تسبق الفكرة المقابلة وتُفصل عنها بفاصلة. المتحدثون العرب قد يضعون ترتيبًا مرنًا، لكن الإنجليزية تحتاج ترتيبًا وفاصلة واضحة.",
+      "weakTag": "advanced_linking_devices_sentence_order",
+      "words": [
+        "with",
+        "the",
+        "committee,",
+        "she",
+        "was",
+        "optimistic.",
+        "In",
+        "contrast"
+      ],
+      "correctOrder": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ald_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "Use semicolon before nevertheless and a comma after to join independent contrast clauses correctly.",
+      "arabicNote": "الخطأ هنا في اختيار الأداة وعلامات الترقيم. moreover يضيف معلومات، أما التباين يتطلب nevertheless مع فاصلة منقوطة أو نقطتين.",
+      "weakTag": "advanced_linking_devices_form",
+      "options": [
+        "She worked hard; nevertheless, she failed the exam.",
+        "She worked hard; moreover, she failed the exam.",
+        "She worked hard because she failed the exam."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She worked hard; moreover, she failed the exam."
+    },
+    {
+      "id": "ald_q7",
+      "type": "multiple_choice",
+      "prompt": "The proposal is costly; ___, it provides additional services that reduce overall expenses.",
+      "promptAr": "اختر أداة الربط التي تضيف معلومة داعمة للمقترح المكلف.",
+      "explanation": "Moreover adds a supporting positive point that builds on the previous idea about cost.",
+      "arabicNote": "moreover تضيف نقطة داعمة أو تفصيلًا إيجابيًا. المتحدثون العرب قد يستعملون تعابير ضمنية بدل الرابط الواضح في الإنجليزية، لذا نحتاج إلى اختيار الأداة المناسبة.",
+      "weakTag": "advanced_linking_devices_register",
+      "options": [
+        "moreover",
+        "nevertheless",
+        "in contrast with",
+        "consequently"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "The east campus is older, ___ the west campus has newer facilities.",
+      "promptAr": "اختر أداة الربط المناسبة للمقارنة الواضحة بين الحرمين.",
+      "explanation": "Whereas contrasts two facts about the campuses across independent clauses.",
+      "arabicNote": "whereas تُستخدم للمقارنة بين جملتين مستقلتين. في العربية قد يظهر الفرق ضمنيًا، أما في الإنجليزية فنحتاج رابطًا صريحًا لتفادي الالتباس.",
+      "weakTag": "advanced_linking_devices_precision",
+      "options": [
+        "whereas",
+        "moreover",
+        "consequently",
+        "nevertheless"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence gives a correct result link with proper punctuation?",
+      "promptAr": "أي جملة تعرض نتيجة صحيحة مع علامات ترقيم مناسبة؟",
+      "explanation": "Use a semicolon before consequently and a comma after it to show a clear result between independent clauses.",
+      "arabicNote": "النتيجة في الإنجليزية تحتاج رابطًا وفواصل مناسبة. في العربية قد تُفهم النتيجة من السياق، لكن الإنجليزية تتطلب تركيبا واضحًا وعلامات ترقيم دقيقة.",
+      "weakTag": "advanced_linking_devices_form",
+      "options": [
+        "He missed the final exam; consequently, he failed the course.",
+        "He missed the final exam; nevertheless, he failed the course.",
+        "Because he missed the final exam, consequently, he failed the course."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ald_q10",
+      "type": "fill_blank_with_options",
+      "prompt": "She values reliability, ___ he prefers innovation.",
+      "promptAr": "اختر أداة الربط المناسبة لوضع فاصلة قبل الجملة الثانية وإظهار التباين بين الشخصين.",
+      "explanation": "Whereas, after a comma, cleanly contrasts two independent clauses about preferences.",
+      "arabicNote": "عند المقارنة بين شخصين، whereas تُستخدم بعد فاصلة لتوضيح الاختلاف. المتحدث العربي قد يضع 'بينما' بدون ترقيم، لكن الإنجليزية تتطلب الفاصلة قبل whereas.",
+      "weakTag": "advanced_linking_devices_contrast_usage",
+      "options": [
+        "whereas",
+        "in contrast with",
+        "moreover",
+        "consequently"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "there_was_there_were",
+  "category": "a2_core",
+  "titleEn": "There Was and There Were",
+  "titleAr": "استخدام there was و there were",
+  "level": "A2",
+  "explanationEn": "Use 'there was' to say that one person or thing existed at a specific past time. Use 'there were' to say that two or more people or things existed at a specific past time. Always check the number (singular/plural) and include a past time word like 'yesterday' or 'last week' so the past is clear.",
+  "explanationAr": "في الإنجليزية نستخدم 'there was' لوجود شيء واحد في الماضي و'there were' لوجود أشياء متعددة في الماضي. في العربية قد نحذف كلمات مساعدة أو نغير الترتيب، لذلك انتبه إلى العدد (مفرد/جمع) وكلمة زمنية واضحة مثل «أمس» أو «الأسبوع الماضي» لتحديد الماضي. تجنب نقل ترتيب عربي حرفيًا.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "كان هناك كرسي واحد.",
+      "arabicLiteral": "Was there one chair.",
+      "englishCorrect": "There was one chair."
+    },
+    {
+      "arabicStructure": "كان هناك كتابان على الطاولة.",
+      "arabicLiteral": "Was there two books on the table.",
+      "englishCorrect": "There were two books on the table."
+    },
+    {
+      "arabicStructure": "كان في الغرفة ثلاثة طلاب.",
+      "arabicLiteral": "Was in the room three students.",
+      "englishCorrect": "There were three students in the room."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "There was two cars yesterday.",
+      "correct": "There were two cars yesterday.",
+      "explanationEn": "This is a number-agreement error. Use 'were' with plural nouns like 'two cars' when you describe the past.",
+      "explanationAr": "خطأ في مطابقة العدد. مع جمع مثل 'سيارتان' نستخدم 'there were' في الماضي."
+    },
+    {
+      "wrong": "There is a chair yesterday.",
+      "correct": "There was a chair yesterday.",
+      "explanationEn": "This mixes present ('is') with a past time expression ('yesterday'). Use 'was' for a single item in the past.",
+      "explanationAr": "خلط بين زمن الحاضر وكلمة زمنية للماضي. استخدم 'there was' لشيء واحد مذكور في الماضي."
+    },
+    {
+      "wrong": "There were a dog last week.",
+      "correct": "There was a dog last week.",
+      "explanationEn": "Singular subjects need 'was' in the past. 'A dog' is one item, so 'there was' is correct.",
+      "explanationAr": "المعنى مفرد لذلك نستخدم 'there was'، ليس 'there were'. مشكلة شائعة عند النقل من العربية بسبب اختلاف ترتيب الكلمات."
+    },
+    {
+      "wrong": "There was chairs in the room last night.",
+      "correct": "There were chairs in the room last night.",
+      "explanationEn": "Plural noun 'chairs' requires 'were' in past statements. Keep the same meaning but match verb to number.",
+      "explanationAr": "مع جمع مثل 'كراسي' يجب أن يكون الفعل 'were' في الماضي. الانتباه للعدد مهم لأن العربية قد لا تغير الفعل بنفس طريقة الإنجليزية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "twtw_q1",
+      "type": "multiple_choice",
+      "prompt": "___ one chair in the room yesterday.",
+      "promptAr": "اختر الجواب الصحيح: ___ كرسي واحد في الغرفة أمس.",
+      "explanation": "Use 'there was' for a single item in a past time context. The word 'yesterday' makes the past tense necessary.",
+      "arabicNote": "في العربية نضع 'كان هناك' أو 'كان' قبل الشيء. متحدثو العربية قد يحذفون المساعد؛ في الإنجليزية تحتاج إلى 'there was' لشيء واحد في الماضي.",
+      "weakTag": "there_was_there_were_form",
+      "options": [
+        "There was",
+        "There were",
+        "There is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "twtw_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes last night?",
+      "promptAr": "أي جملة تصف الوضع بشكل صحيح عن الليلة الماضية؟",
+      "explanation": "Use 'there were' for two or more items in the past. The time phrase 'last night' requires past tense.",
+      "arabicNote": "كلمة زمنية مثل 'الليلة الماضية' تؤكد الماضي. انتبه إلى أن العربية قد تبدو بلا فعل مساعد، لكن الإنجليزية تحتاج 'there were' مع جمع.",
+      "weakTag": "there_was_there_were_meaning",
+      "options": [
+        "There was two books last night.",
+        "There were two books last night.",
+        "There is two books last night."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "twtw_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "___ three apples on the table this morning.",
+      "promptAr": "اختر الجواب الصحيح: ___ ثلاث تفاحات على الطاولة هذا الصباح.",
+      "explanation": "More than one thing needs 'there were' in past time contexts. 'This morning' marks the past time for the example.",
+      "arabicNote": "في العربية نسمع أحيانًا ترتيبًا مختلفًا، لكن في الإنجليزية العدد (ثلاث) يطلب 'there were' عندما نذكر وقتًا في الماضي.",
+      "weakTag": "twtw_fill_blank",
+      "options": [
+        "There was",
+        "There were",
+        "There is"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "twtw_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence: 'There was two cars yesterday.'",
+      "promptAr": "اختر التصحيح الأفضل للجملة: 'There was two cars yesterday.'",
+      "explanation": "The sentence uses singular 'was' with plural 'two cars'. Change the verb to 'were' to match plural number in past time.",
+      "arabicNote": "هذا خطأ ناتج عن نقل ترتيب عربي أو تجاهل مطابقة العدد. صحّح إلى 'there were' لأن العدد جمع وذكرنا 'أمس'.",
+      "weakTag": "twtw_fix_mistake",
+      "options": [
+        "There was two cars yesterday.",
+        "There were two cars yesterday.",
+        "There is two cars yesterday."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "There was two cars yesterday."
+    },
+    {
+      "id": "twtw_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to describe last week: 'there / were / two / chairs'.",
+      "promptAr": "رتب الكلمات لتكوين جملة صحيحة عن الأسبوع الماضي: 'there / were / two / chairs'.",
+      "explanation": "English word order for this structure is 'There were two chairs'. The past marker 'last week' forces past tense.",
+      "arabicNote": "الترتيب الصحيح في العربية 'كان هناك كرسيان'. متحدثو العربية يميلون أحيانًا إلى تغيير الترتيب أو حذف 'there'؛ في الإنجليزية الترتيب ثابت: 'There were two chairs.'",
+      "weakTag": "twtw_sentence_order",
+      "words": [
+        "There",
+        "were",
+        "two",
+        "chairs"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "twtw_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence about the past to its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية عن الماضي بمعناها العربي.",
+      "explanation": "Each sentence uses 'there was' or 'there were' to show existence at a specific past time. Match singular with 'there was' and plural with 'there were'.",
+      "arabicNote": "في العربية عادة نستخدم 'كان هناك' مع وجود، لكن قد تختلف مواقع الكلمات. لاحظ العدد ووجود كلمة زمنية: هذا يحدد استخدام 'was' أو 'were'.",
+      "weakTag": "twtw_meaning_match",
+      "pairs": [
+        {
+          "left": "There was a cat yesterday.",
+          "right": "كان هناك قطة أمس."
+        },
+        {
+          "left": "There were some chairs last week.",
+          "right": "كان هناك بعض الكراسي الأسبوع الماضي."
+        },
+        {
+          "left": "There was a car this morning.",
+          "right": "كان هناك سيارة هذا الصباح."
+        }
+      ]
+    },
+    {
+      "id": "twtw_q7",
+      "type": "multiple_choice",
+      "prompt": "___ a dog in the yard yesterday.",
+      "promptAr": "اختر الجواب الصحيح: ___ كلب في الفناء أمس.",
+      "explanation": "'A dog' is one item, so use 'there was' for that past time. The past word 'yesterday' disallows present tense forms.",
+      "arabicNote": "في العربية نقول 'كان هناك كلب'؛ لا تترجم كلمة بكلمة فقط. استخدم 'there was' لأن الحديث عن شيء واحد في الماضي.",
+      "weakTag": "there_was_there_were_form",
+      "options": [
+        "There was",
+        "There were",
+        "There is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "twtw_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes last week?",
+      "promptAr": "أي جملة تصف الوضع بشكل صحيح عن الأسبوع الماضي؟",
+      "explanation": "With one item in the past, 'there was' is correct. The other forms either use the wrong number or the wrong tense for 'last week'.",
+      "arabicNote": "كلمة 'الأسبوع الماضي' تجعل الجملة ماضية. انتبه إلى أن 'there were a dog' خطأ لأن 'a dog' مفرد.",
+      "weakTag": "there_was_there_were_meaning",
+      "options": [
+        "There were a dog last week.",
+        "There was a dog last week.",
+        "There is a dog last week."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "twtw_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "___ five books on the shelf last week.",
+      "promptAr": "اختر الجواب الصحيح: ___ خمس كتب على الرف الأسبوع الماضي.",
+      "explanation": "Use 'there were' with plural nouns like 'five books' when you refer to a past time such as 'last week'.",
+      "arabicNote": "في العربية قد نقول 'كان على الرف خمس كتب' أو 'كان هناك خمس كتب'. لكن في الإنجليزية نستخدم 'there were' لأن العدد جمع وكلمة الزمن تحدد الماضي.",
+      "weakTag": "twtw_fill_blank",
+      "options": [
+        "There was",
+        "There were",
+        "There is"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "twtw_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence: 'There is a chair yesterday.'",
+      "promptAr": "اختر التصحيح الأفضل للجملة: 'There is a chair yesterday.'",
+      "explanation": "The sentence uses present 'is' with a past time word. Change 'is' to 'was' to keep the same meaning in the past.",
+      "arabicNote": "هذا خطأ شائع عند المتحدثين العرب الذين يترجمون حرفيًا. استخدم 'there was' لأن الجملة تتحدث عن حدث في الماضي ('أمس' أو 'yesterday').",
+      "weakTag": "twtw_fix_mistake",
+      "options": [
+        "There was a chair yesterday.",
+        "There were a chair yesterday.",
+        "There is a chair yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "There is a chair yesterday."
+    }
+  ]
+}

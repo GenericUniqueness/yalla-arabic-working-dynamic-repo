@@ -1,0 +1,240 @@
+{
+  "id": "third_conditional",
+  "category": "b2_expansion",
+  "titleEn": "Third Conditional",
+  "titleAr": "الشرط الثالث",
+  "level": "B2",
+  "explanationEn": "Use if + past perfect and would have + past participle to describe unreal past results that did not happen. The if-clause uses had + past participle; the result clause uses would have + past participle. Arabic speakers often omit helpers or change word order, so focus on had and correct past participles.",
+  "explanationAr": "الشرط الثالث يستخدم if + الماضي التام (had + التصريف الثالث) و would have + التصريف الثالث للتعبير عن نتيجة افتراضية في الماضي لم تحدث. يميل المتحدثون العرب إلى حذف أفعال مساعدة أو تغيير ترتيب الكلمات، لذا انتبه إلى had والتصريف الثالث للحفاظ على معنى الجملة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "لو كنت أعرف العنوان، لكنت ذهبت إلى الاجتماع أمس.",
+      "arabicLiteral": "If I knew the address, I would go to the meeting yesterday.",
+      "englishCorrect": "If I had known the address, I would have gone to the meeting yesterday."
+    },
+    {
+      "arabicStructure": "أنهى واجبي الآن.",
+      "arabicLiteral": "I have finished my homework.",
+      "englishCorrect": "Present perfect shows present relevance. Compare with third conditional: If I had finished my homework yesterday, I would have relaxed afterward."
+    },
+    {
+      "arabicStructure": "لم تزر لندن من قبل.",
+      "arabicLiteral": "She has never visited London.",
+      "englishCorrect": "Present perfect shows experience. For an unreal past result use: If she had visited London last year, she would have met her friend then."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I knew the answer, I would have answered the question yesterday.",
+      "correct": "If I had known the answer, I would have answered the question yesterday.",
+      "explanationEn": "Using past simple (knew) in the if-clause is wrong for unreal past conditions; use had + past participle.",
+      "explanationAr": "يستخدم البعض الماضي البسيط في جملة if بدلاً من الماضي التام؛ لكن للشرط غير الحقيقي في الماضي نستخدم had + التصريف الثالث."
+    },
+    {
+      "wrong": "If she had went to the meeting, she would have seen the notes yesterday.",
+      "correct": "If she had gone to the meeting, she would have seen the notes yesterday.",
+      "explanationEn": "Wrong past participle 'went' is used; after had we need the past participle 'gone'.",
+      "explanationAr": "خطأ في التصريف الثالث؛ بعد had يجب استخدام التصريف الثالث الصحيح (gone) وليس went."
+    },
+    {
+      "wrong": "If they had called, they would arrive on time this morning.",
+      "correct": "If they had called, they would have arrived on time this morning.",
+      "explanationEn": "The result clause must use would have + past participle to show the unreal past result.",
+      "explanationAr": "جملة النتيجة تحتاج would have + التصريف الثالث للتعبير عن نتيجة افتراضية في الماضي، لا نستخدم صيغة الحاضر هنا."
+    },
+    {
+      "wrong": "If I had known, I stopped him yesterday.",
+      "correct": "If I had known, I would have stopped him yesterday.",
+      "explanationEn": "Mixing a simple past result with a past perfect condition is incorrect; use would have for the result.",
+      "explanationAr": "خلط زمن النتيجة بالماضي البسيط بدلاً من would have خطأ شائع. الإنجليزية تطلب would have + التصريف الثالث لنتيجة افتراضية."
+    }
+  ],
+  "questions": [
+    {
+      "id": "thir_q1",
+      "type": "multiple_choice",
+      "prompt": "If I ____ the address, I would have gone to the meeting yesterday.",
+      "promptAr": "أكمل الفراغ بصيغة شرط ثالث مناسبة لوصف نتيجة افتراضية في الماضي لم تحدث البارحة: اختر الصيغة الصحيحة لشرط الماضي.",
+      "explanation": "Use had + past participle in the if-clause for unreal past situations that did not happen yesterday.",
+      "arabicNote": "في العربية قد نستخدم الماضي فقط للتعبير عن حدث لم يحدث، لكن في الإنجليزية للشرط الثالث نستخدم had + التصريف الثالث في عبارة if لتوضيح فرضية ماضية لم تحدث.",
+      "weakTag": "third_conditional_form",
+      "options": [
+        "had known",
+        "knew",
+        "have known",
+        "had know"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "thir_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows an unreal past result about her exam yesterday?",
+      "promptAr": "اختر الجملة التي تعبّر عن نتيجة افتراضية لم تحدث في الماضي بشأن امتحانها البارحة. ركّز على had في الشرط و would have في النتيجة.",
+      "explanation": "Third conditional needs had + past participle in the if-clause and would have + past participle for the unreal past result.",
+      "arabicNote": "الصياغة الصحيحة هي if + had + التصريف الثالث ثم النتيجة would have + التصريف الثالث. قد يخطئ المتعلم بترجمة ترتيب الجملة من العربية مباشرة.",
+      "weakTag": "third_conditional_meaning",
+      "options": [
+        "If she studied harder, she would pass the exam yesterday.",
+        "If she had studied harder, she would have passed the exam yesterday.",
+        "If she had studied harder, she would pass the exam yesterday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "thir_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "If they ____ the timetable, they would have arrived on time this morning.",
+      "promptAr": "أكمل الفراغ بصيغة الماضي التام المناسبة لجملة شرط ثالث توضح أنهم لم يصلوا في الصباح. اختر had + التصريف الثالث الصحيح.",
+      "explanation": "The if-clause must use had + past participle for unreal past situations about this morning.",
+      "arabicNote": "قد يترجم المتعلم حرفيًا بصيغة الماضي البسيط، لكن هنا الحدث لم يحدث والإنجليزية تحتاج had + التصريف الثالث لشرط الماضي غير الحقيقي.",
+      "weakTag": "third_conditional_past_perfect",
+      "options": [
+        "had checked",
+        "checked",
+        "have checked",
+        "had check"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "thir_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about stopping yesterday.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة المتعلقة بتوقف حدث افتراضي أمس. ركّز على had في الشرط و would have في النتيجة ليبقى المعنى نفسه.",
+      "explanation": "The if-clause must be had + past participle; the result must be would have + past participle for an unreal past outcome.",
+      "arabicNote": "الخطأ شائع لأن العربية قد لا تستخدم فعلًا مساعدًا موازياً. الإنجليزية تطلب had في جملة if و would have في نتيجة الماضي الافتراضي للحفاظ على نفس المعنى.",
+      "weakTag": "third_conditional_aux_participle",
+      "options": [
+        "If I had seen the sign, I would have stopped yesterday.",
+        "If I saw the sign, I would stop yesterday.",
+        "If I had seen the sign, I stopped yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If I would have seen the sign, I stopped yesterday."
+    },
+    {
+      "id": "thir_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a third conditional about arriving late this morning.",
+      "promptAr": "رتّب الكلمات لتكوين جملة شرط ثالث صحيحة عن وصول متأخر هذا الصباح. انتبه إلى ترتيب if-clause ثم نتيجة would have لتوضيح الماضي الافتراضي.",
+      "explanation": "Use If + had + past participle, then the result with would have + past participle for unreal past results.",
+      "arabicNote": "في العربية الترتيب أحيانًا أكثر مرونة، لكن هنا الترتيب ثابت: If + had + التصريف الثالث ثم would have + التصريف الثالث لنتيجة الماضي الافتراضي.",
+      "weakTag": "third_conditional_word_order",
+      "words": [
+        "would",
+        "have",
+        "If",
+        "arrived",
+        "we",
+        "left",
+        "home",
+        "on",
+        "time.",
+        "had",
+        "we",
+        "earlier,"
+      ],
+      "correctOrder": [
+        2,
+        4,
+        9,
+        5,
+        6,
+        11,
+        10,
+        0,
+        1,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "thir_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English third conditional sentence with its Arabic meaning.",
+      "promptAr": "وصل كل جملة شرط ثالث إنجليزية بمعناها العربي المكافئ. كل جملة تتخيل نتيجة ماضية لم تحدث، لذلك انتبه إلى had و would have.",
+      "explanation": "Each pair shows an imagined past result that did not happen; match English to Arabic meaning.",
+      "arabicNote": "هذه جمل افتراضية في الماضي. انتبه إلى had في الشرط و would have في النتيجة. هذا الاختلاف في الصياغة شائع بين العربية والإنجليزية.",
+      "weakTag": "third_conditional_arabic_transfer",
+      "pairs": [
+        {
+          "left": "If he had set an alarm, he would not have missed the class yesterday.",
+          "right": "لو أنه ضبط المنبّه، لما فاته الدرس البارحة."
+        },
+        {
+          "left": "If I had known about the meeting, I would have prepared the report yesterday.",
+          "right": "لو كنت أعلم بالاجتماع، لكنت أعددت التقرير البارحة."
+        },
+        {
+          "left": "If they had booked the tickets, they would have traveled last weekend.",
+          "right": "لو حجزوا التذاكر، لكانوا سافروا نهاية الأسبوع الماضي."
+        }
+      ]
+    },
+    {
+      "id": "thir_q7",
+      "type": "multiple_choice",
+      "prompt": "If she ____ the invitation, she would have come to the party last night.",
+      "promptAr": "أكمل الفراغ بصيغة الماضي التام المناسبة لشرط ثالث يصف نتيجة افتراضية لم تحدث ليلة البارحة. اختر had + التصريف الثالث الصحيح.",
+      "explanation": "Use had + past participle in the if-clause to show an unreal past condition about last night.",
+      "arabicNote": "الترجمة الحرفية قد تبدو صحيحة بالعربية، لكن لتوضيح حدث ماضٍ افتراضي في الإنجليزية نستخدم had + التصريف الثالث في عبارة if.",
+      "weakTag": "third_conditional_form",
+      "options": [
+        "had accepted",
+        "accepted",
+        "has accepted",
+        "would accept"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "thir_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes an unreal past possibility about travel last weekend?",
+      "promptAr": "اختر الجملة التي تعبّر بشكل صحيح عن احتمال افتراضي في الماضي حول السفر نهاية الأسبوع الماضي. يجب أن تحتوي على had في الشرط و would have في النتيجة.",
+      "explanation": "The correct third conditional has had + past participle in the if-clause and would have + past participle in the result clause.",
+      "arabicNote": "الجملة الصحيحة تجمع بين had في شرط الماضي و would have في النتيجة. ترجمة ترتيب عربي مباشرة قد تُنتج خطأ في الأزمنة أو الصياغة.",
+      "weakTag": "third_conditional_meaning",
+      "options": [
+        "If they booked the tickets, they would have traveled last weekend.",
+        "If they had booked the tickets, they would have traveled last weekend.",
+        "If they had booked the tickets, they would travel last weekend."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "thir_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "If I had known about the traffic, I ______ earlier and avoided being late this morning.",
+      "promptAr": "أكمل الفراغ بصيغة نتيجة الشرط الثالث المناسبة لموقف لم يحدث هذا الصباح. يجب أن توضح النتيجة الافتراضية التي كانت ممكنة لو عرفت مسبقًا.",
+      "explanation": "Result of an unreal past uses would have + past participle to show what you would have done earlier.",
+      "arabicNote": "النتيجة هنا في الماضي الافتراضي، ويجب استخدام would have + التصريف الثالث للتعبير عن فعل لم يحدث، وليس would أو had بمفردهما.",
+      "weakTag": "third_conditional_result_clause",
+      "options": [
+        "would have left",
+        "would leave",
+        "had left",
+        "will have left"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "thir_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about the game yesterday.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة المتعلقة بالمباراة البارحة. ركّز على أن النتيجة الافتراضية في الماضي تحتاج would have + التصريف الثالث.",
+      "explanation": "The result clause needs would have + past participle to show an unreal past outcome about yesterday's game.",
+      "arabicNote": "في العربية قد نستخدم الماضي البسيط للنتيجة، لكن في الإنجليزية للتعبير عن نتيجة افتراضية في الماضي نستخدم would have + التصريف الثالث للحفاظ على نفس المعنى.",
+      "weakTag": "third_conditional_aux_participle",
+      "options": [
+        "If they had practiced, they would have won the game yesterday.",
+        "If they practiced, they would win the game yesterday.",
+        "If they had practiced, they won the game yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "If they had practiced, they win the game yesterday."
+    }
+  ]
+}

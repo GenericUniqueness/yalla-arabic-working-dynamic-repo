@@ -1,0 +1,232 @@
+{
+  "id": "adverbs_of_frequency",
+  "category": "a2_core",
+  "titleEn": "Adverbs of Frequency",
+  "titleAr": "ظروف التكرار",
+  "level": "A2",
+  "explanationEn": "Adverbs of frequency (always, usually, often, sometimes, never) show how often routines happen. In present simple, place most frequency adverbs before the main verb (I usually study) but after the verb be (She is always kind). Be careful with Arabic word order and missing subjects.",
+  "explanationAr": "تشرح هذه الوحدة ظروف التكرار (always, usually, often, sometimes, never) لوصف العادات والروتين في زمن الحاضر البسيط. في الإنجليزية نضع غالبًا ظرف التكرار قبل فعل الجملة: I usually study. أما مع الفعل be فنضع الظرف بعده: She is always kind. انتبه لعدم نقل ترتيب الكلمات العربي وإسقاط الفاعل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أدرس عادة في الليل",
+      "arabicLiteral": "I study usually at night",
+      "englishCorrect": "I usually study at night."
+    },
+    {
+      "arabicStructure": "هي دائماً لطيفة",
+      "arabicLiteral": "She always kind",
+      "englishCorrect": "She is always kind."
+    },
+    {
+      "arabicStructure": "أحياناً أذهب إلى السوق يوم السبت",
+      "arabicLiteral": "Sometimes I go to the market on Saturday",
+      "englishCorrect": "I sometimes go to the market on Saturdays."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I every day study at night.",
+      "correct": "I usually study at night every day.",
+      "explanationEn": "Learners often place the adverb in the wrong position by copying Arabic order. In English, put the frequency adverb before the main verb in present simple: 'I usually study.'",
+      "explanationAr": "خطأ شائع هو نقل ترتيب ظرف التكرار من العربية حرفياً. في الإنجليزية نضع الظرف قبل فعل الجملة في الحاضر البسيط: I usually study."
+    },
+    {
+      "wrong": "Is always kind at school every day.",
+      "correct": "She is always kind at school every day.",
+      "explanationEn": "Arabic can omit the subject in some contexts, but English needs an explicit subject before the verb. Add the subject and keep the adverb after be.",
+      "explanationAr": "بعض المتحدثين بالعربية يحذفون الفاعل. في الإنجليزية الجملة تحتاج فاعلًا واضحًا قبل الفعل. أضف 'She' واحتفظ بالظرف بعد be."
+    },
+    {
+      "wrong": "He often drink the water in the morning.",
+      "correct": "He often drinks water in the morning.",
+      "explanationEn": "This sentence shows two errors: verb agreement (-s with he) and incorrect article with an uncountable noun. Fix both while keeping the routine meaning.",
+      "explanationAr": "الخطأ يجمع بين توافق الفعل وإساءة استخدام أداة التعريف مع اسم غير معدود. عدل الفعل إلى drinks واحذف 'the' في هذا السياق."
+    },
+    {
+      "wrong": "She always is late on Mondays.",
+      "correct": "She is always late on Mondays.",
+      "explanationEn": "With the verb be, the frequency adverb comes after be, not before. The meaning is the same but standard English word order requires the adverb after be.",
+      "explanationAr": "مع الفعل be يأتي ظرف التكرار بعده لا قبله. المعنى لا يتغير لكن ترتيب الكلمات الصحيح في الإنجليزية يتطلب وضع الظرف بعد be."
+    }
+  ],
+  "questions": [
+    {
+      "id": "adve_q1",
+      "type": "multiple_choice",
+      "prompt": "I go to school five days a week; I ___ miss school on weekdays.",
+      "promptAr": "أكمل الفراغ: أذهب إلى المدرسة خمسة أيام في الأسبوع؛ أنا ___ أفوّت المدرسة خلال أيام الأسبوع.",
+      "explanation": "The sentence states the speaker attends school every weekday. Only 'never' fits this explicit routine because it shows they do not miss school on those days. Other adverbs would contradict the clear routine information.",
+      "arabicNote": "في هذا السياق 'never' تعني لا أفوّت أبداً أيام الأسبوع. لا تنقل ترتيب 'كل يوم' من العربية حرفياً؛ اختر الظرف الذي يتوافق مع العبارة الزمنية الصريحة.",
+      "weakTag": "adverbs_of_frequency_meaning",
+      "options": [
+        "always",
+        "sometimes",
+        "never",
+        "often"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "adve_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly places the adverb for this routine: She eats breakfast at 7 every weekday?",
+      "promptAr": "أي الجمل تضع ظرف التكرار في المكان الصحيح لوصف روتين: هي تتناول الفطور الساعة 7 كل يوم من أيام الأسبوع؟",
+      "explanation": "For present simple routines, the frequency adverb normally goes before the main verb. 'She always eats...' is the standard order. The other word orders confuse English word order and are not standard for this routine.",
+      "arabicNote": "ضع ظرف التكرار قبل فعل الجملة في الحاضر البسيط: She always eats. ترتيب الكلمات في الخيارات الأخرى لا يتوافق عادةً مع الإنجليزية القياسية.",
+      "weakTag": "adverbs_of_frequency_word_order",
+      "options": [
+        "Always she eats breakfast at 7 on weekdays.",
+        "She always eats breakfast at 7 on weekdays.",
+        "She always at 7 eats breakfast on weekdays."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "At school she arrives on time for class every Monday. Complete the sentence: She ___ on time on Mondays.",
+      "promptAr": "أكمل الجملة: في المدرسة تصل في الوقت المحدد إلى الصف كل يوم اثنين. هي ___ تصل في الوقت المحدد أيام الاثنين.",
+      "explanation": "The explicit statement 'every Monday' makes the routine regular. 'Always arrives' matches that regular routine. Other frequency choices contradict the given time phrase and so are incorrect for this context.",
+      "arabicNote": "وجود 'every Monday' يعطينا دلالة تكرار ثابتة، لذلك نختار 'always arrives'. لا تختَر كلمات تعني عدم انتظام لأن العبارة الزمنية صريحة.",
+      "weakTag": "adverbs_of_frequency_form",
+      "options": [
+        "always arrives",
+        "sometimes arrives",
+        "often arrives",
+        "never arrives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adve_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence about school routine.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة التي تتحدث عن الروتين المدرسي.",
+      "explanation": "The wrong sentence drops the subject and starts with the verb. English needs a subject before be. The correct sentence adds 'She' and keeps the adverb after be to show the routine clearly.",
+      "arabicNote": "الجملة الأصلية تفتقد الفاعل. في العربية قد يسقط الفاعل أحيانًا لكن في الإنجليزية نحتاج فاعلًا واضحًا قبل is. ضع الفاعل واحتفظ بالظرف بعد be.",
+      "weakTag": "adverbs_of_frequency_arabic_transfer",
+      "options": [
+        "She is always kind at school every day.",
+        "Always she is kind at school every day.",
+        "She always kind at school every day."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Is always kind at school every day."
+    },
+    {
+      "id": "adve_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a routine sentence about arriving at work on weekdays.",
+      "promptAr": "رتّب الكلمات لتكوين جملة عن الروتين: الوصول إلى العمل في أيام الأسبوع.",
+      "explanation": "The correct order for this routine is: subject, frequency adverb, main verb, adjective/adverb, then time phrase. This places the frequency adverb before the main verb in present simple.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية: الفاعل ثم ظرف التكرار ثم فعل الجملة ثم تفاصيل كيفية أو وقت الحادث. لا تضع ظرف التكرار بعد 'be' هنا لأن الفعل ليس be.",
+      "weakTag": "adverbs_of_frequency_word_order",
+      "words": [
+        "on",
+        "weekdays",
+        "I",
+        "never",
+        "arrive",
+        "late"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "adve_q6",
+      "type": "meaning_match",
+      "prompt": "Match each adverb to its Arabic meaning in routine contexts.",
+      "promptAr": "وصل كل ظرف بمعناه العربي في سياق الروتين.",
+      "explanation": "These frequency adverbs are core vocabulary for routines. Learn their meanings so you can place them correctly before the main verb (or after be). The pairings match common routine uses.",
+      "arabicNote": "احفظ معنى كل ظرف وتذكر موقعه النحوي: عادةً قبل فعل الجملة، وبعد be. المعاني هنا تظهر استعمالها في الروتين.",
+      "weakTag": "adverbs_of_frequency_meaning",
+      "pairs": [
+        {
+          "left": "always",
+          "right": "دائماً"
+        },
+        {
+          "left": "usually",
+          "right": "عادةً"
+        },
+        {
+          "left": "sometimes",
+          "right": "أحياناً"
+        },
+        {
+          "left": "never",
+          "right": "أبداً"
+        }
+      ]
+    },
+    {
+      "id": "adve_q7",
+      "type": "multiple_choice",
+      "prompt": "Our office is closed on Saturdays and Sundays; we ___ go to the office on Saturdays.",
+      "promptAr": "اختر الظرف الصحيح: مكتبنا مغلق يومي السبت والأحد؛ نحن ___ نذهب إلى المكتب يوم السبت.",
+      "explanation": "The statement says the office is closed on Saturdays, so the correct adverb for 'on Saturdays' is 'never'. Other adverbs would contradict the explicit closure information and so do not fit this routine context.",
+      "arabicNote": "السياق يحدد أن الذهاب يوم السبت غير ممكن لأنه مغلق، لذلك نستخدم 'never'. لا تختَر ظروفاً تشير إلى انتظام أو تكرار إذا المكان مغلق.",
+      "weakTag": "adverbs_of_frequency_meaning",
+      "options": [
+        "sometimes",
+        "never",
+        "often",
+        "usually"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "I have class at 8 a.m. on weekdays, so I ___ eat breakfast late on school days.",
+      "promptAr": "أكمل الفراغ: لدي درس الساعة 8 صباحًا أيام الأسبوع، لذلك أنا ___ أتناول الفطور متأخراً في أيام المدرسة.",
+      "explanation": "Because the speaker has an early class on weekdays, they do not eat breakfast late on those days. 'Never' matches that routine. Other adverbs would contradict the clear time and routine context.",
+      "arabicNote": "عبارة 'have class at 8 a.m. on weekdays' توضح ضرورة الاستيقاظ مبكراً. لذلك 'never' هو الظرف المناسب لوصف عدم تناول الفطور متأخراً في أيام المدرسة.",
+      "weakTag": "adverbs_of_frequency_form",
+      "options": [
+        "never",
+        "sometimes",
+        "always",
+        "often"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "adve_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is grammatically correct for this routine: They visit their grandparents on Sundays?",
+      "promptAr": "أي جملة صحيحة نحويًا لوصف روتين: هم يزورون أجدادهم أيام الأحد؟",
+      "explanation": "With the subject 'they' we must use the base verb form without -s (go, visit). The frequency adverb 'sometimes' comes before the main verb in present simple. Only the option with 'go' (not 'goes') is grammatically correct.",
+      "arabicNote": "تأكد من توافق الفعل مع الفاعل: مع 'they' نستخدم 'go' وليس 'goes'. وضع ظرف التكرار قبل فعل الجملة صحيح في هذا المثال.",
+      "weakTag": "adverbs_of_frequency_form",
+      "options": [
+        "They sometimes goes to see their grandparents on Sundays.",
+        "They sometimes go to see their grandparents on Sundays.",
+        "Sometimes they goes to see their grandparents on Sundays."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "adve_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the morning routine sentence.",
+      "promptAr": "اختر أفضل تصحيح لجملة روتين الصباح.",
+      "explanation": "The wrong sentence adds an unnecessary 'to' and misforms the verb. For present simple routines, place the frequency adverb before the base verb form (with correct agreement): 'I often drink coffee every morning before work.'",
+      "arabicNote": "الخطأ هو إضافة 'to' بعد 'often' وتغيير شكل الفعل. في الإنجليزية بعد ظرف التكرار نستخدم الفعل الصحيح: I often drink. تجنّب نقل بنية 'أن' العربية.",
+      "weakTag": "adverbs_of_frequency_arabic_transfer",
+      "options": [
+        "I often drink coffee every morning before work.",
+        "I often to drinks coffee every morning before work.",
+        "Often I drink to coffee every morning before work."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I often to drink coffee every morning before work."
+    }
+  ]
+}

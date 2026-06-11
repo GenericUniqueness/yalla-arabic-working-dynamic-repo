@@ -1,0 +1,240 @@
+{
+  "id": "register_formal_vs_natural",
+  "category": "c1_advanced_accuracy_style",
+  "titleEn": "Formal vs Natural Register",
+  "titleAr": "السجل الرسمي والطبيعي",
+  "level": "C1",
+  "explanationEn": "This topic shows how to pick grammar and phrasing that fit formal writing, polite workplace or academic requests, and natural conversation. You will learn which connectors, pronouns, and sentence shapes make writing precise and polite, or make speech sound friendly and natural, with clear examples from study, work, and family contexts.",
+  "explanationAr": "يتعلّم المتدرّب كيفية اختيار البناء اللغوي والأسلوب المناسب بين السجل الرسمي والمحايد والطبيعي. نركّز على وصلات الجمل، اختيار الضمائر، وترتيب الكلمات لتفادي النقل الحرفي من العربية الذي يسبّب غموضًا أو صرامة مفرطة، مع أمثلة عملية في المدرسة والعمل والمنزل.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أحتاج تمديد",
+      "arabicLiteral": "I need extension",
+      "englishCorrect": "I would be grateful if you could grant me an extension."
+    },
+    {
+      "arabicStructure": "اجتمعوا الاثنين وبعدها قرروا",
+      "arabicLiteral": "They met on Monday and then decided",
+      "englishCorrect": "The committee, which met on Monday, decided to approve the plan."
+    },
+    {
+      "arabicStructure": "تأخرت بسبب الزحمة، مع ذلك وصلت في الوقت المحدد",
+      "arabicLiteral": "I was late because of traffic; however I arrived on time",
+      "englishCorrect": "I was delayed by heavy traffic; however, I arrived on time."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I need extension.",
+      "correct": "I would appreciate an extension.",
+      "explanationEn": "Missing article and the blunt demand make this sentence ungrammatical and impolite in formal requests.",
+      "explanationAr": "حذف أداة التعريف والصيغة المباشرة يحول العبارة إلى غير صحيحة أو فظة في السياق الرسمي."
+    },
+    {
+      "wrong": "The committee who met on Monday approved the plan.",
+      "correct": "The committee, which met on Monday, approved the plan.",
+      "explanationEn": "Use commas and a non-defining clause when the meeting is extra information about the committee.",
+      "explanationAr": "عندما تكون معلومات الاجتماع إضافية لا تغيّر المقصود، نستخدم جملة موصولة غير محددة مع فاصلتين لتفادي تغيير المعنى."
+    },
+    {
+      "wrong": "Due to his absence, meeting canceled.",
+      "correct": "Due to his absence, the meeting was canceled.",
+      "explanationEn": "Formal English requires an article and a full finite verb to form a complete, clear sentence.",
+      "explanationAr": "الإنجليزية الرسمية تحتاج أداة تعريف وفعل صريح في الجملة لإيضاح الفاعل والزمن وتجنّب الغموض."
+    },
+    {
+      "wrong": "Send the report as soon as possible.",
+      "correct": "Could you please send the report at your earliest convenience?",
+      "explanationEn": "A blunt imperative may seem rude in professional emails; a softened question is more polite.",
+      "explanationAr": "الصيغة الأمرية المباشرة قد تُفهم فظة في بيئة العمل؛ نختار صيغة سؤال مهذّب لتلطيف الطلب."
+    }
+  ],
+  "questions": [
+    {
+      "id": "rfvn_q1",
+      "type": "multiple_choice",
+      "prompt": "You must email a professor to request a short deadline extension. Which sentence is most appropriate for a formal email to a professor?",
+      "promptAr": "تحتاج إلى إرسال بريد إلكتروني لأستاذ تطلب فيه تمديدًا قصيرًا للمهلة. أي جملة هي الأنسب لبريد رسمي إلى أستاذ؟",
+      "explanation": "Choose the most polite, indirect phrasing suitable in academic email requests.",
+      "arabicNote": "في العربية قد يُقال الطلب بصيغة مباشرة. في الإنجليزية الأكاديمية نستخدم تراكيب مهذبة وغير مطلوبة مباشرة مثل: 'I would be grateful if you could...'. هذا يخفف الصيغة ويُظهر احترامًا للمقام.",
+      "weakTag": "register_formal_vs_natural_form",
+      "options": [
+        "I would be grateful if you could grant me a short extension on the assignment.",
+        "Extend the deadline.",
+        "I need more time to finish this assignment.",
+        "Please extend the deadline."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rfvn_q2",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the formal, prescriptive option used after a preposition in written English: The colleague with ___ I discussed the schedule will lead the session.",
+      "promptAr": "اختر الصيغة الرسمية المستخدمة بعد حرف الجر في الكتابة: الزميل الذي ناقشته الجدول سيقود الجلسة.",
+      "explanation": "In formal prescriptive English, use the object form 'whom' after a preposition.",
+      "arabicNote": "في العربية لا يظهر فارق واضح بين الفاعل والمفعول بعد حروف الجر. في الإنجليزية الرسمية نستخدم 'whom' بعد حرف الجر لتحديد المفعول بوضوح وتجنّب الخطأ في الكتابة الرسمية.",
+      "weakTag": "register_formal_vs_natural_precision",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "that"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rfvn_q3",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is the best formal apology line for an email to a manager about missing an important meeting?",
+      "promptAr": "أي جملة هي أفضل عبارة اعتذار رسمية في بريد إلكتروني إلى مدير عن غيابك عن اجتماع مهم؟",
+      "explanation": "Use 'I apologize for...' plus a brief reason; concise and suitably formal for a manager.",
+      "arabicNote": "في العربية قد تُطيل الاعتذار أو تستخدم صيغًا عاطفية. في بريد إداري بالإنجليزية نفضّل عبارة مباشرة ومهذّبة مثل 'I apologize for missing the meeting' مع سبب وجيز.",
+      "weakTag": "register_formal_vs_natural_register",
+      "options": [
+        "Sorry I missed the meeting; I had an urgent appointment.",
+        "I apologize for missing the meeting; I had an urgent appointment.",
+        "Missed the meeting. Urgent appointment."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "rfvn_q4",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to its Arabic meaning and register (formal / neutral / informal).",
+      "promptAr": "وصل كل عبارة إنجليزية بترجمتها العربية ونوع السجل (رسمي/محايد/غير رسمي).",
+      "explanation": "Match both the meaning and the register label; register determines appropriateness in context.",
+      "arabicNote": "اختيار العبارة يعتمد على السياق: بعضها مهذب ورسمـي، وبعضها مناسب للمحادثة. ربط الترجمة مع تصنيف السجل يساعدك على اختيار الأسلوب الصحيح في كل موقف.",
+      "weakTag": "register_formal_vs_natural_meaning",
+      "pairs": [
+        {
+          "left": "I would appreciate it if you could...",
+          "right": "أكون ممتنًا لو... (رسمي)"
+        },
+        {
+          "left": "Could you please...?",
+          "right": "هل يمكنك من فضلك...؟ (مهذب/محايد)"
+        },
+        {
+          "left": "Do you want to...?",
+          "right": "هل تريد أن...؟ (طبيعي/غير رسمي)"
+        },
+        {
+          "left": "Cheers.",
+          "right": "إلى اللقاء/شكرًا (ودّي/غير رسمي)"
+        }
+      ]
+    },
+    {
+      "id": "rfvn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the best order for a formal request sentence (email).",
+      "promptAr": "رتّب الكلمات لتكوين طلب رسمي مناسب في بريد إلكتروني.",
+      "explanation": "Formal requests often use the grateful-if-you-could pattern in this precise order.",
+      "arabicNote": "ترتيب الكلمات في الإنجليزية يعطي درجة الرسمية. في العربية ترتيب الجملة قد يكون أكثر مرونة، لكن هنا نحتاج ترتيبًا ثابتًا لتكوين طلب مهذّب وواضح.",
+      "weakTag": "register_formal_vs_natural_form",
+      "words": [
+        "be",
+        "grateful",
+        "if",
+        "you",
+        "could",
+        "review",
+        "this",
+        "report.",
+        "I",
+        "would"
+      ],
+      "correctOrder": [
+        8,
+        9,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "rfvn_q6",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence intended for a formal report.",
+      "promptAr": "اختر التصحيح الأفضل لهذه الجملة المقصودة في تقرير رسمي.",
+      "explanation": "Formal reports need an article and a passive past verb for a clear sentence.",
+      "arabicNote": "في العربية أحيانًا تُحذف أدوات التعريف أو تُكتب الجملة بدون فعل صريح. في الإنجليزية الرسمية نحتاج 'the' وفعلًا كاملاً مثل 'was canceled' لتكون الجملة صحيحة وواضحة.",
+      "weakTag": "register_formal_vs_natural_arabic_transfer",
+      "options": [
+        "Due to his absence, the meeting was canceled.",
+        "Due to his absence the meeting canceled.",
+        "Due to his absence meeting cancelled."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Due to his absence, meeting canceled."
+    },
+    {
+      "id": "rfvn_q7",
+      "type": "multiple_choice",
+      "prompt": "You invite a close friend to a casual home dinner. Which sentence sounds most natural in conversation?",
+      "promptAr": "تدعُو صديقًا مقربًا إلى عشاء منزلي غير رسمي. أي جملة تبدو أكثر طبيعية في المحادثة؟",
+      "explanation": "Choose the direct, simple phrasing that fits spoken conversation between friends.",
+      "arabicNote": "المتحدثون العرب قد يستخدمون تعابير رسمية مع الأصدقاء. للمحادثة اليومية اختر عبارة بسيطة ومباشرة تعكس القرب والود، لا تعابير رسمية أو جامدة.",
+      "weakTag": "register_formal_vs_natural_register",
+      "options": [
+        "Do you want to come to dinner with me?",
+        "Would you care to honour me with your presence at dinner?",
+        "I would appreciate your company at dinner.",
+        "I request your attendance at dinner."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rfvn_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "She performed well in the exams; ___ she was disappointed with her grade.",
+      "promptAr": "أدّت جيدًا في الامتحانات؛ ___ لكنها شعرت بخيبة أمل من علامتها. اختر الرابط الأنسب.",
+      "explanation": "Use 'however' after a semicolon to show contrast in formal writing.",
+      "arabicNote": "في العربية نربط المعنى أحيانًا بالسياق فقط. في الإنجليزية الرسمية نحتاج رابطًا صريحًا، وفاصلة منقوطة قبل 'however' لإظهار التضاد بدقة في الكتابة.",
+      "weakTag": "register_formal_vs_natural_precision",
+      "options": [
+        "however",
+        "so",
+        "and",
+        "because"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "rfvn_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence clearly identifies who submitted the work and avoids ambiguous pronoun reference?",
+      "promptAr": "أي جملة تحدد بوضوح من سلّم العمل وتتجنّب الإحالة الضمنية للضمير؟",
+      "explanation": "Quoting the speaker names them clearly and removes pronoun ambiguity.",
+      "arabicNote": "المرجعية في الإنجليزية تحتاج ضميرًا واضحًا أو تصريحًا مباشرًا. النقل الحرفي من العربية قد يترك الضمير غامضًا، لذلك نذكر القائل صراحة أو نستخدم اقتباس مباشر.",
+      "weakTag": "register_formal_vs_natural_precision",
+      "options": [
+        "Ahmed told his friend that he submitted the work.",
+        "Ahmed told his friend, 'I submitted my work.'",
+        "Ahmed said his friend had submitted the work."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "rfvn_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a polite closing sentence in an email.",
+      "promptAr": "اختر التصحيح الأفضل لجملة ختام مهذبة في بريد إلكتروني.",
+      "explanation": "'Look forward to' requires a gerund (verb+ing); use the -ing form of the verb.",
+      "arabicNote": "في العربية قد تترجم العبارة حرفيًا فتحصل على شكل خطأ نحوياً. في الإنجليزية اللاحقة 'to' هي حرف جر هنا، فتأتي كلمة بعده بصيغة -ing مثل 'meeting' لتكون العبارة سليمة ورسميّة.",
+      "weakTag": "register_formal_vs_natural_register",
+      "options": [
+        "I look forward to meeting you next week.",
+        "I look forward to meet you next week.",
+        "I am look forward to meeting you next week."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I look forward to meet you next week."
+    }
+  ]
+}

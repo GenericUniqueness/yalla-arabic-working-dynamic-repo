@@ -1,0 +1,226 @@
+{
+  "id": "must_have_to",
+  "category": "a2_core",
+  "titleEn": "Must and Have To",
+  "titleAr": "استخدام must و have to",
+  "level": "A2",
+  "explanationEn": "Use must and have to to show necessity, obligation, or rules in everyday situations like school, work, or travel. Both are followed by the base verb; must is always followed by the base verb, and have changes to has with he/she. Do not add 'to' after must.",
+  "explanationAr": "في الإنجليزية نستخدم must و have to للدلالة على الضرورة أو القواعد في مواقف يومية مثل المدرسة أو العمل. كلاهما يتبعه الفعل الأساسي. انتبه: لا نضيف 'to' بعد must، ومع he/she نستخدم has بدلاً من have. كثيراً ما يترجم المتعلمون من ترتيب وأدوات عربية مختلفة، فاحذر النقل الحرفي.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "يجب أن أغادر الآن.",
+      "arabicLiteral": "must I leave now",
+      "englishCorrect": "I have to leave now."
+    },
+    {
+      "arabicStructure": "عليك وضع حزام الأمان.",
+      "arabicLiteral": "you must wear seat belt",
+      "englishCorrect": "You must wear a seat belt."
+    },
+    {
+      "arabicStructure": "هو مضطر للذهاب الآن.",
+      "arabicLiteral": "he forced to go now",
+      "englishCorrect": "He has to go now."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I must to go now.",
+      "correct": "I must go now.",
+      "explanationEn": "Learners sometimes add 'to' after must because Arabic often uses particles like 'أن' before verbs. In English, must is followed directly by the base verb without 'to'.",
+      "explanationAr": "يميل المتعلمون إلى إضافة 'to' بعد must بسبب وجود 'أن' في العربية. في الإنجليزية must يتبع الفعل الأساسي مباشرة دون 'to'."
+    },
+    {
+      "wrong": "You have to wears a coat tomorrow.",
+      "correct": "You have to wear a coat tomorrow.",
+      "explanationEn": "After have to use the base verb. The -s should not be added to the main verb; agreement is on have/has, not the main verb.",
+      "explanationAr": "بعد 'have to' نستخدم الفعل الأساسي دون إضافة s. علامة الفاعل تظهر على have/has وليس على الفعل التالي."
+    },
+    {
+      "wrong": "She musts study for the test tonight.",
+      "correct": "She must study for the test tonight.",
+      "explanationEn": "'Must' is a modal and does not take -s with he/she. Arabic verb endings sometimes lead learners to add endings in English, but modals do not change form.",
+      "explanationAr": "'must' فعل موديال لا يأخذ نهاية s مع he أو she. القواعد العربية قد تدفع لإضافة نهايات، لكن مديات الإنجليزية ثابتة."
+    },
+    {
+      "wrong": "He have to finish his homework before class.",
+      "correct": "He has to finish his homework before class.",
+      "explanationEn": "Use has to with he/she in present simple. Using have with he is ungrammatical because it does not agree with the subject.",
+      "explanationAr": "مع he أو she نستخدم has to في المضارع البسيط. استخدام have مع he خطأ نحوي لأن الفعل لا يتطابق مع الفاعل."
+    }
+  ],
+  "questions": [
+    {
+      "id": "must_q1",
+      "type": "multiple_choice",
+      "prompt": "At school the notice says: You ___ wear a uniform every day. (This is a school rule.)",
+      "promptAr": "في المدرسة يوجد إشعار يقول: يجب عليك ___ ارتداء زي مدرسي كل يوم. (هذه قاعدة مدرسية.)",
+      "explanation": "This sentence gives a clear school rule, an obligation. The correct modal is 'must' followed by the base verb. Other options show permission, possibility, or advice and do not match this kind of strong rule.",
+      "arabicNote": "عند وجود قاعدة مكتوبة من المؤسسة نستخدم modal يعبر عن إلزام قوي. must يتبعه فعل أساسي مباشرة ولا نستخدم كلمات تعطي إذن أو احتمال.",
+      "weakTag": "must_have_to_meaning",
+      "options": [
+        "must",
+        "can",
+        "might",
+        "should"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "must_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly expresses a study requirement from a teacher today?",
+      "promptAr": "أي جملة تعبّر بشكل صحيح عن إلزام بالدراسة من المعلم اليوم؟",
+      "explanation": "A teacher's requirement is an external obligation. 'I must study.' is correct because must is followed by the base verb. The other options add 'to' or change the verb form and are ungrammatical in this context.",
+      "arabicNote": "الإلزام من المعلم هو التزام خارجي. بعد must نضع الفعل الأساسي دون 'to' أو تغييرات في الصيغة.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "I must to study.",
+        "I must study.",
+        "I must studying."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "must_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Her teacher set a firm deadline this morning: She ___ finish her project by Friday.",
+      "promptAr": "وضعت معلمتها موعدًا نهائيًا هذا الصباح: يجب عليها ___ إنهاء مشروعها بحلول يوم الجمعة.",
+      "explanation": "This is an external obligation from the teacher with a present requirement. For third-person singular we use 'has to' + base verb. 'Have to' is wrong with 'she'; modal 'might' or 'will' change the meaning.",
+      "arabicNote": "'has to' يستخدم مع he/she في حالات الالتزام الخارجي. تجنّب استخدام 'have to' مع she لأن ذلك يخالف مطابقة الفاعل.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "has to",
+        "have to",
+        "might",
+        "will"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "must_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this office note about attendance today.",
+      "promptAr": "اختر التصحيح الأفضل لهذه المذكرة المكتبية حول الحضور اليوم.",
+      "explanation": "The wrong sentence uses 'musts', which is ungrammatical because must is a modal and does not change for subject. The correct form is 'must' plus the base verb to keep the same obligation and time context.",
+      "arabicNote": "في ملاحظات العمل نستخدم must متبوعة بالفعل الأساسي. لا تضف s إلى must ولا تضيف 'to' بعده.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "You must attend the meeting today.",
+        "You must to attend the meeting today.",
+        "You must attending the meeting today."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Office note: You musts attend the meeting today."
+    },
+    {
+      "id": "must_q5",
+      "type": "sentence_order",
+      "prompt": "Make a sentence that gives an instruction about a project using the words below. The instruction is for now.",
+      "promptAr": "كون جملة تعطي تعليمًا عن المشروع باستخدام الكلمات أدناه. التعليم الآن ملزم.",
+      "explanation": "In English the subject comes before the modal, then the base verb and object. Put the words in the order subject + modal + base verb + object for a clear instruction.",
+      "arabicNote": "في الإنجليزية ترتيب الجملة للأمر: الفاعل ثم المودال ثم الفعل الأساسي ثم المفعول. لا تنقل ترتيب الكلمات العربية حرفياً.",
+      "weakTag": "must_have_to_word_order",
+      "words": [
+        "must",
+        "You",
+        "finish",
+        "this",
+        "project"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "must_q6",
+      "type": "meaning_match",
+      "prompt": "Each sentence expresses necessity in a daily situation. Match each English sentence to its Arabic meaning.",
+      "promptAr": "كل جملة تعبّر عن ضرورة في موقف يومي. وصل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "Match the sentences by meaning: notice whether the necessity is a rule, an external requirement, or a personal need. This helps avoid literal translation errors and wrong word order transfer from Arabic.",
+      "arabicNote": "افرق بين الأنواع: قاعدة، التزام خارجي، أو ضرورة شخصية. هذا يساعد على اختيار must أو have to بشكل صحيح وعدم النقل الحرفي من العربية.",
+      "weakTag": "must_have_to_meaning",
+      "pairs": [
+        {
+          "left": "You must study.",
+          "right": "يجب عليك الدراسة."
+        },
+        {
+          "left": "I have to leave now.",
+          "right": "عليّ المغادرة الآن."
+        },
+        {
+          "left": "She must wear a coat.",
+          "right": "يجب عليها ارتداء معطف."
+        }
+      ]
+    },
+    {
+      "id": "must_q7",
+      "type": "multiple_choice",
+      "prompt": "His teacher reminded him today: He ___ to finish his homework before dinner.",
+      "promptAr": "ذكره معلمه اليوم: يجب عليه ___ إنهاء واجبه قبل العشاء.",
+      "explanation": "The sentence shows a present obligation with the structure 'has to' for he. The blank needs 'has' so the full phrase becomes 'has to' plus the base verb. Other choices are ungrammatical or change the meaning.",
+      "arabicNote": "عند وجود 'to' بعد الفراغ نحتاج has أو have. مع he نستخدم has. لا تضف s إلى must أو تستخدم have مع he.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "has",
+        "have",
+        "musts",
+        "must"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "must_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows that they are required to leave now?",
+      "promptAr": "أي جملة تعبّر بشكل صحيح عن إلزامهم بالمغادرة الآن؟",
+      "explanation": "This is an immediate obligation to leave. After have to we use the base verb 'go'. Options that add -s or -ing are ungrammatical. Only the sentence with the base verb is correct.",
+      "arabicNote": "بعد have to نستخدم الفعل الأساسي دون s أو ing. انتبه لتطابق الفاعل مع الشكل الصحيح للفعل المعياري.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "They have to goes now.",
+        "They have to go now.",
+        "They have to going now."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "must_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "School rules require that you ___ wear your ID in the building today.",
+      "promptAr": "قواعد المدرسة تتطلب أن ___ ترتدي هويتك داخل المبنى اليوم.",
+      "explanation": "A school rule is an obligation. 'Must' followed by the base verb shows a clear institutional requirement. Other options like can, might, or should give permission, possibility, or advice and do not match a strict rule.",
+      "arabicNote": "في سياق قاعدة مؤسسية نستخدم modal يدل على إلزام قوي. must يتبعه الفعل الأساسي مباشرة ولا يعطي معنى إذن أو احتمال.",
+      "weakTag": "must_have_to_meaning",
+      "options": [
+        "must",
+        "can",
+        "might",
+        "should"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "must_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this manager's email about a deadline this afternoon.",
+      "promptAr": "اختر التصحيح الأفضل لرسالة المدير حول موعد نهائي هذا الظهيرة.",
+      "explanation": "The wrong sentence uses 'have' with she and also adds -s to the main verb, which makes it ungrammatical. The correct present form is 'has to' plus the base verb to preserve the deadline context.",
+      "arabicNote": "مع she نستخدم has to ثم الفعل الأساسي. شائع أن يخطئ المتعلمون باستخدام have أو إضافة s للفعل التالي؛ لا تغير شكل الفعل بعد modal.",
+      "weakTag": "must_have_to_form",
+      "options": [
+        "She has to finish her work by 5 pm.",
+        "She have to finish her work by 5 pm.",
+        "She has to finishing her work by 5 pm."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Manager email: She have to finishes her work by 5 pm."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "concession_and_contrast",
+  "category": "b2_expansion",
+  "titleEn": "Concession and Contrast",
+  "titleAr": "التنازل والتباين",
+  "level": "B2",
+  "explanationEn": "Use although and even though before full clauses (subject + verb). Use despite and in spite of before noun phrases or -ing forms. Use whereas and while to compare or contrast two clauses. Note: therefore shows result, not concession: It was cold; therefore, we stayed inside.",
+  "explanationAr": "في العربية قد تُستخدم كلمات مثل «رغم» بمرونة ويُغيّر ترتيب الكلمات بدون أدوات ربط ظاهرة. أما الإنجليزية فتتطلب روابط وترتيبًا ثابتًا: although / even though قبل جملة كاملة، وdespite / in spite of قبل اسم أو مصدر، وwhereas / while للمقارنة. تذكّر: therefore يدل على نتيجة لا تنازل. مثال: It was cold; therefore, we stayed inside.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "رغم أنه متعب، ذهب للعمل.",
+      "arabicLiteral": "Despite he tired, he went to work.",
+      "englishCorrect": "Although he was tired, he went to work."
+    },
+    {
+      "arabicStructure": "بالرغم من تأخيره، أنهينا.",
+      "arabicLiteral": "Despite his lateness, we finished.",
+      "englishCorrect": "Although it was late, we finished."
+    },
+    {
+      "arabicStructure": "هو يحب الشاي بينما أخوه يحب القهوة.",
+      "arabicLiteral": "He likes tea while his brother likes coffee.",
+      "englishCorrect": "He likes tea, whereas his brother likes coffee."
+    },
+    {
+      "arabicStructure": "كان الجو باردًا؛ لذلك بقينا في الداخل.",
+      "arabicLiteral": "It was cold; therefore, we stayed inside.",
+      "englishCorrect": "It was cold; therefore, we stayed inside."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Despite she was late, we finished on time.",
+      "correct": "Although she was late, we finished on time.",
+      "explanationEn": "Learners place despite before a full clause by literal translation from Arabic. Use although or even though for clauses.",
+      "explanationAr": "خطأ ناتج عن الترجمة الحرفية من العربية: لا يأتي despite قبل جملة كاملة. استخدم although أو even though قبل جملة تحتوي فاعل وفعل."
+    },
+    {
+      "wrong": "In spite of it was raining, we walked.",
+      "correct": "Although it was raining, we walked.",
+      "explanationEn": "In spite of must be followed by a noun or -ing, not a clause. Use although for the clause here.",
+      "explanationAr": "الخطأ شائع لأن الناطقين بالعربية قد يترجمون حرفيًا. in spite of يتبع اسمًا أو مصدرًا، أما جملة كاملة فتحتاج although."
+    },
+    {
+      "wrong": "He sick, he stayed home.",
+      "correct": "Although he was sick, he stayed home.",
+      "explanationEn": "Arabic can omit the verb 'to be' in descriptions. English requires a verb after the concession connector.",
+      "explanationAr": "في العربية قد تُحذف أدوات الكينونة. بعد although أو even though يجب وجود فعل واضح (مثلاً was) في الجملة الإنجليزية."
+    },
+    {
+      "wrong": "She likes coffee whereas tea his sister prefers.",
+      "correct": "She likes coffee, whereas his sister prefers tea.",
+      "explanationEn": "This wrong order copies Arabic word order and omits the subject position in the second clause after whereas.",
+      "explanationAr": "الخطأ ناتج عن النقل الحرفي من العربية: بعد whereas يجب ترتيب الفاعل ثم الفعل. احتفظ بترتيب فاعل-فعل في كل جملة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "conc_q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the best word: ___ he was tired, he finished his homework.",
+      "promptAr": "اختر الرابط الأنسب لبدء جملة تظهر التنازل: الفاعل كان متعبًا ومع ذلك أنهى واجبه.",
+      "explanation": "Although introduces a clause with subject and verb and shows contrast despite expectation.",
+      "arabicNote": "المتحدثون العرب قد يضعون despite قبل جملة كاملة. في الإنجليزية استخدم although أو even though قبل جملة كاملة (فاعل + فعل).",
+      "weakTag": "concession_and_contrast_form",
+      "options": [
+        "Despite",
+        "Although",
+        "During",
+        "Due to"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "conc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly shows contrast about rain and walking?",
+      "promptAr": "أي جملة تعرض التباين بصيغة إنجليزية صحيحة وتبين أن المطر لم يمنع المشي؟",
+      "explanation": "Even though introduces a full clause showing contrast between rain and the action.",
+      "arabicNote": "يخطئ المتعلمون بوضع despite قبل جملة؛ for contrast with a clause استخدم although أو even though لربط جملة كاملة.",
+      "weakTag": "concession_and_contrast_word_order",
+      "options": [
+        "Despite it rained, we walked home.",
+        "Even though it rained, we walked home.",
+        "It rained; despite we walked home."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "conc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "Choose the correct beginning: ___ her tiredness, she kept studying.",
+      "promptAr": "اختر بداية الجملة الصحيحة التي تُظهر التنازل وتليها عبارة اسمية.",
+      "explanation": "Use despite before a noun phrase to contrast with her continuing to study.",
+      "arabicNote": "فرق مهم: despite وin spite of يتبعان اسمًا أو مصدرًا. لا تضع despite قبل جملة كاملة كما يحدث عند الترجمة الحرفية.",
+      "weakTag": "concession_and_contrast_form",
+      "options": [
+        "Despite",
+        "Although",
+        "Whereas",
+        "Because"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "conc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التي بدأت بكلمة خاطئة قبل جملة كاملة وتحتاج رابطًا مناسبًا.",
+      "explanation": "Replace 'Despite' + clause with 'Although' + clause to make a correct contrast.",
+      "arabicNote": "خطأ ناتج عن النقل الحرفي: لا يأتي despite قبل جملة كاملة. استبدل despite بـ although أو استخدم despite مع اسم فقط.",
+      "weakTag": "concession_and_contrast_arabic_transfer",
+      "options": [
+        "Although she was late, we arrived on time.",
+        "Despite of she was late, we arrived on time.",
+        "Despite she late, we arrived on time."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Despite she was late, we arrived on time."
+    },
+    {
+      "id": "conc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to show contrast.",
+      "promptAr": "رتّب الكلمات لتكوين جملة إنجليزية صحيحة تُظهر التنازل؛ الجزء الفرعي يبدأ بـ although ثم تأتي الجملة الأساسية.",
+      "explanation": "Start with although plus the clause, then place the main clause after it.",
+      "arabicNote": "في العربية قد يختلف ترتيب الجملة أو تُحذف أدوات الربط. في الإنجليزية نبدأ أحيانًا بـ although ثم نضع الجملة الأساسية بترتيب فاعل-فعل واضح.",
+      "weakTag": "concession_and_contrast_word_order",
+      "words": [
+        "Although",
+        "it",
+        "was",
+        "late",
+        "we",
+        "finished."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "conc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each connector to its Arabic meaning and structure requirement.",
+      "promptAr": "وصل كل رابط بالمعنى العربي الأنسب واشرح إن كان يتبع اسمًا أم جملة كاملة.",
+      "explanation": "These connectors show contrast but require different following structures (clause vs noun phrase).",
+      "arabicNote": "لاحظ أن بعض الروابط تتطلب اسمًا (despite, in spite of) وبعضها جملة كاملة (although, even though)، وwhereas/while تقارن بين جملتين كاملتين.",
+      "weakTag": "concession_and_contrast_meaning",
+      "pairs": [
+        {
+          "left": "Although",
+          "right": "مع أن / رغم أن (قبل جملة كاملة)"
+        },
+        {
+          "left": "Despite",
+          "right": "بالرغم من (قبل اسم أو مصدر)"
+        },
+        {
+          "left": "Whereas",
+          "right": "بينما / في حين أن (لمقارنة جملتين)"
+        },
+        {
+          "left": "In spite of",
+          "right": "على الرغم من (قبل اسم أو مصدر)"
+        }
+      ]
+    },
+    {
+      "id": "conc_q7",
+      "type": "multiple_choice",
+      "prompt": "Choose the best connector: ___ he studied all night, he failed the test.",
+      "promptAr": "اختر الرابط المناسب لبيان التنازل بين الدراسة الطويلة والنتيجة السيئة في الاختبار.",
+      "explanation": "Although or even though introduce a full clause showing contrast between effort and result.",
+      "arabicNote": "في العربية نقول أحيانًا «مع أنه درس طوال الليل». في الإنجليزية استخدم although أو even though قبل جملة كاملة لإظهار التناقض مع النتيجة.",
+      "weakTag": "concession_and_contrast_form",
+      "options": [
+        "Despite",
+        "Although",
+        "During",
+        "So"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "conc_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "Complete with the correct two-word phrase: ___ his bad cold, he went to work.",
+      "promptAr": "أكمل بالعبارة المكوّنة من كلمتين التي تُظهر التنازل وتليها اسمًا أو مصدرًا.",
+      "explanation": "Choose the two-word phrase 'in spite of' which precedes a noun phrase for contrast.",
+      "arabicNote": "انتباه: 'in spite of' تسبق اسمًا أو مصدرًا. أخطاء شائعة: حذف of أو وضع جملة كاملة بعد هذه العبارة بدلاً من اسم.",
+      "weakTag": "concession_and_contrast_form",
+      "options": [
+        "In spite of",
+        "Although",
+        "Despite of",
+        "In spite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "conc_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly uses while to show contrast?",
+      "promptAr": "أي جملة تستخدم while للمقارنة أو التباين بشكل صحيح بين عادتي شخصين؟",
+      "explanation": "While can join two contrasting clauses when both are complete and show contrast.",
+      "arabicNote": "في الإنجليزية يمكن استخدام while مثل whereas لربط جملتين متقابلتين. انتبه لترتيب الفاعل والفعل في كل جملة عند النقل من العربية.",
+      "weakTag": "concession_and_contrast_word_order",
+      "options": [
+        "While he likes tea, his brother likes coffee.",
+        "While living in London, he visited many museums.",
+        "He likes tea while his brother like coffee."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "conc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the sentence order and missing subject.",
+      "promptAr": "اختر التصحيح الأفضل لجملة بها ترتيب كلمات خاطئ وغياب فاعل في الجملة الثانية عند الربط بكلمة whereas.",
+      "explanation": "Use whereas between two complete clauses and include the subject and verb in both clauses.",
+      "arabicNote": "خطأ شائع: النقل الحرفي من العربية يغيِّب الفاعل أو يبدّل ترتيب الكلمات. بعد whereas يجب وجود جملتين كاملتين بكل فاعل وفعل واضحين.",
+      "weakTag": "concession_and_contrast_arabic_transfer",
+      "options": [
+        "She likes coffee, whereas his sister prefers tea.",
+        "She likes coffee whereas prefers his sister tea.",
+        "She likes coffee whereas tea his sister prefers."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She likes coffee whereas tea his sister prefers."
+    }
+  ]
+}

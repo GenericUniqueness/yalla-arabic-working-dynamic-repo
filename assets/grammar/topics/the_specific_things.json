@@ -1,0 +1,233 @@
+{
+  "id": "the_specific_things",
+  "category": "basics",
+  "titleEn": "The for Specific Things",
+  "titleAr": "استخدام the للأشياء المحددة",
+  "level": "A1-A2",
+  "explanationEn": "Use 'the' when the listener knows the specific person or thing you mean. Say 'the book' when you and the listener know which book. Do not use 'the' for any one of many things (use a/an) or for general ideas. Arabic uses the prefix 'ال' differently, so learners often add or skip 'the' by mistake.",
+  "explanationAr": "استخدم 'the' عندما يعرف المستمع الشخص أو الشيء المحدد الذي تقصد. في العربية نستخدم 'ال' في حالات مختلفة أحيانًا، لكن في الإنجليزية لا نستعمل 'the' لكل اسم؛ في العربية قد تضع 'ال' أو تحذفها حسب المعنى، لكن في الإنجليزية يجب تحديد ما إذا كان الاسم محددًا أو عامًا.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "الكتاب على الطاولة",
+      "arabicLiteral": "the book on the table",
+      "englishCorrect": "The book is on the table."
+    },
+    {
+      "arabicStructure": "أعطني التفاحة",
+      "arabicLiteral": "give-me the apple",
+      "englishCorrect": "Give me the apple."
+    },
+    {
+      "arabicStructure": "أحب القهوة",
+      "arabicLiteral": "I love the coffee",
+      "englishCorrect": "I love coffee."
+    },
+    {
+      "arabicStructure": "ذهبت إلى المدرسة",
+      "arabicLiteral": "I went to the school",
+      "englishCorrect": "I went to school."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I saw cat.",
+      "correct": "I saw the cat.",
+      "explanationEn": "Missing 'the' makes the sentence unclear; use 'the' if the listener knows which cat you mean.",
+      "explanationAr": "حذف 'the' يجعل الجملة غير محددة. المتعلم العربي قد ينسى 'the' لأن العربية تسمح حذف أداة التعريف في بعض السياقات."
+    },
+    {
+      "wrong": "She is teacher.",
+      "correct": "She is the teacher.",
+      "explanationEn": "Use 'the' when you talk about a specific teacher known to listener.",
+      "explanationAr": "نستخدم 'the' لتحديد معلمة معروفة للمستمع. متعلمو العربية قد يتركون 'the' لأن تركيب التعريف يختلف في العربية."
+    },
+    {
+      "wrong": "I want apple.",
+      "correct": "I want the apple.",
+      "explanationEn": "Use 'the' when both speaker and listener mean one specific apple.",
+      "explanationAr": "نستخدم 'the' عندما نشير إلى تفاحة محددة. المتكلم العربي قد يترجم حرفيًا دون إضافة 'the'."
+    },
+    {
+      "wrong": "This is book.",
+      "correct": "This is the book.",
+      "explanationEn": "'This' points to a specific item, so use 'the' before the noun.",
+      "explanationAr": "كلمة 'This' تشير لشيء محدد، لذلك نستخدم 'the'. الأخطاء تحدث لأن العربية تضع التعريف بطرق مختلفة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "the_q1",
+      "type": "multiple_choice",
+      "prompt": "We both know the dog. I saw ___ dog in the park.",
+      "promptAr": "نحن نعرف الكلب نفسه. رأيت ___ كلب في الحديقة.",
+      "explanation": "Use 'the' because it refers to a specific dog the speaker and listener know.",
+      "arabicNote": "استخدم 'the' لأن الكلب محدد للمستمع والمتكلم.",
+      "weakTag": "the_specific_things_article_usage",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "the_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "We talked about one book earlier. Which sentence is correct?",
+      "promptAr": "تحدثنا عن كتاب معين سابقاً. أي جملة صحيحة؟",
+      "explanation": "'I want the book.' specifies which book the speaker means.",
+      "arabicNote": "الجملة تحدد أي كتاب، لذلك نستخدم 'the'.",
+      "weakTag": "the_specific_things_choose_correct",
+      "options": [
+        "I want the book.",
+        "I want book.",
+        "I want a book."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "the_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "She is ___ only teacher in this room.",
+      "promptAr": "هي المعلمة الوحيدة في هذه الغرفة. اختر الأداة الصحيحة.",
+      "explanation": "Use 'the' with 'only' because it identifies one specific teacher.",
+      "arabicNote": "نستخدم 'the' مع only لأنها تحدد شخصاً واحداً معروفاً.",
+      "weakTag": "the_specific_things_fill_blank",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "the_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'I want the apple.' is correct when you mean one specific apple.",
+      "arabicNote": "نستخدم 'the' عند الإشارة إلى تفاحة محددة، وهذا خطأ شائع للمتحدثين بالعربية.",
+      "weakTag": "the_specific_things_fix_mistake",
+      "options": [
+        "I want apple.",
+        "I want the apple.",
+        "I want a apple."
+      ],
+      "correctIndex": 1,
+      "wrongSentence": "I want apple."
+    },
+    {
+      "id": "the_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'The book is on the table.'",
+      "arabicNote": "الجملة الصحيحة هي 'The book is on the table.' ترتيب الكلمات يختلف عن العربية قليلاً.",
+      "weakTag": "the_specific_things_sentence_order",
+      "words": [
+        "The",
+        "book",
+        "is",
+        "on",
+        "the",
+        "table."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "the_q6",
+      "type": "meaning_match",
+      "prompt": "Match each word to its Arabic meaning.",
+      "promptAr": "صل كل كلمة بمعناها العربي.",
+      "explanation": "Knowing these words helps choose when to use 'the'.",
+      "arabicNote": "معرفة هذه الكلمات تساعد في معرفة متى نستخدم 'the' في الإنجليزية.",
+      "weakTag": "the_specific_things_meaning_match",
+      "pairs": [
+        {
+          "left": "the",
+          "right": "ال"
+        },
+        {
+          "left": "book",
+          "right": "كتاب"
+        },
+        {
+          "left": "school",
+          "right": "مدرسة"
+        },
+        {
+          "left": "coffee",
+          "right": "قهوة"
+        }
+      ]
+    },
+    {
+      "id": "the_q7",
+      "type": "multiple_choice",
+      "prompt": "We both know the cat. I saw ___ cat yesterday.",
+      "promptAr": "نحن نعرف القطة نفسها. رأيت ___ قطة البارحة.",
+      "explanation": "'The' is correct because both speaker and listener know which cat.",
+      "arabicNote": "استخدم 'the' عندما يعرف المتكلم والمستمع القطة المقصودة.",
+      "weakTag": "the_article_usage",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "the_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "You asked about one specific book. Which sentence is correct?",
+      "promptAr": "سألت عن كتاب معين. أي جملة صحيحة؟",
+      "explanation": "'This is the book.' identifies the specific book already known in context.",
+      "arabicNote": "نستخدم 'the' لأن الكتاب محدد ومعروف في السياق.",
+      "weakTag": "the_choose_correct",
+      "options": [
+        "This is the book.",
+        "This is book.",
+        "This is a book."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "the_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "I want ___ orange.",
+      "promptAr": "أريد ___ برتقالة.",
+      "explanation": "Use 'a' because it means any orange, not a specific one.",
+      "arabicNote": "استخدم 'a' لأن المتكلم لا يحدد برتقالة معينة. متعلمو العربية قد يترجمون حرفيًا ويضعون 'the'.",
+      "weakTag": "the_fill_choice",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "the_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Use 'the' with 'only' because it identifies one specific teacher.",
+      "arabicNote": "نستخدم 'the' مع only لأنها تحدد شخصاً واحداً معروفاً.",
+      "weakTag": "the_fix_mistake_specific",
+      "options": [
+        "She is the only teacher.",
+        "She is a only teacher.",
+        "She is only teacher."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She is only teacher."
+    }
+  ]
+}

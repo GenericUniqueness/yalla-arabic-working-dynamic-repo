@@ -1,0 +1,225 @@
+{
+  "id": "was_were",
+  "category": "a2_core",
+  "titleEn": "Was and Were",
+  "titleAr": "استخدام was و were",
+  "level": "A2",
+  "explanationEn": "In past simple, use 'was' with singular subjects (I, he, she, it) and 'were' with plural subjects (we, you, they). Choose the correct form so it agrees with the subject. Time words like 'yesterday' or 'last week' show the past. Do not copy Arabic word order that omits helper verbs.",
+  "explanationAr": "في زمن الماضي نستخدم 'was' مع الفاعل المفرد مثل I و he و she و it، ونستخدم 'were' مع الفاعل الجمع مثل we و you و they. في العربية قد يسهل حذف الضمائر أو تغيير ترتيب الكلمات، لكن في الإنجليزية يجب أن يتفق فعل 'be' (was/were) مع الفاعل ويُكتب واضحًا في الجملة.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا متعب أمس.",
+      "arabicLiteral": "I tired yesterday.",
+      "englishCorrect": "I was tired yesterday."
+    },
+    {
+      "arabicStructure": "هم في المدرسة.",
+      "arabicLiteral": "They in the school.",
+      "englishCorrect": "They were at school."
+    },
+    {
+      "arabicStructure": "هو في البيت.",
+      "arabicLiteral": "He in the house.",
+      "englishCorrect": "He was at home."
+    },
+    {
+      "arabicStructure": "نحن في الحديقة.",
+      "arabicLiteral": "We in the park.",
+      "englishCorrect": "We were at the park."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I were happy.",
+      "correct": "I was happy.",
+      "explanationEn": "Learners sometimes use 'were' with 'I' because Arabic does not use the same auxiliary pattern. In English 'I' takes 'was' in the past simple.",
+      "explanationAr": "يميل بعض المتعلمين إلى استخدام 'were' مع 'I' بسبب اختلاف كيفية التعبير عن الماضي في العربية. في الإنجليزية 'I' تأخذ 'was' في الماضي البسيط."
+    },
+    {
+      "wrong": "They was at school.",
+      "correct": "They were at school.",
+      "explanationEn": "'They' is plural, so the past form of 'be' must be 'were'. Using 'was' here is incorrect even though Arabic might omit a helper.",
+      "explanationAr": "كلمة 'They' جمع، لذلك صيغة الماضي الصحيحة للفعل 'be' هي 'were'. استخدام 'was' هنا خطأ حتى لو كانت العربية تحذف أداة المساعدة."
+    },
+    {
+      "wrong": "She were tired.",
+      "correct": "She was tired.",
+      "explanationEn": "'She' is singular and needs 'was'. This mistake often comes from literal translation where Arabic tense markers differ from English auxiliaries.",
+      "explanationAr": "'She' مفرد وتحتاج 'was'. يحدث هذا الخطأ غالبًا عند الترجمة الحرفية لأن علامات الزمن في العربية تختلف عن استخدام أدوات 'be' في الإنجليزية."
+    },
+    {
+      "wrong": "We was at home.",
+      "correct": "We were at home.",
+      "explanationEn": "Use 'were' with 'we'. The wrong sentence keeps the intended meaning but uses the wrong auxiliary form; English requires subject-verb agreement in the past of 'be'.",
+      "explanationAr": "نستخدم 'were' مع 'we'. الجملة الخاطئة تحمل نفس المعنى المقصود لكنها تستخدم أداة مساعدة خاطئة؛ الإنجليزية تتطلب توافق بين الفاعل والفعل في الماضي."
+    }
+  ],
+  "questions": [
+    {
+      "id": "wasw_q1",
+      "type": "multiple_choice",
+      "prompt": "I ___ happy yesterday.",
+      "promptAr": "اختر الكلمة الصحيحة لتكملة الجملة.",
+      "explanation": "Use 'was' with 'I' for past simple statements about a single person or self.",
+      "arabicNote": "نستخدم 'was' مع 'I' في الماضي عند الحديث عن حالة شخصية.",
+      "weakTag": "was_were_form",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wasw_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة لغويًا؟",
+      "explanation": "'He' is singular, so use 'was' for past 'be'. The other options use the wrong form or present tense.",
+      "arabicNote": "لأن 'He' مفرد، نستخدم 'was' في الماضي. الخيارات الأخرى خطأ زمنًا أو صيغة.",
+      "weakTag": "was_were_meaning",
+      "options": [
+        "He were at the party.",
+        "He was at the party.",
+        "He am at the party."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "wasw_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ at school last week.",
+      "promptAr": "اختر الكلمة المناسبة لتكملة الجملة.",
+      "explanation": "'They' is plural, so the past form is 'were'. 'Are' is present and 'was' is singular past.",
+      "arabicNote": "'They' جمع، لذلك نستخدم 'were' للماضِ.",
+      "weakTag": "was_were_word_order",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "wasw_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "The correct past form for 'I' is 'was'. The other choices either use present tense or an incorrect continuous form.",
+      "arabicNote": "الصحيح هو 'I was' لأن 'I' يأخذ 'was' في الماضي. الخيارات الأخرى زَمَنها خاطئ أو تركيب غير مناسب.",
+      "weakTag": "wasw_arabic_transfer",
+      "options": [
+        "I was tired yesterday.",
+        "I am tired yesterday.",
+        "I were being tired yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I were tired yesterday."
+    },
+    {
+      "id": "wasw_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a past tense sentence: at / were / they / home",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة بالماضي.",
+      "explanation": "Subject first ('They'), then the past form 'were', then place 'at home'. English keeps this fixed word order for clarity.",
+      "arabicNote": "الفاعل أولًا ثم فعل 'be' في الماضي ثم ظرف المكان. الترتيب مهم في الإنجليزية.",
+      "weakTag": "was_were_word_order",
+      "words": [
+        "at",
+        "were",
+        "They",
+        "home."
+      ],
+      "correctOrder": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "wasw_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English sentence with its Arabic meaning.",
+      "promptAr": "وصل كل جملة إنجليزية بمعناها العربي.",
+      "explanation": "Each sentence uses past 'be' with the correct form: 'was' for singular subjects, 'were' for plural subjects.",
+      "arabicNote": "انظر إلى شكل الفاعل لتحدد إذا نستخدم 'was' أم 'were'.",
+      "weakTag": "was_were_meaning",
+      "pairs": [
+        {
+          "left": "I was tired.",
+          "right": "كنت متعبًا."
+        },
+        {
+          "left": "They were happy.",
+          "right": "كانوا سعداء."
+        },
+        {
+          "left": "She was at home.",
+          "right": "كانت في المنزل."
+        }
+      ]
+    },
+    {
+      "id": "wasw_q7",
+      "type": "multiple_choice",
+      "prompt": "We ___ at the park last Sunday.",
+      "promptAr": "اختر الكلمة المناسبة لإكمال الجملة.",
+      "explanation": "'We' is a plural subject, so use 'were' for past simple. 'Was' is singular past and 'is' is present.",
+      "arabicNote": "'We' جمع، نستخدم 'were' في زمن الماضي.",
+      "weakTag": "was_were_form",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "wasw_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي الجملتين صحيحة لغويًا؟",
+      "explanation": "The plural subject 'they' needs 'were' in past simple. The other options use wrong tense or form.",
+      "arabicNote": "'They' جمع، لذلك الصيغة الصحيحة هي 'They were'.",
+      "weakTag": "was_were_meaning",
+      "options": [
+        "They was at the store.",
+        "They were at the store.",
+        "They am at the store."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "wasw_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ happy yesterday.",
+      "promptAr": "اختر الكلمة الصحيحة لتكملة الجملة.",
+      "explanation": "'She' is singular, so use 'was' for past simple. 'Were' is for plural and 'is' is present tense.",
+      "arabicNote": "'She' مفرد، نستخدم 'was' في الماضي.",
+      "weakTag": "was_were_word_order",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "wasw_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة التالية.",
+      "explanation": "'We' requires 'were' in past simple. The wrong sentence preserves meaning but uses the incorrect auxiliary form.",
+      "arabicNote": "الصحيح هو 'We were' لأن 'we' جمع ويحتاج 'were' في الماضي.",
+      "weakTag": "wasw_arabic_transfer",
+      "options": [
+        "We were happy.",
+        "We am happy.",
+        "We is happy."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "We was happy."
+    }
+  ]
+}

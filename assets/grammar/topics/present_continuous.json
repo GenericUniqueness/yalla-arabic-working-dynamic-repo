@@ -1,0 +1,220 @@
+{
+  "id": "present_continuous",
+  "category": "basics",
+  "titleEn": "Present Continuous",
+  "titleAr": "المضارع المستمر",
+  "level": "A1-A2",
+  "explanationEn": "The present continuous tense is used to describe actions happening right now. It is formed by using am, is, or are followed by a verb ending in -ing. For example, 'I am eating.' Arabic can express current actions without an auxiliary verb, so learners may forget to use am, is, or are.",
+  "explanationAr": "المضارع المستمر يُستخدم لوصف الأفعال التي تحدث الآن. يتكون من الفعل be (am، is، are) متبوعًا بفعل ينتهي بـ -ing. على سبيل المثال، 'أنا آكل.' في العربية، يمكن التعبير عن الأفعال الحالية بدون فعل مساعد، لذا قد ينسى المتعلمون استخدام am أو is أو are.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا أكتب.",
+      "arabicLiteral": "I write.",
+      "englishCorrect": "I am writing."
+    },
+    {
+      "arabicStructure": "هي تلعب.",
+      "arabicLiteral": "She plays.",
+      "englishCorrect": "She is playing."
+    },
+    {
+      "arabicStructure": "هم يدرسون.",
+      "arabicLiteral": "They study.",
+      "englishCorrect": "They are studying."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I writing.",
+      "correct": "I am writing.",
+      "explanationEn": "The auxiliary verb 'am' is needed with 'I'.",
+      "explanationAr": "في الإنجليزية، نحتاج إلى الفعل المساعد 'am' مع 'I'."
+    },
+    {
+      "wrong": "She is play.",
+      "correct": "She is playing.",
+      "explanationEn": "Add -ing to the verb when using 'is'.",
+      "explanationAr": "نضيف -ing للفعل عند استخدام 'is'."
+    },
+    {
+      "wrong": "They are study.",
+      "correct": "They are studying.",
+      "explanationEn": "Add -ing to the verb when using 'are'.",
+      "explanationAr": "نضيف -ing للفعل عند استخدام 'are'."
+    },
+    {
+      "wrong": "He are running.",
+      "correct": "He is running.",
+      "explanationEn": "'He' needs 'is', not 'are'.",
+      "explanationAr": "'He' يحتاج إلى 'is' وليس 'are'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "pc_q1",
+      "type": "multiple_choice",
+      "prompt": "What is the correct form? I ___ a book.",
+      "promptAr": "ما هو الشكل الصحيح؟ أنا ___ كتاب.",
+      "explanation": "Use 'am' with 'I' for actions happening now.",
+      "arabicNote": "نستخدم 'am' مع 'I' للأفعال التي تحدث الآن.",
+      "weakTag": "present_continuous_form",
+      "options": [
+        "am reading",
+        "is reading",
+        "are reading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'She is cooking' has the correct structure.",
+      "arabicNote": "الجملة الصحيحة تحتاج إلى الفعل المساعد 'is'.",
+      "weakTag": "present_continuous_structure",
+      "options": [
+        "She is cooking.",
+        "She cooking.",
+        "Is she cooking."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ to music.",
+      "promptAr": "هم ___ للموسيقى.",
+      "explanation": "Use 'are' with 'they' for actions happening now.",
+      "arabicNote": "نستخدم 'are' مع 'they' للأفعال التي تحدث الآن.",
+      "weakTag": "present_continuous_they",
+      "options": [
+        "are listening",
+        "is listening",
+        "am listening"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'He is playing' is correct with the right auxiliary.",
+      "arabicNote": "نحتاج إلى الفعل المساعد الصحيح 'is' مع 'He'.",
+      "weakTag": "present_continuous_fix",
+      "options": [
+        "He is playing.",
+        "He playing.",
+        "He are play."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "He are playing."
+    },
+    {
+      "id": "pc_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is 'He is running now.'",
+      "arabicNote": "الجملة الصحيحة هي 'He is running now.'",
+      "weakTag": "present_continuous_order",
+      "words": [
+        "is",
+        "running",
+        "He",
+        "now."
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "pc_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "These sentences show actions happening now.",
+      "arabicNote": "هذه الجمل تظهر الأفعال التي تحدث الآن.",
+      "weakTag": "present_continuous_meaning",
+      "pairs": [
+        {
+          "left": "I am eating.",
+          "right": "أنا آكل."
+        },
+        {
+          "left": "She is studying.",
+          "right": "هي تدرس."
+        },
+        {
+          "left": "They are playing.",
+          "right": "هم يلعبون."
+        }
+      ]
+    },
+    {
+      "id": "pc_q7",
+      "type": "multiple_choice",
+      "prompt": "What is the correct form? We ___ a movie.",
+      "promptAr": "ما هو الشكل الصحيح؟ نحن ___ فيلم.",
+      "explanation": "Use 'are' with 'we' for actions happening now.",
+      "arabicNote": "نستخدم 'are' مع 'we' للأفعال التي تحدث الآن.",
+      "weakTag": "present_continuous_we",
+      "options": [
+        "are watching",
+        "is watching",
+        "am watching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'They are studying' has the correct structure.",
+      "arabicNote": "الجملة الصحيحة تحتاج إلى الفعل المساعد 'are'.",
+      "weakTag": "present_continuous_they",
+      "options": [
+        "They are studying.",
+        "They studying.",
+        "Are they studying."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ a letter.",
+      "promptAr": "هي ___ رسالة.",
+      "explanation": "Use 'is' with 'she' for actions happening now.",
+      "arabicNote": "نستخدم 'is' مع 'she' للأفعال التي تحدث الآن.",
+      "weakTag": "present_continuous_she",
+      "options": [
+        "is writing",
+        "are writing",
+        "am writing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "pc_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'They are playing' is correct with the right auxiliary.",
+      "arabicNote": "نحتاج إلى الفعل المساعد الصحيح 'are' مع 'They'.",
+      "weakTag": "present_continuous_fix_they",
+      "options": [
+        "They are playing.",
+        "They playing.",
+        "They is play."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They is playing."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "past_simple_regular_verbs",
+  "category": "a2_core",
+  "titleEn": "Past Simple: Regular Verbs",
+  "titleAr": "الماضي البسيط: الأفعال المنتظمة",
+  "level": "A2",
+  "explanationEn": "We form the past simple for regular verbs by adding -ed to the base. For finished actions we use the -ed form: study → studied, stop → stopped, visit → visited. Watch spelling: double the final consonant (stop → stopped) or change y to i (study → studied). Use past time words.",
+  "explanationAr": "في الماضي البسيط نكوّن الفعل المنتظم بإضافة -ed إلى الفعل الأساسي لإشارة فعل مكتمل: study → studied، stop → stopped. انتبه لتغييرات الإملاء (تحويل y إلى i أو تكرار الحرف الساكن). بخلاف العربية، الإنجليزية تعتمد تركيب وكلمات مساعدة وترتيبًا ثابتًا للتعبير عن الزمن، فلا نترجم حرفيًا.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا زرت عمتي أمس.",
+      "arabicLiteral": "I visited my aunt yesterday",
+      "englishCorrect": "I visited my aunt yesterday."
+    },
+    {
+      "arabicStructure": "هي درست الإنجليزية البارحة.",
+      "arabicLiteral": "She studied the English last-night",
+      "englishCorrect": "She studied English last night."
+    },
+    {
+      "arabicStructure": "هم توقفوا عند المحطة.",
+      "arabicLiteral": "They stopped at the station",
+      "englishCorrect": "They stopped at the station."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I visit my aunt yesterday.",
+      "correct": "I visited my aunt yesterday.",
+      "explanationEn": "Use the past form 'visited' for an action completed yesterday. The base verb 'visit' is not correct with a past time word.",
+      "explanationAr": "استخدم الشكل الماضي 'visited' لفعل اكتمل أمس. الشكل الأساسي 'visit' غير صحيح مع علامة زمن الماضي."
+    },
+    {
+      "wrong": "She study English last night.",
+      "correct": "She studied English last night.",
+      "explanationEn": "Add -ed to 'study' to form the past tense and change y to i: study → studied.",
+      "explanationAr": "أضف -ed إلى 'study' لتكوين الماضي، وحوّل y إلى i: study → studied."
+    },
+    {
+      "wrong": "They stop at the station.",
+      "correct": "They stopped at the station.",
+      "explanationEn": "Use the past form 'stopped' for an action that happened in the past; double the final consonant when the verb ends with a single vowel + consonant.",
+      "explanationAr": "استخدم الشكل الماضي 'stopped' لفعل حدث في الماضي؛ عند نهاية الفعل حرف ساكن بعد حرف متحرك نكرر الحرف الساكن."
+    },
+    {
+      "wrong": "I study yesterday.",
+      "correct": "I studied yesterday.",
+      "explanationEn": "Do not use the base form 'study' with a past time expression. Use the -ed past form to show the action is finished.",
+      "explanationAr": "لا تستخدم الشكل الأساسي 'study' مع علامة زمن الماضي. استعمل شكل الماضي -ed لتدل على أن الفعل انتهى."
+    }
+  ],
+  "questions": [
+    {
+      "id": "psrv_q1",
+      "type": "multiple_choice",
+      "prompt": "What is the past form of 'play'?",
+      "promptAr": "ما هو الشكل الماضي من 'play'؟",
+      "explanation": "For regular verbs we add -ed to form the past. 'Play' becomes 'played' because it follows the regular pattern and needs -ed to show a finished action.",
+      "arabicNote": "للفعل المنتظم نضيف -ed. 'play' تصبح 'played'.",
+      "weakTag": "past_simple_regular_verbs_form",
+      "options": [
+        "played",
+        "playd",
+        "plays",
+        "playing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Choose the correct sentence for a past action yesterday.",
+      "promptAr": "اختر الجملة الصحيحة التي تعبّر عن فعل في الماضي أمس.",
+      "explanation": "Use the past form 'visited' to show the action happened yesterday. The base form 'visit' is incorrect with a past time word.",
+      "arabicNote": "استخدم 'visited' لأن الفعل حدث أمس.",
+      "weakTag": "psrv_choose_correct_sentence",
+      "options": [
+        "I visited my aunt yesterday.",
+        "I visit my aunt yesterday.",
+        "I will visit my aunt yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ at the park last week.",
+      "promptAr": "هم ___ في الحديقة الأسبوع الماضي.",
+      "explanation": "A past time expression 'last week' requires the past form 'stopped'. For the regular verb 'stop' we add -ped and double the final consonant: stop → stopped.",
+      "arabicNote": "مع 'last week' نستخدم الشكل الماضي 'stopped'، ونكرر الحرف الساكن.",
+      "weakTag": "psrv_fill_blank_with_options",
+      "options": [
+        "stopped",
+        "stop",
+        "stopping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "The sentence refers to last night, so we need the past form 'studied'. Also change y to i before adding -ed: study → studied.",
+      "arabicNote": "الجملة تتحدث عن الليلة الماضية لذلك نستخدم 'studied' مع تحويل y إلى i.",
+      "weakTag": "psrv_fix_the_mistake",
+      "options": [
+        "She study last night.",
+        "She studies last night.",
+        "She studied last night."
+      ],
+      "correctIndex": 2,
+      "wrongSentence": "She study last night."
+    },
+    {
+      "id": "psrv_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to make a past sentence.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة في الماضي.",
+      "explanation": "In English the normal word order is subject + verb + object + time: I visited my aunt yesterday. Keep the past verb form 'visited' after the subject.",
+      "arabicNote": "ترتيب الجملة: الفاعل ثم الفعل ثم المفعول ثم ظرف الزمان. استخدم الشكل الماضي 'visited'.",
+      "weakTag": "psrv_sentence_order",
+      "words": [
+        "yesterday",
+        "I",
+        "my",
+        "visited",
+        "aunt"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "psrv_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English verb to its Arabic meaning.",
+      "promptAr": "صل كل فعل إنجليزي بمعناه العربي.",
+      "explanation": "These are common regular verbs. Knowing the Arabic meaning helps you remember the verb and then add -ed for the past: stop → stopped, study → studied.",
+      "arabicNote": "معرفة معنى الفعل تساعدك على تكوين الماضي بإضافة -ed.",
+      "weakTag": "psrv_meaning_match",
+      "pairs": [
+        {
+          "left": "stop",
+          "right": "توقف"
+        },
+        {
+          "left": "study",
+          "right": "درس"
+        },
+        {
+          "left": "play",
+          "right": "لعب"
+        },
+        {
+          "left": "visit",
+          "right": "زار"
+        }
+      ]
+    },
+    {
+      "id": "psrv_q7",
+      "type": "multiple_choice",
+      "prompt": "What is the correct past form of 'stop'?",
+      "promptAr": "ما هو الشكل الماضي الصحيح من 'stop'؟",
+      "explanation": "For one-syllable verbs ending vowel+consonant we often double the final consonant before -ed: stop → stopped. This shows the action happened in the past.",
+      "arabicNote": "للفعل ذو مقطع واحد الذي ينتهي بحرف متحرك ثم ساكن نكرر الحرف الأخير: stop → stopped.",
+      "weakTag": "past_simple_regular_verbs_form",
+      "options": [
+        "stopped",
+        "stoped",
+        "stops",
+        "stopping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q8",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence correctly describes a past stop at the station?",
+      "promptAr": "أي جملة تصف بشكل صحيح توقفًا في الماضي عند المحطة؟",
+      "explanation": "To describe a past event use the past form 'stopped'. The other options use present or progressive forms which do not match the past time.",
+      "arabicNote": "لوصف حدث في الماضي نستخدم 'stopped'. الخيارات الأخرى ليست زمن الماضي.",
+      "weakTag": "psrv_choose_correct_sentence",
+      "options": [
+        "They stopped at the station.",
+        "They stop at the station.",
+        "They stopping at the station."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q9",
+      "type": "fill_blank_with_options",
+      "prompt": "She ___ English last night.",
+      "promptAr": "هي ___ الإنجليزية الليلة الماضية.",
+      "explanation": "Use the past form 'studied' for a finished action that happened last night. The base form 'study' is wrong with a past time marker.",
+      "arabicNote": "استخدم 'studied' لأن الفعل حدث الليلة الماضية.",
+      "weakTag": "psrv_fill_blank_with_options",
+      "options": [
+        "studied",
+        "study",
+        "studies",
+        "studying"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "psrv_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for the wrong sentence.",
+      "promptAr": "اختر التصحيح الأفضل للجملة الخاطئة.",
+      "explanation": "The sentence uses a past time word 'yesterday', so the verb must be in the past form. Correctly form the past: stop → stopped.",
+      "arabicNote": "مع 'yesterday' نستخدم الشكل الماضي 'stopped'.",
+      "weakTag": "psrv_fix_the_mistake",
+      "options": [
+        "I stopped at the store yesterday.",
+        "I stopping at the store yesterday.",
+        "I stops at the store yesterday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I stop at the store yesterday."
+    }
+  ]
+}

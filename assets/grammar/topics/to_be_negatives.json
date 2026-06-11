@@ -1,0 +1,220 @@
+{
+  "id": "to_be_negatives",
+  "category": "basics",
+  "titleEn": "Be Negatives",
+  "titleAr": "النفي مع فعل be",
+  "level": "A1",
+  "explanationEn": "In English we use the verb be plus not to make present negative sentences: I am not, he/she/it is not, we/you/they are not. Arabic often does not use a separate be verb in present sentences, so learners can omit am/is/are or put not in the wrong place. Practice the correct be form for each subject and put not after the verb.",
+  "explanationAr": "في الإنجليزية نستخدم فعل be مع not لتكوين جملة نفي في الحاضر: I am not، he/she/it is not، we/you/they are not. في العربية غالبًا لا نضع فعل الكينونة في الجملة الاسمية الحالية، لذلك قد يحذف المتعلم am/is/are أو يضع not في مكان غير صحيح. انتبه لوضع not بعد be الصحيح.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أنا لست طالبًا",
+      "arabicLiteral": "I not student",
+      "englishCorrect": "I am not a student"
+    },
+    {
+      "arabicStructure": "هي ليست معلمة",
+      "arabicLiteral": "She not teacher",
+      "englishCorrect": "She is not a teacher"
+    },
+    {
+      "arabicStructure": "هم ليسوا أصدقاء",
+      "arabicLiteral": "They not friends",
+      "englishCorrect": "They are not friends"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I not a teacher.",
+      "correct": "I am not a teacher.",
+      "explanationEn": "Learners sometimes drop 'am' because Arabic omits the verb be in present sentences. In English the verb 'am' is required before not.",
+      "explanationAr": "يحذف بعض المتعلمين 'am' لأن العربية تحذف فعل الكينونة في الحاضر. في الإنجليزية يجب وجود 'am' قبل 'not'."
+    },
+    {
+      "wrong": "She not happy.",
+      "correct": "She is not happy.",
+      "explanationEn": "Arabic can omit the linking verb, so learners may forget 'is'. English needs 'is' before not with she/he/it.",
+      "explanationAr": "في العربية نُحذف أحيانًا الفعل الرابط، لذلك ينسى المتعلمون 'is'. في الإنجليزية نحتاج 'is' قبل 'not' مع she/he/it."
+    },
+    {
+      "wrong": "They not here.",
+      "correct": "They are not here.",
+      "explanationEn": "Because Arabic can say 'They here' without a verb, learners may omit 'are'. Use 'are' then 'not' for plural subjects.",
+      "explanationAr": "في العربية نقول أحيانًا 'هم هنا' بدون فعل، فيميل المتعلم لحذف 'are'. مع ضمائر الجمع نستخدم 'are' ثم 'not'."
+    },
+    {
+      "wrong": "He not a doctor.",
+      "correct": "He is not a doctor.",
+      "explanationEn": "Learners may translate directly from Arabic word order and omit 'is'. Put 'is' before 'not' for he/she/it.",
+      "explanationAr": "يلجأ بعض المتعلمين للترجمة الحرفية من العربية ويهملون 'is'. ضع 'is' قبل 'not' مع he/she/it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "tbn_q1",
+      "type": "multiple_choice",
+      "prompt": "I ___ a student.",
+      "promptAr": "أنا ___ طالب.",
+      "explanation": "Use 'am' with I: 'I am not a student.'",
+      "arabicNote": "مع 'I' نستخدم 'am' في النفي، لأن العربية قد تحذف الفعل.",
+      "weakTag": "to_be_negatives_choice",
+      "options": [
+        "am not",
+        "is not",
+        "are not"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbn_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'He is not happy.' has the correct subject + be + not order.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية: الفاعل ثم be ثم not، بخلاف العربية التي قد تحذف be.",
+      "weakTag": "tbn_choose_correct",
+      "options": [
+        "He is not happy.",
+        "Not he is happy.",
+        "He happy is not."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbn_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "They ___ friends.",
+      "promptAr": "هم ___ أصدقاء.",
+      "explanation": "'They' takes 'are' in negative sentences: 'They are not friends.'",
+      "arabicNote": "'They' في الإنجليزية تحتاج 'are' قبل 'not'.",
+      "weakTag": "to_be_negatives_fill",
+      "options": [
+        "are not",
+        "is not",
+        "am not"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbn_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "Use 'is' with she: 'She is not a teacher.'",
+      "arabicNote": "مع she نحتاج 'is' قبل 'not'، لأن العربية قد تحذف الفعل.",
+      "weakTag": "to_be_negatives_fix",
+      "options": [
+        "She is not a teacher.",
+        "She are not a teacher.",
+        "She am not a teacher."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "She not a teacher."
+    },
+    {
+      "id": "tbn_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order.",
+      "promptAr": "رتّب الكلمات لتكوين جملة صحيحة.",
+      "explanation": "The correct sentence is \"He is not happy.\"",
+      "arabicNote": "الترتيب الصحيح: الفاعل ثم be ثم not؛ الناتج: 'He is not happy.'",
+      "weakTag": "to_be_negatives_order",
+      "words": [
+        "not",
+        "is",
+        "He",
+        "happy."
+      ],
+      "correctOrder": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "tbn_q6",
+      "type": "meaning_match",
+      "prompt": "Match each sentence to its meaning.",
+      "promptAr": "صل كل جملة بمعناها.",
+      "explanation": "Each sentence shows be + not with the correct subject form.",
+      "arabicNote": "كل جملة تظهر 'be' ثم 'not' مع الضمير الصحيح. في العربية قد يُحذف be.",
+      "weakTag": "to_be_negatives_meaning",
+      "pairs": [
+        {
+          "left": "I am not tired.",
+          "right": "أنا لست متعبًا."
+        },
+        {
+          "left": "She is not here.",
+          "right": "هي ليست هنا."
+        },
+        {
+          "left": "They are not ready.",
+          "right": "هم ليسوا جاهزين."
+        }
+      ]
+    },
+    {
+      "id": "tbn_q7",
+      "type": "multiple_choice",
+      "prompt": "He ___ a doctor.",
+      "promptAr": "هو ___ طبيب.",
+      "explanation": "'He' uses 'is' in negative sentences: 'He is not a doctor.'",
+      "arabicNote": "مع he نستخدم 'is' قبل 'not'.",
+      "weakTag": "to_be_negatives_choice",
+      "options": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbn_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "We ___ happy.",
+      "promptAr": "نحن ___ سعداء.",
+      "explanation": "'We' takes 'are': 'We are not happy.'",
+      "arabicNote": "'We' تحتاج 'are' قبل 'not' في الإنجليزية.",
+      "weakTag": "to_be_negatives_fill",
+      "options": [
+        "are not",
+        "is not",
+        "am not"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tbn_q9",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction.",
+      "promptAr": "اختر التصحيح الأفضل للجملة.",
+      "explanation": "'They' requires 'are': 'They are not here.'",
+      "arabicNote": "في العربية قد يُحذف الفعل، لكن في الإنجليزية نستخدم 'are' مع they.",
+      "weakTag": "to_be_negatives_fix",
+      "options": [
+        "They are not here.",
+        "They not here.",
+        "They isn't here."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "They is not here."
+    },
+    {
+      "id": "tbn_q10",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is correct?",
+      "promptAr": "أي جملة صحيحة؟",
+      "explanation": "'I am not happy.' follows subject + be + not order.",
+      "arabicNote": "الترتيب الصحيح في الإنجليزية يبدأ بالفاعل ثم be ثم not: 'I am not happy.'",
+      "weakTag": "tbn_choose_correct",
+      "options": [
+        "I am not happy.",
+        "Am not I happy.",
+        "Not I am happy."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

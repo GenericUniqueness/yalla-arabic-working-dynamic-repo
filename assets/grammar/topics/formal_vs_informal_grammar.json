@@ -1,0 +1,226 @@
+{
+  "id": "formal_vs_informal_grammar",
+  "category": "b2_expansion",
+  "titleEn": "Formal vs Informal Grammar",
+  "titleAr": "القواعد الرسمية وغير الرسمية",
+  "level": "B2",
+  "explanationEn": "Practice choosing formal grammar for professional writing and relaxed forms for conversation. Focus on required subjects, helper verbs, polite modal choices, complete sentences, and neutral phrasing. Use everyday contexts like school, work, home, family, travel, or study to avoid Arabic word-order transfer and missing function words.",
+  "explanationAr": "يتمرّن هذا الدرس على اختيار الأسلوب الرسمي في الكتابة والعبارات غير الرسمية في الحديث. يوضّح متى نذكر الفاعل ونستخدم الأدوات المساعدة والتراكيب المحايدة، مع أمثلة من العمل والدراسة والمنزل لمنع النقل الحرفي من العربية.",
+  "arabicComparison": [
+    {
+      "arabicStructure": "أحتاج تمديد إلى الجمعة.",
+      "arabicLiteral": "Need extension until Friday.",
+      "englishCorrect": "I would appreciate an extension until Friday. (formal request)"
+    },
+    {
+      "arabicStructure": "هل تستطيع إرسال التقرير؟",
+      "arabicLiteral": "Can you send the report?",
+      "englishCorrect": "Could you please send the report tomorrow? (polite formal request)"
+    },
+    {
+      "arabicStructure": "نخرج للعشاء؟",
+      "arabicLiteral": "We go out for dinner?",
+      "englishCorrect": "Want to grab dinner tonight? (informal)"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Need an extension until Friday for the assignment.",
+      "correct": "I need an extension until Friday for the assignment.",
+      "explanationEn": "A fragment without a clear subject is unprofessional in formal requests; add 'I' to make a complete sentence.",
+      "explanationAr": "الجملة بدون فاعل تبدو مقتضبة وغير احترافية في السياق الرسمي. العربية تسمح غالبًا بحذف الفاعل، لكن في الإنجليزية الرسمية يجب ذكر الفاعل لجعل الطلب واضحًا."
+    },
+    {
+      "wrong": "Can you please send the report tomorrow? (formal email)",
+      "correct": "Could you please send the report tomorrow? (formal email)",
+      "explanationEn": "'Could you' is more polite and preferred in formal academic or professional requests; 'Can you' is less formal in tone.",
+      "explanationAr": "في البريد الرسمي يفضّل استخدام 'Could you' لزيادة اللياقة. الترجمة الحرفية من العربية قد تُنتِج 'Can you' وهي أقل ملاءمة في سياق رسمي."
+    },
+    {
+      "wrong": "He don't agree with the new rule, as I said yesterday.",
+      "correct": "He does not agree with the new rule, as I said yesterday.",
+      "explanationEn": "Use 'does not' for third-person singular in standard formal English; 'don't' is ungrammatical for he/she/it.",
+      "explanationAr": "الخطأ ناتج عن نقل شكل النفي مباشرة من العربية. مع he في الإنجليزية الرسمية نستخدم 'does not' بدلاً من 'don't'."
+    },
+    {
+      "wrong": "She submitted report to the office last week.",
+      "correct": "She submitted the report to the office last week.",
+      "explanationEn": "In formal English, the definite article is usually needed when referring to a specific report; include 'the' for clarity.",
+      "explanationAr": "في العربية قد تُسقَط أداة التعريف. الإنجليزية الرسمية تتطلب 'the' عند الإشارة إلى تقرير محدد، وإلا تبدو الجملة ناقصة أو غير دقيقة."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fig_q1",
+      "type": "multiple_choice",
+      "prompt": "You are writing an email to your professor requesting an assignment extension until Friday. Which sentence is most appropriate for formal writing?",
+      "promptAr": "أنت تكتب رسالة إلى الأستاذ لطلب تمديد تسليم حتى يوم الجمعة. أي جملة مناسبة للكتابة الرسمية؟",
+      "explanation": "Choose the polite, complete sentence that is most suitable for a formal academic email.",
+      "arabicNote": "في الرسائل الرسمية نذكر الفاعل ونستخدم عبارات مهذبة وواضحة مثل 'I would appreciate'. تجنّب التعبيرات المختصرة أو العامية التي قد تكون مقبولة مع الأصدقاء لكنها غير مناسبة للأستاذ.",
+      "weakTag": "formal_vs_informal_grammar_form",
+      "options": [
+        "I would appreciate an extension until Friday.",
+        "Hey, can I have until Friday?",
+        "Need extension to Friday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fig_q2",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is best for a casual conversation with a friend about dinner tonight?",
+      "promptAr": "أي جملة مناسبة لمحادثة غير رسمية مع صديق عن العشاء الليلة؟",
+      "explanation": "Pick the relaxed, natural phrase that fits everyday talk with a close friend.",
+      "arabicNote": "في المحادثات غير الرسمية نستخدم عبارات قصيرة وغير رسمية مثل 'Want to grab dinner?'. المتحدثون العرب قد يختارون تراكيب رسمية أطول، لكنها لا تبدو طبيعية بين الأصدقاء.",
+      "weakTag": "formal_vs_informal_grammar_meaning",
+      "options": [
+        "Want to grab dinner tonight?",
+        "Would you care to join me for dinner this evening?",
+        "I would be delighted if you accepted my invitation to dine this evening."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fig_q3",
+      "type": "fill_blank_with_options",
+      "prompt": "In a formal report, use '____' instead of the informal 'I think' when giving a recommendation.",
+      "promptAr": "في تقرير رسمي، استخدم '____' بدل العبارة غير الرسمية 'I think' عند تقديم توصية.",
+      "explanation": "Formal reports prefer impersonal phrasing to sound objective and professional in tone.",
+      "arabicNote": "في التقارير الرسمية نستخدم تراكيب غير شخصية مثل 'It is recommended that' بدلاً من 'I think' أو 'I feel'. النقل الحرفي من العربية قد يؤدي إلى عبارة شخصية أقل مهنية.",
+      "weakTag": "formal_vs_informal_grammar_word_order",
+      "options": [
+        "It is recommended that",
+        "I feel that",
+        "I think that",
+        "Maybe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fig_q4",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for this formal email fragment requesting more time for an assignment.",
+      "promptAr": "اختر أفضل تصحيح لجزء من رسالة رسمية يطلب مزيدًا من الوقت لتسليم واجب.",
+      "explanation": "Add a subject and full verb for a clear, polite, formal request.",
+      "arabicNote": "في العربية قد يُحذف الفاعل في الكلام اليومي؛ لكن في بريد رسمي يجب ذكر الفاعل والفعل الكامل لجعل الطلب واضحًا ومهذبًا، وإلا تبدو الرسالة ناقصة وغير مهنية.",
+      "weakTag": "formal_vs_informal_grammar_form",
+      "options": [
+        "I need an extension until Friday for the assignment.",
+        "Need extension until Friday for assignment.",
+        "Please give me extension by Friday."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "Need an extension until Friday for the assignment."
+    },
+    {
+      "id": "fig_q5",
+      "type": "sentence_order",
+      "prompt": "Put the words in the correct order to form a formal sentence for a report about next steps.",
+      "promptAr": "رتّب الكلمات لتكوين جملة رسمية مناسبة في تقرير عن الخطوات التالية.",
+      "explanation": "Arrange the subject, auxiliary, verb, article, and object in standard English order.",
+      "arabicNote": "الإنجليزية الرسمية تتطلب ترتيبًا واضحًا: الفاعل ثم الفعل المساعد ثم الفعل الأساسي ثم المفعول. العربية قد تسمح بترتيبات مختلفة، لذا انتبه لموضع الأداة المساعدة والمفعول.",
+      "weakTag": "formal_vs_informal_grammar_word_order",
+      "words": [
+        "The",
+        "committee",
+        "will",
+        "review",
+        "the",
+        "report"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "fig_q6",
+      "type": "meaning_match",
+      "prompt": "Match each English phrase to its Arabic meaning and register (formal or informal).",
+      "promptAr": "وصل كل عبارة إنجليزية بمعناها العربي وطابعها (رسمي أو غير رسمي).",
+      "explanation": "Match phrase meaning and whether it is formal or informal in tone.",
+      "arabicNote": "صِل كل عبارة بمعناها وطابعها المناسب. التمييز مهم لأن الترجمة الحرفية قد تنتج عبارة صحيحة نحويًا لكنها غير مناسبة للسياق الرسمي أو غير الرسمي.",
+      "weakTag": "formal_vs_informal_grammar_meaning",
+      "pairs": [
+        {
+          "left": "I would appreciate",
+          "right": "أقدّر ذلك — رسمي"
+        },
+        {
+          "left": "Could you please",
+          "right": "هل يمكنك من فضلك — رسمي"
+        },
+        {
+          "left": "Thanks a lot",
+          "right": "شكرًا جزيلاً — غير رسمي"
+        }
+      ]
+    },
+    {
+      "id": "fig_q7",
+      "type": "multiple_choice",
+      "prompt": "A colleague texts: 'Are you free for coffee after work?' Which reply is most informal and natural for a friend?",
+      "promptAr": "زميل يراسلك: 'هل أنت متفرغ للقهوة بعد الدوام؟' أي رد مناسب وغير رسمي لصديق؟",
+      "explanation": "Pick the short, friendly reply typical in casual texting between colleagues today.",
+      "arabicNote": "في الرسائل غير الرسمية نستخدم ردودًا قصيرة ومباشرة. المتحدثون العرب قد يكتبون تعابير أطول ومهذبة، لكن في الدردشة اليومية تُفضّل الإجابات المختصرة والودية.",
+      "weakTag": "formal_vs_informal_grammar_meaning",
+      "options": [
+        "I would be available after work; shall we meet at four?",
+        "I am afraid I have a prior commitment and cannot join you.",
+        "Sounds good! See you after work."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "fig_q8",
+      "type": "fill_blank_with_options",
+      "prompt": "For a school policy statement write: 'All students ____ submit assignments on time.' Choose the best formal modal.",
+      "promptAr": "في نص سياسة المدرسة اكتب: 'All students ____ submit assignments on time.' اختر أفضل فعل مساعد رسمي.",
+      "explanation": "Select 'must' to express a clear, formal obligation in a policy statement.",
+      "arabicNote": "في السياسات الرسمية نستخدم 'must' للتعبير عن الوجوب بوضوح. المتحدثون العرب قد يختارون 'should' أو 'can' عن طريق الخطأ، لكن هذه لا تعبّر عن وجوب السياسة.",
+      "weakTag": "formal_vs_informal_grammar_form",
+      "options": [
+        "must",
+        "should",
+        "can",
+        "might"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "fig_q9",
+      "type": "choose_correct_sentence",
+      "prompt": "Which sentence is best for a quick casual text confirming dinner plans for tonight at eight?",
+      "promptAr": "أي جملة أنسب لرسالة نصية سريعة لتأكيد خطة العشاء الليلة عند الساعة الثامنة؟",
+      "explanation": "Choose the brief, colloquial confirmation that fits a short informal text message.",
+      "arabicNote": "الرسائل القصيرة تُفضّل الاختصار والوضوح. المتحدثون العرب قد يكتبون تعابير أطول مهذبة، لكن في النصوص اليومية نستخدم جملة مختصرة ومباشرة لتأكيد الحضور.",
+      "weakTag": "formal_vs_informal_grammar_meaning",
+      "options": [
+        "I should be honoured to accept your invitation for dinner at 2000 hours.",
+        "Yes, I'll be there at eight. See you then!",
+        "I accept your kind invitation for dinner this evening."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "fig_q10",
+      "type": "fix_the_mistake",
+      "prompt": "Choose the best correction for a formal suggestion about attending tomorrow's meeting.",
+      "promptAr": "اختر أفضل تصحيح لاقتراح رسمي بشأن الحضور لاجتماع الغد.",
+      "explanation": "Use the subjunctive 'come' after 'suggest that' in formal English as standard.",
+      "arabicNote": "في العربية نستخدم الصيغة الاعتيادية بعد 'أقترح'. لكن الإنجليزية الرسمية بعد 'suggest that' غالبًا تستخدم الصيغة الفرعية (subjunctive) بدون -s: انتبه لهذا الاختلاف عند الترجمة.",
+      "weakTag": "formal_vs_informal_grammar_arabic_transfer",
+      "options": [
+        "I suggest that he come to the meeting tomorrow.",
+        "I suggest he comes to the meeting tomorrow.",
+        "I suggest that he will come to the meeting tomorrow."
+      ],
+      "correctIndex": 0,
+      "wrongSentence": "I suggest that he comes to the meeting tomorrow."
+    }
+  ]
+}
