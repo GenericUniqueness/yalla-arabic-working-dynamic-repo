@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
@@ -329,9 +330,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
   }
 
   Future<bool> _checkOnline() async {
-    // Use Cloudflare's DNS resolver — neutral, globally reachable, and already
-    // required for audio streaming from R2. Avoids false-offline in regions
-    // where google.com is blocked (China, some MENA countries).
+    if (kIsWeb) return true;
     try {
       final r = await InternetAddress.lookup(
         'one.one.one.one',
