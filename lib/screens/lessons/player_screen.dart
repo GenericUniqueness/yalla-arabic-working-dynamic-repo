@@ -782,7 +782,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
           return ListView.builder(
             controller: _scrollController,
             padding: const EdgeInsets.symmetric(vertical: 8),
-            scrollCacheExtent: 800.0,
+            scrollCacheExtent: const ScrollCacheExtent.pixels(800.0),
             itemCount: audio.content!.sentences.length,
             itemBuilder: (context, index) {
               _sentenceKeys.putIfAbsent(index, () => GlobalKey());
