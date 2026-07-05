@@ -97,6 +97,8 @@ docs/*
 *.m4a
 *.flac
 !assets/courses/course_01/lesson_06/main_story/audio.opus
+!assets/courses/course_01/lesson_07/main_story/audio.opus
+!assets/courses/course_01/lesson_10/main_story/audio.opus
 
 # Pipeline runtime state
 scripts/pipeline/*.json
