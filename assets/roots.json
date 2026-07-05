@@ -1,0 +1,101 @@
+{
+  "schema_version": "arabic_roots_v1",
+  "description": "Centralized Arabic root dictionary. Each root has a core meaning and explanation. Word families are computed at runtime by finding all glossary entries sharing the same root.",
+  "roots": {
+    "و ص ف": {
+      "core_meaning": "describing or giving qualities",
+      "explanation": "Words from this root often relate to describing a thing or its qualities.",
+      "part_of_speech": "verb"
+    },
+    "ك ت ب": {
+      "core_meaning": "writing",
+      "explanation": "This root connects books, writing, writers, and offices.",
+      "part_of_speech": "verb"
+    },
+    "ك ل م": {
+      "core_meaning": "speech and words",
+      "explanation": "This root is used for words, speech, and speaking.",
+      "part_of_speech": "verb"
+    },
+    "ف ر د": {
+      "core_meaning": "single or individual",
+      "explanation": "A vocabulary item is a single item separated out for learning.",
+      "part_of_speech": "verb"
+    },
+    "د ر س": {
+      "core_meaning": "studying",
+      "explanation": "This root is used for lessons, studying, and schools.",
+      "part_of_speech": "verb"
+    },
+    "ج م ل": {
+      "core_meaning": "beauty",
+      "explanation": "Words from this root relate to beauty and making something beautiful.",
+      "part_of_speech": "verb"
+    },
+    "ك ب ر": {
+      "core_meaning": "bigness or greatness",
+      "explanation": "This root often points to size, age, greatness, or importance.",
+      "part_of_speech": "verb"
+    },
+    "ص غ ر": {
+      "core_meaning": "smallness",
+      "explanation": "This root relates to being small, young, or reduced.",
+      "part_of_speech": "verb"
+    },
+    "ح ج م": {
+      "core_meaning": "size or volume",
+      "explanation": "This root is used around size, volume, and limiting or controlling size in some derived uses.",
+      "part_of_speech": "verb"
+    },
+    "ل و ن": {
+      "core_meaning": "coloring",
+      "explanation": "This root is used for color and for making something colored.",
+      "part_of_speech": "verb"
+    },
+    "ب ي ض": {
+      "core_meaning": "whiteness",
+      "explanation": "This color root is used for white and whiteness.",
+      "part_of_speech": "verb"
+    },
+    "س و د": {
+      "core_meaning": "blackness",
+      "explanation": "This color root is used for black and blackness.",
+      "part_of_speech": "verb"
+    },
+    "ح م ر": {
+      "core_meaning": "redness",
+      "explanation": "This color root is used for red and redness.",
+      "part_of_speech": "verb"
+    },
+    "ز ر ق": {
+      "core_meaning": "blueness",
+      "explanation": "This color root is used for blue and blueness.",
+      "part_of_speech": "verb"
+    },
+    "خ ض ر": {
+      "core_meaning": "greenness",
+      "explanation": "This color root is used for green, greenness, and fresh green things.",
+      "part_of_speech": "verb"
+    },
+    "ط و ل": {
+      "core_meaning": "length",
+      "explanation": "This root relates to length, height, and something lasting for a long time.",
+      "part_of_speech": "verb"
+    },
+    "ق ص ر": {
+      "core_meaning": "shortness or limitation",
+      "explanation": "This root often relates to being short, limited, or falling short.",
+      "part_of_speech": "verb"
+    },
+    "ص ف ح": {
+      "core_meaning": "a broad surface or page",
+      "explanation": "This root can relate to a page, a flat side, or turning away/forgiving in other contexts.",
+      "part_of_speech": "verb"
+    },
+    "س أ ل": {
+      "core_meaning": "asking",
+      "explanation": "This root is used for asking, questions, and requests.",
+      "part_of_speech": "verb"
+    }
+  }
+}

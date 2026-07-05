@@ -9,7 +9,12 @@
   },
   "entries": [
     {
-      "surface_forms": ["وصف", "وصفها", "سأصف", "ساصف"],
+      "surface_forms": [
+        "وصف",
+        "وصفها",
+        "سأصف",
+        "ساصف"
+      ],
       "lemma": "وَصَفَ",
       "root": "و ص ف",
       "pattern": "فَعَلَ",
@@ -18,21 +23,43 @@
       "short_definition": "To say what something is like: its size, color, shape, or qualities.",
       "lesson_example_arabic": "عندما تريدون وصف أي شيء",
       "lesson_example_english": "When you want to describe anything.",
-      "synonyms": ["شرح", "بيّن"],
+      "synonyms": [
+        "شرح",
+        "بيّن"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "describing or giving qualities",
         "explanation": "Words from this root often relate to describing a thing or its qualities.",
         "related_words": [
-          {"arabic": "وَصْف", "transliteration": "wasf", "english": "description", "relation": "verbal noun"},
-          {"arabic": "وَصَفَ", "transliteration": "wasafa", "english": "he described", "relation": "verb"},
-          {"arabic": "صِفَة", "transliteration": "sifah", "english": "quality / attribute", "relation": "related noun"}
+          {
+            "arabic": "وَصْف",
+            "transliteration": "wasf",
+            "english": "description",
+            "relation": "verbal noun"
+          },
+          {
+            "arabic": "وَصَفَ",
+            "transliteration": "wasafa",
+            "english": "he described",
+            "relation": "verb"
+          },
+          {
+            "arabic": "صِفَة",
+            "transliteration": "sifah",
+            "english": "quality / attribute",
+            "relation": "related noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["كتاب", "الكتاب", "كتابه"],
+      "surface_forms": [
+        "كتاب",
+        "الكتاب",
+        "كتابه"
+      ],
       "lemma": "كِتَاب",
       "root": "ك ت ب",
       "pattern": "فِعَال",
@@ -41,22 +68,48 @@
       "short_definition": "A written or printed work with pages.",
       "lesson_example_arabic": "ما حجم هذا الكتاب؟",
       "lesson_example_english": "What is the size of this book?",
-      "synonyms": ["مؤلَّف"],
+      "synonyms": [
+        "مؤلَّف"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "writing",
         "explanation": "This root connects books, writing, writers, and offices.",
         "related_words": [
-          {"arabic": "كَتَبَ", "transliteration": "kataba", "english": "he wrote", "relation": "verb"},
-          {"arabic": "كِتَاب", "transliteration": "kitab", "english": "book", "relation": "noun"},
-          {"arabic": "كَاتِب", "transliteration": "katib", "english": "writer", "relation": "active participle"},
-          {"arabic": "مَكْتَب", "transliteration": "maktab", "english": "office / desk", "relation": "place noun"}
+          {
+            "arabic": "كَتَبَ",
+            "transliteration": "kataba",
+            "english": "he wrote",
+            "relation": "verb"
+          },
+          {
+            "arabic": "كِتَاب",
+            "transliteration": "kitab",
+            "english": "book",
+            "relation": "noun"
+          },
+          {
+            "arabic": "كَاتِب",
+            "transliteration": "katib",
+            "english": "writer",
+            "relation": "active participle"
+          },
+          {
+            "arabic": "مَكْتَب",
+            "transliteration": "maktab",
+            "english": "office / desk",
+            "relation": "place noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["كلمة", "كلمات", "الكلمات"],
+      "surface_forms": [
+        "كلمة",
+        "كلمات",
+        "الكلمات"
+      ],
       "lemma": "كَلِمَة",
       "root": "ك ل م",
       "pattern": "فَعِلَة",
@@ -65,21 +118,43 @@
       "short_definition": "A unit of speech or writing that carries meaning.",
       "lesson_example_arabic": "بعض الكلمات الجديدة",
       "lesson_example_english": "Some new words.",
-      "synonyms": ["لفظ", "مفردة"],
+      "synonyms": [
+        "لفظ",
+        "مفردة"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "speech and words",
         "explanation": "This root is used for words, speech, and speaking.",
         "related_words": [
-          {"arabic": "كَلِمَة", "transliteration": "kalimah", "english": "word", "relation": "noun"},
-          {"arabic": "كَلَام", "transliteration": "kalam", "english": "speech", "relation": "noun"},
-          {"arabic": "تَكَلَّمَ", "transliteration": "takallama", "english": "he spoke", "relation": "derived verb"}
+          {
+            "arabic": "كَلِمَة",
+            "transliteration": "kalimah",
+            "english": "word",
+            "relation": "noun"
+          },
+          {
+            "arabic": "كَلَام",
+            "transliteration": "kalam",
+            "english": "speech",
+            "relation": "noun"
+          },
+          {
+            "arabic": "تَكَلَّمَ",
+            "transliteration": "takallama",
+            "english": "he spoke",
+            "relation": "derived verb"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["مفردات", "المفردات", "مفردة"],
+      "surface_forms": [
+        "مفردات",
+        "المفردات",
+        "مفردة"
+      ],
       "lemma": "مُفْرَدَة",
       "root": "ف ر د",
       "pattern": "مُفْعَلَة",
@@ -88,21 +163,41 @@
       "short_definition": "A word or item of vocabulary.",
       "lesson_example_arabic": "نتعلم بعض المفردات",
       "lesson_example_english": "We learn some vocabulary.",
-      "synonyms": ["كلمة"],
+      "synonyms": [
+        "كلمة"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "single or individual",
         "explanation": "A vocabulary item is a single item separated out for learning.",
         "related_words": [
-          {"arabic": "فَرْد", "transliteration": "fard", "english": "individual", "relation": "noun"},
-          {"arabic": "مُفْرَد", "transliteration": "mufrad", "english": "singular", "relation": "adjective"},
-          {"arabic": "مُفْرَدَة", "transliteration": "mufradah", "english": "vocabulary item", "relation": "noun"}
+          {
+            "arabic": "فَرْد",
+            "transliteration": "fard",
+            "english": "individual",
+            "relation": "noun"
+          },
+          {
+            "arabic": "مُفْرَد",
+            "transliteration": "mufrad",
+            "english": "singular",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "مُفْرَدَة",
+            "transliteration": "mufradah",
+            "english": "vocabulary item",
+            "relation": "noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["درس", "الدرس"],
+      "surface_forms": [
+        "درس",
+        "الدرس"
+      ],
       "lemma": "دَرْس",
       "root": "د ر س",
       "pattern": "فَعْل",
@@ -111,21 +206,42 @@
       "short_definition": "A learning session or a piece of study.",
       "lesson_example_arabic": "في هذا الدرس",
       "lesson_example_english": "In this lesson.",
-      "synonyms": ["حصة"],
+      "synonyms": [
+        "حصة"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "studying",
         "explanation": "This root is used for lessons, studying, and schools.",
         "related_words": [
-          {"arabic": "دَرَسَ", "transliteration": "darasa", "english": "he studied", "relation": "verb"},
-          {"arabic": "دَرْس", "transliteration": "dars", "english": "lesson", "relation": "noun"},
-          {"arabic": "مَدْرَسَة", "transliteration": "madrasah", "english": "school", "relation": "place noun"}
+          {
+            "arabic": "دَرَسَ",
+            "transliteration": "darasa",
+            "english": "he studied",
+            "relation": "verb"
+          },
+          {
+            "arabic": "دَرْس",
+            "transliteration": "dars",
+            "english": "lesson",
+            "relation": "noun"
+          },
+          {
+            "arabic": "مَدْرَسَة",
+            "transliteration": "madrasah",
+            "english": "school",
+            "relation": "place noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["جميل", "الجميل", "جميلة"],
+      "surface_forms": [
+        "جميل",
+        "الجميل",
+        "جميلة"
+      ],
       "lemma": "جَمِيل",
       "root": "ج م ل",
       "pattern": "فَعِيل",
@@ -134,21 +250,45 @@
       "short_definition": "Nice to see, hear, or experience.",
       "lesson_example_arabic": "هذا الكتاب الجميل",
       "lesson_example_english": "This beautiful book.",
-      "synonyms": ["حسن", "لطيف"],
-      "antonyms": ["قبيح"],
+      "synonyms": [
+        "حسن",
+        "لطيف"
+      ],
+      "antonyms": [
+        "قبيح"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "beauty",
         "explanation": "Words from this root relate to beauty and making something beautiful.",
         "related_words": [
-          {"arabic": "جَمِيل", "transliteration": "jamil", "english": "beautiful", "relation": "adjective"},
-          {"arabic": "جَمَال", "transliteration": "jamal", "english": "beauty", "relation": "noun"},
-          {"arabic": "تَجْمِيل", "transliteration": "tajmil", "english": "beautification", "relation": "verbal noun"}
+          {
+            "arabic": "جَمِيل",
+            "transliteration": "jamil",
+            "english": "beautiful",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "جَمَال",
+            "transliteration": "jamal",
+            "english": "beauty",
+            "relation": "noun"
+          },
+          {
+            "arabic": "تَجْمِيل",
+            "transliteration": "tajmil",
+            "english": "beautification",
+            "relation": "verbal noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["كبير", "كبيرا", "كبيرة"],
+      "surface_forms": [
+        "كبير",
+        "كبيرا",
+        "كبيرة"
+      ],
       "lemma": "كَبِير",
       "root": "ك ب ر",
       "pattern": "فَعِيل",
@@ -157,21 +297,44 @@
       "short_definition": "Large in size, amount, age, or importance.",
       "lesson_example_arabic": "هل هو كبير أو صغير؟",
       "lesson_example_english": "Is it big or small?",
-      "synonyms": ["ضخم"],
-      "antonyms": ["صغير"],
+      "synonyms": [
+        "ضخم"
+      ],
+      "antonyms": [
+        "صغير"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "bigness or greatness",
         "explanation": "This root often points to size, age, greatness, or importance.",
         "related_words": [
-          {"arabic": "كَبِير", "transliteration": "kabir", "english": "big / old", "relation": "adjective"},
-          {"arabic": "كِبَر", "transliteration": "kibar", "english": "old age / bigness", "relation": "noun"},
-          {"arabic": "أَكْبَر", "transliteration": "akbar", "english": "bigger / greater", "relation": "comparative"}
+          {
+            "arabic": "كَبِير",
+            "transliteration": "kabir",
+            "english": "big / old",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "كِبَر",
+            "transliteration": "kibar",
+            "english": "old age / bigness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "أَكْبَر",
+            "transliteration": "akbar",
+            "english": "bigger / greater",
+            "relation": "comparative"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["صغير", "صغيرا", "صغيرة"],
+      "surface_forms": [
+        "صغير",
+        "صغيرا",
+        "صغيرة"
+      ],
       "lemma": "صَغِير",
       "root": "ص غ ر",
       "pattern": "فَعِيل",
@@ -180,21 +343,44 @@
       "short_definition": "Not large; little in size, age, or amount.",
       "lesson_example_arabic": "هل هو كبير أو صغير؟",
       "lesson_example_english": "Is it big or small?",
-      "synonyms": ["قليل"],
-      "antonyms": ["كبير"],
+      "synonyms": [
+        "قليل"
+      ],
+      "antonyms": [
+        "كبير"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "smallness",
         "explanation": "This root relates to being small, young, or reduced.",
         "related_words": [
-          {"arabic": "صَغِير", "transliteration": "saghir", "english": "small", "relation": "adjective"},
-          {"arabic": "أَصْغَر", "transliteration": "asghar", "english": "smaller", "relation": "comparative"},
-          {"arabic": "صِغَر", "transliteration": "sighar", "english": "smallness", "relation": "noun"}
+          {
+            "arabic": "صَغِير",
+            "transliteration": "saghir",
+            "english": "small",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "أَصْغَر",
+            "transliteration": "asghar",
+            "english": "smaller",
+            "relation": "comparative"
+          },
+          {
+            "arabic": "صِغَر",
+            "transliteration": "sighar",
+            "english": "smallness",
+            "relation": "noun"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["حجم", "الحجم", "حجمه"],
+      "surface_forms": [
+        "حجم",
+        "الحجم",
+        "حجمه"
+      ],
       "lemma": "حَجْم",
       "root": "ح ج م",
       "pattern": "فَعْل",
@@ -203,20 +389,38 @@
       "short_definition": "How big or small something is.",
       "lesson_example_arabic": "ما حجم هذا الكتاب؟",
       "lesson_example_english": "What is the size of this book?",
-      "synonyms": ["مقدار"],
+      "synonyms": [
+        "مقدار"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "size or volume",
         "explanation": "This root is used around size, volume, and limiting or controlling size in some derived uses.",
         "related_words": [
-          {"arabic": "حَجْم", "transliteration": "hajm", "english": "size / volume", "relation": "noun"},
-          {"arabic": "حَجِيم", "transliteration": "hajim", "english": "large / bulky", "relation": "related adjective"}
+          {
+            "arabic": "حَجْم",
+            "transliteration": "hajm",
+            "english": "size / volume",
+            "relation": "noun"
+          },
+          {
+            "arabic": "حَجِيم",
+            "transliteration": "hajim",
+            "english": "large / bulky",
+            "relation": "related adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["لون", "اللون", "لونه", "ألوان", "الوان"],
+      "surface_forms": [
+        "لون",
+        "اللون",
+        "لونه",
+        "ألوان",
+        "الوان"
+      ],
       "lemma": "لَوْن",
       "root": "ل و ن",
       "pattern": "فَعْل",
@@ -225,21 +429,41 @@
       "short_definition": "The visual color of something, like red, black, or blue.",
       "lesson_example_arabic": "ما لون هذا الكتاب؟",
       "lesson_example_english": "What is the color of this book?",
-      "synonyms": ["صبغة"],
+      "synonyms": [
+        "صبغة"
+      ],
       "antonyms": [],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "coloring",
         "explanation": "This root is used for color and for making something colored.",
         "related_words": [
-          {"arabic": "لَوْن", "transliteration": "lawn", "english": "color", "relation": "noun"},
-          {"arabic": "أَلْوَان", "transliteration": "alwan", "english": "colors", "relation": "plural"},
-          {"arabic": "مُلَوَّن", "transliteration": "mulawwan", "english": "colorful", "relation": "passive participle"}
+          {
+            "arabic": "لَوْن",
+            "transliteration": "lawn",
+            "english": "color",
+            "relation": "noun"
+          },
+          {
+            "arabic": "أَلْوَان",
+            "transliteration": "alwan",
+            "english": "colors",
+            "relation": "plural"
+          },
+          {
+            "arabic": "مُلَوَّن",
+            "transliteration": "mulawwan",
+            "english": "colorful",
+            "relation": "passive participle"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["أبيض", "ابيض"],
+      "surface_forms": [
+        "أبيض",
+        "ابيض"
+      ],
       "lemma": "أَبْيَض",
       "root": "ب ي ض",
       "pattern": "أَفْعَل",
@@ -249,20 +473,40 @@
       "lesson_example_arabic": "هذا أبيض",
       "lesson_example_english": "This is white.",
       "synonyms": [],
-      "antonyms": ["أسود"],
+      "antonyms": [
+        "أسود"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "whiteness",
         "explanation": "This color root is used for white and whiteness.",
         "related_words": [
-          {"arabic": "أَبْيَض", "transliteration": "abyad", "english": "white", "relation": "adjective"},
-          {"arabic": "بَيَاض", "transliteration": "bayad", "english": "whiteness", "relation": "noun"},
-          {"arabic": "بَيْضَاء", "transliteration": "bayda", "english": "white, feminine", "relation": "feminine adjective"}
+          {
+            "arabic": "أَبْيَض",
+            "transliteration": "abyad",
+            "english": "white",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "بَيَاض",
+            "transliteration": "bayad",
+            "english": "whiteness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "بَيْضَاء",
+            "transliteration": "bayda",
+            "english": "white, feminine",
+            "relation": "feminine adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["أسود", "اسود"],
+      "surface_forms": [
+        "أسود",
+        "اسود"
+      ],
       "lemma": "أَسْوَد",
       "root": "س و د",
       "pattern": "أَفْعَل",
@@ -272,20 +516,40 @@
       "lesson_example_arabic": "لونه أسود",
       "lesson_example_english": "Its color is black.",
       "synonyms": [],
-      "antonyms": ["أبيض"],
+      "antonyms": [
+        "أبيض"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "blackness",
         "explanation": "This color root is used for black and blackness.",
         "related_words": [
-          {"arabic": "أَسْوَد", "transliteration": "aswad", "english": "black", "relation": "adjective"},
-          {"arabic": "سَوَاد", "transliteration": "sawad", "english": "blackness", "relation": "noun"},
-          {"arabic": "سَوْدَاء", "transliteration": "sawda", "english": "black, feminine", "relation": "feminine adjective"}
+          {
+            "arabic": "أَسْوَد",
+            "transliteration": "aswad",
+            "english": "black",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "سَوَاد",
+            "transliteration": "sawad",
+            "english": "blackness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "سَوْدَاء",
+            "transliteration": "sawda",
+            "english": "black, feminine",
+            "relation": "feminine adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["أحمر", "احمر"],
+      "surface_forms": [
+        "أحمر",
+        "احمر"
+      ],
       "lemma": "أَحْمَر",
       "root": "ح م ر",
       "pattern": "أَفْعَل",
@@ -301,14 +565,32 @@
         "core_meaning": "redness",
         "explanation": "This color root is used for red and redness.",
         "related_words": [
-          {"arabic": "أَحْمَر", "transliteration": "ahmar", "english": "red", "relation": "adjective"},
-          {"arabic": "حُمْرَة", "transliteration": "humrah", "english": "redness", "relation": "noun"},
-          {"arabic": "حَمْرَاء", "transliteration": "hamra", "english": "red, feminine", "relation": "feminine adjective"}
+          {
+            "arabic": "أَحْمَر",
+            "transliteration": "ahmar",
+            "english": "red",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "حُمْرَة",
+            "transliteration": "humrah",
+            "english": "redness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "حَمْرَاء",
+            "transliteration": "hamra",
+            "english": "red, feminine",
+            "relation": "feminine adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["أزرق", "ازرق"],
+      "surface_forms": [
+        "أزرق",
+        "ازرق"
+      ],
       "lemma": "أَزْرَق",
       "root": "ز ر ق",
       "pattern": "أَفْعَل",
@@ -324,14 +606,32 @@
         "core_meaning": "blueness",
         "explanation": "This color root is used for blue and blueness.",
         "related_words": [
-          {"arabic": "أَزْرَق", "transliteration": "azraq", "english": "blue", "relation": "adjective"},
-          {"arabic": "زُرْقَة", "transliteration": "zurqah", "english": "blueness", "relation": "noun"},
-          {"arabic": "زَرْقَاء", "transliteration": "zarqa", "english": "blue, feminine", "relation": "feminine adjective"}
+          {
+            "arabic": "أَزْرَق",
+            "transliteration": "azraq",
+            "english": "blue",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "زُرْقَة",
+            "transliteration": "zurqah",
+            "english": "blueness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "زَرْقَاء",
+            "transliteration": "zarqa",
+            "english": "blue, feminine",
+            "relation": "feminine adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["أخضر", "اخضر"],
+      "surface_forms": [
+        "أخضر",
+        "اخضر"
+      ],
       "lemma": "أَخْضَر",
       "root": "خ ض ر",
       "pattern": "أَفْعَل",
@@ -347,14 +647,33 @@
         "core_meaning": "greenness",
         "explanation": "This color root is used for green, greenness, and fresh green things.",
         "related_words": [
-          {"arabic": "أَخْضَر", "transliteration": "akhdar", "english": "green", "relation": "adjective"},
-          {"arabic": "خُضْرَة", "transliteration": "khudrah", "english": "greenness / vegetables", "relation": "noun"},
-          {"arabic": "خَضْرَاء", "transliteration": "khadra", "english": "green, feminine", "relation": "feminine adjective"}
+          {
+            "arabic": "أَخْضَر",
+            "transliteration": "akhdar",
+            "english": "green",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "خُضْرَة",
+            "transliteration": "khudrah",
+            "english": "greenness / vegetables",
+            "relation": "noun"
+          },
+          {
+            "arabic": "خَضْرَاء",
+            "transliteration": "khadra",
+            "english": "green, feminine",
+            "relation": "feminine adjective"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["طويل", "طوله", "طويلة"],
+      "surface_forms": [
+        "طويل",
+        "طوله",
+        "طويلة"
+      ],
       "lemma": "طَوِيل",
       "root": "ط و ل",
       "pattern": "فَعِيل",
@@ -363,21 +682,43 @@
       "short_definition": "Having a lot of length or height.",
       "lesson_example_arabic": "هل هو طويل أو قصير؟",
       "lesson_example_english": "Is it long or short?",
-      "synonyms": ["ممتد"],
-      "antonyms": ["قصير"],
+      "synonyms": [
+        "ممتد"
+      ],
+      "antonyms": [
+        "قصير"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "length",
         "explanation": "This root relates to length, height, and something lasting for a long time.",
         "related_words": [
-          {"arabic": "طَوِيل", "transliteration": "tawil", "english": "long / tall", "relation": "adjective"},
-          {"arabic": "طُول", "transliteration": "tul", "english": "length", "relation": "noun"},
-          {"arabic": "أَطْوَل", "transliteration": "atwal", "english": "longer / taller", "relation": "comparative"}
+          {
+            "arabic": "طَوِيل",
+            "transliteration": "tawil",
+            "english": "long / tall",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "طُول",
+            "transliteration": "tul",
+            "english": "length",
+            "relation": "noun"
+          },
+          {
+            "arabic": "أَطْوَل",
+            "transliteration": "atwal",
+            "english": "longer / taller",
+            "relation": "comparative"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["قصير", "قصيرة"],
+      "surface_forms": [
+        "قصير",
+        "قصيرة"
+      ],
       "lemma": "قَصِير",
       "root": "ق ص ر",
       "pattern": "فَعِيل",
@@ -387,20 +728,41 @@
       "lesson_example_arabic": "طويل أو قصير",
       "lesson_example_english": "Long or short.",
       "synonyms": [],
-      "antonyms": ["طويل"],
+      "antonyms": [
+        "طويل"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "shortness or limitation",
         "explanation": "This root often relates to being short, limited, or falling short.",
         "related_words": [
-          {"arabic": "قَصِير", "transliteration": "qasir", "english": "short", "relation": "adjective"},
-          {"arabic": "قِصَر", "transliteration": "qisar", "english": "shortness", "relation": "noun"},
-          {"arabic": "أَقْصَر", "transliteration": "aqsar", "english": "shorter", "relation": "comparative"}
+          {
+            "arabic": "قَصِير",
+            "transliteration": "qasir",
+            "english": "short",
+            "relation": "adjective"
+          },
+          {
+            "arabic": "قِصَر",
+            "transliteration": "qisar",
+            "english": "shortness",
+            "relation": "noun"
+          },
+          {
+            "arabic": "أَقْصَر",
+            "transliteration": "aqsar",
+            "english": "shorter",
+            "relation": "comparative"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["صفحة", "الصفحة", "صفحات"],
+      "surface_forms": [
+        "صفحة",
+        "الصفحة",
+        "صفحات"
+      ],
       "lemma": "صَفْحَة",
       "root": "ص ف ح",
       "pattern": "فَعْلَة",
@@ -416,14 +778,34 @@
         "core_meaning": "a broad surface or page",
         "explanation": "This root can relate to a page, a flat side, or turning away/forgiving in other contexts.",
         "related_words": [
-          {"arabic": "صَفْحَة", "transliteration": "safhah", "english": "page", "relation": "noun"},
-          {"arabic": "صَفَحَ", "transliteration": "safaha", "english": "he forgave / turned away", "relation": "verb"},
-          {"arabic": "تَصَفَّحَ", "transliteration": "tasaffaha", "english": "he browsed", "relation": "derived verb"}
+          {
+            "arabic": "صَفْحَة",
+            "transliteration": "safhah",
+            "english": "page",
+            "relation": "noun"
+          },
+          {
+            "arabic": "صَفَحَ",
+            "transliteration": "safaha",
+            "english": "he forgave / turned away",
+            "relation": "verb"
+          },
+          {
+            "arabic": "تَصَفَّحَ",
+            "transliteration": "tasaffaha",
+            "english": "he browsed",
+            "relation": "derived verb"
+          }
         ]
       }
     },
     {
-      "surface_forms": ["سؤال", "السؤال", "أسئلة", "اسئلة"],
+      "surface_forms": [
+        "سؤال",
+        "السؤال",
+        "أسئلة",
+        "اسئلة"
+      ],
       "lemma": "سُؤَال",
       "root": "س أ ل",
       "pattern": "فُعَال",
@@ -432,17 +814,2892 @@
       "short_definition": "Something you ask.",
       "lesson_example_arabic": "أول سؤال",
       "lesson_example_english": "The first question.",
-      "synonyms": ["استفسار"],
-      "antonyms": ["جواب"],
+      "synonyms": [
+        "استفسار"
+      ],
+      "antonyms": [
+        "جواب"
+      ],
       "review_status": "draft_pending_human_review",
       "root_family": {
         "core_meaning": "asking",
         "explanation": "This root is used for asking, questions, and requests.",
         "related_words": [
-          {"arabic": "سَأَلَ", "transliteration": "sa'ala", "english": "he asked", "relation": "verb"},
-          {"arabic": "سُؤَال", "transliteration": "su'al", "english": "question", "relation": "noun"},
-          {"arabic": "مَسْؤُول", "transliteration": "mas'ul", "english": "responsible", "relation": "derived participle"}
+          {
+            "arabic": "سَأَلَ",
+            "transliteration": "sa'ala",
+            "english": "he asked",
+            "relation": "verb"
+          },
+          {
+            "arabic": "سُؤَال",
+            "transliteration": "su'al",
+            "english": "question",
+            "relation": "noun"
+          },
+          {
+            "arabic": "مَسْؤُول",
+            "transliteration": "mas'ul",
+            "english": "responsible",
+            "relation": "derived participle"
+          }
         ]
+      }
+    },
+    {
+      "surface_forms": [
+        "يعن"
+      ],
+      "lemma": "يعن",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(58 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مثلا"
+      ],
+      "lemma": "مثلا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(43 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "غلاف"
+      ],
+      "lemma": "غلاف",
+      "root": "غ ل ا ف",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "cover",
+      "short_definition": "(27 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "cover",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مقدم"
+      ],
+      "lemma": "مقدم",
+      "root": "م ق د م",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "presenter",
+      "short_definition": "(26 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "presenter",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "موضوع"
+      ],
+      "lemma": "موضوع",
+      "root": "م و ض و ع",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "topic",
+      "short_definition": "(20 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "topic",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "جود"
+      ],
+      "lemma": "جود",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(19 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مؤلف"
+      ],
+      "lemma": "مؤلف",
+      "root": "أ ل ف",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "author",
+      "short_definition": "(16 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "author",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "صفح"
+      ],
+      "lemma": "صفح",
+      "root": "ص ف ح",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "page/surface",
+      "short_definition": "(16 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "page/surface",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "علم"
+      ],
+      "lemma": "علم",
+      "root": "ع ل م",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "knowledge",
+      "short_definition": "(15 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "knowledge",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "شاء"
+      ],
+      "lemma": "شاء",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(15 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ورق"
+      ],
+      "lemma": "ورق",
+      "root": "و ر ق",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "paper/leaf",
+      "short_definition": "(15 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "paper/leaf",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نسال"
+      ],
+      "lemma": "نسال",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(14 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "بعد"
+      ],
+      "lemma": "بعد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(14 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عرض"
+      ],
+      "lemma": "عرض",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(14 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "هكذا"
+      ],
+      "lemma": "هكذا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(14 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ومن"
+      ],
+      "lemma": "ومن",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(14 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وهذا"
+      ],
+      "lemma": "وهذا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(13 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "طول"
+      ],
+      "lemma": "طول",
+      "root": "ط و ل",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "length",
+      "short_definition": "(13 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "length",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اسم"
+      ],
+      "lemma": "اسم",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(13 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "باب"
+      ],
+      "lemma": "باب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(13 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نقول"
+      ],
+      "lemma": "نقول",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(12 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "انستغرام"
+      ],
+      "lemma": "انستغرام",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(12 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "محتوى"
+      ],
+      "lemma": "محتوى",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(12 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ليس"
+      ],
+      "lemma": "ليس",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "انظروا"
+      ],
+      "lemma": "انظروا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وان"
+      ],
+      "lemma": "وان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عنوان"
+      ],
+      "lemma": "عنوان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اخرى"
+      ],
+      "lemma": "اخرى",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نحو"
+      ],
+      "lemma": "نحو",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "جيد"
+      ],
+      "lemma": "جيد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عالي"
+      ],
+      "lemma": "عالي",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "adjective",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مرئي"
+      ],
+      "lemma": "مرئي",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "adjective",
+      "english_meaning": "",
+      "short_definition": "(11 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يكون"
+      ],
+      "lemma": "يكون",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نستطيع"
+      ],
+      "lemma": "نستطيع",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ثقيل"
+      ],
+      "lemma": "ثقيل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ممتاز"
+      ],
+      "lemma": "ممتاز",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "شيخ"
+      ],
+      "lemma": "شيخ",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مثل"
+      ],
+      "lemma": "مثل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ناس"
+      ],
+      "lemma": "ناس",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مقاطع"
+      ],
+      "lemma": "مقاطع",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "كنت"
+      ],
+      "lemma": "كنت",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عدس"
+      ],
+      "lemma": "عدس",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(10 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "حتى"
+      ],
+      "lemma": "حتى",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "صوت"
+      ],
+      "lemma": "صوت",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يوجد"
+      ],
+      "lemma": "يوجد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "لذلك"
+      ],
+      "lemma": "لذلك",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ممكن"
+      ],
+      "lemma": "ممكن",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مشاهد"
+      ],
+      "lemma": "مشاهد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(9 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عندما"
+      ],
+      "lemma": "عندما",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اشتريت"
+      ],
+      "lemma": "اشتريت",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ابواب"
+      ],
+      "lemma": "ابواب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وما"
+      ],
+      "lemma": "وما",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ولا"
+      ],
+      "lemma": "ولا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "هؤلاء"
+      ],
+      "lemma": "هؤلاء",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اصحاب"
+      ],
+      "lemma": "اصحاب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "رجل"
+      ],
+      "lemma": "رجل",
+      "root": "ر ج ل",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "man/foot",
+      "short_definition": "(8 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "man/foot",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اول"
+      ],
+      "lemma": "اول",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وبعد"
+      ],
+      "lemma": "وبعد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وزن"
+      ],
+      "lemma": "وزن",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ملون"
+      ],
+      "lemma": "ملون",
+      "root": "ل و ن",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "color",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "color",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اكثر"
+      ],
+      "lemma": "اكثر",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "فعل"
+      ],
+      "lemma": "فعل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "شرح"
+      ],
+      "lemma": "شرح",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "جودت"
+      ],
+      "lemma": "جودت",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عندك"
+      ],
+      "lemma": "عندك",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وقت"
+      ],
+      "lemma": "وقت",
+      "root": "و ق ت",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "time",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "time",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "صاحب"
+      ],
+      "lemma": "صاحب",
+      "root": "ص ح ب",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "friend/companion",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "friend/companion",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ضوء"
+      ],
+      "lemma": "ضوء",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(7 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عند"
+      ],
+      "lemma": "عند",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "تعرفون"
+      ],
+      "lemma": "تعرفون",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "سال"
+      ],
+      "lemma": "سال",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "خفيف"
+      ],
+      "lemma": "خفيف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اجرومي"
+      ],
+      "lemma": "اجرومي",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "واحد"
+      ],
+      "lemma": "واحد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "تكون"
+      ],
+      "lemma": "تكون",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "قواعد"
+      ],
+      "lemma": "قواعد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اخر"
+      ],
+      "lemma": "اخر",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وهكذا"
+      ],
+      "lemma": "وهكذا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "واضح"
+      ],
+      "lemma": "واضح",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "فيديو"
+      ],
+      "lemma": "فيديو",
+      "root": "ف ي د",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "benefit",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "benefit",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وسائل"
+      ],
+      "lemma": "وسائل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "صناع"
+      ],
+      "lemma": "صناع",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مكان"
+      ],
+      "lemma": "مكان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "سيارات"
+      ],
+      "lemma": "سيارات",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "قديم"
+      ],
+      "lemma": "قديم",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "حيث"
+      ],
+      "lemma": "حيث",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مضمون"
+      ],
+      "lemma": "مضمون",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يستقبلونك"
+      ],
+      "lemma": "يستقبلونك",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نظرا"
+      ],
+      "lemma": "نظرا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(6 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اشياء"
+      ],
+      "lemma": "اشياء",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "معنى"
+      ],
+      "lemma": "معنى",
+      "root": "م ع ن ى",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "meaning",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "meaning",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "متوسط"
+      ],
+      "lemma": "متوسط",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "وليس"
+      ],
+      "lemma": "وليس",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اصفر"
+      ],
+      "lemma": "اصفر",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مختلف"
+      ],
+      "lemma": "مختلف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "كذلك"
+      ],
+      "lemma": "كذلك",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "كتب"
+      ],
+      "lemma": "كتب",
+      "root": "ك ت ب",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "writing",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "writing",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "هان"
+      ],
+      "lemma": "هان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "تاليف"
+      ],
+      "lemma": "تاليف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ضعيف"
+      ],
+      "lemma": "ضعيف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "صلب"
+      ],
+      "lemma": "صلب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "دعو"
+      ],
+      "lemma": "دعو",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "قبل"
+      ],
+      "lemma": "قبل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يقول"
+      ],
+      "lemma": "يقول",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "غير"
+      ],
+      "lemma": "غير",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يبدا"
+      ],
+      "lemma": "يبدا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "طبعا"
+      ],
+      "lemma": "طبعا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "هاتف"
+      ],
+      "lemma": "هاتف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "بدون"
+      ],
+      "lemma": "بدون",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مشاكل"
+      ],
+      "lemma": "مشاكل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مفيد"
+      ],
+      "lemma": "مفيد",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "تواصل"
+      ],
+      "lemma": "تواصل",
+      "root": "ت و ص ل",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "connecting",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "connecting",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "لان"
+      ],
+      "lemma": "لان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مرئيات"
+      ],
+      "lemma": "مرئيات",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "لعب"
+      ],
+      "lemma": "لعب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "فكر"
+      ],
+      "lemma": "فكر",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "مال"
+      ],
+      "lemma": "مال",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اعرف"
+      ],
+      "lemma": "اعرف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يجب"
+      ],
+      "lemma": "يجب",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "كلام"
+      ],
+      "lemma": "كلام",
+      "root": "ك ل م",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "speaking",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "speaking",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "انسان"
+      ],
+      "lemma": "انسان",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "يقيمونك"
+      ],
+      "lemma": "يقيمونك",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(5 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "طلاب"
+      ],
+      "lemma": "طلاب",
+      "root": "ط ا ل ب",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "student",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "student",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عربي"
+      ],
+      "lemma": "عربي",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "adjective",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "ادر"
+      ],
+      "lemma": "ادر",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اقول"
+      ],
+      "lemma": "اقول",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "تقول"
+      ],
+      "lemma": "تقول",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "سنت"
+      ],
+      "lemma": "سنت",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اظن"
+      ],
+      "lemma": "اظن",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "نصف"
+      ],
+      "lemma": "نصف",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "كثير"
+      ],
+      "lemma": "كثير",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عالم"
+      ],
+      "lemma": "عالم",
+      "root": "ع ل م",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "knowledge",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "knowledge",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "قليلا"
+      ],
+      "lemma": "قليلا",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "عقرباو"
+      ],
+      "lemma": "عقرباو",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "اتصفح"
+      ],
+      "lemma": "اتصفح",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "verb",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
+      }
+    },
+    {
+      "surface_forms": [
+        "داخل"
+      ],
+      "lemma": "داخل",
+      "root": "",
+      "pattern": "",
+      "part_of_speech": "noun",
+      "english_meaning": "",
+      "short_definition": "(4 occurrences in lessons)",
+      "lesson_example_arabic": "",
+      "lesson_example_english": "",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "generated",
+      "root_family": {
+        "core_meaning": "",
+        "explanation": "",
+        "related_words": []
       }
     }
   ]

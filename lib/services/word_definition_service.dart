@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'root_service.dart';
 
 class ArabicVocabularyEntry {
   final String arabic;
@@ -179,6 +180,8 @@ class WordDefinitionService {
       _cache = {};
       _curatedArabicVocabularyCache = await _loadCuratedArabicGlossary();
     }
+    // Load the centralized root dictionary alongside the glossary
+    await RootService.load();
     return _cache!;
   }
 
@@ -272,6 +275,25 @@ class WordDefinitionService {
       if (entry.normalisedArabic == normalised) return entry;
     }
     return null;
+  }
+
+  /// Compute the word family for a given root by finding all glossary entries
+  /// that share the same root. Returns entries excluding the original word.
+  static List<ArabicVocabularyEntry> getWordFamily(String? root, {String? excludeLemma}) {
+    if (root == null || root.isEmpty) return const [];
+    final normalisedRoot = RootService.normalizeRoot(root);
+    return temporaryArabicVocabulary.where((entry) {
+      if (entry.root == null) return false;
+      if (RootService.normalizeRoot(entry.root!) != normalisedRoot) return false;
+      if (excludeLemma != null && entry.lemma == excludeLemma) return false;
+      return true;
+    }).toList();
+  }
+
+  /// Get the root info from the centralized root dictionary.
+  static ArabicRoot? getRootInfo(String? root) {
+    if (root == null || root.isEmpty) return null;
+    return RootService.getRoot(RootService.normalizeRoot(root));
   }
 
   static Future<List<ArabicVocabularyEntry>> _loadCuratedArabicGlossary() async {
