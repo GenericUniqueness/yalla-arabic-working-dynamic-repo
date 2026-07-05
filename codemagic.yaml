@@ -1,0 +1,17 @@
+workflows:
+  build-debug:
+    name: Build Debug APK
+    instance_type: mac_mini_m2
+    environment:
+      flutter: stable
+    scripts:
+      - flutter pub get
+      - flutter analyze
+      - flutter test
+      - flutter build apk --debug
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk
+    publishing:
+      email:
+        recipients:
+          - tilefile12@gmail.com
