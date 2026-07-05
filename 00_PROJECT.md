@@ -1,6 +1,6 @@
 # Yalla Arabic — Project Definition
 
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 
 ## What this is
 

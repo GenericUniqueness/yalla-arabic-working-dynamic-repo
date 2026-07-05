@@ -1,6 +1,6 @@
 # Decisions
 
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 
 ## D1: Web (GitHub Pages) as primary deployment target
 **Date**: 2026-07-05
@@ -60,3 +60,30 @@ Last updated: 2026-07-05
 **Date**: 2026-07-05
 **Decision**: The 7 ACOS files (00-06) are the canonical project state for session handoffs. The `docs/` folder (27 files) is the detailed reference for architecture, specs, and pipeline work. Future sessions should read ACOS first, then `docs/START_HERE.md` for deep context.
 **Rationale**: ACOS docs are compact and maintained per-session. The `docs/` folder has richer detail but can go stale (as happened with opus references). ACOS docs flag staleness.
+
+## D10: Sentence breaking via punctuation-based splitting
+**Date**: 2026-07-06
+**Decision**: Split multi-sentence content.json entries at natural sentence boundaries using English punctuation as the primary split signal, with Arabic text distributed proportionally when it lacks punctuation.
+**Rationale**: YouTube captions were extracted as chunks (3-5 sentences per entry), not individual sentences. This made the transcript UI confusing and broke sentence-level highlighting.
+**Alternatives rejected**:
+- NLP-based sentence splitting: too complex for this stage; regex punctuation splitting is sufficient
+- Manual review of every sentence: impractical for 774+ entries
+- Keep multi-sentence entries: poor UX for language learners
+
+## D11: Centralized root dictionary with dynamic family computation
+**Date**: 2026-07-06
+**Decision**: Store roots in a centralized `assets/roots.json` file and compute word families at runtime by finding all glossary entries sharing the same root.
+**Rationale**: Embedding root family data in each glossary entry caused duplication. Centralizing roots and computing families dynamically ensures consistency and reduces data maintenance.
+**Alternatives rejected**:
+- Keep embedded root family data: duplicated across entries, hard to maintain
+- Database-backed root system: overkill for a bundled asset app
+- In-memory only: roots wouldn't persist across sessions
+
+## D12: Auto-generated glossary entries with human review later
+**Date**: 2026-07-06
+**Decision**: Auto-generate glossary entries for the top 150 content words using a template-based script, with `review_status: "generated"` for future human review.
+**Rationale**: Manual entry creation for 1050+ words is impractical. Auto-generated entries provide basic word lookup immediately; human review can improve accuracy later.
+**Alternatives rejected**:
+- Manual entry creation: too slow for 1050+ words
+- Skip glossary expansion: leaves lessons 7 and 10 with zero word definitions
+- Use only the inherited English dictionary: produces poor Arabic word matches

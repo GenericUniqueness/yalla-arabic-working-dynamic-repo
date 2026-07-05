@@ -38,11 +38,14 @@ Last updated: 2026-07-06
 ## Current state
 
 - **Deployed URL**: `https://genericuniqueness.github.io/yalla-arabic-working-dynamic-repo/`
-- **Latest commit**: `6cdacaa` — Switch audio from opus to mp3 (uncommitted changes pending)
-- **Deploy status**: Completed (2m 32s); assets confirmed bundled
-- **3 bundled lessons**: lesson_06, lesson_07, lesson_10 — all with content.json + audio.mp3
+- **Latest commit**: `4175345` — Phase 1 improvements
+- **Deploy status**: Pending (need to push after commit)
+- **3 bundled lessons**: lesson_06 (435 sentences), lesson_07 (241 sentences), lesson_10 (49 sentences)
+- **155 glossary entries** across all 3 lessons
+- **19 roots** in centralized root dictionary
+- **`flutter analyze`**: 0 errors, 0 warnings
 
-## Phase 1 — In Progress
+## Phase 1 — COMPLETE
 
 | Task | Status |
 |------|--------|
