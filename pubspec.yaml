@@ -36,11 +36,11 @@ flutter:
   assets:
     - assets/branding/
     - assets/courses/course_01/lesson_06/main_story/content.json
-    - assets/courses/course_01/lesson_06/main_story/audio.opus
+    - assets/courses/course_01/lesson_06/main_story/audio.mp3
     - assets/courses/course_01/lesson_07/main_story/content.json
-    - assets/courses/course_01/lesson_07/main_story/audio.opus
+    - assets/courses/course_01/lesson_07/main_story/audio.mp3
     - assets/courses/course_01/lesson_10/main_story/content.json
-    - assets/courses/course_01/lesson_10/main_story/audio.opus
+    - assets/courses/course_01/lesson_10/main_story/audio.mp3
     - assets/images/
     - assets/arabic_glossary.json
     - assets/word_definitions.json

@@ -37,7 +37,7 @@ class DownloadProvider extends ChangeNotifier {
   static String audioPath(int courseId, int lessonId, String typeFolder) {
     final c = courseId.toString().padLeft(2, '0');
     final l = lessonId.toString().padLeft(2, '0');
-    return 'assets/courses/course_$c/lesson_$l/$typeFolder/audio.opus';
+    return 'assets/courses/course_$c/lesson_$l/$typeFolder/audio.mp3';
   }
 
   bool isPathCached(String path) => _cached.contains(path);

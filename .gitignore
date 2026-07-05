@@ -90,15 +90,14 @@ docs/*
 
 # Audio files — stored in R2, not in git
 *.opus
-*.mp3
 *.wav
 *.ogg
 *.aac
 *.m4a
 *.flac
-!assets/courses/course_01/lesson_06/main_story/audio.opus
-!assets/courses/course_01/lesson_07/main_story/audio.opus
-!assets/courses/course_01/lesson_10/main_story/audio.opus
+!assets/courses/course_01/lesson_06/main_story/audio.mp3
+!assets/courses/course_01/lesson_07/main_story/audio.mp3
+!assets/courses/course_01/lesson_10/main_story/audio.mp3
 
 # Pipeline runtime state
 scripts/pipeline/*.json
