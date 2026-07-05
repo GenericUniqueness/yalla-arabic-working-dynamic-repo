@@ -117,7 +117,7 @@ The preferred lesson intake flow is:
 2. Extract or obtain Arabic subtitles with timestamps.
 3. Extract or obtain English subtitles, or generate English translation.
 4. Review Arabic transcript and English translation.
-5. Build app-ready `content.json` plus `audio.opus`.
+5. Build app-ready `content.json` plus `audio.mp3`.
 6. Add explicit app assets and catalog entry.
 7. Validate transcript timing, playback, review questions, and word taps.
 

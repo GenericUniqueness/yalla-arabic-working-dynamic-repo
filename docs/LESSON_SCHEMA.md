@@ -11,7 +11,7 @@ Each lesson type has exactly one transcript JSON and one audio file:
 
 ```text
 assets/courses/course_<NN>/lesson_<NN>/<type_folder>/content.json
-assets/courses/course_<NN>/lesson_<NN>/<type_folder>/audio.opus
+assets/courses/course_<NN>/lesson_<NN>/<type_folder>/audio.mp3
 ```
 
 Current supported `type_folder` values come from `LessonType.assetFolder`:
@@ -129,9 +129,9 @@ reviewed and changed from `not_claimed` to an explicit approved status.
 Adding a lesson requires all of this:
 
 - `content.json` on disk
-- `audio.opus` on disk for local build
+- `audio.mp3` on disk for local build
 - explicit `content.json` line in `pubspec.yaml`
-- explicit `audio.opus` line in `pubspec.yaml`
+- explicit `audio.mp3` line in `pubspec.yaml`
 - matching lesson entry in `lib/data/courses_data.dart`
 - validation pass from `docs/VALIDATION_CHECKLIST.md`
 

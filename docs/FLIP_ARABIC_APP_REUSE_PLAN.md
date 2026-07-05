@@ -100,7 +100,7 @@ Recommended workflow for each lesson:
 4. Create an accurate Arabic transcript immediately after recording.
 5. Translate each Arabic sentence into English.
 6. Generate one `content.json` file using the agreed schema.
-7. Export normalized `audio.opus`.
+7. Export normalized `audio.mp3`.
 8. Validate JSON shape, sentence order, timestamp monotonicity, and audio
    duration coverage.
 9. Validate transcript/audio mapping by listening before upload.
@@ -137,7 +137,7 @@ Recommended V1 schema:
   "lesson_title": "At the Market",
   "level": "A1",
   "audio": {
-    "path": "assets/courses/course_01/lesson_01/main_story/audio.opus",
+    "path": "assets/courses/course_01/lesson_01/main_story/audio.mp3",
     "duration_seconds": 123.45,
     "sha256": "set-during-manifest-generation"
   },
@@ -320,7 +320,7 @@ Recommended strategy:
 
 - New bucket or clearly separate path namespace for the Arabic app.
 - Paths like `arabic-fusha/courses/course_01/lesson_01/main_story/`.
-- One `content.json` and one `audio.opus` per lesson/type.
+- One `content.json` and one `audio.mp3` per lesson/type.
 - A manifest listing every JSON/audio pair.
 - SHA-256 checksums for JSON and audio.
 - Duration and sentence timestamp validation in the manifest or report.

@@ -60,7 +60,7 @@ direction. Keep this file as the live task checklist.
 - [ ] Build content pipeline v1: metadata, caption download, caption cleaning,
   translation, review status, app-ready JSON, and validation.
 - [ ] Integrate exactly one new lesson after it has reviewed Arabic, reviewed
-  English, provenance, `content.json`, and `audio.opus`.
+  English, provenance, `content.json`, and `audio.mp3`.
 - [ ] Start a small reviewed Arabic glossary sample for one integrated lesson.
 - [ ] Inspect Yalla English review/practice code and map reusable behavior to
   Arabic review tasks.

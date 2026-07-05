@@ -13,7 +13,7 @@ String remoteUrl(String remotePath) =>
     ContentSourceConfig.remoteUrl(remotePath);
 
 /// Manages local caching of audio files downloaded from Cloudflare R2.
-/// Remote path convention: assets/courses/course_02/lesson_01/main_story/audio.opus
+/// Remote path convention: assets/courses/course_02/lesson_01/main_story/audio.mp3
 class AudioCacheService {
   static AudioCacheService? _instance;
   static AudioCacheService get instance => _instance ??= AudioCacheService._();
@@ -108,7 +108,7 @@ class AudioCacheService {
   /// The JSON is stored in json_cache_<namespace>/ using the same naming
   /// convention as [ensureJsonCached].
   Future<void> evictJson(String audioRemotePath) async {
-    final jsonRemote = audioRemotePath.replaceAll('audio.opus', 'content.json');
+    final jsonRemote = audioRemotePath.replaceAll('audio.mp3', 'content.json');
     final appDir = await getApplicationDocumentsDirectory();
     final cacheFile = File(
       '${appDir.path}/json_cache_${ContentSourceConfig.cacheNamespace}/'
@@ -142,7 +142,7 @@ class AudioCacheService {
   /// Pre-caches the content.json for a given audio remote path.
   /// Called during lesson download so text is available offline.
   Future<void> ensureJsonCached(String audioRemotePath) async {
-    final jsonRemote = audioRemotePath.replaceAll('audio.opus', 'content.json');
+    final jsonRemote = audioRemotePath.replaceAll('audio.mp3', 'content.json');
     final appDir = await getApplicationDocumentsDirectory();
     final cacheFile = File(
       '${appDir.path}/json_cache_${ContentSourceConfig.cacheNamespace}/'

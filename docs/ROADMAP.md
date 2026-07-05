@@ -35,7 +35,7 @@ learning leftovers with Arabic-specific systems.
 
 - **Build content pipeline v1.** Create a repeatable flow for metadata capture,
   subtitle download, caption cleaning, English translation when missing, human
-  review state, app-ready `content.json`, `audio.opus`, and validation.
+  review state, app-ready `content.json`, `audio.mp3`, and validation.
 - **Integrate one new lesson safely.** Add only one lesson after reviewed Arabic,
   reviewed English, provenance, app-ready JSON, and audio exist. Register it in
   the Dart catalog and `pubspec.yaml` with explicit asset lines.
@@ -76,4 +76,4 @@ content, legal, and technical foundations are stable.
 - Do not copy Yalla English course JSON/audio/content into Yalla Arabic.
 - Playlist indices 7 and 10 are the only integrated lessons for now.
 - No new lesson is integrated without reviewed Arabic, reviewed English,
-  provenance, `content.json`, and `audio.opus`.
+  provenance, `content.json`, and `audio.mp3`.

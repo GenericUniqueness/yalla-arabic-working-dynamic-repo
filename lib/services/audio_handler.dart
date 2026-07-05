@@ -15,7 +15,7 @@ import 'transcript_diagnostics.dart';
 class AudioQueueItem {
   final String audioPath; // bundled asset path — used as fallback + for JSON
   final String
-      remotePath; // Firebase Storage path (audio.opus); empty = asset-only
+      remotePath; // Firebase Storage path (audio.mp3); empty = asset-only
   final String?
       localFilePath; // set by AudioProvider once the opus file is cached
   final String jsonPath;
@@ -148,7 +148,7 @@ class YallaAudioHandler extends BaseAudioHandler with SeekHandler {
           debugPrint('USING LOCAL NORMALIZED AUDIO: $normalizedLessonKey');
         }
         final url = remoteUrl(item.remotePath);
-        _logRequest('audio.opus', url);
+        _logRequest('audio.mp3', url);
         await _player.setUrl(url);
       } else {
         _audioSource = 'Bundled asset';
@@ -178,7 +178,7 @@ class YallaAudioHandler extends BaseAudioHandler with SeekHandler {
   static Future<_LoadedJson> _loadJson(AudioQueueItem item) async {
     if (item.remotePath.isNotEmpty) {
       final jsonRemote =
-          item.remotePath.replaceAll('audio.opus', 'content.json');
+          item.remotePath.replaceAll('audio.mp3', 'content.json');
       final dpAlignedJson = await _loadLocalDpAlignedJson(jsonRemote);
       if (dpAlignedJson != null) return dpAlignedJson;
 

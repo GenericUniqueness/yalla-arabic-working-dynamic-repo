@@ -5,18 +5,18 @@ const _productionContentBaseUrl =
 
 class ContentSourceConfig {
   static const Map<String, String> _localNormalizedAudioOverrides = {
-    'assets/courses/course_05/lesson_20/vocabulary/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_20/vocabulary/audio.opus',
-    'assets/courses/course_05/lesson_22/vocabulary/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_22/vocabulary/audio.opus',
-    'assets/courses/course_05/lesson_25/conversation/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_25/conversation/audio.opus',
-    'assets/courses/course_05/lesson_26/mini_story/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_26/mini_story/audio.opus',
-    'assets/courses/course_05/lesson_27/vocabulary/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_27/vocabulary/audio.opus',
-    'assets/courses/course_05/lesson_28/vocabulary/audio.opus':
-        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_28/vocabulary/audio.opus',
+    'assets/courses/course_05/lesson_20/vocabulary/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_20/vocabulary/audio.mp3',
+    'assets/courses/course_05/lesson_22/vocabulary/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_22/vocabulary/audio.mp3',
+    'assets/courses/course_05/lesson_25/conversation/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_25/conversation/audio.mp3',
+    'assets/courses/course_05/lesson_26/mini_story/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_26/mini_story/audio.mp3',
+    'assets/courses/course_05/lesson_27/vocabulary/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_27/vocabulary/audio.mp3',
+    'assets/courses/course_05/lesson_28/vocabulary/audio.mp3':
+        'local_fixtures/alignment_batch/audio_normalized/course_05/lesson_28/vocabulary/audio.mp3',
   };
 
   static const _overrideBaseUrl =
@@ -73,8 +73,8 @@ class ContentSourceConfig {
     var out = remotePath;
     const prefix = 'assets/courses/';
     if (out.startsWith(prefix)) out = out.substring(prefix.length);
-    if (out.endsWith('/audio.opus')) {
-      out = out.substring(0, out.length - '/audio.opus'.length);
+    if (out.endsWith('/audio.mp3')) {
+      out = out.substring(0, out.length - '/audio.mp3'.length);
     }
     return out;
   }

@@ -28,7 +28,7 @@ translation. It runs as a private dev build with login/onboarding bypassed.
 ## Local bundled content loading
 
 - Content paths are derived from course/lesson ids:
-  `assets/courses/course_<NN>/lesson_<NN>/<type>/content.json` and `audio.opus`
+  `assets/courses/course_<NN>/lesson_<NN>/<type>/content.json` and `audio.mp3`
   (see `player_screen.dart` and `download_provider.dart`).
 - Content JSON is loaded from the app bundle via `rootBundle.loadString(...)`
   (`audio_handler.dart`). Because only the two Arabic lessons are declared in

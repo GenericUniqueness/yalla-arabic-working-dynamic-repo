@@ -47,7 +47,7 @@ Last updated: 2026-06-11
 ## Content & Assets
 
 - Content paths are derived from course/lesson IDs:
-  `assets/courses/course_<NN>/lesson_<NN>/<type>/content.json` (+ `audio.opus`).
+  `assets/courses/course_<NN>/lesson_<NN>/<type>/content.json` (+ `audio.mp3`).
 - Only the two Arabic lessons are declared in `pubspec.yaml` and bundled in the
   APK. See `docs/ASSET_POLICY.md`.
 - Old Yalla English courses (`course_02`…`course_09`) were deleted from this

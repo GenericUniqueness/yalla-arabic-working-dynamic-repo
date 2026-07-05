@@ -28,7 +28,7 @@ happens in a separate pipeline folder:
 Root is an object with a `sentences[]` array. Each sentence carries Arabic text,
 English translation, and `start`/`end` timestamps (seconds). Timestamps must be
 monotonic with no overlaps and no zero/negative durations. One `content.json`
-plus one `audio.opus` per lesson/type folder (e.g. `main_story/`).
+plus one `audio.mp3` per lesson/type folder (e.g. `main_story/`).
 
 ## Resuming the pipeline
 
@@ -42,7 +42,7 @@ plus one `audio.opus` per lesson/type folder (e.g. `main_story/`).
 
 1. Supply local human Arabic + English caption files for the video.
 2. Run the existing clean → align → build → validate scripts in the pipeline.
-3. Copy the generated `content.json` + `audio.opus` into
+3. Copy the generated `content.json` + `audio.mp3` into
    `assets/courses/course_01/lesson_<NN>/main_story/` in this repo.
 4. Register the lesson in `lib/data/courses_data.dart`.
 5. Add the two explicit asset lines in `pubspec.yaml` (see `docs/ASSET_POLICY.md`).

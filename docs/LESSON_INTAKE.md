@@ -13,7 +13,7 @@ A source is not ready for app integration until it has:
 - English translation/subtitles aligned to the Arabic
 - review status for Arabic and English
 - app-ready `content.json`
-- `audio.opus`
+- `audio.mp3`
 - rights/provenance status recorded
 
 Videos with usable Arabic subtitles are the first priority. Videos without
@@ -61,7 +61,7 @@ Before integration:
 - [ ] English captions exist locally or translation task is complete.
 - [ ] Arabic transcript reviewed.
 - [ ] English translation reviewed.
-- [ ] Audio extracted and converted to `audio.opus`.
+- [ ] Audio extracted and converted to `audio.mp3`.
 - [ ] `content.json` generated.
 - [ ] Schema validation passed.
 - [ ] Timing diagnostics reviewed.
@@ -100,7 +100,7 @@ Draft app-ready output has also been generated:
 ```text
 ../content_pipeline/app_ready/06_-U-cnbFBc9c/
   content.json
-  audio.opus
+  audio.mp3
 ```
 
 The draft validates structurally, but still needs human review. Current warnings:
@@ -112,7 +112,7 @@ Integrated app asset:
 ```text
 assets/courses/course_01/lesson_06/main_story/
   content.json
-  audio.opus
+  audio.mp3
 ```
 
 Arabic root glossary slice:

@@ -65,7 +65,7 @@ Lesson path convention:
 
 ```text
 assets/courses/course_<NN>/lesson_<NN>/<type_folder>/content.json
-assets/courses/course_<NN>/lesson_<NN>/<type_folder>/audio.opus
+assets/courses/course_<NN>/lesson_<NN>/<type_folder>/audio.mp3
 ```
 
 ## Lesson content parsing

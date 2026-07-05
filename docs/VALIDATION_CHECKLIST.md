@@ -49,7 +49,7 @@ rg "applicationId|namespace|Yalla Arabic|bypassAuth|ez_english_app" android lib 
 - [ ] `pubspec.yaml` lists each lesson file explicitly.
 - [ ] No broad `assets/courses/` include was added.
 - [ ] `lib/data/courses_data.dart` only registers lessons that exist on disk.
-- [ ] New `content.json` and `audio.opus` paths match the course/lesson/type
+- [ ] New `content.json` and `audio.mp3` paths match the course/lesson/type
   convention.
 - [ ] `assets/arabic_glossary.json` passes
   `scripts/validate_arabic_glossary.py` after glossary edits.

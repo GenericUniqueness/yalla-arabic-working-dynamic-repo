@@ -4,13 +4,13 @@ Last updated: 2026-07-05 - **Yalla Arabic** (private dev shell).
 
 ## Phase 0 complete
 
-All 3 bundled lessons now have both `content.json` and `audio.opus`:
+All 3 bundled lessons now have both `content.json` and `audio.mp3`:
 
 | Lesson | Audio source | Size |
 |--------|-------------|------|
-| lesson_06 | bundled (original) | ~4 MB |
-| lesson_07 | YouTube `Mq51rklpGog` | ~20 MB |
-| lesson_10 | YouTube `lfPrnUZ4osQ` | ~3 MB |
+| lesson_06 | bundled (original) | ~14.77 MB |
+| lesson_07 | YouTube `Mq51rklpGog` | ~11.66 MB |
+| lesson_10 | YouTube `lfPrnUZ4osQ` | ~1.75 MB |
 
 `pubspec.yaml` updated to declare all 3 audio assets. CI/CD passes.
 
@@ -58,7 +58,7 @@ All 3 bundled lessons now have both `content.json` and `audio.opus`:
 - Playlist item 6 is the active next lesson candidate; Arabic/English VTT files
   and `.opus` audio are staged locally under
   `../content_pipeline/raw/06_-U-cnbFBc9c`.
-- A draft app-ready candidate 6 `content.json` and `audio.opus` were generated
+- A draft app-ready candidate 6 `content.json` and `audio.mp3` were generated
   under `../content_pipeline/app_ready/06_-U-cnbFBc9c`.
 - Candidate 6 is bundled into app assets under
   `assets/courses/course_01/lesson_06/main_story/`.

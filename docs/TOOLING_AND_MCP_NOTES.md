@@ -10,7 +10,7 @@ network/download commands when needed.
 
 - `python` - validation, cleaning, pipeline scripts
 - `yt-dlp` - video metadata, audio extraction, subtitle extraction
-- `ffmpeg` - audio conversion to `audio.opus`
+- `ffmpeg` - audio conversion to `audio.mp3`
 - `flutter` / `dart` - app validation and builds
 - `git` - status/diff/history
 

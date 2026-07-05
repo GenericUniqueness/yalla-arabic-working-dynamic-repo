@@ -11,7 +11,7 @@ No dedicated MCP connector is required for video extraction in the current
 workspace. The expected implementation path is local CLI tooling:
 
 - `yt-dlp` for video metadata, audio download, and subtitle download
-- `ffmpeg` for audio conversion/normalization to `audio.opus`
+- `ffmpeg` for audio conversion/normalization to `audio.mp3`
 - Python for caption cleaning, alignment checks, and lesson validation
 - optional LLM workflow for English translation when English captions are
   missing
@@ -59,13 +59,13 @@ python -m yt_dlp --dump-json --skip-download VIDEO_URL
 Expected command shape:
 
 ```bash
-python -m yt_dlp -x --audio-format opus --audio-quality 0 -o "audio/%(id)s.%(ext)s" VIDEO_URL
+python -m yt_dlp -x --audio-format mp3 --audio-quality 0 -o "audio/%(id)s.%(ext)s" VIDEO_URL
 ```
 
 If `yt-dlp` outputs another format, convert with `ffmpeg`:
 
 ```bash
-ffmpeg -i input_audio -vn -c:a libopus -b:a 48k audio.opus
+ffmpeg -i input_audio -vn -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 audio.mp3
 ```
 
 ### 3. Download captions
@@ -112,7 +112,7 @@ Create:
 
 ```text
 content.json
-audio.opus
+audio.mp3
 ```
 
 Follow `docs/LESSON_SCHEMA.md`.
@@ -166,7 +166,7 @@ content_pipeline/
   captions_clean/
   translations/
   audio_raw/
-  audio_opus/
+  audio_mp3/
   app_ready/
   reports/
 ```
@@ -185,7 +185,7 @@ The current raw packet for playlist index 6 is:
   -U-cnbFBc9c.opus
 ../content_pipeline/app_ready/06_-U-cnbFBc9c/
   content.json
-  audio.opus
+  audio.mp3
 ```
 
 Use this packet for the first pipeline implementation pass. The generated draft

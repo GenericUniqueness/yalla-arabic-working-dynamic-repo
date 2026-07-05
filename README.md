@@ -35,9 +35,9 @@ progress, and development kept entirely separate from the original.
 
 ## Current content (the only bundled lessons)
 
-- `assets/courses/course_01/lesson_06/main_story/` — content.json + audio.opus
-- `assets/courses/course_01/lesson_07/main_story/` — content.json + audio.opus
-- `assets/courses/course_01/lesson_10/main_story/` — content.json + audio.opus
+- `assets/courses/course_01/lesson_06/main_story/` — content.json + audio.mp3
+- `assets/courses/course_01/lesson_07/main_story/` — content.json + audio.mp3
+- `assets/courses/course_01/lesson_10/main_story/` — content.json + audio.mp3
 
 These are the **only** course lesson paths intended for bundled APK testing (see
 `docs/ASSET_POLICY.md`). They are registered in `lib/data/courses_data.dart`.
