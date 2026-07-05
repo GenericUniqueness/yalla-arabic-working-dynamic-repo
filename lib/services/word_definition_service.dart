@@ -7,6 +7,18 @@ class ArabicVocabularyEntry {
   final String englishHeadword;
   final String? definition;
   final String sourceField;
+  final String? lemma;
+  final String? root;
+  final String? pattern;
+  final String? partOfSpeech;
+  final String? exampleArabic;
+  final String? exampleEnglish;
+  final List<String> synonyms;
+  final List<String> antonyms;
+  final String? rootCoreMeaning;
+  final String? rootExplanation;
+  final List<ArabicRelatedWord> relatedWords;
+  final String? reviewStatus;
 
   const ArabicVocabularyEntry({
     required this.arabic,
@@ -14,6 +26,38 @@ class ArabicVocabularyEntry {
     required this.englishHeadword,
     required this.sourceField,
     this.definition,
+    this.lemma,
+    this.root,
+    this.pattern,
+    this.partOfSpeech,
+    this.exampleArabic,
+    this.exampleEnglish,
+    this.synonyms = const [],
+    this.antonyms = const [],
+    this.rootCoreMeaning,
+    this.rootExplanation,
+    this.relatedWords = const [],
+    this.reviewStatus,
+  });
+
+  bool get hasRootPanel =>
+      root != null ||
+      rootCoreMeaning != null ||
+      rootExplanation != null ||
+      relatedWords.isNotEmpty;
+}
+
+class ArabicRelatedWord {
+  final String arabic;
+  final String? transliteration;
+  final String english;
+  final String? relation;
+
+  const ArabicRelatedWord({
+    required this.arabic,
+    required this.english,
+    this.transliteration,
+    this.relation,
   });
 }
 
@@ -40,6 +84,7 @@ class _NormalisedArabicText {
 
 class WordDefinitionService {
   static Map<String, dynamic>? _cache;
+  static List<ArabicVocabularyEntry>? _curatedArabicVocabularyCache;
   static List<ArabicVocabularyEntry>? _arabicVocabularyCache;
   static final Map<String, List<ArabicVocabularyMatch>> _arabicMatchCache = {};
 
@@ -127,10 +172,12 @@ class WordDefinitionService {
     try {
       final raw = await rootBundle.loadString('assets/word_definitions.json');
       _cache = Map<String, dynamic>.from(jsonDecode(raw) as Map);
+      _curatedArabicVocabularyCache = await _loadCuratedArabicGlossary();
       _arabicVocabularyCache = null;
       _arabicMatchCache.clear();
     } catch (_) {
       _cache = {};
+      _curatedArabicVocabularyCache = await _loadCuratedArabicGlossary();
     }
     return _cache!;
   }
@@ -139,8 +186,12 @@ class WordDefinitionService {
 
   static List<ArabicVocabularyEntry> get temporaryArabicVocabulary {
     final defs = _cache;
-    if (defs == null || defs.isEmpty) return const [];
-    return _arabicVocabularyCache ??= _buildArabicVocabulary(defs);
+    final curated = _curatedArabicVocabularyCache ?? const <ArabicVocabularyEntry>[];
+    if (defs == null || defs.isEmpty) return curated;
+    return _arabicVocabularyCache ??= List.unmodifiable([
+      ...curated,
+      ..._buildArabicVocabulary(defs),
+    ]);
   }
 
   static String normaliseArabic(String raw) {
@@ -221,6 +272,96 @@ class WordDefinitionService {
       if (entry.normalisedArabic == normalised) return entry;
     }
     return null;
+  }
+
+  static Future<List<ArabicVocabularyEntry>> _loadCuratedArabicGlossary() async {
+    try {
+      final raw = await rootBundle.loadString('assets/arabic_glossary.json');
+      final json = Map<String, dynamic>.from(jsonDecode(raw) as Map);
+      final entries = <ArabicVocabularyEntry>[];
+      for (final rawEntry in json['entries'] as List<dynamic>? ?? const []) {
+        if (rawEntry is! Map) continue;
+        entries.addAll(_curatedEntriesFromJson(
+          Map<String, dynamic>.from(rawEntry),
+        ));
+      }
+      entries.sort((a, b) {
+        final tokenCompare = _wordCount(b.normalisedArabic)
+            .compareTo(_wordCount(a.normalisedArabic));
+        if (tokenCompare != 0) return tokenCompare;
+        return b.normalisedArabic.length.compareTo(a.normalisedArabic.length);
+      });
+      return List.unmodifiable(entries);
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  static List<ArabicVocabularyEntry> _curatedEntriesFromJson(
+    Map<String, dynamic> entry,
+  ) {
+    final forms = _stringList(entry['surface_forms']);
+    final lemma = _optionalString(entry['lemma']);
+    final english = _optionalString(entry['english_meaning']);
+    final definition = _optionalString(entry['short_definition']);
+    if (forms.isEmpty || english == null) return const [];
+
+    final primary = forms.first;
+    final related = <ArabicRelatedWord>[];
+    final rootFamily = entry['root_family'];
+    if (rootFamily is Map) {
+      final rawRelated = rootFamily['related_words'];
+      if (rawRelated is List) {
+        for (final raw in rawRelated) {
+          if (raw is! Map) continue;
+          final item = Map<String, dynamic>.from(raw);
+          final arabic = _optionalString(item['arabic']);
+          final itemEnglish = _optionalString(item['english']);
+          if (arabic == null || itemEnglish == null) continue;
+          related.add(ArabicRelatedWord(
+            arabic: arabic,
+            english: itemEnglish,
+            transliteration: _optionalString(item['transliteration']),
+            relation: _optionalString(item['relation']),
+          ));
+        }
+      }
+    }
+
+    return forms.map((form) {
+      return ArabicVocabularyEntry(
+        arabic: primary,
+        normalisedArabic: normaliseArabic(form),
+        englishHeadword: english,
+        sourceField: 'arabic_glossary.surface_forms',
+        definition: definition,
+        lemma: lemma,
+        root: _optionalString(entry['root']),
+        pattern: _optionalString(entry['pattern']),
+        partOfSpeech: _optionalString(entry['part_of_speech']),
+        exampleArabic: _optionalString(entry['lesson_example_arabic']),
+        exampleEnglish: _optionalString(entry['lesson_example_english']),
+        synonyms: _stringList(entry['synonyms']),
+        antonyms: _stringList(entry['antonyms']),
+        rootCoreMeaning: rootFamily is Map
+            ? _optionalString(rootFamily['core_meaning'])
+            : null,
+        rootExplanation: rootFamily is Map
+            ? _optionalString(rootFamily['explanation'])
+            : null,
+        relatedWords: List.unmodifiable(related),
+        reviewStatus: _optionalString(entry['review_status']),
+      );
+    }).toList(growable: false);
+  }
+
+  static List<String> _stringList(dynamic raw) {
+    if (raw is! List) return const [];
+    return raw
+        .whereType<String>()
+        .map((value) => value.trim())
+        .where((value) => value.isNotEmpty)
+        .toList(growable: false);
   }
 
   static String normalise(String raw) {

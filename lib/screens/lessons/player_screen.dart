@@ -1003,6 +1003,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
         clickedForm: match.surfaceText,
         englishMeaning: match.entry.englishHeadword,
         definition: match.entry.definition,
+        arabicEntry: match.entry,
         temporaryDevVocabulary: true,
       ),
     );

@@ -78,7 +78,7 @@ translation. It runs as a private dev build with login/onboarding bypassed.
 
 - Lesson source production (caption cleaning, English alignment, app-ready
   JSON/audio generation, validation) lives in the pipeline folder, not in this
-  repo. See `docs/CONTENT_PIPELINE.md`.
+  repo. See `docs/VIDEO_EXTRACTION_RUNBOOK.md`.
 
 ## Identity
 

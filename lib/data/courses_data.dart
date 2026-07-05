@@ -6,8 +6,14 @@ final List<Course> allCourses = [
     title: 'Main Courses',
     description: 'Private dev Al-Fusha listening lessons.',
     level: 'A1',
-    totalDurationSeconds: 1757,
+    totalDurationSeconds: 3660,
     lessons: [
+      Lesson(
+        id: 6,
+        courseId: 1,
+        title: 'Easy Arabic Podcast | How to describe things?',
+        availableTypes: const [LessonType.mainStory],
+      ),
       Lesson(
         id: 7,
         courseId: 1,

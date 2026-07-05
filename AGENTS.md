@@ -9,6 +9,14 @@ shell. Keep work small, safe, and clearly Arabic-focused.
   Standard Arabic / Al-Fusha. Private dev shell only.
 - Android package `com.yallaarabic.dev`, label "Yalla Arabic".
 - Copied from the Yalla English app and re-flipped. It is **not** Yalla English.
+- Start point for context: `docs/START_HERE.md`.
+- Living task board: `docs/WORKING_TASKS.md`.
+- Repo-local implementation specs: `docs/CODEBASE_MAP.md`,
+  `docs/VALIDATION_CHECKLIST.md`, `docs/LESSON_SCHEMA.md`,
+  `docs/LESSON_INTAKE.md`, and `docs/WORD_PANEL_SPEC.md`.
+- Pipeline/release planning docs: `docs/VIDEO_EXTRACTION_RUNBOOK.md`,
+  `docs/GLOSSARY_SCHEMA.md`, `docs/LEGAL_TODO.md`,
+  `docs/RELEASE_READINESS.md`, and `docs/TOOLING_AND_MCP_NOTES.md`.
 - Source of truth for state: `docs/STATUS.md`. Architecture: `docs/ARCHITECTURE.md`.
 
 ## Hard rules
@@ -27,6 +35,8 @@ shell. Keep work small, safe, and clearly Arabic-focused.
 
 ## Operating workflow
 
+- Start by reading `docs/START_HERE.md`, then `docs/WORKING_TASKS.md`, then the
+  narrower docs relevant to the task.
 - Inspect the repo and relevant docs/reports before changing code or content.
 - Prefer small, stable changes over broad refactors.
 - For content/code changes, run the smallest meaningful validation and record a

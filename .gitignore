@@ -49,6 +49,21 @@ docs/
 docs/*
 !docs/privacy_policy.md
 !docs/privacy_policy.html
+!docs/START_HERE.md
+!docs/WORKING_TASKS.md
+!docs/ROADMAP.md
+!docs/YALLA_ENGLISH_REFERENCE.md
+!docs/DECISIONS_AND_ASSUMPTIONS.md
+!docs/CODEBASE_MAP.md
+!docs/VALIDATION_CHECKLIST.md
+!docs/LESSON_SCHEMA.md
+!docs/LESSON_INTAKE.md
+!docs/WORD_PANEL_SPEC.md
+!docs/VIDEO_EXTRACTION_RUNBOOK.md
+!docs/GLOSSARY_SCHEMA.md
+!docs/LEGAL_TODO.md
+!docs/RELEASE_READINESS.md
+!docs/TOOLING_AND_MCP_NOTES.md
 !docs/STATUS.md
 !docs/ARCHITECTURE.md
 !docs/REPORT_INDEX.md
@@ -64,6 +79,9 @@ docs/*
 # Python scripts — local pipeline tooling, not for version control
 # scripts/ directory is visible but all .py files are ignored unless explicitly un-ignored below
 *.py
+!scripts/validate_lesson_content.py
+!scripts/build_lesson_from_vtt.py
+!scripts/validate_arabic_glossary.py
 !scripts/word_panel/word_panel_rich_enrichment_factory.py
 !scripts/word_panel/word_panel_core_learner_pack_selector.py
 !scripts/word_panel/word_panel_entry_census.py
@@ -78,6 +96,7 @@ docs/*
 *.aac
 *.m4a
 *.flac
+!assets/courses/course_01/lesson_06/main_story/audio.opus
 
 # Pipeline runtime state
 scripts/pipeline/*.json

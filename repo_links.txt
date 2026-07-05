@@ -1,0 +1,17 @@
+============================================================
+  YALLA ARABIC — WORKING DYNAMIC REPO (quick-reference URLs)
+============================================================
+
+Working dynamic repo (this one — private, where we work):
+  https://github.com/GenericUniqueness/yalla-arabic-working-dynamic-repo
+
+Original Muzzamil repo (source — read-only reference):
+  https://github.com/2ms-muzammil/yalla-arabic-app
+
+Muzzamil's GitHub profile:
+  https://github.com/2ms-muzammil
+
+----
+Why two repos?
+We copied Muzzamil's repo into its own private repo so builds, commits,
+and feature work stay completely isolated until we're ready to reconcile.

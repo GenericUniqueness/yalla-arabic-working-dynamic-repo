@@ -1,0 +1,449 @@
+{
+  "schema_version": "arabic_root_glossary_v0",
+  "scope": {
+    "course_id": 1,
+    "lesson_id": 6,
+    "lesson_type": "main_story",
+    "source_video_id": "-U-cnbFBc9c",
+    "status": "draft_pending_human_review"
+  },
+  "entries": [
+    {
+      "surface_forms": ["وصف", "وصفها", "سأصف", "ساصف"],
+      "lemma": "وَصَفَ",
+      "root": "و ص ف",
+      "pattern": "فَعَلَ",
+      "part_of_speech": "verb / verbal noun",
+      "english_meaning": "describe / description",
+      "short_definition": "To say what something is like: its size, color, shape, or qualities.",
+      "lesson_example_arabic": "عندما تريدون وصف أي شيء",
+      "lesson_example_english": "When you want to describe anything.",
+      "synonyms": ["شرح", "بيّن"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "describing or giving qualities",
+        "explanation": "Words from this root often relate to describing a thing or its qualities.",
+        "related_words": [
+          {"arabic": "وَصْف", "transliteration": "wasf", "english": "description", "relation": "verbal noun"},
+          {"arabic": "وَصَفَ", "transliteration": "wasafa", "english": "he described", "relation": "verb"},
+          {"arabic": "صِفَة", "transliteration": "sifah", "english": "quality / attribute", "relation": "related noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["كتاب", "الكتاب", "كتابه"],
+      "lemma": "كِتَاب",
+      "root": "ك ت ب",
+      "pattern": "فِعَال",
+      "part_of_speech": "noun",
+      "english_meaning": "book",
+      "short_definition": "A written or printed work with pages.",
+      "lesson_example_arabic": "ما حجم هذا الكتاب؟",
+      "lesson_example_english": "What is the size of this book?",
+      "synonyms": ["مؤلَّف"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "writing",
+        "explanation": "This root connects books, writing, writers, and offices.",
+        "related_words": [
+          {"arabic": "كَتَبَ", "transliteration": "kataba", "english": "he wrote", "relation": "verb"},
+          {"arabic": "كِتَاب", "transliteration": "kitab", "english": "book", "relation": "noun"},
+          {"arabic": "كَاتِب", "transliteration": "katib", "english": "writer", "relation": "active participle"},
+          {"arabic": "مَكْتَب", "transliteration": "maktab", "english": "office / desk", "relation": "place noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["كلمة", "كلمات", "الكلمات"],
+      "lemma": "كَلِمَة",
+      "root": "ك ل م",
+      "pattern": "فَعِلَة",
+      "part_of_speech": "noun",
+      "english_meaning": "word",
+      "short_definition": "A unit of speech or writing that carries meaning.",
+      "lesson_example_arabic": "بعض الكلمات الجديدة",
+      "lesson_example_english": "Some new words.",
+      "synonyms": ["لفظ", "مفردة"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "speech and words",
+        "explanation": "This root is used for words, speech, and speaking.",
+        "related_words": [
+          {"arabic": "كَلِمَة", "transliteration": "kalimah", "english": "word", "relation": "noun"},
+          {"arabic": "كَلَام", "transliteration": "kalam", "english": "speech", "relation": "noun"},
+          {"arabic": "تَكَلَّمَ", "transliteration": "takallama", "english": "he spoke", "relation": "derived verb"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["مفردات", "المفردات", "مفردة"],
+      "lemma": "مُفْرَدَة",
+      "root": "ف ر د",
+      "pattern": "مُفْعَلَة",
+      "part_of_speech": "noun",
+      "english_meaning": "vocabulary item",
+      "short_definition": "A word or item of vocabulary.",
+      "lesson_example_arabic": "نتعلم بعض المفردات",
+      "lesson_example_english": "We learn some vocabulary.",
+      "synonyms": ["كلمة"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "single or individual",
+        "explanation": "A vocabulary item is a single item separated out for learning.",
+        "related_words": [
+          {"arabic": "فَرْد", "transliteration": "fard", "english": "individual", "relation": "noun"},
+          {"arabic": "مُفْرَد", "transliteration": "mufrad", "english": "singular", "relation": "adjective"},
+          {"arabic": "مُفْرَدَة", "transliteration": "mufradah", "english": "vocabulary item", "relation": "noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["درس", "الدرس"],
+      "lemma": "دَرْس",
+      "root": "د ر س",
+      "pattern": "فَعْل",
+      "part_of_speech": "noun",
+      "english_meaning": "lesson",
+      "short_definition": "A learning session or a piece of study.",
+      "lesson_example_arabic": "في هذا الدرس",
+      "lesson_example_english": "In this lesson.",
+      "synonyms": ["حصة"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "studying",
+        "explanation": "This root is used for lessons, studying, and schools.",
+        "related_words": [
+          {"arabic": "دَرَسَ", "transliteration": "darasa", "english": "he studied", "relation": "verb"},
+          {"arabic": "دَرْس", "transliteration": "dars", "english": "lesson", "relation": "noun"},
+          {"arabic": "مَدْرَسَة", "transliteration": "madrasah", "english": "school", "relation": "place noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["جميل", "الجميل", "جميلة"],
+      "lemma": "جَمِيل",
+      "root": "ج م ل",
+      "pattern": "فَعِيل",
+      "part_of_speech": "adjective",
+      "english_meaning": "beautiful",
+      "short_definition": "Nice to see, hear, or experience.",
+      "lesson_example_arabic": "هذا الكتاب الجميل",
+      "lesson_example_english": "This beautiful book.",
+      "synonyms": ["حسن", "لطيف"],
+      "antonyms": ["قبيح"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "beauty",
+        "explanation": "Words from this root relate to beauty and making something beautiful.",
+        "related_words": [
+          {"arabic": "جَمِيل", "transliteration": "jamil", "english": "beautiful", "relation": "adjective"},
+          {"arabic": "جَمَال", "transliteration": "jamal", "english": "beauty", "relation": "noun"},
+          {"arabic": "تَجْمِيل", "transliteration": "tajmil", "english": "beautification", "relation": "verbal noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["كبير", "كبيرا", "كبيرة"],
+      "lemma": "كَبِير",
+      "root": "ك ب ر",
+      "pattern": "فَعِيل",
+      "part_of_speech": "adjective",
+      "english_meaning": "big / large",
+      "short_definition": "Large in size, amount, age, or importance.",
+      "lesson_example_arabic": "هل هو كبير أو صغير؟",
+      "lesson_example_english": "Is it big or small?",
+      "synonyms": ["ضخم"],
+      "antonyms": ["صغير"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "bigness or greatness",
+        "explanation": "This root often points to size, age, greatness, or importance.",
+        "related_words": [
+          {"arabic": "كَبِير", "transliteration": "kabir", "english": "big / old", "relation": "adjective"},
+          {"arabic": "كِبَر", "transliteration": "kibar", "english": "old age / bigness", "relation": "noun"},
+          {"arabic": "أَكْبَر", "transliteration": "akbar", "english": "bigger / greater", "relation": "comparative"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["صغير", "صغيرا", "صغيرة"],
+      "lemma": "صَغِير",
+      "root": "ص غ ر",
+      "pattern": "فَعِيل",
+      "part_of_speech": "adjective",
+      "english_meaning": "small",
+      "short_definition": "Not large; little in size, age, or amount.",
+      "lesson_example_arabic": "هل هو كبير أو صغير؟",
+      "lesson_example_english": "Is it big or small?",
+      "synonyms": ["قليل"],
+      "antonyms": ["كبير"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "smallness",
+        "explanation": "This root relates to being small, young, or reduced.",
+        "related_words": [
+          {"arabic": "صَغِير", "transliteration": "saghir", "english": "small", "relation": "adjective"},
+          {"arabic": "أَصْغَر", "transliteration": "asghar", "english": "smaller", "relation": "comparative"},
+          {"arabic": "صِغَر", "transliteration": "sighar", "english": "smallness", "relation": "noun"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["حجم", "الحجم", "حجمه"],
+      "lemma": "حَجْم",
+      "root": "ح ج م",
+      "pattern": "فَعْل",
+      "part_of_speech": "noun",
+      "english_meaning": "size",
+      "short_definition": "How big or small something is.",
+      "lesson_example_arabic": "ما حجم هذا الكتاب؟",
+      "lesson_example_english": "What is the size of this book?",
+      "synonyms": ["مقدار"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "size or volume",
+        "explanation": "This root is used around size, volume, and limiting or controlling size in some derived uses.",
+        "related_words": [
+          {"arabic": "حَجْم", "transliteration": "hajm", "english": "size / volume", "relation": "noun"},
+          {"arabic": "حَجِيم", "transliteration": "hajim", "english": "large / bulky", "relation": "related adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["لون", "اللون", "لونه", "ألوان", "الوان"],
+      "lemma": "لَوْن",
+      "root": "ل و ن",
+      "pattern": "فَعْل",
+      "part_of_speech": "noun",
+      "english_meaning": "color",
+      "short_definition": "The visual color of something, like red, black, or blue.",
+      "lesson_example_arabic": "ما لون هذا الكتاب؟",
+      "lesson_example_english": "What is the color of this book?",
+      "synonyms": ["صبغة"],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "coloring",
+        "explanation": "This root is used for color and for making something colored.",
+        "related_words": [
+          {"arabic": "لَوْن", "transliteration": "lawn", "english": "color", "relation": "noun"},
+          {"arabic": "أَلْوَان", "transliteration": "alwan", "english": "colors", "relation": "plural"},
+          {"arabic": "مُلَوَّن", "transliteration": "mulawwan", "english": "colorful", "relation": "passive participle"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["أبيض", "ابيض"],
+      "lemma": "أَبْيَض",
+      "root": "ب ي ض",
+      "pattern": "أَفْعَل",
+      "part_of_speech": "adjective",
+      "english_meaning": "white",
+      "short_definition": "The color white.",
+      "lesson_example_arabic": "هذا أبيض",
+      "lesson_example_english": "This is white.",
+      "synonyms": [],
+      "antonyms": ["أسود"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "whiteness",
+        "explanation": "This color root is used for white and whiteness.",
+        "related_words": [
+          {"arabic": "أَبْيَض", "transliteration": "abyad", "english": "white", "relation": "adjective"},
+          {"arabic": "بَيَاض", "transliteration": "bayad", "english": "whiteness", "relation": "noun"},
+          {"arabic": "بَيْضَاء", "transliteration": "bayda", "english": "white, feminine", "relation": "feminine adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["أسود", "اسود"],
+      "lemma": "أَسْوَد",
+      "root": "س و د",
+      "pattern": "أَفْعَل",
+      "part_of_speech": "adjective",
+      "english_meaning": "black",
+      "short_definition": "The color black.",
+      "lesson_example_arabic": "لونه أسود",
+      "lesson_example_english": "Its color is black.",
+      "synonyms": [],
+      "antonyms": ["أبيض"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "blackness",
+        "explanation": "This color root is used for black and blackness.",
+        "related_words": [
+          {"arabic": "أَسْوَد", "transliteration": "aswad", "english": "black", "relation": "adjective"},
+          {"arabic": "سَوَاد", "transliteration": "sawad", "english": "blackness", "relation": "noun"},
+          {"arabic": "سَوْدَاء", "transliteration": "sawda", "english": "black, feminine", "relation": "feminine adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["أحمر", "احمر"],
+      "lemma": "أَحْمَر",
+      "root": "ح م ر",
+      "pattern": "أَفْعَل",
+      "part_of_speech": "adjective",
+      "english_meaning": "red",
+      "short_definition": "The color red.",
+      "lesson_example_arabic": "هذا أحمر",
+      "lesson_example_english": "This is red.",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "redness",
+        "explanation": "This color root is used for red and redness.",
+        "related_words": [
+          {"arabic": "أَحْمَر", "transliteration": "ahmar", "english": "red", "relation": "adjective"},
+          {"arabic": "حُمْرَة", "transliteration": "humrah", "english": "redness", "relation": "noun"},
+          {"arabic": "حَمْرَاء", "transliteration": "hamra", "english": "red, feminine", "relation": "feminine adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["أزرق", "ازرق"],
+      "lemma": "أَزْرَق",
+      "root": "ز ر ق",
+      "pattern": "أَفْعَل",
+      "part_of_speech": "adjective",
+      "english_meaning": "blue",
+      "short_definition": "The color blue.",
+      "lesson_example_arabic": "هناك أزرق",
+      "lesson_example_english": "There is blue.",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "blueness",
+        "explanation": "This color root is used for blue and blueness.",
+        "related_words": [
+          {"arabic": "أَزْرَق", "transliteration": "azraq", "english": "blue", "relation": "adjective"},
+          {"arabic": "زُرْقَة", "transliteration": "zurqah", "english": "blueness", "relation": "noun"},
+          {"arabic": "زَرْقَاء", "transliteration": "zarqa", "english": "blue, feminine", "relation": "feminine adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["أخضر", "اخضر"],
+      "lemma": "أَخْضَر",
+      "root": "خ ض ر",
+      "pattern": "أَفْعَل",
+      "part_of_speech": "adjective",
+      "english_meaning": "green",
+      "short_definition": "The color green.",
+      "lesson_example_arabic": "هناك أخضر",
+      "lesson_example_english": "There is green.",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "greenness",
+        "explanation": "This color root is used for green, greenness, and fresh green things.",
+        "related_words": [
+          {"arabic": "أَخْضَر", "transliteration": "akhdar", "english": "green", "relation": "adjective"},
+          {"arabic": "خُضْرَة", "transliteration": "khudrah", "english": "greenness / vegetables", "relation": "noun"},
+          {"arabic": "خَضْرَاء", "transliteration": "khadra", "english": "green, feminine", "relation": "feminine adjective"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["طويل", "طوله", "طويلة"],
+      "lemma": "طَوِيل",
+      "root": "ط و ل",
+      "pattern": "فَعِيل",
+      "part_of_speech": "adjective",
+      "english_meaning": "long / tall",
+      "short_definition": "Having a lot of length or height.",
+      "lesson_example_arabic": "هل هو طويل أو قصير؟",
+      "lesson_example_english": "Is it long or short?",
+      "synonyms": ["ممتد"],
+      "antonyms": ["قصير"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "length",
+        "explanation": "This root relates to length, height, and something lasting for a long time.",
+        "related_words": [
+          {"arabic": "طَوِيل", "transliteration": "tawil", "english": "long / tall", "relation": "adjective"},
+          {"arabic": "طُول", "transliteration": "tul", "english": "length", "relation": "noun"},
+          {"arabic": "أَطْوَل", "transliteration": "atwal", "english": "longer / taller", "relation": "comparative"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["قصير", "قصيرة"],
+      "lemma": "قَصِير",
+      "root": "ق ص ر",
+      "pattern": "فَعِيل",
+      "part_of_speech": "adjective",
+      "english_meaning": "short",
+      "short_definition": "Not long or not tall.",
+      "lesson_example_arabic": "طويل أو قصير",
+      "lesson_example_english": "Long or short.",
+      "synonyms": [],
+      "antonyms": ["طويل"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "shortness or limitation",
+        "explanation": "This root often relates to being short, limited, or falling short.",
+        "related_words": [
+          {"arabic": "قَصِير", "transliteration": "qasir", "english": "short", "relation": "adjective"},
+          {"arabic": "قِصَر", "transliteration": "qisar", "english": "shortness", "relation": "noun"},
+          {"arabic": "أَقْصَر", "transliteration": "aqsar", "english": "shorter", "relation": "comparative"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["صفحة", "الصفحة", "صفحات"],
+      "lemma": "صَفْحَة",
+      "root": "ص ف ح",
+      "pattern": "فَعْلَة",
+      "part_of_speech": "noun",
+      "english_meaning": "page",
+      "short_definition": "One side or sheet in a book.",
+      "lesson_example_arabic": "كم صفحة في هذا الكتاب؟",
+      "lesson_example_english": "How many pages are in this book?",
+      "synonyms": [],
+      "antonyms": [],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "a broad surface or page",
+        "explanation": "This root can relate to a page, a flat side, or turning away/forgiving in other contexts.",
+        "related_words": [
+          {"arabic": "صَفْحَة", "transliteration": "safhah", "english": "page", "relation": "noun"},
+          {"arabic": "صَفَحَ", "transliteration": "safaha", "english": "he forgave / turned away", "relation": "verb"},
+          {"arabic": "تَصَفَّحَ", "transliteration": "tasaffaha", "english": "he browsed", "relation": "derived verb"}
+        ]
+      }
+    },
+    {
+      "surface_forms": ["سؤال", "السؤال", "أسئلة", "اسئلة"],
+      "lemma": "سُؤَال",
+      "root": "س أ ل",
+      "pattern": "فُعَال",
+      "part_of_speech": "noun",
+      "english_meaning": "question",
+      "short_definition": "Something you ask.",
+      "lesson_example_arabic": "أول سؤال",
+      "lesson_example_english": "The first question.",
+      "synonyms": ["استفسار"],
+      "antonyms": ["جواب"],
+      "review_status": "draft_pending_human_review",
+      "root_family": {
+        "core_meaning": "asking",
+        "explanation": "This root is used for asking, questions, and requests.",
+        "related_words": [
+          {"arabic": "سَأَلَ", "transliteration": "sa'ala", "english": "he asked", "relation": "verb"},
+          {"arabic": "سُؤَال", "transliteration": "su'al", "english": "question", "relation": "noun"},
+          {"arabic": "مَسْؤُول", "transliteration": "mas'ul", "english": "responsible", "relation": "derived participle"}
+        ]
+      }
+    }
+  ]
+}
