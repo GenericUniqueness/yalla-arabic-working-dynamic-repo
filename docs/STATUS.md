@@ -2,6 +2,18 @@
 
 Last updated: 2026-07-05 - **Yalla Arabic** (private dev shell).
 
+## Phase 0 complete
+
+All 3 bundled lessons now have both `content.json` and `audio.opus`:
+
+| Lesson | Audio source | Size |
+|--------|-------------|------|
+| lesson_06 | bundled (original) | ~4 MB |
+| lesson_07 | YouTube `Mq51rklpGog` | ~20 MB |
+| lesson_10 | YouTube `lfPrnUZ4osQ` | ~3 MB |
+
+`pubspec.yaml` updated to declare all 3 audio assets. CI/CD passes.
+
 ## Identity
 
 - App label: Yalla Arabic
@@ -42,6 +54,7 @@ Last updated: 2026-07-05 - **Yalla Arabic** (private dev shell).
 ## Known limitations
 
 - Only 3 of 12 source playlist videos are integrated (videos 6, 7, and 10).
+  All 3 now have bundled audio + transcript.
 - Playlist item 6 is the active next lesson candidate; Arabic/English VTT files
   and `.opus` audio are staged locally under
   `../content_pipeline/raw/06_-U-cnbFBc9c`.
@@ -56,6 +69,8 @@ Last updated: 2026-07-05 - **Yalla Arabic** (private dev shell).
   preserve highlight timing (no safe intra-line timestamps).
 - No emulator/device playback test recorded; verification is static analyze +
   tests + APK build.
+- `redistribution_permission` in lesson content.json files is `not_claimed` —
+  content is not release-ready without permission.
 
 ## Next steps
 
